@@ -1,0 +1,3333 @@
+{
+    "0": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.0"
+    },
+    "0-0": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "0-0-1": {
+        "cmdline": [],
+        "modules": [
+            "image2tfrecords",
+            "image2tfrecords.image2tfrecords",
+            "image2tfrecords.imagedataset",
+            "image2tfrecords.settings"
+        ],
+        "version": "0.0.1"
+    },
+    "0-core-client": {
+        "cmdline": [],
+        "modules": [
+            "zeroos",
+            "zeroos.core0",
+            "zeroos.core0.client",
+            "zeroos.core0.client.client",
+            "zeroos.core0.client.typchk"
+        ],
+        "version": "1.1.0a8"
+    },
+    "0-orchestrator": {
+        "cmdline": [],
+        "modules": [
+            "orchestrator",
+            "orchestrator.client",
+            "orchestrator.client.Bridge",
+            "orchestrator.client.BridgeCreate",
+            "orchestrator.client.BridgeCreateSetting",
+            "orchestrator.client.CPUInfo",
+            "orchestrator.client.CPUStats",
+            "orchestrator.client.CloudInit",
+            "orchestrator.client.Cluster",
+            "orchestrator.client.ClusterCreate",
+            "orchestrator.client.Container",
+            "orchestrator.client.ContainerListItem",
+            "orchestrator.client.ContainerNIC",
+            "orchestrator.client.ContainerNICconfig",
+            "orchestrator.client.ContainerUpdate",
+            "orchestrator.client.CoreStateResult",
+            "orchestrator.client.CoreSystem",
+            "orchestrator.client.CreateContainer",
+            "orchestrator.client.CreateSnapshotReqBody",
+            "orchestrator.client.DHCP",
+            "orchestrator.client.Dashboard",
+            "orchestrator.client.DashboardListItem",
+            "orchestrator.client.DeleteFile",
+            "orchestrator.client.DiskInfo",
+            "orchestrator.client.DiskPartition",
+            "orchestrator.client.EnumBridgeCreateNetworkMode",
+            "orchestrator.client.EnumBridgeStatus",
+            "orchestrator.client.EnumClusterCreateClusterType",
+            "orchestrator.client.EnumClusterCreateDriveType",
+            "orchestrator.client.EnumClusterCreateMetaDriveType",
+            "orchestrator.client.EnumClusterCreateStorDriveType",
+            "orchestrator.client.EnumClusterCreateStorMetaDriveType",
+            "orchestrator.client.EnumClusterDriveType",
+            "orchestrator.client.EnumClusterStatus",
+            "orchestrator.client.EnumContainerListItemStatus",
+            "orchestrator.client.EnumContainerNICStatus",
+            "orchestrator.client.EnumContainerNICType",
+            "orchestrator.client.EnumContainerStatus",
+            "orchestrator.client.EnumDiskInfoType",
+            "orchestrator.client.EnumGWNICType",
+            "orchestrator.client.EnumGetGWStatus",
+            "orchestrator.client.EnumJobResultName",
+            "orchestrator.client.EnumJobResultState",
+            "orchestrator.client.EnumNicLinkType",
+            "orchestrator.client.EnumNodeStatus",
+            "orchestrator.client.EnumStoragePoolCreateDataProfile",
+            "orchestrator.client.EnumStoragePoolCreateMetadataProfile",
+            "orchestrator.client.EnumStoragePoolDataProfile",
+            "orchestrator.client.EnumStoragePoolDeviceStatus",
+            "orchestrator.client.EnumStoragePoolListItemStatus",
+            "orchestrator.client.EnumStoragePoolMetadataProfile",
+            "orchestrator.client.EnumStoragePoolStatus",
+            "orchestrator.client.EnumStorageServerStatus",
+            "orchestrator.client.EnumVMListItemStatus",
+            "orchestrator.client.EnumVMStatus",
+            "orchestrator.client.EnumVdiskCreateType",
+            "orchestrator.client.EnumVdiskListItemStatus",
+            "orchestrator.client.EnumVdiskListItemType",
+            "orchestrator.client.EnumVdiskStatus",
+            "orchestrator.client.EnumVdiskType",
+            "orchestrator.client.EnumZerotierListItemType",
+            "orchestrator.client.EnumZerotierType",
+            "orchestrator.client.Filesystem",
+            "orchestrator.client.FilesystemCreate",
+            "orchestrator.client.GW",
+            "orchestrator.client.GWCreate",
+            "orchestrator.client.GWHost",
+            "orchestrator.client.GWNIC",
+            "orchestrator.client.GWNICconfig",
+            "orchestrator.client.GetGW",
+            "orchestrator.client.Graph",
+            "orchestrator.client.HTTPProxy",
+            "orchestrator.client.HTTPType",
+            "orchestrator.client.HealthCheck",
+            "orchestrator.client.IPProtocol",
+            "orchestrator.client.Job",
+            "orchestrator.client.JobListItem",
+            "orchestrator.client.JobResult",
+            "orchestrator.client.ListGW",
+            "orchestrator.client.MemInfo",
+            "orchestrator.client.Message",
+            "orchestrator.client.NicInfo",
+            "orchestrator.client.NicLink",
+            "orchestrator.client.Node",
+            "orchestrator.client.NodeHealthCheck",
+            "orchestrator.client.NodeMount",
+            "orchestrator.client.OSInfo",
+            "orchestrator.client.PortForward",
+            "orchestrator.client.Process",
+            "orchestrator.client.ProcessSignal",
+            "orchestrator.client.Snapshot",
+            "orchestrator.client.StorageClusterHealthCheck",
+            "orchestrator.client.StoragePool",
+            "orchestrator.client.StoragePoolCreate",
+            "orchestrator.client.StoragePoolDevice",
+            "orchestrator.client.StoragePoolListItem",
+            "orchestrator.client.StorageServer",
+            "orchestrator.client.VDiskLink",
+            "orchestrator.client.VM",
+            "orchestrator.client.VMCreate",
+            "orchestrator.client.VMDiskInfo",
+            "orchestrator.client.VMInfo",
+            "orchestrator.client.VMListItem",
+            "orchestrator.client.VMMigrate",
+            "orchestrator.client.VMNicInfo",
+            "orchestrator.client.VMUpdate",
+            "orchestrator.client.Vdisk",
+            "orchestrator.client.VdiskCreate",
+            "orchestrator.client.VdiskListItem",
+            "orchestrator.client.VdiskResize",
+            "orchestrator.client.VdiskRollback",
+            "orchestrator.client.WriteFile",
+            "orchestrator.client.Zerotier",
+            "orchestrator.client.ZerotierBridge",
+            "orchestrator.client.ZerotierJoin",
+            "orchestrator.client.ZerotierListItem",
+            "orchestrator.client.ZerotierRoute",
+            "orchestrator.client.client",
+            "orchestrator.client.client_support",
+            "orchestrator.client.client_utils",
+            "orchestrator.client.graphs_service",
+            "orchestrator.client.health_service",
+            "orchestrator.client.nodes_service",
+            "orchestrator.client.oauth2_client_itsyouonline",
+            "orchestrator.client.storageclusters_service",
+            "orchestrator.client.vdisks_service",
+            "orchestrator.configuration",
+            "orchestrator.sal",
+            "orchestrator.sal.Container",
+            "orchestrator.sal.Disk",
+            "orchestrator.sal.ETCD",
+            "orchestrator.sal.Network",
+            "orchestrator.sal.Node",
+            "orchestrator.sal.Partition",
+            "orchestrator.sal.Pubsub",
+            "orchestrator.sal.StorageCluster",
+            "orchestrator.sal.StorageEngine",
+            "orchestrator.sal.StoragePool",
+            "orchestrator.sal.ZeroStor",
+            "orchestrator.sal.abstracts",
+            "orchestrator.sal.atyourservice",
+            "orchestrator.sal.atyourservice.StoragePool",
+            "orchestrator.sal.atyourservice.abstracts",
+            "orchestrator.sal.gateway",
+            "orchestrator.sal.gateway.cloudinit",
+            "orchestrator.sal.gateway.dhcp",
+            "orchestrator.sal.gateway.firewall",
+            "orchestrator.sal.gateway.http",
+            "orchestrator.sal.grafana",
+            "orchestrator.sal.grafana.grafana",
+            "orchestrator.sal.healthcheck",
+            "orchestrator.sal.healthchecks",
+            "orchestrator.sal.healthchecks.context_switch",
+            "orchestrator.sal.healthchecks.cpu_mem_core",
+            "orchestrator.sal.healthchecks.diskusage",
+            "orchestrator.sal.healthchecks.fan",
+            "orchestrator.sal.healthchecks.interrupts",
+            "orchestrator.sal.healthchecks.log_rotator",
+            "orchestrator.sal.healthchecks.networkbond",
+            "orchestrator.sal.healthchecks.networkload",
+            "orchestrator.sal.healthchecks.networkstability",
+            "orchestrator.sal.healthchecks.openfiledescriptors",
+            "orchestrator.sal.healthchecks.powersupply",
+            "orchestrator.sal.healthchecks.qemu_vm_logs",
+            "orchestrator.sal.healthchecks.ssh_cleanup",
+            "orchestrator.sal.healthchecks.temperature",
+            "orchestrator.sal.healthchecks.threads",
+            "orchestrator.sal.influxdb",
+            "orchestrator.sal.influxdb.influxdb",
+            "orchestrator.sal.stats_collector",
+            "orchestrator.sal.stats_collector.stats_collector",
+            "orchestrator.sal.templates"
+        ],
+        "version": "1.1.0a8"
+    },
+    "00000a": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.2"
+    },
+    "007": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.2"
+    },
+    "00print-lol": {
+        "cmdline": [],
+        "modules": [
+            "00print_lol"
+        ],
+        "version": "1.1.0"
+    },
+    "00smalinux": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "01-distributions": {
+        "cmdline": [],
+        "modules": [
+            "01_distributions",
+            "01_distributions.Binomialdistribution",
+            "01_distributions.Gaussiandistribution",
+            "01_distributions.Generaldistribution"
+        ],
+        "version": "0.1"
+    },
+    "0121": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "01changer": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "01d61084-d29e-11e9-96d1-7c5cf84ffe8e": {
+        "cmdline": [],
+        "modules": [
+            "lib1",
+            "lib1.app",
+            "lib1.cli"
+        ],
+        "version": "0.1.0"
+    },
+    "021": {
+        "cmdline": [],
+        "modules": [
+            "021"
+        ],
+        "version": "1.0"
+    },
+    "02exercicio": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
+    },
+    "0805nexter": {
+        "cmdline": [],
+        "modules": [
+            "0805nexter"
+        ],
+        "version": "1.2.0"
+    },
+    "090807040506030201testpip": {
+        "cmdline": [],
+        "modules": [
+            "090807040506030201testpip",
+            "090807040506030201testpip.090807040506030201testpip"
+        ],
+        "version": "0.1dev"
+    },
+    "0html": {
+        "cmdline": [],
+        "modules": [
+            "0html",
+            "0html.main"
+        ],
+        "version": "0.0.0"
+    },
+    "0imap": {
+        "cmdline": [],
+        "modules": [
+            "0imap",
+            "0imap.main"
+        ],
+        "version": "0.0.0"
+    },
+    "0lever-so": {
+        "cmdline": [],
+        "modules": [
+            "so",
+            "so.so"
+        ],
+        "version": "1.2.0"
+    },
+    "0lever-utils": {
+        "cmdline": [],
+        "modules": [
+            "_lever_utils",
+            "_lever_utils.foo",
+            "_lever_utils.foo.helpers",
+            "_lever_utils.foo.helpers.alarm",
+            "_lever_utils.foo.helpers.alarm.dingding",
+            "_lever_utils.foo.helpers.db",
+            "_lever_utils.foo.helpers.db.es_helper",
+            "_lever_utils.foo.helpers.db.hive_helper",
+            "_lever_utils.foo.helpers.db.impala_helper",
+            "_lever_utils.foo.helpers.db.mysql_helper",
+            "_lever_utils.foo.helpers.db.redis_helper",
+            "_lever_utils.foo.helpers.file",
+            "_lever_utils.foo.helpers.file.excel_helper",
+            "_lever_utils.foo.helpers.file.oss_helper",
+            "_lever_utils.foo.helpers.mail",
+            "_lever_utils.foo.helpers.mail.mail_helper",
+            "_lever_utils.foo.helpers.mail.mail_helper_test",
+            "_lever_utils.foo.helpers.time"
+        ],
+        "version": "0.1.6"
+    },
+    "0proto": {
+        "cmdline": [],
+        "modules": [
+            "0proto",
+            "0proto.main",
+            "0proto.settings"
+        ],
+        "version": "0.0.2"
+    },
+    "0rest": {
+        "cmdline": [],
+        "modules": [
+            "0rest",
+            "0rest.main"
+        ],
+        "version": "0.0.0"
+    },
+    "0rss": {
+        "cmdline": [],
+        "modules": [
+            "0rss",
+            "0rss.main"
+        ],
+        "version": "1.0.2"
+    },
+    "0wdg9nbmpm": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
+    },
+    "0x": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
+    },
+    "0x-contract-addresses": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.contract_addresses"
+        ],
+        "version": "3.0.0"
+    },
+    "0x-contract-artifacts": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.contract_artifacts"
+        ],
+        "version": "3.0.0"
+    },
+    "0x-contract-wrappers": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.contract_wrappers",
+            "zero_ex.contract_wrappers.asset_proxy_owner",
+            "zero_ex.contract_wrappers.bases",
+            "zero_ex.contract_wrappers.coordinator",
+            "zero_ex.contract_wrappers.coordinator_registry",
+            "zero_ex.contract_wrappers.dev_utils",
+            "zero_ex.contract_wrappers.dummy_erc20_token",
+            "zero_ex.contract_wrappers.dummy_erc721_token",
+            "zero_ex.contract_wrappers.dutch_auction",
+            "zero_ex.contract_wrappers.erc1155_mintable",
+            "zero_ex.contract_wrappers.erc1155_proxy",
+            "zero_ex.contract_wrappers.erc20_bridge_proxy",
+            "zero_ex.contract_wrappers.erc20_proxy",
+            "zero_ex.contract_wrappers.erc20_token",
+            "zero_ex.contract_wrappers.erc721_proxy",
+            "zero_ex.contract_wrappers.erc721_token",
+            "zero_ex.contract_wrappers.eth_balance_checker",
+            "zero_ex.contract_wrappers.exceptions",
+            "zero_ex.contract_wrappers.exchange",
+            "zero_ex.contract_wrappers.exchange.exceptions",
+            "zero_ex.contract_wrappers.exchange.middleware",
+            "zero_ex.contract_wrappers.exchange.types",
+            "zero_ex.contract_wrappers.exchange.validator",
+            "zero_ex.contract_wrappers.forwarder",
+            "zero_ex.contract_wrappers.i_asset_proxy",
+            "zero_ex.contract_wrappers.i_validator",
+            "zero_ex.contract_wrappers.i_wallet",
+            "zero_ex.contract_wrappers.multi_asset_proxy",
+            "zero_ex.contract_wrappers.order_conversions",
+            "zero_ex.contract_wrappers.order_validator",
+            "zero_ex.contract_wrappers.staking",
+            "zero_ex.contract_wrappers.staking_proxy",
+            "zero_ex.contract_wrappers.static_call_proxy",
+            "zero_ex.contract_wrappers.tx_params",
+            "zero_ex.contract_wrappers.weth9",
+            "zero_ex.contract_wrappers.zrx_token",
+            "zero_ex.contract_wrappers.zrx_vault"
+        ],
+        "version": "2.0.0"
+    },
+    "0x-json-schemas": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.json_schemas"
+        ],
+        "version": "2.1.0"
+    },
+    "0x-middlewares": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.middlewares",
+            "zero_ex.middlewares.local_message_signer"
+        ],
+        "version": "1.0.0"
+    },
+    "0x-order-utils": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.dev_utils",
+            "zero_ex.dev_utils.abi_utils",
+            "zero_ex.dev_utils.type_assertions",
+            "zero_ex.order_utils",
+            "zero_ex.order_utils.asset_data_utils"
+        ],
+        "version": "4.0.0"
+    },
+    "0x-sra-client": {
+        "cmdline": [],
+        "modules": [
+            "zero_ex",
+            "zero_ex.sra_client",
+            "zero_ex.sra_client.api",
+            "zero_ex.sra_client.api.default_api",
+            "zero_ex.sra_client.api_client",
+            "zero_ex.sra_client.configuration",
+            "zero_ex.sra_client.models",
+            "zero_ex.sra_client.models.order_schema",
+            "zero_ex.sra_client.models.paginated_collection_schema",
+            "zero_ex.sra_client.models.relayer_api_asset_data_pairs_response_schema",
+            "zero_ex.sra_client.models.relayer_api_asset_data_trade_info_schema",
+            "zero_ex.sra_client.models.relayer_api_error_response_schema",
+            "zero_ex.sra_client.models.relayer_api_error_response_schema_validation_errors",
+            "zero_ex.sra_client.models.relayer_api_fee_recipients_response_schema",
+            "zero_ex.sra_client.models.relayer_api_order_config_payload_schema",
+            "zero_ex.sra_client.models.relayer_api_order_config_response_schema",
+            "zero_ex.sra_client.models.relayer_api_order_schema",
+            "zero_ex.sra_client.models.relayer_api_orderbook_response_schema",
+            "zero_ex.sra_client.models.relayer_api_orders_channel_subscribe_payload_schema",
+            "zero_ex.sra_client.models.relayer_api_orders_channel_subscribe_schema",
+            "zero_ex.sra_client.models.relayer_api_orders_channel_update_schema",
+            "zero_ex.sra_client.models.relayer_api_orders_response_schema",
+            "zero_ex.sra_client.models.signed_order_schema",
+            "zero_ex.sra_client.rest"
+        ],
+        "version": "4.0.0"
+    },
+    "0x-web3": {
+        "cmdline": [],
+        "modules": [
+            "ens",
+            "ens.abis",
+            "ens.auto",
+            "ens.constants",
+            "ens.contract_data",
+            "ens.exceptions",
+            "ens.main",
+            "ens.utils",
+            "web3",
+            "web3.admin",
+            "web3.auto",
+            "web3.auto.gethdev",
+            "web3.auto.http",
+            "web3.auto.infura",
+            "web3.auto.infura.endpoints",
+            "web3.auto.infura.ropsten",
+            "web3.auto.ipc",
+            "web3.auto.websocket",
+            "web3.contract",
+            "web3.datastructures",
+            "web3.eth",
+            "web3.exceptions",
+            "web3.gas_strategies",
+            "web3.gas_strategies.rpc",
+            "web3.gas_strategies.time_based",
+            "web3.iban",
+            "web3.main",
+            "web3.manager",
+            "web3.middleware",
+            "web3.middleware.abi",
+            "web3.middleware.attrdict",
+            "web3.middleware.cache",
+            "web3.middleware.exception_handling",
+            "web3.middleware.exception_retry_request",
+            "web3.middleware.fixture",
+            "web3.middleware.formatting",
+            "web3.middleware.gas_price_strategy",
+            "web3.middleware.geth_poa",
+            "web3.middleware.names",
+            "web3.middleware.normalize_errors",
+            "web3.middleware.normalize_request_parameters",
+            "web3.middleware.pythonic",
+            "web3.middleware.signing",
+            "web3.middleware.simulate_unmined_transaction",
+            "web3.middleware.stalecheck",
+            "web3.middleware.validation",
+            "web3.miner",
+            "web3.module",
+            "web3.net",
+            "web3.parity",
+            "web3.personal",
+            "web3.pm",
+            "web3.providers",
+            "web3.providers.auto",
+            "web3.providers.base",
+            "web3.providers.eth_tester",
+            "web3.providers.eth_tester.defaults",
+            "web3.providers.eth_tester.main",
+            "web3.providers.eth_tester.middleware",
+            "web3.providers.ipc",
+            "web3.providers.rpc",
+            "web3.providers.tester",
+            "web3.providers.websocket",
+            "web3.shh",
+            "web3.testing",
+            "web3.txpool",
+            "web3.utils",
+            "web3.utils.abi",
+            "web3.utils.blocks",
+            "web3.utils.caching",
+            "web3.utils.contracts",
+            "web3.utils.datatypes",
+            "web3.utils.decorators",
+            "web3.utils.empty",
+            "web3.utils.encoding",
+            "web3.utils.ens",
+            "web3.utils.events",
+            "web3.utils.filters",
+            "web3.utils.formatters",
+            "web3.utils.function_identifiers",
+            "web3.utils.http",
+            "web3.utils.hypothesis",
+            "web3.utils.math",
+            "web3.utils.module_testing",
+            "web3.utils.module_testing.emitter_contract",
+            "web3.utils.module_testing.eth_module",
+            "web3.utils.module_testing.math_contract",
+            "web3.utils.module_testing.net_module",
+            "web3.utils.module_testing.parity_module",
+            "web3.utils.module_testing.personal_module",
+            "web3.utils.module_testing.version_module",
+            "web3.utils.module_testing.web3_module",
+            "web3.utils.normalizers",
+            "web3.utils.request",
+            "web3.utils.rpc_abi",
+            "web3.utils.six",
+            "web3.utils.six.six",
+            "web3.utils.threads",
+            "web3.utils.toolz",
+            "web3.utils.toolz.curried",
+            "web3.utils.transactions",
+            "web3.utils.validation",
+            "web3.utils.windows",
+            "web3.version"
+        ],
+        "version": "4.8.2.1"
+    },
+    "0x01-autocert-dns-aliyun": {
+        "cmdline": [],
+        "modules": [
+            "autocert_dns_aliyun"
+        ],
+        "version": "0.1"
+    },
+    "0x01-cubic-sdk": {
+        "cmdline": [],
+        "modules": [
+            "cubic"
+        ],
+        "version": "3.0.0"
+    },
+    "0x01-letsencrypt": {
+        "cmdline": [],
+        "modules": [
+            "letsencrypt"
+        ],
+        "version": "0.1"
+    },
+    "0x10c-asm": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.2"
+    },
+    "0xmpp": {
+        "cmdline": [],
+        "modules": [
+            "0xmpp",
+            "0xmpp.main"
+        ],
+        "version": "0.0.0"
+    },
+    "1": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "10-8moshpdf": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "100bot": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.1"
+    },
+    "101703048-topsis": {
+        "cmdline": [],
+        "modules": [
+            "topsis",
+            "topsis.topsis"
+        ],
+        "version": "2.0.1"
+    },
+    "101703072-handle-missing": {
+        "cmdline": [],
+        "modules": [
+            "101703072_handle_missing",
+            "101703072_handle_missing.missing"
+        ],
+        "version": "0.1"
+    },
+    "101703087-missing-values": {
+        "cmdline": [],
+        "modules": [
+            "missing_values",
+            "missing_values.Missing_values"
+        ],
+        "version": "1.0.0"
+    },
+    "101703087-outlier": {
+        "cmdline": [],
+        "modules": [
+            "outliers",
+            "outliers.Outliers"
+        ],
+        "version": "1.0.0"
+    },
+    "101703087-topsis": {
+        "cmdline": [],
+        "modules": [
+            "topsis",
+            "topsis.topsis"
+        ],
+        "version": "2.0.1"
+    },
+    "101703088-outlier": {
+        "cmdline": [],
+        "modules": [
+            "outliers.Outliers"
+        ],
+        "version": "1.0.0"
+    },
+    "101703088-topsis": {
+        "cmdline": [],
+        "modules": [
+            "topsis",
+            "topsis.topsis"
+        ],
+        "version": "2.0.2"
+    },
+    "101703105": {
+        "cmdline": [],
+        "modules": [
+            "101703105",
+            "101703105.missing_101703105"
+        ],
+        "version": "0.1"
+    },
+    "101703196-topsis": {
+        "cmdline": [],
+        "modules": [
+            "topsis",
+            "topsis.topsis"
+        ],
+        "version": "1.0.0"
+    },
+    "101703214-assign1-ucs633": {
+        "cmdline": [],
+        "modules": [
+            "101703214_assign1_UCS633",
+            "101703214_assign1_UCS633.assign1"
+        ],
+        "version": "0.1"
+    },
+    "101703235-missing-val": {
+        "cmdline": [],
+        "modules": [
+            "hit_miss",
+            "hit_miss.hit_val"
+        ],
+        "version": "0.0.1"
+    },
+    "101703272-missing-val": {
+        "cmdline": [],
+        "modules": [
+            "jyot_val",
+            "jyot_val.val_miss"
+        ],
+        "version": "0.0.1"
+    },
+    "101703301-project1-topsis": {
+        "cmdline": [],
+        "modules": [
+            "101703301-Project1-TOPSIS",
+            "101703301-Project1-TOPSIS.project1"
+        ],
+        "version": "0.0.2"
+    },
+    "101703301-project2": {
+        "cmdline": [],
+        "modules": [
+            "101703301-Project2",
+            "101703301-Project2.outlier"
+        ],
+        "version": "0.0.1"
+    },
+    "101703301-project3": {
+        "cmdline": [],
+        "modules": [
+            "101703301-project3",
+            "101703301-project3.missing"
+        ],
+        "version": "0.0.1"
+    },
+    "101703311-missing-data": {
+        "cmdline": [],
+        "modules": [
+            "data.handledata"
+        ],
+        "version": "1.0.1"
+    },
+    "101703311-outliers": {
+        "cmdline": [],
+        "modules": [
+            "Outliers.outlierRemoval"
+        ],
+        "version": "1.0.2"
+    },
+    "101703312-outlierremoval": {
+        "cmdline": [],
+        "modules": [
+            "outlier_python.outlierRemoval"
+        ],
+        "version": "1.0.0"
+    },
+    "101703322-missing-val": {
+        "cmdline": [],
+        "modules": [
+            "manav_val",
+            "manav_val.val_manav"
+        ],
+        "version": "0.0.1"
+    },
+    "101703373-outlier": {
+        "cmdline": [],
+        "modules": [
+            "outliers.Outliers"
+        ],
+        "version": "1.0.0"
+    },
+    "101703373-topsis": {
+        "cmdline": [],
+        "modules": [
+            "topsis.101703373-topsis"
+        ],
+        "version": "1.0.0"
+    },
+    "101703375-p2": {
+        "cmdline": [
+            "outcli"
+        ],
+        "modules": [
+            "outlib",
+            "outlib.p2"
+        ],
+        "version": "0.1.0"
+    },
+    "101703378-project2": {
+        "cmdline": [],
+        "modules": [
+            "pro2",
+            "pro2.models",
+            "pro2.outcli"
+        ],
+        "version": "0.0.2"
+    },
+    "101703381-outlier": {
+        "cmdline": [],
+        "modules": [
+            "101703381-outlier._init_",
+            "101703381-outlier.zscore"
+        ],
+        "version": "0.1"
+    },
+    "101703383-python-package2": {
+        "cmdline": [],
+        "modules": [
+            "package",
+            "package.code_file"
+        ],
+        "version": "0.0.3"
+    },
+    "101703476-samiksha": {
+        "cmdline": [],
+        "modules": [
+            "101703476_samiksha",
+            "101703476_samiksha.topsis"
+        ],
+        "version": "0.1"
+    },
+    "101703488-sargun": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "101703549-missing-val": {
+        "cmdline": [],
+        "modules": [
+            "sin_miss",
+            "sin_miss.miss_val"
+        ],
+        "version": "0.0.1"
+    },
+    "101703573-missing-pkg-suruchipundir": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "101703573-outlier-pkg-suruchipundir": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "101703573-topsis-pkg-suruchipundir": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "101703604-topsis": {
+        "cmdline": [],
+        "modules": [
+            "101703604_topsis.101703604_topsis"
+        ],
+        "version": "0.1"
+    },
+    "1020-nester": {
+        "cmdline": [],
+        "modules": [
+            "1020-nester"
+        ],
+        "version": "1.00"
+    },
+    "1024": {
+        "cmdline": [],
+        "modules": [
+            "1024"
+        ],
+        "version": "0.0.0.0.0.0a0.dev20210120"
+    },
+    "108moshpdf": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0"
+    },
+    "10daysweb": {
+        "cmdline": [],
+        "modules": [
+            "tendaysweb",
+            "tendaysweb.app",
+            "tendaysweb.exceptions",
+            "tendaysweb.request",
+            "tendaysweb.response",
+            "tendaysweb.utils"
+        ],
+        "version": "0.1.3"
+    },
+    "115wangpan": {
+        "cmdline": [
+            "115",
+            "115down",
+            "115up"
+        ],
+        "modules": [
+            "u115",
+            "u115.api",
+            "u115.conf",
+            "u115.utils"
+        ],
+        "version": "0.7.6"
+    },
+    "11601160": {
+        "cmdline": [],
+        "modules": [
+            "focusIT",
+            "focusIT.Foc"
+        ],
+        "version": "0.0.1"
+    },
+    "11dl-gpu": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "11l": {
+        "cmdline": [],
+        "modules": [
+            "11l",
+            "_11l_to_cpp/parse",
+            "_11l_to_cpp/tokenizer",
+            "python_to_11l/parse",
+            "python_to_11l/tokenizer"
+        ],
+        "version": "0.1.1"
+    },
+    "12-test": {
+        "cmdline": [],
+        "modules": [
+            "distributions",
+            "distributions.Binomialdistribution",
+            "distributions.Gaussiandistribution",
+            "distributions.Generaldistribution"
+        ],
+        "version": "0.1"
+    },
+    "12306-booking": {
+        "cmdline": [],
+        "modules": [
+            "booking",
+            "booking._logging",
+            "booking.auth",
+            "booking.command",
+            "booking.exceptions",
+            "booking.order",
+            "booking.pay",
+            "booking.query",
+            "booking.remind",
+            "booking.run",
+            "booking.settings",
+            "booking.user",
+            "booking.utils"
+        ],
+        "version": "0.1.18"
+    },
+    "123testupload": {
+        "cmdline": [],
+        "modules": [
+            "123TestUpload",
+            "123TestUpload.Binomialdistribution",
+            "123TestUpload.Gaussiandistribution",
+            "123TestUpload.Generaldistribution"
+        ],
+        "version": "1.0"
+    },
+    "12factor-configclasses": {
+        "cmdline": [],
+        "modules": [
+            "configclasses",
+            "configclasses.configclasses",
+            "configclasses.exceptions",
+            "configclasses.helpers",
+            "configclasses.loaders"
+        ],
+        "version": "0.3.0"
+    },
+    "12factor-vault": {
+        "cmdline": [],
+        "modules": [
+            "vault12factor"
+        ],
+        "version": "0.1.20"
+    },
+    "131228-pytest-1": {
+        "cmdline": [],
+        "modules": [
+            "nester"
+        ],
+        "version": "1.0.0"
+    },
+    "1337": {
+        "cmdline": [],
+        "modules": [
+            "1337",
+            "1337.1337"
+        ],
+        "version": "1.0.0"
+    },
+    "153957-theme": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
+    },
+    "15five-django-ajax-selects": {
+        "cmdline": [],
+        "modules": [
+            "ajax_select",
+            "ajax_select.admin",
+            "ajax_select.apps",
+            "ajax_select.fields",
+            "ajax_select.helpers",
+            "ajax_select.lookup_channel",
+            "ajax_select.models",
+            "ajax_select.registry",
+            "ajax_select.urls",
+            "ajax_select.views"
+        ],
+        "version": "1.5.2.155"
+    },
+    "15five-snowplow-tracker": {
+        "cmdline": [],
+        "modules": [
+            "snowplow_tracker",
+            "snowplow_tracker._version",
+            "snowplow_tracker.emitters",
+            "snowplow_tracker.payload",
+            "snowplow_tracker.redis_worker",
+            "snowplow_tracker.self_describing_json",
+            "snowplow_tracker.subject",
+            "snowplow_tracker.test",
+            "snowplow_tracker.timestamp",
+            "snowplow_tracker.tracker",
+            "snowplow_tracker.utils"
+        ],
+        "version": "0.8.156"
+    },
+    "16": {
+        "cmdline": [],
+        "modules": [
+            "16"
+        ],
+        "version": "0.0.0.0.0.0a0.dev20210120"
+    },
+    "17monip": {
+        "cmdline": [],
+        "modules": [
+            "IP",
+            "IP.cmd",
+            "IP.ip"
+        ],
+        "version": "0.2.7"
+    },
+    "18-e": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "199fix": {
+        "cmdline": [],
+        "modules": [
+            "i99fix",
+            "i99fix.handlers"
+        ],
+        "version": "1.1.2"
+    },
+    "1a23-telemetry": {
+        "cmdline": [],
+        "modules": [
+            "telemetry_1a23"
+        ],
+        "version": "1.0.0"
+    },
+    "1and1": {
+        "cmdline": [],
+        "modules": [
+            "oneandone",
+            "oneandone.client"
+        ],
+        "version": "1.8.0"
+    },
+    "1app": {
+        "cmdline": [],
+        "modules": [
+            "1app",
+            "1app.main",
+            "1app.settings"
+        ],
+        "version": "0.0.2"
+    },
+    "1assl": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.0"
+    },
+    "1b1l-distributions": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "1bead-org": {
+        "cmdline": [],
+        "modules": [
+            "web",
+            "web.cli",
+            "web.constants",
+            "web.core",
+            "web.routes",
+            "web.views"
+        ],
+        "version": "0.0.11"
+    },
+    "1build": {
+        "cmdline": [
+            "1build"
+        ],
+        "modules": [
+            "onebuild",
+            "onebuild.action_to_command_lookup",
+            "onebuild.command",
+            "onebuild.config_parser",
+            "onebuild.file_writer",
+            "onebuild.help_command",
+            "onebuild.init_command",
+            "onebuild.input_parser",
+            "onebuild.list_command",
+            "onebuild.main",
+            "onebuild.perform_command",
+            "onebuild.predefined_actions",
+            "onebuild.project",
+            "onebuild.utils",
+            "onebuild.version_command"
+        ],
+        "version": "1.1.1"
+    },
+    "1c-utilites": {
+        "cmdline": [],
+        "modules": [
+            "utilites_1c",
+            "utilites_1c.backup",
+            "utilites_1c.backup.backends",
+            "utilites_1c.backup.base",
+            "utilites_1c.backup.file",
+            "utilites_1c.backup.postgres",
+            "utilites_1c.manager",
+            "utilites_1c.settings",
+            "utilites_1c.utils"
+        ],
+        "version": "0.1b0"
+    },
+    "1dct": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "1dyfolabs-test-script": {
+        "cmdline": [
+            "test_script1.py"
+        ],
+        "modules": [],
+        "version": "0.3"
+    },
+    "1ee": {
+        "cmdline": [],
+        "modules": [
+            "test1"
+        ],
+        "version": "1.0.0"
+    },
+    "1lever-utils": {
+        "cmdline": [],
+        "modules": [
+            "_lever_utils",
+            "_lever_utils.foo",
+            "_lever_utils.foo.helpers",
+            "_lever_utils.foo.helpers.alarm",
+            "_lever_utils.foo.helpers.alarm.dingding",
+            "_lever_utils.foo.helpers.db",
+            "_lever_utils.foo.helpers.db.es_helper",
+            "_lever_utils.foo.helpers.db.hive_helper",
+            "_lever_utils.foo.helpers.db.impala_helper",
+            "_lever_utils.foo.helpers.db.mysql_helper",
+            "_lever_utils.foo.helpers.db.redis_helper",
+            "_lever_utils.foo.helpers.file",
+            "_lever_utils.foo.helpers.file.excel_helper",
+            "_lever_utils.foo.helpers.file.oss_helper",
+            "_lever_utils.foo.helpers.mail",
+            "_lever_utils.foo.helpers.mail.mail_helper",
+            "_lever_utils.foo.helpers.mail.mail_helper_test",
+            "_lever_utils.foo.helpers.time"
+        ],
+        "version": "0.1.8"
+    },
+    "1nester": {
+        "cmdline": [],
+        "modules": [
+            "nester"
+        ],
+        "version": "1.4.0"
+    },
+    "1os": {
+        "cmdline": [],
+        "modules": [
+            "1OS"
+        ],
+        "version": "0.1"
+    },
+    "1pass": {
+        "cmdline": [
+            "1pass"
+        ],
+        "modules": [
+            "onepassword",
+            "onepassword.cli",
+            "onepassword.encryption_key",
+            "onepassword.keychain"
+        ],
+        "version": "0.2.1"
+    },
+    "1password": {
+        "cmdline": [],
+        "modules": [
+            "onepassword",
+            "onepassword.client",
+            "onepassword.exceptions",
+            "onepassword.utils"
+        ],
+        "version": "0.3.0"
+    },
+    "1st": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
+    },
+    "1to001": {
+        "cmdline": [
+            "1to001"
+        ],
+        "modules": [],
+        "version": "0.3.0"
+    },
+    "1zlab-emp-ide": {
+        "cmdline": [],
+        "modules": [
+            "emp_ide",
+            "emp_ide.admin",
+            "emp_ide.apps",
+            "emp_ide.decorators",
+            "emp_ide.migrations",
+            "emp_ide.migrations.0001_initial",
+            "emp_ide.models",
+            "emp_ide.urls",
+            "emp_ide.views"
+        ],
+        "version": "0.0.3"
+    },
+    "1zlab-homepage": {
+        "cmdline": [],
+        "modules": [
+            "homepage",
+            "homepage.admin",
+            "homepage.apps",
+            "homepage.migrations",
+            "homepage.migrations.0001_initial",
+            "homepage.models",
+            "homepage.urls",
+            "homepage.views"
+        ],
+        "version": "0.0.2"
+    },
+    "2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "2008webcrawler": {
+        "cmdline": [],
+        "modules": [
+            "pycrawlerlib",
+            "pycrawlerlib.crawler",
+            "pycrawlerlib.entities",
+            "pycrawlerlib.factories",
+            "pycrawlerlib.robot_parser"
+        ],
+        "version": "0.0.1a2"
+    },
+    "2013007-pyh": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "20191004": {
+        "cmdline": [],
+        "modules": [
+            "netster"
+        ],
+        "version": "1.1.0"
+    },
+    "2020": {
+        "cmdline": [],
+        "modules": [
+            "2020"
+        ],
+        "version": "0.0.1"
+    },
+    "2021": {
+        "cmdline": [],
+        "modules": [
+            "2021"
+        ],
+        "version": "0.0.0.0.0.0a0.dev20210120"
+    },
+    "2048": {
+        "cmdline": [],
+        "modules": [
+            "_2048",
+            "_2048.game",
+            "_2048.lock",
+            "_2048.main",
+            "_2048.manager",
+            "_2048.utils"
+        ],
+        "version": "0.3.3"
+    },
+    "2048-py": {
+        "cmdline": [],
+        "modules": [
+            "main"
+        ],
+        "version": "0.1.6"
+    },
+    "2112": {
+        "cmdline": [
+            "2112"
+        ],
+        "modules": [],
+        "version": "0.1.0"
+    },
+    "21cmfast": {
+        "cmdline": [],
+        "modules": [
+            "py21cmfast",
+            "py21cmfast._cfg",
+            "py21cmfast._logging",
+            "py21cmfast._utils",
+            "py21cmfast.cache_tools",
+            "py21cmfast.cli",
+            "py21cmfast.inputs",
+            "py21cmfast.outputs",
+            "py21cmfast.plotting",
+            "py21cmfast.wrapper",
+            "py21cmfast.yaml"
+        ],
+        "version": "3.0.3"
+    },
+    "21cmmc": {
+        "cmdline": [],
+        "modules": [
+            "py21cmmc",
+            "py21cmmc._utils",
+            "py21cmmc.analyse",
+            "py21cmmc.core",
+            "py21cmmc.cosmoHammer",
+            "py21cmmc.ensemble",
+            "py21cmmc.likelihood",
+            "py21cmmc.mcmc"
+        ],
+        "version": "1.0.0.dev3"
+    },
+    "2233223": {
+        "cmdline": [],
+        "modules": [
+            "test",
+            "test.hello"
+        ],
+        "version": "2019.3.9"
+    },
+    "23andme-to-vcf": {
+        "cmdline": [
+            "23andme-to-vcf"
+        ],
+        "modules": [
+            "_23andme_to_vcf",
+            "_23andme_to_vcf.driver"
+        ],
+        "version": "0.0.3"
+    },
+    "24p": {
+        "cmdline": [],
+        "modules": [
+            "p24",
+            "p24.p24"
+        ],
+        "version": "0.2.0"
+    },
+    "24to25": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0"
+    },
+    "2521-distributions": {
+        "cmdline": [],
+        "modules": [
+            "2521_distributions",
+            "2521_distributions.Binomialdistribution",
+            "2521_distributions.Gaussiandistribution",
+            "2521_distributions.Generaldistribution"
+        ],
+        "version": "0.1"
+    },
+    "256": {
+        "cmdline": [],
+        "modules": [
+            "256"
+        ],
+        "version": "0.0.0.0.0.0a0.dev20210120"
+    },
+    "2969nester": {
+        "cmdline": [],
+        "modules": [
+            "nester"
+        ],
+        "version": "1.0.0"
+    },
+    "2b2t-py": {
+        "cmdline": [],
+        "modules": [
+            "py2b",
+            "py2b.listCheck",
+            "py2b.playerInfo",
+            "py2b.serverInfo",
+            "py2b.singleCheck"
+        ],
+        "version": "1.7.6"
+    },
+    "2c-py": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "2captcha-python": {
+        "cmdline": [],
+        "modules": [
+            "twocaptcha",
+            "twocaptcha.api",
+            "twocaptcha.solver"
+        ],
+        "version": "1.0.3"
+    },
+    "2d6io-cryptobot": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "2dfly-manbanzhen": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "2dmath": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "2fa": {
+        "cmdline": [
+            "2fa"
+        ],
+        "modules": [
+            "pyotp",
+            "pyotp.hotp",
+            "pyotp.otp",
+            "pyotp.totp",
+            "pyotp.utils"
+        ],
+        "version": "0.0.1"
+    },
+    "2feeds": {
+        "cmdline": [],
+        "modules": [
+            "feeds",
+            "feeds.display",
+            "feeds.input_mod",
+            "feeds.main",
+            "feeds.utils"
+        ],
+        "version": "1.0.210"
+    },
+    "2gis": {
+        "cmdline": [],
+        "modules": [
+            "dgis",
+            "dgis.binder",
+            "dgis.exceptions",
+            "dgis.utils",
+            "tests",
+            "tests.main",
+            "tests.project_list",
+            "tests.rubricator"
+        ],
+        "version": "1.3.1"
+    },
+    "2ip": {
+        "cmdline": [],
+        "modules": [
+            "twoip",
+            "twoip.__version__",
+            "twoip.twoip"
+        ],
+        "version": "0.0.2"
+    },
+    "2jjtt6cwa6": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "2keys": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.test_util",
+            "twokeys",
+            "twokeys.add_keyboard",
+            "twokeys.add_keyboard.add_keyboard",
+            "twokeys.add_keyboard.async_handler",
+            "twokeys.add_keyboard.sync_keyboard_path",
+            "twokeys.cli",
+            "twokeys.cli.cli",
+            "twokeys.daemon",
+            "twokeys.daemon.scripts",
+            "twokeys.init",
+            "twokeys.init.init",
+            "twokeys.sync",
+            "twokeys.sync.resync_config",
+            "twokeys.util",
+            "twokeys.util.config",
+            "twokeys.util.constants",
+            "twokeys.util.keyboard_map",
+            "twokeys.util.logger",
+            "twokeys.watcher",
+            "twokeys.watcher.watch_keyboard"
+        ],
+        "version": "0.5.1"
+    },
+    "2lazy2rest": {
+        "cmdline": [
+            "mkrst"
+        ],
+        "modules": [
+            "mkrst_themes"
+        ],
+        "version": "0.1.0"
+    },
+    "2mp3": {
+        "cmdline": [],
+        "modules": [
+            "2mp3",
+            "2mp3.core"
+        ],
+        "version": "0.1.0"
+    },
+    "2mp4": {
+        "cmdline": [],
+        "modules": [
+            "2mp4",
+            "py2mp4",
+            "v2mp4"
+        ],
+        "version": "1.0.1"
+    },
+    "2or3": {
+        "cmdline": [
+            "2or3",
+            "ispy2",
+            "ispy3"
+        ],
+        "modules": [
+            "lib2or3"
+        ],
+        "version": "0.1.0"
+    },
+    "2to3": {
+        "cmdline": [],
+        "modules": [
+            "cmd_2to3"
+        ],
+        "version": "1.0"
+    },
+    "2us": {
+        "cmdline": [],
+        "modules": [
+            "__"
+        ],
+        "version": "0.0.1.post1"
+    },
+    "2wf90-assignment": {
+        "cmdline": [],
+        "modules": [
+            "2wf90_assignment",
+            "2wf90_assignment.Context",
+            "2wf90_assignment.Integer",
+            "2wf90_assignment.algorithmsCombined",
+            "2wf90_assignment.entry"
+        ],
+        "version": "1.0.8"
+    },
+    "3": {
+        "cmdline": [],
+        "modules": [
+            "3"
+        ],
+        "version": "0.0.0"
+    },
+    "3-1": {
+        "cmdline": [],
+        "modules": [
+            "3-1"
+        ],
+        "version": "1.0.0"
+    },
+    "31": {
+        "cmdline": [],
+        "modules": [
+            "s31",
+            "s31.command",
+            "s31.config",
+            "s31.foreach",
+            "s31.mail",
+            "s31.main",
+            "s31.notify",
+            "s31.screen",
+            "s31.utils",
+            "s31.workers",
+            "tests",
+            "tests.basic_test",
+            "tests.buf_test",
+            "tests.foreach_test",
+            "tests.options_test",
+            "tests.test31",
+            "tests.workers_test"
+        ],
+        "version": "1.5"
+    },
+    "311devs-peewee": {
+        "cmdline": [],
+        "modules": [
+            "playhouse",
+            "playhouse.apsw_ext",
+            "playhouse.berkeleydb",
+            "playhouse.csv_loader",
+            "playhouse.csv_utils",
+            "playhouse.dataset",
+            "playhouse.db_url",
+            "playhouse.djpeewee",
+            "playhouse.fields",
+            "playhouse.flask_utils",
+            "playhouse.gfk",
+            "playhouse.hybrid",
+            "playhouse.kv",
+            "playhouse.migrate",
+            "playhouse.pool",
+            "playhouse.postgres_ext",
+            "playhouse.read_slave",
+            "playhouse.reflection",
+            "playhouse.shortcuts",
+            "playhouse.signals",
+            "playhouse.sqlcipher_ext",
+            "playhouse.sqlite_ext",
+            "playhouse.sqlite_udf",
+            "playhouse.sqliteq",
+            "playhouse.test_utils"
+        ],
+        "version": "2.10.2.1"
+    },
+    "32blit": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.6.0"
+    },
+    "36-chambers": {
+        "cmdline": [],
+        "modules": [
+            "chambers",
+            "chambers.chamber"
+        ],
+        "version": "0.0.1"
+    },
+    "3636c788d0392f7e84453434eea18c59": {
+        "cmdline": [],
+        "modules": [
+            "sstools"
+        ],
+        "version": "4.1.3"
+    },
+    "365scores": {
+        "cmdline": [],
+        "modules": [
+            "scores",
+            "scores._cache_utils",
+            "scores.models",
+            "scores.models.base",
+            "scores.models.base.base_competing_object",
+            "scores.models.base.core",
+            "scores.models.base.core.base_idable",
+            "scores.models.base.core.base_object",
+            "scores.models.base.core.enums",
+            "scores.models.base.core.enums.sport_type",
+            "scores.models.base.country",
+            "scores.models.base.sport",
+            "scores.models.competition",
+            "scores.models.competitor",
+            "scores.models.game",
+            "scores.models.game_asset",
+            "scores.models.game_assets",
+            "scores.models.game_competitor",
+            "scores.scores"
+        ],
+        "version": "1.0.7"
+    },
+    "36ban-commons": {
+        "cmdline": [],
+        "modules": [
+            "36ban",
+            "generate",
+            "generate.application",
+            "generate.generate_code_service"
+        ],
+        "version": "0.0.1"
+    },
+    "36ke-py": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "3890612457908641": {
+        "cmdline": [],
+        "modules": [
+            "3890612457908641"
+        ],
+        "version": "1.0.0"
+    },
+    "392304jk324nkkl": {
+        "cmdline": [],
+        "modules": [
+            "ex1",
+            "ex1.tb_device_mqtt",
+            "ex1.tb_gateway_mqtt"
+        ],
+        "version": "0.0.0"
+    },
+    "3color-press": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "3d-bin-container-packing": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "3d-converter": {
+        "cmdline": [],
+        "modules": [
+            "models_converter",
+            "models_converter.formats",
+            "models_converter.formats.dae",
+            "models_converter.formats.gltf",
+            "models_converter.formats.obj",
+            "models_converter.formats.scw",
+            "models_converter.formats.scw.chunks",
+            "models_converter.formats.scw.chunks.came",
+            "models_converter.formats.scw.chunks.chunk",
+            "models_converter.formats.scw.chunks.geom",
+            "models_converter.formats.scw.chunks.head",
+            "models_converter.formats.scw.chunks.mate",
+            "models_converter.formats.scw.chunks.node",
+            "models_converter.formats.scw.chunks.wend",
+            "models_converter.formats.scw.parser",
+            "models_converter.formats.scw.writer",
+            "models_converter.utils",
+            "models_converter.utils.matrix",
+            "models_converter.utils.matrix.matrix2x2",
+            "models_converter.utils.matrix.matrix3x3",
+            "models_converter.utils.matrix.matrix4x4",
+            "models_converter.utils.reader",
+            "models_converter.utils.writer"
+        ],
+        "version": "0.8.1"
+    },
+    "3d-renderer": {
+        "cmdline": [],
+        "modules": [
+            "renderer",
+            "renderer.classes",
+            "renderer.examples"
+        ],
+        "version": "0.0.6"
+    },
+    "3d-wallet-generator": {
+        "cmdline": [],
+        "modules": [
+            "gen_3dwallet",
+            "gen_3dwallet.TextGenerator",
+            "gen_3dwallet.base",
+            "gen_3dwallet.qr_tools"
+        ],
+        "version": "0.2.0"
+    },
+    "3dcore": {
+        "cmdline": [],
+        "modules": [
+            "py3dcore",
+            "py3dcore._extcuda",
+            "py3dcore._extmath",
+            "py3dcore._extnumba",
+            "py3dcore.fitting",
+            "py3dcore.fitting.fitter",
+            "py3dcore.fitting.methods",
+            "py3dcore.fitting.methods.abcsmc",
+            "py3dcore.fitting.methods.smc",
+            "py3dcore.fitting.util",
+            "py3dcore.model",
+            "py3dcore.models",
+            "py3dcore.models.ttghv0",
+            "py3dcore.models.ttghv0.coordinates",
+            "py3dcore.models.ttghv0.magfield",
+            "py3dcore.models.ttghv0.propagation",
+            "py3dcore.models.ttghv1",
+            "py3dcore.models.ttghv1.coordinates",
+            "py3dcore.models.ttghv1.magfield",
+            "py3dcore.models.ttghv1.propagation",
+            "py3dcore.models.ttghv2",
+            "py3dcore.models.ttghv2.coordinates",
+            "py3dcore.models.ttghv2.magfield",
+            "py3dcore.models.ttghv2.propagation",
+            "py3dcore.models.ttghv3",
+            "py3dcore.models.ttghv3.coordinates",
+            "py3dcore.models.ttghv3.magfield",
+            "py3dcore.models.ttghv3.propagation",
+            "py3dcore.params",
+            "py3dcore.raytracing",
+            "py3dcore.raytracing.raytracing",
+            "py3dcore.rotqs",
+            "py3dcore.util"
+        ],
+        "version": "1.1.3"
+    },
+    "3debt": {
+        "cmdline": [],
+        "modules": [
+            "src",
+            "src.evaluators",
+            "src.parser"
+        ],
+        "version": "0.0.6"
+    },
+    "3deecelltracker": {
+        "cmdline": [],
+        "modules": [
+            "CellTracker",
+            "CellTracker.interpolate_labels",
+            "CellTracker.preprocess",
+            "CellTracker.track",
+            "CellTracker.unet3d",
+            "CellTracker.watershed"
+        ],
+        "version": "0.2"
+    },
+    "3dfunctiongrapher": {
+        "cmdline": [],
+        "modules": [
+            "3dfunctiongrapher.3Dfunctiongrapher"
+        ],
+        "version": "0.3dev"
+    },
+    "3di-cmd-client": {
+        "cmdline": [],
+        "modules": [
+            "cmd_client",
+            "cmd_client.commands",
+            "cmd_client.commands.active_simulations",
+            "cmd_client.commands.run_scenario",
+            "cmd_client.commands.run_suite",
+            "cmd_client.commands.settings",
+            "cmd_client.commands.slack_notify",
+            "cmd_client.commands.utils",
+            "cmd_client.console",
+            "cmd_client.errors",
+            "cmd_client.models",
+            "cmd_client.models.actions",
+            "cmd_client.models.base",
+            "cmd_client.models.boundary_conditions",
+            "cmd_client.models.breach",
+            "cmd_client.models.errors",
+            "cmd_client.models.initial_waterlevels",
+            "cmd_client.models.lateral",
+            "cmd_client.models.monitor",
+            "cmd_client.models.rain",
+            "cmd_client.models.rasteredit",
+            "cmd_client.models.savedstate",
+            "cmd_client.models.scenario",
+            "cmd_client.models.simulation",
+            "cmd_client.models.sources_sinks",
+            "cmd_client.models.structure_control",
+            "cmd_client.models.waitfor",
+            "cmd_client.models.wind",
+            "cmd_client.parser",
+            "cmd_client.test",
+            "cmd_client.version",
+            "cmd_client.websockets",
+            "cmd_client.websockets.clients"
+        ],
+        "version": "0.0.3"
+    },
+    "3dof-hexapod-ik-generator": {
+        "cmdline": [],
+        "modules": [
+            "ikengine"
+        ],
+        "version": "1.0.0"
+    },
+    "3dstrudel": {
+        "cmdline": [
+            "strudel_chopModelMapMPI.py",
+            "strudel_mapAveraging.py",
+            "strudel_mapMotifValidation.py",
+            "strudel_penultimateClassifier.py",
+            "strudel_setChimeraX.py"
+        ],
+        "modules": [
+            "3dstrudel",
+            "3dstrudel.average",
+            "3dstrudel.average.mapAveraging",
+            "3dstrudel.average.superimpose_chimerax",
+            "3dstrudel.bin",
+            "3dstrudel.bin.strudel_chopModelMapMPI",
+            "3dstrudel.bin.strudel_mapAveraging",
+            "3dstrudel.bin.strudel_mapMotifValidation",
+            "3dstrudel.bin.strudel_penultimateClassifier",
+            "3dstrudel.bin.strudel_setChimeraX",
+            "3dstrudel.chop",
+            "3dstrudel.chop.chopMap",
+            "3dstrudel.chop.chopModelMapMPI",
+            "3dstrudel.chop.segmentResidueDensity",
+            "3dstrudel.classify",
+            "3dstrudel.classify.alignPrincipalAxes",
+            "3dstrudel.classify.inp",
+            "3dstrudel.classify.penultimateClassifier",
+            "3dstrudel.classify.rotamerClassifier",
+            "3dstrudel.configure",
+            "3dstrudel.lib",
+            "3dstrudel.lib.strudel",
+            "3dstrudel.lib.strudel.penultimate_rotamer_lib",
+            "3dstrudel.nomenclature",
+            "3dstrudel.parse",
+            "3dstrudel.parse.mapParser",
+            "3dstrudel.sequence_finder",
+            "3dstrudel.sequence_finder.plot_results",
+            "3dstrudel.sequence_finder.run_seq_find_buc",
+            "3dstrudel.sequence_finder.run_seq_find_buc1",
+            "3dstrudel.sequence_finder.run_seq_find_buc_2",
+            "3dstrudel.sequence_finder.score_chimerax",
+            "3dstrudel.sequence_finder.sequenceFinder",
+            "3dstrudel.sequence_finder.structure_align",
+            "3dstrudel.sequence_finder.updated_score_chimerax",
+            "3dstrudel.utils",
+            "3dstrudel.utils.bioUtils",
+            "3dstrudel.utils.functions",
+            "3dstrudel.utils.modelMapUtils",
+            "3dstrudel.utils.nomenclature",
+            "3dstrudel.validation",
+            "3dstrudel.validation.bundleValidatioResults",
+            "3dstrudel.validation.mapMotifValidation",
+            "3dstrudel.validation.score_chimerax"
+        ],
+        "version": "0.1.1"
+    },
+    "3dtrees-nbingo": {
+        "cmdline": [],
+        "modules": [
+            "agglomerate",
+            "agglomerate.agglomerate_3d",
+            "agglomerate.batch_agglomerate_3d",
+            "data",
+            "data.data_loader",
+            "data.data_types",
+            "metrics",
+            "metrics.metric_utils"
+        ],
+        "version": "0.1.5"
+    },
+    "3edit": {
+        "cmdline": [],
+        "modules": [
+            "3Edit",
+            "3Edit.all_modules",
+            "3Edit.appdata",
+            "3Edit.asset",
+            "3Edit.dropshadow",
+            "3Edit.engine",
+            "3Edit.generate_dark_theme_icons",
+            "3Edit.mainapp",
+            "3Edit.remote",
+            "3Edit.rotpoint",
+            "3Edit.saver",
+            "3Edit.shader",
+            "3Edit.userenv"
+        ],
+        "version": "1.0.0"
+    },
+    "3gpp-citations": {
+        "cmdline": [
+            "3gpp-citations"
+        ],
+        "modules": [
+            "standardcitations",
+            "standardcitations.standardcitations"
+        ],
+        "version": "1.1.4"
+    },
+    "3lwg": {
+        "cmdline": [],
+        "modules": [
+            "tlw"
+        ],
+        "version": "4.0"
+    },
+    "3mensolutions-distribution": {
+        "cmdline": [],
+        "modules": [
+            "3mensolutions_distribution",
+            "3mensolutions_distribution.Binomialdistribution",
+            "3mensolutions_distribution.Gaussiandistribution",
+            "3mensolutions_distribution.Generaldistribution"
+        ],
+        "version": "1.0"
+    },
+    "3p0": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.10"
+    },
+    "3ptest": {
+        "cmdline": [],
+        "modules": [
+            "3ptest",
+            "3ptest.3ptest"
+        ],
+        "version": "1.0.0"
+    },
+    "3q": {
+        "cmdline": [],
+        "modules": [
+            "qqq",
+            "qqq.github",
+            "qqq.qqq"
+        ],
+        "version": "0.1.6"
+    },
+    "3scale-api": {
+        "cmdline": [],
+        "modules": [
+            "threescale_api",
+            "threescale_api.auth",
+            "threescale_api.client",
+            "threescale_api.defaults",
+            "threescale_api.errors",
+            "threescale_api.log_config",
+            "threescale_api.resources",
+            "threescale_api.utils"
+        ],
+        "version": "0.8.0"
+    },
+    "3t": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "3to2": {
+        "cmdline": [
+            "3to2"
+        ],
+        "modules": [
+            "lib3to2",
+            "lib3to2.build",
+            "lib3to2.fixer_util",
+            "lib3to2.fixes",
+            "lib3to2.fixes.feature_base",
+            "lib3to2.fixes.fix_absimport",
+            "lib3to2.fixes.fix_annotations",
+            "lib3to2.fixes.fix_bitlength",
+            "lib3to2.fixes.fix_bool",
+            "lib3to2.fixes.fix_bytes",
+            "lib3to2.fixes.fix_classdecorator",
+            "lib3to2.fixes.fix_collections",
+            "lib3to2.fixes.fix_dctsetcomp",
+            "lib3to2.fixes.fix_division",
+            "lib3to2.fixes.fix_except",
+            "lib3to2.fixes.fix_features",
+            "lib3to2.fixes.fix_fullargspec",
+            "lib3to2.fixes.fix_funcattrs",
+            "lib3to2.fixes.fix_getcwd",
+            "lib3to2.fixes.fix_imports",
+            "lib3to2.fixes.fix_imports2",
+            "lib3to2.fixes.fix_input",
+            "lib3to2.fixes.fix_int",
+            "lib3to2.fixes.fix_intern",
+            "lib3to2.fixes.fix_itertools",
+            "lib3to2.fixes.fix_kwargs",
+            "lib3to2.fixes.fix_memoryview",
+            "lib3to2.fixes.fix_metaclass",
+            "lib3to2.fixes.fix_methodattrs",
+            "lib3to2.fixes.fix_newstyle",
+            "lib3to2.fixes.fix_next",
+            "lib3to2.fixes.fix_numliterals",
+            "lib3to2.fixes.fix_open",
+            "lib3to2.fixes.fix_print",
+            "lib3to2.fixes.fix_printfunction",
+            "lib3to2.fixes.fix_raise",
+            "lib3to2.fixes.fix_range",
+            "lib3to2.fixes.fix_reduce",
+            "lib3to2.fixes.fix_setliteral",
+            "lib3to2.fixes.fix_str",
+            "lib3to2.fixes.fix_super",
+            "lib3to2.fixes.fix_throw",
+            "lib3to2.fixes.fix_unittest",
+            "lib3to2.fixes.fix_unpacking",
+            "lib3to2.fixes.fix_with",
+            "lib3to2.fixes.imports2_fix_alt_formatting",
+            "lib3to2.fixes.imports_fix_alt_formatting",
+            "lib3to2.main",
+            "lib3to2.tests",
+            "lib3to2.tests.support",
+            "lib3to2.tests.test_absimport",
+            "lib3to2.tests.test_annotations",
+            "lib3to2.tests.test_bitlength",
+            "lib3to2.tests.test_bool",
+            "lib3to2.tests.test_bytes",
+            "lib3to2.tests.test_classdecorator",
+            "lib3to2.tests.test_collections",
+            "lib3to2.tests.test_dctsetcomp",
+            "lib3to2.tests.test_division",
+            "lib3to2.tests.test_except",
+            "lib3to2.tests.test_fullargspec",
+            "lib3to2.tests.test_funcattrs",
+            "lib3to2.tests.test_getcwd",
+            "lib3to2.tests.test_imports",
+            "lib3to2.tests.test_imports2",
+            "lib3to2.tests.test_input",
+            "lib3to2.tests.test_int",
+            "lib3to2.tests.test_intern",
+            "lib3to2.tests.test_itertools",
+            "lib3to2.tests.test_kwargs",
+            "lib3to2.tests.test_memoryview",
+            "lib3to2.tests.test_metaclass",
+            "lib3to2.tests.test_methodattrs",
+            "lib3to2.tests.test_newstyle",
+            "lib3to2.tests.test_next",
+            "lib3to2.tests.test_numliterals",
+            "lib3to2.tests.test_open",
+            "lib3to2.tests.test_print",
+            "lib3to2.tests.test_printfunction",
+            "lib3to2.tests.test_raise",
+            "lib3to2.tests.test_range",
+            "lib3to2.tests.test_reduce",
+            "lib3to2.tests.test_setliteral",
+            "lib3to2.tests.test_str",
+            "lib3to2.tests.test_super",
+            "lib3to2.tests.test_throw",
+            "lib3to2.tests.test_unittest",
+            "lib3to2.tests.test_unpacking",
+            "lib3to2.tests.test_with"
+        ],
+        "version": "1.1.1"
+    },
+    "3to2-py3k": {
+        "cmdline": [
+            "3to2"
+        ],
+        "modules": [
+            "lib3to2",
+            "lib3to2.fixer_util",
+            "lib3to2.fixes",
+            "lib3to2.fixes.feature_base",
+            "lib3to2.fixes.fix_annotations",
+            "lib3to2.fixes.fix_bitlength",
+            "lib3to2.fixes.fix_bool",
+            "lib3to2.fixes.fix_bytes",
+            "lib3to2.fixes.fix_classdecorator",
+            "lib3to2.fixes.fix_collections",
+            "lib3to2.fixes.fix_dctsetcomp",
+            "lib3to2.fixes.fix_division",
+            "lib3to2.fixes.fix_except",
+            "lib3to2.fixes.fix_features",
+            "lib3to2.fixes.fix_fullargspec",
+            "lib3to2.fixes.fix_funcattrs",
+            "lib3to2.fixes.fix_getcwd",
+            "lib3to2.fixes.fix_imports",
+            "lib3to2.fixes.fix_imports2",
+            "lib3to2.fixes.fix_input",
+            "lib3to2.fixes.fix_int",
+            "lib3to2.fixes.fix_intern",
+            "lib3to2.fixes.fix_itertools",
+            "lib3to2.fixes.fix_kwargs",
+            "lib3to2.fixes.fix_memoryview",
+            "lib3to2.fixes.fix_metaclass",
+            "lib3to2.fixes.fix_methodattrs",
+            "lib3to2.fixes.fix_newstyle",
+            "lib3to2.fixes.fix_next",
+            "lib3to2.fixes.fix_numliterals",
+            "lib3to2.fixes.fix_open",
+            "lib3to2.fixes.fix_print",
+            "lib3to2.fixes.fix_printfunction",
+            "lib3to2.fixes.fix_raise",
+            "lib3to2.fixes.fix_range",
+            "lib3to2.fixes.fix_reduce",
+            "lib3to2.fixes.fix_setliteral",
+            "lib3to2.fixes.fix_str",
+            "lib3to2.fixes.fix_super",
+            "lib3to2.fixes.fix_throw",
+            "lib3to2.fixes.fix_unittest",
+            "lib3to2.fixes.fix_unpacking",
+            "lib3to2.fixes.fix_with",
+            "lib3to2.fixes.imports2_fix_alt_formatting",
+            "lib3to2.fixes.imports_fix_alt_formatting",
+            "lib3to2.main",
+            "lib3to2.tests",
+            "lib3to2.tests.test_all_fixers",
+            "lib3to2.tests.test_annotations",
+            "lib3to2.tests.test_bitlength",
+            "lib3to2.tests.test_bool",
+            "lib3to2.tests.test_bytes",
+            "lib3to2.tests.test_classdecorator",
+            "lib3to2.tests.test_collections",
+            "lib3to2.tests.test_dctsetcomp",
+            "lib3to2.tests.test_division",
+            "lib3to2.tests.test_except",
+            "lib3to2.tests.test_fullargspec",
+            "lib3to2.tests.test_funcattrs",
+            "lib3to2.tests.test_getcwd",
+            "lib3to2.tests.test_imports",
+            "lib3to2.tests.test_imports2",
+            "lib3to2.tests.test_input",
+            "lib3to2.tests.test_int",
+            "lib3to2.tests.test_intern",
+            "lib3to2.tests.test_itertools",
+            "lib3to2.tests.test_kwargs",
+            "lib3to2.tests.test_memoryview",
+            "lib3to2.tests.test_metaclass",
+            "lib3to2.tests.test_methodattrs",
+            "lib3to2.tests.test_newstyle",
+            "lib3to2.tests.test_next",
+            "lib3to2.tests.test_numliterals",
+            "lib3to2.tests.test_open",
+            "lib3to2.tests.test_print",
+            "lib3to2.tests.test_printfunction",
+            "lib3to2.tests.test_raise",
+            "lib3to2.tests.test_range",
+            "lib3to2.tests.test_reduce",
+            "lib3to2.tests.test_setliteral",
+            "lib3to2.tests.test_str",
+            "lib3to2.tests.test_super",
+            "lib3to2.tests.test_throw",
+            "lib3to2.tests.test_unittest",
+            "lib3to2.tests.test_unpacking",
+            "lib3to2.tests.test_with"
+        ],
+        "version": "1.0"
+    },
+    "3xsd": {
+        "cmdline": [
+            "3xsd"
+        ],
+        "modules": [
+            "_3xsd"
+        ],
+        "version": "0.0.26"
+    },
+    "40wt-common-tasks": {
+        "cmdline": [],
+        "modules": [
+            "common_tasks"
+        ],
+        "version": "0.2.0"
+    },
+    "42": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "42cc-pystyle": {
+        "cmdline": [],
+        "modules": [
+            "42cc_pystyle",
+            "42cc_pystyle.test_comments",
+            "42cc_pystyle.test_docstrings",
+            "42cc_pystyle.test_len_function",
+            "42cc_pystyle.test_single_if"
+        ],
+        "version": "0.0.17"
+    },
+    "42points": {
+        "cmdline": [],
+        "modules": [
+            "ftptsgame",
+            "ftptsgame.database",
+            "ftptsgame.expr_utils",
+            "ftptsgame.problem_utils"
+        ],
+        "version": "1.2.0"
+    },
+    "42qucc": {
+        "cmdline": [],
+        "modules": [
+            "cc42",
+            "cc42.cc42"
+        ],
+        "version": "0.0.4"
+    },
+    "440-create-user": {
+        "cmdline": [],
+        "modules": [
+            "User_Create_440",
+            "User_Create_440.CreateUser"
+        ],
+        "version": "1.0"
+    },
+    "4711": {
+        "cmdline": [],
+        "modules": [
+            "_4711",
+            "_4711._4711",
+            "_4711.__version__"
+        ],
+        "version": "0.0.2"
+    },
+    "4cast-awi-package": {
+        "cmdline": [],
+        "modules": [
+            "4cast_package",
+            "4cast_package.4cast_package"
+        ],
+        "version": "0.0.4"
+    },
+    "4cast-package": {
+        "cmdline": [],
+        "modules": [
+            "4cast_package",
+            "4cast_package.4cast_package"
+        ],
+        "version": "0.0.4"
+    },
+    "4cdl": {
+        "cmdline": [
+            "4cdl.py"
+        ],
+        "modules": [],
+        "version": "0.1"
+    },
+    "4ch": {
+        "cmdline": [],
+        "modules": [
+            "fourch",
+            "fourch._version",
+            "fourch.board",
+            "fourch.fourch",
+            "fourch.reply",
+            "fourch.thread"
+        ],
+        "version": "1.0.0"
+    },
+    "4chan": {
+        "cmdline": [],
+        "modules": [
+            "chan",
+            "chan.chan"
+        ],
+        "version": "0.0.4"
+    },
+    "4chandownloader": {
+        "cmdline": [
+            "4chandownloader"
+        ],
+        "modules": [],
+        "version": "0.4.1"
+    },
+    "4channel": {
+        "cmdline": [],
+        "modules": [
+            "fourchannel",
+            "fourchannel.fourchannel"
+        ],
+        "version": "0.0.9"
+    },
+    "4dpyautodiff": {
+        "cmdline": [],
+        "modules": [
+            "applications",
+            "applications.root_finder",
+            "pyautodiff",
+            "pyautodiff.ops",
+            "pyautodiff.trig_ops",
+            "pyautodiff.var",
+            "pyautodiff.visualization"
+        ],
+        "version": "1.0.0"
+    },
+    "4koodi": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "4nil0cin": {
+        "cmdline": [],
+        "modules": [
+            "4nil0cin",
+            "4nil0cin.Binomialdistribution",
+            "4nil0cin.Gaussiandistribution",
+            "4nil0cin.Generaldistribution"
+        ],
+        "version": "0.1"
+    },
+    "4quila": {
+        "cmdline": [],
+        "modules": [
+            "_4helper",
+            "_4quila",
+            "_4quila.browser",
+            "_4quila.common",
+            "_4quila.locker",
+            "_4quila.logger",
+            "_4quila.loop",
+            "_4quila.server",
+            "_4quila.tracer",
+            "_4server",
+            "_4server.web"
+        ],
+        "version": "0.36.200302"
+    },
+    "4scanner": {
+        "cmdline": [
+            "4downloader",
+            "4genconf",
+            "4scanner"
+        ],
+        "modules": [
+            "scanner",
+            "scanner.config",
+            "scanner.downloader",
+            "scanner.dupecheck",
+            "scanner.imageboard_info",
+            "scanner.thread_scanner"
+        ],
+        "version": "1.6.2"
+    },
+    "4suite": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "4suite-xml": {
+        "cmdline": [],
+        "modules": [
+            "Ft",
+            "Ft.Lib",
+            "Ft.Lib.CommandLine",
+            "Ft.Lib.CommandLine.Arguments",
+            "Ft.Lib.CommandLine.Command",
+            "Ft.Lib.CommandLine.CommandLineApp",
+            "Ft.Lib.CommandLine.CommandLineTestUtil",
+            "Ft.Lib.CommandLine.CommandLineUtil",
+            "Ft.Lib.CommandLine.FancyGetOpt",
+            "Ft.Lib.CommandLine.Options",
+            "Ft.Lib.DbUtil",
+            "Ft.Lib.DistExt",
+            "Ft.Lib.DistExt.BDist",
+            "Ft.Lib.DistExt.BDistEgg",
+            "Ft.Lib.DistExt.BDistInno",
+            "Ft.Lib.DistExt.BDistRpm",
+            "Ft.Lib.DistExt.Build",
+            "Ft.Lib.DistExt.BuildDocs",
+            "Ft.Lib.DistExt.BuildExt",
+            "Ft.Lib.DistExt.BuildL10n",
+            "Ft.Lib.DistExt.BuildPy",
+            "Ft.Lib.DistExt.BuildScripts",
+            "Ft.Lib.DistExt.Config",
+            "Ft.Lib.DistExt.Dist",
+            "Ft.Lib.DistExt.Formatters",
+            "Ft.Lib.DistExt.Formatters.ApiFormatter",
+            "Ft.Lib.DistExt.Formatters.CommandLineFormatter",
+            "Ft.Lib.DistExt.Formatters.ExtensionFormatter",
+            "Ft.Lib.DistExt.Formatters.XmlFormatter",
+            "Ft.Lib.DistExt.Generate",
+            "Ft.Lib.DistExt.GenerateBisonGen",
+            "Ft.Lib.DistExt.GenerateL10n",
+            "Ft.Lib.DistExt.ImageHlp",
+            "Ft.Lib.DistExt.Install",
+            "Ft.Lib.DistExt.InstallConfig",
+            "Ft.Lib.DistExt.InstallData",
+            "Ft.Lib.DistExt.InstallDevel",
+            "Ft.Lib.DistExt.InstallDocs",
+            "Ft.Lib.DistExt.InstallEggInfo",
+            "Ft.Lib.DistExt.InstallHtml",
+            "Ft.Lib.DistExt.InstallL10n",
+            "Ft.Lib.DistExt.InstallLib",
+            "Ft.Lib.DistExt.InstallLocalState",
+            "Ft.Lib.DistExt.InstallMisc",
+            "Ft.Lib.DistExt.InstallScripts",
+            "Ft.Lib.DistExt.InstallSysconf",
+            "Ft.Lib.DistExt.InstallText",
+            "Ft.Lib.DistExt.ModuleFinder",
+            "Ft.Lib.DistExt.PackageManager",
+            "Ft.Lib.DistExt.Py2Exe",
+            "Ft.Lib.DistExt.SDist",
+            "Ft.Lib.DistExt.Structures",
+            "Ft.Lib.DistExt.Uninstall",
+            "Ft.Lib.DistExt.Util",
+            "Ft.Lib.DistExt.Version",
+            "Ft.Lib.Gettext",
+            "Ft.Lib.ImportUtil",
+            "Ft.Lib.Iri",
+            "Ft.Lib.MessageSource",
+            "Ft.Lib.ObjectPrint",
+            "Ft.Lib.ProgressIndicator",
+            "Ft.Lib.Random",
+            "Ft.Lib.Regex",
+            "Ft.Lib.Resolvers",
+            "Ft.Lib.Terminal",
+            "Ft.Lib.Terminfo",
+            "Ft.Lib.TestSuite",
+            "Ft.Lib.TestSuite.Errors",
+            "Ft.Lib.TestSuite.TestCoverage",
+            "Ft.Lib.TestSuite.TestFunction",
+            "Ft.Lib.TestSuite.TestLoader",
+            "Ft.Lib.TestSuite.TestMode",
+            "Ft.Lib.TestSuite.TestModule",
+            "Ft.Lib.TestSuite.TestObject",
+            "Ft.Lib.TestSuite.TestSuite",
+            "Ft.Lib.TestSuite.Tester",
+            "Ft.Lib.Time",
+            "Ft.Lib.Uri",
+            "Ft.Lib.Uuid",
+            "Ft.Xml",
+            "Ft.Xml.Catalog",
+            "Ft.Xml.Domlette",
+            "Ft.Xml.InputSource",
+            "Ft.Xml.Lib",
+            "Ft.Xml.Lib.HtmlPrettyPrinter",
+            "Ft.Xml.Lib.HtmlPrinter",
+            "Ft.Xml.Lib.Print",
+            "Ft.Xml.Lib.StripElements",
+            "Ft.Xml.Lib.TreeCompare",
+            "Ft.Xml.Lib.XmlPrettyPrinter",
+            "Ft.Xml.Lib.XmlPrinter",
+            "Ft.Xml.Lib._4xupdate",
+            "Ft.Xml.MarkupWriter",
+            "Ft.Xml.MessageSource",
+            "Ft.Xml.Sax",
+            "Ft.Xml.ThirdParty",
+            "Ft.Xml.ThirdParty.Xvif",
+            "Ft.Xml.ThirdParty.Xvif.FragmentFilter",
+            "Ft.Xml.ThirdParty.Xvif.Smart_len",
+            "Ft.Xml.ThirdParty.Xvif.TimeLib",
+            "Ft.Xml.ThirdParty.Xvif.characters",
+            "Ft.Xml.ThirdParty.Xvif.iFrameRNG",
+            "Ft.Xml.ThirdParty.Xvif.iFrameRegFrag",
+            "Ft.Xml.ThirdParty.Xvif.iFrameTypes",
+            "Ft.Xml.ThirdParty.Xvif.iFrameXSLT",
+            "Ft.Xml.ThirdParty.Xvif.iframe",
+            "Ft.Xml.ThirdParty.Xvif.rng",
+            "Ft.Xml.ThirdParty.Xvif.rngCoreTypeLib",
+            "Ft.Xml.ThirdParty.Xvif.sax2dom_chunker",
+            "Ft.Xml.ThirdParty.Xvif.wxsTypeLib",
+            "Ft.Xml.ThirdParty.Xvif.xmlchargen",
+            "Ft.Xml.ThirdParty.Xvif.xmlcomp",
+            "Ft.Xml.XInclude",
+            "Ft.Xml.XLink",
+            "Ft.Xml.XLink.Processor",
+            "Ft.Xml.XLink.XLinkElements",
+            "Ft.Xml.XPath",
+            "Ft.Xml.XPath.BuiltInExtFunctions",
+            "Ft.Xml.XPath.Context",
+            "Ft.Xml.XPath.Conversions",
+            "Ft.Xml.XPath.CoreFunctions",
+            "Ft.Xml.XPath.MathFunctions",
+            "Ft.Xml.XPath.MessageSource",
+            "Ft.Xml.XPath.ParsedAbbreviatedAbsoluteLocationPath",
+            "Ft.Xml.XPath.ParsedAbbreviatedRelativeLocationPath",
+            "Ft.Xml.XPath.ParsedAbsoluteLocationPath",
+            "Ft.Xml.XPath.ParsedAxisSpecifier",
+            "Ft.Xml.XPath.ParsedExpr",
+            "Ft.Xml.XPath.ParsedNodeTest",
+            "Ft.Xml.XPath.ParsedPredicateList",
+            "Ft.Xml.XPath.ParsedRelativeLocationPath",
+            "Ft.Xml.XPath.ParsedStep",
+            "Ft.Xml.XPath.Util",
+            "Ft.Xml.XPath.XPathTypes",
+            "Ft.Xml.XPath._4xpath",
+            "Ft.Xml.XPointer",
+            "Ft.Xml.XPointer.MessageSource",
+            "Ft.Xml.XPointer.ParsedNodeTest",
+            "Ft.Xml.XPointer.ParsedXPointer",
+            "Ft.Xml.XPointer.XPointer",
+            "Ft.Xml.XPointer.XPtrContext",
+            "Ft.Xml.XPointer.XPtrFunctions",
+            "Ft.Xml.XUpdate",
+            "Ft.Xml.Xslt",
+            "Ft.Xml.Xslt.ApplyImportsElement",
+            "Ft.Xml.Xslt.ApplyTemplatesElement",
+            "Ft.Xml.Xslt.AttributeElement",
+            "Ft.Xml.Xslt.AttributeInfo",
+            "Ft.Xml.Xslt.AttributeSetElement",
+            "Ft.Xml.Xslt.AttributeValueTemplate",
+            "Ft.Xml.Xslt.BuiltInExtElements",
+            "Ft.Xml.Xslt.BuiltInExtFunctions",
+            "Ft.Xml.Xslt.CallTemplateElement",
+            "Ft.Xml.Xslt.ChooseElement",
+            "Ft.Xml.Xslt.CommentElement",
+            "Ft.Xml.Xslt.ContentInfo",
+            "Ft.Xml.Xslt.CopyElement",
+            "Ft.Xml.Xslt.CopyOfElement",
+            "Ft.Xml.Xslt.Debugger",
+            "Ft.Xml.Xslt.Debugger.DebugCommands",
+            "Ft.Xml.Xslt.Debugger.DebugController",
+            "Ft.Xml.Xslt.Debugger.DebugWriter",
+            "Ft.Xml.Xslt.Debugger.TerminalInput",
+            "Ft.Xml.Xslt.Debugger.TerminalOutput",
+            "Ft.Xml.Xslt.DomWriter",
+            "Ft.Xml.Xslt.ElementElement",
+            "Ft.Xml.Xslt.Exslt",
+            "Ft.Xml.Xslt.Exslt.Common",
+            "Ft.Xml.Xslt.Exslt.DateTime",
+            "Ft.Xml.Xslt.Exslt.Dynamic",
+            "Ft.Xml.Xslt.Exslt.Functions",
+            "Ft.Xml.Xslt.Exslt.Math_",
+            "Ft.Xml.Xslt.Exslt.MessageSource",
+            "Ft.Xml.Xslt.Exslt.RegularExpressions",
+            "Ft.Xml.Xslt.Exslt.Sets",
+            "Ft.Xml.Xslt.Exslt.Strings",
+            "Ft.Xml.Xslt.ExtendedProcessingElements",
+            "Ft.Xml.Xslt.ForEachElement",
+            "Ft.Xml.Xslt.GenericVariable",
+            "Ft.Xml.Xslt.HtmlWriter",
+            "Ft.Xml.Xslt.IfElement",
+            "Ft.Xml.Xslt.LiteralElement",
+            "Ft.Xml.Xslt.MessageElement",
+            "Ft.Xml.Xslt.MessageSource",
+            "Ft.Xml.Xslt.NullWriter",
+            "Ft.Xml.Xslt.NumberElement",
+            "Ft.Xml.Xslt.NumberFormatter",
+            "Ft.Xml.Xslt.OtherXslElement",
+            "Ft.Xml.Xslt.OutputHandler",
+            "Ft.Xml.Xslt.OutputParameters",
+            "Ft.Xml.Xslt.ParamElement",
+            "Ft.Xml.Xslt.PlainTextWriter",
+            "Ft.Xml.Xslt.ProcessingInstructionElement",
+            "Ft.Xml.Xslt.Processor",
+            "Ft.Xml.Xslt.Roman",
+            "Ft.Xml.Xslt.RtfWriter",
+            "Ft.Xml.Xslt.SaxWriter",
+            "Ft.Xml.Xslt.SortElement",
+            "Ft.Xml.Xslt.StringWriter",
+            "Ft.Xml.Xslt.Stylesheet",
+            "Ft.Xml.Xslt.StylesheetHandler",
+            "Ft.Xml.Xslt.StylesheetReader",
+            "Ft.Xml.Xslt.StylesheetTree",
+            "Ft.Xml.Xslt.TemplateElement",
+            "Ft.Xml.Xslt.TextElement",
+            "Ft.Xml.Xslt.TextSax",
+            "Ft.Xml.Xslt.UndefinedElements",
+            "Ft.Xml.Xslt.ValueOfElement",
+            "Ft.Xml.Xslt.VariableElement",
+            "Ft.Xml.Xslt.WhitespaceElements",
+            "Ft.Xml.Xslt.WithParamElement",
+            "Ft.Xml.Xslt.XPathExtensions",
+            "Ft.Xml.Xslt.XPatterns",
+            "Ft.Xml.Xslt.XmlWriter",
+            "Ft.Xml.Xslt.XsltContext",
+            "Ft.Xml.Xslt.XsltFunctions",
+            "Ft.Xml.Xslt._4xslt",
+            "Ft.Xml.Xvif",
+            "Ft.Xml._4xml",
+            "Ft.Xml.cDomlette",
+            "Lib",
+            "Lib.test_escape_quotes",
+            "Lib.test_random",
+            "Lib.test_set",
+            "Lib.test_time",
+            "Lib.test_uri",
+            "Xml",
+            "Xml.Borrowed",
+            "Xml.Borrowed.ie-050515",
+            "Xml.Borrowed.jb-060405",
+            "Xml.Borrowed.rs-030516",
+            "Xml.Borrowed.rs-060405",
+            "Xml.Borrowed.uo-051205",
+            "Xml.Core",
+            "Xml.Core.relaxng_datatypes",
+            "Xml.Core.test_c14n",
+            "Xml.Core.test_catalog",
+            "Xml.Core.test_convenience_parse",
+            "Xml.Core.test_domlette",
+            "Xml.Core.test_domlette_interfaces",
+            "Xml.Core.test_domlette_memory",
+            "Xml.Core.test_domlette_readers",
+            "Xml.Core.test_domlette_writers",
+            "Xml.Core.test_format_number",
+            "Xml.Core.test_markup_writer",
+            "Xml.Core.test_nss",
+            "Xml.Core.test_parse_fragment",
+            "Xml.Core.test_printers",
+            "Xml.Core.test_ranges",
+            "Xml.Core.test_relax_ng",
+            "Xml.Core.test_saxlette",
+            "Xml.Core.test_saxlette_scenarios",
+            "Xml.Core.test_xinclude",
+            "Xml.Core.test_xmlstring",
+            "Xml.Core.test_xupdate",
+            "Xml.XLink",
+            "Xml.XLink.test_simple",
+            "Xml.XPath",
+            "Xml.XPath.Borrowed",
+            "Xml.XPath.Borrowed.cz_20030217",
+            "Xml.XPath.Borrowed.kd_20010423",
+            "Xml.XPath.Borrowed.mb_20020709",
+            "Xml.XPath.Borrowed.ml_20000128",
+            "Xml.XPath.Borrowed.od_20000608",
+            "Xml.XPath.Borrowed.rs_20010831",
+            "Xml.XPath.Borrowed.sr_20021217",
+            "Xml.XPath.Core",
+            "Xml.XPath.Core.DummyExpr",
+            "Xml.XPath.Core.test_boolean_expr",
+            "Xml.XPath.Core.test_core_functions",
+            "Xml.XPath.Core.test_external_interfaces",
+            "Xml.XPath.Core.test_literal_expr",
+            "Xml.XPath.Core.test_location_path",
+            "Xml.XPath.Core.test_node_test",
+            "Xml.XPath.Core.test_nodeset_expr",
+            "Xml.XPath.Core.test_numeric_expr",
+            "Xml.XPath.Core.test_parser",
+            "Xml.XPath.Core.test_predicate_list",
+            "Xml.XPath.Core.test_step",
+            "Xml.XPointer",
+            "Xml.XPointer.basic_test",
+            "Xml.XPointer.test_parser",
+            "Xml.Xslt",
+            "Xml.Xslt.Borrowed",
+            "Xml.Xslt.Borrowed.af_20000922",
+            "Xml.Xslt.Borrowed.ag_20000713",
+            "Xml.Xslt.Borrowed.ar_20001110",
+            "Xml.Xslt.Borrowed.at_20000618",
+            "Xml.Xslt.Borrowed.be_20020802",
+            "Xml.Xslt.Borrowed.bh_20010501",
+            "Xml.Xslt.Borrowed.bl_20030130",
+            "Xml.Xslt.Borrowed.ce_20000527",
+            "Xml.Xslt.Borrowed.ce_20000819",
+            "Xml.Xslt.Borrowed.cp_20011213",
+            "Xml.Xslt.Borrowed.cs_20000103",
+            "Xml.Xslt.Borrowed.cs_20011116",
+            "Xml.Xslt.Borrowed.d_20010308",
+            "Xml.Xslt.Borrowed.da_20000714",
+            "Xml.Xslt.Borrowed.dc_19991210",
+            "Xml.Xslt.Borrowed.dc_20000110",
+            "Xml.Xslt.Borrowed.dc_20000210",
+            "Xml.Xslt.Borrowed.dc_20000225",
+            "Xml.Xslt.Borrowed.dc_20000510",
+            "Xml.Xslt.Borrowed.dc_20000921",
+            "Xml.Xslt.Borrowed.dc_20001012",
+            "Xml.Xslt.Borrowed.dc_20001112",
+            "Xml.Xslt.Borrowed.dc_20011117",
+            "Xml.Xslt.Borrowed.dg_20010503",
+            "Xml.Xslt.Borrowed.dh_20000530",
+            "Xml.Xslt.Borrowed.dm_20010506",
+            "Xml.Xslt.Borrowed.dm_20010714",
+            "Xml.Xslt.Borrowed.dm_20010815",
+            "Xml.Xslt.Borrowed.dn_20010504",
+            "Xml.Xslt.Borrowed.dn_20020325",
+            "Xml.Xslt.Borrowed.dp_20000306",
+            "Xml.Xslt.Borrowed.dp_20000310",
+            "Xml.Xslt.Borrowed.dp_20011212",
+            "Xml.Xslt.Borrowed.dp_20011217",
+            "Xml.Xslt.Borrowed.ed_20000428",
+            "Xml.Xslt.Borrowed.em_20001125",
+            "Xml.Xslt.Borrowed.em_20010101",
+            "Xml.Xslt.Borrowed.ep_20020718",
+            "Xml.Xslt.Borrowed.ev_20000324",
+            "Xml.Xslt.Borrowed.evdv_20030203-1",
+            "Xml.Xslt.Borrowed.evdv_20030203-2",
+            "Xml.Xslt.Borrowed.evdv_20060904",
+            "Xml.Xslt.Borrowed.fc_20001125",
+            "Xml.Xslt.Borrowed.fn_20000913",
+            "Xml.Xslt.Borrowed.gg_20000722",
+            "Xml.Xslt.Borrowed.gkh_20000804",
+            "Xml.Xslt.Borrowed.gkh_20001016",
+            "Xml.Xslt.Borrowed.jd_20000911",
+            "Xml.Xslt.Borrowed.jk_20050406",
+            "Xml.Xslt.Borrowed.jlc_20060225",
+            "Xml.Xslt.Borrowed.jlc_20060711",
+            "Xml.Xslt.Borrowed.js_20001004",
+            "Xml.Xslt.Borrowed.js_20001012",
+            "Xml.Xslt.Borrowed.js_20001016",
+            "Xml.Xslt.Borrowed.jt_20000808",
+            "Xml.Xslt.Borrowed.jt_20001117",
+            "Xml.Xslt.Borrowed.jt_20001120",
+            "Xml.Xslt.Borrowed.kh_20030920",
+            "Xml.Xslt.Borrowed.km_19991209",
+            "Xml.Xslt.Borrowed.km_20000204",
+            "Xml.Xslt.Borrowed.km_20000207",
+            "Xml.Xslt.Borrowed.km_xmascracker",
+            "Xml.Xslt.Borrowed.lmg_20001031",
+            "Xml.Xslt.Borrowed.mb_20010106",
+            "Xml.Xslt.Borrowed.mb_20010718",
+            "Xml.Xslt.Borrowed.mb_20010913",
+            "Xml.Xslt.Borrowed.mb_20010914",
+            "Xml.Xslt.Borrowed.mb_20010917",
+            "Xml.Xslt.Borrowed.mb_20011019",
+            "Xml.Xslt.Borrowed.mb_20011105",
+            "Xml.Xslt.Borrowed.mb_20020527",
+            "Xml.Xslt.Borrowed.mb_20020709",
+            "Xml.Xslt.Borrowed.mb_20020715",
+            "Xml.Xslt.Borrowed.mb_20020907",
+            "Xml.Xslt.Borrowed.mb_20021016",
+            "Xml.Xslt.Borrowed.mb_20030210",
+            "Xml.Xslt.Borrowed.mb_20030223",
+            "Xml.Xslt.Borrowed.mb_20030915",
+            "Xml.Xslt.Borrowed.mb_20041215",
+            "Xml.Xslt.Borrowed.mg_20010530",
+            "Xml.Xslt.Borrowed.mn_19991221",
+            "Xml.Xslt.Borrowed.mn_20001128",
+            "Xml.Xslt.Borrowed.mo_20001217",
+            "Xml.Xslt.Borrowed.ms_20000329",
+            "Xml.Xslt.Borrowed.nk_20030429",
+            "Xml.Xslt.Borrowed.ob_20000613",
+            "Xml.Xslt.Borrowed.ob_20010518",
+            "Xml.Xslt.Borrowed.oc_20001122",
+            "Xml.Xslt.Borrowed.oc_20010115",
+            "Xml.Xslt.Borrowed.oc_20010315",
+            "Xml.Xslt.Borrowed.oc_20010817",
+            "Xml.Xslt.Borrowed.og_20010503",
+            "Xml.Xslt.Borrowed.og_20010506",
+            "Xml.Xslt.Borrowed.og_20010507",
+            "Xml.Xslt.Borrowed.pt_20000805",
+            "Xml.Xslt.Borrowed.rs_20030311",
+            "Xml.Xslt.Borrowed.rt_20000515",
+            "Xml.Xslt.Borrowed.rvd_20030322",
+            "Xml.Xslt.Borrowed.sb_20000628",
+            "Xml.Xslt.Borrowed.sm_19991228",
+            "Xml.Xslt.Borrowed.sm_20000304",
+            "Xml.Xslt.Borrowed.sm_20000509",
+            "Xml.Xslt.Borrowed.sm_20001129",
+            "Xml.Xslt.Borrowed.sp_20000818",
+            "Xml.Xslt.Borrowed.spec_attribute_set",
+            "Xml.Xslt.Borrowed.spec_namespace_alias",
+            "Xml.Xslt.Borrowed.ss_20010301",
+            "Xml.Xslt.Borrowed.st_20000210",
+            "Xml.Xslt.Borrowed.st_20000324",
+            "Xml.Xslt.Borrowed.tg_20010628",
+            "Xml.Xslt.Borrowed.tk_20001125",
+            "Xml.Xslt.Borrowed.tm_19991120",
+            "Xml.Xslt.Borrowed.uo_20000817",
+            "Xml.Xslt.Borrowed.uo_20000923",
+            "Xml.Xslt.Borrowed.uo_20000929",
+            "Xml.Xslt.Borrowed.uo_20001030",
+            "Xml.Xslt.Borrowed.uo_20001208",
+            "Xml.Xslt.Borrowed.uo_20010112",
+            "Xml.Xslt.Borrowed.uo_20010502",
+            "Xml.Xslt.Borrowed.uo_20010503",
+            "Xml.Xslt.Borrowed.uo_20010717",
+            "Xml.Xslt.Borrowed.uo_20010814",
+            "Xml.Xslt.Borrowed.uo_20020909",
+            "Xml.Xslt.Borrowed.uo_20030109",
+            "Xml.Xslt.Borrowed.uo_20061009",
+            "Xml.Xslt.Borrowed.w3c_xslt_spec",
+            "Xml.Xslt.Borrowed.wh_20000607",
+            "Xml.Xslt.Core",
+            "Xml.Xslt.Core.basic_test",
+            "Xml.Xslt.Core.test_api",
+            "Xml.Xslt.Core.test_apply_imports",
+            "Xml.Xslt.Core.test_apply_templates",
+            "Xml.Xslt.Core.test_attribute",
+            "Xml.Xslt.Core.test_attribute_set",
+            "Xml.Xslt.Core.test_avt",
+            "Xml.Xslt.Core.test_call_template",
+            "Xml.Xslt.Core.test_choose",
+            "Xml.Xslt.Core.test_command_line",
+            "Xml.Xslt.Core.test_compiled_stylesheet",
+            "Xml.Xslt.Core.test_copy",
+            "Xml.Xslt.Core.test_copy_of",
+            "Xml.Xslt.Core.test_disoutesc",
+            "Xml.Xslt.Core.test_elem_attr",
+            "Xml.Xslt.Core.test_extensions_1",
+            "Xml.Xslt.Core.test_fallback",
+            "Xml.Xslt.Core.test_ft_assign",
+            "Xml.Xslt.Core.test_ft_elems",
+            "Xml.Xslt.Core.test_ft_funcs",
+            "Xml.Xslt.Core.test_ft_output",
+            "Xml.Xslt.Core.test_ft_replace",
+            "Xml.Xslt.Core.test_general_errors",
+            "Xml.Xslt.Core.test_handler_override",
+            "Xml.Xslt.Core.test_if",
+            "Xml.Xslt.Core.test_import",
+            "Xml.Xslt.Core.test_include",
+            "Xml.Xslt.Core.test_key",
+            "Xml.Xslt.Core.test_literals",
+            "Xml.Xslt.Core.test_message",
+            "Xml.Xslt.Core.test_namespace_alias",
+            "Xml.Xslt.Core.test_number_sort",
+            "Xml.Xslt.Core.test_output",
+            "Xml.Xslt.Core.test_output_extensions",
+            "Xml.Xslt.Core.test_patterns",
+            "Xml.Xslt.Core.test_performance_matrix",
+            "Xml.Xslt.Core.test_pi",
+            "Xml.Xslt.Core.test_profile",
+            "Xml.Xslt.Core.test_runnode",
+            "Xml.Xslt.Core.test_sty_inc_paths",
+            "Xml.Xslt.Core.test_text_foreign_objects",
+            "Xml.Xslt.Core.test_variable",
+            "Xml.Xslt.Core.test_ws_handling",
+            "Xml.Xslt.Core.test_xslfunctions",
+            "Xml.Xslt.Exslt",
+            "Xml.Xslt.Exslt.test_common",
+            "Xml.Xslt.Exslt.test_datetime",
+            "Xml.Xslt.Exslt.test_dynamic",
+            "Xml.Xslt.Exslt.test_functions",
+            "Xml.Xslt.Exslt.test_math",
+            "Xml.Xslt.Exslt.test_regexp",
+            "Xml.Xslt.Exslt.test_sets",
+            "Xml.Xslt.Exslt.test_strings",
+            "Xml.Xslt.test_harness"
+        ],
+        "version": "1.0.2"
+    },
+    "5": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0"
+    },
+    "5-exercise-upload-to-pypi": {
+        "cmdline": [],
+        "modules": [
+            "5_exercise_upload_to_pypi.setup"
+        ],
+        "version": "1.2"
+    },
+    "5090-distributions": {
+        "cmdline": [],
+        "modules": [
+            "5090_distributions",
+            "5090_distributions.Binomialdistribution",
+            "5090_distributions.Gaussiandistribution",
+            "5090_distributions.Generaldistribution"
+        ],
+        "version": "0.1"
+    },
+    "51degrees-mobile-detector": {
+        "cmdline": [],
+        "modules": [
+            "fiftyone_degrees",
+            "fiftyone_degrees.mobile_detector",
+            "fiftyone_degrees.mobile_detector.conf",
+            "fiftyone_degrees.mobile_detector.conf.default",
+            "fiftyone_degrees.mobile_detector.contrib",
+            "fiftyone_degrees.mobile_detector.contrib.django",
+            "fiftyone_degrees.mobile_detector.contrib.django.context_processors",
+            "fiftyone_degrees.mobile_detector.contrib.django.middleware",
+            "fiftyone_degrees.mobile_detector.runner",
+            "fiftyone_degrees.mobile_detector.usage"
+        ],
+        "version": "3.2.18.4"
+    },
+    "51degrees-mobile-detector-lite-pattern-wrapper": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0"
+    },
+    "51degrees-mobile-detector-trie-wrapper": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0"
+    },
+    "51degrees-mobile-detector-v3-trie-wrapper": {
+        "cmdline": [],
+        "modules": [
+            "FiftyOneDegrees",
+            "FiftyOneDegrees.fiftyone_degrees_mobile_detector_v3_trie_wrapper"
+        ],
+        "version": "3.2.18.4"
+    },
+    "51degrees-mobile-detector-v3-wrapper": {
+        "cmdline": [],
+        "modules": [
+            "FiftyOneDegrees",
+            "FiftyOneDegrees.fiftyone_degrees_mobile_detector_v3_wrapper"
+        ],
+        "version": "3.2.18.4"
+    },
+    "51degreesmobiledetector": {
+        "cmdline": [],
+        "modules": [
+            "51degreesmobiledetector",
+            "51degreesmobiledetector.cli"
+        ],
+        "version": "0.1.1"
+    },
+    "51degreesmobiledetectorv3triewrapper": {
+        "cmdline": [],
+        "modules": [
+            "51degreesmobiledetectorv3triewrapper",
+            "51degreesmobiledetectorv3triewrapper.cli"
+        ],
+        "version": "0.1.1"
+    },
+    "51degreesmobiledetectorv3wrapper": {
+        "cmdline": [],
+        "modules": [
+            "51degreesmobiledetectorv3wrapper",
+            "51degreesmobiledetectorv3wrapper.cli"
+        ],
+        "version": "0.1.1"
+    },
+    "51pub-pymodules": {
+        "cmdline": [],
+        "modules": [
+            "opmysql",
+            "opmysql.mysqldb"
+        ],
+        "version": "0.0.1"
+    },
+    "51pubmodules": {
+        "cmdline": [],
+        "modules": [
+            "opmysql",
+            "opmysql.mysqldb"
+        ],
+        "version": "0.0.2"
+    },
+    "5minute": {
+        "cmdline": [],
+        "modules": [
+            "vminute",
+            "vminute.vminute"
+        ],
+        "version": "0.2.1"
+    },
+    "5o4drel5mk": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
+    },
+    "650-auto-comp-jaewon": {
+        "cmdline": [],
+        "modules": [
+            "650-auto-comp-jaewon.autocomplete_me"
+        ],
+        "version": "0.4"
+    },
+    "652ga": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.3.1"
+    },
+    "69": {
+        "cmdline": [],
+        "modules": [],
+        "version": "6.9"
+    },
+    "6d657461666c6f77": {
+        "cmdline": [],
+        "modules": [
+            "metaflow",
+            "metaflow.cli",
+            "metaflow.client",
+            "metaflow.client.core",
+            "metaflow.client.filecache",
+            "metaflow.cmd_with_io",
+            "metaflow.current",
+            "metaflow.datastore",
+            "metaflow.datastore.datastore",
+            "metaflow.datastore.datastore_set",
+            "metaflow.datastore.local",
+            "metaflow.datastore.s3",
+            "metaflow.datastore.util",
+            "metaflow.datastore.util.s3tail",
+            "metaflow.datastore.util.s3util",
+            "metaflow.datatools",
+            "metaflow.datatools.s3",
+            "metaflow.datatools.s3op",
+            "metaflow.debug",
+            "metaflow.decorators",
+            "metaflow.environment",
+            "metaflow.event_logger",
+            "metaflow.exception",
+            "metaflow.flowspec",
+            "metaflow.graph",
+            "metaflow.includefile",
+            "metaflow.lint",
+            "metaflow.main_cli",
+            "metaflow.metadata",
+            "metaflow.metadata.local",
+            "metaflow.metadata.metadata",
+            "metaflow.metadata.service",
+            "metaflow.metaflow_config",
+            "metaflow.metaflow_profile",
+            "metaflow.metaflow_version",
+            "metaflow.monitor",
+            "metaflow.multicore_utils",
+            "metaflow.package",
+            "metaflow.parameters",
+            "metaflow.plugins",
+            "metaflow.plugins.aws",
+            "metaflow.plugins.aws.batch",
+            "metaflow.plugins.aws.batch.batch",
+            "metaflow.plugins.aws.batch.batch_cli",
+            "metaflow.plugins.aws.batch.batch_client",
+            "metaflow.plugins.aws.batch.batch_decorator",
+            "metaflow.plugins.catch_decorator",
+            "metaflow.plugins.conda",
+            "metaflow.plugins.conda.batch_bootstrap",
+            "metaflow.plugins.conda.conda",
+            "metaflow.plugins.conda.conda_environment",
+            "metaflow.plugins.conda.conda_flow_decorator",
+            "metaflow.plugins.conda.conda_step_decorator",
+            "metaflow.plugins.debug_logger",
+            "metaflow.plugins.debug_monitor",
+            "metaflow.plugins.environment_decorator",
+            "metaflow.plugins.package_cli",
+            "metaflow.plugins.retry_decorator",
+            "metaflow.plugins.timeout_decorator",
+            "metaflow.procpoll",
+            "metaflow.pylint_wrapper",
+            "metaflow.runtime",
+            "metaflow.sidecar",
+            "metaflow.sidecar_messages",
+            "metaflow.sidecar_worker",
+            "metaflow.task",
+            "metaflow.util"
+        ],
+        "version": "0.0.17"
+    },
+    "6du-tv": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.22"
+    },
+    "7": {
+        "cmdline": [],
+        "modules": [
+            "7"
+        ],
+        "version": "0.0.0"
+    },
+    "73-portlet-links": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "73-unlockitems": {
+        "cmdline": [],
+        "modules": [
+            "73",
+            "73.unlockItems",
+            "73.unlockItems.browser",
+            "73.unlockItems.browser.unlock",
+            "73.unlockItems.setuphandlers",
+            "73.unlockItems.tests"
+        ],
+        "version": "0.3"
+    },
+    "7i96": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.2"
+    },
+    "7lk-ocr-deploy": {
+        "cmdline": [],
+        "modules": [
+            "libsvm",
+            "libsvm.svm",
+            "libsvm.svmutil"
+        ],
+        "version": "0.1.69"
+    },
+    "7pack": {
+        "cmdline": [
+            "7pack",
+            "indexed.json"
+        ],
+        "modules": [],
+        "version": "0.0.2"
+    },
+    "7q-nester": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "7seg-bytebird": {
+        "cmdline": [],
+        "modules": [
+            "ByteBird",
+            "ByteBird.game"
+        ],
+        "version": "0.2"
+    },
+    "7th": {
+        "cmdline": [],
+        "modules": [
+            "7th"
+        ],
+        "version": "1.0.0"
+    },
+    "7xydothis": {
+        "cmdline": [],
+        "modules": [
+            "something"
+        ],
+        "version": "0.1.1"
+    },
+    "88orm": {
+        "cmdline": [],
+        "modules": [
+            "orm88",
+            "orm88.connector",
+            "orm88.models",
+            "orm88.related_descriptors"
+        ],
+        "version": "0.1.9.1"
+    },
+    "88orm-service-connector": {
+        "cmdline": [],
+        "modules": [
+            "orm_service_connector88",
+            "orm_service_connector88.connector",
+            "orm_service_connector88.models",
+            "orm_service_connector88.serializers"
+        ],
+        "version": "0.3.3"
+    },
+    "88rest": {
+        "cmdline": [],
+        "modules": [
+            "rest88",
+            "rest88.generics",
+            "rest88.request",
+            "rest88.routers",
+            "rest88.serializers",
+            "rest88.views",
+            "rest88.viewsets"
+        ],
+        "version": "0.1.9"
+    },
+    "8a-scraper": {
+        "cmdline": [],
+        "modules": [
+            "_8a_scraper",
+            "_8a_scraper.ascents",
+            "_8a_scraper.users",
+            "_8a_scraper.utils",
+            "test",
+            "test.test_ascents",
+            "test.test_users"
+        ],
+        "version": "0.0.2"
+    },
+    "8exbypina": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "908dist": {
+        "cmdline": [],
+        "modules": [
+            "nester"
+        ],
+        "version": "1.2.2"
+    },
+    "91act-platform": {
+        "cmdline": [],
+        "modules": [
+            "alarm_util_pkg",
+            "alarm_util_pkg.core",
+            "alarm_util_pkg.demo"
+        ],
+        "version": "1.0.5"
+    },
+    "91downloader": {
+        "cmdline": [
+            "91downloader.py"
+        ],
+        "modules": [],
+        "version": "0.5.3"
+    },
+    "91tvspider": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "99d4aa80-d846-424f-873b-a02c7215fc54": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.0"
+    }
+}

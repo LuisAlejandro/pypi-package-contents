@@ -1,0 +1,3346 @@
+[INFO] Starting execution.
+[INFO] Downloading package list from PyPI ...
+[ERROR] (y) This package does not have downloadable releases.
+[INFO] (y-lineagetracker) Data has been updated for this package.
+[INFO] (y-nester) This package is up to date.
+[INFO] (y-rip) This package is up to date.
+[ERROR] (y-serial) Could not extract data from this package. See below for details.
+".py" extension not supported.
+[INFO] (y-trans) This package is up to date.
+[INFO] (y-w) This package is up to date.
+[INFO] (y0) Data has been updated for this package.
+[ERROR] (y001fj-nester) This package does not have downloadable releases.
+[INFO] (y1z1ncalculator) This package is up to date.
+[INFO] (y2b) This package is up to date.
+[INFO] (y2j) This package is up to date.
+[INFO] (y2t) This package is up to date.
+[INFO] (y2z-distributions) This package is up to date.
+[INFO] (y4m) This package is up to date.
+[INFO] (ya) Data has been updated for this package.
+[INFO] (ya-aioclient) Data has been updated for this package.
+[INFO] (ya-client-activity) This package is up to date.
+[INFO] (ya-client-payment) This package is up to date.
+[INFO] (ya-direct-api) This package is up to date.
+[INFO] (ya-dotdict) This package is up to date.
+[INFO] (ya-ecs-ctl) Data has been updated for this package.
+[INFO] (ya-ma) This package is up to date.
+[INFO] (ya-market) This package is up to date.
+[INFO] (ya-music-to-tg-channel-downloader-pkg-arsdev) This package is up to date.
+[INFO] (ya-resourcepool) This package is up to date.
+[INFO] (ya-speech-key) This package is up to date.
+[INFO] (yaab) This package is up to date.
+[INFO] (yaacl) This package is up to date.
+[INFO] (yaaf) This package is up to date.
+[INFO] (yaahn) This package is up to date.
+[INFO] (yaak-inject) This package is up to date.
+[ERROR] (yaamp) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yaap) This package is up to date.
+[INFO] (yaar) This package is up to date.
+[INFO] (yaargh) This package is up to date.
+[INFO] (yaargh-dummy-argh) This package is up to date.
+[INFO] (yaat) This package is up to date.
+[ERROR] (yab) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yabc) This package is up to date.
+[INFO] (yabealice-test) This package is up to date.
+[INFO] (yabencode) This package is up to date.
+[INFO] (yabgp) This package is up to date.
+[INFO] (yabmp) This package is up to date.
+[INFO] (yabn) This package is up to date.
+[INFO] (yabormeparser) This package is up to date.
+[INFO] (yabox) This package is up to date.
+[INFO] (yabs) Data has been updated for this package.
+[INFO] (yabs-cowsay) This package is up to date.
+[INFO] (yabt) This package is up to date.
+[INFO] (yabtool) This package is up to date.
+[INFO] (yabu) This package is up to date.
+[INFO] (yac) This package is up to date.
+[ERROR] (yac-scrypt) Could not extract data from this package. See below for details.
+"https://bitbucket.org/mmitech/yac_scrypt/get/12613d54f43a.zip" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yacache) Data has been updated for this package.
+[INFO] (yacargo) This package is up to date.
+[INFO] (yacbv) This package is up to date.
+[INFO] (yacf) This package is up to date.
+[INFO] (yacfg) This package is up to date.
+[INFO] (yacgol) This package is up to date.
+[INFO] (yachain) This package is up to date.
+[INFO] (yaci) This package is up to date.
+[ERROR] (yacis) This package does not have downloadable releases.
+[INFO] (yack) This package is up to date.
+[INFO] (yacl) This package is up to date.
+[INFO] (yacli) This package is up to date.
+[INFO] (yaclifw) This package is up to date.
+[INFO] (yacluster) This package is up to date.
+[INFO] (yacm) This package is up to date.
+[INFO] (yacman) This package is up to date.
+[INFO] (yacms) This package is up to date.
+[INFO] (yacmt-core) This package is up to date.
+[INFO] (yacmt-gui) This package is up to date.
+[INFO] (yaco) This package is up to date.
+[INFO] (yaco-applyfun) This package is up to date.
+[INFO] (yaco-deliverancethemeselector) This package is up to date.
+[INFO] (yaco-hghooks) This package is up to date.
+[INFO] (yaco-recipe-cert) This package is up to date.
+[INFO] (yaco-recipe-medialinker) This package is up to date.
+[INFO] (yaco-recipe-patch) This package is up to date.
+[INFO] (yaco-recipe-pycairo) This package is up to date.
+[INFO] (yaco-recipe-uwsgi) This package is up to date.
+[INFO] (yaco-releaser) This package is up to date.
+[INFO] (yacof) This package is up to date.
+[INFO] (yaconf) This package is up to date.
+[INFO] (yaconfig) Data has been updated for this package.
+[INFO] (yaconfigobject) This package is up to date.
+[INFO] (yacontracts) This package is up to date.
+[INFO] (yacron) Data has been updated for this package.
+[INFO] (yacryptopan) This package is up to date.
+[INFO] (yacs) This package is up to date.
+[INFO] (yact) This package is up to date.
+[INFO] (yad) This package is up to date.
+[INFO] (yad-uploader) This package is up to date.
+[INFO] (yada) Data has been updated for this package.
+[INFO] (yadage) This package is up to date.
+[INFO] (yadage-fork) This package is up to date.
+[INFO] (yadage-haiku) This package is up to date.
+[INFO] (yadage-httpctrl-server) This package is up to date.
+[INFO] (yadage-schemas) This package is up to date.
+[INFO] (yadage-service-cli) This package is up to date.
+[INFO] (yadapy) This package is up to date.
+[INFO] (yadashcomp) This package is up to date.
+[INFO] (yadayada) This package is up to date.
+[ERROR] (yadda) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yaddle) This package is up to date.
+[INFO] (yades-api) This package is up to date.
+[INFO] (yades-smtp) This package is up to date.
+[INFO] (yadi) This package is up to date.
+[INFO] (yadi-framework) This package is up to date.
+[INFO] (yadi-py) This package is up to date.
+[INFO] (yadi2) This package is up to date.
+[INFO] (yadic) This package is up to date.
+[INFO] (yadict-compare) This package is up to date.
+[INFO] (yadil) This package is up to date.
+[INFO] (yadirstat) Data has been updated for this package.
+[INFO] (yadisk) This package is up to date.
+[INFO] (yadisk-api) This package is up to date.
+[INFO] (yadisk-async) This package is up to date.
+[INFO] (yadiskclient) This package is up to date.
+[INFO] (yadism) Data has been updated for this package.
+[INFO] (yadll) This package is up to date.
+[INFO] (yadlt) This package is up to date.
+[INFO] (yadm) This package is up to date.
+[INFO] (yadns) This package is up to date.
+[INFO] (yadokari) This package is up to date.
+[INFO] (yadoma) This package is up to date.
+[INFO] (yadtbroadcast-client) This package is up to date.
+[INFO] (yadtbroadcast-client-wamp2) This package is up to date.
+[INFO] (yadtcommons) This package is up to date.
+[INFO] (yadtcontroller) This package is up to date.
+[INFO] (yadtreceiver) This package is up to date.
+[INFO] (yadtshell) This package is up to date.
+[INFO] (yadupe) This package is up to date.
+[INFO] (yaenum) This package is up to date.
+[INFO] (yaenv) This package is up to date.
+[INFO] (yaep) This package is up to date.
+[INFO] (yaf) This package is up to date.
+[INFO] (yafa-grpc) This package is up to date.
+[INFO] (yafasttext) This package is up to date.
+[INFO] (yafe) This package is up to date.
+[INFO] (yaff) This package is up to date.
+[INFO] (yafg) This package is up to date.
+[INFO] (yafowil) This package is up to date.
+[INFO] (yafowil-bootstrap) This package is up to date.
+[INFO] (yafowil-documentation) This package is up to date.
+[INFO] (yafowil-lingua) This package is up to date.
+[INFO] (yafowil-plone) This package is up to date.
+[INFO] (yafowil-webob) This package is up to date.
+[INFO] (yafowil-werkzeug) This package is up to date.
+[INFO] (yafowil-widget-ace) This package is up to date.
+[INFO] (yafowil-widget-array) This package is up to date.
+[INFO] (yafowil-widget-autocomplete) This package is up to date.
+[INFO] (yafowil-widget-chosen) This package is up to date.
+[INFO] (yafowil-widget-cron) This package is up to date.
+[INFO] (yafowil-widget-datetime) This package is up to date.
+[INFO] (yafowil-widget-dict) This package is up to date.
+[INFO] (yafowil-widget-dynatree) This package is up to date.
+[INFO] (yafowil-widget-image) This package is up to date.
+[INFO] (yafowil-widget-location) This package is up to date.
+[INFO] (yafowil-widget-multiselect) This package is up to date.
+[INFO] (yafowil-widget-recaptcha) This package is up to date.
+[INFO] (yafowil-widget-richtext) This package is up to date.
+[INFO] (yafowil-widget-select2) This package is up to date.
+[INFO] (yafowil-widget-slider) This package is up to date.
+[INFO] (yafowil-widget-wysihtml5) This package is up to date.
+[INFO] (yafowil-yaml) This package is up to date.
+[INFO] (yafowil-zope2) This package is up to date.
+[INFO] (yafs) This package is up to date.
+[INFO] (yafsm) This package is up to date.
+[INFO] (yaft) This package is up to date.
+[INFO] (yafte) This package is up to date.
+[INFO] (yafwi) This package is up to date.
+[INFO] (yag) This package is up to date.
+[INFO] (yag-slam) This package is up to date.
+[INFO] (yaga) This package is up to date.
+[INFO] (yagdspy) This package is up to date.
+[INFO] (yager) Data has been updated for this package.
+[INFO] (yaghurl) This package is up to date.
+[INFO] (yagi) This package is up to date.
+[INFO] (yagmail) This package is up to date.
+[INFO] (yagmail-foxmail) This package is up to date.
+[INFO] (yagmail-outlook) This package is up to date.
+[INFO] (yagocd) This package is up to date.
+[INFO] (yagolabelfetcherpy) This package is up to date.
+[INFO] (yagot) This package is up to date.
+[INFO] (yagrc) Data has been updated for this package.
+[INFO] (yagt) This package is up to date.
+[INFO] (yagura) This package is up to date.
+[INFO] (yaha) This package is up to date.
+[INFO] (yahfin) Data has been updated for this package.
+[INFO] (yahgrab) This package is up to date.
+[INFO] (yahi) This package is up to date.
+[ERROR] (yahiko) Could not extract data from this package. See below for details.
+This package download URL does not point to a valid file: "http://samurai-x.org/downloads/"
+[INFO] (yahist) Data has been updated for this package.
+[INFO] (yahmm) This package is up to date.
+[INFO] (yahoo) This package is up to date.
+[INFO] (yahoo-ads-display) This package is up to date.
+[INFO] (yahoo-ads-search) This package is up to date.
+[INFO] (yahoo-api) This package is up to date.
+[ERROR] (yahoo-contrib-panoptes) This package does not have downloadable releases.
+[INFO] (yahoo-draft-wizard) This package is up to date.
+[INFO] (yahoo-earnings-calendar) This package is up to date.
+[INFO] (yahoo-fantasy-api) Data has been updated for this package.
+[INFO] (yahoo-fantasy-bot) This package is up to date.
+[INFO] (yahoo-ff) This package is up to date.
+[INFO] (yahoo-fin) This package is up to date.
+[INFO] (yahoo-finance) This package is up to date.
+[INFO] (yahoo-finance-api2) This package is up to date.
+[INFO] (yahoo-finance-async) This package is up to date.
+[INFO] (yahoo-finance-hdd) This package is up to date.
+[INFO] (yahoo-finance-pandas) This package is up to date.
+[INFO] (yahoo-finance-pynterface) This package is up to date.
+[INFO] (yahoo-finance-stock-ticker) This package is up to date.
+[INFO] (yahoo-historical) This package is up to date.
+[INFO] (yahoo-market-data) This package is up to date.
+[INFO] (yahoo-oauth) This package is up to date.
+[INFO] (yahoo-panoptes) This package is up to date.
+[INFO] (yahoo-panoptes-snmp) This package is up to date.
+[INFO] (yahoo-quote-download) This package is up to date.
+[INFO] (yahoo-ticker-downloader) This package is up to date.
+[INFO] (yahoo-weather) This package is up to date.
+[INFO] (yahooauction-bidder) This package is up to date.
+[INFO] (yahoofantasy) Data has been updated for this package.
+[INFO] (yahoofantasyfootball) This package is up to date.
+[INFO] (yahoofin) This package is up to date.
+[INFO] (yahoofinance) This package is up to date.
+[INFO] (yahoofinanceapi) This package is up to date.
+[INFO] (yahoofinancedashboard) This package is up to date.
+[INFO] (yahoofinancedataloader) This package is up to date.
+[INFO] (yahoofinancespider) This package is up to date.
+[INFO] (yahoofinancials) This package is up to date.
+[INFO] (yahoojapandatareader) This package is up to date.
+[INFO] (yahoooauth) This package is up to date.
+[INFO] (yahooooo) This package is up to date.
+[INFO] (yahooquery) Data has been updated for this package.
+[INFO] (yahooscraper) This package is up to date.
+[INFO] (yahoostats) This package is up to date.
+[INFO] (yahooweather) This package is up to date.
+[INFO] (yahs) This package is up to date.
+[INFO] (yahtzee-api) Data has been updated for this package.
+[INFO] (yai) This package is up to date.
+[INFO] (yail) This package is up to date.
+[INFO] (yaipopt) This package is up to date.
+[INFO] (yais) Data has been updated for this package.
+[INFO] (yajl) This package is up to date.
+[INFO] (yajl-py) This package is up to date.
+[INFO] (yajs) This package is up to date.
+[INFO] (yajwiz) Data has been updated for this package.
+[INFO] (yajwt) Data has been updated for this package.
+[INFO] (yak) This package is up to date.
+[ERROR] (yak-nester) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yak-signals) This package is up to date.
+[INFO] (yak-yurt) This package is up to date.
+[INFO] (yakc) This package is up to date.
+[INFO] (yake) Data has been updated for this package.
+[INFO] (yake-github) This package is up to date.
+[INFO] (yaki) This package is up to date.
+[INFO] (yakindlestrip) This package is up to date.
+[INFO] (yakonfig) This package is up to date.
+[INFO] (yaks) This package is up to date.
+[INFO] (yaksh) This package is up to date.
+[INFO] (yakstack) This package is up to date.
+[INFO] (yakt) This package is up to date.
+[INFO] (yakumo) This package is up to date.
+[INFO] (yakusoku) This package is up to date.
+[INFO] (yakut) Data has been updated for this package.
+[INFO] (yakutils) This package is up to date.
+[INFO] (yala) This package is up to date.
+[INFO] (yalafi) Data has been updated for this package.
+[INFO] (yalchemy) This package is up to date.
+[INFO] (yald) Data has been updated for this package.
+[INFO] (yale) This package is up to date.
+[INFO] (yale-dhlab-facenet) This package is up to date.
+[INFO] (yale-dhlab-keras-preprocessing) This package is up to date.
+[INFO] (yale-dhlab-rasterfairy) This package is up to date.
+[INFO] (yalebuildings) This package is up to date.
+[INFO] (yaleclient) This package is up to date.
+[INFO] (yalecourses) This package is up to date.
+[INFO] (yaledining) This package is up to date.
+[INFO] (yaledirectory) This package is up to date.
+[INFO] (yalelaundry) This package is up to date.
+[INFO] (yaleorgdirectory) This package is up to date.
+[INFO] (yalesmartalarmclient) Data has been updated for this package.
+[INFO] (yalesnotes) This package is up to date.
+[INFO] (yali-server) This package is up to date.
+[INFO] (yalice) This package is up to date.
+[INFO] (yalies) Data has been updated for this package.
+[INFO] (yalign) This package is up to date.
+[INFO] (yall) This package is up to date.
+[INFO] (yalla) This package is up to date.
+[INFO] (yalogger) This package is up to date.
+[INFO] (yalow) This package is up to date.
+[INFO] (yalp) This package is up to date.
+[INFO] (yalp-grok) This package is up to date.
+[INFO] (yalpt) This package is up to date.
+[INFO] (yalr) This package is up to date.
+[INFO] (yalta) Data has been updated for this package.
+[INFO] (yam) This package is up to date.
+[INFO] (yam-sort) This package is up to date.
+[INFO] (yama) This package is up to date.
+[INFO] (yamaha-av) This package is up to date.
+[INFO] (yamail) This package is up to date.
+[ERROR] (yamake) This package does not have downloadable releases.
+[INFO] (yamale) This package is up to date.
+[INFO] (yamanifest) This package is up to date.
+[INFO] (yamap) Data has been updated for this package.
+[INFO] (yamas) This package is up to date.
+[INFO] (yamata) This package is up to date.
+[INFO] (yamb) This package is up to date.
+[INFO] (yamconv) This package is up to date.
+[INFO] (yamcs-cli) This package is up to date.
+[INFO] (yamcs-client) Data has been updated for this package.
+[INFO] (yamcs-client-kerberos) This package is up to date.
+[INFO] (yamd-mcengk) This package is up to date.
+[INFO] (yamdl) This package is up to date.
+[INFO] (yametrikapy) This package is up to date.
+[INFO] (yamf) This package is up to date.
+[INFO] (yamgl-gen) This package is up to date.
+[INFO] (yamicache) This package is up to date.
+[INFO] (yamily) This package is up to date.
+[INFO] (yamjam) This package is up to date.
+[INFO] (yamk) This package is up to date.
+[INFO] (yamkix) This package is up to date.
+[ERROR] (yaml) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (yaml-1-2) This package does not have downloadable releases.
+[INFO] (yaml-1-3) This package is up to date.
+[INFO] (yaml-acl) Data has been updated for this package.
+[ERROR] (yaml-api-test-lib) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yaml-backed-structs) This package is up to date.
+[INFO] (yaml-builder) This package is up to date.
+[INFO] (yaml-config) This package is up to date.
+[INFO] (yaml-config-parser) This package is up to date.
+[INFO] (yaml-config-reader) Data has been updated for this package.
+[INFO] (yaml-configuration) This package is up to date.
+[INFO] (yaml-dump) This package is up to date.
+[INFO] (yaml-error-report) This package is up to date.
+[INFO] (yaml-expressions) Data has been updated for this package.
+[INFO] (yaml-helper) This package is up to date.
+[INFO] (yaml-include) This package is up to date.
+[INFO] (yaml-injection) This package is up to date.
+[INFO] (yaml-lint-to-junit-xml) This package is up to date.
+[INFO] (yaml-mako) This package is up to date.
+[INFO] (yaml-merge) This package is up to date.
+[INFO] (yaml-model) This package is up to date.
+[INFO] (yaml-patcher) Data has been updated for this package.
+[INFO] (yaml-project-loader) This package is up to date.
+[INFO] (yaml-pyconf) Data has been updated for this package.
+[INFO] (yaml-query) Data has been updated for this package.
+[INFO] (yaml-resume) This package is up to date.
+[INFO] (yaml-rulz) This package is up to date.
+[INFO] (yaml-serde) Data has been updated for this package.
+[INFO] (yaml-serialize) This package is up to date.
+[INFO] (yaml-structureddata) This package is up to date.
+[INFO] (yaml-tags) This package is up to date.
+[INFO] (yaml-template) This package is up to date.
+[INFO] (yaml-to-object) This package is up to date.
+[INFO] (yaml-to-sqlite) Data has been updated for this package.
+[INFO] (yaml-utilities) This package is up to date.
+[INFO] (yaml-walker) This package is up to date.
+[INFO] (yaml2bib) This package is up to date.
+[INFO] (yaml2cli) This package is up to date.
+[INFO] (yaml2dataclass) This package is up to date.
+[INFO] (yaml2env) This package is up to date.
+[INFO] (yaml2ical) This package is up to date.
+[INFO] (yaml2instance) Data has been updated for this package.
+[INFO] (yaml2jsonnet) This package is up to date.
+[INFO] (yaml2object) This package is up to date.
+[INFO] (yaml2pac) This package is up to date.
+[INFO] (yaml2rst) This package is up to date.
+[INFO] (yaml2sbml) Data has been updated for this package.
+[INFO] (yaml2sql) Data has been updated for this package.
+[ERROR] (yaml2tree) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yaml2txt) This package is up to date.
+[INFO] (yaml4rst) This package is up to date.
+[INFO] (yamlable) This package is up to date.
+[INFO] (yamlapi) Data has been updated for this package.
+[INFO] (yamlarg) This package is up to date.
+[INFO] (yamlargparse) This package is up to date.
+[INFO] (yamlbase) This package is up to date.
+[INFO] (yamlbro) This package is up to date.
+[INFO] (yamlcf) This package is up to date.
+[INFO] (yamlcfg) This package is up to date.
+[INFO] (yamlchecker) This package is up to date.
+[INFO] (yamlconf) This package is up to date.
+[INFO] (yamlconfig) This package is up to date.
+[INFO] (yamlcredits) Data has been updated for this package.
+[INFO] (yamldataclassconfig) This package is up to date.
+[INFO] (yamldict) This package is up to date.
+[INFO] (yamldirs) This package is up to date.
+[INFO] (yamldoc) Data has been updated for this package.
+[INFO] (yamldown) This package is up to date.
+[INFO] (yamlenc) This package is up to date.
+[INFO] (yamlenv) This package is up to date.
+[INFO] (yamlett) Data has been updated for this package.
+[INFO] (yamlf) This package is up to date.
+[INFO] (yamlfig) This package is up to date.
+[INFO] (yamlfix) Data has been updated for this package.
+[INFO] (yamlfmt) This package is up to date.
+[INFO] (yamlfred) This package is up to date.
+[INFO] (yamlfu) This package is up to date.
+[INFO] (yamlgen) This package is up to date.
+[INFO] (yamli) This package is up to date.
+[INFO] (yamlicious) This package is up to date.
+[INFO] (yamlifier) This package is up to date.
+[INFO] (yamline) This package is up to date.
+[INFO] (yamlinfo) This package is up to date.
+[INFO] (yamlious) This package is up to date.
+[INFO] (yamlip) This package is up to date.
+[INFO] (yamlish) This package is up to date.
+[INFO] (yamlisp) This package is up to date.
+[ERROR] (yamlite) This package does not have downloadable releases.
+[INFO] (yamlito) This package is up to date.
+[INFO] (yamliz) This package is up to date.
+[INFO] (yamlize) Data has been updated for this package.
+[INFO] (yamllint) Data has been updated for this package.
+[INFO] (yamllint-junit) Data has been updated for this package.
+[INFO] (yamllintbear) This package is up to date.
+[INFO] (yamllintelerir) This package is up to date.
+[ERROR] (yamllintelerirelerir) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (yamllintmod) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yamlloader) This package is up to date.
+[INFO] (yamlmagic) This package is up to date.
+[INFO] (yamlmod) This package is up to date.
+[INFO] (yamlns) This package is up to date.
+[INFO] (yamlodm) This package is up to date.
+[INFO] (yamlog) This package is up to date.
+[ERROR] (yamlog-0-9) This package does not have downloadable releases.
+[INFO] (yamlord) This package is up to date.
+[INFO] (yamlordereddictloader) This package is up to date.
+[INFO] (yamlpage) This package is up to date.
+[INFO] (yamlpal) This package is up to date.
+[INFO] (yamlparams) This package is up to date.
+[INFO] (yamlparse) This package is up to date.
+[INFO] (yamlpath) This package is up to date.
+[INFO] (yamlplus) This package is up to date.
+[INFO] (yamlpp) This package is up to date.
+[INFO] (yamlpy) Data has been updated for this package.
+[INFO] (yamlradio) This package is up to date.
+[INFO] (yamlreader) This package is up to date.
+[INFO] (yamlschema) This package is up to date.
+[INFO] (yamlsettings) This package is up to date.
+[INFO] (yamlsettings-requests) This package is up to date.
+[INFO] (yamlsettings-s3) This package is up to date.
+[INFO] (yamlspellchecker) This package is up to date.
+[INFO] (yamlstratus) This package is up to date.
+[INFO] (yamltable) This package is up to date.
+[INFO] (yamltojsoncreator) This package is up to date.
+[INFO] (yamltools) This package is up to date.
+[INFO] (yamltrak) This package is up to date.
+[INFO] (yamltypes) This package is up to date.
+[INFO] (yamlval) Data has been updated for this package.
+[ERROR] (yamlwalker) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yamm) This package is up to date.
+[INFO] (yammh3) This package is up to date.
+[INFO] (yammtool) This package is up to date.
+[INFO] (yammy) This package is up to date.
+[INFO] (yamo) This package is up to date.
+[INFO] (yamodel) This package is up to date.
+[INFO] (yamole) This package is up to date.
+[INFO] (yamp) This package is up to date.
+[INFO] (yampex) This package is up to date.
+[INFO] (yampy) This package is up to date.
+[INFO] (yampy2) This package is up to date.
+[INFO] (yams) This package is up to date.
+[INFO] (yams-cli) Data has been updated for this package.
+[INFO] (yamscrobbler) This package is up to date.
+[INFO] (yamtof) This package is up to date.
+[INFO] (yamux) This package is up to date.
+[INFO] (yamwapi) This package is up to date.
+[INFO] (yamz) This package is up to date.
+[INFO] (yanagiba) This package is up to date.
+[INFO] (yanc) This package is up to date.
+[INFO] (yanccm) Data has been updated for this package.
+[INFO] (yanch2116) This package is up to date.
+[INFO] (yanchaochao2) This package is up to date.
+[INFO] (yanchaotest) This package is up to date.
+[INFO] (yandc) This package is up to date.
+[INFO] (yandex) This package is up to date.
+[INFO] (yandex-api) This package is up to date.
+[INFO] (yandex-checkout) Data has been updated for this package.
+[INFO] (yandex-checkout-no-uuid) This package is up to date.
+[INFO] (yandex-checkout-payout) This package is up to date.
+[INFO] (yandex-ci-parser) This package is up to date.
+[INFO] (yandex-cloud-client) Data has been updated for this package.
+[INFO] (yandex-cloud-tools) This package is up to date.
+[INFO] (yandex-connect) This package is up to date.
+[INFO] (yandex-delivery) This package is up to date.
+[INFO] (yandex-dictionary) This package is up to date.
+[ERROR] (yandex-domain-mail) This package does not have downloadable releases.
+[INFO] (yandex-geocoder) This package is up to date.
+[INFO] (yandex-hotspots) This package is up to date.
+[INFO] (yandex-images-download) This package is up to date.
+[INFO] (yandex-kassa) This package is up to date.
+[INFO] (yandex-maps) This package is up to date.
+[INFO] (yandex-market-language) This package is up to date.
+[INFO] (yandex-money) This package is up to date.
+[INFO] (yandex-money-sdk) This package is up to date.
+[INFO] (yandex-music) Data has been updated for this package.
+[INFO] (yandex-music-agent) Data has been updated for this package.
+[INFO] (yandex-oauth-py) This package is up to date.
+[INFO] (yandex-object-storage) Data has been updated for this package.
+[INFO] (yandex-parser) This package is up to date.
+[INFO] (yandex-pdd) This package is up to date.
+[INFO] (yandex-pgmigrate) This package is up to date.
+[INFO] (yandex-rasp) This package is up to date.
+[INFO] (yandex-search) This package is up to date.
+[INFO] (yandex-speech) This package is up to date.
+[INFO] (yandex-tank-api) This package is up to date.
+[INFO] (yandex-tank-api-client) This package is up to date.
+[INFO] (yandex-tracker-client) This package is up to date.
+[INFO] (yandex-tracker-import) This package is up to date.
+[INFO] (yandex-translate) This package is up to date.
+[INFO] (yandex-translater) This package is up to date.
+[INFO] (yandex-transport-webdriver-api) This package is up to date.
+[INFO] (yandex-weather-api) This package is up to date.
+[INFO] (yandex-xml-parser) This package is up to date.
+[INFO] (yandex-yaca-parser) This package is up to date.
+[INFO] (yandex-yt) Data has been updated for this package.
+[INFO] (yandex2lightroom) Data has been updated for this package.
+[INFO] (yandexcloud) Data has been updated for this package.
+[INFO] (yandexdictionary) This package is up to date.
+[INFO] (yandexdirect) This package is up to date.
+[INFO] (yandexdirectpy) Data has been updated for this package.
+[INFO] (yandexfreetranslate) This package is up to date.
+[INFO] (yandexmaps) This package is up to date.
+[INFO] (yandextank) This package is up to date.
+[ERROR] (yandextransportwebdriverapi) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yandexwebdav) This package is up to date.
+[INFO] (yandexwebmaster) This package is up to date.
+[INFO] (yanf) This package is up to date.
+[INFO] (yang) This package is up to date.
+[INFO] (yang-connector) Data has been updated for this package.
+[INFO] (yang-ion-pred) Data has been updated for this package.
+[INFO] (yang-ncdiff) Data has been updated for this package.
+[INFO] (yang-print-list) This package is up to date.
+[INFO] (yang0textutils) This package is up to date.
+[INFO] (yang2tosca) This package is up to date.
+[INFO] (yangdi-loveyou-loveyou) This package is up to date.
+[INFO] (yanggui) Data has been updated for this package.
+[INFO] (yangify) This package is up to date.
+[INFO] (yangsgoogle) This package is up to date.
+[ERROR] (yangshanghua) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yangson) Data has been updated for this package.
+[INFO] (yangsrunner) This package is up to date.
+[INFO] (yangsuite) Data has been updated for this package.
+[INFO] (yangsuite-coverage) Data has been updated for this package.
+[INFO] (yangsuite-devices) Data has been updated for this package.
+[INFO] (yangsuite-filemanager) Data has been updated for this package.
+[INFO] (yangsuite-grpc-telemetry) Data has been updated for this package.
+[INFO] (yangsuite-netconf) Data has been updated for this package.
+[INFO] (yangsuite-yangtree) Data has been updated for this package.
+[INFO] (yangsutil) This package is up to date.
+[INFO] (yangsz716) This package is up to date.
+[INFO] (yangtestlist) This package is up to date.
+[INFO] (yangverification) This package is up to date.
+[INFO] (yangyangyang123) This package is up to date.
+[INFO] (yangyaya) This package is up to date.
+[INFO] (yangyijin) This package is up to date.
+[ERROR] (yanico) This package does not have downloadable releases.
+[INFO] (yanivpdf) This package is up to date.
+[INFO] (yanker) This package is up to date.
+[INFO] (yanky) This package is up to date.
+[INFO] (yanlp) This package is up to date.
+[INFO] (yann) This package is up to date.
+[INFO] (yanncookiecutter) This package is up to date.
+[INFO] (yanotme-nester) This package is up to date.
+[INFO] (yanpj) This package is up to date.
+[INFO] (yanport-client) This package is up to date.
+[INFO] (yans) This package is up to date.
+[INFO] (yans-nester) This package is up to date.
+[INFO] (yansongda-aliyun-iot-device) This package is up to date.
+[INFO] (yantra) This package is up to date.
+[ERROR] (yanventory) This package does not have downloadable releases.
+[INFO] (yanwang-sample) This package is up to date.
+[INFO] (yanytapi) This package is up to date.
+[INFO] (yanyujian) This package is up to date.
+[INFO] (yao-framework) This package is up to date.
+[INFO] (yaochao) This package is up to date.
+[INFO] (yaogua) This package is up to date.
+[INFO] (yaoguang-python-client) This package is up to date.
+[INFO] (yaojiawei20161104) This package is up to date.
+[INFO] (yaop) This package is up to date.
+[INFO] (yaosac) This package is up to date.
+[INFO] (yaoshazi) This package is up to date.
+[INFO] (yaost) This package is up to date.
+[INFO] (yaoyao-athletelist-20180112) This package is up to date.
+[INFO] (yaoyao-nest-20171212) This package is up to date.
+[INFO] (yap) This package is up to date.
+[INFO] (yap-styleguide) Data has been updated for this package.
+[INFO] (yapam) This package is up to date.
+[INFO] (yapapi) Data has been updated for this package.
+[INFO] (yapatch) This package is up to date.
+[INFO] (yapayzeka) This package is up to date.
+[INFO] (yapayzekadj) This package is up to date.
+[INFO] (yapbl) This package is up to date.
+[INFO] (yapbol) This package is up to date.
+[INFO] (yapcad) Data has been updated for this package.
+[INFO] (yapconf) This package is up to date.
+[INFO] (yapdfminer) This package is up to date.
+[INFO] (yapdict) This package is up to date.
+[INFO] (yapf) This package is up to date.
+[INFO] (yapf-isort) Data has been updated for this package.
+[INFO] (yapf-junit) This package is up to date.
+[INFO] (yapfbear) This package is up to date.
+[INFO] (yapfsm) This package is up to date.
+[INFO] (yapg) This package is up to date.
+[ERROR] (yapgvb) Could not extract data from this package. See below for details.
+This package download URL does not point to a valid file: "http://code.google.com/p/yapgvb/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+Size+DownloadCount"
+[INFO] (yaphs) This package is up to date.
+[INFO] (yaphue) This package is up to date.
+[INFO] (yapi) This package is up to date.
+[INFO] (yapi-ci) This package is up to date.
+[INFO] (yapic) This package is up to date.
+[INFO] (yapic-di) This package is up to date.
+[INFO] (yapic-io) This package is up to date.
+[INFO] (yapic-json) Data has been updated for this package.
+[INFO] (yapij-py) This package is up to date.
+[INFO] (yapl) This package is up to date.
+[INFO] (yaplon) This package is up to date.
+[INFO] (yaplotlib) This package is up to date.
+[INFO] (yapo) This package is up to date.
+[INFO] (yapocis) This package is up to date.
+[INFO] (yapocl) This package is up to date.
+[INFO] (yaposib) This package is up to date.
+[INFO] (yapot) This package is up to date.
+[ERROR] (yapp) This package does not have downloadable releases.
+[INFO] (yappa) This package is up to date.
+[INFO] (yappi) Data has been updated for this package.
+[INFO] (yapps) This package is up to date.
+[INFO] (yapps2) This package is up to date.
+[INFO] (yappt) This package is up to date.
+[INFO] (yappyg) This package is up to date.
+[INFO] (yapq) This package is up to date.
+[INFO] (yaproxy) Data has been updated for this package.
+[INFO] (yaprt) This package is up to date.
+[INFO] (yaps) This package is up to date.
+[INFO] (yapsc) This package is up to date.
+[INFO] (yapsched) Data has been updated for this package.
+[INFO] (yapsdk) This package is up to date.
+[ERROR] (yapsnmp) Could not extract data from this package. See below for details.
+".php" extension not supported.
+[INFO] (yapsstv) This package is up to date.
+[INFO] (yapsy) This package is up to date.
+[INFO] (yapt) This package is up to date.
+[ERROR] (yaptoo) Could not extract data from this package. See below for details.
+".py" extension not supported.
+[INFO] (yapu) This package is up to date.
+[INFO] (yapyaci) This package is up to date.
+[INFO] (yapyautotest) This package is up to date.
+[INFO] (yapybot) This package is up to date.
+[INFO] (yapydata) This package is up to date.
+[INFO] (yapylib) This package is up to date.
+[INFO] (yapyorg) This package is up to date.
+[INFO] (yapyseq) This package is up to date.
+[INFO] (yapytf) This package is up to date.
+[INFO] (yapyutils) This package is up to date.
+[INFO] (yapyvcloud) This package is up to date.
+[INFO] (yapywrangler) This package is up to date.
+[INFO] (yaq) This package is up to date.
+[INFO] (yaq-traits) Data has been updated for this package.
+[INFO] (yaqc) This package is up to date.
+[INFO] (yaqc-bluesky) Data has been updated for this package.
+[INFO] (yaqc-cmds) Data has been updated for this package.
+[INFO] (yaqd-acton) Data has been updated for this package.
+[INFO] (yaqd-adafruit) This package is up to date.
+[INFO] (yaqd-attune) Data has been updated for this package.
+[INFO] (yaqd-control) This package is up to date.
+[INFO] (yaqd-core) Data has been updated for this package.
+[INFO] (yaqd-fakes) Data has been updated for this package.
+[INFO] (yaqd-gage) Data has been updated for this package.
+[INFO] (yaqd-gdrive) Data has been updated for this package.
+[INFO] (yaqd-horiba) Data has been updated for this package.
+[INFO] (yaqd-lightcon) This package is up to date.
+[INFO] (yaqd-microchip) Data has been updated for this package.
+[INFO] (yaqd-new-era) This package is up to date.
+[INFO] (yaqd-newport) Data has been updated for this package.
+[INFO] (yaqd-ni) Data has been updated for this package.
+[INFO] (yaqd-pmc) Data has been updated for this package.
+[INFO] (yaqd-rpi-gpio) Data has been updated for this package.
+[INFO] (yaqd-seabreeze) Data has been updated for this package.
+[INFO] (yaqd-system-monitor) Data has been updated for this package.
+[INFO] (yaqd-thorlabs) Data has been updated for this package.
+[INFO] (yaqd-ti) Data has been updated for this package.
+[INFO] (yaqd-wright) Data has been updated for this package.
+[INFO] (yaqd-zaber) Data has been updated for this package.
+[INFO] (yaql) This package is up to date.
+[INFO] (yaque-tts) This package is up to date.
+[INFO] (yara) This package is up to date.
+[INFO] (yara-language-server) Data has been updated for this package.
+[INFO] (yara-procdump-python) This package is up to date.
+[INFO] (yara-python) Data has been updated for this package.
+[INFO] (yara-python-dex) Data has been updated for this package.
+[INFO] (yara-scanner) Data has been updated for this package.
+[INFO] (yarabuilder) Data has been updated for this package.
+[INFO] (yarah) This package is up to date.
+[INFO] (yaramod) Data has been updated for this package.
+[INFO] (yaraprocessor) This package is up to date.
+[INFO] (yarapython) This package is up to date.
+[INFO] (yaratool) This package is up to date.
+[INFO] (yarb) This package is up to date.
+[INFO] (yarbs) Data has been updated for this package.
+[INFO] (yarc) This package is up to date.
+[INFO] (yarc-server) This package is up to date.
+[INFO] (yard) This package is up to date.
+[INFO] (yard-framework) This package is up to date.
+[INFO] (yardict) This package is up to date.
+[INFO] (yards) This package is up to date.
+[ERROR] (yardstick) This package does not have downloadable releases.
+[INFO] (yarely) This package is up to date.
+[INFO] (yarest) This package is up to date.
+[INFO] (yaretry) This package is up to date.
+[ERROR] (yarfe) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yarfox) This package is up to date.
+[INFO] (yarg) This package is up to date.
+[INFO] (yargparse) This package is up to date.
+[INFO] (yargs) This package is up to date.
+[INFO] (yargy) This package is up to date.
+[ERROR] (yarh) This package does not have downloadable releases.
+[INFO] (yari) Data has been updated for this package.
+[INFO] (yarl) This package is up to date.
+[INFO] (yarll) This package is up to date.
+[INFO] (yarllib) This package is up to date.
+[INFO] (yarlp) This package is up to date.
+[INFO] (yarma) This package is up to date.
+[INFO] (yarn) This package is up to date.
+[INFO] (yarn-api-client) This package is up to date.
+[INFO] (yarn-api-client-kenny) This package is up to date.
+[INFO] (yarn-apps-exporter) This package is up to date.
+[INFO] (yarn-build) This package is up to date.
+[INFO] (yarn-kernel-provider) This package is up to date.
+[INFO] (yarn-unreg-nodes) This package is up to date.
+[INFO] (yarnapiclient) This package is up to date.
+[INFO] (yarnlog) Data has been updated for this package.
+[INFO] (yarntf) This package is up to date.
+[INFO] (yaro) This package is up to date.
+[INFO] (yarom) This package is up to date.
+[INFO] (yarp) This package is up to date.
+[INFO] (yarpc) This package is up to date.
+[INFO] (yarptp) This package is up to date.
+[INFO] (yarqueue) This package is up to date.
+[INFO] (yarr) This package is up to date.
+[INFO] (yarr-client) This package is up to date.
+[ERROR] (yarrow) Could not extract data from this package. See below for details.
+"ftp://ftp.thurman.org.uk/pub/thurman/rgtp/yarrow-1.2.0.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/urllib/request.py", line 1530, in ftp_open
+    host = socket.gethostbyname(host)
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 1532, in ftp_open
+    raise URLError(msg)
+urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
+
+[INFO] (yars) This package is up to date.
+[INFO] (yarw) This package is up to date.
+[INFO] (yas) This package is up to date.
+[INFO] (yas3) This package is up to date.
+[INFO] (yas3fs) This package is up to date.
+[INFO] (yasa) This package is up to date.
+[INFO] (yasal) This package is up to date.
+[INFO] (yascp) This package is up to date.
+[INFO] (yascrape) This package is up to date.
+[INFO] (yasd) This package is up to date.
+[INFO] (yasdu) This package is up to date.
+[INFO] (yased) This package is up to date.
+[INFO] (yasexamplehandlers) This package is up to date.
+[INFO] (yasfb) This package is up to date.
+[INFO] (yasgg) This package is up to date.
+[INFO] (yash) This package is up to date.
+[INFO] (yash-gaussian-binomial-distributions) This package is up to date.
+[INFO] (yasha) Data has been updated for this package.
+[INFO] (yashaa) This package is up to date.
+[INFO] (yashiro) This package is up to date.
+[INFO] (yashkulkarni-distributions) This package is up to date.
+[INFO] (yashpdf) This package is up to date.
+[INFO] (yasi) This package is up to date.
+[INFO] (yasirabd-probability) This package is up to date.
+[INFO] (yasjenkins) This package is up to date.
+[INFO] (yask123) This package is up to date.
+[INFO] (yasl) Data has been updated for this package.
+[INFO] (yaslackmessenger) This package is up to date.
+[INFO] (yaslha) Data has been updated for this package.
+[INFO] (yaslov) This package is up to date.
+[INFO] (yasm) This package is up to date.
+[INFO] (yasmin) This package is up to date.
+[INFO] (yasmine-cli) This package is up to date.
+[INFO] (yasod) Data has been updated for this package.
+[INFO] (yason) This package is up to date.
+[INFO] (yasoo) Data has been updated for this package.
+[INFO] (yasopenstackhandler) This package is up to date.
+[INFO] (yaspeak) This package is up to date.
+[INFO] (yaspi) Data has been updated for this package.
+[INFO] (yaspin) Data has been updated for this package.
+[INFO] (yaspop) This package is up to date.
+[INFO] (yass) This package is up to date.
+[INFO] (yass-algorithm) This package is up to date.
+[INFO] (yassh) This package is up to date.
+[INFO] (yasso) This package is up to date.
+[INFO] (yastatsd) This package is up to date.
+[INFO] (yasuf) This package is up to date.
+[INFO] (yasv) This package is up to date.
+[INFO] (yaswfp) This package is up to date.
+[INFO] (yata) This package is up to date.
+[INFO] (yatadis) This package is up to date.
+[INFO] (yatagan) This package is up to date.
+[INFO] (yatank-online) This package is up to date.
+[INFO] (yatb) This package is up to date.
+[INFO] (yatcobot) This package is up to date.
+[INFO] (yate) This package is up to date.
+[INFO] (yate-lhwd) This package is up to date.
+[INFO] (yate101) This package is up to date.
+[INFO] (yate101v2) This package is up to date.
+[INFO] (yated) This package is up to date.
+[INFO] (yatel) This package is up to date.
+[INFO] (yatfs) This package is up to date.
+[INFO] (yatfsrpc) This package is up to date.
+[INFO] (yatg) This package is up to date.
+[INFO] (yati) This package is up to date.
+[INFO] (yatiblog) This package is up to date.
+[INFO] (yatimacom) This package is up to date.
+[INFO] (yatiml) Data has been updated for this package.
+[INFO] (yatl) This package is up to date.
+[INFO] (yatodol) This package is up to date.
+[INFO] (yatom) This package is up to date.
+[INFO] (yatoredis) This package is up to date.
+[INFO] (yatr) This package is up to date.
+[INFO] (yatracker) This package is up to date.
+[INFO] (yatrash) This package is up to date.
+[INFO] (yatrep) This package is up to date.
+[INFO] (yatrie) This package is up to date.
+[INFO] (yats) This package is up to date.
+[INFO] (yatta) This package is up to date.
+[INFO] (yattag) This package is up to date.
+[INFO] (yatwin) This package is up to date.
+[INFO] (yatxmilter) This package is up to date.
+[INFO] (yatzy) This package is up to date.
+[ERROR] (yaubot) Could not extract data from this package. See below for details.
+"http://www.jakebasile.com/downloads/yaubot-1.0.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (yaubot-fun-scripts) Could not extract data from this package. See below for details.
+"http://www.jakebasile.com/downloads/yaubot-fun-scripts-1.0.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yaul) This package is up to date.
+[INFO] (yaurtww) This package is up to date.
+[INFO] (yauth) This package is up to date.
+[INFO] (yautil) Data has been updated for this package.
+[INFO] (yaval) Data has been updated for this package.
+[INFO] (yavin) This package is up to date.
+[INFO] (yawap) This package is up to date.
+[INFO] (yawast) This package is up to date.
+[INFO] (yawd-admin) This package is up to date.
+[INFO] (yawd-elfinder) This package is up to date.
+[INFO] (yawd-translations) This package is up to date.
+[INFO] (yaweather) This package is up to date.
+[INFO] (yawf) This package is up to date.
+[INFO] (yawigle) This package is up to date.
+[INFO] (yawinpty) This package is up to date.
+[INFO] (yawinpty-extra) This package is up to date.
+[INFO] (yawlib) This package is up to date.
+[INFO] (yawn) This package is up to date.
+[INFO] (yawns) This package is up to date.
+[ERROR] (yawpycrypto) This package does not have downloadable releases.
+[INFO] (yawrap) This package is up to date.
+[INFO] (yaws) This package is up to date.
+[INFO] (yawsso) Data has been updated for this package.
+[INFO] (yawttk) This package is up to date.
+[INFO] (yawxt) This package is up to date.
+[INFO] (yax) This package is up to date.
+[INFO] (yaxi) This package is up to date.
+[INFO] (yaxil) This package is up to date.
+[INFO] (yaxl) This package is up to date.
+[INFO] (yaxls) This package is up to date.
+[ERROR] (yaxmake) This package does not have downloadable releases.
+[INFO] (yay) This package is up to date.
+[INFO] (yay-digitalsparky) This package is up to date.
+[INFO] (yay-fn) Data has been updated for this package.
+[ERROR] (yaya) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yayaroot) Data has been updated for this package.
+[ERROR] (yayayayahw) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yaybu) This package is up to date.
+[INFO] (yaycl) This package is up to date.
+[INFO] (yaycl-crypt) This package is up to date.
+[INFO] (yayconf) This package is up to date.
+[INFO] (yayes) This package is up to date.
+[INFO] (yayi) This package is up to date.
+[ERROR] (yayp) This package does not have downloadable releases.
+[INFO] (yaypm) This package is up to date.
+[INFO] (yayson) This package is up to date.
+[INFO] (yaz) This package is up to date.
+[INFO] (yaz-it) This package is up to date.
+[INFO] (yaz-messaging-plugin) Data has been updated for this package.
+[INFO] (yaz-scripting-plugin) This package is up to date.
+[INFO] (yaz-templating-plugin) This package is up to date.
+[INFO] (yaz-zichtgithub-plugin) This package is up to date.
+[INFO] (yaz0) This package is up to date.
+[INFO] (yazaki) Data has been updated for this package.
+[INFO] (yb) Data has been updated for this package.
+[INFO] (yb-cassandra-driver) This package is up to date.
+[INFO] (yb-enigma) Data has been updated for this package.
+[INFO] (ybai) This package is up to date.
+[INFO] (ybc-agent) This package is up to date.
+[INFO] (ybc-animal) This package is up to date.
+[INFO] (ybc-art) This package is up to date.
+[INFO] (ybc-bot) This package is up to date.
+[INFO] (ybc-box) This package is up to date.
+[INFO] (ybc-browser) This package is up to date.
+[INFO] (ybc-business-ocr) This package is up to date.
+[INFO] (ybc-calculate) This package is up to date.
+[INFO] (ybc-camera) This package is up to date.
+[INFO] (ybc-car-recognition) This package is up to date.
+[INFO] (ybc-carbrand) This package is up to date.
+[INFO] (ybc-china) This package is up to date.
+[INFO] (ybc-commons) This package is up to date.
+[INFO] (ybc-config) This package is up to date.
+[INFO] (ybc-coordinate) This package is up to date.
+[INFO] (ybc-cpaint) This package is up to date.
+[INFO] (ybc-creditcard-ocr) This package is up to date.
+[INFO] (ybc-descpic) This package is up to date.
+[INFO] (ybc-download) This package is up to date.
+[INFO] (ybc-driver-ocr) This package is up to date.
+[INFO] (ybc-echarts) This package is up to date.
+[INFO] (ybc-emoji) This package is up to date.
+[INFO] (ybc-exception) This package is up to date.
+[INFO] (ybc-face) This package is up to date.
+[INFO] (ybc-face-emotion) This package is up to date.
+[INFO] (ybc-face-ps) This package is up to date.
+[INFO] (ybc-face-recognition) This package is up to date.
+[INFO] (ybc-food) This package is up to date.
+[INFO] (ybc-funny) This package is up to date.
+[INFO] (ybc-general-ocr) This package is up to date.
+[INFO] (ybc-gesture) This package is up to date.
+[INFO] (ybc-history) This package is up to date.
+[INFO] (ybc-idcard) This package is up to date.
+[INFO] (ybc-idcard-ocr) This package is up to date.
+[INFO] (ybc-idiom) This package is up to date.
+[INFO] (ybc-image) This package is up to date.
+[INFO] (ybc-imgaddtext) This package is up to date.
+[INFO] (ybc-imgcar) This package is up to date.
+[INFO] (ybc-imgtag) This package is up to date.
+[INFO] (ybc-jiqimao) This package is up to date.
+[INFO] (ybc-music) This package is up to date.
+[INFO] (ybc-namecard) This package is up to date.
+[ERROR] (ybc-namecard-ocr) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ybc-news) This package is up to date.
+[INFO] (ybc-pic-search) This package is up to date.
+[INFO] (ybc-pinyin) This package is up to date.
+[INFO] (ybc-player) This package is up to date.
+[INFO] (ybc-pminfo) This package is up to date.
+[INFO] (ybc-poetry) This package is up to date.
+[INFO] (ybc-qrcode) This package is up to date.
+[INFO] (ybc-rmb) This package is up to date.
+[INFO] (ybc-robot) Data has been updated for this package.
+[INFO] (ybc-scene) This package is up to date.
+[INFO] (ybc-search) This package is up to date.
+[INFO] (ybc-sms) This package is up to date.
+[INFO] (ybc-speech) This package is up to date.
+[INFO] (ybc-speech1) This package is up to date.
+[INFO] (ybc-switch) This package is up to date.
+[INFO] (ybc-table) This package is up to date.
+[INFO] (ybc-tel) This package is up to date.
+[INFO] (ybc-test) This package is up to date.
+[INFO] (ybc-todo) This package is up to date.
+[INFO] (ybc-trans) This package is up to date.
+[INFO] (ybc-tuya) This package is up to date.
+[INFO] (ybc-utils) This package is up to date.
+[INFO] (ybc-weather) This package is up to date.
+[INFO] (ybc-wordcloud) This package is up to date.
+[INFO] (ybc-xingzuo) This package is up to date.
+[INFO] (ybc-xzpq) This package is up to date.
+[INFO] (ybc-youtuyun) This package is up to date.
+[INFO] (ybckit) This package is up to date.
+[INFO] (ybe) Data has been updated for this package.
+[INFO] (ybemail) This package is up to date.
+[ERROR] (ybklist) This package does not have downloadable releases.
+[INFO] (ybmuitls) This package is up to date.
+[INFO] (yboss) This package is up to date.
+[INFO] (ybt) Data has been updated for this package.
+[INFO] (ybw) This package is up to date.
+[INFO] (ybwnb) Data has been updated for this package.
+[INFO] (yc) This package is up to date.
+[INFO] (ycast) This package is up to date.
+[INFO] (ycat) This package is up to date.
+[INFO] (yccloudpickle) This package is up to date.
+[INFO] (ycd) Data has been updated for this package.
+[INFO] (ycecream) Data has been updated for this package.
+[INFO] (ycfg) This package is up to date.
+[INFO] (ychartspy) This package is up to date.
+[INFO] (ychat) This package is up to date.
+[INFO] (ycimpute) This package is up to date.
+[INFO] (ycl) This package is up to date.
+[INFO] (yclip) This package is up to date.
+[INFO] (ycm) This package is up to date.
+[INFO] (ycml) This package is up to date.
+[INFO] (yconf) This package is up to date.
+[INFO] (yconfig) This package is up to date.
+[INFO] (yconpy) This package is up to date.
+[INFO] (ycontract) This package is up to date.
+[INFO] (ycp-nester) This package is up to date.
+[INFO] (ycpiptest) This package is up to date.
+[INFO] (ycsettings) This package is up to date.
+[INFO] (yctest) This package is up to date.
+[INFO] (ycy) This package is up to date.
+[INFO] (ycyc) This package is up to date.
+[INFO] (ycytest) This package is up to date.
+[INFO] (yd) This package is up to date.
+[INFO] (yd3) This package is up to date.
+[INFO] (ydata-synthetic) Data has been updated for this package.
+[INFO] (ydb) Data has been updated for this package.
+[INFO] (ydbf) This package is up to date.
+[INFO] (ydbf-py3) This package is up to date.
+[INFO] (ydcommon) This package is up to date.
+[INFO] (ydcv) This package is up to date.
+[INFO] (ydd) This package is up to date.
+[INFO] (ydfdpkg) Data has been updated for this package.
+[INFO] (ydh-yourname) This package is up to date.
+[INFO] (ydiff) This package is up to date.
+[INFO] (ydiskdown) Data has been updated for this package.
+[INFO] (ydk) This package is up to date.
+[INFO] (ydk-models-cisco-ios-xe) This package is up to date.
+[INFO] (ydk-models-cisco-ios-xr) This package is up to date.
+[INFO] (ydk-models-cisco-nx-os) This package is up to date.
+[INFO] (ydk-models-ietf) This package is up to date.
+[INFO] (ydk-models-openconfig) This package is up to date.
+[INFO] (ydk-service-gnmi) This package is up to date.
+[INFO] (ydl-binaries) This package is up to date.
+[INFO] (ydoc-theme) This package is up to date.
+[INFO] (ydot) Data has been updated for this package.
+[INFO] (ydown) This package is up to date.
+[INFO] (ydpic) This package is up to date.
+[INFO] (ydsdk) This package is up to date.
+[INFO] (ydt) This package is up to date.
+[INFO] (ydtapi) This package is up to date.
+[INFO] (ydtest) This package is up to date.
+[INFO] (ydy-pkg) This package is up to date.
+[INFO] (ye) This package is up to date.
+[INFO] (ye-tui) Data has been updated for this package.
+[INFO] (yeadon) This package is up to date.
+[INFO] (yeager) This package is up to date.
+[INFO] (yeah) This package is up to date.
+[INFO] (yeahyeah) This package is up to date.
+[INFO] (yeahyfutils) This package is up to date.
+[INFO] (yealinkmanager) This package is up to date.
+[INFO] (yeardays) This package is up to date.
+[INFO] (yearfrac) This package is up to date.
+[INFO] (yearonedb) This package is up to date.
+[INFO] (yearonequant) This package is up to date.
+[INFO] (yeaseq) Data has been updated for this package.
+[ERROR] (yeast) This package does not have downloadable releases.
+[INFO] (yedb) Data has been updated for this package.
+[INFO] (yediemin) Data has been updated for this package.
+[INFO] (yedis) This package is up to date.
+[INFO] (yeecli) This package is up to date.
+[INFO] (yeeee) This package is up to date.
+[INFO] (yeekit-tr-free) This package is up to date.
+[INFO] (yeelib) This package is up to date.
+[INFO] (yeelight) This package is up to date.
+[INFO] (yeelight-cinema) This package is up to date.
+[INFO] (yeelight-jh) Data has been updated for this package.
+[INFO] (yeelightsunflower) This package is up to date.
+[INFO] (yeet) This package is up to date.
+[INFO] (yeet-dl) This package is up to date.
+[INFO] (yeeter) This package is up to date.
+[INFO] (yehen-get-coach-data) This package is up to date.
+[INFO] (yehen-nester) This package is up to date.
+[INFO] (yehua) This package is up to date.
+[INFO] (yejidepdf) This package is up to date.
+[INFO] (yekit) This package is up to date.
+[INFO] (yekta-metrics) Data has been updated for this package.
+[INFO] (yell) This package is up to date.
+[INFO] (yelljfish) This package is up to date.
+[INFO] (yellow) This package is up to date.
+[INFO] (yellow-idea-py) This package is up to date.
+[INFO] (yellow-sdk) This package is up to date.
+[INFO] (yellowant) This package is up to date.
+[INFO] (yellowbox) Data has been updated for this package.
+[INFO] (yellowbrick) Data has been updated for this package.
+[INFO] (yellowbrick-datasets) This package is up to date.
+[INFO] (yellowbrickhotfix) Data has been updated for this package.
+[INFO] (yellowduck) This package is up to date.
+[INFO] (yellowfin) This package is up to date.
+[INFO] (yellowhiggs) This package is up to date.
+[INFO] (yellowpushsms) This package is up to date.
+[ERROR] (yellowsubmaring) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yelluw-matches) This package is up to date.
+[INFO] (yelp) This package is up to date.
+[INFO] (yelp-api-client) This package is up to date.
+[INFO] (yelp-avro) This package is up to date.
+[INFO] (yelp-bytes) This package is up to date.
+[INFO] (yelp-cheetah) This package is up to date.
+[INFO] (yelp-clog) This package is up to date.
+[INFO] (yelp-common) This package is up to date.
+[INFO] (yelp-encodings) This package is up to date.
+[INFO] (yelp-gprof2dot) This package is up to date.
+[INFO] (yelp-kafka) This package is up to date.
+[INFO] (yelp-meteorite) This package is up to date.
+[INFO] (yelp-uri) This package is up to date.
+[INFO] (yelp3) This package is up to date.
+[INFO] (yelpapi) This package is up to date.
+[INFO] (yelpbytes) This package is up to date.
+[INFO] (yelpcity) This package is up to date.
+[INFO] (yelpencodings) This package is up to date.
+[INFO] (yelpscraper) This package is up to date.
+[INFO] (yelpy) This package is up to date.
+[INFO] (yenc) This package is up to date.
+[INFO] (yengde) This package is up to date.
+[INFO] (yenta) This package is up to date.
+[INFO] (yenviron) This package is up to date.
+[INFO] (yenyupeng-nester) This package is up to date.
+[INFO] (yeoda) Data has been updated for this package.
+[INFO] (yeonji) Data has been updated for this package.
+[INFO] (yep) This package is up to date.
+[INFO] (yeqingprint) This package is up to date.
+[INFO] (yer-distributions) This package is up to date.
+[INFO] (yerkes) This package is up to date.
+[INFO] (yernnoi) This package is up to date.
+[INFO] (yes) This package is up to date.
+[INFO] (yes24) This package is up to date.
+[INFO] (yesaide) This package is up to date.
+[INFO] (yescrypt-koto) This package is up to date.
+[INFO] (yesgraph) This package is up to date.
+[INFO] (yesmkaran-distributions) This package is up to date.
+[INFO] (yesno) This package is up to date.
+[INFO] (yesongnester) This package is up to date.
+[INFO] (yesqa) This package is up to date.
+[INFO] (yessssms) This package is up to date.
+[INFO] (yesterday) This package is up to date.
+[INFO] (yeswecansvg) This package is up to date.
+[INFO] (yeswehack) Data has been updated for this package.
+[INFO] (yet) This package is up to date.
+[INFO] (yet-another-django-cart) This package is up to date.
+[INFO] (yet-another-django-profiler) This package is up to date.
+[INFO] (yet-another-io-channels-library) This package is up to date.
+[INFO] (yet-another-runner) This package is up to date.
+[INFO] (yet-another-spotify-lyrics) Data has been updated for this package.
+[INFO] (yet-flask) Data has been updated for this package.
+[INFO] (yetanotherdjangoprofiler) This package is up to date.
+[INFO] (yetanotherimageresizer) This package is up to date.
+[INFO] (yetanotherpyoptional) This package is up to date.
+[INFO] (yeti) This package is up to date.
+[INFO] (yetiforce-python) This package is up to date.
+[INFO] (yetship) This package is up to date.
+[INFO] (yetu) This package is up to date.
+[ERROR] (yev) Could not extract data from this package. See below for details.
+Unsupported package directory structure.
+[INFO] (yews) This package is up to date.
+[INFO] (yext) Data has been updated for this package.
+[INFO] (yeyenino) This package is up to date.
+[INFO] (yeziq) This package is up to date.
+[INFO] (yf) Data has been updated for this package.
+[INFO] (yf-templates) Data has been updated for this package.
+[INFO] (yfantasy-api) Data has been updated for this package.
+[INFO] (yffpy) This package is up to date.
+[INFO] (yfi) This package is up to date.
+[INFO] (yfinance) This package is up to date.
+[INFO] (yfinance-ez) This package is up to date.
+[ERROR] (yfinance-fix-tomasz) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yfinance2pg) Data has been updated for this package.
+[ERROR] (yfinance2pg-karlewr) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yfinanceapi) This package is up to date.
+[INFO] (yfinanceng) This package is up to date.
+[INFO] (yfind) This package is up to date.
+[INFO] (yfj-nester) This package is up to date.
+[INFO] (yfm) This package is up to date.
+[INFO] (yfml) This package is up to date.
+[INFO] (yfms) This package is up to date.
+[INFO] (yfoptions-dl) This package is up to date.
+[INFO] (yfpy) This package is up to date.
+[INFO] (yfs) This package is up to date.
+[INFO] (yfscraper) This package is up to date.
+[INFO] (yft) Data has been updated for this package.
+[INFO] (yftest) This package is up to date.
+[INFO] (yftest-2) This package is up to date.
+[ERROR] (yftest2) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yfx) This package is up to date.
+[INFO] (yg) This package is up to date.
+[INFO] (yg-emanate) This package is up to date.
+[INFO] (yg-eventful) This package is up to date.
+[INFO] (yg-lockfile) This package is up to date.
+[INFO] (yg-thumpy) This package is up to date.
+[INFO] (yg-token) This package is up to date.
+[INFO] (ygfwind-nester) This package is up to date.
+[INFO] (ygg-keyfile) This package is up to date.
+[INFO] (yggdrasil) This package is up to date.
+[INFO] (yggdrasil-framework) Data has been updated for this package.
+[INFO] (yggdrasil-py) This package is up to date.
+[INFO] (yggdrasilctl) This package is up to date.
+[INFO] (yggtorrent) This package is up to date.
+[INFO] (yggtorrentscraper) This package is up to date.
+[ERROR] (ygh) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ygh-testing) Data has been updated for this package.
+[INFO] (yghnester) This package is up to date.
+[INFO] (ygitchangelog) This package is up to date.
+[INFO] (ygl) This package is up to date.
+[INFO] (yglockfile) This package is up to date.
+[INFO] (yglu) This package is up to date.
+[INFO] (ygoprodeck) Data has been updated for this package.
+[INFO] (ygor) This package is up to date.
+[INFO] (ygorganization-api) This package is up to date.
+[ERROR] (ygq-nester) This package does not have downloadable releases.
+[INFO] (ygram) This package is up to date.
+[INFO] (ygrauzdokq) This package is up to date.
+[INFO] (ygrep) This package is up to date.
+[INFO] (ygssbn-distributions) This package is up to date.
+[INFO] (yh) This package is up to date.
+[INFO] (yh-catch-apple) This package is up to date.
+[INFO] (yh-nester) This package is up to date.
+[INFO] (yhandler) This package is up to date.
+[INFO] (yhat) This package is up to date.
+[INFO] (yhb) This package is up to date.
+[INFO] (yhitsupermath) This package is up to date.
+[ERROR] (yhmodule) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yhnews) This package is up to date.
+[INFO] (yht) This package is up to date.
+[INFO] (yhttp) Data has been updated for this package.
+[INFO] (yhttp-auth) This package is up to date.
+[INFO] (yhttp-pony) This package is up to date.
+[INFO] (yhw-nester) This package is up to date.
+[INFO] (yhwnester) This package is up to date.
+[INFO] (yhy) This package is up to date.
+[INFO] (yi) Data has been updated for this package.
+[INFO] (yi-mp) This package is up to date.
+[ERROR] (yi-sso-tool) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (yi-sso-tools) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yiac) This package is up to date.
+[ERROR] (yiannispdf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yibai-sms-python-sdk) This package is up to date.
+[INFO] (yiban) This package is up to date.
+[INFO] (yibanapi) This package is up to date.
+[INFO] (yibasuo) This package is up to date.
+[INFO] (yices) This package is up to date.
+[INFO] (yichin) This package is up to date.
+[INFO] (yichun-shi-autocomplete) This package is up to date.
+[INFO] (yicurd) This package is up to date.
+[INFO] (yidashcam) This package is up to date.
+[INFO] (yield-curve-dynamics) This package is up to date.
+[INFO] (yield-from) This package is up to date.
+[INFO] (yield2await) This package is up to date.
+[INFO] (yieldbreaker) This package is up to date.
+[INFO] (yieldcurve) This package is up to date.
+[INFO] (yieldcurve-vlademel) This package is up to date.
+[INFO] (yieldfixture) This package is up to date.
+[INFO] (yieldfrom) This package is up to date.
+[INFO] (yieldfrom-botocore) This package is up to date.
+[INFO] (yieldfrom-http-client) This package is up to date.
+[INFO] (yieldfrom-requests) This package is up to date.
+[INFO] (yieldfrom-urllib-request) This package is up to date.
+[INFO] (yieldfrom-urllib3) This package is up to date.
+[INFO] (yieldlocus) This package is up to date.
+[INFO] (yieldpoints) This package is up to date.
+[INFO] (yifeif-tensorflow-graphics) This package is up to date.
+[INFO] (yiff) Data has been updated for this package.
+[INFO] (yiffscraper) This package is up to date.
+[INFO] (yifi) This package is up to date.
+[ERROR] (yify) This package does not have downloadable releases.
+[INFO] (yify-grabber) This package is up to date.
+[INFO] (yify-sub) This package is up to date.
+[INFO] (yifyapi) This package is up to date.
+[INFO] (yige) This package is up to date.
+[INFO] (yigemuokuai1) This package is up to date.
+[INFO] (yigitflow) Data has been updated for this package.
+[INFO] (yihan-helper) This package is up to date.
+[INFO] (yijing) This package is up to date.
+[INFO] (yikai-helper-funcs) This package is up to date.
+[INFO] (yikai-tools) This package is up to date.
+[INFO] (yima) This package is up to date.
+[INFO] (yimage) This package is up to date.
+[INFO] (yimerge) This package is up to date.
+[INFO] (yimilili) This package is up to date.
+[INFO] (yinan-dl) This package is up to date.
+[INFO] (yinasrun) This package is up to date.
+[INFO] (yinfishs-sswitch) This package is up to date.
+[INFO] (ying4449) Data has been updated for this package.
+[INFO] (yingbox) This package is up to date.
+[INFO] (yingjia-common) This package is up to date.
+[INFO] (yingzi) This package is up to date.
+[ERROR] (yinlu) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yinotify) This package is up to date.
+[ERROR] (yinquanhui) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yinsolidated) This package is up to date.
+[INFO] (yinstabot) This package is up to date.
+[INFO] (yinter) This package is up to date.
+[INFO] (yip) This package is up to date.
+[INFO] (yipit) This package is up to date.
+[INFO] (yippee) This package is up to date.
+[INFO] (yippi) This package is up to date.
+[INFO] (yipy) This package is up to date.
+[INFO] (yiriair) This package is up to date.
+[INFO] (yitest) This package is up to date.
+[INFO] (yith-library-server) This package is up to date.
+[ERROR] (yith-web-client) This package does not have downloadable releases.
+[INFO] (yitizi) Data has been updated for this package.
+[INFO] (yivo) This package is up to date.
+[INFO] (yixiangrpc) This package is up to date.
+[ERROR] (yixin) This package does not have downloadable releases.
+[INFO] (yixinpylib) This package is up to date.
+[ERROR] (yj) This package does not have downloadable releases.
+[INFO] (yj-tool) This package is up to date.
+[INFO] (yj-xuniji) This package is up to date.
+[INFO] (yjpip) This package is up to date.
+[INFO] (yjpproject) This package is up to date.
+[INFO] (yjs) Data has been updated for this package.
+[INFO] (yjsnpy) This package is up to date.
+[INFO] (yjtest) This package is up to date.
+[INFO] (yjx-nester) This package is up to date.
+[INFO] (yk) This package is up to date.
+[INFO] (yk-calculator) Data has been updated for this package.
+[INFO] (yk-face) Data has been updated for this package.
+[INFO] (yk-face-api-model) Data has been updated for this package.
+[INFO] (yk-totp) Data has been updated for this package.
+[INFO] (ykdl) This package is up to date.
+[INFO] (ykfan-utils) This package is up to date.
+[INFO] (ykk) This package is up to date.
+[INFO] (ykpers-cffi) This package is up to date.
+[INFO] (ykpstools) This package is up to date.
+[INFO] (yks) This package is up to date.
+[INFO] (yl) Data has been updated for this package.
+[INFO] (yl-app) This package is up to date.
+[INFO] (yl-django-betterforms) This package is up to date.
+[INFO] (yl-yourname) This package is up to date.
+[INFO] (yld) This package is up to date.
+[INFO] (yldprolog) This package is up to date.
+[INFO] (yle-dl) Data has been updated for this package.
+[INFO] (ylib) This package is up to date.
+[INFO] (yliveticker) This package is up to date.
+[INFO] (yliveticker-test) This package is up to date.
+[INFO] (ylmfab) This package is up to date.
+[INFO] (ylogger) Data has been updated for this package.
+[INFO] (yly-python-sdk) This package is up to date.
+[INFO] (ym) This package is up to date.
+[INFO] (ym-impyla) This package is up to date.
+[INFO] (ym-service-streamer) This package is up to date.
+[INFO] (ym-xadmin) This package is up to date.
+[INFO] (yma2txt) This package is up to date.
+[ERROR] (ymake) This package does not have downloadable releases.
+[INFO] (ymap) This package is up to date.
+[INFO] (ymci) This package is up to date.
+[INFO] (ymci-ext-acl) This package is up to date.
+[INFO] (ymci-ext-coverage) This package is up to date.
+[INFO] (ymci-ext-mail-alerts) This package is up to date.
+[INFO] (ymci-ext-oauth) This package is up to date.
+[INFO] (ymci-ext-sloccount) This package is up to date.
+[INFO] (ymci-ext-source-git) This package is up to date.
+[INFO] (ymci-ext-test-junit) This package is up to date.
+[INFO] (ymcontent) This package is up to date.
+[INFO] (ymir) This package is up to date.
+[INFO] (yml) This package is up to date.
+[INFO] (yml2) This package is up to date.
+[INFO] (yml2db) This package is up to date.
+[INFO] (yml2json) This package is up to date.
+[ERROR] (yml2tex) Could not extract data from this package. See below for details.
+"http://yml2tex.googlecode.com/files/yml2tex-1.2.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ymlconfig) This package is up to date.
+[INFO] (ymlf) This package is up to date.
+[INFO] (ymlref) This package is up to date.
+[INFO] (ymmnlputils) This package is up to date.
+[INFO] (ymmsl) Data has been updated for this package.
+[INFO] (ymmuimlibrary) This package is up to date.
+[INFO] (ymodel) This package is up to date.
+[INFO] (ymp) This package is up to date.
+[INFO] (ympush) This package is up to date.
+[ERROR] (ymreader) This package does not have downloadable releases.
+[INFO] (ymsglib) This package is up to date.
+[INFO] (ymxadmin) This package is up to date.
+[ERROR] (ymz) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (yn) This package does not have downloadable releases.
+[INFO] (yn-input) This package is up to date.
+[INFO] (yn-lantern) This package is up to date.
+[INFO] (ynab) This package is up to date.
+[INFO] (ynab-api) This package is up to date.
+[INFO] (ynab-client) This package is up to date.
+[INFO] (ynab-csv-converter) This package is up to date.
+[INFO] (ynab-import) This package is up to date.
+[INFO] (ynab-moka) This package is up to date.
+[INFO] (ynab-sdk) This package is up to date.
+[INFO] (ynab-weekly) This package is up to date.
+[INFO] (ynabamazonparser) This package is up to date.
+[INFO] (ynabintegrationscli) This package is up to date.
+[INFO] (ynabintegrationslib) This package is up to date.
+[INFO] (ynabinterfaceslib) This package is up to date.
+[INFO] (ynablib) This package is up to date.
+[INFO] (ynca) Data has been updated for this package.
+[INFO] (ynd-probability) This package is up to date.
+[ERROR] (ynester) This package does not have downloadable releases.
+[INFO] (ynet) This package is up to date.
+[INFO] (ynitdb) This package is up to date.
+[INFO] (ynj) This package is up to date.
+[INFO] (ynm3k) This package is up to date.
+[INFO] (ynn) This package is up to date.
+[INFO] (ynot) This package is up to date.
+[INFO] (ynot-astro) This package is up to date.
+[INFO] (ynsfsc-distributions) This package is up to date.
+[ERROR] (yo) This package does not have downloadable releases.
+[INFO] (yo-cli) This package is up to date.
+[INFO] (yo-client) This package is up to date.
+[INFO] (yo-ds) This package is up to date.
+[INFO] (yo-fabric) This package is up to date.
+[INFO] (yo-fluq) This package is up to date.
+[INFO] (yo-fluq-ds) This package is up to date.
+[INFO] (yo-payments) This package is up to date.
+[INFO] (yo-py) This package is up to date.
+[INFO] (yo-runner) This package is up to date.
+[INFO] (yoapi) This package is up to date.
+[INFO] (yoav) This package is up to date.
+[INFO] (yobit) This package is up to date.
+[INFO] (yobr) This package is up to date.
+[ERROR] (yobs-da) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (yocho-conan-xtl) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yocho-pyld-xtl) This package is up to date.
+[INFO] (yocho-rdflib-xtl) This package is up to date.
+[INFO] (yoclient) This package is up to date.
+[INFO] (yoconfigurator) This package is up to date.
+[INFO] (yoctoec2) This package is up to date.
+[INFO] (yoctol-argparse) This package is up to date.
+[INFO] (yoctol-keras-layer-zoo) This package is up to date.
+[INFO] (yoctol-nlu) This package is up to date.
+[INFO] (yoctol-utils) This package is up to date.
+[INFO] (yoctools) Data has been updated for this package.
+[INFO] (yoctools-t1) This package is up to date.
+[INFO] (yoctopuce) Data has been updated for this package.
+[INFO] (yoda) This package is up to date.
+[INFO] (yoda-powers) This package is up to date.
+[ERROR] (yoda-speech) Could not extract data from this package. See below for details.
+Unsupported package directory structure.
+[INFO] (yoda-tools) This package is up to date.
+[INFO] (yodapy) This package is up to date.
+[ERROR] (yodawg) This package does not have downloadable releases.
+[INFO] (yodel) This package is up to date.
+[INFO] (yodel-aldenq) Data has been updated for this package.
+[INFO] (yodelaldenq) Data has been updated for this package.
+[INFO] (yodelnet) Data has been updated for this package.
+[INFO] (yodeploy) This package is up to date.
+[INFO] (yodf) Data has been updated for this package.
+[INFO] (yodine) This package is up to date.
+[INFO] (yodine-data) This package is up to date.
+[INFO] (yodl) This package is up to date.
+[INFO] (yodlee) This package is up to date.
+[INFO] (yodoit) This package is up to date.
+[ERROR] (yodzpdf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yofx) Data has been updated for this package.
+[INFO] (yoga) This package is up to date.
+[INFO] (yogadl) This package is up to date.
+[INFO] (yogaflo) This package is up to date.
+[ERROR] (yogalib) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yogasmara-pkg-septiana-yogasmara) Data has been updated for this package.
+[INFO] (yogasoft) This package is up to date.
+[INFO] (yogesh) This package is up to date.
+[INFO] (yogesh-chandra) This package is up to date.
+[INFO] (yogesh-nile) This package is up to date.
+[INFO] (yogi-formula) This package is up to date.
+[INFO] (yoginth) This package is up to date.
+[INFO] (yogit) This package is up to date.
+[INFO] (yogosyu) This package is up to date.
+[INFO] (yogurt) This package is up to date.
+[INFO] (yogy-pkg-yogymax) This package is up to date.
+[INFO] (yoink) This package is up to date.
+[INFO] (yoinkery) This package is up to date.
+[INFO] (yokadi) This package is up to date.
+[INFO] (yoke) This package is up to date.
+[INFO] (yolapiasync) This package is up to date.
+[INFO] (yolapy) This package is up to date.
+[INFO] (yolk) This package is up to date.
+[INFO] (yolk-portage) This package is up to date.
+[INFO] (yolk1977) This package is up to date.
+[INFO] (yolk3k) This package is up to date.
+[INFO] (yollapay) This package is up to date.
+[INFO] (yolo) This package is up to date.
+[INFO] (yolo-auto) This package is up to date.
+[INFO] (yolo-labeler) This package is up to date.
+[INFO] (yolo-rahul-sinha) This package is up to date.
+[INFO] (yolo-v4) This package is up to date.
+[INFO] (yolo3) This package is up to date.
+[INFO] (yolo34py) This package is up to date.
+[INFO] (yolo34py-gpu) This package is up to date.
+[INFO] (yolobel) This package is up to date.
+[INFO] (yolocaraccident) This package is up to date.
+[INFO] (yolodb) This package is up to date.
+[INFO] (yolog) This package is up to date.
+[INFO] (yoloimport) This package is up to date.
+[INFO] (yolololobagv4) This package is up to date.
+[INFO] (yolort) Data has been updated for this package.
+[INFO] (yolov3) This package is up to date.
+[INFO] (yolov4) Data has been updated for this package.
+[INFO] (yolov4-kl-demo) This package is up to date.
+[INFO] (yolov5) Data has been updated for this package.
+[INFO] (yolov5-evaluator) Data has been updated for this package.
+[INFO] (yolov5processor) Data has been updated for this package.
+[ERROR] (yom-client) This package does not have downloadable releases.
+[INFO] (yomari) This package is up to date.
+[INFO] (yomi) This package is up to date.
+[INFO] (yomiel) Data has been updated for this package.
+[INFO] (yomikata) This package is up to date.
+[INFO] (yomo) This package is up to date.
+[INFO] (yomopie) This package is up to date.
+[INFO] (yoncrawler) This package is up to date.
+[INFO] (yongshi-guidarktheme) This package is up to date.
+[INFO] (yongshi-pyeth) This package is up to date.
+[INFO] (yongshi-pynfc) Data has been updated for this package.
+[INFO] (yongshi-pyqtgameboard) This package is up to date.
+[INFO] (yongshuox) This package is up to date.
+[INFO] (yoo) This package is up to date.
+[INFO] (yoohoo) This package is up to date.
+[INFO] (yookassa) Data has been updated for this package.
+[INFO] (yookassa-payout) Data has been updated for this package.
+[INFO] (yoongoo) This package is up to date.
+[ERROR] (yoopf-for-python) Could not extract data from this package. See below for details.
+This package download URL does not point to a valid file: "http://bitbucket.org/yoopf/yoopf/downloads"
+[INFO] (yootk-mess) This package is up to date.
+[INFO] (yootk-message) This package is up to date.
+[INFO] (yootk-message-yangrui) This package is up to date.
+[INFO] (yoottana-helloworld-library) This package is up to date.
+[INFO] (yop-python-sdk) Data has been updated for this package.
+[INFO] (yopass-cli) This package is up to date.
+[ERROR] (yopass-cli-zsolt-halo) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yopenapi) This package is up to date.
+[INFO] (yopp) This package is up to date.
+[INFO] (yopy) This package is up to date.
+[INFO] (yopypi) This package is up to date.
+[INFO] (yoqle) This package is up to date.
+[INFO] (yorbali) This package is up to date.
+[INFO] (yorbay) This package is up to date.
+[ERROR] (yorg) This package does not have downloadable releases.
+[INFO] (yorick) This package is up to date.
+[INFO] (yorkpy) This package is up to date.
+[INFO] (yorkshire4) This package is up to date.
+[INFO] (yorm) This package is up to date.
+[INFO] (yorn) This package is up to date.
+[INFO] (yorpo) This package is up to date.
+[INFO] (yos) This package is up to date.
+[INFO] (yos-cube) This package is up to date.
+[INFO] (yos-social-sdk) This package is up to date.
+[INFO] (yosai) This package is up to date.
+[INFO] (yosai-alchemystore) This package is up to date.
+[INFO] (yosai-dpcache) This package is up to date.
+[INFO] (yosaipy2) This package is up to date.
+[INFO] (yoshi-otter) Data has been updated for this package.
+[INFO] (yoshi-seals) Data has been updated for this package.
+[INFO] (yoshix) This package is up to date.
+[INFO] (yoso) This package is up to date.
+[INFO] (yospacecds) This package is up to date.
+[INFO] (yosstocks) This package is up to date.
+[INFO] (yosun) This package is up to date.
+[INFO] (yota) This package is up to date.
+[INFO] (yotest) This package is up to date.
+[ERROR] (yothisisareallylongname) This package does not have downloadable releases.
+[INFO] (yoti) This package is up to date.
+[INFO] (yoti-sandbox) This package is up to date.
+[INFO] (yoto-exception) This package is up to date.
+[INFO] (yoton) This package is up to date.
+[ERROR] (yotsuba) Could not extract data from this package. See below for details.
+"http://yotsuba.googlecode.com/files/yotsuba-3.1.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yotsuba-python) This package is up to date.
+[INFO] (yotta) This package is up to date.
+[INFO] (yotuyu) This package is up to date.
+[INFO] (you) This package is up to date.
+[INFO] (you-dl) This package is up to date.
+[INFO] (you-get) Data has been updated for this package.
+[INFO] (you-live) Data has been updated for this package.
+[INFO] (youandme) This package is up to date.
+[INFO] (youarehere) This package is up to date.
+[INFO] (youcab) Data has been updated for this package.
+[INFO] (youchoose) This package is up to date.
+[INFO] (youconfigme) This package is up to date.
+[INFO] (youda) This package is up to date.
+[INFO] (youdao) This package is up to date.
+[INFO] (youdao-dict) This package is up to date.
+[INFO] (youdao-python) This package is up to date.
+[INFO] (youdao-simple) This package is up to date.
+[INFO] (youdao-tr-free) This package is up to date.
+[INFO] (youdao-translator) Data has been updated for this package.
+[INFO] (youdao-wd) This package is up to date.
+[INFO] (youdaodict) This package is up to date.
+[INFO] (youdaofanyi) This package is up to date.
+[INFO] (youdaotranslate) This package is up to date.
+[INFO] (youdown) This package is up to date.
+[INFO] (youget) This package is up to date.
+[INFO] (youglance) This package is up to date.
+[INFO] (youku) This package is up to date.
+[INFO] (youku-upload) Data has been updated for this package.
+[INFO] (youkudownloader) This package is up to date.
+[INFO] (yould) This package is up to date.
+[INFO] (youless-api) Data has been updated for this package.
+[INFO] (youlldownload) This package is up to date.
+[INFO] (youmadeit) This package is up to date.
+[INFO] (youmeng) This package is up to date.
+[INFO] (youneedme) This package is up to date.
+[ERROR] (younet-rnd-infrastructure) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (young) This package is up to date.
+[INFO] (younggis) This package is up to date.
+[INFO] (youngho) This package is up to date.
+[INFO] (youngho2016) This package is up to date.
+[INFO] (youngmenpackage) This package is up to date.
+[INFO] (youngnmt) This package is up to date.
+[INFO] (youngones-auth) This package is up to date.
+[INFO] (youngshine-nester) This package is up to date.
+[INFO] (youngtest) This package is up to date.
+[INFO] (youngtoolkit) Data has been updated for this package.
+[INFO] (younit) This package is up to date.
+[INFO] (youplay) This package is up to date.
+[INFO] (youpy) This package is up to date.
+[INFO] (your) Data has been updated for this package.
+[INFO] (your-app) This package is up to date.
+[INFO] (your-fav-dl-framework) Data has been updated for this package.
+[INFO] (your-lucky-song) This package is up to date.
+[INFO] (your-notes) This package is up to date.
+[INFO] (your-package) This package is up to date.
+[INFO] (your-win) This package is up to date.
+[INFO] (yourai) This package is up to date.
+[ERROR] (youran) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yourbase) Data has been updated for this package.
+[INFO] (yourface) This package is up to date.
+[ERROR] (youripdf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yourls) This package is up to date.
+[INFO] (yourmum) This package is up to date.
+[INFO] (yourproject) This package is up to date.
+[INFO] (yourscript-test) This package is up to date.
+[INFO] (yoursql) Data has been updated for this package.
+[INFO] (yourtool) This package is up to date.
+[INFO] (youscan) This package is up to date.
+[INFO] (yousearch) This package is up to date.
+[INFO] (youseedee) This package is up to date.
+[INFO] (youset) This package is up to date.
+[INFO] (youspy) This package is up to date.
+[INFO] (yousub) This package is up to date.
+[INFO] (youtiao) This package is up to date.
+[INFO] (youtokentome) This package is up to date.
+[INFO] (youtrack) This package is up to date.
+[INFO] (youtrack-rest-api) This package is up to date.
+[INFO] (youtrack-scripts) This package is up to date.
+[ERROR] (youtube) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (youtube-api) This package does not have downloadable releases.
+[INFO] (youtube-api-wrapper) This package is up to date.
+[INFO] (youtube-audio-downloader) This package is up to date.
+[INFO] (youtube-auto-search) Data has been updated for this package.
+[INFO] (youtube-autodownloader) This package is up to date.
+[INFO] (youtube-batch) This package is up to date.
+[INFO] (youtube-bz) Data has been updated for this package.
+[INFO] (youtube-channel-subscriber) Data has been updated for this package.
+[INFO] (youtube-channel-transcript-api) This package is up to date.
+[INFO] (youtube-channel-videos-scraper) Data has been updated for this package.
+[INFO] (youtube-cli) This package is up to date.
+[INFO] (youtube-comment-auto-liker) Data has been updated for this package.
+[INFO] (youtube-comment-scraper) Data has been updated for this package.
+[INFO] (youtube-creator-cli) Data has been updated for this package.
+[INFO] (youtube-cue) This package is up to date.
+[INFO] (youtube-curses) This package is up to date.
+[INFO] (youtube-dash-dl) Data has been updated for this package.
+[INFO] (youtube-data-api) This package is up to date.
+[INFO] (youtube-data-api3) This package is up to date.
+[INFO] (youtube-django) This package is up to date.
+[INFO] (youtube-dl) Data has been updated for this package.
+[INFO] (youtube-dl-cli) This package is up to date.
+[INFO] (youtube-dl-gui) This package is up to date.
+[INFO] (youtube-dl-helper) This package is up to date.
+[INFO] (youtube-dl-plugin) This package is up to date.
+[INFO] (youtube-dl-server) This package is up to date.
+[INFO] (youtube-dl-service) Data has been updated for this package.
+[INFO] (youtube-dl2) This package is up to date.
+[INFO] (youtube-dlc) This package is up to date.
+[INFO] (youtube-dlg) This package is up to date.
+[INFO] (youtube-download) This package is up to date.
+[INFO] (youtube-downloader) Data has been updated for this package.
+[INFO] (youtube-easy-api) Data has been updated for this package.
+[INFO] (youtube-extract) Data has been updated for this package.
+[INFO] (youtube-livechat-messages) This package is up to date.
+[INFO] (youtube-loader) This package is up to date.
+[INFO] (youtube-lv) Data has been updated for this package.
+[INFO] (youtube-me) This package is up to date.
+[INFO] (youtube-metrics) This package is up to date.
+[INFO] (youtube-mp3) This package is up to date.
+[INFO] (youtube-mp3-downloader) This package is up to date.
+[INFO] (youtube-multi-dl) Data has been updated for this package.
+[INFO] (youtube-music-uploader) Data has been updated for this package.
+[INFO] (youtube-playlist-creator) Data has been updated for this package.
+[INFO] (youtube-playlist-downloader) This package is up to date.
+[INFO] (youtube-playlist-to-m3u) Data has been updated for this package.
+[INFO] (youtube-playlist-videos-scraper) Data has been updated for this package.
+[INFO] (youtube-py) Data has been updated for this package.
+[INFO] (youtube-python) This package is up to date.
+[INFO] (youtube-python-sdk) This package is up to date.
+[INFO] (youtube-related) Data has been updated for this package.
+[INFO] (youtube-rss-subscriber) Data has been updated for this package.
+[INFO] (youtube-scraper) This package is up to date.
+[INFO] (youtube-sdk-py) Data has been updated for this package.
+[INFO] (youtube-search) This package is up to date.
+[INFO] (youtube-search-fork) This package is up to date.
+[INFO] (youtube-search-python) Data has been updated for this package.
+[INFO] (youtube-search-requests) Data has been updated for this package.
+[INFO] (youtube-search-requests-py2) Data has been updated for this package.
+[INFO] (youtube-searcher) This package is up to date.
+[INFO] (youtube-sentiment) This package is up to date.
+[INFO] (youtube-series-downloader) This package is up to date.
+[INFO] (youtube-sm) This package is up to date.
+[INFO] (youtube-sm-parser) This package is up to date.
+[INFO] (youtube-song-downloader) This package is up to date.
+[INFO] (youtube-streamer) This package is up to date.
+[INFO] (youtube-title-parse) This package is up to date.
+[INFO] (youtube-title-parser) This package is up to date.
+[INFO] (youtube-to-mpd) This package is up to date.
+[INFO] (youtube-tool) Data has been updated for this package.
+[INFO] (youtube-transcript-api) This package is up to date.
+[INFO] (youtube-tts-data-generator) This package is up to date.
+[INFO] (youtube-unlimited-search) This package is up to date.
+[INFO] (youtube-unofficial) This package is up to date.
+[ERROR] (youtube-upload) This package does not have downloadable releases.
+[INFO] (youtube-uploader-selenium) This package is up to date.
+[INFO] (youtube-utils-fishingcoder) Data has been updated for this package.
+[INFO] (youtube-video-auto-like) Data has been updated for this package.
+[INFO] (youtube-video-comment-replies-scraper) Data has been updated for this package.
+[INFO] (youtube-video-play-pause) Data has been updated for this package.
+[INFO] (youtube-video-scraper) Data has been updated for this package.
+[INFO] (youtube-video-upload) This package is up to date.
+[INFO] (youtube-video-uploader) Data has been updated for this package.
+[INFO] (youtube-video-viewer) Data has been updated for this package.
+[INFO] (youtube-watcher) This package is up to date.
+[INFO] (youtube-websearch) Data has been updated for this package.
+[ERROR] (youtube2audiospectro) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (youtube2images) This package is up to date.
+[INFO] (youtube2m4a) This package is up to date.
+[INFO] (youtube2mp3) This package is up to date.
+[ERROR] (youtube2srt) This package does not have downloadable releases.
+[INFO] (youtube2usb) This package is up to date.
+[INFO] (youtube2zim) Data has been updated for this package.
+[INFO] (youtube3) This package is up to date.
+[INFO] (youtubeapi) This package is up to date.
+[INFO] (youtubeapi-tjmoon0104) This package is up to date.
+[INFO] (youtubecomments) This package is up to date.
+[INFO] (youtubedata) This package is up to date.
+[ERROR] (youtubedl) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (youtubedlserver) This package is up to date.
+[INFO] (youtubedownloader) This package is up to date.
+[INFO] (youtubeless) Data has been updated for this package.
+[INFO] (youtubelight) This package is up to date.
+[INFO] (youtubemeta) This package is up to date.
+[INFO] (youtubepy) This package is up to date.
+[INFO] (youtubescraper) This package is up to date.
+[INFO] (youtubesearch) This package is up to date.
+[INFO] (youtubesearchpython) This package is up to date.
+[INFO] (youtubetaggenerator) This package is up to date.
+[INFO] (youtubetobibtex) This package is up to date.
+[INFO] (youtubetomp3) This package is up to date.
+[INFO] (youtubetranscript) This package is up to date.
+[ERROR] (youtubevlc) This package does not have downloadable releases.
+[INFO] (youtubewatched) This package is up to date.
+[INFO] (youtunes) This package is up to date.
+[INFO] (youtux-test-travis) This package is up to date.
+[INFO] (youtyper) This package is up to date.
+[INFO] (youversion) This package is up to date.
+[INFO] (youzan) This package is up to date.
+[INFO] (youzhang) This package is up to date.
+[INFO] (yowasp-nextpnr-ecp5) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ecp5-25k) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ecp5-45k) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ecp5-85k) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ecp5-all) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40-1k) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40-384) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40-5k) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40-8k) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40-all) Data has been updated for this package.
+[INFO] (yowasp-nextpnr-ice40-u4k) Data has been updated for this package.
+[INFO] (yowasp-yosys) Data has been updated for this package.
+[INFO] (yowlayer-django-store) This package is up to date.
+[INFO] (yowsup) This package is up to date.
+[INFO] (yowsup-celery) This package is up to date.
+[INFO] (yowsup-gateway) This package is up to date.
+[INFO] (yowsup2) This package is up to date.
+[ERROR] (yoyo) This package does not have downloadable releases.
+[INFO] (yoyo-database-migrations) This package is up to date.
+[INFO] (yoyo-distributions) This package is up to date.
+[INFO] (yoyo-indexima) This package is up to date.
+[INFO] (yoyo-migrations) Data has been updated for this package.
+[INFO] (yoyo-pack) This package is up to date.
+[ERROR] (yoyo-submarine) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yoyolala) This package is up to date.
+[ERROR] (yoyomigrations) This package does not have downloadable releases.
+[INFO] (yoyopkg) This package is up to date.
+[INFO] (yoyotestpags00) This package is up to date.
+[INFO] (yozuch) This package is up to date.
+[INFO] (yp) Data has been updated for this package.
+[INFO] (ypackage) This package is up to date.
+[INFO] (ypassbook) This package is up to date.
+[INFO] (ypc) This package is up to date.
+[INFO] (ypcc) This package is up to date.
+[INFO] (ypconfig) This package is up to date.
+[INFO] (ypconnector) This package is up to date.
+[INFO] (ypcspy) This package is up to date.
+[INFO] (ypdd) This package is up to date.
+[INFO] (ypersms-client) This package is up to date.
+[INFO] (ypgame) This package is up to date.
+[INFO] (yphtest) This package is up to date.
+[INFO] (ypinyin) This package is up to date.
+[ERROR] (ypipe) Could not extract data from this package. See below for details.
+"https://ypipe.googlecode.com/files/ypipe-0.8.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ypiptest) This package is up to date.
+[INFO] (ypkpathway) This package is up to date.
+[INFO] (yplan-logging-utils) This package is up to date.
+[INFO] (yplate) This package is up to date.
+[INFO] (ypotf) This package is up to date.
+[INFO] (ypredict) This package is up to date.
+[INFO] (ypstruct) This package is up to date.
+[INFO] (ypy) This package is up to date.
+[INFO] (ypyapi) This package is up to date.
+[INFO] (yq) Data has been updated for this package.
+[ERROR] (yqf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yqg-py-scheduler) This package is up to date.
+[INFO] (yqgscheduler) This package is up to date.
+[INFO] (yqhoutest) This package is up to date.
+[INFO] (yql) This package is up to date.
+[INFO] (yql-finance) This package is up to date.
+[INFO] (yqmd) This package is up to date.
+[INFO] (yqmiot) This package is up to date.
+[INFO] (yqmq) This package is up to date.
+[INFO] (yqn-jupyterhub-ldapauthenticator) This package is up to date.
+[INFO] (yqn-pytorch-framework) This package is up to date.
+[INFO] (yqscripts) This package is up to date.
+[INFO] (yqt) This package is up to date.
+[INFO] (yqxx) Data has been updated for this package.
+[INFO] (yr) This package is up to date.
+[INFO] (yrag) This package is up to date.
+[INFO] (yrequests) This package is up to date.
+[INFO] (yrest) This package is up to date.
+[INFO] (ys) Data has been updated for this package.
+[INFO] (ys-distributions) This package is up to date.
+[INFO] (ys-nester1) This package is up to date.
+[INFO] (ys-service) This package is up to date.
+[INFO] (ysa) This package is up to date.
+[INFO] (ysanic) This package is up to date.
+[INFO] (ysb-common) Data has been updated for this package.
+[INFO] (yschema) This package is up to date.
+[ERROR] (ysco) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yserv) This package is up to date.
+[INFO] (ysg-demo3-package) This package is up to date.
+[INFO] (yshen-setup-test) This package is up to date.
+[INFO] (yshysh) This package is up to date.
+[INFO] (ysk-django-lockdown) This package is up to date.
+[INFO] (ysl) This package is up to date.
+[INFO] (ysmtool) This package is up to date.
+[INFO] (yson) This package is up to date.
+[INFO] (ysospy-noahbraunf) Data has been updated for this package.
+[INFO] (ysp-postdown) This package is up to date.
+[INFO] (yspacepy) This package is up to date.
+[INFO] (yspec) This package is up to date.
+[INFO] (yssh) This package is up to date.
+[INFO] (ystafdb) This package is up to date.
+[INFO] (ystocklist) This package is up to date.
+[INFO] (ystockquery) This package is up to date.
+[INFO] (ystockquote) This package is up to date.
+[INFO] (ysyai2) This package is up to date.
+[INFO] (ysyfinance) This package is up to date.
+[INFO] (yt) This package is up to date.
+[INFO] (yt-archiver) This package is up to date.
+[INFO] (yt-astro-analysis) This package is up to date.
+[INFO] (yt-audio) This package is up to date.
+[INFO] (yt-channels-archive) Data has been updated for this package.
+[INFO] (yt-concate) This package is up to date.
+[INFO] (yt-concate-willie300300) This package is up to date.
+[INFO] (yt-dlp) Data has been updated for this package.
+[INFO] (yt-finance) This package is up to date.
+[INFO] (yt-formula-node) This package is up to date.
+[INFO] (yt-helper) This package is up to date.
+[INFO] (yt-idv) Data has been updated for this package.
+[INFO] (yt-iframe) This package is up to date.
+[INFO] (yt-info) This package is up to date.
+[INFO] (yt-interaction) This package is up to date.
+[INFO] (yt-lib) This package is up to date.
+[INFO] (yt-playlist-dl) Data has been updated for this package.
+[INFO] (yt-playlist-updater) Data has been updated for this package.
+[INFO] (yt-rank-checker) This package is up to date.
+[INFO] (yt-recipe-relativeworkaround) This package is up to date.
+[INFO] (yt-recipe-shell) This package is up to date.
+[INFO] (yt-scraper) This package is up to date.
+[INFO] (yt-search) This package is up to date.
+[INFO] (yt-songs) This package is up to date.
+[INFO] (yt-videos-list) Data has been updated for this package.
+[INFO] (yt2mp3) This package is up to date.
+[INFO] (ytam) Data has been updated for this package.
+[INFO] (ytapi) This package is up to date.
+[INFO] (ytapitest) This package is up to date.
+[INFO] (ytb) This package is up to date.
+[INFO] (ytbdwn) This package is up to date.
+[INFO] (ytbot) This package is up to date.
+[INFO] (ytcc) This package is up to date.
+[INFO] (ytchannel) This package is up to date.
+[INFO] (ytclient) This package is up to date.
+[INFO] (ytda) Data has been updated for this package.
+[INFO] (ytdata) This package is up to date.
+[INFO] (ytdl) This package is up to date.
+[INFO] (ytdown) This package is up to date.
+[INFO] (ytdownload) Data has been updated for this package.
+[INFO] (ytdownloader) This package is up to date.
+[INFO] (ytdvideo) This package is up to date.
+[INFO] (ytelapi) This package is up to date.
+[INFO] (yter) This package is up to date.
+[INFO] (ytermplayer) This package is up to date.
+[INFO] (ytest) This package is up to date.
+[INFO] (ytfs) This package is up to date.
+[INFO] (ytgrep) This package is up to date.
+[INFO] (ythd) This package is up to date.
+[INFO] (ythesis) Data has been updated for this package.
+[INFO] (ytimg) Data has been updated for this package.
+[ERROR] (ytimg2) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ytiny) This package is up to date.
+[INFO] (ytkd-api) This package is up to date.
+[INFO] (ytlivescrape) This package is up to date.
+[INFO] (ytlog) This package is up to date.
+[INFO] (ytmdl) Data has been updated for this package.
+[INFO] (ytmonsterclient) This package is up to date.
+[INFO] (ytmpc) This package is up to date.
+[INFO] (ytmusic-deleter) Data has been updated for this package.
+[INFO] (ytmusicapi) Data has been updated for this package.
+[INFO] (ytool) This package is up to date.
+[INFO] (ytools) This package is up to date.
+[INFO] (ytools3) This package is up to date.
+[INFO] (ytopt) This package is up to date.
+[ERROR] (ytp) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ytp1) This package is up to date.
+[INFO] (ytpo) This package is up to date.
+[INFO] (ytpy) Data has been updated for this package.
+[INFO] (ytrans) This package is up to date.
+[INFO] (ytranslate) This package is up to date.
+[INFO] (ytree) This package is up to date.
+[INFO] (ytreviewsapi) This package is up to date.
+[INFO] (ytrie) This package is up to date.
+[INFO] (ytrpdf) This package is up to date.
+[INFO] (ytrss) This package is up to date.
+[INFO] (yts) This package is up to date.
+[INFO] (yts-downloader) This package is up to date.
+[INFO] (ytsapi) This package is up to date.
+[INFO] (ytscm) This package is up to date.
+[INFO] (ytscraper) This package is up to date.
+[INFO] (ytsearch) This package is up to date.
+[INFO] (ytsearch-develop) This package is up to date.
+[INFO] (ytsingleton) This package is up to date.
+[ERROR] (ytsnarf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ytsphinx) This package is up to date.
+[INFO] (ytsr) This package is up to date.
+[ERROR] (ytstream) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (ytstreamer) Data has been updated for this package.
+[INFO] (ytsub) This package is up to date.
+[INFO] (ytsubtitles) This package is up to date.
+[INFO] (ytu) This package is up to date.
+[INFO] (yturl) This package is up to date.
+[INFO] (ytutils) This package is up to date.
+[INFO] (ytvdownload) Data has been updated for this package.
+[INFO] (ytvpn) This package is up to date.
+[INFO] (ytvsearch) This package is up to date.
+[INFO] (ytzoo) This package is up to date.
+[INFO] (yu) This package is up to date.
+[ERROR] (yu-example) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yu-nester) This package is up to date.
+[INFO] (yu-test) This package is up to date.
+[INFO] (yuan) This package is up to date.
+[INFO] (yuankq) This package is up to date.
+[INFO] (yuanmaxiong1) This package is up to date.
+[INFO] (yubiadmin) This package is up to date.
+[INFO] (yubiauth) This package is up to date.
+[INFO] (yubico) This package is up to date.
+[ERROR] (yubico-authenticator) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yubico-bitcoin) This package is up to date.
+[INFO] (yubico-client) This package is up to date.
+[INFO] (yubicoclient) This package is up to date.
+[INFO] (yubihsm) This package is up to date.
+[INFO] (yubikey) This package is up to date.
+[INFO] (yubikey-manager) Data has been updated for this package.
+[INFO] (yubikey-neo-manager) This package is up to date.
+[INFO] (yubikey-piv-manager) This package is up to date.
+[INFO] (yubikey-totp-gui) This package is up to date.
+[INFO] (yubin) This package is up to date.
+[INFO] (yubioath-desktop) This package is up to date.
+[INFO] (yubiotp) This package is up to date.
+[INFO] (yubistack) This package is up to date.
+[INFO] (yubistorm) This package is up to date.
+[INFO] (yucc) This package is up to date.
+[INFO] (yuccnlptools) This package is up to date.
+[INFO] (yucctools) This package is up to date.
+[INFO] (yuce) This package is up to date.
+[INFO] (yucheng) This package is up to date.
+[INFO] (yucheng-ner) This package is up to date.
+[INFO] (yuci-dictionary) This package is up to date.
+[ERROR] (yuck) This package does not have downloadable releases.
+[INFO] (yudebug) This package is up to date.
+[INFO] (yudu) This package is up to date.
+[INFO] (yuejzdemo) This package is up to date.
+[INFO] (yufeng-test) This package is up to date.
+[INFO] (yufou) This package is up to date.
+[INFO] (yufuquantsdk) This package is up to date.
+[INFO] (yugabyte-pycommon) This package is up to date.
+[INFO] (yugansh) This package is up to date.
+[INFO] (yuganshpdf) Data has been updated for this package.
+[INFO] (yugioh) Data has been updated for this package.
+[INFO] (yugioh-bot) This package is up to date.
+[INFO] (yugiohdeck-api) This package is up to date.
+[INFO] (yuhanutils) This package is up to date.
+[INFO] (yuid) This package is up to date.
+[INFO] (yujia-nester) This package is up to date.
+[INFO] (yujiamath) This package is up to date.
+[INFO] (yujin-tools) This package is up to date.
+[INFO] (yuki) This package is up to date.
+[INFO] (yukon-backend) This package is up to date.
+[INFO] (yule) Data has been updated for this package.
+[INFO] (yuleak-api) This package is up to date.
+[INFO] (yulelog) This package is up to date.
+[INFO] (yulonglib) This package is up to date.
+[INFO] (yulpdf) This package is up to date.
+[INFO] (yum-menu-tree) Data has been updated for this package.
+[ERROR] (yum-repos) This package does not have downloadable releases.
+[INFO] (yum2s3) This package is up to date.
+[INFO] (yum4fit-halfdeadpie) This package is up to date.
+[INFO] (yuma) This package is up to date.
+[INFO] (yumemi) This package is up to date.
+[INFO] (yumi-nester) This package is up to date.
+[INFO] (yuml) This package is up to date.
+[INFO] (yummly) This package is up to date.
+[ERROR] (yummy) This package does not have downloadable releases.
+[INFO] (yummy-cereal) This package is up to date.
+[INFO] (yummy-sphinx-theme) This package is up to date.
+[INFO] (yummycurry) This package is up to date.
+[INFO] (yumpu-sdk) This package is up to date.
+[INFO] (yumrepos) This package is up to date.
+[INFO] (yumwat) This package is up to date.
+[INFO] (yuna) This package is up to date.
+[ERROR] (yunant) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yunbi) This package is up to date.
+[INFO] (yunbk) This package is up to date.
+[INFO] (yundama) This package is up to date.
+[INFO] (yunetkomax) This package is up to date.
+[INFO] (yunetkomymath) This package is up to date.
+[INFO] (yunguanfu-mil3id2019) This package is up to date.
+[INFO] (yunit) This package is up to date.
+[INFO] (yuniteapi) This package is up to date.
+[INFO] (yunlib) This package is up to date.
+[INFO] (yunnet) This package is up to date.
+[INFO] (yunomi) This package is up to date.
+[INFO] (yunorm) This package is up to date.
+[INFO] (yunpian) This package is up to date.
+[INFO] (yunpian-python-sdk) This package is up to date.
+[INFO] (yunpian-sdk-python) This package is up to date.
+[INFO] (yunpipe) This package is up to date.
+[INFO] (yunpipe2) This package is up to date.
+[INFO] (yunshiss) This package is up to date.
+[INFO] (yunti) This package is up to date.
+[ERROR] (yuntian-nester) This package does not have downloadable releases.
+[INFO] (yuntongxun) This package is up to date.
+[INFO] (yuntongxun-restapi-asyncio) This package is up to date.
+[INFO] (yuntu) This package is up to date.
+[INFO] (yunuspdf) This package is up to date.
+[INFO] (yunyun) This package is up to date.
+[INFO] (yunyundb) This package is up to date.
+[INFO] (yup) This package is up to date.
+[INFO] (yupeifeng-nester) This package is up to date.
+[INFO] (yupp) Data has been updated for this package.
+[INFO] (yuque-py) This package is up to date.
+[INFO] (yur) This package is up to date.
+[INFO] (yuriko) This package is up to date.
+[INFO] (yurl) This package is up to date.
+[INFO] (yurlungur) This package is up to date.
+[INFO] (yurual-test1) This package is up to date.
+[INFO] (yusssstd) This package is up to date.
+[INFO] (yutest) This package is up to date.
+[INFO] (yutility) This package is up to date.
+[INFO] (yutils) This package is up to date.
+[ERROR] (yuting-recu) This package does not have downloadable releases.
+[ERROR] (yuting-recu-now) This package does not have downloadable releases.
+[INFO] (yutu) This package is up to date.
+[INFO] (yuu) This package is up to date.
+[INFO] (yuuki-core) This package is up to date.
+[INFO] (yuuno) This package is up to date.
+[INFO] (yuuno-core) This package is up to date.
+[INFO] (yuvtools) This package is up to date.
+[INFO] (yux-nester) This package is up to date.
+[INFO] (yuzhuhwbubbler) This package is up to date.
+[INFO] (yuzihua-bolg) This package is up to date.
+[INFO] (yv) Data has been updated for this package.
+[INFO] (yve) This package is up to date.
+[INFO] (yvespdf) This package is up to date.
+[INFO] (yvi) This package is up to date.
+[INFO] (yw) Data has been updated for this package.
+[INFO] (yw-aut) This package is up to date.
+[INFO] (yw-distributions) This package is up to date.
+[INFO] (yw-nester) This package is up to date.
+[INFO] (ywaut) This package is up to date.
+[INFO] (ywbde1124) This package is up to date.
+[INFO] (ywdblogmath) This package is up to date.
+[INFO] (ywdblogmath2) This package is up to date.
+[INFO] (yweather) This package is up to date.
+[INFO] (ywfnester) This package is up to date.
+[INFO] (ywh2bt) Data has been updated for this package.
+[INFO] (ywit-event-countdown) This package is up to date.
+[INFO] (ywkd-tools) This package is up to date.
+[INFO] (yworklog) This package is up to date.
+[INFO] (ywsd) Data has been updated for this package.
+[INFO] (yx) Data has been updated for this package.
+[INFO] (yx-nest) This package is up to date.
+[INFO] (yxd) Data has been updated for this package.
+[INFO] (yxh-ip-address) This package is up to date.
+[INFO] (yxj-yourname) This package is up to date.
+[INFO] (yxpy) This package is up to date.
+[INFO] (yxs-one2one) This package is up to date.
+[INFO] (yxs-pytecio) This package is up to date.
+[INFO] (yxs-required) This package is up to date.
+[INFO] (yxspkg) This package is up to date.
+[ERROR] (yxspkg-binary) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yxspkg-data-faceswap) This package is up to date.
+[INFO] (yxspkg-data-icon) This package is up to date.
+[INFO] (yxspkg-encrypt) This package is up to date.
+[INFO] (yxspkg-pip) This package is up to date.
+[INFO] (yxspkg-songzgif) This package is up to date.
+[INFO] (yxspkg-songzviewer) This package is up to date.
+[INFO] (yxspkg-tecfile) This package is up to date.
+[ERROR] (yxspkg-vscrun) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yxspkg-wget) This package is up to date.
+[ERROR] (yxstool) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yxt-nlp-toolkit) This package is up to date.
+[INFO] (yxtest) This package is up to date.
+[INFO] (yxxhero) This package is up to date.
+[INFO] (yy) This package is up to date.
+[INFO] (yy-nester) This package is up to date.
+[INFO] (yy-spider) This package is up to date.
+[ERROR] (yyafl) Could not extract data from this package. See below for details.
+This package download URL does not point to a valid file: "http://dl.stackfoundry.org/yyafl/"
+[INFO] (yyam) This package is up to date.
+[INFO] (yyggtest) This package is up to date.
+[INFO] (yygq) This package is up to date.
+[ERROR] (yyhnester) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yyhtools) This package is up to date.
+[INFO] (yyimg) This package is up to date.
+[INFO] (yyjson) Data has been updated for this package.
+[INFO] (yylnester) This package is up to date.
+[INFO] (yynb) This package is up to date.
+[INFO] (yypget) This package is up to date.
+[INFO] (yyq-print) This package is up to date.
+[INFO] (yyqq188-mydemo) This package is up to date.
+[INFO] (yyreview) This package is up to date.
+[INFO] (yytest) This package is up to date.
+[INFO] (yyutils) This package is up to date.
+[INFO] (yywtestpackage) This package is up to date.
+[INFO] (yyxmath) This package is up to date.
+[INFO] (yyy) This package is up to date.
+[INFO] (yyytools) This package is up to date.
+[INFO] (yyyymmdd) This package is up to date.
+[ERROR] (yyzs-update) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (yz) Data has been updated for this package.
+[INFO] (yz-distributions) This package is up to date.
+[INFO] (yzal) This package is up to date.
+[INFO] (yzconfig) This package is up to date.
+[INFO] (yzcore) Data has been updated for this package.
+[INFO] (yzgprinter) This package is up to date.
+[INFO] (yzj-athletelist) This package is up to date.
+[INFO] (yzj-athletemodel) This package is up to date.
+[INFO] (yzj-sanitize) This package is up to date.
+[INFO] (yznester) This package is up to date.
+[INFO] (yzs-work) This package is up to date.
+[INFO] (yzuid) Data has been updated for this package.
+[INFO] (yzwspider) Data has been updated for this package.
+[INFO] 
+[INFO] 
+[INFO] Total packages: 2132
+[INFO]     Packages processed: 2132
+[INFO]         Packages updated: 303
+[INFO]         Packages up-to-date: 1714
+[INFO]         Packages without response: 54
+[INFO]         Packages without urls: 0
+[INFO]         Packages without downloads: 45
+[INFO]         Packages with data errors: 16
+[INFO]     Packages not processed: 0
+[INFO] 
+[INFO] 
+[INFO] Ending execution.
