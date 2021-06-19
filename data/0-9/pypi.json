@@ -266,6 +266,13 @@
         ],
         "version": "1.0"
     },
+    "024travis-test024": {
+        "cmdline": [],
+        "modules": [
+            "024travis_test024"
+        ],
+        "version": "0.1.0"
+    },
     "02exercicio": {
         "cmdline": [],
         "modules": [],
@@ -456,7 +463,7 @@
             "zero_ex.order_utils",
             "zero_ex.order_utils.asset_data_utils"
         ],
-        "version": "4.0.0"
+        "version": "4.0.1"
     },
     "0x-sra-client": {
         "cmdline": [],
@@ -636,6 +643,14 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "1-is-prime": {
+        "cmdline": [],
+        "modules": [
+            "1",
+            "1.1"
+        ],
+        "version": "0.0.0"
     },
     "10-8moshpdf": {
         "cmdline": [],
@@ -954,7 +969,7 @@
             "python_to_11l/parse",
             "python_to_11l/tokenizer"
         ],
-        "version": "0.1.1"
+        "version": "2021.3"
     },
     "12-test": {
         "cmdline": [],
@@ -963,6 +978,544 @@
             "distributions.Binomialdistribution",
             "distributions.Gaussiandistribution",
             "distributions.Generaldistribution"
+        ],
+        "version": "0.1"
+    },
+    "123-object-detection": {
+        "cmdline": [],
+        "modules": [
+            "datasets",
+            "datasets.build_imagenet_data",
+            "datasets.cifar10",
+            "datasets.dataset_factory",
+            "datasets.dataset_utils",
+            "datasets.download_and_convert_cifar10",
+            "datasets.download_and_convert_flowers",
+            "datasets.download_and_convert_mnist",
+            "datasets.download_and_convert_visualwakewords",
+            "datasets.download_and_convert_visualwakewords_lib",
+            "datasets.flowers",
+            "datasets.imagenet",
+            "datasets.mnist",
+            "datasets.preprocess_imagenet_validation_data",
+            "datasets.process_bounding_boxes",
+            "datasets.visualwakewords",
+            "deployment",
+            "deployment.model_deploy",
+            "deployment.model_deploy_test",
+            "nets",
+            "nets.alexnet",
+            "nets.alexnet_test",
+            "nets.cifarnet",
+            "nets.cyclegan",
+            "nets.cyclegan_test",
+            "nets.dcgan",
+            "nets.dcgan_test",
+            "nets.i3d",
+            "nets.i3d_test",
+            "nets.i3d_utils",
+            "nets.inception",
+            "nets.inception_resnet_v2",
+            "nets.inception_resnet_v2_test",
+            "nets.inception_utils",
+            "nets.inception_v1",
+            "nets.inception_v1_test",
+            "nets.inception_v2",
+            "nets.inception_v2_test",
+            "nets.inception_v3",
+            "nets.inception_v3_test",
+            "nets.inception_v4",
+            "nets.inception_v4_test",
+            "nets.lenet",
+            "nets.mobilenet",
+            "nets.mobilenet.conv_blocks",
+            "nets.mobilenet.mobilenet",
+            "nets.mobilenet.mobilenet_v2",
+            "nets.mobilenet.mobilenet_v2_test",
+            "nets.mobilenet.mobilenet_v3",
+            "nets.mobilenet.mobilenet_v3_test",
+            "nets.mobilenet_v1",
+            "nets.mobilenet_v1_eval",
+            "nets.mobilenet_v1_test",
+            "nets.mobilenet_v1_train",
+            "nets.nasnet",
+            "nets.nasnet.nasnet",
+            "nets.nasnet.nasnet_test",
+            "nets.nasnet.nasnet_utils",
+            "nets.nasnet.nasnet_utils_test",
+            "nets.nasnet.pnasnet",
+            "nets.nasnet.pnasnet_test",
+            "nets.nets_factory",
+            "nets.nets_factory_test",
+            "nets.overfeat",
+            "nets.overfeat_test",
+            "nets.pix2pix",
+            "nets.pix2pix_test",
+            "nets.post_training_quantization",
+            "nets.resnet_utils",
+            "nets.resnet_v1",
+            "nets.resnet_v1_test",
+            "nets.resnet_v2",
+            "nets.resnet_v2_test",
+            "nets.s3dg",
+            "nets.s3dg_test",
+            "nets.vgg",
+            "nets.vgg_test",
+            "object_detection",
+            "object_detection.anchor_generators",
+            "object_detection.anchor_generators.flexible_grid_anchor_generator",
+            "object_detection.anchor_generators.flexible_grid_anchor_generator_test",
+            "object_detection.anchor_generators.grid_anchor_generator",
+            "object_detection.anchor_generators.grid_anchor_generator_test",
+            "object_detection.anchor_generators.multiple_grid_anchor_generator",
+            "object_detection.anchor_generators.multiple_grid_anchor_generator_test",
+            "object_detection.anchor_generators.multiscale_grid_anchor_generator",
+            "object_detection.anchor_generators.multiscale_grid_anchor_generator_test",
+            "object_detection.box_coders",
+            "object_detection.box_coders.faster_rcnn_box_coder",
+            "object_detection.box_coders.faster_rcnn_box_coder_test",
+            "object_detection.box_coders.keypoint_box_coder",
+            "object_detection.box_coders.keypoint_box_coder_test",
+            "object_detection.box_coders.mean_stddev_box_coder",
+            "object_detection.box_coders.mean_stddev_box_coder_test",
+            "object_detection.box_coders.square_box_coder",
+            "object_detection.box_coders.square_box_coder_test",
+            "object_detection.builders",
+            "object_detection.builders.anchor_generator_builder",
+            "object_detection.builders.anchor_generator_builder_test",
+            "object_detection.builders.box_coder_builder",
+            "object_detection.builders.box_coder_builder_test",
+            "object_detection.builders.box_predictor_builder",
+            "object_detection.builders.box_predictor_builder_test",
+            "object_detection.builders.calibration_builder",
+            "object_detection.builders.calibration_builder_test",
+            "object_detection.builders.dataset_builder",
+            "object_detection.builders.dataset_builder_test",
+            "object_detection.builders.decoder_builder",
+            "object_detection.builders.decoder_builder_test",
+            "object_detection.builders.graph_rewriter_builder",
+            "object_detection.builders.graph_rewriter_builder_tf1_test",
+            "object_detection.builders.hyperparams_builder",
+            "object_detection.builders.hyperparams_builder_test",
+            "object_detection.builders.image_resizer_builder",
+            "object_detection.builders.image_resizer_builder_test",
+            "object_detection.builders.input_reader_builder",
+            "object_detection.builders.input_reader_builder_tf1_test",
+            "object_detection.builders.losses_builder",
+            "object_detection.builders.losses_builder_test",
+            "object_detection.builders.matcher_builder",
+            "object_detection.builders.matcher_builder_test",
+            "object_detection.builders.model_builder",
+            "object_detection.builders.model_builder_test",
+            "object_detection.builders.model_builder_tf1_test",
+            "object_detection.builders.model_builder_tf2_test",
+            "object_detection.builders.optimizer_builder",
+            "object_detection.builders.optimizer_builder_tf1_test",
+            "object_detection.builders.optimizer_builder_tf2_test",
+            "object_detection.builders.post_processing_builder",
+            "object_detection.builders.post_processing_builder_test",
+            "object_detection.builders.preprocessor_builder",
+            "object_detection.builders.preprocessor_builder_test",
+            "object_detection.builders.region_similarity_calculator_builder",
+            "object_detection.builders.region_similarity_calculator_builder_test",
+            "object_detection.builders.target_assigner_builder",
+            "object_detection.builders.target_assigner_builder_test",
+            "object_detection.core",
+            "object_detection.core.anchor_generator",
+            "object_detection.core.balanced_positive_negative_sampler",
+            "object_detection.core.balanced_positive_negative_sampler_test",
+            "object_detection.core.batch_multiclass_nms_test",
+            "object_detection.core.batcher",
+            "object_detection.core.batcher_tf1_test",
+            "object_detection.core.box_coder",
+            "object_detection.core.box_coder_test",
+            "object_detection.core.box_list",
+            "object_detection.core.box_list_ops",
+            "object_detection.core.box_list_ops_test",
+            "object_detection.core.box_list_test",
+            "object_detection.core.box_predictor",
+            "object_detection.core.class_agnostic_nms_test",
+            "object_detection.core.data_decoder",
+            "object_detection.core.data_parser",
+            "object_detection.core.densepose_ops",
+            "object_detection.core.densepose_ops_test",
+            "object_detection.core.freezable_batch_norm",
+            "object_detection.core.freezable_batch_norm_tf2_test",
+            "object_detection.core.freezable_sync_batch_norm",
+            "object_detection.core.keypoint_ops",
+            "object_detection.core.keypoint_ops_test",
+            "object_detection.core.losses",
+            "object_detection.core.losses_test",
+            "object_detection.core.matcher",
+            "object_detection.core.matcher_test",
+            "object_detection.core.minibatch_sampler",
+            "object_detection.core.minibatch_sampler_test",
+            "object_detection.core.model",
+            "object_detection.core.model_test",
+            "object_detection.core.multiclass_nms_test",
+            "object_detection.core.post_processing",
+            "object_detection.core.prefetcher",
+            "object_detection.core.prefetcher_tf1_test",
+            "object_detection.core.preprocessor",
+            "object_detection.core.preprocessor_cache",
+            "object_detection.core.preprocessor_test",
+            "object_detection.core.region_similarity_calculator",
+            "object_detection.core.region_similarity_calculator_test",
+            "object_detection.core.standard_fields",
+            "object_detection.core.target_assigner",
+            "object_detection.core.target_assigner_test",
+            "object_detection.data_decoders",
+            "object_detection.data_decoders.tf_example_decoder",
+            "object_detection.data_decoders.tf_example_decoder_test",
+            "object_detection.data_decoders.tf_sequence_example_decoder",
+            "object_detection.data_decoders.tf_sequence_example_decoder_test",
+            "object_detection.dataset_tools",
+            "object_detection.dataset_tools.context_rcnn",
+            "object_detection.dataset_tools.context_rcnn.add_context_to_examples",
+            "object_detection.dataset_tools.context_rcnn.add_context_to_examples_tf2_test",
+            "object_detection.dataset_tools.context_rcnn.create_cococameratraps_tfexample_main",
+            "object_detection.dataset_tools.context_rcnn.create_cococameratraps_tfexample_tf2_test",
+            "object_detection.dataset_tools.context_rcnn.generate_detection_data",
+            "object_detection.dataset_tools.context_rcnn.generate_detection_data_tf2_test",
+            "object_detection.dataset_tools.context_rcnn.generate_embedding_data",
+            "object_detection.dataset_tools.context_rcnn.generate_embedding_data_tf2_test",
+            "object_detection.dataset_tools.create_ava_actions_tf_record",
+            "object_detection.dataset_tools.create_coco_tf_record",
+            "object_detection.dataset_tools.create_coco_tf_record_test",
+            "object_detection.dataset_tools.create_kitti_tf_record",
+            "object_detection.dataset_tools.create_kitti_tf_record_test",
+            "object_detection.dataset_tools.create_oid_tf_record",
+            "object_detection.dataset_tools.create_pascal_tf_record",
+            "object_detection.dataset_tools.create_pascal_tf_record_test",
+            "object_detection.dataset_tools.create_pet_tf_record",
+            "object_detection.dataset_tools.oid_hierarchical_labels_expansion",
+            "object_detection.dataset_tools.oid_hierarchical_labels_expansion_test",
+            "object_detection.dataset_tools.oid_tfrecord_creation",
+            "object_detection.dataset_tools.oid_tfrecord_creation_test",
+            "object_detection.dataset_tools.seq_example_util",
+            "object_detection.dataset_tools.seq_example_util_test",
+            "object_detection.dataset_tools.tf_record_creation_util",
+            "object_detection.dataset_tools.tf_record_creation_util_test",
+            "object_detection.eval_util",
+            "object_detection.eval_util_test",
+            "object_detection.export_inference_graph",
+            "object_detection.export_tflite_graph_lib_tf2",
+            "object_detection.export_tflite_graph_lib_tf2_test",
+            "object_detection.export_tflite_graph_tf2",
+            "object_detection.export_tflite_ssd_graph",
+            "object_detection.export_tflite_ssd_graph_lib",
+            "object_detection.export_tflite_ssd_graph_lib_tf1_test",
+            "object_detection.exporter",
+            "object_detection.exporter_lib_tf2_test",
+            "object_detection.exporter_lib_v2",
+            "object_detection.exporter_main_v2",
+            "object_detection.exporter_tf1_test",
+            "object_detection.inference",
+            "object_detection.inference.detection_inference",
+            "object_detection.inference.detection_inference_tf1_test",
+            "object_detection.inference.infer_detections",
+            "object_detection.inputs",
+            "object_detection.inputs_test",
+            "object_detection.legacy",
+            "object_detection.legacy.eval",
+            "object_detection.legacy.evaluator",
+            "object_detection.legacy.train",
+            "object_detection.legacy.trainer",
+            "object_detection.legacy.trainer_tf1_test",
+            "object_detection.matchers",
+            "object_detection.matchers.argmax_matcher",
+            "object_detection.matchers.argmax_matcher_test",
+            "object_detection.matchers.bipartite_matcher",
+            "object_detection.matchers.bipartite_matcher_tf1_test",
+            "object_detection.matchers.hungarian_matcher",
+            "object_detection.matchers.hungarian_matcher_tf2_test",
+            "object_detection.meta_architectures",
+            "object_detection.meta_architectures.center_net_meta_arch",
+            "object_detection.meta_architectures.center_net_meta_arch_tf2_test",
+            "object_detection.meta_architectures.context_rcnn_lib",
+            "object_detection.meta_architectures.context_rcnn_lib_tf1_test",
+            "object_detection.meta_architectures.context_rcnn_lib_tf2",
+            "object_detection.meta_architectures.context_rcnn_lib_tf2_test",
+            "object_detection.meta_architectures.context_rcnn_meta_arch",
+            "object_detection.meta_architectures.context_rcnn_meta_arch_test",
+            "object_detection.meta_architectures.deepmac_meta_arch",
+            "object_detection.meta_architectures.deepmac_meta_arch_test",
+            "object_detection.meta_architectures.faster_rcnn_meta_arch",
+            "object_detection.meta_architectures.faster_rcnn_meta_arch_test",
+            "object_detection.meta_architectures.faster_rcnn_meta_arch_test_lib",
+            "object_detection.meta_architectures.rfcn_meta_arch",
+            "object_detection.meta_architectures.rfcn_meta_arch_test",
+            "object_detection.meta_architectures.ssd_meta_arch",
+            "object_detection.meta_architectures.ssd_meta_arch_test",
+            "object_detection.meta_architectures.ssd_meta_arch_test_lib",
+            "object_detection.metrics",
+            "object_detection.metrics.calibration_evaluation",
+            "object_detection.metrics.calibration_evaluation_tf1_test",
+            "object_detection.metrics.calibration_metrics",
+            "object_detection.metrics.calibration_metrics_tf1_test",
+            "object_detection.metrics.coco_evaluation",
+            "object_detection.metrics.coco_evaluation_test",
+            "object_detection.metrics.coco_tools",
+            "object_detection.metrics.coco_tools_test",
+            "object_detection.metrics.io_utils",
+            "object_detection.metrics.lvis_evaluation",
+            "object_detection.metrics.lvis_evaluation_test",
+            "object_detection.metrics.lvis_tools",
+            "object_detection.metrics.lvis_tools_test",
+            "object_detection.metrics.offline_eval_map_corloc",
+            "object_detection.metrics.offline_eval_map_corloc_test",
+            "object_detection.metrics.oid_challenge_evaluation",
+            "object_detection.metrics.oid_challenge_evaluation_utils",
+            "object_detection.metrics.oid_challenge_evaluation_utils_test",
+            "object_detection.metrics.oid_vrd_challenge_evaluation",
+            "object_detection.metrics.oid_vrd_challenge_evaluation_utils",
+            "object_detection.metrics.oid_vrd_challenge_evaluation_utils_test",
+            "object_detection.metrics.tf_example_parser",
+            "object_detection.metrics.tf_example_parser_test",
+            "object_detection.model_hparams",
+            "object_detection.model_lib",
+            "object_detection.model_lib_tf1_test",
+            "object_detection.model_lib_tf2_test",
+            "object_detection.model_lib_v2",
+            "object_detection.model_main",
+            "object_detection.model_main_tf2",
+            "object_detection.model_tpu_main",
+            "object_detection.models",
+            "object_detection.models.bidirectional_feature_pyramid_generators",
+            "object_detection.models.bidirectional_feature_pyramid_generators_tf2_test",
+            "object_detection.models.center_net_hourglass_feature_extractor",
+            "object_detection.models.center_net_hourglass_feature_extractor_tf2_test",
+            "object_detection.models.center_net_mobilenet_v2_feature_extractor",
+            "object_detection.models.center_net_mobilenet_v2_feature_extractor_tf2_test",
+            "object_detection.models.center_net_mobilenet_v2_fpn_feature_extractor",
+            "object_detection.models.center_net_mobilenet_v2_fpn_feature_extractor_tf2_test",
+            "object_detection.models.center_net_resnet_feature_extractor",
+            "object_detection.models.center_net_resnet_feature_extractor_tf2_test",
+            "object_detection.models.center_net_resnet_v1_fpn_feature_extractor",
+            "object_detection.models.center_net_resnet_v1_fpn_feature_extractor_tf2_test",
+            "object_detection.models.embedded_ssd_mobilenet_v1_feature_extractor",
+            "object_detection.models.embedded_ssd_mobilenet_v1_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_inception_resnet_v2_feature_extractor",
+            "object_detection.models.faster_rcnn_inception_resnet_v2_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_inception_resnet_v2_keras_feature_extractor",
+            "object_detection.models.faster_rcnn_inception_resnet_v2_keras_feature_extractor_tf2_test",
+            "object_detection.models.faster_rcnn_inception_v2_feature_extractor",
+            "object_detection.models.faster_rcnn_inception_v2_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_mobilenet_v1_feature_extractor",
+            "object_detection.models.faster_rcnn_mobilenet_v1_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_nas_feature_extractor",
+            "object_detection.models.faster_rcnn_nas_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_pnas_feature_extractor",
+            "object_detection.models.faster_rcnn_pnas_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_resnet_keras_feature_extractor",
+            "object_detection.models.faster_rcnn_resnet_keras_feature_extractor_tf2_test",
+            "object_detection.models.faster_rcnn_resnet_v1_feature_extractor",
+            "object_detection.models.faster_rcnn_resnet_v1_feature_extractor_tf1_test",
+            "object_detection.models.faster_rcnn_resnet_v1_fpn_keras_feature_extractor",
+            "object_detection.models.faster_rcnn_resnet_v1_fpn_keras_feature_extractor_tf2_test",
+            "object_detection.models.feature_map_generators",
+            "object_detection.models.feature_map_generators_test",
+            "object_detection.models.keras_models",
+            "object_detection.models.keras_models.convert_keras_models",
+            "object_detection.models.keras_models.hourglass_network",
+            "object_detection.models.keras_models.hourglass_network_tf2_test",
+            "object_detection.models.keras_models.inception_resnet_v2",
+            "object_detection.models.keras_models.inception_resnet_v2_tf2_test",
+            "object_detection.models.keras_models.mobilenet_v1",
+            "object_detection.models.keras_models.mobilenet_v1_tf2_test",
+            "object_detection.models.keras_models.mobilenet_v2",
+            "object_detection.models.keras_models.mobilenet_v2_tf2_test",
+            "object_detection.models.keras_models.model_utils",
+            "object_detection.models.keras_models.resnet_v1",
+            "object_detection.models.keras_models.resnet_v1_tf2_test",
+            "object_detection.models.keras_models.test_utils",
+            "object_detection.models.ssd_efficientnet_bifpn_feature_extractor",
+            "object_detection.models.ssd_efficientnet_bifpn_feature_extractor_tf2_test",
+            "object_detection.models.ssd_feature_extractor_test",
+            "object_detection.models.ssd_inception_v2_feature_extractor",
+            "object_detection.models.ssd_inception_v2_feature_extractor_tf1_test",
+            "object_detection.models.ssd_inception_v3_feature_extractor",
+            "object_detection.models.ssd_inception_v3_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobiledet_feature_extractor",
+            "object_detection.models.ssd_mobiledet_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_edgetpu_feature_extractor",
+            "object_detection.models.ssd_mobilenet_edgetpu_feature_extractor_testbase",
+            "object_detection.models.ssd_mobilenet_edgetpu_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v1_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v1_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v1_feature_extractor_tf2_test",
+            "object_detection.models.ssd_mobilenet_v1_fpn_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v1_fpn_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v1_fpn_feature_extractor_tf2_test",
+            "object_detection.models.ssd_mobilenet_v1_fpn_keras_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v1_keras_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v1_ppn_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v1_ppn_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v2_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v2_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v2_feature_extractor_tf2_test",
+            "object_detection.models.ssd_mobilenet_v2_fpn_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v2_fpn_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v2_fpn_feature_extractor_tf2_test",
+            "object_detection.models.ssd_mobilenet_v2_fpn_keras_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v2_keras_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v2_mnasfpn_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v2_mnasfpn_feature_extractor_tf1_test",
+            "object_detection.models.ssd_mobilenet_v3_feature_extractor",
+            "object_detection.models.ssd_mobilenet_v3_feature_extractor_testbase",
+            "object_detection.models.ssd_mobilenet_v3_feature_extractor_tf1_test",
+            "object_detection.models.ssd_pnasnet_feature_extractor",
+            "object_detection.models.ssd_pnasnet_feature_extractor_tf1_test",
+            "object_detection.models.ssd_resnet_v1_fpn_feature_extractor",
+            "object_detection.models.ssd_resnet_v1_fpn_feature_extractor_testbase",
+            "object_detection.models.ssd_resnet_v1_fpn_feature_extractor_tf1_test",
+            "object_detection.models.ssd_resnet_v1_fpn_feature_extractor_tf2_test",
+            "object_detection.models.ssd_resnet_v1_fpn_keras_feature_extractor",
+            "object_detection.models.ssd_resnet_v1_ppn_feature_extractor",
+            "object_detection.models.ssd_resnet_v1_ppn_feature_extractor_testbase",
+            "object_detection.models.ssd_resnet_v1_ppn_feature_extractor_tf1_test",
+            "object_detection.predictors",
+            "object_detection.predictors.convolutional_box_predictor",
+            "object_detection.predictors.convolutional_box_predictor_tf1_test",
+            "object_detection.predictors.convolutional_keras_box_predictor",
+            "object_detection.predictors.convolutional_keras_box_predictor_tf2_test",
+            "object_detection.predictors.heads",
+            "object_detection.predictors.heads.box_head",
+            "object_detection.predictors.heads.box_head_tf1_test",
+            "object_detection.predictors.heads.class_head",
+            "object_detection.predictors.heads.class_head_tf1_test",
+            "object_detection.predictors.heads.head",
+            "object_detection.predictors.heads.keras_box_head",
+            "object_detection.predictors.heads.keras_box_head_tf2_test",
+            "object_detection.predictors.heads.keras_class_head",
+            "object_detection.predictors.heads.keras_class_head_tf2_test",
+            "object_detection.predictors.heads.keras_mask_head",
+            "object_detection.predictors.heads.keras_mask_head_tf2_test",
+            "object_detection.predictors.heads.keypoint_head",
+            "object_detection.predictors.heads.keypoint_head_tf1_test",
+            "object_detection.predictors.heads.mask_head",
+            "object_detection.predictors.heads.mask_head_tf1_test",
+            "object_detection.predictors.mask_rcnn_box_predictor",
+            "object_detection.predictors.mask_rcnn_box_predictor_tf1_test",
+            "object_detection.predictors.mask_rcnn_keras_box_predictor",
+            "object_detection.predictors.mask_rcnn_keras_box_predictor_tf2_test",
+            "object_detection.predictors.rfcn_box_predictor",
+            "object_detection.predictors.rfcn_box_predictor_tf1_test",
+            "object_detection.predictors.rfcn_keras_box_predictor",
+            "object_detection.predictors.rfcn_keras_box_predictor_tf2_test",
+            "object_detection.protos",
+            "object_detection.protos.anchor_generator_pb2",
+            "object_detection.protos.argmax_matcher_pb2",
+            "object_detection.protos.bipartite_matcher_pb2",
+            "object_detection.protos.box_coder_pb2",
+            "object_detection.protos.box_predictor_pb2",
+            "object_detection.protos.calibration_pb2",
+            "object_detection.protos.center_net_pb2",
+            "object_detection.protos.eval_pb2",
+            "object_detection.protos.faster_rcnn_box_coder_pb2",
+            "object_detection.protos.faster_rcnn_pb2",
+            "object_detection.protos.flexible_grid_anchor_generator_pb2",
+            "object_detection.protos.fpn_pb2",
+            "object_detection.protos.graph_rewriter_pb2",
+            "object_detection.protos.grid_anchor_generator_pb2",
+            "object_detection.protos.hyperparams_pb2",
+            "object_detection.protos.image_resizer_pb2",
+            "object_detection.protos.input_reader_pb2",
+            "object_detection.protos.keypoint_box_coder_pb2",
+            "object_detection.protos.losses_pb2",
+            "object_detection.protos.matcher_pb2",
+            "object_detection.protos.mean_stddev_box_coder_pb2",
+            "object_detection.protos.model_pb2",
+            "object_detection.protos.multiscale_anchor_generator_pb2",
+            "object_detection.protos.optimizer_pb2",
+            "object_detection.protos.pipeline_pb2",
+            "object_detection.protos.post_processing_pb2",
+            "object_detection.protos.preprocessor_pb2",
+            "object_detection.protos.region_similarity_calculator_pb2",
+            "object_detection.protos.square_box_coder_pb2",
+            "object_detection.protos.ssd_anchor_generator_pb2",
+            "object_detection.protos.ssd_pb2",
+            "object_detection.protos.string_int_label_map_pb2",
+            "object_detection.protos.target_assigner_pb2",
+            "object_detection.protos.train_pb2",
+            "object_detection.tpu_exporters",
+            "object_detection.tpu_exporters.export_saved_model_tpu",
+            "object_detection.tpu_exporters.export_saved_model_tpu_lib",
+            "object_detection.tpu_exporters.export_saved_model_tpu_lib_tf1_test",
+            "object_detection.tpu_exporters.faster_rcnn",
+            "object_detection.tpu_exporters.ssd",
+            "object_detection.tpu_exporters.testdata",
+            "object_detection.tpu_exporters.utils",
+            "object_detection.tpu_exporters.utils_test",
+            "object_detection.utils",
+            "object_detection.utils.autoaugment_utils",
+            "object_detection.utils.bifpn_utils",
+            "object_detection.utils.category_util",
+            "object_detection.utils.category_util_test",
+            "object_detection.utils.colab_utils",
+            "object_detection.utils.config_util",
+            "object_detection.utils.config_util_test",
+            "object_detection.utils.context_manager",
+            "object_detection.utils.context_manager_test",
+            "object_detection.utils.dataset_util",
+            "object_detection.utils.dataset_util_test",
+            "object_detection.utils.json_utils",
+            "object_detection.utils.json_utils_test",
+            "object_detection.utils.label_map_util",
+            "object_detection.utils.label_map_util_test",
+            "object_detection.utils.learning_schedules",
+            "object_detection.utils.learning_schedules_test",
+            "object_detection.utils.metrics",
+            "object_detection.utils.metrics_test",
+            "object_detection.utils.model_util",
+            "object_detection.utils.model_util_tf2_test",
+            "object_detection.utils.np_box_list",
+            "object_detection.utils.np_box_list_ops",
+            "object_detection.utils.np_box_list_ops_test",
+            "object_detection.utils.np_box_list_test",
+            "object_detection.utils.np_box_mask_list",
+            "object_detection.utils.np_box_mask_list_ops",
+            "object_detection.utils.np_box_mask_list_ops_test",
+            "object_detection.utils.np_box_mask_list_test",
+            "object_detection.utils.np_box_ops",
+            "object_detection.utils.np_box_ops_test",
+            "object_detection.utils.np_mask_ops",
+            "object_detection.utils.np_mask_ops_test",
+            "object_detection.utils.object_detection_evaluation",
+            "object_detection.utils.object_detection_evaluation_test",
+            "object_detection.utils.ops",
+            "object_detection.utils.ops_test",
+            "object_detection.utils.patch_ops",
+            "object_detection.utils.patch_ops_test",
+            "object_detection.utils.per_image_evaluation",
+            "object_detection.utils.per_image_evaluation_test",
+            "object_detection.utils.per_image_vrd_evaluation",
+            "object_detection.utils.per_image_vrd_evaluation_test",
+            "object_detection.utils.shape_utils",
+            "object_detection.utils.shape_utils_test",
+            "object_detection.utils.spatial_transform_ops",
+            "object_detection.utils.spatial_transform_ops_test",
+            "object_detection.utils.static_shape",
+            "object_detection.utils.static_shape_test",
+            "object_detection.utils.target_assigner_utils",
+            "object_detection.utils.target_assigner_utils_test",
+            "object_detection.utils.test_case",
+            "object_detection.utils.test_case_test",
+            "object_detection.utils.test_utils",
+            "object_detection.utils.test_utils_test",
+            "object_detection.utils.tf_version",
+            "object_detection.utils.variables_helper",
+            "object_detection.utils.variables_helper_tf1_test",
+            "object_detection.utils.visualization_utils",
+            "object_detection.utils.visualization_utils_test",
+            "object_detection.utils.vrd_evaluation",
+            "object_detection.utils.vrd_evaluation_test",
+            "preprocessing",
+            "preprocessing.cifarnet_preprocessing",
+            "preprocessing.inception_preprocessing",
+            "preprocessing.lenet_preprocessing",
+            "preprocessing.preprocessing_factory",
+            "preprocessing.vgg_preprocessing"
         ],
         "version": "0.1"
     },
@@ -995,6 +1548,94 @@
         ],
         "version": "1.0"
     },
+    "125softnlp": {
+        "cmdline": [],
+        "modules": [
+            "125softNLP",
+            "125softNLP.bert",
+            "125softNLP.bert.args",
+            "125softNLP.bert.extract_feature",
+            "125softNLP.bert.graph",
+            "125softNLP.bert.modeling",
+            "125softNLP.bert.optimization",
+            "125softNLP.bert.tokenization",
+            "125softNLP.classification",
+            "125softNLP.classification.bert_dnn",
+            "125softNLP.classification.extract_feature",
+            "125softNLP.classification.load_data",
+            "125softNLP.classification.model_predict",
+            "125softNLP.classification.model_train",
+            "125softNLP.classification.pre",
+            "125softNLP.clean",
+            "125softNLP.enhancement",
+            "125softNLP.enhancement.augment",
+            "125softNLP.enhancement.ciLin",
+            "125softNLP.enhancement.eda",
+            "125softNLP.enhancement.transform",
+            "125softNLP.enhancement.translate",
+            "125softNLP.extraction",
+            "125softNLP.extraction.keyword",
+            "125softNLP.kashgari",
+            "125softNLP.kashgari.__version__",
+            "125softNLP.kashgari.callbacks",
+            "125softNLP.kashgari.corpus",
+            "125softNLP.kashgari.embeddings",
+            "125softNLP.kashgari.embeddings.bare_embedding",
+            "125softNLP.kashgari.embeddings.base_embedding",
+            "125softNLP.kashgari.embeddings.bert_embedding",
+            "125softNLP.kashgari.embeddings.bert_embedding_v2",
+            "125softNLP.kashgari.embeddings.gpt_2_embedding",
+            "125softNLP.kashgari.embeddings.numeric_feature_embedding",
+            "125softNLP.kashgari.embeddings.stacked_embedding",
+            "125softNLP.kashgari.embeddings.word_embedding",
+            "125softNLP.kashgari.layers",
+            "125softNLP.kashgari.layers.att_wgt_avg_layer",
+            "125softNLP.kashgari.layers.crf",
+            "125softNLP.kashgari.layers.kmax_pool_layer",
+            "125softNLP.kashgari.layers.non_masking_layer",
+            "125softNLP.kashgari.macros",
+            "125softNLP.kashgari.migeration",
+            "125softNLP.kashgari.migration",
+            "125softNLP.kashgari.processors",
+            "125softNLP.kashgari.processors.base_processor",
+            "125softNLP.kashgari.processors.classification_processor",
+            "125softNLP.kashgari.processors.labeling_processor",
+            "125softNLP.kashgari.processors.scoring_processor",
+            "125softNLP.kashgari.tasks",
+            "125softNLP.kashgari.tasks.base_model",
+            "125softNLP.kashgari.tasks.classification",
+            "125softNLP.kashgari.tasks.classification.base_model",
+            "125softNLP.kashgari.tasks.classification.dpcnn_model",
+            "125softNLP.kashgari.tasks.classification.models",
+            "125softNLP.kashgari.tasks.labeling",
+            "125softNLP.kashgari.tasks.labeling.base_model",
+            "125softNLP.kashgari.tasks.labeling.experimental",
+            "125softNLP.kashgari.tasks.labeling.models",
+            "125softNLP.kashgari.tasks.scoring",
+            "125softNLP.kashgari.tasks.scoring.base_model",
+            "125softNLP.kashgari.tasks.scoring.models",
+            "125softNLP.kashgari.tokenizer",
+            "125softNLP.kashgari.tokenizer.base_tokenizer",
+            "125softNLP.kashgari.tokenizer.bert_tokenizer",
+            "125softNLP.kashgari.tokenizer.jieba_tokenizer",
+            "125softNLP.kashgari.utils",
+            "125softNLP.kashgari.version",
+            "125softNLP.ner",
+            "125softNLP.ner.pre",
+            "125softNLP.ner.read_data",
+            "125softNLP.ner.train",
+            "125softNLP.similarities",
+            "125softNLP.similarities.similar",
+            "125softNLP.test",
+            "125softNLP.tokenizer",
+            "125softNLP.utils",
+            "125softNLP.utils.down",
+            "125softNLP.utils.down_resources",
+            "125softNLP.utils.logging",
+            "tests"
+        ],
+        "version": "0.0.1"
+    },
     "12factor-configclasses": {
         "cmdline": [],
         "modules": [
@@ -1011,7 +1652,7 @@
         "modules": [
             "vault12factor"
         ],
-        "version": "0.1.20"
+        "version": "0.1.21"
     },
     "131228-pytest-1": {
         "cmdline": [],
@@ -1027,6 +1668,15 @@
             "1337.1337"
         ],
         "version": "1.0.0"
+    },
+    "1337x": {
+        "cmdline": [],
+        "modules": [
+            "py1337x",
+            "py1337x.parser",
+            "py1337x.py1337x"
+        ],
+        "version": "1.2.0"
     },
     "153957-theme": {
         "cmdline": [],
@@ -1094,6 +1744,60 @@
             "i99fix.handlers"
         ],
         "version": "1.1.2"
+    },
+    "19cs30055-package": {
+        "cmdline": [],
+        "modules": [
+            "my_package",
+            "my_package.analysis",
+            "my_package.analysis.visualize",
+            "my_package.data",
+            "my_package.data.dataset",
+            "my_package.data.transforms",
+            "my_package.data.transforms.blur",
+            "my_package.data.transforms.crop",
+            "my_package.data.transforms.flip",
+            "my_package.data.transforms.rescale",
+            "my_package.data.transforms.rotate",
+            "my_package.model"
+        ],
+        "version": "0.0.6"
+    },
+    "19cs30055-package1": {
+        "cmdline": [],
+        "modules": [
+            "my_package",
+            "my_package.analysis",
+            "my_package.analysis.visualize",
+            "my_package.data",
+            "my_package.data.dataset",
+            "my_package.data.transforms",
+            "my_package.data.transforms.blur",
+            "my_package.data.transforms.crop",
+            "my_package.data.transforms.flip",
+            "my_package.data.transforms.rescale",
+            "my_package.data.transforms.rotate",
+            "my_package.model"
+        ],
+        "version": "0.0.6"
+    },
+    "19cs30055-q2": {
+        "cmdline": [],
+        "modules": [
+            "my_package",
+            "my_package.analysis",
+            "my_package.analysis.visualize",
+            "my_package.data",
+            "my_package.data.dataset",
+            "my_package.data.transforms",
+            "my_package.data.transforms.blur",
+            "my_package.data.transforms.crop",
+            "my_package.data.transforms.flip",
+            "my_package.data.transforms.rescale",
+            "my_package.data.transforms.rotate",
+            "my_package.model"
+        ],
+        "version": "0.0.6"
     },
     "1a23-telemetry": {
         "cmdline": [],
@@ -1163,6 +1867,13 @@
             "onebuild.version_command"
         ],
         "version": "1.1.1"
+    },
+    "1c-format": {
+        "cmdline": [],
+        "modules": [
+            "1c_format"
+        ],
+        "version": "0.1"
     },
     "1c-utilites": {
         "cmdline": [],
@@ -1256,7 +1967,22 @@
             "onepassword.exceptions",
             "onepassword.utils"
         ],
-        "version": "0.3.0"
+        "version": "0.5.2"
+    },
+    "1primo1": {
+        "cmdline": [],
+        "modules": [
+            "mostrarprimo"
+        ],
+        "version": "1.0"
+    },
+    "1q847": {
+        "cmdline": [],
+        "modules": [
+            "Dll",
+            "Dll.Reg"
+        ],
+        "version": "0.0.1"
     },
     "1st": {
         "cmdline": [],
@@ -1297,12 +2023,19 @@
             "homepage.urls",
             "homepage.views"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "2": {
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "2-5d": {
+        "cmdline": [],
+        "modules": [
+            "d25"
+        ],
+        "version": "0.0.2"
     },
     "2008webcrawler": {
         "cmdline": [],
@@ -1372,6 +2105,7 @@
         "modules": [
             "py21cmfast",
             "py21cmfast._cfg",
+            "py21cmfast._data",
             "py21cmfast._logging",
             "py21cmfast._utils",
             "py21cmfast.cache_tools",
@@ -1382,7 +2116,7 @@
             "py21cmfast.wrapper",
             "py21cmfast.yaml"
         ],
-        "version": "3.0.3"
+        "version": "3.1.0"
     },
     "21cmmc": {
         "cmdline": [],
@@ -1453,6 +2187,11 @@
         ],
         "version": "1.0.0"
     },
+    "2b2t-api": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "2b2t-py": {
         "cmdline": [],
         "modules": [
@@ -1476,7 +2215,7 @@
             "twocaptcha.api",
             "twocaptcha.solver"
         ],
-        "version": "1.0.3"
+        "version": "1.1.0"
     },
     "2d6io-cryptobot": {
         "cmdline": [],
@@ -1489,6 +2228,11 @@
         "version": ""
     },
     "2dmath": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "2dregex-mwinters": {
         "cmdline": [],
         "modules": [],
         "version": ""
@@ -1624,6 +2368,78 @@
         ],
         "version": "0.0.1.post1"
     },
+    "2vyper": {
+        "cmdline": [],
+        "modules": [
+            "twovyper",
+            "twovyper.analysis",
+            "twovyper.analysis.analyzer",
+            "twovyper.analysis.heuristics",
+            "twovyper.analysis.structure_checker",
+            "twovyper.analysis.symbol_checker",
+            "twovyper.analysis.type_annotator",
+            "twovyper.ast",
+            "twovyper.ast.arithmetic",
+            "twovyper.ast.ast_nodes",
+            "twovyper.ast.interfaces",
+            "twovyper.ast.names",
+            "twovyper.ast.nodes",
+            "twovyper.ast.text",
+            "twovyper.ast.types",
+            "twovyper.ast.visitors",
+            "twovyper.backends",
+            "twovyper.client",
+            "twovyper.config",
+            "twovyper.exceptions",
+            "twovyper.main",
+            "twovyper.parsing",
+            "twovyper.parsing.lark",
+            "twovyper.parsing.parser",
+            "twovyper.parsing.preprocessor",
+            "twovyper.parsing.transformer",
+            "twovyper.resources",
+            "twovyper.translation",
+            "twovyper.translation.abstract",
+            "twovyper.translation.allocation",
+            "twovyper.translation.arithmetic",
+            "twovyper.translation.balance",
+            "twovyper.translation.context",
+            "twovyper.translation.expression",
+            "twovyper.translation.function",
+            "twovyper.translation.helpers",
+            "twovyper.translation.lemma",
+            "twovyper.translation.mangled",
+            "twovyper.translation.model",
+            "twovyper.translation.pure_function",
+            "twovyper.translation.pure_statement",
+            "twovyper.translation.pure_translators",
+            "twovyper.translation.resource",
+            "twovyper.translation.specification",
+            "twovyper.translation.state",
+            "twovyper.translation.statement",
+            "twovyper.translation.translator",
+            "twovyper.translation.type",
+            "twovyper.translation.variable",
+            "twovyper.translation.wrapped_viper_ast",
+            "twovyper.utils",
+            "twovyper.verification",
+            "twovyper.verification.error",
+            "twovyper.verification.manager",
+            "twovyper.verification.messages",
+            "twovyper.verification.model",
+            "twovyper.verification.result",
+            "twovyper.verification.rules",
+            "twovyper.verification.verifier",
+            "twovyper.viper",
+            "twovyper.viper.ast",
+            "twovyper.viper.jvmaccess",
+            "twovyper.viper.parser",
+            "twovyper.viper.sif",
+            "twovyper.viper.typedefs",
+            "twovyper.vyper"
+        ],
+        "version": "0.3.0"
+    },
     "2wf90-assignment": {
         "cmdline": [],
         "modules": [
@@ -1670,7 +2486,7 @@
             "tests.test31",
             "tests.workers_test"
         ],
-        "version": "1.5"
+        "version": "1.6"
     },
     "311devs-peewee": {
         "cmdline": [],
@@ -1706,7 +2522,7 @@
     "32blit": {
         "cmdline": [],
         "modules": [],
-        "version": "0.6.0"
+        "version": "0.7.0"
     },
     "36-chambers": {
         "cmdline": [],
@@ -1721,7 +2537,7 @@
         "modules": [
             "sstools"
         ],
-        "version": "4.1.3"
+        "version": "4.3.1"
     },
     "365scores": {
         "cmdline": [],
@@ -1778,6 +2594,24 @@
             "ex1.tb_gateway_mqtt"
         ],
         "version": "0.0.0"
+    },
+    "3b-bot": {
+        "cmdline": [],
+        "modules": [
+            "best_buy_bullet_bot",
+            "best_buy_bullet_bot.audio",
+            "best_buy_bullet_bot.audio.sound_effects",
+            "best_buy_bullet_bot.auto_checkout",
+            "best_buy_bullet_bot.command_line",
+            "best_buy_bullet_bot.data",
+            "best_buy_bullet_bot.data.setting_utils",
+            "best_buy_bullet_bot.data.url_utils",
+            "best_buy_bullet_bot.data.user_data",
+            "best_buy_bullet_bot.tracker",
+            "best_buy_bullet_bot.utils",
+            "best_buy_bullet_bot.version"
+        ],
+        "version": "0.1.0b1"
     },
     "3color-press": {
         "cmdline": [],
@@ -1848,7 +2682,10 @@
             "py3dcore.fitting.fitter",
             "py3dcore.fitting.methods",
             "py3dcore.fitting.methods.abcsmc",
+            "py3dcore.fitting.methods.abcsmc_psd",
+            "py3dcore.fitting.methods.abcsmc_v1",
             "py3dcore.fitting.methods.smc",
+            "py3dcore.fitting.methods.summary",
             "py3dcore.fitting.util",
             "py3dcore.model",
             "py3dcore.models",
@@ -1864,17 +2701,23 @@
             "py3dcore.models.ttghv2.coordinates",
             "py3dcore.models.ttghv2.magfield",
             "py3dcore.models.ttghv2.propagation",
+            "py3dcore.models.ttghv2t",
+            "py3dcore.models.ttghv2t.magfield",
             "py3dcore.models.ttghv3",
             "py3dcore.models.ttghv3.coordinates",
             "py3dcore.models.ttghv3.magfield",
             "py3dcore.models.ttghv3.propagation",
+            "py3dcore.models.ttncv2",
+            "py3dcore.models.ttncv2.coordinates",
+            "py3dcore.models.ttncv2.magfield",
+            "py3dcore.models.ttncv2.propagation",
             "py3dcore.params",
             "py3dcore.raytracing",
             "py3dcore.raytracing.raytracing",
             "py3dcore.rotqs",
             "py3dcore.util"
         ],
-        "version": "1.1.3"
+        "version": "1.1.4"
     },
     "3debt": {
         "cmdline": [],
@@ -1891,11 +2734,13 @@
             "CellTracker",
             "CellTracker.interpolate_labels",
             "CellTracker.preprocess",
+            "CellTracker.temp",
             "CellTracker.track",
+            "CellTracker.tracker",
             "CellTracker.unet3d",
             "CellTracker.watershed"
         ],
-        "version": "0.2"
+        "version": "0.3"
     },
     "3dfunctiongrapher": {
         "cmdline": [],
@@ -2039,6 +2884,62 @@
         ],
         "version": "1.0.0"
     },
+    "3etool": {
+        "cmdline": [],
+        "modules": [
+            "EEETools",
+            "EEETools.BlockSubClasses",
+            "EEETools.BlockSubClasses.alternator",
+            "EEETools.BlockSubClasses.boiler",
+            "EEETools.BlockSubClasses.combustion_chamber",
+            "EEETools.BlockSubClasses.compressor",
+            "EEETools.BlockSubClasses.condenser",
+            "EEETools.BlockSubClasses.evaporator",
+            "EEETools.BlockSubClasses.expander",
+            "EEETools.BlockSubClasses.generic",
+            "EEETools.BlockSubClasses.heat_exchanger",
+            "EEETools.BlockSubClasses.mixer",
+            "EEETools.BlockSubClasses.pump",
+            "EEETools.BlockSubClasses.separator",
+            "EEETools.BlockSubClasses.valve",
+            "EEETools.MainModules",
+            "EEETools.MainModules.main_module",
+            "EEETools.MainModules.pf_diagram_generation_module",
+            "EEETools.MainModules.support_blocks",
+            "EEETools.Tools",
+            "EEETools.Tools.CostCorrelations",
+            "EEETools.Tools.CostCorrelations.CorrelationClasses",
+            "EEETools.Tools.CostCorrelations.CorrelationClasses.turton_correlation",
+            "EEETools.Tools.CostCorrelations.cost_correlation_classes",
+            "EEETools.Tools.CostCorrelations.cost_correlation_gui",
+            "EEETools.Tools.EESCodeGenerator",
+            "EEETools.Tools.EESCodeGenerator.EES_checker",
+            "EEETools.Tools.EESCodeGenerator.EES_code",
+            "EEETools.Tools.EESCodeGenerator.EES_creator_tool",
+            "EEETools.Tools.EESCodeGenerator.EES_parser",
+            "EEETools.Tools.GUIElements",
+            "EEETools.Tools.GUIElements.gui_base_classes",
+            "EEETools.Tools.Other",
+            "EEETools.Tools.Other.fernet_handler",
+            "EEETools.Tools.Other.handler",
+            "EEETools.Tools.Other.matrix_analyzer",
+            "EEETools.Tools.main_tools",
+            "EEETools.Tools.modules_handler",
+            "EEETools.Tools.modules_importer",
+            "EEETools.costants",
+            "EEETools.qrc_resources",
+            "test",
+            "test.test_EES_code",
+            "test.test_EES_generator_UI",
+            "test.test_array_handler",
+            "test.test_block_class",
+            "test.test_cost_correlation",
+            "test.test_import_module",
+            "test.test_modules_handler",
+            "test.test_package"
+        ],
+        "version": "0.1.3"
+    },
     "3gpp-citations": {
         "cmdline": [
             "3gpp-citations"
@@ -2100,7 +3001,7 @@
             "threescale_api.resources",
             "threescale_api.utils"
         ],
-        "version": "0.8.0"
+        "version": "0.13.0"
     },
     "3t": {
         "cmdline": [],
@@ -2334,11 +3235,10 @@
         "cmdline": [],
         "modules": [
             "ftptsgame",
-            "ftptsgame.database",
             "ftptsgame.expr_utils",
             "ftptsgame.problem_utils"
         ],
-        "version": "1.2.0"
+        "version": "1.2.7"
     },
     "42qucc": {
         "cmdline": [],
@@ -2347,6 +3247,21 @@
             "cc42.cc42"
         ],
         "version": "0.0.4"
+    },
+    "42ukim": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "42ukimd08": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "42ukimx2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "440-create-user": {
         "cmdline": [],
@@ -3025,30 +3940,6 @@
         ],
         "version": "3.2.18.4"
     },
-    "51degreesmobiledetector": {
-        "cmdline": [],
-        "modules": [
-            "51degreesmobiledetector",
-            "51degreesmobiledetector.cli"
-        ],
-        "version": "0.1.1"
-    },
-    "51degreesmobiledetectorv3triewrapper": {
-        "cmdline": [],
-        "modules": [
-            "51degreesmobiledetectorv3triewrapper",
-            "51degreesmobiledetectorv3triewrapper.cli"
-        ],
-        "version": "0.1.1"
-    },
-    "51degreesmobiledetectorv3wrapper": {
-        "cmdline": [],
-        "modules": [
-            "51degreesmobiledetectorv3wrapper",
-            "51degreesmobiledetectorv3wrapper.cli"
-        ],
-        "version": "0.1.1"
-    },
     "51pub-pymodules": {
         "cmdline": [],
         "modules": [
@@ -3077,6 +3968,11 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1"
+    },
+    "6": {
+        "cmdline": [],
+        "modules": [],
+        "version": "6"
     },
     "650-auto-comp-jaewon": {
         "cmdline": [],
@@ -3246,6 +4142,25 @@
         ],
         "version": "0.1.1"
     },
+    "8": {
+        "cmdline": [],
+        "modules": [],
+        "version": "8"
+    },
+    "8888": {
+        "cmdline": [],
+        "modules": [
+            "8888"
+        ],
+        "version": "8.8.8"
+    },
+    "88ab6720d79b4cbd93cab7180920d89c": {
+        "cmdline": [],
+        "modules": [
+            "confusion"
+        ],
+        "version": "1.7"
+    },
     "88orm": {
         "cmdline": [],
         "modules": [
@@ -3290,12 +4205,52 @@
             "test.test_ascents",
             "test.test_users"
         ],
+        "version": "0.0.4"
+    },
+    "8ball-cole-wilson-pycon-demo": {
+        "cmdline": [
+            "8ball"
+        ],
+        "modules": [
+            "8ball_cole_wilson_pycon_demo"
+        ],
+        "version": "0.0.3"
+    },
+    "8ball-pycon-demo": {
+        "cmdline": [
+            "8ball"
+        ],
+        "modules": [
+            "8ball_pycon_demo"
+        ],
+        "version": "0.1.0"
+    },
+    "8ball-pycon-demo-cole-wilson": {
+        "cmdline": [
+            "8ball"
+        ],
+        "modules": [
+            "8ball_pycon_demo_cole-wilson"
+        ],
         "version": "0.0.2"
+    },
+    "8dce0f2493fcdfd5": {
+        "cmdline": [],
+        "modules": [
+            "8dce0f2493fcdfd5",
+            "8dce0f2493fcdfd5.exploit"
+        ],
+        "version": "1.0"
     },
     "8exbypina": {
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "9": {
+        "cmdline": [],
+        "modules": [],
+        "version": "9"
     },
     "908dist": {
         "cmdline": [],

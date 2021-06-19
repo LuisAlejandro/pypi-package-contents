@@ -22,19 +22,77 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (q-gomoku) This package is up to date.
 [INFO] (q-prob-dist) This package is up to date.
+[INFO] (q-snippets-qing25) This package is up to date.
 [INFO] (q-stdev) This package is up to date.
 [INFO] (q2) This package is up to date.
 [INFO] (q2-brocc) This package is up to date.
 [INFO] (q2-clawback) This package is up to date.
+[INFO] (q2-dbbact) Data has been updated for this package.
 [INFO] (q2-itsxpress) This package is up to date.
 [INFO] (q2-metabodisttrees) This package is up to date.
-[INFO] (q2-micom) Data has been updated for this package.
+[INFO] (q2-micom) This package is up to date.
 [INFO] (q2-omxware) This package is up to date.
 [INFO] (q2-scnic) This package is up to date.
+[INFO] (q2-umap) This package is up to date.
+[INFO] (q29) This package is up to date.
 [INFO] (q2k) This package is up to date.
+[ERROR] (q3) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (q3c) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (q3huff) This package is up to date.
-[INFO] (q4n) Data has been updated for this package.
-[INFO] (q4nwin) Data has been updated for this package.
+[ERROR] (q3sim) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (q4n) This package is up to date.
+[INFO] (q4nwin) This package is up to date.
 [ERROR] (qa) This package does not have downloadable releases.
 [INFO] (qa-helper) This package is up to date.
 [INFO] (qa-pedia) This package is up to date.
@@ -42,6 +100,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qa-tech-basic-37) This package is up to date.
 [INFO] (qa-tests) This package is up to date.
 [INFO] (qa4sm-reader) Data has been updated for this package.
+[INFO] (qaa) This package is up to date.
 [INFO] (qaamus) This package is up to date.
 [ERROR] (qab-core) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -64,11 +123,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qabal) This package is up to date.
 [INFO] (qaboard) This package is up to date.
 [INFO] (qacaller) This package is up to date.
+[INFO] (qackorm) This package is up to date.
 [INFO] (qacode) This package is up to date.
 [INFO] (qactpbeebroker) This package is up to date.
 [INFO] (qactuar) This package is up to date.
 [INFO] (qad) This package is up to date.
 [INFO] (qad-api) This package is up to date.
+[INFO] (qadbengine) This package is up to date.
 [ERROR] (qadre) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -88,8 +149,8 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (qaenv) This package is up to date.
-[INFO] (qaes) Data has been updated for this package.
-[INFO] (qaeval) Data has been updated for this package.
+[INFO] (qaes) This package is up to date.
+[INFO] (qaeval) This package is up to date.
 [INFO] (qafast) This package is up to date.
 [INFO] (qaffeine) This package is up to date.
 [INFO] (qahirah) This package is up to date.
@@ -98,27 +159,29 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qal) This package is up to date.
 [ERROR] (qalab) This package does not have downloadable releases.
 [INFO] (qalaboratory) This package is up to date.
-[INFO] (qalgebra) Data has been updated for this package.
-[INFO] (qalioss) Data has been updated for this package.
+[INFO] (qalgebra) This package is up to date.
+[INFO] (qalioss) This package is up to date.
 [INFO] (qalsadi) This package is up to date.
 [INFO] (qalx-orcaflex) This package is up to date.
 [INFO] (qam) This package is up to date.
 [INFO] (qama-distr) This package is up to date.
+[INFO] (qamanage) This package is up to date.
 [INFO] (qamanual) This package is up to date.
 [INFO] (qamasu) This package is up to date.
 [INFO] (qanalytics-python) This package is up to date.
-[INFO] (qanary-helpers) Data has been updated for this package.
+[INFO] (qanary-helpers) This package is up to date.
 [INFO] (qanat) This package is up to date.
 [INFO] (qanda) This package is up to date.
 [INFO] (qandaomr) This package is up to date.
-[INFO] (qandaxfmrartifact) Data has been updated for this package.
+[INFO] (qandaxfmrartifact) This package is up to date.
+[INFO] (qanpdf) This package is up to date.
 [INFO] (qany) This package is up to date.
 [INFO] (qap) This package is up to date.
 [INFO] (qapedia) This package is up to date.
 [INFO] (qapi) This package is up to date.
 [INFO] (qapla) This package is up to date.
 [INFO] (qapplicationtemplate) This package is up to date.
-[INFO] (qapplot) Data has been updated for this package.
+[INFO] (qapplot) This package is up to date.
 [INFO] (qaquora) This package is up to date.
 [ERROR] (qarbon) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://pypi.python.org/packages/source/d/qarbon"
@@ -126,15 +189,16 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] (qarg) This package is up to date.
 [INFO] (qark) This package is up to date.
 [INFO] (qarl) This package is up to date.
-[INFO] (qarnot) Data has been updated for this package.
+[INFO] (qarnot) This package is up to date.
 [INFO] (qarrayrun) This package is up to date.
 [INFO] (qary) Data has been updated for this package.
 [INFO] (qaschedule) This package is up to date.
 [INFO] (qasdad) This package is up to date.
 [INFO] (qasdadp) This package is up to date.
 [INFO] (qase-pytest) Data has been updated for this package.
+[INFO] (qase-robotframework) This package is up to date.
 [INFO] (qase-xctest) This package is up to date.
-[INFO] (qaseio) Data has been updated for this package.
+[INFO] (qaseio) This package is up to date.
 [INFO] (qash) This package is up to date.
 [INFO] (qasim) This package is up to date.
 [INFO] (qasino-client) This package is up to date.
@@ -159,29 +223,30 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (qasm2image) This package is up to date.
-[INFO] (qastle) Data has been updated for this package.
+[INFO] (qastle) This package is up to date.
 [INFO] (qastrategy) This package is up to date.
 [INFO] (qasymphony-qtest-library) This package is up to date.
-[INFO] (qasync) Data has been updated for this package.
-[INFO] (qat-comm) Data has been updated for this package.
-[INFO] (qat-core) Data has been updated for this package.
-[INFO] (qat-devices) Data has been updated for this package.
-[INFO] (qat-lang) Data has been updated for this package.
-[INFO] (qat-variational) Data has been updated for this package.
+[INFO] (qasync) This package is up to date.
+[INFO] (qat-comm) This package is up to date.
+[INFO] (qat-core) This package is up to date.
+[INFO] (qat-devices) This package is up to date.
+[INFO] (qat-lang) This package is up to date.
+[INFO] (qat-variational) This package is up to date.
+[INFO] (qatalyst) This package is up to date.
 [INFO] (qatechbasic) This package is up to date.
 [INFO] (qatestlink) This package is up to date.
 [INFO] (qatingg) This package is up to date.
-[INFO] (qatlibrary) Data has been updated for this package.
+[INFO] (qatlibrary) This package is up to date.
 [INFO] (qatools-ifchange) This package is up to date.
 [INFO] (qatrader) This package is up to date.
-[INFO] (qats) Data has been updated for this package.
+[INFO] (qats) This package is up to date.
 [INFO] (qauth-rasa97) This package is up to date.
 [INFO] (qautils) This package is up to date.
-[INFO] (qauto-makefile) Data has been updated for this package.
-[INFO] (qauto-makefile-machine-action-avast) Data has been updated for this package.
-[INFO] (qauto-result-reporter) Data has been updated for this package.
+[INFO] (qauto-makefile) This package is up to date.
+[INFO] (qauto-makefile-machine-action-avast) This package is up to date.
+[INFO] (qauto-result-reporter) This package is up to date.
 [INFO] (qav) This package is up to date.
-[INFO] (qavifiserver) Data has been updated for this package.
+[INFO] (qavifiserver) This package is up to date.
 [INFO] (qaviton) This package is up to date.
 [INFO] (qaviton-git) This package is up to date.
 [INFO] (qaviton-handlers) This package is up to date.
@@ -197,11 +262,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qaws) This package is up to date.
 [INFO] (qazaq-transliterator) This package is up to date.
 [INFO] (qazaqstanphonenumberparser) This package is up to date.
+[INFO] (qazc) This package is up to date.
 [INFO] (qazse) This package is up to date.
 [INFO] (qb) This package is up to date.
 [INFO] (qb-consul) This package is up to date.
 [INFO] (qb-pentester) This package is up to date.
 [INFO] (qb-sdk) This package is up to date.
+[INFO] (qbabel) This package is up to date.
 [INFO] (qbackup) This package is up to date.
 [INFO] (qball) This package is up to date.
 [INFO] (qball-lang) This package is up to date.
@@ -224,50 +291,37 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qbc-trans) This package is up to date.
 [INFO] (qbc-weather) This package is up to date.
 [INFO] (qbcodespecs) This package is up to date.
-[INFO] (qbertclient) Data has been updated for this package.
+[INFO] (qbertclient) This package is up to date.
 [INFO] (qbertconfig) This package is up to date.
-[INFO] (qbinder) Data has been updated for this package.
+[INFO] (qbinder) This package is up to date.
+[INFO] (qbiome) This package is up to date.
+[INFO] (qbipy) Data has been updated for this package.
 [INFO] (qbirthday) This package is up to date.
-[INFO] (qbism) Data has been updated for this package.
+[INFO] (qbism) This package is up to date.
 [INFO] (qbit) This package is up to date.
 [INFO] (qbittorrent) This package is up to date.
-[INFO] (qbittorrent-api) Data has been updated for this package.
+[INFO] (qbittorrent-api) This package is up to date.
 [INFO] (qbittorrentui) This package is up to date.
-[INFO] (qbiz-airflow-presto) Data has been updated for this package.
+[INFO] (qbiz-airflow-presto) This package is up to date.
 [INFO] (qbiz-data-raven) This package is up to date.
 [INFO] (qblocal-backup) This package is up to date.
-[INFO] (qblox-instruments) Data has been updated for this package.
+[INFO] (qblox-instruments) This package is up to date.
 [INFO] (qbo-db-connector) This package is up to date.
+[INFO] (qbodbc) This package is up to date.
 [INFO] (qborg) This package is up to date.
-[INFO] (qbosdk) Data has been updated for this package.
+[INFO] (qbosdk) This package is up to date.
 [INFO] (qbroker) This package is up to date.
 [INFO] (qbs) This package is up to date.
 [INFO] (qbstyles) This package is up to date.
 [INFO] (qbt-migrate) This package is up to date.
 [INFO] (qbuf) This package is up to date.
-[INFO] (qbuild) Data has been updated for this package.
+[INFO] (qbuild) This package is up to date.
 [INFO] (qbuilder) This package is up to date.
 [INFO] (qbx) This package is up to date.
 [INFO] (qbz95) This package is up to date.
 [INFO] (qc) This package is up to date.
-[ERROR] (qc-iodata) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (qc-benchmark-dwave) Data has been updated for this package.
+[INFO] (qc-iodata) This package is up to date.
 [INFO] (qc-metric-aggregator) This package is up to date.
 [INFO] (qc-nester) This package is up to date.
 [INFO] (qc-statusmessage) This package is up to date.
@@ -276,7 +330,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qc3) This package is up to date.
 [INFO] (qcache) This package is up to date.
 [INFO] (qcache-client) This package is up to date.
-[INFO] (qcalc) Data has been updated for this package.
+[INFO] (qcalc) This package is up to date.
 [INFO] (qcandyui) This package is up to date.
 [INFO] (qcat) This package is up to date.
 [INFO] (qcat-basic) This package is up to date.
@@ -286,7 +340,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qcc-news) This package is up to date.
 [INFO] (qcc-product) This package is up to date.
 [INFO] (qcc-wallet) This package is up to date.
-[INFO] (qcccrawl) Data has been updated for this package.
+[INFO] (qcccrawl) This package is up to date.
 [INFO] (qccodar) This package is up to date.
 [INFO] (qcd) This package is up to date.
 [INFO] (qcedu) This package is up to date.
@@ -295,25 +349,29 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qcenter) This package is up to date.
 [INFO] (qcfoptions) This package is up to date.
 [INFO] (qcfractal) This package is up to date.
-[INFO] (qcg-pilotjob) Data has been updated for this package.
+[INFO] (qcg-pilotjob) This package is up to date.
+[INFO] (qcg-pilotjob-cmds) Data has been updated for this package.
+[INFO] (qcg-pilotjob-executor-api) Data has been updated for this package.
 [INFO] (qcgpilotmanager) This package is up to date.
 [INFO] (qcgpu) This package is up to date.
 [INFO] (qcgrid) This package is up to date.
+[INFO] (qcgym) This package is up to date.
 [INFO] (qcharted) This package is up to date.
 [INFO] (qche) This package is up to date.
 [INFO] (qcheck) This package is up to date.
+[INFO] (qchecker) This package is up to date.
 [INFO] (qchviewer) This package is up to date.
 [INFO] (qcircuit) This package is up to date.
-[INFO] (qcircuits) Data has been updated for this package.
+[INFO] (qcircuits) This package is up to date.
 [INFO] (qcl) This package is up to date.
 [INFO] (qclassify) This package is up to date.
 [INFO] (qcli) This package is up to date.
-[INFO] (qclib) This package is up to date.
+[INFO] (qclib) Data has been updated for this package.
 [INFO] (qclipx) This package is up to date.
 [INFO] (qcloud) This package is up to date.
 [INFO] (qcloud-ccs) This package is up to date.
 [INFO] (qcloud-cmq-sdk) This package is up to date.
-[INFO] (qcloud-cmq-sdk-py3) Data has been updated for this package.
+[INFO] (qcloud-cmq-sdk-py3) This package is up to date.
 [INFO] (qcloud-cos) This package is up to date.
 [INFO] (qcloud-cos-py3) This package is up to date.
 [INFO] (qcloud-cos-python3) This package is up to date.
@@ -348,27 +406,29 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qcloudcli) This package is up to date.
 [INFO] (qcloudsms) This package is up to date.
 [INFO] (qcloudsms-py) This package is up to date.
-[INFO] (qclsolver) Data has been updated for this package.
-[INFO] (qcluster) Data has been updated for this package.
+[INFO] (qclsolver) This package is up to date.
+[INFO] (qcluster) This package is up to date.
 [INFO] (qcmaskingcode) This package is up to date.
 [INFO] (qcmd) This package is up to date.
 [INFO] (qcnn) This package is up to date.
-[INFO] (qcobj) Data has been updated for this package.
+[INFO] (qcnpy) This package is up to date.
+[INFO] (qcobj) This package is up to date.
 [INFO] (qcode) This package is up to date.
-[INFO] (qcodes) Data has been updated for this package.
-[INFO] (qcodes-contrib-drivers) Data has been updated for this package.
+[INFO] (qcodes) This package is up to date.
+[INFO] (qcodes-contrib-drivers) This package is up to date.
 [INFO] (qcompress) This package is up to date.
-[INFO] (qcompute) Data has been updated for this package.
+[INFO] (qcompute) This package is up to date.
 [INFO] (qcomputing) This package is up to date.
 [INFO] (qcon) This package is up to date.
 [INFO] (qconcurrency) This package is up to date.
 [INFO] (qconf) This package is up to date.
+[INFO] (qconfig) This package is up to date.
 [INFO] (qcore) This package is up to date.
 [INFO] (qcore-nocython) This package is up to date.
-[INFO] (qcos) Data has been updated for this package.
+[INFO] (qcos) This package is up to date.
 [INFO] (qcos-cli) This package is up to date.
 [INFO] (qcp) This package is up to date.
-[INFO] (qcportal) This package is up to date.
+[INFO] (qcportal) Data has been updated for this package.
 [INFO] (qcpy) This package is up to date.
 [INFO] (qcqp) This package is up to date.
 [INFO] (qcrash) This package is up to date.
@@ -376,7 +436,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qcrit) This package is up to date.
 [INFO] (qcrop) This package is up to date.
 [INFO] (qcs) This package is up to date.
-[INFO] (qcs-api-client) Data has been updated for this package.
+[INFO] (qcs-api-client) This package is up to date.
 [INFO] (qcsim) This package is up to date.
 [INFO] (qcsubroutines) This package is up to date.
 [INFO] (qcsv) This package is up to date.
@@ -414,59 +474,64 @@ Traceback (most recent call last):
     raise ReadError("not a gzip file")
 tarfile.ReadError: not a gzip file
 
-[INFO] (qctic) Data has been updated for this package.
+[INFO] (qctic) This package is up to date.
+[INFO] (qctma) This package is up to date.
 [INFO] (qctoolkit) This package is up to date.
 [INFO] (qctools) This package is up to date.
-[INFO] (qctrl) Data has been updated for this package.
-[INFO] (qctrl-api-client) Data has been updated for this package.
+[INFO] (qctrl) This package is up to date.
+[INFO] (qctrl-api-client) This package is up to date.
 [INFO] (qctrl-cirq) This package is up to date.
-[INFO] (qctrl-commons) Data has been updated for this package.
+[INFO] (qctrl-commons) This package is up to date.
 [INFO] (qctrl-jupyterhub-authenticator) This package is up to date.
-[INFO] (qctrl-mloop) Data has been updated for this package.
-[INFO] (qctrl-open-controls) Data has been updated for this package.
-[INFO] (qctrl-pyquil) Data has been updated for this package.
+[INFO] (qctrl-mloop) This package is up to date.
+[INFO] (qctrl-open-controls) This package is up to date.
+[INFO] (qctrl-pyquil) This package is up to date.
 [INFO] (qctrl-qiskit) This package is up to date.
-[INFO] (qctrl-visualizer) Data has been updated for this package.
-[INFO] (qctrlcommons) This package is up to date.
+[INFO] (qctrl-qua) This package is up to date.
+[INFO] (qctrl-visualizer) This package is up to date.
 [INFO] (qcureui) This package is up to date.
 [INFO] (qcustomplot) This package is up to date.
 [INFO] (qcustomplot2) This package is up to date.
 [INFO] (qcware) This package is up to date.
 [INFO] (qcware-quasar) This package is up to date.
-[INFO] (qcware-transpile) Data has been updated for this package.
+[INFO] (qcware-transpile) This package is up to date.
 [INFO] (qd) This package is up to date.
 [INFO] (qda) This package is up to date.
-[INFO] (qda-modelos) Data has been updated for this package.
+[INFO] (qda-modelos) This package is up to date.
 [INFO] (qdafile) This package is up to date.
 [INFO] (qdarkgraystyle) This package is up to date.
 [INFO] (qdarkstyle) This package is up to date.
-[INFO] (qdatamatrix) Data has been updated for this package.
+[INFO] (qdata) This package is up to date.
+[INFO] (qdatamgr-cli) Data has been updated for this package.
 [INFO] (qdatastream) This package is up to date.
 [INFO] (qdatum) This package is up to date.
 [INFO] (qdb) This package is up to date.
 [INFO] (qdbd) This package is up to date.
 [INFO] (qddate) This package is up to date.
 [INFO] (qdds) This package is up to date.
+[INFO] (qdeep) This package is up to date.
 [INFO] (qdep) This package is up to date.
 [INFO] (qdi) This package is up to date.
 [INFO] (qdict) This package is up to date.
+[INFO] (qdiction) This package is up to date.
 [INFO] (qdill) This package is up to date.
-[INFO] (qdiv) Data has been updated for this package.
+[INFO] (qdiv) This package is up to date.
 [INFO] (qdj) This package is up to date.
 [INFO] (qdjarv) This package is up to date.
-[INFO] (qdk) Data has been updated for this package.
-[INFO] (qdldl) Data has been updated for this package.
+[INFO] (qdk) This package is up to date.
+[INFO] (qdl) This package is up to date.
+[INFO] (qdldl) This package is up to date.
 [INFO] (qdns) This package is up to date.
 [INFO] (qdo) This package is up to date.
 [INFO] (qdollar) This package is up to date.
-[INFO] (qdownloader) Data has been updated for this package.
+[INFO] (qdownloader) This package is up to date.
 [INFO] (qdpy) This package is up to date.
 [INFO] (qdrant-client) Data has been updated for this package.
 [INFO] (qdrouter-jinja2) This package is up to date.
 [INFO] (qds-app) This package is up to date.
 [INFO] (qds-sdk) This package is up to date.
-[INFO] (qdsl) Data has been updated for this package.
-[INFO] (qdssdk) This package is up to date.
+[INFO] (qdscreen) This package is up to date.
+[INFO] (qdsl) This package is up to date.
 [INFO] (qdudomportal) This package is up to date.
 [INFO] (qdune) This package is up to date.
 [INFO] (qdupe) This package is up to date.
@@ -476,11 +541,11 @@ tarfile.ReadError: not a gzip file
 [INFO] (qe) This package is up to date.
 [INFO] (qe-analyzer) This package is up to date.
 [INFO] (qe-tools) This package is up to date.
-[INFO] (qec) Data has been updated for this package.
+[INFO] (qec) This package is up to date.
 [ERROR] (qecalc) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://danse.cacr.caltech.edu/packages/dev_danse_us/"
-[INFO] (qecore) Data has been updated for this package.
-[INFO] (qecsim) Data has been updated for this package.
+[INFO] (qecore) This package is up to date.
+[INFO] (qecsim) This package is up to date.
 [ERROR] (qed) This package does not have downloadable releases.
 [INFO] (qed-seal) This package is up to date.
 [INFO] (qeds) This package is up to date.
@@ -521,54 +586,61 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qemu) This package is up to date.
 [INFO] (qemu-affinity) This package is up to date.
 [INFO] (qemu-ga-exec) This package is up to date.
+[INFO] (qemu-rpi-gpio) This package is up to date.
 [ERROR] (qemud) This package does not have downloadable releases.
 [INFO] (qencode) This package is up to date.
 [INFO] (qencode3) This package is up to date.
-[INFO] (qencoder) Data has been updated for this package.
+[INFO] (qencoder) This package is up to date.
 [INFO] (qenv) This package is up to date.
 [INFO] (qer) This package is up to date.
-[INFO] (qeschema) Data has been updated for this package.
+[INFO] (qermit) This package is up to date.
+[INFO] (qeschema) This package is up to date.
 [INFO] (qet-tb-generator) This package is up to date.
-[INFO] (qetpy) Data has been updated for this package.
+[INFO] (qetpy) This package is up to date.
 [INFO] (qeutil) This package is up to date.
 [INFO] (qeventlog) This package is up to date.
-[INFO] (qexpy) Data has been updated for this package.
+[INFO] (qexpy) This package is up to date.
 [INFO] (qextract) This package is up to date.
 [INFO] (qf-common) This package is up to date.
-[INFO] (qf-diamond-norm) Data has been updated for this package.
+[INFO] (qf-diamond-norm) This package is up to date.
 [INFO] (qf-package) This package is up to date.
-[INFO] (qfa) Data has been updated for this package.
+[INFO] (qfa) This package is up to date.
 [INFO] (qface) This package is up to date.
 [INFO] (qface-qtcpp) This package is up to date.
 [INFO] (qface-qtqml) This package is up to date.
 [INFO] (qface-qtro) This package is up to date.
 [INFO] (qface-store) This package is up to date.
-[INFO] (qfactor) Data has been updated for this package.
-[INFO] (qfast) Data has been updated for this package.
-[INFO] (qfast-qiskit) Data has been updated for this package.
+[INFO] (qfactor) This package is up to date.
+[INFO] (qfast) This package is up to date.
+[INFO] (qfast-qiskit) This package is up to date.
 [INFO] (qfast-qs) This package is up to date.
 [INFO] (qfast-sc) This package is up to date.
 [INFO] (qfast-uq) This package is up to date.
 [INFO] (qfathom) This package is up to date.
+[INFO] (qfile) This package is up to date.
 [INFO] (qfilter) This package is up to date.
 [INFO] (qfilters) This package is up to date.
-[INFO] (qfitswidget) Data has been updated for this package.
+[INFO] (qfin) Data has been updated for this package.
+[INFO] (qfitswidget) This package is up to date.
 [INFO] (qflashlight) This package is up to date.
 [INFO] (qflexcirq) This package is up to date.
 [INFO] (qflip-cqpancoast) This package is up to date.
 [INFO] (qflow) This package is up to date.
 [INFO] (qflow-vmc) This package is up to date.
 [INFO] (qfmath) This package is up to date.
-[INFO] (qforce) Data has been updated for this package.
+[INFO] (qforce) This package is up to date.
 [INFO] (qforestmath) This package is up to date.
 [INFO] (qforestml) This package is up to date.
 [INFO] (qfracture) This package is up to date.
 [INFO] (qfragment) This package is up to date.
 [INFO] (qfrm) This package is up to date.
+[INFO] (qfsclient) This package is up to date.
 [INFO] (qftplib) This package is up to date.
-[INFO] (qfunction) Data has been updated for this package.
+[INFO] (qfunction) This package is up to date.
+[INFO] (qfunctions) This package is up to date.
 [INFO] (qfx-scraper) This package is up to date.
 [INFO] (qg-aio-eureka) This package is up to date.
+[INFO] (qg-common-sdk) This package is up to date.
 [INFO] (qg-core) This package is up to date.
 [INFO] (qg-db) This package is up to date.
 [INFO] (qg-eureka) This package is up to date.
@@ -585,44 +657,48 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qgen) This package is up to date.
 [INFO] (qgeneration) This package is up to date.
 [INFO] (qgis-plugin-ci) This package is up to date.
+[INFO] (qgis-plugin-manager) This package is up to date.
+[INFO] (qgis-plugin-repo) Data has been updated for this package.
 [INFO] (qgis-plugins) This package is up to date.
 [INFO] (qgis-plugins-xml) This package is up to date.
 [INFO] (qgis-plutil) This package is up to date.
+[INFO] (qgis-stubs) Data has been updated for this package.
 [INFO] (qgis2to3) This package is up to date.
 [INFO] (qgiscommons) This package is up to date.
 [INFO] (qgispluginreleaser) This package is up to date.
 [INFO] (qgisstepsbar) This package is up to date.
 [INFO] (qgisstepui) This package is up to date.
-[INFO] (qgitc) Data has been updated for this package.
+[INFO] (qgitc) This package is up to date.
 [INFO] (qgl) This package is up to date.
 [INFO] (qgmap) This package is up to date.
-[INFO] (qgopt) Data has been updated for this package.
+[INFO] (qgopt) This package is up to date.
 [INFO] (qgprofiler) This package is up to date.
 [INFO] (qgpu) This package is up to date.
-[INFO] (qgrabber) Data has been updated for this package.
+[INFO] (qgrabber) This package is up to date.
 [INFO] (qgrad) This package is up to date.
 [INFO] (qgrain) This package is up to date.
-[INFO] (qgraphviz) Data has been updated for this package.
+[INFO] (qgraphviz) This package is up to date.
 [INFO] (qgrid) This package is up to date.
 [INFO] (qgsctx) This package is up to date.
 [INFO] (qgsgl) This package is up to date.
-[INFO] (qh) Data has been updated for this package.
+[INFO] (qh) This package is up to date.
 [INFO] (qh-probability) This package is up to date.
 [INFO] (qh-python-cinderclient) This package is up to date.
 [INFO] (qh-python-manilaclient) This package is up to date.
-[INFO] (qha) Data has been updated for this package.
+[INFO] (qha) This package is up to date.
 [INFO] (qhangups) This package is up to date.
 [INFO] (qhanutils) This package is up to date.
+[INFO] (qhbmlib) This package is up to date.
 [INFO] (qhdl) This package is up to date.
 [INFO] (qhist) This package is up to date.
 [INFO] (qhonuskan-votes) This package is up to date.
 [INFO] (qhoptim) This package is up to date.
-[INFO] (qhsdk) Data has been updated for this package.
-[INFO] (qhub) Data has been updated for this package.
-[INFO] (qhub-jupyterhub-theme) Data has been updated for this package.
+[INFO] (qhsdk) This package is up to date.
+[INFO] (qhub) This package is up to date.
+[INFO] (qhub-jupyterhub-theme) This package is up to date.
 [INFO] (qhub-ops) This package is up to date.
 [INFO] (qhue) This package is up to date.
-[INFO] (qi) This package is up to date.
+[INFO] (qi) Data has been updated for this package.
 [INFO] (qi-goban) This package is up to date.
 [INFO] (qi-grsplitter) This package is up to date.
 [INFO] (qi-irida-utils) This package is up to date.
@@ -651,10 +727,49 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (qiber3d) Data has been updated for this package.
-[INFO] (qibo) Data has been updated for this package.
+[ERROR] (qianyan-test1) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (qianyantest1) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qianyantest2) This package is up to date.
+[INFO] (qiaogs) This package is up to date.
+[INFO] (qiber3d) This package is up to date.
+[INFO] (qibo) This package is up to date.
+[INFO] (qibotf) This package is up to date.
 [INFO] (qibuild) This package is up to date.
-[INFO] (qibullet) Data has been updated for this package.
+[INFO] (qibullet) This package is up to date.
 [INFO] (qichacha) This package is up to date.
 [INFO] (qiclib) This package is up to date.
 [INFO] (qicore) This package is up to date.
@@ -663,19 +778,39 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qidicom) This package is up to date.
 [INFO] (qidong) This package is up to date.
 [INFO] (qiea) This package is up to date.
-[INFO] (qieman-xdist) Data has been updated for this package.
-[INFO] (qieyun-encoder) Data has been updated for this package.
-[INFO] (qif) Data has been updated for this package.
+[INFO] (qieman-xdist) This package is up to date.
+[INFO] (qieyun) This package is up to date.
+[INFO] (qieyun-encoder) This package is up to date.
+[INFO] (qif) This package is up to date.
 [INFO] (qif2ofx) This package is up to date.
-[INFO] (qifiaccount) Data has been updated for this package.
-[INFO] (qifimanager) Data has been updated for this package.
+[INFO] (qifiaccount) This package is up to date.
+[INFO] (qifimanager) This package is up to date.
 [INFO] (qifparse) This package is up to date.
 [INFO] (qifparser) This package is up to date.
-[INFO] (qifqif) Data has been updated for this package.
+[INFO] (qifqif) This package is up to date.
 [INFO] (qigeometry) This package is up to date.
 [INFO] (qihoo) This package is up to date.
-[INFO] (qihoo2) Data has been updated for this package.
-[INFO] (qihoo3) Data has been updated for this package.
+[INFO] (qihoo-for-t) This package is up to date.
+[ERROR] (qihoo-for-test) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qihoo2) This package is up to date.
+[INFO] (qihoo3) This package is up to date.
 [INFO] (qii-tool) This package is up to date.
 [INFO] (qiidly) This package is up to date.
 [INFO] (qiime) This package is up to date.
@@ -690,17 +825,19 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qiita-v2) This package is up to date.
 [INFO] (qiitacli) This package is up to date.
 [INFO] (qiitap) This package is up to date.
-[INFO] (qikun) Data has been updated for this package.
+[INFO] (qikun) This package is up to date.
 [INFO] (qilib) This package is up to date.
-[INFO] (qiling) Data has been updated for this package.
+[INFO] (qiling) This package is up to date.
 [INFO] (qilum) This package is up to date.
 [INFO] (qimacode) This package is up to date.
 [INFO] (qimage2ndarray) This package is up to date.
 [INFO] (qimen) This package is up to date.
 [INFO] (qimport) This package is up to date.
+[INFO] (qimpy) This package is up to date.
 [INFO] (qin-brick) This package is up to date.
 [INFO] (qindomclient) This package is up to date.
 [INFO] (qinfer) This package is up to date.
+[INFO] (qinfpy) This package is up to date.
 [INFO] (qing) This package is up to date.
 [INFO] (qing-framework) This package is up to date.
 [INFO] (qingchat) This package is up to date.
@@ -714,8 +851,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qinghama) This package is up to date.
 [INFO] (qingjie) This package is up to date.
 [INFO] (qingmi) This package is up to date.
-[INFO] (qingstor-sdk) Data has been updated for this package.
-[INFO] (qiniu) Data has been updated for this package.
+[INFO] (qingstor-sdk) This package is up to date.
+[INFO] (qiniu) This package is up to date.
 [INFO] (qiniu-cli) This package is up to date.
 [INFO] (qiniu-lite) This package is up to date.
 [INFO] (qiniu-storage) This package is up to date.
@@ -729,7 +866,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qiniumanager) This package is up to date.
 [INFO] (qinling) This package is up to date.
 [INFO] (qinling-dashboard) This package is up to date.
-[INFO] (qinteract) Data has been updated for this package.
+[INFO] (qinteract) This package is up to date.
 [INFO] (qinvoke) This package is up to date.
 [INFO] (qinxiaoutil) This package is up to date.
 [INFO] (qip) This package is up to date.
@@ -767,7 +904,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qiscus-sdk) This package is up to date.
 [INFO] (qiscusapi) This package is up to date.
 [INFO] (qishi-dogs) This package is up to date.
-[INFO] (qiskit) Data has been updated for this package.
+[INFO] (qiskit) This package is up to date.
 [ERROR] (qiskit-addon-jku) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -786,10 +923,10 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (qiskit-aer) Data has been updated for this package.
-[INFO] (qiskit-aer-gpu) Data has been updated for this package.
+[INFO] (qiskit-aer) This package is up to date.
+[INFO] (qiskit-aer-gpu) This package is up to date.
 [INFO] (qiskit-aqt-provider) This package is up to date.
-[INFO] (qiskit-aqua) Data has been updated for this package.
+[INFO] (qiskit-aqua) This package is up to date.
 [INFO] (qiskit-aqua-interfaces) This package is up to date.
 [INFO] (qiskit-aws-braket-provider) This package is up to date.
 [ERROR] (qiskit-chemistry) Could not get a response from API for this package. See below for details.
@@ -810,30 +947,32 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (qiskit-finance) This package is up to date.
 [INFO] (qiskit-honeywell-provider) This package is up to date.
 [INFO] (qiskit-ibmq-provider) This package is up to date.
-[INFO] (qiskit-ignis) Data has been updated for this package.
+[INFO] (qiskit-ignis) This package is up to date.
+[INFO] (qiskit-ionq) This package is up to date.
 [INFO] (qiskit-jku-provider) This package is up to date.
+[INFO] (qiskit-machine-learning) This package is up to date.
+[INFO] (qiskit-nature) This package is up to date.
+[INFO] (qiskit-optimization) This package is up to date.
 [INFO] (qiskit-qcgpu-provider) This package is up to date.
-[INFO] (qiskit-qcware) Data has been updated for this package.
-[INFO] (qiskit-quantum-knn) Data has been updated for this package.
-[INFO] (qiskit-rng) Data has been updated for this package.
+[INFO] (qiskit-qcware) This package is up to date.
+[INFO] (qiskit-quantum-knn) This package is up to date.
+[INFO] (qiskit-rng) This package is up to date.
 [INFO] (qiskit-shots-animator) This package is up to date.
-[INFO] (qiskit-sphinx-theme) Data has been updated for this package.
-[INFO] (qiskit-tensorflow) Data has been updated for this package.
-[INFO] (qiskit-terra) Data has been updated for this package.
-[INFO] (qiskitaer) This package is up to date.
-[INFO] (qiskitaqua) This package is up to date.
-[INFO] (qiskitibmqprovider) This package is up to date.
-[INFO] (qiskitignis) This package is up to date.
-[INFO] (qiskitterra) This package is up to date.
+[INFO] (qiskit-sliqsim-provider) This package is up to date.
+[INFO] (qiskit-sphinx-theme) This package is up to date.
+[INFO] (qiskit-tensorflow) This package is up to date.
+[INFO] (qiskit-terra) This package is up to date.
+[INFO] (qiskitflow) This package is up to date.
 [INFO] (qisquick) This package is up to date.
 [INFO] (qit) This package is up to date.
 [ERROR] (qitensor) This package does not have downloadable releases.
 [INFO] (qitian-django-starting) This package is up to date.
 [INFO] (qitian-module) This package is up to date.
 [INFO] (qitian-simditor) This package is up to date.
-[INFO] (qitiansdk) This package is up to date.
+[INFO] (qitiansdk) Data has been updated for this package.
 [INFO] (qiu-nester) This package is up to date.
 [INFO] (qiubai) This package is up to date.
 [ERROR] (qiushi-mp4-download) This package does not have downloadable releases.
@@ -842,60 +981,41 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (qiwan) This package does not have downloadable releases.
 [INFO] (qiwi) This package is up to date.
 [INFO] (qiwi-api) This package is up to date.
+[INFO] (qiwi-bills) This package is up to date.
 [INFO] (qiwi-payments) This package is up to date.
 [INFO] (qiwiapi) This package is up to date.
+[INFO] (qiwibillpaymentsapi) This package is up to date.
 [INFO] (qiwipy) This package is up to date.
 [INFO] (qiwipyapi) This package is up to date.
-[INFO] (qiwugrader) Data has been updated for this package.
+[INFO] (qiwugrader) This package is up to date.
+[INFO] (qixinapi) This package is up to date.
 [INFO] (qixingjiang) This package is up to date.
 [INFO] (qixnat) This package is up to date.
 [INFO] (qiye-weixin-api) This package is up to date.
 [ERROR] (qiyi-utils) This package does not have downloadable releases.
-[INFO] (qiyu-sso) Data has been updated for this package.
+[INFO] (qiyu-api) This package is up to date.
+[INFO] (qiyu-sso) This package is up to date.
 [INFO] (qiznlp) This package is up to date.
 [INFO] (qj) This package is up to date.
+[INFO] (qjackcapture) This package is up to date.
 [INFO] (qjam) This package is up to date.
-[INFO] (qjdltools) Data has been updated for this package.
-[INFO] (qjobs) Data has been updated for this package.
+[INFO] (qjdltools) This package is up to date.
+[INFO] (qjobs) This package is up to date.
 [INFO] (qjqqjq) This package is up to date.
 [INFO] (qjson) This package is up to date.
+[INFO] (qjson2json) This package is up to date.
 [INFO] (qk) This package is up to date.
 [ERROR] (qkdb) This package does not have downloadable releases.
+[INFO] (qkit) This package is up to date.
 [INFO] (qkmd) This package is up to date.
 [INFO] (qksh) This package is up to date.
-[INFO] (ql) Data has been updated for this package.
+[INFO] (ql) This package is up to date.
 [INFO] (ql-charon) This package is up to date.
-[INFO] (ql-cq) Data has been updated for this package.
+[INFO] (ql-cq) This package is up to date.
 [INFO] (ql-demo) This package is up to date.
 [INFO] (ql-orange) This package is up to date.
 [ERROR] (ql-pubsub) This package does not have downloadable releases.
-[INFO] (qlab) This package is up to date.
-[ERROR] (qlc) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
-[INFO] (qlcompiler) This package is up to date.
-[INFO] (qlda) This package is up to date.
-[INFO] (qldbshell) This package is up to date.
-[INFO] (qlds-manager) This package is up to date.
-[INFO] (qlearners) Data has been updated for this package.
-[INFO] (qlearngaming) This package is up to date.
-[INFO] (qlearning) This package is up to date.
-[ERROR] (qlearninggaming) Could not get a response from API for this package. See below for details.
+[ERROR] (ql-tools) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
@@ -923,45 +1043,79 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (qlab) This package is up to date.
+[INFO] (qlazy) This package is up to date.
+[ERROR] (qlc) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qlcompiler) This package is up to date.
+[INFO] (qlda) This package is up to date.
+[INFO] (qldbshell) This package is up to date.
+[INFO] (qlds-manager) This package is up to date.
+[INFO] (qlearners) This package is up to date.
+[INFO] (qlearngaming) This package is up to date.
+[INFO] (qlearning) This package is up to date.
 [INFO] (qled) This package is up to date.
-[INFO] (qleda) Data has been updated for this package.
+[INFO] (qleda) This package is up to date.
 [INFO] (qless-py) This package is up to date.
 [INFO] (qless-util) This package is up to date.
 [INFO] (qlib) This package is up to date.
+[INFO] (qlib-server) Data has been updated for this package.
 [INFO] (qlib-tool) This package is up to date.
 [INFO] (qlibs) Data has been updated for this package.
 [INFO] (qlik-script-tools) This package is up to date.
 [INFO] (qlik-sense) This package is up to date.
-[INFO] (qlikconnect) Data has been updated for this package.
+[INFO] (qlikconnect) This package is up to date.
 [INFO] (qlikengineconnect) This package is up to date.
+[INFO] (qlikflow) This package is up to date.
 [INFO] (qlink) This package is up to date.
 [INFO] (qlink-interface) This package is up to date.
+[INFO] (qlist) This package is up to date.
 [INFO] (qlite) This package is up to date.
-[INFO] (qlknnfort) Data has been updated for this package.
+[INFO] (qlknnfort) This package is up to date.
 [INFO] (qllauncher) This package is up to date.
-[INFO] (qlmail) Data has been updated for this package.
+[INFO] (qlmaas) This package is up to date.
+[INFO] (qlmail) This package is up to date.
 [INFO] (qlmetrics) This package is up to date.
-[INFO] (qlog) Data has been updated for this package.
+[INFO] (qloader) Data has been updated for this package.
+[INFO] (qlog) This package is up to date.
+[INFO] (qlogging) This package is up to date.
 [ERROR] (qloggingdialog) This package does not have downloadable releases.
 [INFO] (qlogtask) This package is up to date.
-[INFO] (qloud) Data has been updated for this package.
+[INFO] (qloud) This package is up to date.
 [INFO] (qlsc) This package is up to date.
 [INFO] (qlua) This package is up to date.
 [INFO] (qlutils) This package is up to date.
 [INFO] (qm) This package is up to date.
 [INFO] (qm-ku) This package is up to date.
 [INFO] (qm-scripts) This package is up to date.
-[INFO] (qm-spider) Data has been updated for this package.
+[INFO] (qm-spider) This package is up to date.
 [INFO] (qmachine) This package is up to date.
 [INFO] (qmap) This package is up to date.
 [INFO] (qmap-interpolation) This package is up to date.
+[INFO] (qmarkdown) This package is up to date.
 [INFO] (qmarkpg) This package is up to date.
-[INFO] (qmasm) Data has been updated for this package.
+[INFO] (qmasm) This package is up to date.
 [INFO] (qmath) This package is up to date.
 [INFO] (qmc5883l) This package is up to date.
-[INFO] (qmcpy) Data has been updated for this package.
+[INFO] (qmcpy) This package is up to date.
 [INFO] (qmctorch) This package is up to date.
-[INFO] (qmdesc) Data has been updated for this package.
+[INFO] (qmdesc) This package is up to date.
 [INFO] (qme) This package is up to date.
 [ERROR] (qmenta) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -983,22 +1137,23 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (qmenta-anon) This package is up to date.
 [INFO] (qmenta-client) This package is up to date.
-[INFO] (qmenta-core) Data has been updated for this package.
-[INFO] (qmenta-gui) Data has been updated for this package.
+[INFO] (qmenta-core) This package is up to date.
+[INFO] (qmenta-gui) This package is up to date.
 [INFO] (qmenta-lint) This package is up to date.
-[INFO] (qmenta-sdk-lib) Data has been updated for this package.
+[INFO] (qmenta-sdk-lib) This package is up to date.
 [INFO] (qmenuview) This package is up to date.
-[INFO] (qmeq) This package is up to date.
+[INFO] (qmeq) Data has been updated for this package.
 [INFO] (qmesh) This package is up to date.
 [INFO] (qmesh-cli) This package is up to date.
 [INFO] (qmeshcontainers) This package is up to date.
 [INFO] (qmflows) This package is up to date.
 [INFO] (qmi) This package is up to date.
 [INFO] (qmix) This package is up to date.
-[INFO] (qmk) Data has been updated for this package.
+[INFO] (qmk) This package is up to date.
 [INFO] (qml) This package is up to date.
 [INFO] (qmlt) This package is up to date.
 [INFO] (qmlview) This package is up to date.
+[INFO] (qmm) This package is up to date.
 [ERROR] (qmmmtools) This package does not have downloadable releases.
 [INFO] (qmock) This package is up to date.
 [INFO] (qmodels) This package is up to date.
@@ -1007,12 +1162,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qmonitor-client) This package is up to date.
 [INFO] (qmorph) This package is up to date.
 [INFO] (qmp) This package is up to date.
+[INFO] (qmplot) This package is up to date.
 [INFO] (qmpy) This package is up to date.
 [INFO] (qmpy-rester) This package is up to date.
+[INFO] (qmpy-tri) Data has been updated for this package.
 [INFO] (qms) This package is up to date.
 [INFO] (qmspy) This package is up to date.
 [INFO] (qmss-sl-practice) This package is up to date.
-[INFO] (qmusic) Data has been updated for this package.
+[INFO] (qmusic) This package is up to date.
+[INFO] (qmusicnew) This package is up to date.
 [INFO] (qmutilities) This package is up to date.
 [INFO] (qmvpa) This package is up to date.
 [INFO] (qmxgraph) This package is up to date.
@@ -1020,7 +1178,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qn2-sig) This package is up to date.
 [INFO] (qnapstats) This package is up to date.
 [INFO] (qnc-crud) This package is up to date.
+[INFO] (qndiag) This package is up to date.
 [INFO] (qndyyignncuagsiy) This package is up to date.
+[INFO] (qne) This package is up to date.
 [ERROR] (qnester) This package does not have downloadable releases.
 [INFO] (qnet) This package is up to date.
 [INFO] (qnet-qsd) This package is up to date.
@@ -1032,77 +1192,87 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qnn-gen) This package is up to date.
 [INFO] (qnorm) This package is up to date.
 [INFO] (qnpct) This package is up to date.
-[INFO] (qnq) Data has been updated for this package.
+[INFO] (qnq) This package is up to date.
 [INFO] (qnupload) This package is up to date.
 [INFO] (qo) This package is up to date.
 [INFO] (qoaladep) This package is up to date.
 [INFO] (qoalai) This package is up to date.
 [INFO] (qoasecurityutil) This package is up to date.
 [INFO] (qobra) This package is up to date.
+[INFO] (qobs) This package is up to date.
 [INFO] (qobuz) This package is up to date.
-[INFO] (qobuz-dl) Data has been updated for this package.
+[INFO] (qobuz-dl) This package is up to date.
+[INFO] (qobuzzz-dl) This package is up to date.
 [INFO] (qode) This package is up to date.
-[INFO] (qogir) Data has been updated for this package.
+[INFO] (qodex-dk) Data has been updated for this package.
+[INFO] (qodex-pi) Data has been updated for this package.
+[INFO] (qogir) This package is up to date.
+[INFO] (qolsys-client) This package is up to date.
 [INFO] (qoma-smuggler) This package is up to date.
 [ERROR] (qombinatorics) This package does not have downloadable releases.
 [INFO] (qonda) This package is up to date.
-[INFO] (qondor) Data has been updated for this package.
+[INFO] (qondor) This package is up to date.
+[INFO] (qonduit) This package is up to date.
+[INFO] (qonic-misc) This package is up to date.
 [INFO] (qonos) This package is up to date.
 [INFO] (qonstellation) This package is up to date.
 [INFO] (qontrol) This package is up to date.
-[INFO] (qonversion-sdk) Data has been updated for this package.
+[INFO] (qonversion-sdk) This package is up to date.
 [INFO] (qoo) This package is up to date.
 [INFO] (qoob) This package is up to date.
-[INFO] (qool-board) Data has been updated for this package.
+[INFO] (qool-board) This package is up to date.
 [INFO] (qooxdoocherrypyjsonrpc) This package is up to date.
 [INFO] (qop) This package is up to date.
-[INFO] (qopen) Data has been updated for this package.
+[INFO] (qopen) This package is up to date.
 [INFO] (qopenvpn) This package is up to date.
 [INFO] (qopt) This package is up to date.
-[INFO] (qoqo) Data has been updated for this package.
-[INFO] (qoqo-calculator-py03) Data has been updated for this package.
-[INFO] (qoqo-calculator-pyo3) Data has been updated for this package.
-[INFO] (qoqo-mock) Data has been updated for this package.
-[INFO] (qoqo-pyquest) Data has been updated for this package.
+[INFO] (qoqo) This package is up to date.
+[INFO] (qoqo-calculator-py03) This package is up to date.
+[INFO] (qoqo-calculator-pyo3) This package is up to date.
+[INFO] (qoqo-mock) This package is up to date.
+[INFO] (qoqo-pyquest) This package is up to date.
+[INFO] (qoqo-qasm) This package is up to date.
 [INFO] (qordoba) This package is up to date.
+[INFO] (qosic-sdk) This package is up to date.
 [INFO] (qot) This package is up to date.
 [INFO] (qovery-client) This package is up to date.
 [ERROR] (qp) This package does not have downloadable releases.
 [INFO] (qpack) This package is up to date.
 [INFO] (qpage) This package is up to date.
 [INFO] (qpagent) This package is up to date.
-[INFO] (qpageview) Data has been updated for this package.
+[INFO] (qpageview) This package is up to date.
 [INFO] (qpanda3d) This package is up to date.
 [INFO] (qpass) This package is up to date.
 [INFO] (qpautomator) This package is up to date.
 [INFO] (qpay) This package is up to date.
 [INFO] (qpbane) This package is up to date.
-[INFO] (qpd) Data has been updated for this package.
+[INFO] (qpd) This package is up to date.
 [INFO] (qpformat) This package is up to date.
 [INFO] (qpic) This package is up to date.
 [INFO] (qpid-bow) This package is up to date.
 [INFO] (qpid-python) This package is up to date.
 [INFO] (qpid-qmf) This package is up to date.
 [INFO] (qpid-tools) This package is up to date.
-[INFO] (qpidpython) This package is up to date.
 [INFO] (qpimage) This package is up to date.
 [INFO] (qpipe) This package is up to date.
-[INFO] (qplanarity) Data has been updated for this package.
+[INFO] (qplanarity) This package is up to date.
+[INFO] (qplot) This package is up to date.
 [INFO] (qplots) This package is up to date.
 [INFO] (qpm) This package is up to date.
 [INFO] (qpmg) This package is up to date.
 [INFO] (qpod-hub) This package is up to date.
 [INFO] (qporcupine) This package is up to date.
-[INFO] (qportalwrapper) Data has been updated for this package.
-[INFO] (qpost) Data has been updated for this package.
+[INFO] (qportalwrapper) This package is up to date.
+[INFO] (qpost) This package is up to date.
 [INFO] (qpp-git-secrets) This package is up to date.
 [INFO] (qppwg) This package is up to date.
-[INFO] (qpro) Data has been updated for this package.
+[INFO] (qpq) This package is up to date.
+[INFO] (qpro) This package is up to date.
 [INFO] (qprocessing) This package is up to date.
-[INFO] (qprof) Data has been updated for this package.
-[INFO] (qprof-interfaces) Data has been updated for this package.
-[INFO] (qprof-myqlm) Data has been updated for this package.
-[INFO] (qprof-qiskit) Data has been updated for this package.
+[INFO] (qprof) This package is up to date.
+[INFO] (qprof-interfaces) This package is up to date.
+[INFO] (qprof-myqlm) This package is up to date.
+[INFO] (qprof-qiskit) This package is up to date.
 [INFO] (qprompt) This package is up to date.
 [INFO] (qprop) This package is up to date.
 [INFO] (qpropgen) This package is up to date.
@@ -1110,7 +1280,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qps) This package is up to date.
 [INFO] (qpsh) This package is up to date.
 [INFO] (qpso) This package is up to date.
-[INFO] (qpsolvers) Data has been updated for this package.
+[INFO] (qpsolvers) This package is up to date.
 [INFO] (qpsphere) This package is up to date.
 [INFO] (qpt-generator) This package is up to date.
 [INFO] (qpth) This package is up to date.
@@ -1123,17 +1293,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 Traceback (most recent call last):
   File "/usr/lib/python3.7/urllib/request.py", line 1324, in do_open
     encode_chunked=req.has_header('Transfer-encoding'))
-  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+  File "/usr/lib/python3.7/http/client.py", line 1260, in request
     self._send_request(method, url, body, headers, encode_chunked)
-  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+  File "/usr/lib/python3.7/http/client.py", line 1306, in _send_request
     self.endheaders(body, encode_chunked=encode_chunked)
-  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+  File "/usr/lib/python3.7/http/client.py", line 1255, in endheaders
     self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+  File "/usr/lib/python3.7/http/client.py", line 1030, in _send_output
     self.send(msg)
-  File "/usr/lib/python3.7/http/client.py", line 966, in send
+  File "/usr/lib/python3.7/http/client.py", line 970, in send
     self.connect()
-  File "/usr/lib/python3.7/http/client.py", line 938, in connect
+  File "/usr/lib/python3.7/http/client.py", line 942, in connect
     (self.host,self.port), self.timeout, self.source_address)
   File "/usr/lib/python3.7/socket.py", line 727, in create_connection
     raise err
@@ -1162,6 +1332,7 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 
 [INFO] (qpyson) This package is up to date.
 [INFO] (qpython) This package is up to date.
+[INFO] (qpython-nocython) This package is up to date.
 [INFO] (qpyutils) This package is up to date.
 [INFO] (qpz-atomics) This package is up to date.
 [INFO] (qq) This package is up to date.
@@ -1171,8 +1342,11 @@ urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
 [INFO] (qq-training-wheels) This package is up to date.
 [INFO] (qqai) This package is up to date.
 [INFO] (qqbot) This package is up to date.
-[INFO] (qqbot-linger) Data has been updated for this package.
-[INFO] (qqdm) Data has been updated for this package.
+[INFO] (qqbot-linger) This package is up to date.
+[INFO] (qqd-api) This package is up to date.
+[INFO] (qqd-model) This package is up to date.
+[INFO] (qqdapi) This package is up to date.
+[INFO] (qqdm) This package is up to date.
 [INFO] (qqhistorycut) This package is up to date.
 [INFO] (qqhong) This package is up to date.
 [ERROR] (qqhongtools) Could not get a response from API for this package. See below for details.
@@ -1211,7 +1385,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qqmusicdecrypt) This package is up to date.
 [INFO] (qqoauthtool) This package is up to date.
 [INFO] (qqpat) This package is up to date.
-[INFO] (qqpusher) Data has been updated for this package.
+[INFO] (qqpusher) This package is up to date.
 [INFO] (qqq) This package is up to date.
 [INFO] (qqqfome) This package is up to date.
 [INFO] (qqqq) This package is up to date.
@@ -1225,11 +1399,48 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qqwry-py2) This package is up to date.
 [INFO] (qqwry-py3) This package is up to date.
 [INFO] (qr) This package is up to date.
-[INFO] (qr-code-generator) Data has been updated for this package.
+[ERROR] (qr-asterix) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qr-code-generator) This package is up to date.
 [INFO] (qr-code-generator-api) This package is up to date.
 [INFO] (qr-codec) This package is up to date.
 [INFO] (qr-filetransfer) This package is up to date.
+[INFO] (qr-img) This package is up to date.
 [INFO] (qr-io) This package is up to date.
+[ERROR] (qr-obelix) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [ERROR] (qr-payment-slip) Could not extract data from this package. See below for details.
 "https://files.pythonhosted.org/packages/0d/c8/cd7cba49ff13f9fe37267097c438635ed3d9f93517a0149faef2f19a6136/QR%20payment%20slip-0.1.7.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
@@ -1249,20 +1460,39 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[ERROR] (qr-rhino) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (qr2cnc) This package is up to date.
 [INFO] (qr2scad) This package is up to date.
 [INFO] (qr3) This package is up to date.
 [INFO] (qr3d) This package is up to date.
+[INFO] (qradar-api) This package is up to date.
 [INFO] (qradar4py) This package is up to date.
 [INFO] (qradial-menu) This package is up to date.
-[INFO] (qrainbowstyle) Data has been updated for this package.
+[INFO] (qrainbowstyle) This package is up to date.
 [INFO] (qrand) This package is up to date.
 [INFO] (qrandom) This package is up to date.
 [INFO] (qrandom-noahgwood) This package is up to date.
 [INFO] (qrange) This package is up to date.
 [INFO] (qrangeslider) This package is up to date.
 [INFO] (qrankgwas) This package is up to date.
-[INFO] (qrbill) Data has been updated for this package.
+[INFO] (qrbill) This package is up to date.
 [INFO] (qrc) This package is up to date.
 [INFO] (qrc-build) This package is up to date.
 [INFO] (qrc-pathlib) This package is up to date.
@@ -1285,7 +1515,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (qrcericcommons) This package is up to date.
-[INFO] (qrcerutils) Data has been updated for this package.
+[INFO] (qrcerutils) This package is up to date.
 [INFO] (qrcgen) This package is up to date.
 [INFO] (qrcode) This package is up to date.
 [INFO] (qrcode-artistic) This package is up to date.
@@ -1319,7 +1549,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qrdecodexy) This package is up to date.
 [INFO] (qreative) This package is up to date.
 [INFO] (qredis) This package is up to date.
-[INFO] (qree) Data has been updated for this package.
+[INFO] (qree) This package is up to date.
 [INFO] (qreg) This package is up to date.
 [INFO] (qregexeditor) This package is up to date.
 [INFO] (qregpy) This package is up to date.
@@ -1336,7 +1566,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qrimg) This package is up to date.
 [INFO] (qrisk) This package is up to date.
 [INFO] (qrkit) This package is up to date.
-[INFO] (qrl) Data has been updated for this package.
+[INFO] (qrl) This package is up to date.
 [INFO] (qrmaker) This package is up to date.
 [INFO] (qrmine) This package is up to date.
 [INFO] (qrmr) This package is up to date.
@@ -1345,6 +1575,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qrnr) This package is up to date.
 [INFO] (qronos-client) This package is up to date.
 [INFO] (qronos-django) This package is up to date.
+[INFO] (qrookdb) This package is up to date.
 [INFO] (qroundprogressbar) This package is up to date.
 [INFO] (qroutes) This package is up to date.
 [INFO] (qrovkbwaun) This package is up to date.
@@ -1353,13 +1584,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qrplatba) This package is up to date.
 [INFO] (qrplatba-fpdf) This package is up to date.
 [INFO] (qrscan) This package is up to date.
+[INFO] (qrscanner) This package is up to date.
+[INFO] (qrsh) This package is up to date.
 [INFO] (qrshare) This package is up to date.
 [INFO] (qrstreamer) This package is up to date.
 [INFO] (qrtools) This package is up to date.
-[INFO] (qrtransfer) Data has been updated for this package.
+[INFO] (qrtransfer) This package is up to date.
 [INFO] (qrtray) This package is up to date.
+[INFO] (qrtt) This package is up to date.
+[INFO] (qrtt-data) This package is up to date.
+[INFO] (qrules) This package is up to date.
 [INFO] (qrun) This package is up to date.
 [INFO] (qrypto) This package is up to date.
+[INFO] (qrzlogger) Data has been updated for this package.
+[INFO] (qrztools) This package is up to date.
 [INFO] (qs) This package is up to date.
 [ERROR] (qs-cs-common-helpers) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -1386,49 +1624,56 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (qs-nester) This package does not have downloadable releases.
 [INFO] (qs-params) This package is up to date.
 [INFO] (qs-qrcode) This package is up to date.
+[INFO] (qs-regression-model) This package is up to date.
 [ERROR] (qs-vod-metadata) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://bitbucket.org/quicksisver_dev_phase_1/metadata_gen/src"
 [INFO] (qsa) This package is up to date.
-[INFO] (qsaas) Data has been updated for this package.
+[INFO] (qsaas) This package is up to date.
 [INFO] (qsapi) This package is up to date.
 [INFO] (qsar) This package is up to date.
 [INFO] (qsar-ssd-toolbox) This package is up to date.
 [INFO] (qsarmodelingpy) This package is up to date.
 [INFO] (qsbot) This package is up to date.
 [INFO] (qsc) This package is up to date.
-[INFO] (qscan) Data has been updated for this package.
-[INFO] (qscintilla) Data has been updated for this package.
+[INFO] (qscan) This package is up to date.
+[INFO] (qscintilla) This package is up to date.
 [INFO] (qsck) This package is up to date.
 [INFO] (qscollect) This package is up to date.
 [INFO] (qscollect-withings) This package is up to date.
 [INFO] (qscout-gatemodels) This package is up to date.
+[INFO] (qscreencast) Data has been updated for this package.
+[INFO] (qsct) Data has been updated for this package.
 [INFO] (qsctl) This package is up to date.
 [INFO] (qsd) This package is up to date.
-[INFO] (qsde) Data has been updated for this package.
+[INFO] (qsde) This package is up to date.
 [INFO] (qsdn) This package is up to date.
-[INFO] (qsdsan) Data has been updated for this package.
-[INFO] (qsearch) Data has been updated for this package.
+[INFO] (qsdsan) This package is up to date.
+[INFO] (qsearch) This package is up to date.
+[INFO] (qsense) This package is up to date.
 [INFO] (qserious) This package is up to date.
 [INFO] (qserve) This package is up to date.
 [INFO] (qset-python-client) This package is up to date.
+[INFO] (qset-tslib) This package is up to date.
 [INFO] (qsgen) This package is up to date.
 [INFO] (qsh) This package is up to date.
-[INFO] (qsharp) Data has been updated for this package.
-[INFO] (qsharp-chemistry) Data has been updated for this package.
-[INFO] (qsharp-core) Data has been updated for this package.
+[INFO] (qsharp) This package is up to date.
+[INFO] (qsharp-chemistry) This package is up to date.
+[INFO] (qsharp-core) This package is up to date.
 [INFO] (qshell) Data has been updated for this package.
 [INFO] (qsignal) This package is up to date.
 [INFO] (qsim) This package is up to date.
-[INFO] (qsimcirq) Data has been updated for this package.
+[INFO] (qsimcirq) This package is up to date.
+[INFO] (qsimplewidgets) This package is up to date.
 [INFO] (qsiprep) This package is up to date.
 [INFO] (qsiprep-container) This package is up to date.
-[INFO] (qsmcli) Data has been updated for this package.
+[INFO] (qsl) This package is up to date.
+[INFO] (qsmcli) This package is up to date.
 [INFO] (qsml) This package is up to date.
-[INFO] (qsmtp) Data has been updated for this package.
+[INFO] (qsmtp) This package is up to date.
 [INFO] (qsnark-python-sdk) This package is up to date.
 [INFO] (qsome) This package is up to date.
 [INFO] (qson) This package is up to date.
-[INFO] (qsosed) Data has been updated for this package.
+[INFO] (qsosed) This package is up to date.
 [INFO] (qsotools) This package is up to date.
 [INFO] (qspd) This package is up to date.
 [INFO] (qspectrumanalyzer) This package is up to date.
@@ -1436,7 +1681,7 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (qspin) This package is up to date.
 [INFO] (qspypy) This package is up to date.
 [INFO] (qsqla) This package is up to date.
-[INFO] (qsrs) Data has been updated for this package.
+[INFO] (qsrs) This package is up to date.
 [INFO] (qss-debugger) This package is up to date.
 [INFO] (qssimport) This package is up to date.
 [INFO] (qstat) This package is up to date.
@@ -1445,17 +1690,17 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (qstem-ase) This package is up to date.
 [INFO] (qstest) This package is up to date.
 [INFO] (qstk) This package is up to date.
-[INFO] (qstrader) Data has been updated for this package.
+[INFO] (qstrader) This package is up to date.
 [INFO] (qstring) This package is up to date.
-[INFO] (qstylizer) Data has been updated for this package.
+[INFO] (qstylizer) This package is up to date.
 [INFO] (qsubr) This package is up to date.
 [INFO] (qsum) This package is up to date.
 [INFO] (qsupervisorcontrol) This package is up to date.
-[INFO] (qsurface) Data has been updated for this package.
+[INFO] (qsurface) This package is up to date.
 [INFO] (qsy) This package is up to date.
 [INFO] (qsymbolic) This package is up to date.
 [INFO] (qsymm) This package is up to date.
-[INFO] (qsync-control) Data has been updated for this package.
+[INFO] (qsync-control) This package is up to date.
 [INFO] (qsys) This package is up to date.
 [INFO] (qsystem) This package is up to date.
 [ERROR] (qt) Could not get a response from API for this package. See below for details.
@@ -1482,15 +1727,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (qt-dataflow) This package does not have downloadable releases.
 [INFO] (qt-graph-helpers) This package is up to date.
 [INFO] (qt-ledwidget) This package is up to date.
-[INFO] (qt-material) Data has been updated for this package.
+[INFO] (qt-material) This package is up to date.
 [INFO] (qt-multiprocessing) This package is up to date.
 [INFO] (qt-nester) This package is up to date.
 [INFO] (qt-object-viewer) This package is up to date.
-[INFO] (qt-py) Data has been updated for this package.
-[INFO] (qt-range-slider) Data has been updated for this package.
+[INFO] (qt-py) This package is up to date.
+[INFO] (qt-pyqt-pyside-custom-widgets) Data has been updated for this package.
+[INFO] (qt-range-slider) This package is up to date.
 [INFO] (qt-reactor) This package is up to date.
 [INFO] (qt-style-sheet-inspector) This package is up to date.
-[INFO] (qt-thread-updater) This package is up to date.
+[INFO] (qt-thread-updater) Data has been updated for this package.
 [INFO] (qt-tree) This package is up to date.
 [ERROR] (qt-ui-file-sorter) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -1510,14 +1756,34 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[ERROR] (qt-unraveling) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qt-widgets) This package is up to date.
 [INFO] (qt-widgetstyler) This package is up to date.
+[INFO] (qt-wsi-registration) This package is up to date.
 [INFO] (qt4-gengui) This package is up to date.
-[INFO] (qt4a) Data has been updated for this package.
+[INFO] (qt4a) This package is up to date.
 [INFO] (qt4c) This package is up to date.
 [INFO] (qt4i) This package is up to date.
 [INFO] (qt4imagelabel) This package is up to date.
 [INFO] (qt4reactor) This package is up to date.
-[INFO] (qt4w) Data has been updated for this package.
+[INFO] (qt4w) This package is up to date.
 [ERROR] (qt5) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -1536,15 +1802,17 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (qt5-applications) Data has been updated for this package.
-[INFO] (qt5-cef) Data has been updated for this package.
+[INFO] (qt5-applications) This package is up to date.
+[INFO] (qt5-cef) This package is up to date.
 [INFO] (qt5-py) This package is up to date.
 [INFO] (qt5-t5darkstyle) This package is up to date.
-[INFO] (qt5-tools) Data has been updated for this package.
+[INFO] (qt5-tools) This package is up to date.
 [INFO] (qt5reactor) This package is up to date.
 [INFO] (qt5reactor-fork) This package is up to date.
+[INFO] (qt6-applications) This package is up to date.
+[INFO] (qt6-tools) This package is up to date.
 [INFO] (qtable) This package is up to date.
-[INFO] (qtaf) Data has been updated for this package.
+[INFO] (qtaf) This package is up to date.
 [INFO] (qtalchemy) This package is up to date.
 [INFO] (qtap) This package is up to date.
 [INFO] (qtapi2) This package is up to date.
@@ -1553,33 +1821,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qtask) This package is up to date.
 [INFO] (qtasktimer) This package is up to date.
 [INFO] (qtaui) This package is up to date.
-[INFO] (qtawesome) Data has been updated for this package.
+[INFO] (qtawesome) This package is up to date.
 [INFO] (qtazu) This package is up to date.
 [INFO] (qtbe) This package is up to date.
 [INFO] (qtbot) This package is up to date.
 [INFO] (qtcd) This package is up to date.
-[INFO] (qtchecker) Data has been updated for this package.
+[INFO] (qtchecker) This package is up to date.
 [INFO] (qtciutil) This package is up to date.
-[INFO] (qtconsole) Data has been updated for this package.
-[INFO] (qtcurate) Data has been updated for this package.
-[ERROR] (qtcurate-pkg-matin-kamali) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (qtcompat) This package is up to date.
+[INFO] (qtconsole) This package is up to date.
+[INFO] (qtcurate) This package is up to date.
 [INFO] (qtdata-setupserver-and-tool) This package is up to date.
 [INFO] (qtdigest) This package is up to date.
 [INFO] (qtdigest-cffi) This package is up to date.
@@ -1604,19 +1855,40 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (qte) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://bitbucket.org/aquavitae/qte/downloads"
-[INFO] (qtelements) Data has been updated for this package.
-[INFO] (qtemplate) Data has been updated for this package.
+[INFO] (qtemplate) This package is up to date.
 [INFO] (qtensor) This package is up to date.
-[INFO] (qtensor-qtree) Data has been updated for this package.
+[INFO] (qtensor-qtree) This package is up to date.
 [INFO] (qterm) This package is up to date.
 [ERROR] (qtest) This package does not have downloadable releases.
+[ERROR] (qtestpackage) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qtestpackage2) This package is up to date.
 [INFO] (qtfaststart) This package is up to date.
-[INFO] (qtfaststart2) Data has been updated for this package.
+[INFO] (qtfaststart2) This package is up to date.
 [INFO] (qtfind) This package is up to date.
+[INFO] (qtfn) This package is up to date.
 [INFO] (qtft-qopt) This package is up to date.
+[INFO] (qtgallery) This package is up to date.
+[INFO] (qtgrid) Data has been updated for this package.
 [INFO] (qtgui) This package is up to date.
 [INFO] (qth) This package is up to date.
-[INFO] (qth-alias) Data has been updated for this package.
+[INFO] (qth-alias) This package is up to date.
 [INFO] (qth-darksky) This package is up to date.
 [INFO] (qth-gc) This package is up to date.
 [INFO] (qth-ls) This package is up to date.
@@ -1624,15 +1896,17 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (qth-openwrt-status) This package is up to date.
 [INFO] (qth-panasonic-viera) This package is up to date.
 [INFO] (qth-postgres-log) This package is up to date.
-[INFO] (qth-registrar) Data has been updated for this package.
+[INFO] (qth-registrar) This package is up to date.
 [INFO] (qth-yarp) This package is up to date.
-[INFO] (qth-zwave) Data has been updated for this package.
+[INFO] (qth-zwave) This package is up to date.
 [INFO] (qtheory) This package is up to date.
 [INFO] (qthread) This package is up to date.
 [INFO] (qtickle) This package is up to date.
 [INFO] (qtico) This package is up to date.
-[INFO] (qtile) Data has been updated for this package.
+[INFO] (qtido) This package is up to date.
+[INFO] (qtile) This package is up to date.
 [INFO] (qtile-plasma) This package is up to date.
+[INFO] (qtile-protonvpn) This package is up to date.
 [INFO] (qtilities) This package is up to date.
 [INFO] (qtils) This package is up to date.
 [INFO] (qtim-tools) This package is up to date.
@@ -1680,29 +1954,48 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qtjmath) This package is up to date.
 [INFO] (qtk) This package is up to date.
 [INFO] (qtkanobu) This package is up to date.
-[INFO] (qtl) Data has been updated for this package.
+[INFO] (qtl) This package is up to date.
 [INFO] (qtlab) This package is up to date.
 [INFO] (qtlib) This package is up to date.
 [INFO] (qtlsearch) This package is up to date.
 [INFO] (qtm) This package is up to date.
 [INFO] (qtmacs) This package is up to date.
 [INFO] (qtmodern) This package is up to date.
-[INFO] (qtmodularuipack) Data has been updated for this package.
+[ERROR] (qtmodernb) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (qtmodernredux) This package is up to date.
+[INFO] (qtmodularuipack) This package is up to date.
 [INFO] (qtmonitor) This package is up to date.
 [INFO] (qtmud) This package is up to date.
 [INFO] (qtnanester) This package is up to date.
 [INFO] (qtodotxt) This package is up to date.
 [INFO] (qtodotxt2) This package is up to date.
-[INFO] (qtoggleserver) Data has been updated for this package.
+[INFO] (qtoggleserver) This package is up to date.
 [INFO] (qtoggleserver-cmdline) This package is up to date.
 [INFO] (qtoggleserver-dallastemp) This package is up to date.
 [INFO] (qtoggleserver-eq3bt) This package is up to date.
-[INFO] (qtoggleserver-generic-http) Data has been updated for this package.
+[INFO] (qtoggleserver-generic-http) This package is up to date.
 [INFO] (qtoggleserver-mppsolar) This package is up to date.
 [INFO] (qtoggleserver-paradox) This package is up to date.
 [INFO] (qtoggleserver-pushover) This package is up to date.
 [INFO] (qtoggleserver-rpigpio) This package is up to date.
-[INFO] (qtoggleserver-thingspeak) Data has been updated for this package.
+[INFO] (qtoggleserver-thingspeak) This package is up to date.
 [INFO] (qtoml) This package is up to date.
 [INFO] (qtool) This package is up to date.
 [INFO] (qtools) This package is up to date.
@@ -1722,60 +2015,38 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qtplotlib) This package is up to date.
 [INFO] (qtpy) This package is up to date.
 [INFO] (qtpyconvert) This package is up to date.
-[INFO] (qtpyeditor) Data has been updated for this package.
+[INFO] (qtpyeditor) This package is up to date.
 [INFO] (qtpyinheritance) This package is up to date.
 [INFO] (qtpylib) This package is up to date.
+[INFO] (qtpynetwork) This package is up to date.
 [INFO] (qtpynodeeditor) This package is up to date.
-[INFO] (qtpyvcp) Data has been updated for this package.
-[INFO] (qtrace) Data has been updated for this package.
-[INFO] (qtrade) This package is up to date.
+[INFO] (qtpyt) This package is up to date.
+[INFO] (qtpyvcp) This package is up to date.
+[INFO] (qtrace) This package is up to date.
+[INFO] (qtrade) Data has been updated for this package.
 [INFO] (qtrader) This package is up to date.
 [INFO] (qtradingview) This package is up to date.
+[INFO] (qtrangeslider) Data has been updated for this package.
 [ERROR] (qtreactor) This package does not have downloadable releases.
 [INFO] (qtree) This package is up to date.
 [INFO] (qtrename) This package is up to date.
 [INFO] (qtrer) This package is up to date.
-[INFO] (qtrf) This package is up to date.
-[INFO] (qtrio) Data has been updated for this package.
-[ERROR] (qtrlogger) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (qtrf) Data has been updated for this package.
+[INFO] (qtrio) This package is up to date.
 [INFO] (qtrotate) This package is up to date.
 [INFO] (qtsass) This package is up to date.
 [INFO] (qtsix) This package is up to date.
 [INFO] (qtsnbl) This package is up to date.
+[INFO] (qtsplashscreen) This package is up to date.
+[INFO] (qtstrap) This package is up to date.
 [INFO] (qtstuff) This package is up to date.
 [INFO] (qtstyles) This package is up to date.
+[INFO] (qtstylish) This package is up to date.
 [INFO] (qtt) This package is up to date.
-[INFO] (qttest) This package is up to date.
-[INFO] (qttk) Data has been updated for this package.
+[INFO] (qttk) This package is up to date.
 [INFO] (qttnot) This package is up to date.
-[INFO] (qttp) Data has been updated for this package.
+[INFO] (qttools) This package is up to date.
+[INFO] (qttp) This package is up to date.
 [INFO] (qtum) This package is up to date.
 [INFO] (qtumblr) This package is up to date.
 [INFO] (qtune) This package is up to date.
@@ -1785,12 +2056,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qtviews) This package is up to date.
 [INFO] (qtvoila) This package is up to date.
 [INFO] (qtwekawrapper) This package is up to date.
-[INFO] (qtwidgets) Data has been updated for this package.
+[INFO] (qtwidgets) This package is up to date.
 [INFO] (qtwirl) This package is up to date.
 [INFO] (qtx) This package is up to date.
 [INFO] (qtxdbpackages) This package is up to date.
 [INFO] (qtxmldom) This package is up to date.
 [INFO] (qtxpack) This package is up to date.
+[INFO] (qty) This package is up to date.
 [INFO] (qty-ranges) This package is up to date.
 [INFO] (qtypes) This package is up to date.
 [INFO] (qu) This package is up to date.
@@ -1800,44 +2072,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quad) This package is up to date.
 [INFO] (quad-filter) This package is up to date.
 [INFO] (quad-form-ratio) This package is up to date.
-[INFO] (quad-mesh-simplify) Data has been updated for this package.
+[INFO] (quad-mesh-simplify) This package is up to date.
 [INFO] (quadcelldetector) This package is up to date.
 [INFO] (quade) This package is up to date.
 [INFO] (quadkey) This package is up to date.
 [INFO] (quadprog) This package is up to date.
-[INFO] (quadpy) Data has been updated for this package.
+[INFO] (quadpy) This package is up to date.
+[INFO] (quadquanta) Data has been updated for this package.
 [INFO] (quadranpy) This package is up to date.
 [INFO] (quadrant) This package is up to date.
 [INFO] (quadrantanalysis) This package is up to date.
 [INFO] (quadratic) This package is up to date.
-[ERROR] (quadratic-equation-solver) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (quadratic-sieve) This package is up to date.
 [ERROR] (quadraticequationsolver) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -1929,12 +2175,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quake-cli-tools) This package is up to date.
 [INFO] (quakecl) This package is up to date.
 [INFO] (quakefeeds) This package is up to date.
+[INFO] (quakelabeler) Data has been updated for this package.
 [INFO] (quakestats) This package is up to date.
 [INFO] (qualdocs) This package is up to date.
 [INFO] (qualg) This package is up to date.
-[INFO] (quali) This package is up to date.
 [INFO] (quali-testing-helpers) This package is up to date.
 [INFO] (qualia) This package is up to date.
+[INFO] (qualichat) Data has been updated for this package.
 [INFO] (qualicscli) This package is up to date.
 [INFO] (qualified) This package is up to date.
 [INFO] (qualified-name-extractor) This package is up to date.
@@ -1949,6 +2196,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (quality) This package does not have downloadable releases.
 [INFO] (quality-covers) This package is up to date.
 [INFO] (quality-report) This package is up to date.
+[INFO] (quality-toolkit) This package is up to date.
 [INFO] (quality-viewer) This package is up to date.
 [INFO] (qualityface) This package is up to date.
 [INFO] (qualityforward) This package is up to date.
@@ -1964,41 +2212,47 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quamash) This package is up to date.
 [INFO] (quamotion) This package is up to date.
 [INFO] (quanbit) This package is up to date.
-[INFO] (quandl) Data has been updated for this package.
-[INFO] (quandl-fund-xlsx) Data has been updated for this package.
+[INFO] (quandl) This package is up to date.
+[INFO] (quandl-fund-xlsx) This package is up to date.
 [INFO] (quandlpy) This package is up to date.
 [INFO] (quandoo) This package is up to date.
 [INFO] (quanfima) This package is up to date.
-[INFO] (quanlse) Data has been updated for this package.
-[INFO] (quanp) Data has been updated for this package.
+[INFO] (quanguru) This package is up to date.
+[INFO] (quanlse) This package is up to date.
+[INFO] (quanmodule) This package is up to date.
+[INFO] (quanp) This package is up to date.
 [INFO] (quanpy) This package is up to date.
 [INFO] (quant) This package is up to date.
-[INFO] (quant-analytics-flow) Data has been updated for this package.
+[INFO] (quant-analytics-flow) This package is up to date.
 [INFO] (quant-analytics-torch) This package is up to date.
-[INFO] (quant-data-sdk) Data has been updated for this package.
+[INFO] (quant-data-sdk) This package is up to date.
 [INFO] (quant-experiment) This package is up to date.
+[INFO] (quant-framework) This package is up to date.
 [INFO] (quant-learning) This package is up to date.
-[INFO] (quant-sdk-lite) Data has been updated for this package.
+[INFO] (quant-sdk) This package is up to date.
+[INFO] (quant-sdk-lite) This package is up to date.
+[INFO] (quant-service) This package is up to date.
 [INFO] (quant-survey) This package is up to date.
 [INFO] (quant-trade-framework) This package is up to date.
 [INFO] (quant-trading-api) This package is up to date.
 [INFO] (quant-trading-bitmex-market-maker) Data has been updated for this package.
-[INFO] (quant-vnpy) Data has been updated for this package.
+[INFO] (quant-vnpy) This package is up to date.
 [ERROR] (quanta) This package does not have downloadable releases.
 [INFO] (quantadex) This package is up to date.
+[INFO] (quantami) This package is up to date.
 [INFO] (quantan) This package is up to date.
 [INFO] (quantapp) This package is up to date.
 [INFO] (quantaq-cli) This package is up to date.
-[INFO] (quantarhei) Data has been updated for this package.
+[INFO] (quantarhei) This package is up to date.
 [INFO] (quantasf) This package is up to date.
 [INFO] (quantastica-qconvert) This package is up to date.
 [INFO] (quantastica-qiskit-forest) This package is up to date.
 [INFO] (quantastica-qiskit-toaster) This package is up to date.
-[INFO] (quantastica-qps-api) Data has been updated for this package.
+[INFO] (quantastica-qps-api) This package is up to date.
 [INFO] (quantastor-pkg) This package is up to date.
 [INFO] (quantastor-pyclient) This package is up to date.
 [INFO] (quantastor-qsclient) This package is up to date.
-[INFO] (quantaxis) Data has been updated for this package.
+[INFO] (quantaxis) This package is up to date.
 [INFO] (quantaxis-crawly) This package is up to date.
 [INFO] (quantaxis-otgbroker) This package is up to date.
 [INFO] (quantaxis-pubsub) This package is up to date.
@@ -2009,22 +2263,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quantaxis-wechat) This package is up to date.
 [INFO] (quantaxisbackend) This package is up to date.
 [INFO] (quantbacktest) This package is up to date.
+[INFO] (quantclean) This package is up to date.
+[INFO] (quantcli) This package is up to date.
 [INFO] (quantclient) This package is up to date.
 [ERROR] (quantcloud) This package does not have downloadable releases.
 [INFO] (quantcluster) This package is up to date.
-[INFO] (quantcoin) Data has been updated for this package.
+[INFO] (quantcoin) This package is up to date.
 [INFO] (quantconnect) This package is up to date.
 [INFO] (quantconnect-api) This package is up to date.
 [INFO] (quantconnect-cli) This package is up to date.
 [INFO] (quantconnect-lean) This package is up to date.
-[INFO] (quantconnect-stubs) Data has been updated for this package.
+[INFO] (quantconnect-stubs) This package is up to date.
 [INFO] (quantdata) This package is up to date.
 [INFO] (quantdigger) This package is up to date.
 [INFO] (quantdom) This package is up to date.
 [INFO] (quantdsl) This package is up to date.
-[INFO] (quanteasy) Data has been updated for this package.
+[INFO] (quanteasy) This package is up to date.
 [INFO] (quantecon) This package is up to date.
-[INFO] (quantecon-book-theme) Data has been updated for this package.
+[INFO] (quantecon-book-theme) This package is up to date.
 [INFO] (quanter) This package is up to date.
 [INFO] (quantext-python) This package is up to date.
 [INFO] (quantfeed) This package is up to date.
@@ -2037,8 +2293,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quantgo-service-cli) This package is up to date.
 [INFO] (quantgov) This package is up to date.
 [INFO] (quanthub) This package is up to date.
-[INFO] (quantiacstoolbox) This package is up to date.
 [ERROR] (quantifiedcode) This package does not have downloadable releases.
+[INFO] (quantifin) This package is up to date.
 [ERROR] (quantify) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -2057,136 +2313,144 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (quantify-core) Data has been updated for this package.
-[INFO] (quantify-scheduler) Data has been updated for this package.
+[INFO] (quantify-core) This package is up to date.
+[INFO] (quantify-scheduler) This package is up to date.
 [INFO] (quantile) This package is up to date.
 [INFO] (quantile-python) This package is up to date.
 [ERROR] (quantile-regression-demo) Could not extract data from this package. See below for details.
 ".html" extension not supported.
 [INFO] (quantile-transformer-tf) This package is up to date.
-[INFO] (quantilepython) This package is up to date.
-[INFO] (quantimpy) Data has been updated for this package.
+[INFO] (quantimpy) This package is up to date.
 [INFO] (quantiphy) This package is up to date.
 [INFO] (quantiphy-eval) This package is up to date.
-[INFO] (quantiphyse) Data has been updated for this package.
+[INFO] (quantiphyse) This package is up to date.
 [INFO] (quantiphyse-asl) This package is up to date.
 [INFO] (quantiphyse-cest) This package is up to date.
+[INFO] (quantiphyse-cvr) This package is up to date.
 [INFO] (quantiphyse-dce) This package is up to date.
 [INFO] (quantiphyse-deeds) This package is up to date.
 [INFO] (quantiphyse-dsc) This package is up to date.
 [INFO] (quantiphyse-fabber) This package is up to date.
 [INFO] (quantiphyse-fsl) This package is up to date.
-[INFO] (quantiphyse-perfsim) Data has been updated for this package.
+[INFO] (quantiphyse-perfsim) This package is up to date.
 [INFO] (quantiphyse-qbold) This package is up to date.
 [INFO] (quantiphyse-sv) This package is up to date.
 [INFO] (quantiphyse-t1) This package is up to date.
 [INFO] (quantiprot) This package is up to date.
 [INFO] (quantipy) This package is up to date.
-[INFO] (quantipy3) Data has been updated for this package.
+[INFO] (quantipy3) This package is up to date.
 [INFO] (quantitative) This package is up to date.
 [INFO] (quantities) This package is up to date.
-[INFO] (quantity) Data has been updated for this package.
+[INFO] (quantity) This package is up to date.
 [INFO] (quantity-value) This package is up to date.
 [INFO] (quantize) This package is up to date.
 [INFO] (quantized) This package is up to date.
 [INFO] (quantized-mesh-encoder) This package is up to date.
 [INFO] (quantized-mesh-tile) This package is up to date.
-[INFO] (quantkits) Data has been updated for this package.
+[INFO] (quantkits) This package is up to date.
 [INFO] (quantlab) This package is up to date.
 [INFO] (quantlab-launcher) This package is up to date.
-[INFO] (quantlaw) Data has been updated for this package.
-[INFO] (quantlib) Data has been updated for this package.
+[INFO] (quantlaw) This package is up to date.
+[INFO] (quantlib) This package is up to date.
 [INFO] (quantlib-python) This package is up to date.
-[INFO] (quantlibpython) This package is up to date.
+[INFO] (quantlplot) This package is up to date.
 [INFO] (quantlw-sdk) This package is up to date.
-[INFO] (quantlwsdk) Data has been updated for this package.
+[INFO] (quantlwsdk) This package is up to date.
 [INFO] (quantly) This package is up to date.
 [INFO] (quantmetrics) This package is up to date.
-[INFO] (quantnn) Data has been updated for this package.
+[INFO] (quantnet) This package is up to date.
+[INFO] (quantnn) This package is up to date.
+[INFO] (quantopy) This package is up to date.
 [INFO] (quantorxs) This package is up to date.
-[INFO] (quantperf) Data has been updated for this package.
+[INFO] (quantperf) This package is up to date.
 [INFO] (quantpy) This package is up to date.
 [INFO] (quantpycupy) This package is up to date.
 [INFO] (quantpycython) This package is up to date.
 [INFO] (quantquesttoolbox) This package is up to date.
 [INFO] (quantrading) This package is up to date.
 [INFO] (quantrautil) This package is up to date.
-[INFO] (quantregpy) Data has been updated for this package.
-[INFO] (quantrocket-client) Data has been updated for this package.
+[INFO] (quantregpy) This package is up to date.
+[INFO] (quantrocket-client) This package is up to date.
 [INFO] (quantrocket-moonchart) This package is up to date.
-[INFO] (quantrocket-moonshot) Data has been updated for this package.
+[INFO] (quantrocket-moonshot) This package is up to date.
 [INFO] (quantrocket-trading-calendars) This package is up to date.
 [INFO] (quantrocket-utils) This package is up to date.
 [INFO] (quantrocket-zipline-extensions) This package is up to date.
+[INFO] (quantropy) This package is up to date.
+[INFO] (quants) This package is up to date.
 [INFO] (quantsbin) This package is up to date.
+[INFO] (quantservice) This package is up to date.
 [ERROR] (quantstack) This package does not have downloadable releases.
 [INFO] (quantstamp) This package is up to date.
-[INFO] (quantstats) Data has been updated for this package.
+[INFO] (quantstats) This package is up to date.
 [INFO] (quantstudio) This package is up to date.
-[INFO] (quanttrader) Data has been updated for this package.
+[INFO] (quantstyles) This package is up to date.
+[INFO] (quanttrader) This package is up to date.
 [INFO] (quanttus-api) This package is up to date.
+[INFO] (quantuiti) This package is up to date.
 [INFO] (quantulum) This package is up to date.
 [INFO] (quantulum3) This package is up to date.
 [ERROR] (quantum) This package does not have downloadable releases.
-[INFO] (quantum-android) Data has been updated for this package.
+[INFO] (quantum-android) This package is up to date.
 [INFO] (quantum-assembler) This package is up to date.
 [INFO] (quantum-blackbird) This package is up to date.
 [INFO] (quantum-ciphers) This package is up to date.
-[INFO] (quantum-cli) Data has been updated for this package.
-[INFO] (quantum-cocoa) Data has been updated for this package.
+[INFO] (quantum-circuit-slicer) Data has been updated for this package.
+[INFO] (quantum-cli) This package is up to date.
+[INFO] (quantum-cocoa) This package is up to date.
 [INFO] (quantum-computer) This package is up to date.
-[INFO] (quantum-core) Data has been updated for this package.
-[INFO] (quantum-curses) Data has been updated for this package.
+[INFO] (quantum-core) This package is up to date.
+[INFO] (quantum-curses) This package is up to date.
 [INFO] (quantum-dataset) This package is up to date.
-[INFO] (quantum-decomp) Data has been updated for this package.
-[INFO] (quantum-demo) Data has been updated for this package.
+[INFO] (quantum-decomp) This package is up to date.
+[INFO] (quantum-demo) This package is up to date.
 [INFO] (quantum-dice) This package is up to date.
 [INFO] (quantum-django-saml2-auth) This package is up to date.
-[INFO] (quantum-dummy) Data has been updated for this package.
+[INFO] (quantum-dummy) This package is up to date.
 [INFO] (quantum-dynamics) This package is up to date.
 [INFO] (quantum-edward) This package is up to date.
 [INFO] (quantum-esperanto) This package is up to date.
 [INFO] (quantum-gateway) This package is up to date.
 [INFO] (quantum-grove) This package is up to date.
-[INFO] (quantum-gtk) Data has been updated for this package.
-[INFO] (quantum-ios) Data has been updated for this package.
+[INFO] (quantum-gtk) This package is up to date.
+[INFO] (quantum-ios) This package is up to date.
 [INFO] (quantum-kite-mandelkovic) This package is up to date.
-[INFO] (quantum-linux) Data has been updated for this package.
-[INFO] (quantum-macos) Data has been updated for this package.
+[INFO] (quantum-linux) This package is up to date.
+[INFO] (quantum-macos) This package is up to date.
 [INFO] (quantum-pecos) This package is up to date.
-[INFO] (quantum-qt) Data has been updated for this package.
+[INFO] (quantum-qt) This package is up to date.
 [INFO] (quantum-qubit-mapping) This package is up to date.
 [INFO] (quantum-queen) This package is up to date.
 [INFO] (quantum-query-optimizer) This package is up to date.
-[INFO] (quantum-random) Data has been updated for this package.
+[INFO] (quantum-random) This package is up to date.
 [INFO] (quantum-robot) This package is up to date.
 [INFO] (quantum-simba) This package is up to date.
-[INFO] (quantum-test) Data has been updated for this package.
-[INFO] (quantum-tests) Data has been updated for this package.
-[INFO] (quantum-tomography) Data has been updated for this package.
-[INFO] (quantum-tv) Data has been updated for this package.
-[INFO] (quantum-tvos) Data has been updated for this package.
-[INFO] (quantum-uwp) Data has been updated for this package.
-[INFO] (quantum-volume) Data has been updated for this package.
-[INFO] (quantum-watch) Data has been updated for this package.
-[INFO] (quantum-watchos) Data has been updated for this package.
-[INFO] (quantum-web) Data has been updated for this package.
-[INFO] (quantum-win32) Data has been updated for this package.
-[INFO] (quantum-windows) Data has been updated for this package.
-[INFO] (quantum-winforms) Data has been updated for this package.
+[INFO] (quantum-test) This package is up to date.
+[INFO] (quantum-tests) This package is up to date.
+[INFO] (quantum-tomography) This package is up to date.
+[INFO] (quantum-tv) This package is up to date.
+[INFO] (quantum-tvos) This package is up to date.
+[INFO] (quantum-uwp) This package is up to date.
+[INFO] (quantum-volume) This package is up to date.
+[INFO] (quantum-watch) This package is up to date.
+[INFO] (quantum-watchos) This package is up to date.
+[INFO] (quantum-web) This package is up to date.
+[INFO] (quantum-win32) This package is up to date.
+[INFO] (quantum-windows) This package is up to date.
+[INFO] (quantum-winforms) This package is up to date.
 [INFO] (quantumblink) This package is up to date.
+[INFO] (quantumcat) This package is up to date.
 [INFO] (quantumchempy) This package is up to date.
 [INFO] (quantumcore-contenttypes) This package is up to date.
 [INFO] (quantumcore-exceptions) This package is up to date.
 [INFO] (quantumcore-resources) This package is up to date.
 [INFO] (quantumcore-storages) This package is up to date.
-[INFO] (quantumdata-sdk) Data has been updated for this package.
+[INFO] (quantumdata-sdk) This package is up to date.
 [INFO] (quantumdiceware) This package is up to date.
 [INFO] (quantumdl) This package is up to date.
-[INFO] (quantumflow) Data has been updated for this package.
+[INFO] (quantumflow) This package is up to date.
 [INFO] (quantumgraphs) This package is up to date.
-[INFO] (quantumgrid) Data has been updated for this package.
-[INFO] (quantumgrove) This package is up to date.
+[INFO] (quantumgrid) This package is up to date.
 [INFO] (quantumics) This package is up to date.
 [INFO] (quantuminspire) This package is up to date.
 [INFO] (quantumlib) This package is up to date.
@@ -2195,6 +2459,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quantumrand) This package is up to date.
 [INFO] (quantumrandom) This package is up to date.
 [INFO] (quantumsim) This package is up to date.
+[INFO] (quantumtw) Data has been updated for this package.
 [INFO] (quantumworld) This package is up to date.
 [INFO] (quantumworldx) This package is up to date.
 [INFO] (quantworks) This package is up to date.
@@ -2204,10 +2469,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quantx-sdk) This package is up to date.
 [INFO] (quantzbrapi) This package is up to date.
 [INFO] (quantzsl) This package is up to date.
+[INFO] (quapy) This package is up to date.
+[INFO] (quara) This package is up to date.
 [INFO] (quarantine) This package is up to date.
 [INFO] (quarc) This package is up to date.
 [INFO] (quarc-gateway) This package is up to date.
-[INFO] (quarchpy) Data has been updated for this package.
+[INFO] (quarchpy) This package is up to date.
 [INFO] (quare) This package is up to date.
 [INFO] (quarg) This package is up to date.
 [INFO] (quark) This package is up to date.
@@ -2218,67 +2485,71 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quarks2-fractal) This package is up to date.
 [INFO] (quarksmart) This package is up to date.
 [INFO] (quarkutilities) This package is up to date.
-[INFO] (quarrierpackage) Data has been updated for this package.
-[INFO] (quarry) Data has been updated for this package.
+[INFO] (quarkz) This package is up to date.
+[INFO] (quarrierpackage) This package is up to date.
+[INFO] (quarry) This package is up to date.
 [ERROR] (quarry-io) This package does not have downloadable releases.
-[INFO] (quart) Data has been updated for this package.
+[INFO] (quart) This package is up to date.
 [INFO] (quart-auth) This package is up to date.
 [INFO] (quart-compress) This package is up to date.
 [INFO] (quart-compress2) This package is up to date.
 [INFO] (quart-cors) This package is up to date.
 [INFO] (quart-csrf) This package is up to date.
-[INFO] (quart-discord) Data has been updated for this package.
+[INFO] (quart-discord) This package is up to date.
+[INFO] (quart-discord-oauth) This package is up to date.
 [INFO] (quart-doh) This package is up to date.
 [INFO] (quart-events) This package is up to date.
 [INFO] (quart-github-webhook) This package is up to date.
-[INFO] (quart-jwt-extended) Data has been updated for this package.
+[INFO] (quart-jwt-extended) This package is up to date.
 [INFO] (quart-minify) This package is up to date.
 [INFO] (quart-motor) This package is up to date.
 [INFO] (quart-oauth2-discord-py) This package is up to date.
-[INFO] (quart-openapi) Data has been updated for this package.
+[INFO] (quart-openapi) This package is up to date.
 [INFO] (quart-rapidoc) This package is up to date.
 [INFO] (quart-rate-limiter) This package is up to date.
-[INFO] (quart-schema) Data has been updated for this package.
+[INFO] (quart-redis) This package is up to date.
+[INFO] (quart-schema) This package is up to date.
 [INFO] (quart-session) This package is up to date.
-[INFO] (quart-trio) Data has been updated for this package.
-[INFO] (quart-trio-twice) Data has been updated for this package.
-[INFO] (quartcors) This package is up to date.
+[INFO] (quart-trio) This package is up to date.
+[INFO] (quart-trio-twice) This package is up to date.
 [INFO] (quarter) This package is up to date.
 [INFO] (quartermaster) This package is up to date.
 [INFO] (quartet) This package is up to date.
-[INFO] (quartet-capture) Data has been updated for this package.
+[INFO] (quartet-capture) This package is up to date.
 [INFO] (quartet-epcis) This package is up to date.
-[INFO] (quartet-integrations) Data has been updated for this package.
+[INFO] (quartet-integrations) This package is up to date.
 [INFO] (quartet-manifest) This package is up to date.
-[INFO] (quartet-masterdata) Data has been updated for this package.
-[INFO] (quartet-output) Data has been updated for this package.
+[INFO] (quartet-masterdata) This package is up to date.
+[INFO] (quartet-output) This package is up to date.
+[INFO] (quartet-rnaseq-report) Data has been updated for this package.
 [INFO] (quartet-templates) This package is up to date.
 [INFO] (quartet-tracelink) This package is up to date.
 [INFO] (quartet-trail) This package is up to date.
 [INFO] (quartet-vrs) This package is up to date.
+[INFO] (quartic-sdk) This package is up to date.
 [INFO] (quarticsolver) This package is up to date.
-[INFO] (quarto) Data has been updated for this package.
-[INFO] (quartusfpga) This package is up to date.
+[INFO] (quarto) This package is up to date.
 [INFO] (quartustcl) This package is up to date.
 [INFO] (quartz) This package is up to date.
 [INFO] (quasar) Data has been updated for this package.
-[INFO] (quasar-project) Data has been updated for this package.
+[INFO] (quasar-project) This package is up to date.
 [INFO] (quasarcode) This package is up to date.
-[INFO] (quasardb) Data has been updated for this package.
+[INFO] (quasardb) This package is up to date.
 [INFO] (quasi) This package is up to date.
 [INFO] (quasicode) This package is up to date.
 [INFO] (quasildr) This package is up to date.
 [INFO] (quasimodo) This package is up to date.
-[INFO] (quasinet) Data has been updated for this package.
+[INFO] (quasinet) This package is up to date.
 [INFO] (quasiquotes) This package is up to date.
+[INFO] (quasis) This package is up to date.
 [INFO] (quasselconf) This package is up to date.
 [INFO] (quast) This package is up to date.
-[INFO] (quastrado-check-type-wrapper) Data has been updated for this package.
+[INFO] (quastrado-check-type-wrapper) This package is up to date.
 [INFO] (quat-to-euler) This package is up to date.
 [INFO] (quaternion) This package is up to date.
 [INFO] (quaternion-algebra) This package is up to date.
 [INFO] (quaternionarray) This package is up to date.
-[INFO] (quaternionic) Data has been updated for this package.
+[INFO] (quaternionic) This package is up to date.
 [INFO] (quaternionmath) This package is up to date.
 [INFO] (quaternions) This package is up to date.
 [INFO] (quatorzeheures) This package is up to date.
@@ -2303,6 +2574,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quay-client) This package is up to date.
 [INFO] (quayadmin) This package is up to date.
 [INFO] (quaycon) This package is up to date.
+[INFO] (quazar) This package is up to date.
 [INFO] (qub-sherlock) This package is up to date.
 [INFO] (qube) This package is up to date.
 [INFO] (qubekit) This package is up to date.
@@ -2330,7 +2602,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (qubit-opencensus) This package is up to date.
-[INFO] (qubitai-dltk) Data has been updated for this package.
+[INFO] (qubitai-dltk) This package is up to date.
 [INFO] (qubitcoin) This package is up to date.
 [INFO] (qubitcoind) This package is up to date.
 [INFO] (qubiter) This package is up to date.
@@ -2340,6 +2612,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qubole-ml) This package is up to date.
 [INFO] (qubole-tco) This package is up to date.
 [INFO] (qubolepystream) This package is up to date.
+[INFO] (qubot) This package is up to date.
 [INFO] (qubovert) This package is up to date.
 [INFO] (qubricks) This package is up to date.
 [INFO] (qubu) This package is up to date.
@@ -2347,7 +2620,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qucochemistry) This package is up to date.
 [INFO] (qucode) This package is up to date.
 [INFO] (qucs2gerber) This package is up to date.
-[INFO] (qucumber) Data has been updated for this package.
+[INFO] (qucumber) This package is up to date.
 [INFO] (qudb) This package is up to date.
 [INFO] (qudotpy) This package is up to date.
 [INFO] (qudth) This package is up to date.
@@ -2355,33 +2628,35 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (que-es) This package is up to date.
 [INFO] (que-py) This package is up to date.
 [INFO] (quebert) This package is up to date.
+[INFO] (quebra-frases) This package is up to date.
 [INFO] (quecksilber) This package is up to date.
 [ERROR] (queen) This package does not have downloadable releases.
 [INFO] (queen-pkg) This package is up to date.
 [INFO] (queen8) This package is up to date.
-[INFO] (queenbee) Data has been updated for this package.
-[INFO] (queenbee-dsl) Data has been updated for this package.
-[INFO] (queenbee-local) Data has been updated for this package.
-[INFO] (queenbee-luigi) This package is up to date.
-[INFO] (queenbee-pollination) Data has been updated for this package.
+[INFO] (queenbee) This package is up to date.
+[INFO] (queenbee-dsl) This package is up to date.
+[INFO] (queenbee-local) This package is up to date.
+[INFO] (queenbee-pollination) This package is up to date.
 [ERROR] (queenin) This package does not have downloadable releases.
 [INFO] (queick) This package is up to date.
 [INFO] (quelfilm-chatbot-app) This package is up to date.
-[INFO] (quenouille) Data has been updated for this package.
+[INFO] (quenouille) This package is up to date.
 [INFO] (quepy) This package is up to date.
+[INFO] (querido-diario-api-wrapper) This package is up to date.
 [INFO] (querier) This package is up to date.
 [INFO] (queries) This package is up to date.
 [INFO] (querify) This package is up to date.
 [INFO] (querio) This package is up to date.
+[INFO] (querius) This package is up to date.
 [INFO] (query) This package is up to date.
 [INFO] (query-cli) This package is up to date.
 [INFO] (query-client-silverbullet-s) This package is up to date.
 [INFO] (query-collections) This package is up to date.
 [INFO] (query-diet) This package is up to date.
-[INFO] (query-exporter) Data has been updated for this package.
+[INFO] (query-exporter) This package is up to date.
 [INFO] (query-exporter-carto) This package is up to date.
-[INFO] (query-factory) Data has been updated for this package.
-[INFO] (query-filter) Data has been updated for this package.
+[INFO] (query-factory) This package is up to date.
+[INFO] (query-filter) This package is up to date.
 [ERROR] (query-filters) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -2400,7 +2675,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (query-maker-ryazantseff) Data has been updated for this package.
+[INFO] (query-maker-ryazantseff) This package is up to date.
 [INFO] (query-phenomizer) This package is up to date.
 [INFO] (query-postgresql) This package is up to date.
 [INFO] (query-prom) This package is up to date.
@@ -2425,23 +2700,28 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (query-reports) This package is up to date.
 [INFO] (query-segmenter) This package is up to date.
 [INFO] (query-selector) This package is up to date.
-[INFO] (query-string) Data has been updated for this package.
+[INFO] (query-string) This package is up to date.
 [INFO] (query-string-parser) This package is up to date.
 [INFO] (query-understanding) This package is up to date.
+[INFO] (query-write) This package is up to date.
+[INFO] (query2vec) Data has been updated for this package.
 [INFO] (queryable) This package is up to date.
-[INFO] (queryable-list) Data has been updated for this package.
+[INFO] (queryable-list) This package is up to date.
 [INFO] (queryablelist) This package is up to date.
 [INFO] (querybuilder) This package is up to date.
+[INFO] (querycolumns) This package is up to date.
 [INFO] (querycontacts) This package is up to date.
-[INFO] (queryconverterrusab) Data has been updated for this package.
+[INFO] (queryconverterrusab) This package is up to date.
 [INFO] (querycsv) This package is up to date.
 [INFO] (querycsv-redux) This package is up to date.
-[INFO] (queryfilter) Data has been updated for this package.
+[INFO] (queryeasy) This package is up to date.
+[INFO] (queryfilter) This package is up to date.
 [INFO] (querygrid) This package is up to date.
+[INFO] (querylib) This package is up to date.
 [INFO] (querylist) This package is up to date.
-[INFO] (querylms) Data has been updated for this package.
+[INFO] (querylms) This package is up to date.
 [INFO] (queryoem) This package is up to date.
-[INFO] (queryparams-liberdade) Data has been updated for this package.
+[INFO] (queryparams-liberdade) This package is up to date.
 [INFO] (queryparser-python2) This package is up to date.
 [INFO] (queryparser-python3) This package is up to date.
 [INFO] (querypp) This package is up to date.
@@ -2454,7 +2734,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (querystring) This package is up to date.
 [INFO] (querystring-parser) This package is up to date.
 [INFO] (querystringer) This package is up to date.
-[INFO] (querystringparser) This package is up to date.
 [INFO] (querystringsafe-base64) This package is up to date.
 [INFO] (querystruct) This package is up to date.
 [INFO] (querytools) This package is up to date.
@@ -2463,32 +2742,42 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quesadiya) This package is up to date.
 [INFO] (queso) This package is up to date.
 [INFO] (quest) This package is up to date.
+[INFO] (questeval) This package is up to date.
 [INFO] (questgame) This package is up to date.
 [INFO] (question) This package is up to date.
+[INFO] (question-creation-app-realpython) This package is up to date.
+[INFO] (question-creation-distributable-app) This package is up to date.
+[INFO] (question-creator-distributable) This package is up to date.
+[INFO] (question-creator-distributable-bundled) This package is up to date.
+[INFO] (question-creator-distributable-bundled-01) This package is up to date.
+[INFO] (question-creator-distributable-bundled-02) This package is up to date.
+[INFO] (question-creator-distributable-pip) This package is up to date.
 [INFO] (question-framework) This package is up to date.
 [INFO] (question-intimacy) This package is up to date.
 [INFO] (question-stack) This package is up to date.
+[INFO] (questionansweringbert) This package is up to date.
 [INFO] (questionare) This package is up to date.
-[INFO] (questionary) Data has been updated for this package.
+[INFO] (questionary) This package is up to date.
 [INFO] (questionbuilder) This package is up to date.
 [INFO] (questioned) This package is up to date.
 [INFO] (questioner) This package is up to date.
 [INFO] (questiongeneratorcesar) This package is up to date.
 [INFO] (questionnaire) This package is up to date.
 [INFO] (questionpapergenerator) This package is up to date.
-[INFO] (questions) Data has been updated for this package.
+[INFO] (questions) This package is up to date.
 [INFO] (questions-three) This package is up to date.
 [INFO] (questions-three-aws) This package is up to date.
 [INFO] (questions-three-selenium) This package is up to date.
 [INFO] (questplus) This package is up to date.
 [INFO] (questrade-api) This package is up to date.
 [INFO] (questradeapi) This package is up to date.
-[INFO] (questradeist) Data has been updated for this package.
+[INFO] (questradeist) This package is up to date.
 [INFO] (quetz) This package is up to date.
 [INFO] (quetzal-client) This package is up to date.
 [INFO] (quetzal-openapi-client) This package is up to date.
 [INFO] (quetzalcoatl) This package is up to date.
 [INFO] (queue-bqsr-status) This package is up to date.
+[INFO] (queue-client) This package is up to date.
 [INFO] (queue-coclean-status) This package is up to date.
 [ERROR] (queue-engine) This package does not have downloadable releases.
 [INFO] (queue-fetcher) This package is up to date.
@@ -2517,7 +2806,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (queue-messaging) This package is up to date.
 [INFO] (queue-metrics) This package is up to date.
 [INFO] (queue-mfc-manager) This package is up to date.
-[INFO] (queue-plus) This package is up to date.
 [ERROR] (queue-skardash) This package does not have downloadable releases.
 [INFO] (queue-status) This package is up to date.
 [INFO] (queue-system) This package is up to date.
@@ -2526,24 +2814,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (queue-utilities) This package is up to date.
 [INFO] (queue-utils) This package is up to date.
 [ERROR] (queuechain) This package does not have downloadable releases.
-[ERROR] (queuecrew) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (queuecrypt) This package is up to date.
 [INFO] (queued) This package is up to date.
 [INFO] (queued-search) This package is up to date.
 [INFO] (queueing-network-system-simpy) This package is up to date.
@@ -2561,11 +2832,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (queuey) This package is up to date.
 [INFO] (queuey-py) This package is up to date.
 [INFO] (queuing) This package is up to date.
+[INFO] (queuing-hub) This package is up to date.
+[INFO] (quevedo) This package is up to date.
+[INFO] (qufia) Data has been updated for this package.
 [INFO] (qufilab) This package is up to date.
 [INFO] (quhep) This package is up to date.
 [INFO] (qui) This package is up to date.
 [INFO] (qui-for-mplayer) This package is up to date.
-[INFO] (qui-server) Data has been updated for this package.
+[INFO] (qui-server) This package is up to date.
 [INFO] (quic) This package is up to date.
 [INFO] (quic-qpack) This package is up to date.
 [INFO] (quic-version-detector) This package is up to date.
@@ -2577,9 +2851,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quick-cache) This package is up to date.
 [INFO] (quick-cd) This package is up to date.
 [INFO] (quick-clojure) This package is up to date.
+[INFO] (quick-config) This package is up to date.
 [INFO] (quick-connect) This package is up to date.
 [INFO] (quick-cut) This package is up to date.
-[INFO] (quick-dag) Data has been updated for this package.
+[INFO] (quick-dag) This package is up to date.
 [INFO] (quick-data-clean) This package is up to date.
 [INFO] (quick-datasets) This package is up to date.
 [INFO] (quick-debug) This package is up to date.
@@ -2587,9 +2862,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quick-flask-server) This package is up to date.
 [INFO] (quick-framework) This package is up to date.
 [INFO] (quick-gr) This package is up to date.
+[INFO] (quick-hull) This package is up to date.
 [INFO] (quick-knn) This package is up to date.
+[INFO] (quick-logger) This package is up to date.
+[INFO] (quick-mail) This package is up to date.
 [INFO] (quick-mailer) This package is up to date.
 [INFO] (quick-ml) Data has been updated for this package.
+[INFO] (quick-netmiko) This package is up to date.
 [INFO] (quick-orm) This package is up to date.
 [INFO] (quick-pandas) This package is up to date.
 [INFO] (quick-password-generator) This package is up to date.
@@ -2597,16 +2876,19 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quick-py) This package is up to date.
 [INFO] (quick-qemu) This package is up to date.
 [INFO] (quick-queue) This package is up to date.
-[INFO] (quick-rest) Data has been updated for this package.
+[INFO] (quick-rest) This package is up to date.
 [INFO] (quick-secure) This package is up to date.
-[INFO] (quick-server) Data has been updated for this package.
-[INFO] (quick-slack) Data has been updated for this package.
+[INFO] (quick-server) This package is up to date.
+[INFO] (quick-slack) This package is up to date.
 [INFO] (quick-start) This package is up to date.
+[INFO] (quick-templates) Data has been updated for this package.
 [ERROR] (quick-torrent-downloader) This package does not have downloadable releases.
 [INFO] (quick-trade) Data has been updated for this package.
 [INFO] (quick-vcn) This package is up to date.
+[INFO] (quick-zip) This package is up to date.
 [INFO] (quick2wire-api) This package is up to date.
 [INFO] (quick2wire-peque) This package is up to date.
+[INFO] (quickai) This package is up to date.
 [INFO] (quickapi) This package is up to date.
 [INFO] (quickapp) This package is up to date.
 [INFO] (quickapp-z6) This package is up to date.
@@ -2617,22 +2899,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quickbase-client) This package is up to date.
 [INFO] (quickbase2) This package is up to date.
 [INFO] (quickbean) This package is up to date.
+[INFO] (quickbooks-pinecone) This package is up to date.
 [INFO] (quickbooks-py) This package is up to date.
 [INFO] (quickbooks-python) This package is up to date.
-[INFO] (quickbuild) Data has been updated for this package.
+[INFO] (quickbuild) This package is up to date.
 [INFO] (quickcache) This package is up to date.
 [INFO] (quickcerts) This package is up to date.
 [ERROR] (quickchart) This package does not have downloadable releases.
-[INFO] (quickchart-io) Data has been updated for this package.
+[INFO] (quickchart-io) This package is up to date.
 [INFO] (quickci) This package is up to date.
+[INFO] (quickcite) This package is up to date.
 [INFO] (quickcli) This package is up to date.
 [INFO] (quickcloud) This package is up to date.
 [INFO] (quickcnn) This package is up to date.
 [INFO] (quickcommand) This package is up to date.
 [INFO] (quickconfig) This package is up to date.
 [INFO] (quickcut) This package is up to date.
+[INFO] (quickd) This package is up to date.
 [INFO] (quickd3map) This package is up to date.
-[INFO] (quickda) Data has been updated for this package.
+[INFO] (quickda) This package is up to date.
 [INFO] (quickdataanalysis) This package is up to date.
 [INFO] (quickdebrepo) This package is up to date.
 [INFO] (quickdemo) This package is up to date.
@@ -2641,25 +2926,30 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quickder-rfc) This package is up to date.
 [INFO] (quickdiagrams) This package is up to date.
 [INFO] (quickdictionary) This package is up to date.
-[INFO] (quickdir) Data has been updated for this package.
-[INFO] (quickdiscord-py) Data has been updated for this package.
+[INFO] (quickdir) This package is up to date.
+[INFO] (quickdiscord-py) This package is up to date.
 [INFO] (quickdoc) This package is up to date.
+[INFO] (quickdocs) This package is up to date.
 [INFO] (quickdone) This package is up to date.
 [INFO] (quickdraw) This package is up to date.
 [INFO] (quickdrop) This package is up to date.
 [INFO] (quickds) This package is up to date.
+[INFO] (quickdsa) This package is up to date.
 [INFO] (quickdynamics) This package is up to date.
-[INFO] (quickeepass) Data has been updated for this package.
-[INFO] (quickemail) Data has been updated for this package.
+[INFO] (quickeepass) This package is up to date.
+[INFO] (quickemail) This package is up to date.
 [INFO] (quickemailverification) This package is up to date.
 [INFO] (quicken) This package is up to date.
 [INFO] (quickest) This package is up to date.
+[INFO] (quickey-python-sdk) This package is up to date.
 [INFO] (quickff) This package is up to date.
 [INFO] (quickfig) This package is up to date.
 [INFO] (quickfiles) This package is up to date.
 [INFO] (quickfind) This package is up to date.
 [INFO] (quickfix) This package is up to date.
+[INFO] (quickfix-ssl) This package is up to date.
 [ERROR] (quickflow) This package does not have downloadable releases.
+[INFO] (quickfs) This package is up to date.
 [INFO] (quickgist) This package is up to date.
 [INFO] (quickgui) This package is up to date.
 [INFO] (quickhand) This package is up to date.
@@ -2669,22 +2959,23 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quickim) This package is up to date.
 [INFO] (quickim-server) This package is up to date.
 [INFO] (quickimport) This package is up to date.
-[INFO] (quickirc) Data has been updated for this package.
+[INFO] (quickinfo) This package is up to date.
+[INFO] (quickirc) This package is up to date.
 [INFO] (quickjs) This package is up to date.
 [INFO] (quickjsonrpc) This package is up to date.
 [INFO] (quicklabel) This package is up to date.
 [INFO] (quickle) This package is up to date.
-[INFO] (quicklearn) Data has been updated for this package.
+[INFO] (quicklearn) This package is up to date.
 [INFO] (quicklearning) This package is up to date.
 [INFO] (quicklib) This package is up to date.
 [INFO] (quicklime) This package is up to date.
 [INFO] (quicklinks) This package is up to date.
 [INFO] (quickload) This package is up to date.
 [INFO] (quicklock) This package is up to date.
+[INFO] (quicklock3) This package is up to date.
 [INFO] (quicklog) This package is up to date.
-[INFO] (quicklogger) This package is up to date.
 [INFO] (quicklogging) This package is up to date.
-[INFO] (quickly) Data has been updated for this package.
+[INFO] (quickly) This package is up to date.
 [INFO] (quickmail) This package is up to date.
 [INFO] (quickmath) This package is up to date.
 [INFO] (quickml) This package is up to date.
@@ -2695,21 +2986,23 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quicknet) This package is up to date.
 [INFO] (quicknn) This package is up to date.
 [INFO] (quicknote) This package is up to date.
-[INFO] (quickocr) This package is up to date.
 [INFO] (quickpack) This package is up to date.
 [INFO] (quickpackage) This package is up to date.
+[INFO] (quickparse) This package is up to date.
 [INFO] (quickpay-api-client) This package is up to date.
 [INFO] (quickpbsa) This package is up to date.
 [INFO] (quickpiggy) This package is up to date.
 [INFO] (quickping) This package is up to date.
 [INFO] (quickpip) This package is up to date.
 [INFO] (quickplot) This package is up to date.
+[INFO] (quickplot-niccolo-hamlin) This package is up to date.
 [INFO] (quickplots) This package is up to date.
 [INFO] (quickplotter) This package is up to date.
 [INFO] (quickplug) This package is up to date.
+[INFO] (quickpotato) This package is up to date.
 [INFO] (quickproxy) This package is up to date.
 [INFO] (quickpy) This package is up to date.
-[INFO] (quickpython) Data has been updated for this package.
+[INFO] (quickpython) This package is up to date.
 [INFO] (quickq) This package is up to date.
 [ERROR] (quickreduce) This package does not have downloadable releases.
 [INFO] (quickregress) This package is up to date.
@@ -2733,13 +3026,16 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (quickrpc) This package is up to date.
+[INFO] (quickrsa) This package is up to date.
 [INFO] (quickrspecpuppet) This package is up to date.
+[INFO] (quickrun) This package is up to date.
 [INFO] (quicks) This package is up to date.
-[INFO] (quicksample) Data has been updated for this package.
+[INFO] (quicksample) This package is up to date.
+[INFO] (quicksample611) This package is up to date.
 [INFO] (quicksave) This package is up to date.
 [INFO] (quickscheme) This package is up to date.
-[INFO] (quickscms) Data has been updated for this package.
-[INFO] (quickscreen) Data has been updated for this package.
+[INFO] (quickscms) This package is up to date.
+[INFO] (quickscreen) This package is up to date.
 [INFO] (quicksearch) This package is up to date.
 [INFO] (quicksect) This package is up to date.
 [INFO] (quicksectx) This package is up to date.
@@ -2747,19 +3043,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quicksemble) This package is up to date.
 [INFO] (quicksets) This package is up to date.
 [INFO] (quickshear) This package is up to date.
-[INFO] (quickshot) Data has been updated for this package.
-[INFO] (quicksilver) Data has been updated for this package.
+[INFO] (quickshot) This package is up to date.
+[INFO] (quicksilver) This package is up to date.
 [INFO] (quicksite) This package is up to date.
 [INFO] (quickslice) This package is up to date.
 [INFO] (quicksms) This package is up to date.
+[INFO] (quicksocket) This package is up to date.
 [INFO] (quicksom) This package is up to date.
 [INFO] (quicksort-implementation) This package is up to date.
-[INFO] (quickspacer) Data has been updated for this package.
-[INFO] (quickspikes) Data has been updated for this package.
+[INFO] (quickspacer) This package is up to date.
+[INFO] (quickspikes) This package is up to date.
 [INFO] (quickspin) This package is up to date.
 [INFO] (quicksplit) This package is up to date.
 [INFO] (quickstart) This package is up to date.
-[INFO] (quickstart-rhy) Data has been updated for this package.
+[INFO] (quickstart-rhy) This package is up to date.
 [INFO] (quickstartlog) This package is up to date.
 [INFO] (quickstartup) This package is up to date.
 [INFO] (quickstartutil) This package is up to date.
@@ -2772,18 +3069,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quicktest) This package is up to date.
 [INFO] (quicktester) This package is up to date.
 [INFO] (quicktests) This package is up to date.
+[INFO] (quicktex) This package is up to date.
 [INFO] (quicktick) This package is up to date.
 [INFO] (quicktions) This package is up to date.
-[INFO] (quicktools) Data has been updated for this package.
+[INFO] (quicktools) This package is up to date.
 [INFO] (quicktracer) This package is up to date.
 [ERROR] (quicktrack) This package does not have downloadable releases.
 [INFO] (quicktranslate) This package is up to date.
+[INFO] (quicktrash) This package is up to date.
 [INFO] (quickumls) This package is up to date.
 [INFO] (quickumls-simstring) This package is up to date.
 [INFO] (quickunit) This package is up to date.
 [ERROR] (quickvars) This package does not have downloadable releases.
 [INFO] (quickview) This package is up to date.
-[INFO] (quickvision) Data has been updated for this package.
+[INFO] (quickvision) This package is up to date.
 [INFO] (quickviz) This package is up to date.
 [INFO] (quickwall) This package is up to date.
 [INFO] (quickweb) This package is up to date.
@@ -2810,19 +3109,23 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (quickxorhash) This package is up to date.
 [INFO] (quickzoom) This package is up to date.
 [INFO] (quicli) This package is up to date.
+[INFO] (quicly) This package is up to date.
+[INFO] (quicly-mongo) This package is up to date.
+[INFO] (quicly-redis) This package is up to date.
 [INFO] (quidam) This package is up to date.
 [INFO] (quidditas) This package is up to date.
 [INFO] (quienesquien) This package is up to date.
 [INFO] (quiescent) This package is up to date.
 [ERROR] (quiet) This package does not have downloadable releases.
 [INFO] (quiet-py) This package is up to date.
-[INFO] (quietex) Data has been updated for this package.
+[INFO] (quiet-py-wasm) This package is up to date.
+[INFO] (quietex) This package is up to date.
 [INFO] (quiik) This package is up to date.
 [INFO] (quik) This package is up to date.
 [INFO] (quikcsv) This package is up to date.
-[INFO] (quikey) Data has been updated for this package.
+[INFO] (quikey) This package is up to date.
 [INFO] (quikkly-python-sdk) This package is up to date.
-[INFO] (quikml) Data has been updated for this package.
+[INFO] (quikml) This package is up to date.
 [INFO] (quilc) This package is up to date.
 [INFO] (quill) This package is up to date.
 [INFO] (quill-delta) This package is up to date.
@@ -2834,11 +3137,11 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (quilt-installer) This package is up to date.
 [INFO] (quilt-lang) This package is up to date.
 [INFO] (quilt-stack-installer) This package is up to date.
-[INFO] (quilt3) Data has been updated for this package.
+[INFO] (quilt3) This package is up to date.
 [INFO] (quilt3distribute) This package is up to date.
-[INFO] (quilter) Data has been updated for this package.
+[INFO] (quilter) This package is up to date.
 [INFO] (quiltz) This package is up to date.
-[INFO] (quiltz-domain) Data has been updated for this package.
+[INFO] (quiltz-domain) This package is up to date.
 [INFO] (quiltz-messaging) This package is up to date.
 [INFO] (quiltz-testsupport) This package is up to date.
 [INFO] (quimb) This package is up to date.
@@ -2849,8 +3152,8 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 [INFO] (quine) This package is up to date.
 [INFO] (quine-mccluskey) This package is up to date.
 [INFO] (quinine) This package is up to date.
-[INFO] (quinn) Data has been updated for this package.
-[INFO] (quinnat) Data has been updated for this package.
+[INFO] (quinn) This package is up to date.
+[INFO] (quinnat) This package is up to date.
 [INFO] (quinnstruct) This package is up to date.
 [INFO] (quinoa) This package is up to date.
 [INFO] (quint) This package is up to date.
@@ -2942,7 +3245,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (quip) This package is up to date.
-[INFO] (quip-spreadsheet) Data has been updated for this package.
+[INFO] (quip-spreadsheet) This package is up to date.
 [INFO] (quipclient) This package is up to date.
 [INFO] (quippy) This package is up to date.
 [INFO] (quippy-cli) This package is up to date.
@@ -2952,7 +3255,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quirc) This package is up to date.
 [INFO] (quirk) This package is up to date.
 [INFO] (quirkshop-jlab3-react) This package is up to date.
-[INFO] (quisk) Data has been updated for this package.
+[INFO] (quisk) This package is up to date.
 [INFO] (quisk-lppan-k3) This package is up to date.
 [ERROR] (quit) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -2990,31 +3293,33 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quiver-engine) This package is up to date.
 [INFO] (quiver-to-rst) This package is up to date.
 [INFO] (quiver-vis) This package is up to date.
-[INFO] (quiverquant) Data has been updated for this package.
+[INFO] (quiverquant) This package is up to date.
 [INFO] (quix-django-contact) This package is up to date.
 [INFO] (quix-pay) This package is up to date.
-[INFO] (quix2airflow) Data has been updated for this package.
+[INFO] (quix2airflow) This package is up to date.
 [INFO] (quixote) Data has been updated for this package.
-[INFO] (quiz) Data has been updated for this package.
+[INFO] (quiz) This package is up to date.
 [INFO] (quiz-bots) This package is up to date.
-[INFO] (quizapi) Data has been updated for this package.
+[INFO] (quizapi) This package is up to date.
 [INFO] (quizdown) This package is up to date.
 [INFO] (quizdrill) This package is up to date.
 [INFO] (quizler) This package is up to date.
 [INFO] (quizlet-api) This package is up to date.
 [INFO] (quizlight) This package is up to date.
-[INFO] (quizmake) Data has been updated for this package.
+[INFO] (quizmake) This package is up to date.
 [INFO] (quizmaker) This package is up to date.
+[INFO] (quizpy) This package is up to date.
 [INFO] (quizr-utilities) This package is up to date.
-[INFO] (quizsim) Data has been updated for this package.
+[INFO] (quizsim) This package is up to date.
 [INFO] (quizstarr) This package is up to date.
-[INFO] (quizz) Data has been updated for this package.
+[INFO] (quizz) This package is up to date.
 [INFO] (quizzer) This package is up to date.
+[INFO] (quizzes) Data has been updated for this package.
 [INFO] (qujian1) This package is up to date.
 [INFO] (qulab) This package is up to date.
-[INFO] (qulab-rpc) Data has been updated for this package.
-[INFO] (qulacs) Data has been updated for this package.
-[INFO] (qulacs-gpu) Data has been updated for this package.
+[INFO] (qulab-rpc) This package is up to date.
+[INFO] (qulacs) This package is up to date.
+[INFO] (qulacs-gpu) This package is up to date.
 [INFO] (qulo) This package is up to date.
 [INFO] (quma) This package is up to date.
 [INFO] (qumath-lukas0008) This package is up to date.
@@ -3049,10 +3354,11 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (qumuloutils) This package is up to date.
-[INFO] (qunetsim) Data has been updated for this package.
+[INFO] (qunetsim) This package is up to date.
 [INFO] (qunitsuite) This package is up to date.
+[INFO] (qunix-tools) This package is up to date.
 [INFO] (quntoken) This package is up to date.
-[INFO] (quo) Data has been updated for this package.
+[INFO] (quo) This package is up to date.
 [INFO] (quoine) This package is up to date.
 [INFO] (quoinex-client) This package is up to date.
 [INFO] (quokka) This package is up to date.
@@ -3079,35 +3385,38 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (quotachecker) This package is up to date.
 [INFO] (quotaengine) This package is up to date.
 [INFO] (quotation) This package is up to date.
-[INFO] (quote) Data has been updated for this package.
-[INFO] (quote-manager) This package is up to date.
+[INFO] (quote) This package is up to date.
+[INFO] (quote-manager) Data has been updated for this package.
 [INFO] (quote2image) This package is up to date.
 [INFO] (quotebook) This package is up to date.
 [INFO] (quotebot) This package is up to date.
 [INFO] (quoted) This package is up to date.
 [INFO] (quotee) This package is up to date.
+[INFO] (quotefancy) This package is up to date.
 [INFO] (quotefix) This package is up to date.
 [INFO] (quoteoftheday) This package is up to date.
 [INFO] (quotequail) This package is up to date.
 [INFO] (quoter) This package is up to date.
-[INFO] (quoters) This package is up to date.
+[INFO] (quoters) Data has been updated for this package.
 [INFO] (quoterz) This package is up to date.
 [INFO] (quotes) This package is up to date.
 [INFO] (quotes-api) This package is up to date.
 [INFO] (quotes-fetcher) This package is up to date.
-[INFO] (quotes-generator) Data has been updated for this package.
+[INFO] (quotes-generator) This package is up to date.
 [INFO] (quotes-scraper) This package is up to date.
 [INFO] (quotes-wrapper) This package is up to date.
+[INFO] (quotesaggregator) This package is up to date.
 [INFO] (quotesbear) This package is up to date.
 [INFO] (quotespy) This package is up to date.
 [INFO] (quotient) This package is up to date.
 [INFO] (quotient-security-check) This package is up to date.
 [INFO] (quotly) This package is up to date.
 [INFO] (quotool) This package is up to date.
-[INFO] (quple) Data has been updated for this package.
+[INFO] (quple) This package is up to date.
 [INFO] (qupulse) This package is up to date.
 [INFO] (qupy) This package is up to date.
 [INFO] (quqie) This package is up to date.
+[INFO] (quran) This package is up to date.
 [ERROR] (quran-module) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -3136,52 +3445,63 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (quran-py) This package is up to date.
+[INFO] (quranapi) This package is up to date.
 [ERROR] (qurancorpus) This package does not have downloadable releases.
+[INFO] (quranpy) This package is up to date.
 [INFO] (qurcol) This package is up to date.
 [INFO] (qurro) This package is up to date.
 [INFO] (qurry) This package is up to date.
+[INFO] (quta) This package is up to date.
 [INFO] (qute) This package is up to date.
-[INFO] (qutebrowser) Data has been updated for this package.
+[INFO] (qutebrowser) This package is up to date.
 [INFO] (qutechopenql) This package is up to date.
 [INFO] (qutepart) This package is up to date.
-[INFO] (qutest) Data has been updated for this package.
+[INFO] (qutest) This package is up to date.
 [INFO] (qutie) This package is up to date.
-[INFO] (qutiepy) Data has been updated for this package.
+[INFO] (qutiepy) This package is up to date.
 [INFO] (qutils) This package is up to date.
 [INFO] (qutip) This package is up to date.
+[INFO] (qutip-qip) This package is up to date.
+[INFO] (qutorch) This package is up to date.
 [INFO] (quuz) This package is up to date.
 [INFO] (quvi) This package is up to date.
 [INFO] (quwiki) This package is up to date.
+[INFO] (quxidget) This package is up to date.
 [INFO] (quy-nestery) This package is up to date.
-[INFO] (quykhtml) Data has been updated for this package.
+[INFO] (quykhtml) This package is up to date.
 [INFO] (qval) This package is up to date.
 [INFO] (qvalidation) This package is up to date.
 [INFO] (qvantum) This package is up to date.
-[INFO] (qvd) Data has been updated for this package.
-[INFO] (qversion) Data has been updated for this package.
+[INFO] (qvd) This package is up to date.
+[INFO] (qversion) This package is up to date.
 [INFO] (qvibe-recorder) This package is up to date.
-[INFO] (qview) Data has been updated for this package.
+[INFO] (qview) This package is up to date.
 [INFO] (qvikconfig) This package is up to date.
 [INFO] (qviz) This package is up to date.
 [INFO] (qvm) This package is up to date.
 [INFO] (qvmake) This package is up to date.
-[INFO] (qvmcli) Data has been updated for this package.
+[INFO] (qvmcli) This package is up to date.
+[INFO] (qvpnstatus) This package is up to date.
 [INFO] (qvpy) This package is up to date.
 [INFO] (qvrpy) This package is up to date.
 [INFO] (qvscripttools) This package is up to date.
 [INFO] (qvstbus) This package is up to date.
 [INFO] (qvtool) This package is up to date.
+[INFO] (qvvikolib) This package is up to date.
 [INFO] (qw) This package is up to date.
 [INFO] (qwackchat) This package is up to date.
 [INFO] (qwackchat-client) This package is up to date.
 [INFO] (qwak) This package is up to date.
+[INFO] (qwak-sdk) This package is up to date.
 [INFO] (qwant) This package is up to date.
 [INFO] (qwazzock) This package is up to date.
 [INFO] (qwb-nester) This package is up to date.
-[INFO] (qwc-services-core) Data has been updated for this package.
+[INFO] (qwc-services-core) This package is up to date.
 [ERROR] (qwcore) This package does not have downloadable releases.
 [ERROR] (qwdeploy) This package does not have downloadable releases.
 [INFO] (qweather) This package is up to date.
+[INFO] (qweb) This package is up to date.
 [INFO] (qwebtip) This package is up to date.
 [INFO] (qwelog) This package is up to date.
 [INFO] (qwer) This package is up to date.
@@ -3189,23 +3509,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (qwertasyx) This package does not have downloadable releases.
 [INFO] (qwerty) This package is up to date.
 [INFO] (qwertyui) This package is up to date.
-[INFO] (qwertywerty) Data has been updated for this package.
-[INFO] (qwertywerty123) Data has been updated for this package.
-[INFO] (qwertywertyerty12) Data has been updated for this package.
+[INFO] (qwertywerty) This package is up to date.
+[INFO] (qwertywerty123) This package is up to date.
+[INFO] (qwertywertyerty12) This package is up to date.
 [INFO] (qwery) This package is up to date.
 [INFO] (qwgc) This package is up to date.
-[INFO] (qwhale-client) Data has been updated for this package.
+[INFO] (qwhale-client) This package is up to date.
+[INFO] (qwhale-logs-client) This package is up to date.
 [INFO] (qwif) This package is up to date.
-[INFO] (qwiic-exporter) Data has been updated for this package.
+[INFO] (qwiic-exporter) This package is up to date.
 [INFO] (qwikidata) This package is up to date.
 [INFO] (qwikstart) This package is up to date.
 [INFO] (qwind) This package is up to date.
 [INFO] (qworker-sample) This package is up to date.
 [INFO] (qworkerd) This package is up to date.
 [INFO] (qworktree) This package is up to date.
-[INFO] (qx) Data has been updated for this package.
+[INFO] (qx) This package is up to date.
 [INFO] (qx-aliyun-sms) This package is up to date.
-[INFO] (qx-ray) Data has been updated for this package.
+[INFO] (qx-ray) This package is up to date.
 [INFO] (qx-rest) This package is up to date.
 [INFO] (qxbranch-quantum-feature-detector) This package is up to date.
 [INFO] (qxelarator) This package is up to date.
@@ -3249,21 +3570,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (qytools) This package is up to date.
 [INFO] (qytpython) This package is up to date.
 [INFO] (qyweixin) This package is up to date.
-[INFO] (qz) Data has been updated for this package.
+[INFO] (qywx-app-message) This package is up to date.
+[INFO] (qz) This package is up to date.
 [INFO] (qz-testpypi) This package is up to date.
+[INFO] (qz7-hello) This package is up to date.
 [INFO] (qz7-shell) This package is up to date.
 [INFO] (qz7-subprocess-w) This package is up to date.
 [INFO] (qz7-term-signals) This package is up to date.
 [INFO] (qzails-pyxsqbs) This package is up to date.
+[INFO] (qzhub-core) This package is up to date.
 [INFO] (qzig) This package is up to date.
 [INFO] (qzonesecret) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2283
-[INFO]     Packages processed: 2283
-[INFO]         Packages updated: 410
-[INFO]         Packages up-to-date: 1773
-[INFO]         Packages without response: 43
+[INFO] Total packages: 2508
+[INFO]     Packages processed: 2508
+[INFO]         Packages updated: 58
+[INFO]         Packages up-to-date: 2343
+[INFO]         Packages without response: 50
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 47
 [INFO]         Packages with data errors: 10
