@@ -41,7 +41,6 @@
 [INFO] (0x10c-asm) This package is up to date.
 [INFO] (0xmpp) This package is up to date.
 [ERROR] (1) This package does not have downloadable releases.
-[INFO] (1-is-prime) This package is up to date.
 [ERROR] (10-8moshpdf) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -136,7 +135,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (11l) This package is up to date.
 [INFO] (12-test) This package is up to date.
-[INFO] (123-object-detection) Data has been updated for this package.
+[INFO] (123-object-detection) This package is up to date.
 [INFO] (12306-booking) This package is up to date.
 [INFO] (123testupload) This package is up to date.
 [INFO] (125softnlp) This package is up to date.
@@ -205,7 +204,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (1nester) This package is up to date.
 [INFO] (1os) This package is up to date.
 [INFO] (1pass) This package is up to date.
-[INFO] (1password) This package is up to date.
+[INFO] (1password) Data has been updated for this package.
 [INFO] (1primo1) This package is up to date.
 [INFO] (1q847) This package is up to date.
 [INFO] (1st) This package is up to date.
@@ -239,7 +238,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (2048) This package is up to date.
 [INFO] (2048-py) This package is up to date.
 [INFO] (2112) This package is up to date.
-[INFO] (21cmfast) Data has been updated for this package.
+[INFO] (21cmfast) This package is up to date.
 [INFO] (21cmmc) This package is up to date.
 [INFO] (2233223) This package is up to date.
 [INFO] (23andme-to-vcf) This package is up to date.
@@ -338,7 +337,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (311devs-peewee) This package is up to date.
 [INFO] (32blit) This package is up to date.
 [INFO] (36-chambers) This package is up to date.
-[INFO] (3636c788d0392f7e84453434eea18c59) Data has been updated for this package.
+[INFO] (3636c788d0392f7e84453434eea18c59) This package is up to date.
 [INFO] (365scores) This package is up to date.
 [INFO] (36ban-commons) This package is up to date.
 [ERROR] (36ke-py) Could not get a response from API for this package. See below for details.
@@ -401,6 +400,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (3d-connectx-env) Data has been updated for this package.
 [INFO] (3d-converter) This package is up to date.
 [INFO] (3d-renderer) This package is up to date.
 [INFO] (3d-wallet-generator) This package is up to date.
@@ -410,6 +410,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (3dfunctiongrapher) This package is up to date.
 [INFO] (3di-cmd-client) This package is up to date.
 [INFO] (3dof-hexapod-ik-generator) This package is up to date.
+[INFO] (3drenderpy) This package is up to date.
 [INFO] (3dstrudel) This package is up to date.
 [INFO] (3dtrees-nbingo) This package is up to date.
 [INFO] (3edit) This package is up to date.
@@ -425,6 +426,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (3to2) This package is up to date.
 [INFO] (3to2-py3k) This package is up to date.
 [INFO] (3xsd) This package is up to date.
+[INFO] (4) This package is up to date.
 [INFO] (40wt-common-tasks) This package is up to date.
 [ERROR] (42) This package does not have downloadable releases.
 [INFO] (42cc-pystyle) This package is up to date.
@@ -491,6 +493,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (4cdl) This package is up to date.
 [INFO] (4ch) This package is up to date.
 [INFO] (4chan) This package is up to date.
+[INFO] (4chan-ripper) Data has been updated for this package.
 [INFO] (4chandownloader) This package is up to date.
 [INFO] (4channel) This package is up to date.
 [INFO] (4dpyautodiff) This package is up to date.
@@ -546,7 +549,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (7th) This package is up to date.
 [INFO] (7xydothis) This package is up to date.
 [INFO] (8) This package is up to date.
-[INFO] (8888) Data has been updated for this package.
+[ERROR] (8-ball-pool-hack-full-free-coins) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/3a/54/893225046390dfbbb25c1988b0bcf3146a082bcdca07b292bac700fb7e03/8%20BALL%20POOL%20HACK%20FULL%20FREE%20COINS-0.87.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (88ab6720d79b4cbd93cab7180920d89c) This package is up to date.
 [INFO] (88orm) This package is up to date.
 [INFO] (88orm-service-connector) This package is up to date.
@@ -609,14 +630,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (99d4aa80-d846-424f-873b-a02c7215fc54) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 277
-[INFO]     Packages processed: 277
-[INFO]         Packages updated: 4
-[INFO]         Packages up-to-date: 242
+[INFO] Total packages: 280
+[INFO]     Packages processed: 280
+[INFO]         Packages updated: 3
+[INFO]         Packages up-to-date: 245
 [INFO]         Packages without response: 17
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 13
-[INFO]         Packages with data errors: 1
+[INFO]         Packages with data errors: 2
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

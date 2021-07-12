@@ -67,7 +67,7 @@
             "q_snippets.pretrains",
             "q_snippets.tensor_ops"
         ],
-        "version": "0.0.4"
+        "version": "0.0.5"
     },
     "q-stdev": {
         "cmdline": [],
@@ -147,7 +147,7 @@
             "q2_dbbact.utils",
             "q2_dbbact.visualizations"
         ],
-        "version": "1.1.1"
+        "version": "1.3.0"
     },
     "q2-itsxpress": {
         "cmdline": [],
@@ -289,7 +289,7 @@
             "q4nwinlib.misc",
             "q4nwinlib.misc.log"
         ],
-        "version": "0.0.3"
+        "version": "0.0.6"
     },
     "qa": {
         "cmdline": [],
@@ -370,7 +370,7 @@
     "qa4sm-reader": {
         "cmdline": [],
         "modules": [],
-        "version": "0.4.4.1"
+        "version": "0.4.4.2"
     },
     "qaa": {
         "cmdline": [],
@@ -660,17 +660,30 @@
             "qaeval.scoring.lerc.lerc_predictor",
             "qaeval.scoring.lerc.pretrain_model",
             "qaeval.scoring.scorers",
+            "qaeval.scoring.scorers.em",
+            "qaeval.scoring.scorers.f1",
+            "qaeval.scoring.scorers.is_answered",
+            "qaeval.scoring.scorers.lerc",
+            "qaeval.scoring.scorers.meta",
+            "qaeval.scoring.scorers.scorer",
             "qaeval.tests",
             "qaeval.tests.answer_selection_test",
             "qaeval.tests.answering",
             "qaeval.tests.answering.model_test",
+            "qaeval.tests.answering.utils_test",
             "qaeval.tests.generation",
             "qaeval.tests.generation.model_test",
             "qaeval.tests.scoring",
-            "qaeval.tests.scoring.scorers_test",
+            "qaeval.tests.scoring.scorers",
+            "qaeval.tests.scoring.scorers.em_test",
+            "qaeval.tests.scoring.scorers.f1_test",
+            "qaeval.tests.scoring.scorers.is_answered_test",
+            "qaeval.tests.scoring.scorers.lerc_test",
+            "qaeval.tests.scoring.scorers.meta_test",
+            "qaeval.tests.scoring.scorers.scorer_test",
             "qaeval.version"
         ],
-        "version": "0.0.7"
+        "version": "0.0.9"
     },
     "qafast": {
         "cmdline": [],
@@ -758,6 +771,25 @@
             "qal.tools.optimal_sync"
         ],
         "version": "0.6"
+    },
+    "qal-swflint": {
+        "cmdline": [
+            "qal-auto",
+            "qal-query"
+        ],
+        "modules": [
+            "qal",
+            "qal.autoquery",
+            "qal.digital_library",
+            "qal.exceptions",
+            "qal.ieeexplore",
+            "qal.main",
+            "qal.results_store",
+            "qal.science_direct",
+            "qal.springer",
+            "qal.types"
+        ],
+        "version": "1.0.0"
     },
     "qalab": {
         "cmdline": [],
@@ -879,7 +911,7 @@
             "qalsadi.stopwords",
             "qalsadi.wordcase"
         ],
-        "version": "0.4.3"
+        "version": "0.4.4"
     },
     "qalx-orcaflex": {
         "cmdline": [],
@@ -1575,42 +1607,42 @@
             "qasync._unix",
             "qasync._windows"
         ],
-        "version": "0.16.0"
+        "version": "0.17.0"
     },
     "qat-comm": {
         "cmdline": [],
         "modules": [
             "qat"
         ],
-        "version": "1.2.1"
+        "version": "1.3.0"
     },
     "qat-core": {
         "cmdline": [],
         "modules": [
             "qat"
         ],
-        "version": "1.3.3"
+        "version": "1.4.0"
     },
     "qat-devices": {
         "cmdline": [],
         "modules": [
             "qat"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "qat-lang": {
         "cmdline": [],
         "modules": [
             "qat"
         ],
-        "version": "2.0.1"
+        "version": "2.1.0"
     },
     "qat-variational": {
         "cmdline": [],
         "modules": [
             "qat"
         ],
-        "version": "1.2.3"
+        "version": "1.3.0"
     },
     "qatalyst": {
         "cmdline": [],
@@ -1626,7 +1658,7 @@
             "qatalyst.result",
             "qatalyst.utils"
         ],
-        "version": "3.1.3"
+        "version": "3.1.7"
     },
     "qatechbasic": {
         "cmdline": [],
@@ -2142,6 +2174,19 @@
             "qbsdk.wallet"
         ],
         "version": "0.0.3"
+    },
+    "qb-solver": {
+        "cmdline": [
+            "run_simulation"
+        ],
+        "modules": [
+            "qb_solver",
+            "qb_solver.cubesolver",
+            "qb_solver.virtualcube",
+            "qb_solver.visCube",
+            "qb_solver.visHints"
+        ],
+        "version": "0.1.4.8.9"
     },
     "qbabel": {
         "cmdline": [],
@@ -3085,7 +3130,9 @@
         "cmdline": [],
         "modules": [
             "iodata",
+            "iodata._version",
             "iodata.api",
+            "iodata.attrutils",
             "iodata.basis",
             "iodata.docstrings",
             "iodata.formats",
@@ -3093,14 +3140,19 @@
             "iodata.formats.chgcar",
             "iodata.formats.cp2klog",
             "iodata.formats.cube",
+            "iodata.formats.extxyz",
             "iodata.formats.fchk",
             "iodata.formats.fcidump",
+            "iodata.formats.gamess",
+            "iodata.formats.gaussianinput",
             "iodata.formats.gaussianlog",
             "iodata.formats.gromacs",
+            "iodata.formats.json",
             "iodata.formats.locpot",
             "iodata.formats.mol2",
             "iodata.formats.molden",
             "iodata.formats.molekel",
+            "iodata.formats.mwfn",
             "iodata.formats.orcalog",
             "iodata.formats.pdb",
             "iodata.formats.poscar",
@@ -3109,6 +3161,10 @@
             "iodata.formats.wfn",
             "iodata.formats.wfx",
             "iodata.formats.xyz",
+            "iodata.inputs",
+            "iodata.inputs.common",
+            "iodata.inputs.gaussian",
+            "iodata.inputs.orca",
             "iodata.iodata",
             "iodata.orbitals",
             "iodata.overlap",
@@ -3117,21 +3173,29 @@
             "iodata.test",
             "iodata.test.common",
             "iodata.test.data",
+            "iodata.test.test_attrutils",
             "iodata.test.test_basis",
             "iodata.test.test_charmm",
             "iodata.test.test_chgcar",
             "iodata.test.test_cli",
             "iodata.test.test_cp2klog",
             "iodata.test.test_cube",
+            "iodata.test.test_extxyz",
             "iodata.test.test_fchk",
             "iodata.test.test_fcidump",
+            "iodata.test.test_gamess",
+            "iodata.test.test_gaussianinput",
             "iodata.test.test_gaussianlog",
             "iodata.test.test_gromacs",
+            "iodata.test.test_inputs",
             "iodata.test.test_iodata",
+            "iodata.test.test_json",
             "iodata.test.test_locpot",
             "iodata.test.test_mol2",
             "iodata.test.test_molden",
             "iodata.test.test_molekel",
+            "iodata.test.test_mwfn",
+            "iodata.test.test_orbitals",
             "iodata.test.test_orcalog",
             "iodata.test.test_overlap",
             "iodata.test.test_pdb",
@@ -3142,10 +3206,9 @@
             "iodata.test.test_wfn",
             "iodata.test.test_wfx",
             "iodata.test.test_xyz",
-            "iodata.utils",
-            "iodata.version"
+            "iodata.utils"
         ],
-        "version": "1.0.0a1.post80"
+        "version": "1.0.0a2"
     },
     "qc-metric-aggregator": {
         "cmdline": [],
@@ -3553,7 +3616,7 @@
             "qcelemental.util.test_scipy_hungarian",
             "qcelemental.vanderwaals_radii"
         ],
-        "version": "0.20.0"
+        "version": "0.21.0"
     },
     "qcengine": {
         "cmdline": [],
@@ -3784,57 +3847,25 @@
     "qcg-pilotjob": {
         "cmdline": [],
         "modules": [
-            "qcg.pilotjob",
-            "qcg.pilotjob.allocation",
-            "qcg.pilotjob.api",
-            "qcg.pilotjob.api.errors",
-            "qcg.pilotjob.api.job",
-            "qcg.pilotjob.api.jobinfo",
-            "qcg.pilotjob.api.manager",
-            "qcg.pilotjob.client_cmd",
-            "qcg.pilotjob.cmds",
-            "qcg.pilotjob.cmds.processes",
-            "qcg.pilotjob.cmds.report",
-            "qcg.pilotjob.command_line",
-            "qcg.pilotjob.config",
-            "qcg.pilotjob.environment",
-            "qcg.pilotjob.errors",
-            "qcg.pilotjob.executionjob",
-            "qcg.pilotjob.executionschema",
-            "qcg.pilotjob.executor",
-            "qcg.pilotjob.fileinterface",
-            "qcg.pilotjob.iterscheduler",
-            "qcg.pilotjob.joblist",
-            "qcg.pilotjob.launcher",
-            "qcg.pilotjob.launcher.agent",
-            "qcg.pilotjob.launcher.launcher",
-            "qcg.pilotjob.launcher.procstats",
-            "qcg.pilotjob.launcher.rtstats",
-            "qcg.pilotjob.localres",
-            "qcg.pilotjob.manager",
-            "qcg.pilotjob.parseres",
-            "qcg.pilotjob.partitions",
-            "qcg.pilotjob.profile",
-            "qcg.pilotjob.receiver",
-            "qcg.pilotjob.reports",
-            "qcg.pilotjob.request",
-            "qcg.pilotjob.resources",
-            "qcg.pilotjob.response",
-            "qcg.pilotjob.resume",
-            "qcg.pilotjob.scheduler",
-            "qcg.pilotjob.scheduleralgo",
-            "qcg.pilotjob.service",
-            "qcg.pilotjob.slurmres",
-            "qcg.pilotjob.utils",
-            "qcg.pilotjob.utils.auxdir",
-            "qcg.pilotjob.utils.proc_traces",
-            "qcg.pilotjob.utils.processes",
-            "qcg.pilotjob.utils.reportstats",
-            "qcg.pilotjob.utils.slurmenvresources",
-            "qcg.pilotjob.utils.util",
-            "qcg.pilotjob.zmqinterface"
+            "api",
+            "api.errors",
+            "api.job",
+            "api.jobinfo",
+            "api.manager",
+            "launcher",
+            "launcher.agent",
+            "launcher.launcher",
+            "launcher.procstats",
+            "launcher.rtstats",
+            "utils",
+            "utils.auxdir",
+            "utils.proc_traces",
+            "utils.processes",
+            "utils.reportstats",
+            "utils.slurmenvresources",
+            "utils.util"
         ],
-        "version": "0.11.2"
+        "version": "0.12.1"
     },
     "qcg-pilotjob-cmds": {
         "cmdline": [],
@@ -3844,7 +3875,7 @@
             "cmds.processes",
             "cmds.report"
         ],
-        "version": "0.12.0rc1"
+        "version": "0.12.1"
     },
     "qcg-pilotjob-executor-api": {
         "cmdline": [],
@@ -3857,7 +3888,7 @@
             "executor_api.templates.basic_template",
             "executor_api.templates.qcgpj_template"
         ],
-        "version": "0.12.0rc1"
+        "version": "0.12.1"
     },
     "qcgpilotmanager": {
         "cmdline": [],
@@ -6027,6 +6058,11 @@
         "modules": [],
         "version": "0.9.1"
     },
+    "qcom-nandc-pagify": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
+    },
     "qcompress": {
         "cmdline": [],
         "modules": [
@@ -6055,6 +6091,8 @@
             "QCompute.OpenModule",
             "QCompute.OpenModule.CompositeGateModule",
             "QCompute.OpenModule.CompressGateModule",
+            "QCompute.OpenModule.InverseCircuitModule",
+            "QCompute.OpenModule.ReverseCircuitModule",
             "QCompute.OpenModule.UnrollCircuitModule",
             "QCompute.OpenModule.UnrollProcedureModule",
             "QCompute.OpenSimulator",
@@ -6065,9 +6103,11 @@
             "QCompute.OpenSimulator.local_baidu_sim2.Transfer",
             "QCompute.QPlatform",
             "QCompute.QPlatform.CircuitTools",
+            "QCompute.QPlatform.Condition",
             "QCompute.QPlatform.Error",
             "QCompute.QPlatform.ProcedureParameterPool",
             "QCompute.QPlatform.Processor",
+            "QCompute.QPlatform.Processor.ModuleFilter",
             "QCompute.QPlatform.Processor.PostProcessor",
             "QCompute.QPlatform.Processor.PreProcess",
             "QCompute.QPlatform.QEnv",
@@ -6081,6 +6121,7 @@
             "QCompute.QPlatform.QOperation.QProcedure",
             "QCompute.QPlatform.QOperation.RotationGate",
             "QCompute.QPlatform.QRegPool",
+            "QCompute.QPlatform.QStatus",
             "QCompute.QPlatform.QTask",
             "QCompute.QPlatform.Utilities",
             "QCompute.QProtobuf",
@@ -6095,7 +6136,7 @@
             "QCompute.Test.PostInstall.LocalGateTest",
             "QCompute.Test.PostInstall.PostInstall"
         ],
-        "version": "1.1.0"
+        "version": "2.0.1"
     },
     "qcomputing": {
         "cmdline": [],
@@ -6158,6 +6199,11 @@
         ],
         "version": "0.0.1"
     },
+    "qconnectionquery": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.2"
+    },
     "qcore": {
         "cmdline": [],
         "modules": [
@@ -6190,7 +6236,7 @@
             "qcore.tests.test_microtime",
             "qcore.tests.test_testing"
         ],
-        "version": "1.6.1"
+        "version": "1.7.0"
     },
     "qcore-nocython": {
         "cmdline": [],
@@ -6563,7 +6609,7 @@
             "qcs_api_client.util.retry",
             "qcs_api_client.util.serialization"
         ],
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "qcsim": {
         "cmdline": [],
@@ -6802,7 +6848,7 @@
             "qctrl.scripts_utils",
             "qctrl.utils"
         ],
-        "version": "11.2.0"
+        "version": "11.5.0"
     },
     "qctrl-api-client": {
         "cmdline": [],
@@ -6846,7 +6892,7 @@
             "qctrlcommons.node.infidelity",
             "qctrlcommons.node.ms",
             "qctrlcommons.node.node_data",
-            "qctrlcommons.node.optimization_variable",
+            "qctrlcommons.node.optimization",
             "qctrlcommons.node.oqs",
             "qctrlcommons.node.pwc",
             "qctrlcommons.node.registry",
@@ -6862,7 +6908,7 @@
             "qctrlcommons.serializers",
             "qctrlcommons.utils"
         ],
-        "version": "10.1.0"
+        "version": "10.4.0"
     },
     "qctrl-jupyterhub-authenticator": {
         "cmdline": [],
@@ -6895,7 +6941,7 @@
             "qctrlopencontrols.exceptions",
             "qctrlopencontrols.utils"
         ],
-        "version": "8.1.0"
+        "version": "8.2.1"
     },
     "qctrl-pyquil": {
         "cmdline": [],
@@ -6931,7 +6977,7 @@
             "qctrlvisualizer.filter_functions",
             "qctrlvisualizer.style"
         ],
-        "version": "2.6.1"
+        "version": "2.7.0"
     },
     "qcureui": {
         "cmdline": [],
@@ -7077,9 +7123,38 @@
             "qcware_transpile.translations.quasar.to_braket",
             "qcware_transpile.translations.quasar.to_pyzx",
             "qcware_transpile.translations.quasar.to_qiskit",
-            "qcware_transpile.translations.quasar.to_qsharp"
+            "qcware_transpile.translations.quasar.to_qsharp",
+            "tests",
+            "tests.dialects",
+            "tests.dialects.quasar",
+            "tests.dialects.test_braket",
+            "tests.dialects.test_pyzx",
+            "tests.dialects.test_qiskit",
+            "tests.dialects.test_quasar",
+            "tests.helpers.test_helpers",
+            "tests.matching",
+            "tests.matching.test_basic_matching",
+            "tests.performance.qiskit_profile",
+            "tests.strategies",
+            "tests.strategies.braket",
+            "tests.strategies.pyzx",
+            "tests.strategies.qcware_transpile",
+            "tests.strategies.qiskit",
+            "tests.strategies.qsharp",
+            "tests.strategies.quasar",
+            "tests.translations",
+            "tests.translations.braket",
+            "tests.translations.braket.test_to_quasar",
+            "tests.translations.qiskit",
+            "tests.translations.qiskit.test_to_quasar",
+            "tests.translations.quasar",
+            "tests.translations.quasar.test_to_braket",
+            "tests.translations.quasar.test_to_pyzx",
+            "tests.translations.quasar.test_to_qiskit",
+            "tests.translations.quasar.test_to_qsharp",
+            "tests.translations.quasar.test_ugates_with_qiskit"
         ],
-        "version": "0.1.1a11"
+        "version": "0.1.1a13"
     },
     "qd": {
         "cmdline": [],
@@ -7194,17 +7269,6 @@
             "qdata.utils"
         ],
         "version": "0.1.8"
-    },
-    "qdatamgr-cli": {
-        "cmdline": [],
-        "modules": [
-            "qdatamgr_cli",
-            "qdatamgr_cli.cli",
-            "qdatamgr_cli.qdatamgr_cli",
-            "tests",
-            "tests.test_qdatamgr_cli"
-        ],
-        "version": "0.6.1"
     },
     "qdatastream": {
         "cmdline": [],
@@ -7389,17 +7453,38 @@
             "qdk.chemistry.widgets.jsme_widget",
             "qdk.chemistry.widgets.jsmol_widget"
         ],
-        "version": "0.17.2105.144881"
+        "version": "0.18.2106.148911"
+    },
+    "qdk-sim-experimental": {
+        "cmdline": [],
+        "modules": [
+            "qdk_sim_experimental",
+            "qdk_sim_experimental.version"
+        ],
+        "version": "0.18.2106.148911"
     },
     "qdl": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.7"
+        "version": "1.2.0"
     },
     "qdldl": {
         "cmdline": [],
         "modules": [],
         "version": "0.1.5.post0"
+    },
+    "qdmtk": {
+        "cmdline": [],
+        "modules": [
+            "qdmtk",
+            "qdmtk.exceptions",
+            "qdmtk.plugin",
+            "qdmtk.provider",
+            "qdmtk.router",
+            "qdmtk.utils",
+            "qdmtk.version"
+        ],
+        "version": "0.0.2a1"
     },
     "qdns": {
         "cmdline": [],
@@ -7496,7 +7581,7 @@
             "qdrant_openapi_client.models",
             "qdrant_openapi_client.models.models"
         ],
-        "version": "0.3.3"
+        "version": "0.3.5"
     },
     "qdrouter-jinja2": {
         "cmdline": [],
@@ -8219,6 +8304,7 @@
         "cmdline": [],
         "modules": [
             "qface",
+            "qface.__about__",
             "qface.app",
             "qface.cli",
             "qface.contrib",
@@ -8243,7 +8329,7 @@
             "qface.utils",
             "qface.watch"
         ],
-        "version": "2.0.0"
+        "version": "2.0.4"
     },
     "qface-qtcpp": {
         "cmdline": [],
@@ -8453,7 +8539,7 @@
             "qfitswidget.qimageview",
             "qfitswidget.resources"
         ],
-        "version": "0.8"
+        "version": "0.8.1"
     },
     "qflashlight": {
         "cmdline": [],
@@ -8568,7 +8654,7 @@
             "qforce.qm.qm",
             "qforce.qm.qm_base"
         ],
-        "version": "0.5.1"
+        "version": "0.5.3"
     },
     "qforestmath": {
         "cmdline": [],
@@ -8911,6 +8997,43 @@
         ],
         "version": "0.1a3"
     },
+    "qgepqwat2ili": {
+        "cmdline": [],
+        "modules": [
+            "qgepqwat2ili",
+            "qgepqwat2ili.config",
+            "qgepqwat2ili.gui",
+            "qgepqwat2ili.gui.editors",
+            "qgepqwat2ili.gui.editors.base",
+            "qgepqwat2ili.gui.editors.damage_channel",
+            "qgepqwat2ili.gui.editors.data_media",
+            "qgepqwat2ili.gui.editors.examination",
+            "qgepqwat2ili.gui.featureselectorwidget",
+            "qgepqwat2ili.gui.gui_export",
+            "qgepqwat2ili.gui.gui_import",
+            "qgepqwat2ili.qgep",
+            "qgepqwat2ili.qgep.export",
+            "qgepqwat2ili.qgep.import_",
+            "qgepqwat2ili.qgep.mapping",
+            "qgepqwat2ili.qgep.model_abwasser",
+            "qgepqwat2ili.qgep.model_qgep",
+            "qgepqwat2ili.qwat",
+            "qgepqwat2ili.qwat.export",
+            "qgepqwat2ili.qwat.import_",
+            "qgepqwat2ili.qwat.mapping",
+            "qgepqwat2ili.qwat.model_qwat",
+            "qgepqwat2ili.qwat.model_wasser",
+            "qgepqwat2ili.tests",
+            "qgepqwat2ili.tests.test_qgep",
+            "qgepqwat2ili.tests.test_qwat",
+            "qgepqwat2ili.utils",
+            "qgepqwat2ili.utils.ili2db",
+            "qgepqwat2ili.utils.sqlalchemy",
+            "qgepqwat2ili.utils.templates",
+            "qgepqwat2ili.utils.various"
+        ],
+        "version": "0.6"
+    },
     "qgis-plugin-ci": {
         "cmdline": [],
         "modules": [
@@ -8938,7 +9061,7 @@
             "qgis_plugin_manager.remote",
             "qgis_plugin_manager.utils"
         ],
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "qgis-plugin-repo": {
         "cmdline": [],
@@ -9308,8 +9431,6 @@
             "QGrain.models",
             "QGrain.models.ClassicResolverSetting",
             "QGrain.models.DataLayoutSetting",
-            "QGrain.models.DatasetLoader",
-            "QGrain.models.EMMAResult",
             "QGrain.models.GrainSizeDataset",
             "QGrain.models.GrainSizeSample",
             "QGrain.models.NNResolverSetting",
@@ -9338,7 +9459,7 @@
             "QGrain.ui.__TaskWindow",
             "QGrain.use_excel"
         ],
-        "version": "0.3.4"
+        "version": "0.3.4.1"
     },
     "qgraphviz": {
         "cmdline": [],
@@ -9572,6 +9693,14 @@
         ],
         "version": "1.1.0"
     },
+    "qhrxquery": {
+        "cmdline": [],
+        "modules": [
+            "QQuery",
+            "QQuery.QConnectionQuery"
+        ],
+        "version": "0.0.2"
+    },
     "qhsdk": {
         "cmdline": [],
         "modules": [
@@ -9623,7 +9752,7 @@
             "tests.test_render",
             "tests.test_schema"
         ],
-        "version": "0.3.11"
+        "version": "0.3.12"
     },
     "qhub-jupyterhub-theme": {
         "cmdline": [],
@@ -9883,10 +10012,36 @@
         "modules": [],
         "version": ""
     },
+    "qiangpypi": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "qianyan-test": {
+        "cmdline": [],
+        "modules": [
+            "example_pkg",
+            "example_pkg.add"
+        ],
+        "version": "0.0.2"
+    },
     "qianyan-test1": {
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "qianyan-test4": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "qianyan-test5": {
+        "cmdline": [],
+        "modules": [
+            "example_pkg",
+            "example_pkg.add"
+        ],
+        "version": "0.0.2"
     },
     "qianyantest1": {
         "cmdline": [],
@@ -9897,6 +10052,35 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1"
+    },
+    "qianyantest5": {
+        "cmdline": [],
+        "modules": [
+            "example_pkg",
+            "example_pkg.add"
+        ],
+        "version": "0.0.2"
+    },
+    "qianyantest6": {
+        "cmdline": [],
+        "modules": [
+            "example_pkg",
+            "example_pkg.add"
+        ],
+        "version": "0.0.2"
+    },
+    "qianyantest7": {
+        "cmdline": [],
+        "modules": [
+            "qianyan",
+            "qianyan.change_format",
+            "qianyan.dataset",
+            "qianyan.evaluate",
+            "qianyan.evaluate_dureader_robust",
+            "qianyan.evaluate_dureader_yesno",
+            "qianyan.evaluation_config"
+        ],
+        "version": "0.0.1"
     },
     "qiaogs": {
         "cmdline": [],
@@ -10010,6 +10194,22 @@
             "qibo.tests_new.test_tensorflow_custom_operators"
         ],
         "version": "0.1.5"
+    },
+    "qibojit": {
+        "cmdline": [],
+        "modules": [
+            "qibojit",
+            "qibojit.custom_operators",
+            "qibojit.custom_operators.backends",
+            "qibojit.custom_operators.gates",
+            "qibojit.custom_operators.ops",
+            "qibojit.tests",
+            "qibojit.tests.conftest",
+            "qibojit.tests.test_backends",
+            "qibojit.tests.test_gates",
+            "qibojit.tests.test_ops"
+        ],
+        "version": "0.0.1"
     },
     "qibotf": {
         "cmdline": [],
@@ -10456,6 +10656,18 @@
             "qibullet.tools"
         ],
         "version": "1.4.3"
+    },
+    "qic": {
+        "cmdline": [],
+        "modules": [
+            "qic",
+            "qic.commandline",
+            "qic.dsq",
+            "qic.json2html",
+            "qic.json2table",
+            "qic.tblfmt"
+        ],
+        "version": "1.1.8"
     },
     "qichacha": {
         "cmdline": [],
@@ -11307,6 +11519,8 @@
             "qiling.arch.arm64",
             "qiling.arch.arm64_const",
             "qiling.arch.arm_const",
+            "qiling.arch.engine",
+            "qiling.arch.evm",
             "qiling.arch.mips",
             "qiling.arch.mips_const",
             "qiling.arch.register",
@@ -11320,6 +11534,7 @@
             "qiling.const",
             "qiling.core",
             "qiling.core_hooks",
+            "qiling.core_hooks_types",
             "qiling.core_struct",
             "qiling.debugger",
             "qiling.debugger.debugger",
@@ -11347,11 +11562,13 @@
             "qiling.extensions.report.report",
             "qiling.extensions.sanitizers",
             "qiling.extensions.sanitizers.heap",
+            "qiling.extensions.trace",
             "qiling.extensions.windows_sdk",
             "qiling.extensions.windows_sdk.winsdk_dump",
             "qiling.loader",
             "qiling.loader.dos",
             "qiling.loader.elf",
+            "qiling.loader.evm",
             "qiling.loader.loader",
             "qiling.loader.macho",
             "qiling.loader.macho_parser",
@@ -11453,6 +11670,15 @@
             "qiling.os.posix.syscall.unistd",
             "qiling.os.posix.syscall.utsname",
             "qiling.os.posix.syscall.wait",
+            "qiling.os.qnx",
+            "qiling.os.qnx.const",
+            "qiling.os.qnx.helpers",
+            "qiling.os.qnx.map_msgtype",
+            "qiling.os.qnx.map_syscall",
+            "qiling.os.qnx.message",
+            "qiling.os.qnx.qnx",
+            "qiling.os.qnx.structs",
+            "qiling.os.qnx.syscall",
             "qiling.os.thread",
             "qiling.os.uefi",
             "qiling.os.uefi.PiMultiPhase",
@@ -11543,7 +11769,7 @@
             "qiling.os.windows.windows",
             "qiling.utils"
         ],
-        "version": "1.2.3"
+        "version": "1.2.4"
     },
     "qilum": {
         "cmdline": [],
@@ -12634,7 +12860,7 @@
     "qiskit": {
         "cmdline": [],
         "modules": [],
-        "version": "0.26.2"
+        "version": "0.27.0"
     },
     "qiskit-addon-jku": {
         "cmdline": [],
@@ -13249,7 +13475,7 @@
             "qiskit.optimization.problems.quadratic_program_element",
             "qiskit.optimization.problems.variable"
         ],
-        "version": "0.9.1"
+        "version": "0.9.2"
     },
     "qiskit-aqua-interfaces": {
         "cmdline": [],
@@ -13440,6 +13666,7 @@
             "qiskit.providers.ibmq.api.clients.random",
             "qiskit.providers.ibmq.api.clients.runtime",
             "qiskit.providers.ibmq.api.clients.runtime_ws",
+            "qiskit.providers.ibmq.api.clients.utils",
             "qiskit.providers.ibmq.api.clients.version",
             "qiskit.providers.ibmq.api.clients.websocket",
             "qiskit.providers.ibmq.api.exceptions",
@@ -13542,7 +13769,7 @@
             "qiskit.providers.ibmq.visualization.interactive.gate_map",
             "qiskit.providers.ibmq.visualization.interactive.plotly_wrapper"
         ],
-        "version": "0.13.1"
+        "version": "0.14.0"
     },
     "qiskit-ignis": {
         "cmdline": [],
@@ -13700,6 +13927,202 @@
             "qiskit_machine_learning.version"
         ],
         "version": "0.1.0"
+    },
+    "qiskit-metal": {
+        "cmdline": [],
+        "modules": [
+            "qiskit_metal",
+            "qiskit_metal._defaults",
+            "qiskit_metal._gui",
+            "qiskit_metal._gui.component_widget_ui",
+            "qiskit_metal._gui.elements_ui",
+            "qiskit_metal._gui.elements_window",
+            "qiskit_metal._gui.endcap_hfss_gui",
+            "qiskit_metal._gui.endcap_hfss_ui",
+            "qiskit_metal._gui.endcap_q3d_gui",
+            "qiskit_metal._gui.endcap_q3d_ui",
+            "qiskit_metal._gui.list_model_base",
+            "qiskit_metal._gui.main_window",
+            "qiskit_metal._gui.main_window_base",
+            "qiskit_metal._gui.main_window_rc_rc",
+            "qiskit_metal._gui.main_window_ui",
+            "qiskit_metal._gui.plot_window_ui",
+            "qiskit_metal._gui.renderer_gds_gui",
+            "qiskit_metal._gui.renderer_gds_model",
+            "qiskit_metal._gui.renderer_gds_ui",
+            "qiskit_metal._gui.renderer_hfss_gui",
+            "qiskit_metal._gui.renderer_hfss_model",
+            "qiskit_metal._gui.renderer_hfss_ui",
+            "qiskit_metal._gui.renderer_q3d_gui",
+            "qiskit_metal._gui.renderer_q3d_model",
+            "qiskit_metal._gui.renderer_q3d_ui",
+            "qiskit_metal._gui.tree_view_base",
+            "qiskit_metal._gui.utility",
+            "qiskit_metal._gui.utility._handle_qt_messages",
+            "qiskit_metal._gui.utility._toolbox_qt",
+            "qiskit_metal._gui.widgets",
+            "qiskit_metal._gui.widgets.all_components",
+            "qiskit_metal._gui.widgets.all_components.table_model_all_components",
+            "qiskit_metal._gui.widgets.all_components.table_view_all_components",
+            "qiskit_metal._gui.widgets.bases",
+            "qiskit_metal._gui.widgets.bases.QWidget_PlaceholderText",
+            "qiskit_metal._gui.widgets.bases.dict_tree_base",
+            "qiskit_metal._gui.widgets.bases.expanding_toolbar",
+            "qiskit_metal._gui.widgets.build_history",
+            "qiskit_metal._gui.widgets.build_history.build_history_scroll_area",
+            "qiskit_metal._gui.widgets.build_history.build_history_scroll_area_ui",
+            "qiskit_metal._gui.widgets.create_component_window",
+            "qiskit_metal._gui.widgets.create_component_window.model_view",
+            "qiskit_metal._gui.widgets.create_component_window.model_view.tree_delegate_param_entry",
+            "qiskit_metal._gui.widgets.create_component_window.model_view.tree_model_param_entry",
+            "qiskit_metal._gui.widgets.create_component_window.model_view.tree_view_param_entry",
+            "qiskit_metal._gui.widgets.create_component_window.parameter_entry_window",
+            "qiskit_metal._gui.widgets.create_component_window.parameter_entry_window_ui",
+            "qiskit_metal._gui.widgets.edit_component",
+            "qiskit_metal._gui.widgets.edit_component.component_widget",
+            "qiskit_metal._gui.widgets.edit_component.table_model_options",
+            "qiskit_metal._gui.widgets.edit_component.table_view_options",
+            "qiskit_metal._gui.widgets.edit_component.tree_model_options",
+            "qiskit_metal._gui.widgets.edit_component.tree_view_options",
+            "qiskit_metal._gui.widgets.log_widget",
+            "qiskit_metal._gui.widgets.log_widget.log_metal",
+            "qiskit_metal._gui.widgets.plot_widget",
+            "qiskit_metal._gui.widgets.plot_widget.plot_window",
+            "qiskit_metal._gui.widgets.qlibrary_display",
+            "qiskit_metal._gui.widgets.qlibrary_display.delegate_qlibrary",
+            "qiskit_metal._gui.widgets.qlibrary_display.file_model_qlibrary",
+            "qiskit_metal._gui.widgets.qlibrary_display.proxy_model_qlibrary",
+            "qiskit_metal._gui.widgets.qlibrary_display.tree_view_qlibrary",
+            "qiskit_metal._gui.widgets.variable_table",
+            "qiskit_metal._gui.widgets.variable_table.add_delete_table_ui",
+            "qiskit_metal._gui.widgets.variable_table.dialog_popup_ui",
+            "qiskit_metal._gui.widgets.variable_table.prop_val_table_gui",
+            "qiskit_metal._gui.widgets.variable_table.prop_val_table_model",
+            "qiskit_metal._gui.widgets.variable_table.right_click_table_view",
+            "qiskit_metal._is_design",
+            "qiskit_metal.analyses",
+            "qiskit_metal.analyses.em",
+            "qiskit_metal.analyses.em.cpw_calculations",
+            "qiskit_metal.analyses.em.kappa_calculation",
+            "qiskit_metal.analyses.hamiltonian",
+            "qiskit_metal.analyses.hamiltonian.HO_wavefunctions",
+            "qiskit_metal.analyses.hamiltonian.transmon_CPB_analytic",
+            "qiskit_metal.analyses.hamiltonian.transmon_analytics",
+            "qiskit_metal.analyses.hamiltonian.transmon_charge_basis",
+            "qiskit_metal.analyses.quantization",
+            "qiskit_metal.analyses.quantization.energy_participation_ratio",
+            "qiskit_metal.analyses.quantization.impedance",
+            "qiskit_metal.analyses.quantization.lumped_capacitive",
+            "qiskit_metal.analyses.sweep_options",
+            "qiskit_metal.analyses.sweep_options.sweeping",
+            "qiskit_metal.config",
+            "qiskit_metal.designs",
+            "qiskit_metal.designs.design_base",
+            "qiskit_metal.designs.design_planar",
+            "qiskit_metal.designs.interface_components",
+            "qiskit_metal.designs.net_info",
+            "qiskit_metal.draw",
+            "qiskit_metal.draw.basic",
+            "qiskit_metal.draw.mpl",
+            "qiskit_metal.draw.utility",
+            "qiskit_metal.qgeometries",
+            "qiskit_metal.qgeometries.qgeometries_handler",
+            "qiskit_metal.qlibrary",
+            "qiskit_metal.qlibrary._template",
+            "qiskit_metal.qlibrary.core",
+            "qiskit_metal.qlibrary.core._parsed_dynamic_attrs",
+            "qiskit_metal.qlibrary.core.base",
+            "qiskit_metal.qlibrary.core.qroute",
+            "qiskit_metal.qlibrary.core.qubit",
+            "qiskit_metal.qlibrary.couplers",
+            "qiskit_metal.qlibrary.couplers.cap_n_interdigital_tee",
+            "qiskit_metal.qlibrary.couplers.coupled_line_tee",
+            "qiskit_metal.qlibrary.couplers.line_tee",
+            "qiskit_metal.qlibrary.couplers.tunable_coupler_01",
+            "qiskit_metal.qlibrary.lumped",
+            "qiskit_metal.qlibrary.lumped.cap_3_interdigital",
+            "qiskit_metal.qlibrary.lumped.cap_n_interdigital",
+            "qiskit_metal.qlibrary.lumped.resonator_coil_rect",
+            "qiskit_metal.qlibrary.qubits",
+            "qiskit_metal.qlibrary.qubits.Transmon_Interdigitated",
+            "qiskit_metal.qlibrary.qubits.transmon_concentric",
+            "qiskit_metal.qlibrary.qubits.transmon_cross",
+            "qiskit_metal.qlibrary.qubits.transmon_cross_fl",
+            "qiskit_metal.qlibrary.qubits.transmon_pocket",
+            "qiskit_metal.qlibrary.qubits.transmon_pocket_6",
+            "qiskit_metal.qlibrary.qubits.transmon_pocket_cl",
+            "qiskit_metal.qlibrary.sample_shapes",
+            "qiskit_metal.qlibrary.sample_shapes.circle_caterpillar",
+            "qiskit_metal.qlibrary.sample_shapes.circle_raster",
+            "qiskit_metal.qlibrary.sample_shapes.n_gon",
+            "qiskit_metal.qlibrary.sample_shapes.n_square_spiral",
+            "qiskit_metal.qlibrary.sample_shapes.rectangle",
+            "qiskit_metal.qlibrary.sample_shapes.rectangle_hollow",
+            "qiskit_metal.qlibrary.sample_shapes.smiley_face",
+            "qiskit_metal.qlibrary.terminations",
+            "qiskit_metal.qlibrary.terminations.launchpad_wb",
+            "qiskit_metal.qlibrary.terminations.launchpad_wb_coupled",
+            "qiskit_metal.qlibrary.terminations.open_to_ground",
+            "qiskit_metal.qlibrary.terminations.short_to_ground",
+            "qiskit_metal.qlibrary.tlines",
+            "qiskit_metal.qlibrary.tlines.anchored_path",
+            "qiskit_metal.qlibrary.tlines.framed_path",
+            "qiskit_metal.qlibrary.tlines.meandered",
+            "qiskit_metal.qlibrary.tlines.mixed_path",
+            "qiskit_metal.qlibrary.tlines.pathfinder",
+            "qiskit_metal.qlibrary.tlines.straight_path",
+            "qiskit_metal.qlibrary.user_components",
+            "qiskit_metal.qlibrary.user_components.my_qcomponent",
+            "qiskit_metal.renderers",
+            "qiskit_metal.renderers.renderer_ansys",
+            "qiskit_metal.renderers.renderer_ansys.ansys_renderer",
+            "qiskit_metal.renderers.renderer_ansys.hfss_renderer",
+            "qiskit_metal.renderers.renderer_ansys.parse",
+            "qiskit_metal.renderers.renderer_ansys.q3d_renderer",
+            "qiskit_metal.renderers.renderer_base",
+            "qiskit_metal.renderers.renderer_base.renderer_base",
+            "qiskit_metal.renderers.renderer_base.renderer_gui_base",
+            "qiskit_metal.renderers.renderer_gds",
+            "qiskit_metal.renderers.renderer_gds.gds_renderer",
+            "qiskit_metal.renderers.renderer_gds.make_cheese",
+            "qiskit_metal.renderers.renderer_mpl",
+            "qiskit_metal.renderers.renderer_mpl.extensions",
+            "qiskit_metal.renderers.renderer_mpl.extensions.animated_text",
+            "qiskit_metal.renderers.renderer_mpl.mpl_canvas",
+            "qiskit_metal.renderers.renderer_mpl.mpl_interaction",
+            "qiskit_metal.renderers.renderer_mpl.mpl_renderer",
+            "qiskit_metal.renderers.renderer_mpl.mpl_toolbox",
+            "qiskit_metal.renderers.setup_default",
+            "qiskit_metal.tests",
+            "qiskit_metal.tests.assertions",
+            "qiskit_metal.tests.custom_decorators",
+            "qiskit_metal.tests.run_all_tests",
+            "qiskit_metal.tests.test_analyses",
+            "qiskit_metal.tests.test_default_options",
+            "qiskit_metal.tests.test_designs",
+            "qiskit_metal.tests.test_draw",
+            "qiskit_metal.tests.test_gui_basic",
+            "qiskit_metal.tests.test_qgeometries",
+            "qiskit_metal.tests.test_qlibrary_1_instantiate",
+            "qiskit_metal.tests.test_qlibrary_2_options",
+            "qiskit_metal.tests.test_qlibrary_3_functionality",
+            "qiskit_metal.tests.test_renderers",
+            "qiskit_metal.tests.test_speed",
+            "qiskit_metal.tests.test_toolbox_metal",
+            "qiskit_metal.tests.test_toolbox_python",
+            "qiskit_metal.toolbox_metal",
+            "qiskit_metal.toolbox_metal.about",
+            "qiskit_metal.toolbox_metal.exceptions",
+            "qiskit_metal.toolbox_metal.import_export",
+            "qiskit_metal.toolbox_metal.math_and_overrides",
+            "qiskit_metal.toolbox_metal.parsing",
+            "qiskit_metal.toolbox_python",
+            "qiskit_metal.toolbox_python._logging",
+            "qiskit_metal.toolbox_python.attr_dict",
+            "qiskit_metal.toolbox_python.display",
+            "qiskit_metal.toolbox_python.utility_functions"
+        ],
+        "version": "0.0.4"
     },
     "qiskit-nature": {
         "cmdline": [],
@@ -13920,7 +14343,7 @@
             "qiskit_qcware.qcware_job",
             "qiskit_qcware.qcware_provider"
         ],
-        "version": "0.1.1a10"
+        "version": "0.1.1a11"
     },
     "qiskit-quantum-knn": {
         "cmdline": [],
@@ -14873,7 +15296,7 @@
             "tests.lib",
             "tests.lib.test_experiment"
         ],
-        "version": "0.0.10a0"
+        "version": "0.0.11a0"
     },
     "qisquick": {
         "cmdline": [],
@@ -15241,6 +15664,23 @@
             "qiyu_api.ali_sms_api.base",
             "qiyu_api.ali_sms_api.gen",
             "qiyu_api.ali_sms_api.py_test_sms",
+            "qiyu_api.ali_top",
+            "qiyu_api.ali_top.args",
+            "qiyu_api.ali_top.args.product_get",
+            "qiyu_api.ali_top.args.tbk_sc_publisher_info_save",
+            "qiyu_api.ali_top.args.time_get",
+            "qiyu_api.ali_top.args.top_auth_token_create",
+            "qiyu_api.ali_top.args.user_seller_get",
+            "qiyu_api.ali_top.async_api",
+            "qiyu_api.ali_top.base_api",
+            "qiyu_api.ali_top.dt",
+            "qiyu_api.ali_top.dt.top_auth_token_create_token_result",
+            "qiyu_api.ali_top.exceptions",
+            "qiyu_api.ali_top.resp",
+            "qiyu_api.ali_top.resp.tbk_sc_publisher_info_save",
+            "qiyu_api.ali_top.resp.time_get",
+            "qiyu_api.ali_top.resp.top_auth_token_create",
+            "qiyu_api.ali_top.sync_api",
             "qiyu_api.apns_sdk_py",
             "qiyu_api.apns_sdk_py.api_async",
             "qiyu_api.apns_sdk_py.api_sync",
@@ -15303,13 +15743,14 @@
             "qiyu_api.ztk_api.test_slot",
             "qiyu_api.ztk_api.tkl_create_args",
             "qiyu_api.ztk_api.tkl_create_resp",
+            "qiyu_api.ztk_api.tkl_parse_args",
             "qiyu_api.ztk_api.tmall_chao_shi_args",
             "qiyu_api.ztk_api.tmall_shang_pin_args",
             "qiyu_api.ztk_api.ztk",
             "qiyu_api.ztk_api.ztk_std",
             "qiyu_api.ztk_api.ztk_sync"
         ],
-        "version": "0.3.5"
+        "version": "0.7.4"
     },
     "qiyu-sso": {
         "cmdline": [],
@@ -15388,7 +15829,7 @@
             "qj.qj",
             "qj_global"
         ],
-        "version": "0.1.7"
+        "version": "0.2.0"
     },
     "qjackcapture": {
         "cmdline": [],
@@ -15430,7 +15871,7 @@
             "qjdltools.ptutils",
             "qjdltools.transform"
         ],
-        "version": "0.3.7"
+        "version": "0.3.8"
     },
     "qjobs": {
         "cmdline": [],
@@ -15478,6 +15919,61 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "qkeras": {
+        "cmdline": [],
+        "modules": [
+            "qkeras",
+            "qkeras.autoqkeras",
+            "qkeras.autoqkeras.autoqkeras_internal",
+            "qkeras.autoqkeras.forgiving_metrics",
+            "qkeras.autoqkeras.forgiving_metrics.forgiving_bits",
+            "qkeras.autoqkeras.forgiving_metrics.forgiving_energy",
+            "qkeras.autoqkeras.forgiving_metrics.forgiving_factor",
+            "qkeras.autoqkeras.quantization_config",
+            "qkeras.autoqkeras.utils",
+            "qkeras.b2t",
+            "qkeras.bn_folding_utils",
+            "qkeras.callbacks",
+            "qkeras.codebook",
+            "qkeras.estimate",
+            "qkeras.qconv2d_batchnorm",
+            "qkeras.qconvolutional",
+            "qkeras.qdepthwiseconv2d_batchnorm",
+            "qkeras.qlayers",
+            "qkeras.qnormalization",
+            "qkeras.qoctave",
+            "qkeras.qpooling",
+            "qkeras.qrecurrent",
+            "qkeras.qtools",
+            "qkeras.qtools.config_public",
+            "qkeras.qtools.generate_layer_data_type_map",
+            "qkeras.qtools.interface",
+            "qkeras.qtools.qenergy",
+            "qkeras.qtools.qenergy.qenergy",
+            "qkeras.qtools.qgraph",
+            "qkeras.qtools.qtools_util",
+            "qkeras.qtools.quantized_operators",
+            "qkeras.qtools.quantized_operators.accumulator_factory",
+            "qkeras.qtools.quantized_operators.accumulator_impl",
+            "qkeras.qtools.quantized_operators.adder_factory",
+            "qkeras.qtools.quantized_operators.adder_impl",
+            "qkeras.qtools.quantized_operators.divider_factory",
+            "qkeras.qtools.quantized_operators.divider_impl",
+            "qkeras.qtools.quantized_operators.merge_factory",
+            "qkeras.qtools.quantized_operators.multiplier_factory",
+            "qkeras.qtools.quantized_operators.multiplier_impl",
+            "qkeras.qtools.quantized_operators.qbn_factory",
+            "qkeras.qtools.quantized_operators.quantizer_factory",
+            "qkeras.qtools.quantized_operators.quantizer_impl",
+            "qkeras.qtools.quantized_operators.subtractor_factory",
+            "qkeras.qtools.run_qtools",
+            "qkeras.qtools.settings",
+            "qkeras.quantizers",
+            "qkeras.safe_eval",
+            "qkeras.utils"
+        ],
+        "version": "0.9.0"
     },
     "qkit": {
         "cmdline": [],
@@ -15598,7 +16094,7 @@
             "cq.main",
             "cq.utils"
         ],
-        "version": "0.38.1"
+        "version": "0.39.0"
     },
     "ql-demo": {
         "cmdline": [],
@@ -15787,15 +16283,17 @@
             "Qlearners",
             "Qlearners.ANN",
             "Qlearners.Qlearner",
+            "Qlearners.Simple_ANN",
             "Qlearners.epsilon_decay",
             "Qlearners.recipes",
             "Qlearners.recipes.cartpole",
             "Qlearners.recipes.cartpole.cartpolebox2d",
-            "Qlearners.recipes.cartpole.train",
+            "Qlearners.recipes.cartpole.train_adam",
+            "Qlearners.recipes.cartpole.train_scg",
             "Qlearners.scg",
             "Qlearners.version"
         ],
-        "version": "0.13.1"
+        "version": "0.14.0"
     },
     "qlearngaming": {
         "cmdline": [],
@@ -15997,7 +16495,12 @@
             "tests.performance",
             "tests.stuff"
         ],
-        "version": "0.5.2"
+        "version": "0.5.4"
+    },
+    "qlibs-cyan": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.0"
     },
     "qlik-script-tools": {
         "cmdline": [
@@ -16150,7 +16653,7 @@
         "modules": [
             "qat"
         ],
-        "version": "0.0.3"
+        "version": "1.4.0"
     },
     "qlmail": {
         "cmdline": [],
@@ -16351,6 +16854,24 @@
         ],
         "version": "0.2"
     },
+    "qm-how-to-opensource-ama": {
+        "cmdline": [],
+        "modules": [
+            "how_to_opensource",
+            "how_to_opensource._version",
+            "how_to_opensource.core"
+        ],
+        "version": "0.0.3"
+    },
+    "qm-how-to-opensource-by-vta": {
+        "cmdline": [],
+        "modules": [
+            "how_to_opensource",
+            "how_to_opensource._version",
+            "how_to_opensource.core"
+        ],
+        "version": "0.0.1"
+    },
     "qm-ku": {
         "cmdline": [
             "QM.py",
@@ -16391,7 +16912,7 @@
             "qm_spider.threading_py",
             "qm_spider.top_keyword"
         ],
-        "version": "0.0.107"
+        "version": "0.0.117"
     },
     "qmachine": {
         "cmdline": [],
@@ -16563,7 +17084,7 @@
             "qmcpy.util.latnetbuilder_linker",
             "qmcpy.util.math_functions"
         ],
-        "version": "1.0"
+        "version": "1.0.1"
     },
     "qmctorch": {
         "cmdline": [
@@ -16578,72 +17099,137 @@
             "qmctorch.sampler.metropolis",
             "qmctorch.sampler.sampler_base",
             "qmctorch.sampler.walkers",
+            "qmctorch.scf",
+            "qmctorch.scf.calculator",
+            "qmctorch.scf.calculator.adf",
+            "qmctorch.scf.calculator.calculator_base",
+            "qmctorch.scf.calculator.pyscf",
+            "qmctorch.scf.molecule",
             "qmctorch.solver",
             "qmctorch.solver.solver_base",
-            "qmctorch.solver.solver_orbital",
-            "qmctorch.solver.solver_orbital_horovod",
+            "qmctorch.solver.solver_slater_jastrow",
+            "qmctorch.solver.solver_slater_jastrow_horovod",
             "qmctorch.utils",
             "qmctorch.utils.algebra_utils",
             "qmctorch.utils.hdf5_utils",
             "qmctorch.utils.interpolate",
             "qmctorch.utils.plot_data",
             "qmctorch.utils.stat_utils",
-            "qmctorch.utils.time_utils",
             "qmctorch.utils.torch_utils",
             "qmctorch.wavefunction",
-            "qmctorch.wavefunction.atomic_orbitals",
-            "qmctorch.wavefunction.calculator",
-            "qmctorch.wavefunction.calculator.adf",
-            "qmctorch.wavefunction.calculator.calculator_base",
-            "qmctorch.wavefunction.calculator.pyscf",
-            "qmctorch.wavefunction.electron_distance",
-            "qmctorch.wavefunction.fast_jastrow",
-            "qmctorch.wavefunction.jastrow",
-            "qmctorch.wavefunction.kinetic_pooling",
-            "qmctorch.wavefunction.molecule",
-            "qmctorch.wavefunction.norm_orbital",
-            "qmctorch.wavefunction.orbital_configurations",
-            "qmctorch.wavefunction.orbital_projector",
-            "qmctorch.wavefunction.pade_jastrow",
-            "qmctorch.wavefunction.pade_jastrow_polynomial",
-            "qmctorch.wavefunction.radial_functions",
-            "qmctorch.wavefunction.scaled_pade_jastrow",
-            "qmctorch.wavefunction.scaled_pade_jastrow_polynomial",
-            "qmctorch.wavefunction.slater_pooling",
-            "qmctorch.wavefunction.spherical_harmonics",
-            "qmctorch.wavefunction.two_body_jastrow_base",
+            "qmctorch.wavefunction.jastrows",
+            "qmctorch.wavefunction.jastrows.distance",
+            "qmctorch.wavefunction.jastrows.distance.electron_electron_distance",
+            "qmctorch.wavefunction.jastrows.distance.electron_nuclei_distance",
+            "qmctorch.wavefunction.jastrows.distance.scaling",
+            "qmctorch.wavefunction.jastrows.elec_elec",
+            "qmctorch.wavefunction.jastrows.elec_elec.jastrow_factor_electron_electron",
+            "qmctorch.wavefunction.jastrows.elec_elec.kernels",
+            "qmctorch.wavefunction.jastrows.elec_elec.kernels.fully_connected_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.elec_elec.kernels.jastrow_kernel_electron_electron_base",
+            "qmctorch.wavefunction.jastrows.elec_elec.kernels.pade_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.elec_elec.kernels.pade_jastrow_polynomial_kernel",
+            "qmctorch.wavefunction.jastrows.elec_elec.orbital_dependent_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.elec_elec_nuclei",
+            "qmctorch.wavefunction.jastrows.elec_elec_nuclei.jastrow_factor_electron_electron_nuclei",
+            "qmctorch.wavefunction.jastrows.elec_elec_nuclei.kernels",
+            "qmctorch.wavefunction.jastrows.elec_elec_nuclei.kernels.boys_handy_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.elec_elec_nuclei.kernels.fully_connected_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.elec_elec_nuclei.kernels.jastrow_kernel_electron_electron_nuclei_base",
+            "qmctorch.wavefunction.jastrows.elec_nuclei",
+            "qmctorch.wavefunction.jastrows.elec_nuclei.jastrow_factor_electron_nuclei",
+            "qmctorch.wavefunction.jastrows.elec_nuclei.kernels",
+            "qmctorch.wavefunction.jastrows.elec_nuclei.kernels.fully_connected_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.elec_nuclei.kernels.jastrow_kernel_electron_nuclei_base",
+            "qmctorch.wavefunction.jastrows.elec_nuclei.kernels.pade_jastrow_kernel",
+            "qmctorch.wavefunction.jastrows.jastrow_factor_combined_terms",
+            "qmctorch.wavefunction.orbitals",
+            "qmctorch.wavefunction.orbitals.atomic_orbitals",
+            "qmctorch.wavefunction.orbitals.atomic_orbitals_backflow",
+            "qmctorch.wavefunction.orbitals.atomic_orbitals_orbital_dependent_backflow",
+            "qmctorch.wavefunction.orbitals.backflow",
+            "qmctorch.wavefunction.orbitals.backflow.backflow_transformation",
+            "qmctorch.wavefunction.orbitals.backflow.kernels",
+            "qmctorch.wavefunction.orbitals.backflow.kernels.backflow_kernel_autodiff_inverse",
+            "qmctorch.wavefunction.orbitals.backflow.kernels.backflow_kernel_base",
+            "qmctorch.wavefunction.orbitals.backflow.kernels.backflow_kernel_fully_connected",
+            "qmctorch.wavefunction.orbitals.backflow.kernels.backflow_kernel_inverse",
+            "qmctorch.wavefunction.orbitals.backflow.kernels.backflow_kernel_power_sum",
+            "qmctorch.wavefunction.orbitals.backflow.kernels.backflow_kernel_square",
+            "qmctorch.wavefunction.orbitals.backflow.orbital_dependent_backflow_kernel",
+            "qmctorch.wavefunction.orbitals.backflow.orbital_dependent_backflow_transformation",
+            "qmctorch.wavefunction.orbitals.norm_orbital",
+            "qmctorch.wavefunction.orbitals.radial_functions",
+            "qmctorch.wavefunction.orbitals.spherical_harmonics",
+            "qmctorch.wavefunction.pooling",
+            "qmctorch.wavefunction.pooling.orbital_configurations",
+            "qmctorch.wavefunction.pooling.orbital_projector",
+            "qmctorch.wavefunction.pooling.slater_pooling",
+            "qmctorch.wavefunction.slater_combined_jastrow",
+            "qmctorch.wavefunction.slater_combined_jastrow_backflow",
+            "qmctorch.wavefunction.slater_jastrow",
+            "qmctorch.wavefunction.slater_jastrow_backflow",
+            "qmctorch.wavefunction.slater_jastrow_base",
+            "qmctorch.wavefunction.slater_orbital_dependent_jastrow",
             "qmctorch.wavefunction.wf_base",
-            "qmctorch.wavefunction.wf_orbital",
             "tests",
-            "tests.test_ao_derivatives_adf",
-            "tests.test_ao_derivatives_pyscf",
-            "tests.test_ao_values_adf",
-            "tests.test_ao_values_pyscf",
-            "tests.test_cartesian_harmonics",
-            "tests.test_fast_jastrow",
-            "tests.test_gto2sto_fit",
-            "tests.test_h2",
-            "tests.test_h2_adf",
-            "tests.test_h2_adf_jacobi",
-            "tests.test_h2_stats",
-            "tests.test_interpolate",
-            "tests.test_jastrow",
-            "tests.test_lih",
-            "tests.test_mo_values_adf",
-            "tests.test_molecule",
-            "tests.test_orbconf",
-            "tests.test_pade_jastrow",
-            "tests.test_pade_jastrow_polynom",
-            "tests.test_radial_gto",
-            "tests.test_radial_sto",
-            "tests.test_sampler",
-            "tests.test_scaled_pade_jastrow",
-            "tests.test_scaled_pade_jastrow_polynom",
-            "tests.test_slater",
-            "tests.test_trace_trick",
-            "tests.test_wavefunction"
+            "tests.path_utils",
+            "tests.sampler",
+            "tests.sampler.test_generalized_metropolis",
+            "tests.sampler.test_hamiltonian",
+            "tests.sampler.test_metropolis",
+            "tests.sampler.test_sampler_base",
+            "tests.sampler.test_walker",
+            "tests.scf",
+            "tests.scf.test_gto2sto_fit",
+            "tests.scf.test_molecule",
+            "tests.solver",
+            "tests.solver.test_h2",
+            "tests.solver.test_h2_adf",
+            "tests.solver.test_h2_adf_jacobi",
+            "tests.solver.test_h2_correlated",
+            "tests.solver.test_h2_stats",
+            "tests.solver.test_lih",
+            "tests.solver.test_lih_adf_backflow",
+            "tests.solver.test_lih_correlated",
+            "tests.solver.test_lih_generic_jastrow",
+            "tests.solver.test_lih_pyscf_backflow",
+            "tests.solver.test_lih_pyscf_compare_backflow",
+            "tests.solver.test_lih_pyscf_generic_backflow",
+            "tests.solver.test_lih_pyscf_orbital_dependent_backflow",
+            "tests.wavefunction",
+            "tests.wavefunction.orbitals",
+            "tests.wavefunction.orbitals.second_derivative",
+            "tests.wavefunction.orbitals.test_ao_derivatives_adf",
+            "tests.wavefunction.orbitals.test_ao_derivatives_pyscf",
+            "tests.wavefunction.orbitals.test_ao_values_adf",
+            "tests.wavefunction.orbitals.test_ao_values_pyscf",
+            "tests.wavefunction.orbitals.test_backflow_ao_derivatives_pyscf",
+            "tests.wavefunction.orbitals.test_cartesian_harmonics",
+            "tests.wavefunction.orbitals.test_cartesian_harmonics_adf",
+            "tests.wavefunction.orbitals.test_mo_values_adf",
+            "tests.wavefunction.orbitals.test_norm",
+            "tests.wavefunction.orbitals.test_orbital_dependent_backflow_ao_derivatives_pyscf",
+            "tests.wavefunction.orbitals.test_radial_functions",
+            "tests.wavefunction.orbitals.test_radial_gto",
+            "tests.wavefunction.orbitals.test_radial_sto",
+            "tests.wavefunction.orbitals.test_spherical_harmonics",
+            "tests.wavefunction.test_compare_slaterjastrow_backflow",
+            "tests.wavefunction.test_compare_slaterjastrow_orbital_dependent_backflow",
+            "tests.wavefunction.test_slater_orbital_dependent_jastrow",
+            "tests.wavefunction.test_slatercombinedjastrow",
+            "tests.wavefunction.test_slatercombinedjastrow_backflow",
+            "tests.wavefunction.test_slaterjastrow",
+            "tests.wavefunction.test_slaterjastrow_backflow",
+            "tests.wavefunction.test_slaterjastrow_cas",
+            "tests.wavefunction.test_slaterjastrow_ee_cusp",
+            "tests.wavefunction.test_slaterjastrow_generic",
+            "tests.wavefunction.test_slaterjastrow_orbital_dependent_backflow",
+            "tests_hvd",
+            "tests_hvd.test_h2_hvd",
+            "tests_hvd.test_hvd"
         ],
-        "version": "0.1.1"
+        "version": "0.2.0"
     },
     "qmdesc": {
         "cmdline": [],
@@ -16770,10 +17356,10 @@
     "qmenta-lint": {
         "cmdline": [],
         "modules": [
-            "qmenta",
-            "qmenta.lint"
+            "lint",
+            "lint.lint"
         ],
-        "version": "0.9.8"
+        "version": "0.9.9"
     },
     "qmenta-sdk-lib": {
         "cmdline": [],
@@ -16992,7 +17578,15 @@
             "qmk_cli.subcommands.env",
             "qmk_cli.subcommands.setup"
         ],
-        "version": "0.0.51"
+        "version": "0.2.0"
+    },
+    "qmk-dotty-dict": {
+        "cmdline": [],
+        "modules": [
+            "dotty_dict",
+            "dotty_dict.dotty_dict"
+        ],
+        "version": "1.3.0.post1"
     },
     "qml": {
         "cmdline": [],
@@ -17410,6 +18004,33 @@
         ],
         "version": "0.5.1dev1"
     },
+    "qmsolve": {
+        "cmdline": [],
+        "modules": [
+            "qmsolve",
+            "qmsolve.eigenstates",
+            "qmsolve.hamiltonian",
+            "qmsolve.particle_system",
+            "qmsolve.particle_system.particle_system",
+            "qmsolve.particle_system.single_particle",
+            "qmsolve.particle_system.two_bosons",
+            "qmsolve.particle_system.two_distinguishable_particles",
+            "qmsolve.particle_system.two_fermions",
+            "qmsolve.particle_system.two_particles",
+            "qmsolve.util",
+            "qmsolve.util.colour_functions",
+            "qmsolve.util.constants",
+            "qmsolve.util.file_handling",
+            "qmsolve.visualization",
+            "qmsolve.visualization.complex_slider_widget",
+            "qmsolve.visualization.single_particle_1D",
+            "qmsolve.visualization.single_particle_2D",
+            "qmsolve.visualization.single_particle_3D",
+            "qmsolve.visualization.two_identical_particles_1D",
+            "qmsolve.visualization.visualization"
+        ],
+        "version": "0.1.0"
+    },
     "qmspy": {
         "cmdline": [],
         "modules": [
@@ -17708,7 +18329,7 @@
             "qnorm.quantile_normalize",
             "qnorm.util"
         ],
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "qnpct": {
         "cmdline": [],
@@ -17748,7 +18369,7 @@
             "qnq.utils.onnx",
             "qnq.utils.quant_utils"
         ],
-        "version": "1.1.0"
+        "version": "1.1.2"
     },
     "qnupload": {
         "cmdline": [],
@@ -17954,7 +18575,7 @@
             "qdk.tests.test_functions",
             "qdk.tests.test_main"
         ],
-        "version": "0.17"
+        "version": "0.18"
     },
     "qodex-pi": {
         "cmdline": [],
@@ -17978,7 +18599,26 @@
             "qpi.tests.test_functions",
             "qpi.tests.tools"
         ],
-        "version": "0.11"
+        "version": "0.17"
+    },
+    "qodex-skud-bus": {
+        "cmdline": [],
+        "modules": [
+            "qodex_skud_bus",
+            "qodex_skud_bus.event_functions",
+            "qodex_skud_bus.exceptions",
+            "qodex_skud_bus.exceptions.exceptions",
+            "qodex_skud_bus.functions",
+            "qodex_skud_bus.main",
+            "qodex_skud_bus.points_logic",
+            "qodex_skud_bus.settings",
+            "qodex_skud_bus.tests",
+            "qodex_skud_bus.tests.functionst_test",
+            "qodex_skud_bus.tests.main_test",
+            "qodex_skud_bus.tests.main_test_qdk",
+            "qodex_skud_bus.tests.test_qdk"
+        ],
+        "version": "0.0.4"
     },
     "qogir": {
         "cmdline": [],
@@ -18064,7 +18704,7 @@
             "qondor.svj",
             "qondor.utils"
         ],
-        "version": "1.41"
+        "version": "1.43"
     },
     "qonduit": {
         "cmdline": [],
@@ -18427,32 +19067,10 @@
         "cmdline": [],
         "modules": [
             "qoqo",
-            "qoqo.__version__",
-            "qoqo.backends",
-            "qoqo.backends._backend_base_class",
-            "qoqo.circuit",
-            "qoqo.circuit.circuit",
-            "qoqo.devices",
-            "qoqo.devices._devices_abstract_base_class",
             "qoqo.do_unitary",
-            "qoqo.do_unitary.do_unitary",
-            "qoqo.measurements",
-            "qoqo.measurements._measurement_base_class",
-            "qoqo.measurements.basis_rotation_measurement",
-            "qoqo.measurements.cheated_basis_rotation_measurement",
-            "qoqo.measurements.cheated_measurement",
-            "qoqo.measurements.measurement_auxiliary_data_input",
-            "qoqo.operations",
-            "qoqo.operations._operations_base_classes",
-            "qoqo.operations.define_operations",
-            "qoqo.operations.measurement_operations",
-            "qoqo.operations.pragma_operations",
-            "qoqo.operations.single_qubit_gate_operations",
-            "qoqo.operations.two_qubit_gate_operations",
-            "qoqo.registers",
-            "qoqo.registers.registers"
+            "qoqo.do_unitary.do_unitary"
         ],
-        "version": "0.3.0"
+        "version": "0.4.4"
     },
     "qoqo-calculator-py03": {
         "cmdline": [],
@@ -18464,7 +19082,7 @@
         "modules": [
             "qoqo_calculator_pyo3"
         ],
-        "version": "0.2.0"
+        "version": "0.3.6"
     },
     "qoqo-mock": {
         "cmdline": [],
@@ -18476,7 +19094,19 @@
             "qoqo_mock.interface",
             "qoqo_mock.interface.mocked_interface"
         ],
-        "version": "0.2.0"
+        "version": "0.3.1"
+    },
+    "qoqo-myqlm": {
+        "cmdline": [],
+        "modules": [
+            "qoqo_myqlm",
+            "qoqo_myqlm.__version__",
+            "qoqo_myqlm.backend",
+            "qoqo_myqlm.backend.myqlm_backend",
+            "qoqo_myqlm.interface",
+            "qoqo_myqlm.interface.myqlm_interface"
+        ],
+        "version": "0.2.3"
     },
     "qoqo-pyquest": {
         "cmdline": [],
@@ -18488,7 +19118,7 @@
             "qoqo_pyquest.interface",
             "qoqo_pyquest.interface.pyquest_interface"
         ],
-        "version": "0.2.0"
+        "version": "0.3.2"
     },
     "qoqo-qasm": {
         "cmdline": [],
@@ -18500,7 +19130,7 @@
             "qoqo_qasm.interface",
             "qoqo_qasm.interface.qasm_interface"
         ],
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
     "qordoba": {
         "cmdline": [],
@@ -19016,7 +19646,7 @@
             "qpimage.meta",
             "qpimage.series"
         ],
-        "version": "0.7.0"
+        "version": "0.7.1"
     },
     "qpipe": {
         "cmdline": [],
@@ -19056,7 +19686,7 @@
             "qplot.qplot",
             "qplot.wheels"
         ],
-        "version": "1.0.3"
+        "version": "1.0.4"
     },
     "qplots": {
         "cmdline": [],
@@ -19211,7 +19841,7 @@
             "QuickProject.qrun",
             "QuickProject.tmpm"
         ],
-        "version": "0.7.1"
+        "version": "0.7.2"
     },
     "qprocessing": {
         "cmdline": [],
@@ -19434,6 +20064,45 @@
             "qpsphere.util"
         ],
         "version": "0.5.8"
+    },
+    "qpt": {
+        "cmdline": [],
+        "modules": [
+            "qpt",
+            "qpt._compatibility",
+            "qpt.command",
+            "qpt.executor",
+            "qpt.kernel",
+            "qpt.kernel.qpt_clr",
+            "qpt.kernel.qpt_clr.progressbar",
+            "qpt.kernel.qt_ui",
+            "qpt.kernel.qt_ui.mini_about",
+            "qpt.kernel.qt_ui.unzip",
+            "qpt.kernel.qt_ui.welcome",
+            "qpt.kernel.tools",
+            "qpt.kernel.tools._qpt_venv",
+            "qpt.kernel.tools._sys_tools",
+            "qpt.kernel.tools.interpreter",
+            "qpt.kernel.tools.log_op",
+            "qpt.kernel.tools.os_op",
+            "qpt.kernel.tools.pipreqs",
+            "qpt.kernel.tools.pipreqs.pipreqs",
+            "qpt.kernel.tools.terminal",
+            "qpt.modules",
+            "qpt.modules.auto_requirements",
+            "qpt.modules.base",
+            "qpt.modules.cuda",
+            "qpt.modules.package",
+            "qpt.modules.paddle_family",
+            "qpt.modules.python_env",
+            "qpt.modules.tools",
+            "qpt.modules.tools.check_paddle_noavx",
+            "qpt.run",
+            "qpt.smart_opt",
+            "qpt.sys_info",
+            "qpt.version"
+        ],
+        "version": "1.0a8.dev2"
     },
     "qpt-generator": {
         "cmdline": [],
@@ -19727,7 +20396,7 @@
             "QQHong.resource",
             "QQHong.tools"
         ],
-        "version": "0.0.66"
+        "version": "0.0.69"
     },
     "qqhongtools": {
         "cmdline": [],
@@ -19752,6 +20421,13 @@
             "QQLoginTool.QQtool"
         ],
         "version": "0.3.0"
+    },
+    "qqmail": {
+        "cmdline": [],
+        "modules": [
+            "qqmail"
+        ],
+        "version": "1.0"
     },
     "qqman": {
         "cmdline": [],
@@ -20200,7 +20876,7 @@
         "modules": [
             "qrandom"
         ],
-        "version": "0.5"
+        "version": "1.0"
     },
     "qrandom-noahgwood": {
         "cmdline": [],
@@ -20342,7 +21018,7 @@
     "qrcode": {
         "cmdline": [],
         "modules": [],
-        "version": "6.1"
+        "version": "7.1"
     },
     "qrcode-artistic": {
         "cmdline": [],
@@ -20367,6 +21043,29 @@
             "qrcode_song.myqrcode"
         ],
         "version": "0.3"
+    },
+    "qrcode-styled": {
+        "cmdline": [],
+        "modules": [
+            "qrcode_styled",
+            "qrcode_styled.base",
+            "qrcode_styled.base.image",
+            "qrcode_styled.main",
+            "qrcode_styled.pil",
+            "qrcode_styled.pil.figures",
+            "qrcode_styled.pil.figures.base",
+            "qrcode_styled.pil.figures.corner",
+            "qrcode_styled.pil.figures.dot",
+            "qrcode_styled.pil.image",
+            "qrcode_styled.svg",
+            "qrcode_styled.svg.figures",
+            "qrcode_styled.svg.figures.base",
+            "qrcode_styled.svg.figures.corner",
+            "qrcode_styled.svg.figures.dot",
+            "qrcode_styled.svg.image",
+            "qrcode_styled.types"
+        ],
+        "version": "0.1.0"
     },
     "qrcode-terminal": {
         "cmdline": [],
@@ -20458,7 +21157,7 @@
             "qredis.util",
             "qredis.window"
         ],
-        "version": "0.1.7"
+        "version": "0.3.0"
     },
     "qree": {
         "cmdline": [],
@@ -20949,7 +21648,7 @@
     "qrules": {
         "cmdline": [],
         "modules": [],
-        "version": "0.8.2"
+        "version": "0.9.0"
     },
     "qrun": {
         "cmdline": [],
@@ -20971,7 +21670,7 @@
         "modules": [
             "qrzlogger"
         ],
-        "version": "0.6.9"
+        "version": "0.7.0"
     },
     "qrztools": {
         "cmdline": [],
@@ -21209,6 +21908,7 @@
             "qsc.mercier",
             "qsc.newton",
             "qsc.qsc",
+            "qsc.r_singularity",
             "qsc.spectral_diff_matrix",
             "qsc.tests",
             "qsc.tests.test_fourier_interpolation",
@@ -21219,7 +21919,7 @@
             "qsc.tests.test_util",
             "qsc.util"
         ],
-        "version": "0.0.4"
+        "version": "0.0.5"
     },
     "qscan": {
         "cmdline": [],
@@ -21238,7 +21938,7 @@
     "qscintilla": {
         "cmdline": [],
         "modules": [],
-        "version": "2.12.1"
+        "version": "2.13.0"
     },
     "qsck": {
         "cmdline": [],
@@ -21308,7 +22008,7 @@
             "QScreenCast",
             "QScreenCast.QScreenCast"
         ],
-        "version": "0.1.35"
+        "version": "0.1.37"
     },
     "qsct": {
         "cmdline": [],
@@ -21532,7 +22232,7 @@
     "qsharp": {
         "cmdline": [],
         "modules": [],
-        "version": "0.17.2105.144881"
+        "version": "0.18.2106.148911"
     },
     "qsharp-chemistry": {
         "cmdline": [],
@@ -21542,7 +22242,7 @@
             "qsharp.tests",
             "qsharp.tests.test_chemistry"
         ],
-        "version": "0.17.2105.144881"
+        "version": "0.18.2106.148911"
     },
     "qsharp-core": {
         "cmdline": [],
@@ -21553,6 +22253,8 @@
             "qsharp.clients.iqsharp",
             "qsharp.clients.mock",
             "qsharp.config",
+            "qsharp.experimental",
+            "qsharp.ipython_magic",
             "qsharp.loader",
             "qsharp.packages",
             "qsharp.projects",
@@ -21567,7 +22269,7 @@
             "qsharp.utils",
             "qsharp.version"
         ],
-        "version": "0.17.2105.144881"
+        "version": "0.18.2106.148911"
     },
     "qshell": {
         "cmdline": [],
@@ -21616,7 +22318,7 @@
     "qsiprep": {
         "cmdline": [],
         "modules": [],
-        "version": "0.13.0"
+        "version": "0.14.0"
     },
     "qsiprep-container": {
         "cmdline": [],
@@ -21624,7 +22326,7 @@
             "qsiprep_docker",
             "qsiprep_singularity"
         ],
-        "version": "0.13.0"
+        "version": "0.14.0"
     },
     "qsl": {
         "cmdline": [],
@@ -22424,7 +23126,7 @@
         "modules": [
             "Qt"
         ],
-        "version": "1.3.3"
+        "version": "1.3.4"
     },
     "qt-pyqt-pyside-custom-widgets": {
         "cmdline": [],
@@ -22435,7 +23137,7 @@
             "Custom_Widgets.ProgressIndicator.ui_interface",
             "Custom_Widgets.Widgets"
         ],
-        "version": "0.1.4"
+        "version": "0.2.4"
     },
     "qt-range-slider": {
         "cmdline": [],
@@ -23039,7 +23741,7 @@
             "qtawesome.icon_browser",
             "qtawesome.iconic_font"
         ],
-        "version": "1.0.2"
+        "version": "1.0.3"
     },
     "qtazu": {
         "cmdline": [],
@@ -23154,7 +23856,7 @@
             "qtconsole.usage",
             "qtconsole.util"
         ],
-        "version": "5.1.0"
+        "version": "5.1.1"
     },
     "qtcurate": {
         "cmdline": [],
@@ -23402,7 +24104,7 @@
             "qtgrid",
             "qtgrid.qtgrid"
         ],
-        "version": "1.0.0b2"
+        "version": "1.0.0"
     },
     "qtgui": {
         "cmdline": [],
@@ -23566,7 +24268,7 @@
     "qtile": {
         "cmdline": [],
         "modules": [],
-        "version": "0.17.0"
+        "version": "0.18.0"
     },
     "qtile-plasma": {
         "cmdline": [],
@@ -24863,8 +25565,7 @@
             "QtPyNetwork",
             "QtPyNetwork.client",
             "QtPyNetwork.client.QThreadedClient",
-            "QtPyNetwork.core",
-            "QtPyNetwork.core.crypto",
+            "QtPyNetwork.exceptions",
             "QtPyNetwork.models",
             "QtPyNetwork.models.Device",
             "QtPyNetwork.server",
@@ -24873,10 +25574,11 @@
             "QtPyNetwork.server.QThreadedServer",
             "examples",
             "examples.balanced_server",
+            "examples.balanced_server_inheritance",
             "examples.client",
             "examples.threaded_server"
         ],
-        "version": "0.4.4"
+        "version": "0.5.3"
     },
     "qtpynodeeditor": {
         "cmdline": [],
@@ -24924,6 +25626,7 @@
             "qtpyt.base",
             "qtpyt.base._kernels",
             "qtpyt.base.greenfunction",
+            "qtpyt.base.intgreenfunction",
             "qtpyt.base.leads",
             "qtpyt.base.selfenergy",
             "qtpyt.base.test_kernels",
@@ -24934,6 +25637,7 @@
             "qtpyt.block_tridiag.greenfunction",
             "qtpyt.block_tridiag.recursive",
             "qtpyt.block_tridiag.solvers",
+            "qtpyt.bond_current",
             "qtpyt.continued_fraction",
             "qtpyt.kernels",
             "qtpyt.kernels.hs_cpu",
@@ -24942,6 +25646,12 @@
             "qtpyt.kernels.linalg_gpu",
             "qtpyt.kernels.test_linalg_cpu",
             "qtpyt.kernels.test_linalg_gpu",
+            "qtpyt.lo",
+            "qtpyt.lo.block_inv",
+            "qtpyt.lo.coupledhamiltonian",
+            "qtpyt.lo.test_tools",
+            "qtpyt.lo.tk_gpaw",
+            "qtpyt.lo.tools",
             "qtpyt.surface",
             "qtpyt.surface._unfold_numba",
             "qtpyt.surface.kpts",
@@ -24960,7 +25670,7 @@
             "qttools.gpaw",
             "qttools.misc"
         ],
-        "version": "0.5.1"
+        "version": "0.5.3"
     },
     "qtpyvcp": {
         "cmdline": [],
@@ -25374,7 +26084,7 @@
             "tests.test_numeric_suffix",
             "tests.test_ports_entry"
         ],
-        "version": "1.10.6"
+        "version": "1.10.7"
     },
     "qtrio": {
         "cmdline": [],
@@ -25387,6 +26097,31 @@
             "qtrotate"
         ],
         "version": "2.1.7"
+    },
+    "qts": {
+        "cmdline": [],
+        "modules": [
+            "qts",
+            "qts.QtCore",
+            "qts.QtGui",
+            "qts.QtWidgets",
+            "qts._cli",
+            "qts._core",
+            "qts._errors",
+            "qts._tests",
+            "qts._tests.conftest",
+            "qts._tests.qt",
+            "qts._tests.qt.test_core",
+            "qts._tests.qt.test_gui",
+            "qts._tests.qt.test_widgets",
+            "qts._tests.test_cli",
+            "qts._tests.test_core",
+            "qts._tests.test_overall",
+            "qts._tests.test_util",
+            "qts._version",
+            "qts.util"
+        ],
+        "version": "0.2"
     },
     "qtsass": {
         "cmdline": [],
@@ -25535,10 +26270,11 @@
             "qtstylish",
             "qtstylish.demo_widget",
             "qtstylish.make_screenshots",
+            "qtstylish.modern_window",
             "qtstylish.qtstylish",
             "qtstylish.stylesheets"
         ],
-        "version": "0.1.0"
+        "version": "0.1.3"
     },
     "qtt": {
         "cmdline": [],
@@ -25639,6 +26375,16 @@
         ],
         "version": "1.2.3"
     },
+    "qtterm": {
+        "cmdline": [],
+        "modules": [
+            "qtterm",
+            "qtterm.backend",
+            "qtterm.frontend",
+            "qtterm.procinfo"
+        ],
+        "version": "0.5"
+    },
     "qttk": {
         "cmdline": [],
         "modules": [
@@ -25690,6 +26436,7 @@
         "cmdline": [],
         "modules": [
             "qttp",
+            "qttp.other_apis",
             "qttp.test",
             "qttp.tools",
             "qttp.tools.alerts",
@@ -25707,7 +26454,7 @@
             "qttp.trading_form",
             "qttp.trading_forms"
         ],
-        "version": "0.2.2"
+        "version": "0.3.6"
     },
     "qtum": {
         "cmdline": [],
@@ -26394,7 +27141,7 @@
             "tests.test_utils.test_common",
             "tests.test_utils.test_datetime_func"
         ],
-        "version": "0.2.4"
+        "version": "0.2.6"
     },
     "quadranpy": {
         "cmdline": [],
@@ -26479,6 +27226,14 @@
             "quadriga.public"
         ],
         "version": "0.6.1"
+    },
+    "quadroots": {
+        "cmdline": [],
+        "modules": [
+            "quadroots",
+            "quadroots.quadroots"
+        ],
+        "version": "0.0.13"
     },
     "quadrotorenvironment": {
         "cmdline": [],
@@ -26747,6 +27502,18 @@
         ],
         "version": "2.0.8"
     },
+    "quake": {
+        "cmdline": [],
+        "modules": [
+            "quake",
+            "quake.cli",
+            "quake.cli_host",
+            "quake.cli_info",
+            "quake.cli_init",
+            "quake.quake"
+        ],
+        "version": "0.1.1"
+    },
     "quake-cli-tools": {
         "cmdline": [],
         "modules": [
@@ -26795,6 +27562,11 @@
         ],
         "version": "0.2"
     },
+    "quakeio": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.6"
+    },
     "quakelabeler": {
         "cmdline": [],
         "modules": [
@@ -26802,6 +27574,25 @@
             "quakelabeler.classes"
         ],
         "version": "0.0.1"
+    },
+    "quaker": {
+        "cmdline": [],
+        "modules": [
+            "quaker",
+            "quaker_lib",
+            "quaker_lib.application",
+            "quaker_lib.directives",
+            "quaker_lib.directives.custom",
+            "quaker_lib.directives.metadata",
+            "quaker_lib.directives.sphinx",
+            "quaker_lib.html5writer",
+            "quaker_lib.index",
+            "quaker_lib.main",
+            "quaker_lib.page",
+            "quaker_lib.theme",
+            "quaker_lib.util"
+        ],
+        "version": "1.0.1"
     },
     "quakestats": {
         "cmdline": [],
@@ -26905,12 +27696,15 @@
             "qualichat",
             "qualichat.abc",
             "qualichat.chat",
+            "qualichat.colors",
             "qualichat.core",
             "qualichat.enums",
-            "qualichat.graphs",
-            "qualichat.models"
+            "qualichat.features",
+            "qualichat.models",
+            "qualichat.regex",
+            "qualichat.utils"
         ],
-        "version": "1.1.0"
+        "version": "1.3.0"
     },
     "qualicscli": {
         "cmdline": [],
@@ -27051,10 +27845,25 @@
         ],
         "version": "0.0.4"
     },
+    "qualitube": {
+        "cmdline": [],
+        "modules": [
+            "qualitube.channel",
+            "qualitube.main",
+            "qualitube.playlist_items",
+            "qualitube.videos"
+        ],
+        "version": "0.1.0"
+    },
     "quality": {
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "quality-checks": {
+        "cmdline": [],
+        "modules": [],
+        "version": "3.7.144"
     },
     "quality-covers": {
         "cmdline": [],
@@ -27531,6 +28340,64 @@
         ],
         "version": "0.0.9"
     },
+    "qualysetl": {
+        "cmdline": [],
+        "modules": [
+            "qualys_etl",
+            "qualys_etl.etld_asset_inventory",
+            "qualys_etl.etld_asset_inventory.asset_inventory_process_00_extract",
+            "qualys_etl.etld_asset_inventory.asset_inventory_process_00_extract_controller",
+            "qualys_etl.etld_asset_inventory.asset_inventory_process_01_transform_to_shelve",
+            "qualys_etl.etld_asset_inventory.asset_inventory_process_03_load_csv",
+            "qualys_etl.etld_asset_inventory.asset_inventory_process_04_load_sqlite",
+            "qualys_etl.etld_asset_inventory.asset_inventory_process_05_distribution",
+            "qualys_etl.etld_asset_inventory.etld_00_spawn_workflow_manager_asset_inventory",
+            "qualys_etl.etld_asset_inventory.etld_01_workload_manager_asset_inventory",
+            "qualys_etl.etld_host_list",
+            "qualys_etl.etld_host_list.etld_00_spawn_workflow_manager_host_list",
+            "qualys_etl.etld_host_list.etld_01_workload_manager_host_list",
+            "qualys_etl.etld_host_list.host_list_process_00_extract",
+            "qualys_etl.etld_host_list.host_list_process_01_transform_to_shelve",
+            "qualys_etl.etld_host_list.host_list_process_02_load_json",
+            "qualys_etl.etld_host_list.host_list_process_03_load_csv",
+            "qualys_etl.etld_host_list.host_list_process_04_load_sqlite",
+            "qualys_etl.etld_host_list.host_list_process_05_distribution",
+            "qualys_etl.etld_host_list_detection",
+            "qualys_etl.etld_host_list_detection.etld_00_spawn_workflow_manager_host_list_detection",
+            "qualys_etl.etld_host_list_detection.etld_01_workflow_manager_host_list_detection",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_00_extract",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_00_extract_controller",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_01_transform_to_shelve",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_02_load_json",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_03_load_csv",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_04_load_sqlite",
+            "qualys_etl.etld_host_list_detection.host_list_detection_process_05_distribution",
+            "qualys_etl.etld_knowledgebase",
+            "qualys_etl.etld_knowledgebase.etld_00_spawn_workflow_manager_knowledgebase",
+            "qualys_etl.etld_knowledgebase.etld_01_workflow_manager_knowledgebase",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_00_extract",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_01_transform_to_shelve",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_02_load_json",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_03_load_csv",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_03_load_cve_qid_csv",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_04_load_sqlite",
+            "qualys_etl.etld_knowledgebase.knowledgebase_process_05_distribution",
+            "qualys_etl.etld_lib",
+            "qualys_etl.etld_lib.etld_lib_config",
+            "qualys_etl.etld_lib.etld_lib_credentials",
+            "qualys_etl.etld_lib.etld_lib_datetime",
+            "qualys_etl.etld_lib.etld_lib_distribution",
+            "qualys_etl.etld_lib.etld_lib_extract_transform_load_distribute",
+            "qualys_etl.etld_lib.etld_lib_functions",
+            "qualys_etl.etld_lib.etld_lib_manager_help",
+            "qualys_etl.etld_lib.etld_lib_spawn_etl",
+            "qualys_etl.etld_lib.etld_lib_sqlite_tables",
+            "qualys_etl.etld_templates",
+            "qualys_etl.etld_templates.etld_create_host_list_extract_cloud_server_tags",
+            "qualys_etl.qetl_manage_user"
+        ],
+        "version": "0.6.96"
+    },
     "qualysutils": {
         "cmdline": [],
         "modules": [
@@ -27698,28 +28565,49 @@
             "Quanlse",
             "Quanlse.Define",
             "Quanlse.Define.Settings",
-            "Quanlse.Pulse",
+            "Quanlse.ErrorMitigation",
+            "Quanlse.ErrorMitigation.Utils",
+            "Quanlse.ErrorMitigation.Utils.Utils",
+            "Quanlse.ErrorMitigation.Utils.Visualization",
+            "Quanlse.ErrorMitigation.ZNE",
+            "Quanlse.ErrorMitigation.ZNE.Extrapolation",
+            "Quanlse.QHamiltonian",
             "Quanlse.QOperation",
             "Quanlse.QOperation.FixedGate",
             "Quanlse.QOperation.RotationGate",
+            "Quanlse.QOperator",
             "Quanlse.QPlatform",
             "Quanlse.QPlatform.Error",
             "Quanlse.QPlatform.Utilities",
             "Quanlse.QRegPool",
             "Quanlse.QRpc",
             "Quanlse.QTask",
-            "Quanlse.QuanlseEnv",
+            "Quanlse.QWaveform",
+            "Quanlse.Scheduler",
+            "Quanlse.Scheduler.Ion",
+            "Quanlse.Scheduler.Ion.DefaultPulseGenerator",
+            "Quanlse.Scheduler.SchedulerPipeline",
+            "Quanlse.Scheduler.SchedulerPulseGenerator",
+            "Quanlse.Scheduler.Superconduct",
+            "Quanlse.Scheduler.Superconduct.DefaultPipeline",
+            "Quanlse.Scheduler.Superconduct.DefaultPulseGenerator",
+            "Quanlse.Scheduler.Superconduct.RBPulseGenerator",
+            "Quanlse.Simulator",
+            "Quanlse.Simulator.PulseSim1Q",
+            "Quanlse.Simulator.PulseSim3Q",
             "Quanlse.Utils",
             "Quanlse.Utils.Benchmark",
-            "Quanlse.Utils.Hamiltonian",
-            "Quanlse.Utils.Operator",
+            "Quanlse.Utils.Bloch",
+            "Quanlse.Utils.Clifford",
+            "Quanlse.Utils.Functions",
+            "Quanlse.Utils.Infidelity",
             "Quanlse.Utils.Plot",
-            "Quanlse.Utils.Tools",
-            "Quanlse.Utils.Waveforms",
+            "Quanlse.Utils.RandomizedBenchmarking",
             "Quanlse.remoteOptimizer",
-            "Quanlse.remoteSimulator"
+            "Quanlse.remoteSimulator",
+            "Quanlse.remoteZNE"
         ],
-        "version": "1.1.0"
+        "version": "2.0.0"
     },
     "quanmodule": {
         "cmdline": [],
@@ -27963,7 +28851,7 @@
             "quantdata_sdk.response",
             "quantdata_sdk.utils"
         ],
-        "version": "0.2.0"
+        "version": "0.2.3"
     },
     "quant-experiment": {
         "cmdline": [],
@@ -28034,15 +28922,6 @@
             "quant_sdk_lite.quantsdklite"
         ],
         "version": "1.0.4"
-    },
-    "quant-service": {
-        "cmdline": [],
-        "modules": [
-            "db",
-            "db.db",
-            "tests"
-        ],
-        "version": "0.0.3"
     },
     "quant-survey": {
         "cmdline": [],
@@ -29159,7 +30038,6 @@
         "cmdline": [],
         "modules": [
             "Internal",
-            "Internal.IO",
             "Internal.Runtime",
             "Internal.Runtime.CompilerServices",
             "Internal.Win32",
@@ -29195,6 +30073,7 @@
             "QuantConnect.AlgorithmFactory.Python",
             "QuantConnect.AlgorithmFactory.Python.Wrappers",
             "QuantConnect.Api",
+            "QuantConnect.Api.Serialization",
             "QuantConnect.Benchmarks",
             "QuantConnect.Brokerages",
             "QuantConnect.Brokerages.Backtesting",
@@ -29230,6 +30109,7 @@
             "QuantConnect.Data.Custom.TradingEconomics",
             "QuantConnect.Data.Custom.USEnergy",
             "QuantConnect.Data.Custom.USTreasury",
+            "QuantConnect.Data.Custom.VIXCentral",
             "QuantConnect.Data.Fundamental",
             "QuantConnect.Data.Market",
             "QuantConnect.Data.Shortable",
@@ -29282,6 +30162,7 @@
             "QuantConnect.Securities",
             "QuantConnect.Securities.Cfd",
             "QuantConnect.Securities.Crypto",
+            "QuantConnect.Securities.CurrencyConversion",
             "QuantConnect.Securities.Equity",
             "QuantConnect.Securities.Forex",
             "QuantConnect.Securities.Future",
@@ -29325,6 +30206,7 @@
             "System.Drawing",
             "System.Globalization",
             "System.IO",
+            "System.IO.Enumeration",
             "System.IO.Strategies",
             "System.Linq",
             "System.Net",
@@ -29368,7 +30250,7 @@
             "System.Windows.Input",
             "System.Windows.Markup"
         ],
-        "version": "11657"
+        "version": "12283"
     },
     "quantdata": {
         "cmdline": [],
@@ -29600,6 +30482,7 @@
             "quantecon.lqnash",
             "quantecon.lss",
             "quantecon.markov",
+            "quantecon.markov._ddp_linprog_simplex",
             "quantecon.markov.approximation",
             "quantecon.markov.core",
             "quantecon.markov.ddp",
@@ -29608,10 +30491,15 @@
             "quantecon.markov.utilities",
             "quantecon.matrix_eqn",
             "quantecon.optimize",
+            "quantecon.optimize.linprog_simplex",
+            "quantecon.optimize.minmax",
             "quantecon.optimize.nelder_mead",
+            "quantecon.optimize.pivoting",
             "quantecon.optimize.root_finding",
             "quantecon.optimize.scalar_maximization",
             "quantecon.optimize.tests",
+            "quantecon.optimize.tests.test_linprog_simplex",
+            "quantecon.optimize.tests.test_minmax",
             "quantecon.optimize.tests.test_nelder_mead",
             "quantecon.optimize.tests.test_root_finding",
             "quantecon.optimize.tests.test_scalar_max",
@@ -29663,7 +30551,7 @@
             "quantecon.util.timing",
             "quantecon.version"
         ],
-        "version": "0.5.0"
+        "version": "0.5.1"
     },
     "quantecon-book-theme": {
         "cmdline": [],
@@ -29671,7 +30559,7 @@
             "quantecon_book_theme",
             "quantecon_book_theme.launch"
         ],
-        "version": "0.2.3"
+        "version": "0.2.5"
     },
     "quanter": {
         "cmdline": [],
@@ -30004,7 +30892,7 @@
         "modules": [
             "quantiphy"
         ],
-        "version": "2.13.0"
+        "version": "2.14.0"
     },
     "quantiphy-eval": {
         "cmdline": [],
@@ -30134,7 +31022,7 @@
             "quantiphyse.utils.logger",
             "quantiphyse.utils.plugins"
         ],
-        "version": "0.9.7.post6"
+        "version": "0.9.8.post1"
     },
     "quantiphyse-asl": {
         "cmdline": [],
@@ -30170,6 +31058,21 @@
             "quantiphyse_cvr.widget"
         ],
         "version": "0.0.2.post4"
+    },
+    "quantiphyse-datasim": {
+        "cmdline": [],
+        "modules": [
+            "quantiphyse_datasim",
+            "quantiphyse_datasim._version",
+            "quantiphyse_datasim.data_model_views",
+            "quantiphyse_datasim.data_models",
+            "quantiphyse_datasim.model",
+            "quantiphyse_datasim.process",
+            "quantiphyse_datasim.struc_model_views",
+            "quantiphyse_datasim.struc_models",
+            "quantiphyse_datasim.widget"
+        ],
+        "version": "0.1.0.post4"
     },
     "quantiphyse-dce": {
         "cmdline": [],
@@ -30227,19 +31130,6 @@
             "quantiphyse_fsl.widget"
         ],
         "version": "0.9.2.post2"
-    },
-    "quantiphyse-perfsim": {
-        "cmdline": [],
-        "modules": [
-            "quantiphyse_perfsim",
-            "quantiphyse_perfsim._version",
-            "quantiphyse_perfsim.data_models",
-            "quantiphyse_perfsim.model",
-            "quantiphyse_perfsim.process",
-            "quantiphyse_perfsim.struc_models",
-            "quantiphyse_perfsim.widget"
-        ],
-        "version": "0.0.2.post12"
     },
     "quantiphyse-qbold": {
         "cmdline": [],
@@ -30522,22 +31412,98 @@
         ],
         "version": "0.12.4"
     },
+    "quantities-scidash": {
+        "cmdline": [],
+        "modules": [
+            "quantities",
+            "quantities.constants",
+            "quantities.constants._codata",
+            "quantities.constants._utils",
+            "quantities.constants.alpha",
+            "quantities.constants.astronomy",
+            "quantities.constants.atomicunits",
+            "quantities.constants.deuteron",
+            "quantities.constants.electromagnetism",
+            "quantities.constants.electron",
+            "quantities.constants.helion",
+            "quantities.constants.mathematical",
+            "quantities.constants.muon",
+            "quantities.constants.naturalunits",
+            "quantities.constants.neutron",
+            "quantities.constants.proton",
+            "quantities.constants.quantum",
+            "quantities.constants.relationships",
+            "quantities.constants.statisticalmechanics",
+            "quantities.constants.tau",
+            "quantities.constants.triton",
+            "quantities.constants.weak",
+            "quantities.constants.xray",
+            "quantities.decorators",
+            "quantities.dimensionality",
+            "quantities.markup",
+            "quantities.quantity",
+            "quantities.registry",
+            "quantities.tests",
+            "quantities.tests.common",
+            "quantities.tests.test_arithmetic",
+            "quantities.tests.test_comparison",
+            "quantities.tests.test_constants",
+            "quantities.tests.test_conversion",
+            "quantities.tests.test_dimensionality",
+            "quantities.tests.test_formatting",
+            "quantities.tests.test_methods",
+            "quantities.tests.test_persistence",
+            "quantities.tests.test_umath",
+            "quantities.tests.test_uncertainty",
+            "quantities.tests.test_units",
+            "quantities.umath",
+            "quantities.uncertainquantity",
+            "quantities.unitquantity",
+            "quantities.units",
+            "quantities.units.acceleration",
+            "quantities.units.angle",
+            "quantities.units.area",
+            "quantities.units.compound",
+            "quantities.units.concentration",
+            "quantities.units.dimensionless",
+            "quantities.units.electromagnetism",
+            "quantities.units.energy",
+            "quantities.units.force",
+            "quantities.units.frequency",
+            "quantities.units.heat",
+            "quantities.units.information",
+            "quantities.units.length",
+            "quantities.units.mass",
+            "quantities.units.power",
+            "quantities.units.prefixes",
+            "quantities.units.pressure",
+            "quantities.units.radiation",
+            "quantities.units.substance",
+            "quantities.units.temperature",
+            "quantities.units.time",
+            "quantities.units.velocity",
+            "quantities.units.viscosity",
+            "quantities.units.volume"
+        ],
+        "version": "0.12.4.3"
+    },
     "quantity": {
         "cmdline": [],
         "modules": [
             "quantity",
             "quantity.converter",
+            "quantity.cwdmeta",
             "quantity.exceptions",
             "quantity.money",
-            "quantity.money.converter",
             "quantity.money.currencies",
-            "quantity.money.moneybase",
             "quantity.predefined",
-            "quantity.qtybase",
+            "quantity.registry",
+            "quantity.si_prefixes",
             "quantity.term",
+            "quantity.utils",
             "quantity.version"
         ],
-        "version": "0.10.1"
+        "version": "0.11.2"
     },
     "quantity-value": {
         "cmdline": [],
@@ -30610,6 +31576,15 @@
             "quantized_mesh_tile.utils"
         ],
         "version": "0.6.1"
+    },
+    "quantkit": {
+        "cmdline": [],
+        "modules": [
+            "quantkit",
+            "quantkit._version",
+            "quantkit.core"
+        ],
+        "version": "0.0.1rc1"
     },
     "quantkits": {
         "cmdline": [],
@@ -31628,7 +32603,7 @@
             "quantulum3.tests.test_no_classifier",
             "quantulum3.tests.test_setup"
         ],
-        "version": "0.7.6"
+        "version": "0.7.7"
     },
     "quantum": {
         "cmdline": [],
@@ -31819,8 +32794,15 @@
     },
     "quantum-circuit-slicer": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.0.3"
+        "modules": [
+            "qcs",
+            "qcs.breakbarrier",
+            "qcs.gatefinder",
+            "qcs.qcs",
+            "qcs.slicer",
+            "qcs.workfuncs"
+        ],
+        "version": "0.0.7"
     },
     "quantum-cli": {
         "cmdline": [],
@@ -32328,15 +33310,72 @@
     "quantumcat": {
         "cmdline": [],
         "modules": [
-            "quantumcat.algorithm",
-            "quantumcat.application",
+            "quantumcat",
+            "quantumcat.algorithms",
+            "quantumcat.algorithms.grovers_algorithm",
+            "quantumcat.applications",
+            "quantumcat.applications.generator",
+            "quantumcat.applications.generator.otp",
+            "quantumcat.applications.generator.password",
+            "quantumcat.applications.generator.random_number",
             "quantumcat.circuit",
-            "quantumcat.gate",
-            "quantumcat.gate.x_gate",
-            "quantumcat.gate.y_gate",
-            "quantumcat.gate.z_gate"
+            "quantumcat.circuit.circuit",
+            "quantumcat.circuit.convert",
+            "quantumcat.circuit.execute_circuit",
+            "quantumcat.circuit.op_type",
+            "quantumcat.exceptions",
+            "quantumcat.exceptions.api_error",
+            "quantumcat.exceptions.circuit_error",
+            "quantumcat.exceptions.exception",
+            "quantumcat.exceptions.install_error",
+            "quantumcat.exceptions.otp_length",
+            "quantumcat.exceptions.password_length",
+            "quantumcat.gates",
+            "quantumcat.gates.custom_gates",
+            "quantumcat.gates.custom_gates.cirq",
+            "quantumcat.gates.custom_gates.cirq.c3sx_gate",
+            "quantumcat.gates.custom_gates.cirq.c3x_gate",
+            "quantumcat.gates.custom_gates.cirq.c4x_gate",
+            "quantumcat.gates.custom_gates.cirq.ch_gate",
+            "quantumcat.gates.custom_gates.cirq.cphase_gate",
+            "quantumcat.gates.custom_gates.cirq.crx_gate",
+            "quantumcat.gates.custom_gates.cirq.cry_gate",
+            "quantumcat.gates.custom_gates.cirq.crz_gate",
+            "quantumcat.gates.custom_gates.cirq.csx_gate",
+            "quantumcat.gates.custom_gates.cirq.cu1_gate",
+            "quantumcat.gates.custom_gates.cirq.cu3_gate",
+            "quantumcat.gates.custom_gates.cirq.cu_gate",
+            "quantumcat.gates.custom_gates.cirq.cy_gate",
+            "quantumcat.gates.custom_gates.cirq.dcx_gate",
+            "quantumcat.gates.custom_gates.cirq.p_gate",
+            "quantumcat.gates.custom_gates.cirq.r_gate",
+            "quantumcat.gates.custom_gates.cirq.rc3x_gate",
+            "quantumcat.gates.custom_gates.cirq.rccx_gate",
+            "quantumcat.gates.custom_gates.cirq.rx_gate",
+            "quantumcat.gates.custom_gates.cirq.rxx_gate",
+            "quantumcat.gates.custom_gates.cirq.ry_gate",
+            "quantumcat.gates.custom_gates.cirq.ryy_gate",
+            "quantumcat.gates.custom_gates.cirq.rz_gate",
+            "quantumcat.gates.custom_gates.cirq.rzx_gate",
+            "quantumcat.gates.custom_gates.cirq.rzz_gate",
+            "quantumcat.gates.custom_gates.cirq.sdg_gate",
+            "quantumcat.gates.custom_gates.cirq.sx_gate",
+            "quantumcat.gates.custom_gates.cirq.sxd_gate",
+            "quantumcat.gates.custom_gates.cirq.td_gate",
+            "quantumcat.gates.custom_gates.cirq.u1_gate",
+            "quantumcat.gates.custom_gates.cirq.u2_gate",
+            "quantumcat.gates.custom_gates.cirq.u3_gate",
+            "quantumcat.gates.custom_gates.cirq.u_gate",
+            "quantumcat.utils",
+            "quantumcat.utils.constants",
+            "quantumcat.utils.error_messages",
+            "quantumcat.utils.gates_map",
+            "quantumcat.utils.helper",
+            "quantumcat.utils.providers",
+            "tests",
+            "tests.test_circuit"
         ],
-        "version": "0.1"
+        "version": "0.1.4"
     },
     "quantumchempy": {
         "cmdline": [],
@@ -32911,12 +33950,13 @@
             "quapy.model_selection",
             "quapy.plot",
             "quapy.tests",
+            "quapy.tests.ex",
             "quapy.tests.test_base",
             "quapy.tests.test_datasets",
             "quapy.tests.test_methods",
             "quapy.util"
         ],
-        "version": "0.1.5"
+        "version": "0.1.6"
     },
     "quara": {
         "cmdline": [],
@@ -33025,6 +34065,7 @@
         "cmdline": [],
         "modules": [
             "quarchpy",
+            "quarchpy._version",
             "quarchpy.calibration",
             "quarchpy.calibration.PowerModuleCalibration",
             "quarchpy.calibration.QTL1944",
@@ -33036,6 +34077,7 @@
             "quarchpy.calibration.deviceHelpers",
             "quarchpy.calibration.keithley_2460_control",
             "quarchpy.calibration.noise_test",
+            "quarchpy.calibration.pamCommon",
             "quarchpy.config_files",
             "quarchpy.config_files.quarch_config_parser",
             "quarchpy.connection",
@@ -33095,6 +34137,7 @@
             "quarchpy.disk_test.Custom_test_variable",
             "quarchpy.disk_test.DiskTargetSelection",
             "quarchpy.disk_test.Drive_wrapper",
+            "quarchpy.disk_test.SmartCTLController",
             "quarchpy.disk_test.UserTestExample",
             "quarchpy.disk_test.base_test",
             "quarchpy.disk_test.driveTestConfig",
@@ -33128,7 +34171,7 @@
             "quarchpy.utilities.BitManipulation",
             "quarchpy.utilities.TestCenter"
         ],
-        "version": "2.0.19"
+        "version": "2.0.20"
     },
     "quare": {
         "cmdline": [],
@@ -33340,7 +34383,7 @@
             "quark.utils.weight",
             "tests"
         ],
-        "version": "21.6.2"
+        "version": "21.6.3"
     },
     "quark-hash": {
         "cmdline": [],
@@ -33463,6 +34506,11 @@
         ],
         "version": "1.1.0"
     },
+    "quarkstudio": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "quarkutilities": {
         "cmdline": [],
         "modules": [
@@ -33537,7 +34585,7 @@
             "quarry.types.registry",
             "quarry.types.uuid"
         ],
-        "version": "1.6.3"
+        "version": "1.6.4"
     },
     "quarry-io": {
         "cmdline": [],
@@ -34314,7 +35362,7 @@
             "quasardb.firehose",
             "quasardb.stats"
         ],
-        "version": "3.9.8"
+        "version": "3.9.9"
     },
     "quasi": {
         "cmdline": [],
@@ -34979,27 +36027,16 @@
             "dltk_ai.core",
             "dltk_ai.data_preprocessing",
             "dltk_ai.dataset_types",
-            "dltk_ai.preprocessor",
+            "dltk_ai.helper",
+            "dltk_ai.ml_hyperparameters",
             "dltk_ai.visualization",
-            "examples",
-            "examples.computer_vision",
-            "examples.computer_vision.face_analytics",
-            "examples.computer_vision.image_classification",
-            "examples.computer_vision.object_detection",
-            "examples.conversation",
-            "examples.conversation.conversation",
-            "examples.data",
-            "examples.data.audio",
-            "examples.data.csv",
-            "examples.data.image",
-            "examples.machine_learning",
-            "examples.machine_learning.classification",
-            "examples.machine_learning.clustering",
-            "examples.machine_learning.regression",
-            "examples.natural_language_processing",
-            "examples.natural_language_processing.nlp"
+            "test",
+            "test.ml_tests",
+            "test.ml_tests.test_h2o_algo_assertions",
+            "test.ml_tests.test_scikit_algo_assertions",
+            "test.ml_tests.test_weka_algo_assertions"
         ],
-        "version": "1.0.4"
+        "version": "1.0.7"
     },
     "qubitcoin": {
         "cmdline": [],
@@ -35114,6 +36151,143 @@
             "qubits.workspace"
         ],
         "version": "0.3.4"
+    },
+    "qubo-nn": {
+        "cmdline": [],
+        "modules": [
+            "qubo_nn",
+            "qubo_nn.config",
+            "qubo_nn.data",
+            "qubo_nn.gen_red_cfg",
+            "qubo_nn.logger",
+            "qubo_nn.main",
+            "qubo_nn.nn",
+            "qubo_nn.nn.models",
+            "qubo_nn.noisy_similarity_algo",
+            "qubo_nn.noisy_similarity_algo_all",
+            "qubo_nn.noisy_similarity_algo_multi",
+            "qubo_nn.noisy_similarity_algo_pairwise",
+            "qubo_nn.noisy_similarity_algo_pairwise2",
+            "qubo_nn.pipeline",
+            "qubo_nn.plots",
+            "qubo_nn.plots.gen_big_arch_generalized",
+            "qubo_nn.plots.gen_big_arch_gi_sgi_mcq",
+            "qubo_nn.plots.gen_big_arch_qa_np_sp_m2sat",
+            "qubo_nn.plots.gen_def_a3",
+            "qubo_nn.plots.gen_gi_sgi_same",
+            "qubo_nn.plots.gen_large_arch_generalized",
+            "qubo_nn.plots.gen_m23sat",
+            "qubo_nn.plots.gen_m2sat_comp_pickle",
+            "qubo_nn.plots.gen_m2sat_three_case",
+            "qubo_nn.plots.gen_maxpool_comp",
+            "qubo_nn.plots.gen_mc_comp_edges",
+            "qubo_nn.plots.gen_np",
+            "qubo_nn.plots.gen_qa_comp",
+            "qubo_nn.plots.gen_qa_ones",
+            "qubo_nn.plots.gen_qa_zeros",
+            "qubo_nn.plots.gen_qb",
+            "qubo_nn.plots.gen_qk",
+            "qubo_nn.plots.gen_qubo_map_pickle",
+            "qubo_nn.plots.gen_red_ae",
+            "qubo_nn.plots.gen_reverse_loss_pickle",
+            "qubo_nn.plots.gen_sim",
+            "qubo_nn.plots.gen_sim_pair",
+            "qubo_nn.plots.gen_sim_pair2",
+            "qubo_nn.plots.gen_small_arch_generalized",
+            "qubo_nn.plots.gen_small_arch_gi_sgi_mcq",
+            "qubo_nn.plots.gen_small_arch_m2sat",
+            "qubo_nn.plots.gen_small_arch_sp",
+            "qubo_nn.plots.gen_sp_vars",
+            "qubo_nn.plots.gen_tot_mc_100_genX",
+            "qubo_nn.plots.gen_tot_mc_30_gen4",
+            "qubo_nn.plots.gen_tot_mc_gen4",
+            "qubo_nn.plots.gen_tot_mc_pickle",
+            "qubo_nn.plots.gen_tsne",
+            "qubo_nn.plots.gen_tsne_100_genX",
+            "qubo_nn.plots.gen_tsne_30_gen4",
+            "qubo_nn.plots.gen_tsne_gen4",
+            "qubo_nn.plots.gen_tsp_comp",
+            "qubo_nn.plots.labellines",
+            "qubo_nn.plots.lib",
+            "qubo_nn.plots.plot_big_arch_generalized",
+            "qubo_nn.plots.plot_big_arch_gi_sgi_mcq",
+            "qubo_nn.plots.plot_big_arch_qa_np_sp_m2sat",
+            "qubo_nn.plots.plot_def_a3",
+            "qubo_nn.plots.plot_gi_sgi_same",
+            "qubo_nn.plots.plot_m2sat_comp",
+            "qubo_nn.plots.plot_m2sat_comp_16x16_1M",
+            "qubo_nn.plots.plot_m2sat_comp_8x8_1M",
+            "qubo_nn.plots.plot_m2sat_three_case",
+            "qubo_nn.plots.plot_m3sat_comp_A_F",
+            "qubo_nn.plots.plot_m3sat_comp_A_F_clauses",
+            "qubo_nn.plots.plot_maxpool_comp",
+            "qubo_nn.plots.plot_mc_comp_edges",
+            "qubo_nn.plots.plot_np_comp",
+            "qubo_nn.plots.plot_qa_best_99_example",
+            "qubo_nn.plots.plot_qa_comp",
+            "qubo_nn.plots.plot_qa_debug",
+            "qubo_nn.plots.plot_qa_ones",
+            "qubo_nn.plots.plot_qa_res",
+            "qubo_nn.plots.plot_qa_zeros",
+            "qubo_nn.plots.plot_qb",
+            "qubo_nn.plots.plot_qk",
+            "qubo_nn.plots.plot_qubo_map",
+            "qubo_nn.plots.plot_red_ae",
+            "qubo_nn.plots.plot_reverse_losses",
+            "qubo_nn.plots.plot_sim",
+            "qubo_nn.plots.plot_sim_pair",
+            "qubo_nn.plots.plot_sim_pair2",
+            "qubo_nn.plots.plot_small_arch_generalized",
+            "qubo_nn.plots.plot_small_arch_gi_sgi_mcq",
+            "qubo_nn.plots.plot_small_arch_m2sat",
+            "qubo_nn.plots.plot_small_arch_sp",
+            "qubo_nn.plots.plot_sp_vars",
+            "qubo_nn.plots.plot_tot_mc",
+            "qubo_nn.plots.plot_tot_mc_100_genX",
+            "qubo_nn.plots.plot_tot_mc_30_gen4",
+            "qubo_nn.plots.plot_tot_mc_gen4",
+            "qubo_nn.plots.plot_tsne",
+            "qubo_nn.plots.plot_tsne_100_genX",
+            "qubo_nn.plots.plot_tsne_30_gen4",
+            "qubo_nn.plots.plot_tsne_gen4",
+            "qubo_nn.plots.plot_tsp_comp",
+            "qubo_nn.plots.plot_weights",
+            "qubo_nn.plots.plot_weights_matrices",
+            "qubo_nn.problems",
+            "qubo_nn.problems.general01",
+            "qubo_nn.problems.graph_coloring",
+            "qubo_nn.problems.graph_isomorphism",
+            "qubo_nn.problems.max2sat",
+            "qubo_nn.problems.max3sat",
+            "qubo_nn.problems.max_clique",
+            "qubo_nn.problems.max_cut",
+            "qubo_nn.problems.minimum_vertex_cover",
+            "qubo_nn.problems.number_partitioning",
+            "qubo_nn.problems.problem",
+            "qubo_nn.problems.quadratic_assignment",
+            "qubo_nn.problems.quadratic_knapsack",
+            "qubo_nn.problems.set_packing",
+            "qubo_nn.problems.set_partitioning",
+            "qubo_nn.problems.subgraph_isomorphism",
+            "qubo_nn.problems.test",
+            "qubo_nn.problems.test.test_graph_coloring",
+            "qubo_nn.problems.test.test_graph_isomorphism",
+            "qubo_nn.problems.test.test_max2sat",
+            "qubo_nn.problems.test.test_max3sat",
+            "qubo_nn.problems.test.test_max_clique",
+            "qubo_nn.problems.test.test_max_cut",
+            "qubo_nn.problems.test.test_minimum_vertex_cover",
+            "qubo_nn.problems.test.test_number_partitioning",
+            "qubo_nn.problems.test.test_quadratic_assignment",
+            "qubo_nn.problems.test.test_quadratic_knapsack",
+            "qubo_nn.problems.test.test_set_packing",
+            "qubo_nn.problems.test.test_set_partitioning",
+            "qubo_nn.problems.test.test_subgraph_isomorphism",
+            "qubo_nn.problems.test.test_tsp",
+            "qubo_nn.problems.tsp",
+            "qubo_nn.problems.util"
+        ],
+        "version": "0.2.5"
     },
     "qubo2ising": {
         "cmdline": [],
@@ -35578,6 +36752,14 @@
         ],
         "version": "0.6"
     },
+    "qudida": {
+        "cmdline": [],
+        "modules": [
+            "qudida",
+            "qudida.__version__"
+        ],
+        "version": "0.0.3"
+    },
     "qudotpy": {
         "cmdline": [],
         "modules": [],
@@ -36009,6 +37191,16 @@
         ],
         "version": "0.1.4"
     },
+    "query-builder": {
+        "cmdline": [],
+        "modules": [
+            "query_builder",
+            "query_builder.QueryBuilder",
+            "query_builder.ToggleSwitch",
+            "query_builder._imports_"
+        ],
+        "version": "0.0.7"
+    },
     "query-cli": {
         "cmdline": [],
         "modules": [
@@ -36057,6 +37249,13 @@
             "query_diet.utils"
         ],
         "version": "0.1.1"
+    },
+    "query-ec2-metadata": {
+        "cmdline": [],
+        "modules": [
+            "query_ec2_metadata"
+        ],
+        "version": "0.1.3"
     },
     "query-exporter": {
         "cmdline": [],
@@ -36228,7 +37427,7 @@
             "Query2Vec",
             "Query2Vec.Query2Vec"
         ],
-        "version": "0.1.3"
+        "version": "0.1.8"
     },
     "queryable": {
         "cmdline": [],
@@ -36709,189 +37908,18 @@
         "cmdline": [],
         "modules": [
             "questeval",
-            "questeval.data2text_objects",
-            "questeval.data2text_objects.data_formating",
-            "questeval.pipeline",
+            "questeval.logs",
             "questeval.questeval_metric",
-            "questeval.uni_utils",
             "questeval.utils",
             "tests",
             "tests.resources",
             "tests.resources.constants",
             "tests.units",
             "tests.units.test_questeval_metric",
-            "unilm",
-            "unilm.minilm",
-            "unilm.minilm.examples",
-            "unilm.minilm.examples.run_xnli",
-            "unilm.old_school_transformers",
-            "unilm.old_school_transformers.activations",
-            "unilm.old_school_transformers.another_try",
-            "unilm.old_school_transformers.benchmark_utils",
-            "unilm.old_school_transformers.commands",
-            "unilm.old_school_transformers.commands.convert",
-            "unilm.old_school_transformers.commands.download",
-            "unilm.old_school_transformers.commands.env",
-            "unilm.old_school_transformers.commands.run",
-            "unilm.old_school_transformers.commands.serving",
-            "unilm.old_school_transformers.commands.train",
-            "unilm.old_school_transformers.commands.user",
-            "unilm.old_school_transformers.configuration_albert",
-            "unilm.old_school_transformers.configuration_auto",
-            "unilm.old_school_transformers.configuration_bart",
-            "unilm.old_school_transformers.configuration_bert",
-            "unilm.old_school_transformers.configuration_camembert",
-            "unilm.old_school_transformers.configuration_ctrl",
-            "unilm.old_school_transformers.configuration_distilbert",
-            "unilm.old_school_transformers.configuration_electra",
-            "unilm.old_school_transformers.configuration_encoder_decoder",
-            "unilm.old_school_transformers.configuration_flaubert",
-            "unilm.old_school_transformers.configuration_gpt2",
-            "unilm.old_school_transformers.configuration_longformer",
-            "unilm.old_school_transformers.configuration_marian",
-            "unilm.old_school_transformers.configuration_mmbt",
-            "unilm.old_school_transformers.configuration_openai",
-            "unilm.old_school_transformers.configuration_reformer",
-            "unilm.old_school_transformers.configuration_roberta",
-            "unilm.old_school_transformers.configuration_t5",
-            "unilm.old_school_transformers.configuration_transfo_xl",
-            "unilm.old_school_transformers.configuration_utils",
-            "unilm.old_school_transformers.configuration_xlm",
-            "unilm.old_school_transformers.configuration_xlm_roberta",
-            "unilm.old_school_transformers.configuration_xlnet",
-            "unilm.old_school_transformers.convert_albert_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_bart_original_pytorch_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_bert_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_bert_pytorch_checkpoint_to_original_tf",
-            "unilm.old_school_transformers.convert_dialogpt_original_pytorch_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_electra_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_gpt2_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_graph_to_onnx",
-            "unilm.old_school_transformers.convert_marian_to_pytorch",
-            "unilm.old_school_transformers.convert_openai_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_pytorch_checkpoint_to_tf2",
-            "unilm.old_school_transformers.convert_reformer_trax_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_roberta_original_pytorch_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_t5_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_transfo_xl_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_xlm_original_pytorch_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.convert_xlnet_original_tf_checkpoint_to_pytorch",
-            "unilm.old_school_transformers.data",
-            "unilm.old_school_transformers.data.data_collator",
-            "unilm.old_school_transformers.data.datasets",
-            "unilm.old_school_transformers.data.datasets.glue",
-            "unilm.old_school_transformers.data.datasets.language_modeling",
-            "unilm.old_school_transformers.data.metrics",
-            "unilm.old_school_transformers.data.metrics.squad_metrics",
-            "unilm.old_school_transformers.data.processors",
-            "unilm.old_school_transformers.data.processors.glue",
-            "unilm.old_school_transformers.data.processors.squad",
-            "unilm.old_school_transformers.data.processors.utils",
-            "unilm.old_school_transformers.data.processors.xnli",
-            "unilm.old_school_transformers.file",
-            "unilm.old_school_transformers.file_utils",
-            "unilm.old_school_transformers.filep",
-            "unilm.old_school_transformers.hf_api",
-            "unilm.old_school_transformers.hf_argparser",
-            "unilm.old_school_transformers.modelcard",
-            "unilm.old_school_transformers.modeling_albert",
-            "unilm.old_school_transformers.modeling_auto",
-            "unilm.old_school_transformers.modeling_bart",
-            "unilm.old_school_transformers.modeling_beam_search",
-            "unilm.old_school_transformers.modeling_bert",
-            "unilm.old_school_transformers.modeling_camembert",
-            "unilm.old_school_transformers.modeling_ctrl",
-            "unilm.old_school_transformers.modeling_distilbert",
-            "unilm.old_school_transformers.modeling_electra",
-            "unilm.old_school_transformers.modeling_encoder_decoder",
-            "unilm.old_school_transformers.modeling_flaubert",
-            "unilm.old_school_transformers.modeling_gpt2",
-            "unilm.old_school_transformers.modeling_longformer",
-            "unilm.old_school_transformers.modeling_marian",
-            "unilm.old_school_transformers.modeling_mmbt",
-            "unilm.old_school_transformers.modeling_openai",
-            "unilm.old_school_transformers.modeling_reformer",
-            "unilm.old_school_transformers.modeling_roberta",
-            "unilm.old_school_transformers.modeling_t5",
-            "unilm.old_school_transformers.modeling_tf_albert",
-            "unilm.old_school_transformers.modeling_tf_auto",
-            "unilm.old_school_transformers.modeling_tf_bert",
-            "unilm.old_school_transformers.modeling_tf_camembert",
-            "unilm.old_school_transformers.modeling_tf_ctrl",
-            "unilm.old_school_transformers.modeling_tf_distilbert",
-            "unilm.old_school_transformers.modeling_tf_electra",
-            "unilm.old_school_transformers.modeling_tf_flaubert",
-            "unilm.old_school_transformers.modeling_tf_gpt2",
-            "unilm.old_school_transformers.modeling_tf_openai",
-            "unilm.old_school_transformers.modeling_tf_pytorch_utils",
-            "unilm.old_school_transformers.modeling_tf_roberta",
-            "unilm.old_school_transformers.modeling_tf_t5",
-            "unilm.old_school_transformers.modeling_tf_transfo_xl",
-            "unilm.old_school_transformers.modeling_tf_transfo_xl_utilities",
-            "unilm.old_school_transformers.modeling_tf_utils",
-            "unilm.old_school_transformers.modeling_tf_xlm",
-            "unilm.old_school_transformers.modeling_tf_xlm_roberta",
-            "unilm.old_school_transformers.modeling_tf_xlnet",
-            "unilm.old_school_transformers.modeling_transfo_xl",
-            "unilm.old_school_transformers.modeling_transfo_xl_utilities",
-            "unilm.old_school_transformers.modeling_utils",
-            "unilm.old_school_transformers.modeling_xlm",
-            "unilm.old_school_transformers.modeling_xlm_roberta",
-            "unilm.old_school_transformers.modeling_xlnet",
-            "unilm.old_school_transformers.optimization",
-            "unilm.old_school_transformers.optimization_tf",
-            "unilm.old_school_transformers.pipelines",
-            "unilm.old_school_transformers.tokenization_albert",
-            "unilm.old_school_transformers.tokenization_auto",
-            "unilm.old_school_transformers.tokenization_bart",
-            "unilm.old_school_transformers.tokenization_bert",
-            "unilm.old_school_transformers.tokenization_bert_japanese",
-            "unilm.old_school_transformers.tokenization_camembert",
-            "unilm.old_school_transformers.tokenization_ctrl",
-            "unilm.old_school_transformers.tokenization_distilbert",
-            "unilm.old_school_transformers.tokenization_electra",
-            "unilm.old_school_transformers.tokenization_flaubert",
-            "unilm.old_school_transformers.tokenization_gpt2",
-            "unilm.old_school_transformers.tokenization_longformer",
-            "unilm.old_school_transformers.tokenization_marian",
-            "unilm.old_school_transformers.tokenization_openai",
-            "unilm.old_school_transformers.tokenization_reformer",
-            "unilm.old_school_transformers.tokenization_roberta",
-            "unilm.old_school_transformers.tokenization_t5",
-            "unilm.old_school_transformers.tokenization_transfo_xl",
-            "unilm.old_school_transformers.tokenization_utils",
-            "unilm.old_school_transformers.tokenization_xlm",
-            "unilm.old_school_transformers.tokenization_xlm_roberta",
-            "unilm.old_school_transformers.tokenization_xlnet",
-            "unilm.old_school_transformers.trainer",
-            "unilm.old_school_transformers.trainer_tf",
-            "unilm.old_school_transformers.trainer_utils",
-            "unilm.old_school_transformers.training_args",
-            "unilm.old_school_transformers.training_args_tf",
-            "unilm.old_school_transformers.try",
-            "unilm.old_school_transformers.utils_encoder_decoder",
-            "unilm.s2s-ft",
-            "unilm.s2s-ft.decode_seq2seq",
-            "unilm.s2s-ft.evaluations",
-            "unilm.s2s-ft.evaluations.bs_pyrouge",
-            "unilm.s2s-ft.evaluations.eval_for_cnndm",
-            "unilm.s2s-ft.evaluations.eval_for_xsum",
-            "unilm.s2s-ft.gen_seq_from_trace",
-            "unilm.s2s-ft.run_seq2seq",
-            "unilm.s2s-ft.s2s_ft",
-            "unilm.s2s-ft.s2s_ft.config",
-            "unilm.s2s-ft.s2s_ft.configuration_minilm",
-            "unilm.s2s-ft.s2s_ft.configuration_unilm",
-            "unilm.s2s-ft.s2s_ft.convert_state_dict",
-            "unilm.s2s-ft.s2s_ft.modeling",
-            "unilm.s2s-ft.s2s_ft.modeling_decoding",
-            "unilm.s2s-ft.s2s_ft.s2s_loader",
-            "unilm.s2s-ft.s2s_ft.tokenization_minilm",
-            "unilm.s2s-ft.s2s_ft.tokenization_unilm",
-            "unilm.s2s-ft.s2s_ft.utils",
-            "unilm.s2s-ft.setup"
+            "tests.utils",
+            "tests.utils.helpers"
         ],
-        "version": "0.1.1"
+        "version": "0.2.4"
     },
     "questgame": {
         "cmdline": [],
@@ -36961,7 +37989,7 @@
             "question_creation_app_realpython.data_process",
             "question_creation_app_realpython.load_data"
         ],
-        "version": "0.1"
+        "version": "0.2"
     },
     "question-creation-distributable-app": {
         "cmdline": [],
@@ -37601,6 +38629,15 @@
         ],
         "version": "0.0.0"
     },
+    "quetz-frontend": {
+        "cmdline": [],
+        "modules": [
+            "quetz_frontend",
+            "quetz_frontend.backend",
+            "quetz_frontend.cli"
+        ],
+        "version": "0.1.0"
+    },
     "quetzal-client": {
         "cmdline": [],
         "modules": [
@@ -37626,6 +38663,21 @@
             "quetzal.client.utils"
         ],
         "version": "0.5.3"
+    },
+    "quetzal-crumbs": {
+        "cmdline": [],
+        "modules": [
+            "crumbs",
+            "crumbs.bpp",
+            "crumbs.fasta2phylip",
+            "crumbs.get_simulations",
+            "crumbs.phylip2arlequin",
+            "crumbs.retrieve_parameters",
+            "crumbs.sample",
+            "crumbs.sequence",
+            "crumbs.simulate_sequences"
+        ],
+        "version": "0.0.2"
     },
     "quetzal-openapi-client": {
         "cmdline": [],
@@ -38442,6 +39494,13 @@
         ],
         "version": "0.1.0"
     },
+    "quick-login": {
+        "cmdline": [],
+        "modules": [
+            "quick_login"
+        ],
+        "version": "0.5"
+    },
     "quick-mail": {
         "cmdline": [],
         "modules": [
@@ -38560,6 +39619,14 @@
         ],
         "version": "0.2.0"
     },
+    "quick-pdf": {
+        "cmdline": [],
+        "modules": [
+            "quick_pdf",
+            "quick_pdf.merge"
+        ],
+        "version": "0.1.1"
+    },
     "quick-plot": {
         "cmdline": [],
         "modules": [],
@@ -38658,13 +39725,14 @@
         "modules": [
             "quick_trade",
             "quick_trade.brokers",
+            "quick_trade.plots",
             "quick_trade.quick_trade_tuner",
             "quick_trade.quick_trade_tuner.core",
             "quick_trade.quick_trade_tuner.tuner",
             "quick_trade.trading_sys",
             "quick_trade.utils"
         ],
-        "version": "4.6.6"
+        "version": "6.0.1"
     },
     "quick-vcn": {
         "cmdline": [],
@@ -38767,12 +39835,12 @@
     "quickai": {
         "cmdline": [],
         "modules": [
-            "quickai",
-            "quickai.image_classification",
-            "quickai.text_finetuning",
-            "quickai.text_inferance"
+            "quickai/",
+            "quickai/.image_classification",
+            "quickai/.text_finetuning",
+            "quickai/.text_inferance"
         ],
-        "version": "1.2.2"
+        "version": "1.3.8"
     },
     "quickapi": {
         "cmdline": [],
@@ -38943,7 +40011,7 @@
             "quickbase_client.utils.pywriting_utils",
             "quickbase_client.utils.string_utils"
         ],
-        "version": "0.2.0"
+        "version": "0.4.0"
     },
     "quickbase2": {
         "cmdline": [],
@@ -39127,10 +40195,13 @@
             "quickbuild.adapters.sync",
             "quickbuild.core",
             "quickbuild.endpoints",
+            "quickbuild.endpoints.agents",
             "quickbuild.endpoints.audits",
             "quickbuild.endpoints.builds",
             "quickbuild.endpoints.configurations",
+            "quickbuild.endpoints.dashboards",
             "quickbuild.endpoints.groups",
+            "quickbuild.endpoints.memberships",
             "quickbuild.endpoints.requests",
             "quickbuild.endpoints.system",
             "quickbuild.endpoints.tokens",
@@ -39139,17 +40210,21 @@
             "quickbuild.helpers",
             "tests",
             "tests.conftest",
+            "tests.test_agents",
             "tests.test_audits",
             "tests.test_builds",
             "tests.test_configurations",
             "tests.test_core",
+            "tests.test_dashboards",
             "tests.test_groups",
+            "tests.test_helpers",
+            "tests.test_memberships",
             "tests.test_requests",
             "tests.test_system",
             "tests.test_tokens",
             "tests.test_users"
         ],
-        "version": "0.4.1"
+        "version": "0.7.0"
     },
     "quickcache": {
         "cmdline": [],
@@ -39163,6 +40238,13 @@
             "quickcache.quickcache_helper"
         ],
         "version": "0.5.4"
+    },
+    "quickcalc": {
+        "cmdline": [],
+        "modules": [
+            "quickcalc"
+        ],
+        "version": "0.0.1"
     },
     "quickcerts": {
         "cmdline": [],
@@ -39701,6 +40783,13 @@
         ],
         "version": "1.15.1.post4"
     },
+    "quickflask": {
+        "cmdline": [],
+        "modules": [
+            "quickflask"
+        ],
+        "version": "0.1.1"
+    },
     "quickflow": {
         "cmdline": [],
         "modules": [],
@@ -39835,6 +40924,14 @@
         ],
         "version": "1.16.0"
     },
+    "quickjson": {
+        "cmdline": [],
+        "modules": [
+            "quickjson",
+            "quickjson.quickjson"
+        ],
+        "version": "0.0.2"
+    },
     "quickjsonrpc": {
         "cmdline": [],
         "modules": [
@@ -39924,7 +41021,7 @@
             "quicklib.versioning",
             "quicklib.virtualfiles"
         ],
-        "version": "0.4.4"
+        "version": "1.0"
     },
     "quicklime": {
         "cmdline": [
@@ -40423,6 +41520,16 @@
         ],
         "version": "0.0.4"
     },
+    "quicksand": {
+        "cmdline": [
+            "quicksand"
+        ],
+        "modules": [
+            "quicksand",
+            "quicksand.quicksand"
+        ],
+        "version": "2.0.12"
+    },
     "quicksave": {
         "cmdline": [],
         "modules": [
@@ -40620,7 +41727,7 @@
     "quicksocket": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.1"
+        "version": "0.1.3"
     },
     "quicksom": {
         "cmdline": [
@@ -40745,7 +41852,7 @@
             "QuickStart_Rhy.qsLesson",
             "QuickStart_Rhy.system"
         ],
-        "version": "0.5.7"
+        "version": "0.5.8"
     },
     "quickstartlog": {
         "cmdline": [],
@@ -40789,7 +41896,6 @@
             "quickstats.components.asymptotic_cls",
             "quickstats.components.extended_minimizer",
             "quickstats.components.extended_model",
-            "quickstats.components.inspect_ws",
             "quickstats.components.likelihood",
             "quickstats.components.nuisance_parameter_harmonizer",
             "quickstats.components.nuisance_parameter_pull",
@@ -40806,7 +41912,7 @@
             "quickstats.utils.process_tools",
             "quickstats.utils.root_utils"
         ],
-        "version": "0.4.6"
+        "version": "0.5.0.9"
     },
     "quickstep": {
         "cmdline": [],
@@ -40905,6 +42011,14 @@
             "quicktick.symbol"
         ],
         "version": "0.2.5"
+    },
+    "quicktimer": {
+        "cmdline": [],
+        "modules": [
+            "quicktimer",
+            "quicktimer.quicktimer"
+        ],
+        "version": "0.2.0"
     },
     "quicktions": {
         "cmdline": [],
@@ -41173,21 +42287,28 @@
         "cmdline": [],
         "modules": [
             "quicly",
-            "quicly.example",
+            "quicly.apiclient",
+            "quicly.cache",
+            "quicly.conf",
+            "quicly.decorator",
             "quicly.hashutils",
+            "quicly.inspectutils",
             "quicly.jsonutils",
             "quicly.limits",
-            "quicly.models",
+            "quicly.logutils",
+            "quicly.model",
+            "quicly.mongodb",
             "quicly.patterns",
-            "quicly.plugin_aliyun_fc",
-            "quicly.plugin_bottle",
-            "quicly.plugin_flask",
-            "quicly.plugin_tornado",
-            "quicly.plugin_wsgi",
-            "quicly.rest",
-            "quicly.results"
+            "quicly.redisio",
+            "quicly.result",
+            "quicly.rpc",
+            "quicly.rpc2",
+            "quicly.typingutils",
+            "quicly.urlutils",
+            "quicly.uuidutils",
+            "quicly.value"
         ],
-        "version": "0.0.2"
+        "version": "1.0.16"
     },
     "quicly-mongo": {
         "cmdline": [],
@@ -41280,6 +42401,22 @@
             "quietex.status"
         ],
         "version": "0.2.0"
+    },
+    "quiffen": {
+        "cmdline": [],
+        "modules": [
+            "quiffen",
+            "quiffen.core",
+            "quiffen.core.accounts",
+            "quiffen.core.categories_classes",
+            "quiffen.core.qif",
+            "quiffen.core.transactions",
+            "quiffen.utils",
+            "tests",
+            "tests.test_qif",
+            "tests.test_transactions"
+        ],
+        "version": "0.1.1"
     },
     "quiik": {
         "cmdline": [],
@@ -41382,6 +42519,41 @@
             "delta.op"
         ],
         "version": "1.0.3"
+    },
+    "quilla": {
+        "cmdline": [],
+        "modules": [
+            "pytest_quilla",
+            "pytest_quilla.pytest_classes",
+            "quilla",
+            "quilla._doc",
+            "quilla.browser",
+            "quilla.browser.browser_validations",
+            "quilla.browser.drivers",
+            "quilla.common",
+            "quilla.common.enums",
+            "quilla.common.exceptions",
+            "quilla.common.utils",
+            "quilla.ctx",
+            "quilla.hookspecs",
+            "quilla.hookspecs.configuration",
+            "quilla.hookspecs.reports",
+            "quilla.hookspecs.steps",
+            "quilla.plugins",
+            "quilla.reports",
+            "quilla.reports.base_report",
+            "quilla.reports.report_summary",
+            "quilla.reports.step_failure_report",
+            "quilla.reports.validation_report",
+            "quilla.steps",
+            "quilla.steps.base_steps",
+            "quilla.steps.outputs",
+            "quilla.steps.steps",
+            "quilla.steps.steps_aggregator",
+            "quilla.steps.validations",
+            "quilla.ui_validation"
+        ],
+        "version": "0.3.1"
     },
     "quilldelta": {
         "cmdline": [],
@@ -41617,7 +42789,7 @@
             "quilt3distribute.file_utils",
             "quilt3distribute.validation"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "quilter": {
         "cmdline": [],
@@ -42629,6 +43801,29 @@
         ],
         "version": "0.3.3"
     },
+    "quippy-ase": {
+        "cmdline": [],
+        "modules": [
+            "quippy",
+            "quippy.atoms_module",
+            "quippy.atoms_types_module",
+            "quippy.cli",
+            "quippy.convert",
+            "quippy.descriptors",
+            "quippy.descriptors_module",
+            "quippy.dictionary_module",
+            "quippy.dynamicalsystem",
+            "quippy.dynamicalsystem_module",
+            "quippy.nye_tensor",
+            "quippy.nye_tensor_module",
+            "quippy.potential",
+            "quippy.potential_module",
+            "quippy.potential_simple_module",
+            "quippy.system_module",
+            "quippy.tb_module"
+        ],
+        "version": "0.9.7"
+    },
     "quippy-cli": {
         "cmdline": [],
         "modules": [
@@ -42690,6 +43885,77 @@
             "quirkshop_jlab3_react._version"
         ],
         "version": "0.1.0"
+    },
+    "quisby": {
+        "cmdline": [],
+        "modules": [
+            "quisby",
+            "quisby.benchmarks",
+            "quisby.benchmarks.aim",
+            "quisby.benchmarks.aim.comparison",
+            "quisby.benchmarks.aim.extract",
+            "quisby.benchmarks.aim.graph",
+            "quisby.benchmarks.aim.summary",
+            "quisby.benchmarks.autohpl",
+            "quisby.benchmarks.autohpl.comparison",
+            "quisby.benchmarks.autohpl.extract",
+            "quisby.benchmarks.autohpl.graph",
+            "quisby.benchmarks.autohpl.summary",
+            "quisby.benchmarks.etcd",
+            "quisby.benchmarks.etcd.etcd",
+            "quisby.benchmarks.fio",
+            "quisby.benchmarks.fio.comparison",
+            "quisby.benchmarks.fio.fio",
+            "quisby.benchmarks.fio.graph",
+            "quisby.benchmarks.fio.summary",
+            "quisby.benchmarks.hammerdb",
+            "quisby.benchmarks.hammerdb.comparison",
+            "quisby.benchmarks.hammerdb.extract",
+            "quisby.benchmarks.hammerdb.graph",
+            "quisby.benchmarks.hammerdb.summary",
+            "quisby.benchmarks.linpack",
+            "quisby.benchmarks.linpack.comparison",
+            "quisby.benchmarks.linpack.extract",
+            "quisby.benchmarks.linpack.graph",
+            "quisby.benchmarks.linpack.summary",
+            "quisby.benchmarks.pig",
+            "quisby.benchmarks.pig.comparison",
+            "quisby.benchmarks.pig.extract",
+            "quisby.benchmarks.pig.graph",
+            "quisby.benchmarks.pig.summary",
+            "quisby.benchmarks.reboot",
+            "quisby.benchmarks.reboot.graph",
+            "quisby.benchmarks.reboot.reboot",
+            "quisby.benchmarks.reboot.summary",
+            "quisby.benchmarks.speccpu",
+            "quisby.benchmarks.speccpu.comparison",
+            "quisby.benchmarks.speccpu.extract",
+            "quisby.benchmarks.speccpu.graph",
+            "quisby.benchmarks.speccpu.summary",
+            "quisby.benchmarks.specjbb",
+            "quisby.benchmarks.specjbb.comparison",
+            "quisby.benchmarks.specjbb.graph",
+            "quisby.benchmarks.specjbb.specjbb",
+            "quisby.benchmarks.streams",
+            "quisby.benchmarks.streams.comparison",
+            "quisby.benchmarks.streams.graph",
+            "quisby.benchmarks.streams.streams",
+            "quisby.benchmarks.uperf",
+            "quisby.benchmarks.uperf.comparison",
+            "quisby.benchmarks.uperf.graph",
+            "quisby.benchmarks.uperf.uperf",
+            "quisby.config",
+            "quisby.credentials",
+            "quisby.credentials.creds",
+            "quisby.pricing",
+            "quisby.pricing.cloud_pricing",
+            "quisby.quisby",
+            "quisby.sheet",
+            "quisby.sheet.sheet_util",
+            "quisby.sheet.sheetapi",
+            "quisby.util"
+        ],
+        "version": "0.2"
     },
     "quisk": {
         "cmdline": [],
@@ -42771,7 +44037,7 @@
             "quisk.softrock.widgets_tx",
             "quisk.softrock_tune_vfo"
         ],
-        "version": "4.1.82"
+        "version": "4.1.83"
     },
     "quisk-lppan-k3": {
         "cmdline": [],
@@ -42969,7 +44235,7 @@
         "modules": [
             "quiverquant"
         ],
-        "version": "0.1.46"
+        "version": "0.1.49"
     },
     "quix-django-contact": {
         "cmdline": [],
@@ -43237,7 +44503,7 @@
             "quizzes.fill",
             "quizzes.questions"
         ],
-        "version": "0.5"
+        "version": "0.6"
     },
     "qujian1": {
         "cmdline": [],
@@ -43389,6 +44655,11 @@
             "tests.unit.qulo.test_sensors"
         ],
         "version": "1.10.0"
+    },
+    "qulog": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.0"
     },
     "quma": {
         "cmdline": [],
@@ -43635,7 +44906,7 @@
             "qumulo.rest.version",
             "qumulo.rest_client"
         ],
-        "version": "4.1.2"
+        "version": "4.1.4"
     },
     "qumulobench": {
         "cmdline": [],
@@ -43749,44 +45020,8 @@
     },
     "quo": {
         "cmdline": [],
-        "modules": [
-            "quo",
-            "quo.accordance",
-            "quo.consoleapp",
-            "quo.context",
-            "quo.context.current",
-            "quo.core",
-            "quo.decorate",
-            "quo.decorators",
-            "quo.decorators.argument",
-            "quo.decorators.autoconfirm",
-            "quo.decorators.autohelp",
-            "quo.decorators.autopswd",
-            "quo.decorators.autoversion",
-            "quo.decorators.command",
-            "quo.decorators.option",
-            "quo.decorators.tether",
-            "quo.exceptions",
-            "quo.implementation",
-            "quo.layout",
-            "quo.parameters",
-            "quo.parser",
-            "quo.parsing",
-            "quo.posix",
-            "quo.posix.core",
-            "quo.posix.proc",
-            "quo.posix.ps",
-            "quo.shelldone",
-            "quo.termui",
-            "quo.testing",
-            "quo.textshawl",
-            "quo.types",
-            "quo.universal",
-            "quo.utilities",
-            "quo.wrapper",
-            "quo.wrapper.textshawl"
-        ],
-        "version": "2021.5.dev15"
+        "modules": [],
+        "version": "2021.2"
     },
     "quoine": {
         "cmdline": [],
@@ -44062,7 +45297,7 @@
     "quom": {
         "cmdline": [],
         "modules": [],
-        "version": "1.3.2"
+        "version": "2.0.0"
     },
     "quora": {
         "cmdline": [],
@@ -44303,6 +45538,14 @@
         ],
         "version": "2.0.4"
     },
+    "quote-maker": {
+        "cmdline": [],
+        "modules": [
+            "quote_maker",
+            "quote_maker.main"
+        ],
+        "version": "0.0.1"
+    },
     "quote-manager": {
         "cmdline": [],
         "modules": [
@@ -44413,6 +45656,17 @@
             "quoter.xmlhtml"
         ],
         "version": "1.6.8"
+    },
+    "quoteran": {
+        "cmdline": [
+            "quoteran"
+        ],
+        "modules": [
+            "quoteran",
+            "quoteran.core",
+            "quoteran.version"
+        ],
+        "version": "1.0.4"
     },
     "quoters": {
         "cmdline": [],
@@ -44783,9 +46037,16 @@
             "quple.interface.tfq",
             "quple.interface.tfq.layers",
             "quple.interface.tfq.layers.pqc",
+            "quple.interface.tfq.layers.pqc_deprecated",
             "quple.interface.tfq.layers.pqc_test",
             "quple.interface.tfq.metrics",
             "quple.interface.tfq.metrics.metrics",
+            "quple.interface.tfq.resolvers",
+            "quple.interface.tfq.tf_resolvers",
+            "quple.models",
+            "quple.models.gan",
+            "quple.models.gan.qgan",
+            "quple.models.gan.wgan",
             "quple.qiskit_interface",
             "quple.qiskit_interface.feature_maps",
             "quple.qiskit_interface.tools",
@@ -44794,59 +46055,12 @@
             "quple.utils.sysinfo",
             "quple.utils.utils"
         ],
-        "version": "0.7.8"
+        "version": "0.8.1"
     },
     "qupulse": {
         "cmdline": [],
-        "modules": [
-            "qctoolkit",
-            "qupulse",
-            "qupulse._program",
-            "qupulse._program._loop",
-            "qupulse._program.seqc",
-            "qupulse._program.tabor",
-            "qupulse._program.transformation",
-            "qupulse._program.volatile",
-            "qupulse._program.waveforms",
-            "qupulse.comparable",
-            "qupulse.expressions",
-            "qupulse.hardware",
-            "qupulse.hardware.awgs",
-            "qupulse.hardware.awgs.base",
-            "qupulse.hardware.awgs.tabor",
-            "qupulse.hardware.awgs.tektronix",
-            "qupulse.hardware.awgs.zihdawg",
-            "qupulse.hardware.dacs",
-            "qupulse.hardware.dacs.alazar",
-            "qupulse.hardware.dacs.dac_base",
-            "qupulse.hardware.setup",
-            "qupulse.hardware.util",
-            "qupulse.parameter_scope",
-            "qupulse.pulses",
-            "qupulse.pulses.abstract_pulse_template",
-            "qupulse.pulses.arithmetic_pulse_template",
-            "qupulse.pulses.function_pulse_template",
-            "qupulse.pulses.interpolation",
-            "qupulse.pulses.loop_pulse_template",
-            "qupulse.pulses.mapping_pulse_template",
-            "qupulse.pulses.measurement",
-            "qupulse.pulses.multi_channel_pulse_template",
-            "qupulse.pulses.parameters",
-            "qupulse.pulses.plotting",
-            "qupulse.pulses.point_pulse_template",
-            "qupulse.pulses.pulse_template",
-            "qupulse.pulses.pulse_template_parameter_mapping",
-            "qupulse.pulses.repetition_pulse_template",
-            "qupulse.pulses.sequence_pulse_template",
-            "qupulse.pulses.table_pulse_template",
-            "qupulse.serialization",
-            "qupulse.utils",
-            "qupulse.utils.numeric",
-            "qupulse.utils.sympy",
-            "qupulse.utils.tree",
-            "qupulse.utils.types"
-        ],
-        "version": "0.5.1"
+        "modules": [],
+        "version": "0.6"
     },
     "qupy": {
         "cmdline": [],
@@ -44892,6 +46106,14 @@
             "quran.verses"
         ],
         "version": "0.1"
+    },
+    "quran-suras": {
+        "cmdline": [],
+        "modules": [
+            "quran_suras",
+            "quran_suras.quran_suras"
+        ],
+        "version": "1.1.4"
     },
     "quranapi": {
         "cmdline": [],
@@ -45243,7 +46465,7 @@
             "qutebrowser.utils.utils",
             "qutebrowser.utils.version"
         ],
-        "version": "2.2.3"
+        "version": "2.3.0"
     },
     "qutechopenql": {
         "cmdline": [],
@@ -45339,6 +46561,17 @@
             "qutiepy"
         ],
         "version": "0.2.4"
+    },
+    "qutil": {
+        "cmdline": [],
+        "modules": [
+            "qutil",
+            "qutil.app",
+            "qutil.database",
+            "qutil.database.actions",
+            "qutil.database.connection"
+        ],
+        "version": "1.0a2"
     },
     "qutils": {
         "cmdline": [],
@@ -45973,7 +47206,7 @@
             "qwc_services_core.runtime_config",
             "qwc_services_core.tenant_handler"
         ],
-        "version": "1.2.6"
+        "version": "1.2.7"
     },
     "qwcore": {
         "cmdline": [],
@@ -46071,7 +47304,7 @@
             "QWeb.keywords.text",
             "QWeb.keywords.window"
         ],
-        "version": "1.0.4"
+        "version": "1.0.6"
     },
     "qwebtip": {
         "cmdline": [],

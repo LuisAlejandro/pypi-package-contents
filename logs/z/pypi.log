@@ -309,10 +309,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zabel-elements) This package is up to date.
 [INFO] (zabel-fabric) This package is up to date.
 [INFO] (zaber-device) This package is up to date.
-[INFO] (zaber-motion) This package is up to date.
-[INFO] (zaber-motion-bindings-darwin) This package is up to date.
-[INFO] (zaber-motion-bindings-linux) This package is up to date.
-[INFO] (zaber-motion-bindings-windows) This package is up to date.
+[INFO] (zaber-motion) Data has been updated for this package.
+[INFO] (zaber-motion-bindings-darwin) Data has been updated for this package.
+[INFO] (zaber-motion-bindings-linux) Data has been updated for this package.
+[INFO] (zaber-motion-bindings-windows) Data has been updated for this package.
 [INFO] (zaber-production-tester) This package is up to date.
 [INFO] (zaber-serial) This package is up to date.
 [INFO] (zaber-test-jig-zerp) This package is up to date.
@@ -342,6 +342,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zachopy) This package is up to date.
 [INFO] (zachs-data-dump) This package is up to date.
 [INFO] (zachs-nester) This package is up to date.
+[INFO] (zachs-pypi-poc-a) This package is up to date.
 [ERROR] (zacieraczka) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -434,6 +435,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (zalgo-text) This package is up to date.
 [INFO] (zalgoify) This package is up to date.
 [INFO] (zalgotext) This package is up to date.
+[INFO] (zalo-official-sdk) Data has been updated for this package.
 [INFO] (zalo-python-sdk) This package is up to date.
 [INFO] (zalotts) This package is up to date.
 [INFO] (zalvipdf) This package is up to date.
@@ -497,19 +499,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zanon) This package is up to date.
 [INFO] (zanpakuto) This package is up to date.
 [INFO] (zanshin) This package is up to date.
-[INFO] (zanshinsdk) Data has been updated for this package.
+[INFO] (zanshincli) Data has been updated for this package.
+[INFO] (zanshinsdk) This package is up to date.
 [INFO] (zantedeschia) This package is up to date.
 [INFO] (zanthor) This package is up to date.
 [INFO] (zanycatpdf) This package is up to date.
 [INFO] (zanza) This package is up to date.
 [INFO] (zaoshu) This package is up to date.
 [INFO] (zap) This package is up to date.
-[INFO] (zap-automation-renderer) Data has been updated for this package.
+[INFO] (zap-automation-renderer) This package is up to date.
 [INFO] (zap-cli-v2) This package is up to date.
 [INFO] (zap-report-formatter) This package is up to date.
 [INFO] (zapbot) This package is up to date.
 [INFO] (zapcli) This package is up to date.
-[INFO] (zapf) Data has been updated for this package.
+[INFO] (zapf) This package is up to date.
 [ERROR] (zaphod) This package does not have downloadable releases.
 [INFO] (zapi) This package is up to date.
 [INFO] (zapian) This package is up to date.
@@ -548,6 +551,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zarennerqq) This package is up to date.
 [INFO] (zarkov) This package is up to date.
 [INFO] (zarnegar-converter) This package is up to date.
+[INFO] (zarpaint) This package is up to date.
 [INFO] (zarr) This package is up to date.
 [INFO] (zarr-eosdis-store) This package is up to date.
 [INFO] (zarr-jpeg) This package is up to date.
@@ -645,7 +649,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (zbs-zest) This package is up to date.
+[INFO] (zbs-zest) Data has been updated for this package.
 [INFO] (zbsmsa) This package is up to date.
 [INFO] (zbspy) This package is up to date.
 [INFO] (zbuild) This package is up to date.
@@ -658,6 +662,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zbxapi) This package is up to date.
 [INFO] (zbxnotifier) This package is up to date.
 [INFO] (zbxsend) This package is up to date.
+[INFO] (zbzdata) This package is up to date.
 [INFO] (zc) This package is up to date.
 [INFO] (zc-ajaxform) This package is up to date.
 [INFO] (zc-async) This package is up to date.
@@ -811,7 +816,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zclassic) This package is up to date.
 [INFO] (zcli) This package is up to date.
 [INFO] (zclient) This package is up to date.
-[INFO] (zcls) Data has been updated for this package.
+[INFO] (zcls) This package is up to date.
 [INFO] (zcm) This package is up to date.
 [INFO] (zcmd) This package is up to date.
 [INFO] (zcmeasure) This package is up to date.
@@ -1076,10 +1081,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zebullpdf) This package is up to date.
 [INFO] (zec2) This package is up to date.
-[INFO] (zech) Data has been updated for this package.
+[INFO] (zech) This package is up to date.
 [INFO] (zeco) This package is up to date.
 [INFO] (zed) This package is up to date.
 [ERROR] (zed-nester1) This package does not have downloadable releases.
+[INFO] (zedasystem) Data has been updated for this package.
 [INFO] (zeddo) This package is up to date.
 [INFO] (zedit) This package is up to date.
 [INFO] (zeebe) This package is up to date.
@@ -1224,7 +1230,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zen-py) This package is up to date.
 [INFO] (zen-quotes) This package is up to date.
 [INFO] (zen-screw) This package is up to date.
+[INFO] (zen-screw-bolt) This package is up to date.
 [INFO] (zen-sj-nester) This package is up to date.
+[INFO] (zen-spring) This package is up to date.
 [INFO] (zenaton) This package is up to date.
 [INFO] (zenbot) This package is up to date.
 [INFO] (zenbu) This package is up to date.
@@ -1283,12 +1291,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenhest) This package is up to date.
 [INFO] (zenipy) This package is up to date.
 [INFO] (zenircbot-api) This package is up to date.
-[INFO] (zenitai) Data has been updated for this package.
+[INFO] (zenitai) This package is up to date.
 [INFO] (zenith) This package is up to date.
 [INFO] (zenity) This package is up to date.
 [INFO] (zenityshell) This package is up to date.
-[INFO] (zenkly) Data has been updated for this package.
-[INFO] (zenkpytone) Data has been updated for this package.
+[INFO] (zenkly) This package is up to date.
+[INFO] (zenkpytone) This package is up to date.
 [INFO] (zenlog) This package is up to date.
 [INFO] (zenlux) This package is up to date.
 [INFO] (zenmai) This package is up to date.
@@ -1296,6 +1304,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenml) This package is up to date.
 [INFO] (zenmoney) This package is up to date.
 [INFO] (zenner-nester) This package is up to date.
+[INFO] (zennit) Data has been updated for this package.
 [INFO] (zennla) This package is up to date.
 [INFO] (zeno) This package is up to date.
 [INFO] (zeno-distributions) This package is up to date.
@@ -1309,7 +1318,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenomapper) This package is up to date.
 [INFO] (zenomatic) This package is up to date.
 [INFO] (zenon) This package is up to date.
-[INFO] (zenora) This package is up to date.
+[INFO] (zenora) Data has been updated for this package.
 [INFO] (zenoss) This package is up to date.
 [INFO] (zenoss-fork) This package is up to date.
 [INFO] (zenoss-hipchat) This package is up to date.
@@ -1330,7 +1339,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zensend) This package is up to date.
 [INFO] (zenserp) This package is up to date.
 [INFO] (zensols-actioncli) This package is up to date.
-[INFO] (zensols-bibstract) This package is up to date.
+[INFO] (zensols-bibstract) Data has been updated for this package.
 [INFO] (zensols-clojure) This package is up to date.
 [INFO] (zensols-db) This package is up to date.
 [INFO] (zensols-dbpg) This package is up to date.
@@ -1344,7 +1353,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zensols-nlp) This package is up to date.
 [INFO] (zensols-pybuild) This package is up to date.
 [INFO] (zensols-rbak) This package is up to date.
-[INFO] (zensols-util) This package is up to date.
+[INFO] (zensols-util) Data has been updated for this package.
 [INFO] (zensols-zotsite) This package is up to date.
 [INFO] (zentool) This package is up to date.
 [INFO] (zentropi) This package is up to date.
@@ -1480,10 +1489,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeroc-ice) This package is up to date.
 [INFO] (zeroc-icecertutils) This package is up to date.
 [INFO] (zeroc-icehashpassword) This package is up to date.
+[INFO] (zerocalculatortest) This package is up to date.
 [INFO] (zerocater) This package is up to date.
 [INFO] (zerochan) This package is up to date.
 [INFO] (zeroclient) This package is up to date.
-[INFO] (zeroconf) This package is up to date.
+[INFO] (zeroconf) Data has been updated for this package.
 [INFO] (zeroconf-monkey) This package is up to date.
 [INFO] (zeroconf-py2compat) This package is up to date.
 [INFO] (zeroconf-service) This package is up to date.
@@ -1504,7 +1514,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeroguard) This package is up to date.
 [INFO] (zeroguard-cli) This package is up to date.
 [INFO] (zeroguard-sdk) This package is up to date.
-[INFO] (zeroinger) This package is up to date.
+[INFO] (zeroinger) Data has been updated for this package.
 [INFO] (zerokspot-recipe-distutils) This package is up to date.
 [INFO] (zerokspot-recipe-git) This package is up to date.
 [ERROR] (zerolab-django-email-views) Could not get a response from API for this package. See below for details.
@@ -1533,6 +1543,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zerolog) This package is up to date.
 [INFO] (zerologger) This package is up to date.
 [INFO] (zeromessage) This package is up to date.
+[INFO] (zeromq-pyre) This package is up to date.
 [INFO] (zeroncy) This package is up to date.
 [INFO] (zeronet) This package is up to date.
 [INFO] (zeronimo) This package is up to date.
@@ -1577,7 +1588,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (zes3t) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://svn.createtank.org/zes3t/dist/"
 [INFO] (zesje) This package is up to date.
-[INFO] (zespa) This package is up to date.
+[INFO] (zespa) Data has been updated for this package.
 [ERROR] (zess-chapter3) This package does not have downloadable releases.
 [INFO] (zess-chapter5) This package is up to date.
 [INFO] (zess-chapter6) This package is up to date.
@@ -1599,7 +1610,7 @@ This package download URL does not point to a valid file: "https://svn.createtan
 [INFO] (zestful-parse-ingredient) This package is up to date.
 [INFO] (zestreleaser-towncrier) This package is up to date.
 [INFO] (zesty-poker) This package is up to date.
-[INFO] (zesty-zbs-api) Data has been updated for this package.
+[INFO] (zesty-zbs-api) This package is up to date.
 [INFO] (zesty-zbs-api-1621) This package is up to date.
 [INFO] (zesty-zbs-api-dev) This package is up to date.
 [INFO] (zestyparser) This package is up to date.
@@ -1701,7 +1712,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zevcrack) This package is up to date.
 [INFO] (zevents) This package is up to date.
 [INFO] (zeversolar-api) This package is up to date.
-[INFO] (zevit-aih-sdk) Data has been updated for this package.
+[INFO] (zevit-aih-sdk) This package is up to date.
 [INFO] (zevvle-python-sdk) This package is up to date.
 [INFO] (zexceptions) This package is up to date.
 [INFO] (zexfn) This package is up to date.
@@ -1720,7 +1731,7 @@ Unsupported package directory structure.
 [INFO] (zfit-physics) This package is up to date.
 [INFO] (zflearnpipw) This package is up to date.
 [INFO] (zflix) This package is up to date.
-[INFO] (zflow) This package is up to date.
+[INFO] (zflow) Data has been updated for this package.
 [INFO] (zfnew) This package is up to date.
 [INFO] (zforeach) This package is up to date.
 [INFO] (zformat) This package is up to date.
@@ -1819,7 +1830,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zgres) This package is up to date.
 [INFO] (zgtf) This package is up to date.
 [INFO] (zgtoolkit) Data has been updated for this package.
-[INFO] (zgtools) This package is up to date.
+[INFO] (zgtools) Data has been updated for this package.
 [INFO] (zgulde) This package is up to date.
 [INFO] (zgw-auth-backend) This package is up to date.
 [INFO] (zgw-consumers) This package is up to date.
@@ -1831,7 +1842,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zh-nester) This package is up to date.
 [INFO] (zh-recover) This package is up to date.
 [INFO] (zh-segment) This package is up to date.
-[INFO] (zha-quirks) This package is up to date.
+[INFO] (zha-quirks) Data has been updated for this package.
 [INFO] (zhang) This package is up to date.
 [INFO] (zhang-hello) This package is up to date.
 [INFO] (zhang-test) This package is up to date.
@@ -2081,7 +2092,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zicbee-mpris) This package is up to date.
 [INFO] (zicbee-vlc) This package is up to date.
 [INFO] (zict) This package is up to date.
-[INFO] (zidiscord-py) Data has been updated for this package.
+[INFO] (zidiscord-py) This package is up to date.
 [INFO] (zif-gzipper) This package is up to date.
 [INFO] (zif-headincludes) This package is up to date.
 [INFO] (zif-jsmin) This package is up to date.
@@ -2158,7 +2169,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ziim-0-0-2) This package is up to date.
 [INFO] (zijin) This package is up to date.
 [INFO] (zijinlib) This package is up to date.
-[INFO] (zik-dl) Data has been updated for this package.
+[INFO] (zik-dl) This package is up to date.
 [INFO] (zikaexamenes) This package is up to date.
 [INFO] (zikariauf4ex1) This package is up to date.
 [INFO] (zikauf4) This package is up to date.
@@ -2191,7 +2202,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zimports) This package is up to date.
 [INFO] (zimpute) This package is up to date.
 [INFO] (zimscan) This package is up to date.
-[INFO] (zimscraperlib) Data has been updated for this package.
+[INFO] (zimscraperlib) This package is up to date.
 [INFO] (zimsoap) This package is up to date.
 [INFO] (zimupy) This package is up to date.
 [INFO] (zimuzu) This package is up to date.
@@ -2246,6 +2257,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zip-open) This package is up to date.
 [INFO] (zip-shotgun) This package is up to date.
 [ERROR] (zip-tax) This package does not have downloadable releases.
+[INFO] (zip2kafka) This package is up to date.
 [INFO] (zip2np) This package is up to date.
 [INFO] (zip3) This package is up to date.
 [INFO] (zipa) This package is up to date.
@@ -2359,7 +2371,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipls) This package is up to date.
 [INFO] (zipmigo) This package is up to date.
 [INFO] (zipnish) This package is up to date.
-[INFO] (zipp) This package is up to date.
+[INFO] (zipp) Data has been updated for this package.
 [ERROR] (zippath) This package does not have downloadable releases.
 [INFO] (zipper) This package is up to date.
 [INFO] (zipper-easy-module) This package is up to date.
@@ -2380,6 +2392,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipstream) This package is up to date.
 [INFO] (zipstream-new) This package is up to date.
 [INFO] (zipstream-new-2) This package is up to date.
+[INFO] (zipstream-ng) This package is up to date.
 [INFO] (zipstreamer) This package is up to date.
 [INFO] (ziptastic-python) This package is up to date.
 [INFO] (ziptests) This package is up to date.
@@ -2401,7 +2414,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ziti) This package is up to date.
 [INFO] (zitpyvat) This package is up to date.
 [INFO] (ziu) This package is up to date.
-[INFO] (ziva) This package is up to date.
+[INFO] (ziva) Data has been updated for this package.
 [INFO] (zivid) This package is up to date.
 [INFO] (ziviz) This package is up to date.
 [INFO] (ziwia) This package is up to date.
@@ -2485,7 +2498,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zjy-demo) This package is up to date.
 [INFO] (zjy-easyplot) This package is up to date.
 [INFO] (zjypython1) This package is up to date.
-[INFO] (zk) This package is up to date.
+[INFO] (zk) Data has been updated for this package.
 [INFO] (zk-athletelist) This package is up to date.
 [INFO] (zk-cli) This package is up to date.
 [INFO] (zk-flock) This package is up to date.
@@ -2512,6 +2525,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zkdaddy) This package is up to date.
 [INFO] (zkdatabuilder) This package is up to date.
 [INFO] (zkdumpreader) This package is up to date.
+[INFO] (zkeys) Data has been updated for this package.
 [INFO] (zkg) This package is up to date.
 [INFO] (zkie) This package is up to date.
 [INFO] (zkill-searchf) This package is up to date.
@@ -2550,7 +2564,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zku) This package is up to date.
 [INFO] (zkviz) This package is up to date.
 [INFO] (zkw-z) This package is up to date.
-[INFO] (zkyhaxpy) Data has been updated for this package.
+[INFO] (zkyhaxpy) This package is up to date.
 [INFO] (zl) This package is up to date.
 [INFO] (zla-class) This package is up to date.
 [INFO] (zla-forecast) This package is up to date.
@@ -2583,6 +2597,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zlogo) This package is up to date.
 [INFO] (zloipassgen-pkg-zlomorda) This package is up to date.
 [INFO] (zlparse) This package is up to date.
+[INFO] (zlsender) This package is up to date.
 [INFO] (zlshare) This package is up to date.
 [INFO] (zlshenpi) This package is up to date.
 [INFO] (zlsrc) This package is up to date.
@@ -2615,7 +2630,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zmei-gen-flutter) This package is up to date.
 [INFO] (zmei-utils) This package is up to date.
 [INFO] (zmesh) This package is up to date.
-[INFO] (zmfcli) This package is up to date.
+[INFO] (zmfcli) Data has been updated for this package.
 [INFO] (zmg) This package is up to date.
 [INFO] (zmgtest1) This package is up to date.
 [INFO] (zmicroservices) This package is up to date.
@@ -2749,7 +2764,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoauth) This package is up to date.
 [INFO] (zobepy) This package is up to date.
 [INFO] (zocalo) This package is up to date.
-[INFO] (zocalo-dls) Data has been updated for this package.
+[INFO] (zocalo-dls) This package is up to date.
 [INFO] (zodb) This package is up to date.
 [INFO] (zodb-cm) This package is up to date.
 [INFO] (zodb-py3migrate) This package is up to date.
@@ -2786,9 +2801,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoho-crm-connector) This package is up to date.
 [INFO] (zohoapi) This package is up to date.
 [INFO] (zohoautomate) This package is up to date.
+[INFO] (zohobooks-api) Data has been updated for this package.
 [INFO] (zohocrm-api) This package is up to date.
 [INFO] (zohocrm-python) This package is up to date.
 [INFO] (zohocrmapi) This package is up to date.
+[INFO] (zohocrmsdk2-0) Data has been updated for this package.
 [INFO] (zohodocs) This package is up to date.
 [INFO] (zohoreader) This package is up to date.
 [INFO] (zoia) This package is up to date.
@@ -2838,6 +2855,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zone) This package is up to date.
+[INFO] (zone-api) This package is up to date.
 [INFO] (zone-file) This package is up to date.
 [INFO] (zone-file-parser) This package is up to date.
 [INFO] (zone2gandi) This package is up to date.
@@ -2881,6 +2899,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoomascii) This package is up to date.
 [INFO] (zoombot) This package is up to date.
 [INFO] (zoomconnect-sdk) This package is up to date.
+[ERROR] (zoomdl) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (zoomdl-2) This package is up to date.
 [INFO] (zoome) This package is up to date.
 [INFO] (zoomer) This package is up to date.
 [INFO] (zoomeye) This package is up to date.
@@ -2932,7 +2969,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zopache-pagetemplate) This package is up to date.
 [INFO] (zopache-pythonscript) This package is up to date.
 [INFO] (zopaclient) This package is up to date.
-[INFO] (zope) Data has been updated for this package.
+[INFO] (zope) This package is up to date.
 [INFO] (zope-annotation) This package is up to date.
 [INFO] (zope-apidoc) This package is up to date.
 [INFO] (zope-app-annotation) This package is up to date.
@@ -3084,7 +3121,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zope-proxy) This package is up to date.
 [INFO] (zope-psycopgda) This package is up to date.
 [INFO] (zope-ptresource) This package is up to date.
-[INFO] (zope-publisher) Data has been updated for this package.
+[INFO] (zope-publisher) This package is up to date.
 [INFO] (zope-pypisupport) This package is up to date.
 [INFO] (zope-pytest) This package is up to date.
 [INFO] (zope-ramcache) This package is up to date.
@@ -3226,7 +3263,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zorky) This package is up to date.
 [INFO] (zorm) This package is up to date.
 [INFO] (zoro) This package is up to date.
-[INFO] (zoro-gpapi) Data has been updated for this package.
+[INFO] (zoro-gpapi) This package is up to date.
 [INFO] (zorp) This package is up to date.
 [INFO] (zorro) This package is up to date.
 [INFO] (zorro-df) This package is up to date.
@@ -3243,7 +3280,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoter) This package is up to date.
 [INFO] (zotero-bibtize) This package is up to date.
 [INFO] (zotero-cli) This package is up to date.
-[INFO] (zotero-cli-tool) This package is up to date.
+[INFO] (zotero-cli-tool) Data has been updated for this package.
 [INFO] (zotero-sync) This package is up to date.
 [INFO] (zotero-word-items-to-collection) This package is up to date.
 [INFO] (zotero2wordcloud) This package is up to date.
@@ -3306,7 +3343,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zprint) This package is up to date.
 [INFO] (zproc) This package is up to date.
 [INFO] (zprocess) This package is up to date.
-[INFO] (zprofile) This package is up to date.
+[INFO] (zprofile) Data has been updated for this package.
 [INFO] (zprogressbar) This package is up to date.
 [INFO] (zproj) This package is up to date.
 [INFO] (zps) This package is up to date.
@@ -3321,8 +3358,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 This package download URL does not point to a valid file: "http://www.procoders.net/pythonstuff/ZPTPage"
 [INFO] (zpublishereventsbackport) This package is up to date.
 [INFO] (zpy) This package is up to date.
-[INFO] (zpy-zumo) Data has been updated for this package.
-[INFO] (zpybox) Data has been updated for this package.
+[INFO] (zpy-zumo) This package is up to date.
+[INFO] (zpybox) This package is up to date.
 [INFO] (zpyjwt) This package is up to date.
 [INFO] (zpyshell) This package is up to date.
 [INFO] (zpython-tools) This package is up to date.
@@ -3382,6 +3419,34 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zrq-pkg) This package is up to date.
 [INFO] (zrtool) This package is up to date.
 [INFO] (zry-demo) This package is up to date.
+[ERROR] (zry551-lib) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (zrydemo) This package is up to date.
 [INFO] (zs) This package is up to date.
 [INFO] (zs-advancedviz-test1) This package is up to date.
@@ -3418,7 +3483,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zsh1fortest) This package is up to date.
 [INFO] (zsharp) This package is up to date.
 [INFO] (zshell) This package is up to date.
-[INFO] (zshpower) This package is up to date.
+[INFO] (zshpower) Data has been updated for this package.
 [ERROR] (zsi) This package does not have downloadable releases.
 [INFO] (zsi-lxml) This package is up to date.
 [INFO] (zsimparse) This package is up to date.
@@ -3454,7 +3519,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zstreams) This package is up to date.
 [INFO] (zsv-ticker) This package is up to date.
 [INFO] (zsvision) This package is up to date.
-[INFO] (zswag) Data has been updated for this package.
+[INFO] (zswag) This package is up to date.
 [INFO] (zt) This package is up to date.
 [INFO] (ztc) This package is up to date.
 [INFO] (ztctl) This package is up to date.
@@ -3493,7 +3558,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ztf-plan-obs) This package is up to date.
 [INFO] (ztfimg) This package is up to date.
 [INFO] (ztflc) This package is up to date.
-[INFO] (ztfquery) This package is up to date.
+[INFO] (ztfquery) Data has been updated for this package.
 [INFO] (ztfy-alchemy) This package is up to date.
 [INFO] (ztfy-appskin) This package is up to date.
 [INFO] (ztfy-base) This package is up to date.
@@ -3547,6 +3612,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ztransforms) This package is up to date.
 [INFO] (ztranslator) This package is up to date.
 [INFO] (ztreamy) This package is up to date.
+[INFO] (zts-hellopypi) This package is up to date.
+[INFO] (ztshare) This package is up to date.
 [INFO] (ztv) This package is up to date.
 [ERROR] (ztz) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -3613,8 +3680,8 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (zumi) This package is up to date.
-[INFO] (zumidashboard) This package is up to date.
+[INFO] (zumi) Data has been updated for this package.
+[INFO] (zumidashboard) Data has been updated for this package.
 [INFO] (zums) This package is up to date.
 [INFO] (zumservices-api-py) This package is up to date.
 [INFO] (zun) This package is up to date.
@@ -3647,7 +3714,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zuper-nodes-python2-daffy) This package is up to date.
 [INFO] (zuper-nodes-python2-z5) This package is up to date.
 [INFO] (zuper-nodes-z5) This package is up to date.
-[INFO] (zuper-nodes-z6) Data has been updated for this package.
+[INFO] (zuper-nodes-z6) This package is up to date.
 [INFO] (zuper-schemas) This package is up to date.
 [INFO] (zuper-typing-z5) This package is up to date.
 [INFO] (zuper-typing-z6) This package is up to date.
@@ -3659,7 +3726,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zut-nlp-utils) This package is up to date.
 [INFO] (zutil) This package is up to date.
 [INFO] (zutils) This package is up to date.
-[INFO] (zuul) Data has been updated for this package.
+[INFO] (zuul) This package is up to date.
 [INFO] (zuul-client) This package is up to date.
 [INFO] (zuul-get) This package is up to date.
 [INFO] (zuul-lint) This package is up to date.
@@ -3692,8 +3759,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zwack) This package is up to date.
 [INFO] (zware-api) This package is up to date.
 [INFO] (zwatershed) This package is up to date.
-[INFO] (zwave-js-server-python) This package is up to date.
+[INFO] (zwave-js-server-python) Data has been updated for this package.
 [INFO] (zwave-mqtt-bridge) This package is up to date.
+[INFO] (zwb) Data has been updated for this package.
 [INFO] (zwb-data) This package is up to date.
 [INFO] (zwb-job) This package is up to date.
 [INFO] (zwb-utils) This package is up to date.
@@ -3739,9 +3807,37 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zwt5) This package is up to date.
 [INFO] (zwtestprint) This package is up to date.
-[INFO] (zwutils) This package is up to date.
+[INFO] (zwutils) Data has been updated for this package.
 [INFO] (zwyfastai) This package is up to date.
 [INFO] (zx) This package is up to date.
+[ERROR] (zx-backtesting) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [ERROR] (zx-core-backend) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -3773,6 +3869,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zx-forecasting-framework) This package is up to date.
 [INFO] (zx1995-nester) This package is up to date.
 [INFO] (zx81p2wav) This package is up to date.
+[INFO] (zxbacktesting) Data has been updated for this package.
 [INFO] (zxbasic) This package is up to date.
 [INFO] (zxcv) This package is up to date.
 [INFO] (zxcvbn) This package is up to date.
@@ -3822,16 +3919,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zy) This package is up to date.
 [INFO] (zy-aliyun-python-sdk) This package is up to date.
 [INFO] (zy-nester) This package is up to date.
+[INFO] (zy-test-pip) Data has been updated for this package.
 [INFO] (zy-tools) This package is up to date.
 [INFO] (zy1221-nester) This package is up to date.
 [INFO] (zyb-naster) This package is up to date.
 [INFO] (zybats) This package is up to date.
 [INFO] (zyc) This package is up to date.
+[INFO] (zycelium-dataconfig) Data has been updated for this package.
 [INFO] (zydis) This package is up to date.
 [INFO] (zyf) This package is up to date.
 [INFO] (zyf-test) This package is up to date.
 [INFO] (zyf-timer) This package is up to date.
-[INFO] (zygoat) This package is up to date.
+[INFO] (zygoat) Data has been updated for this package.
 [INFO] (zygoat-django) This package is up to date.
 [INFO] (zygomorphic) This package is up to date.
 [INFO] (zygote) This package is up to date.
@@ -3857,9 +3956,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zypher-backtester) This package is up to date.
 [INFO] (zypher-trading-bot) This package is up to date.
 [INFO] (zypper-patch-status-collector) This package is up to date.
+[INFO] (zyppnotify) This package is up to date.
 [INFO] (zyputility) This package is up to date.
 [INFO] (zyt) This package is up to date.
 [INFO] (zyte-autoextract) This package is up to date.
+[INFO] (zytestpip) Data has been updated for this package.
 [INFO] (zython) This package is up to date.
 [INFO] (zyutil) This package is up to date.
 [INFO] (zyw) This package is up to date.
@@ -3898,7 +3999,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zzt-message) This package is up to date.
 [INFO] (zzu-low) This package is up to date.
 [INFO] (zzu-low2) This package is up to date.
-[INFO] (zzx-deep-genome) Data has been updated for this package.
+[INFO] (zzx-deep-genome) This package is up to date.
 [INFO] (zzyzx) This package is up to date.
 [INFO] (zzz) This package is up to date.
 [ERROR] (zzz-web) Could not get a response from API for this package. See below for details.
@@ -3921,6 +4022,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zzzeeksphinx) This package is up to date.
 [INFO] (zzzfs) This package is up to date.
+[INFO] (zzzpypitest) This package is up to date.
+[INFO] (zzzpypitest2) This package is up to date.
 [INFO] (zzzutils) This package is up to date.
 [INFO] (zzzz) This package is up to date.
 [ERROR] (zzzzzzzzz) Could not get a response from API for this package. See below for details.
@@ -3953,11 +4056,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2775
-[INFO]     Packages processed: 2775
-[INFO]         Packages updated: 35
-[INFO]         Packages up-to-date: 2608
-[INFO]         Packages without response: 57
+[INFO] Total packages: 2807
+[INFO]     Packages processed: 2807
+[INFO]         Packages updated: 50
+[INFO]         Packages up-to-date: 2622
+[INFO]         Packages without response: 60
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 65
 [INFO]         Packages with data errors: 10

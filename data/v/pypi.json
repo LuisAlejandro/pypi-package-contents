@@ -21,6 +21,64 @@
         ],
         "version": "1.5.1"
     },
+    "v-cloud-market-cli-user": {
+        "cmdline": [],
+        "modules": [
+            "market_place_cli",
+            "market_place_cli.main_logic",
+            "market_place_cli.service_interface_logic",
+            "market_place_cli.service_interface_logic.common",
+            "market_place_cli.service_interface_logic.initialization_logic",
+            "market_place_cli.service_interface_logic.market_service_logic",
+            "market_place_cli.service_interface_logic.order_service_logic",
+            "market_place_cli.service_interface_logic.user_service_logic",
+            "market_place_cli.service_interface_logic.wallet_service_logic",
+            "market_place_cli.service_interface_request",
+            "market_place_cli.service_interface_request.common_request",
+            "market_place_cli.service_interface_request.market_service_request",
+            "market_place_cli.service_interface_request.order_service_request",
+            "market_place_cli.service_interface_request.user_service_request",
+            "market_place_cli.service_interface_request.wallet_service_request",
+            "market_place_cli.setup",
+            "market_place_cli.use_main_interface",
+            "market_place_cli.v_cloud_market_cli_common",
+            "market_place_cli.v_cloud_market_cli_common.config",
+            "market_place_cli.v_cloud_market_cli_common.config.server_config",
+            "market_place_cli.v_cloud_market_cli_common.config.wallet_config",
+            "market_place_cli.v_cloud_market_cli_common.service",
+            "market_place_cli.v_cloud_market_cli_common.service.market_service",
+            "market_place_cli.v_cloud_market_cli_common.service.order_service",
+            "market_place_cli.v_cloud_market_cli_common.service.service_common",
+            "market_place_cli.v_cloud_market_cli_common.service.user_service",
+            "market_place_cli.v_cloud_market_cli_common.service.wallet_service",
+            "market_place_cli.v_cloud_market_cli_common.service_display",
+            "market_place_cli.v_cloud_market_cli_common.service_display.display_common",
+            "market_place_cli.v_cloud_market_cli_common.service_display.main_interface",
+            "market_place_cli.v_cloud_market_cli_common.service_display.market_service_display",
+            "market_place_cli.v_cloud_market_cli_common.service_display.order_service_display",
+            "market_place_cli.v_cloud_market_cli_common.service_display.qr_code_display",
+            "market_place_cli.v_cloud_market_cli_common.service_display.user_service_display",
+            "market_place_cli.v_cloud_market_cli_common.service_display.wallet_service_display",
+            "market_place_cli.v_cloud_market_cli_common.service_interface_request",
+            "market_place_cli.v_cloud_market_cli_common.service_interface_request.market_interface_request",
+            "market_place_cli.v_cloud_market_cli_common.setup",
+            "market_place_cli.v_cloud_market_cli_common.utils",
+            "market_place_cli.v_cloud_market_cli_common.utils.message_decipher",
+            "market_place_cli.v_cloud_market_cli_common.utils.server_api_wrapper",
+            "market_place_cli.v_cloud_market_cli_common.utils.service_error",
+            "market_place_cli.v_cloud_market_cli_common.utils.util",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain.account",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain.api_wrapper",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain.chain",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain.crypto",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain.error",
+            "market_place_cli.v_cloud_market_cli_common.utils.vsyschain.setting",
+            "market_place_cli.v_cloud_market_cli_common.utils.wallet_cipher",
+            "market_place_cli.v_cloud_market_cli_common.utils.wallet_storage"
+        ],
+        "version": "0.1.1"
+    },
     "v-crypt": {
         "cmdline": [],
         "modules": [
@@ -512,7 +570,38 @@
             "v2ray_util.util_core.v2ray",
             "v2ray_util.util_core.writer"
         ],
-        "version": "3.10.5"
+        "version": "3.10.5.1"
+    },
+    "v2ray-util-mod": {
+        "cmdline": [],
+        "modules": [
+            "v2ray_util",
+            "v2ray_util.config_modify",
+            "v2ray_util.config_modify.base",
+            "v2ray_util.config_modify.cdn",
+            "v2ray_util.config_modify.multiple",
+            "v2ray_util.config_modify.ss",
+            "v2ray_util.config_modify.stream",
+            "v2ray_util.config_modify.tls",
+            "v2ray_util.global_setting",
+            "v2ray_util.global_setting.ban_bt",
+            "v2ray_util.global_setting.iptables_ctr",
+            "v2ray_util.global_setting.stats_ctr",
+            "v2ray_util.global_setting.update_timer",
+            "v2ray_util.main",
+            "v2ray_util.util_core",
+            "v2ray_util.util_core.client",
+            "v2ray_util.util_core.config",
+            "v2ray_util.util_core.group",
+            "v2ray_util.util_core.loader",
+            "v2ray_util.util_core.profile",
+            "v2ray_util.util_core.selector",
+            "v2ray_util.util_core.trans",
+            "v2ray_util.util_core.utils",
+            "v2ray_util.util_core.v2ray",
+            "v2ray_util.util_core.writer"
+        ],
+        "version": "1.0"
     },
     "v2rayr": {
         "cmdline": [],
@@ -668,7 +757,7 @@
             "v3io_frames.pbutils",
             "v3io_frames.pdutils"
         ],
-        "version": "0.8.14"
+        "version": "0.9.0"
     },
     "v3iofs": {
         "cmdline": [],
@@ -679,7 +768,7 @@
             "v3iofs.path",
             "v3iofs.utils"
         ],
-        "version": "0.1.6"
+        "version": "0.1.7"
     },
     "v3n0m": {
         "cmdline": [],
@@ -688,6 +777,13 @@
             "v3n0m.v3n0m"
         ],
         "version": "3.4.0"
+    },
+    "v3rmillion": {
+        "cmdline": [],
+        "modules": [
+            "8888"
+        ],
+        "version": "8.8.8.8"
     },
     "v4": {
         "cmdline": [],
@@ -917,7 +1013,7 @@
             "va.validationanalysis",
             "va.version"
         ],
-        "version": "0.0.0.dev91"
+        "version": "0.0.0.dev97"
     },
     "va-mvg": {
         "cmdline": [],
@@ -927,7 +1023,7 @@
             "mvg.mvg",
             "mvg.plotting"
         ],
-        "version": "0.6.0"
+        "version": "0.6.2"
     },
     "va-mvi": {
         "cmdline": [],
@@ -994,6 +1090,44 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "vaas-api-sdk": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "vaas-sdk-python": {
+        "cmdline": [],
+        "modules": [
+            "example",
+            "example.demo_report",
+            "example.demo_vaas",
+            "src",
+            "src.vaas",
+            "src.vaas.config",
+            "src.vaas.credentials",
+            "src.vaas.report",
+            "src.vaas.tools",
+            "src.vaas.vaas"
+        ],
+        "version": "1.0.2"
+    },
+    "vaassdk": {
+        "cmdline": [],
+        "modules": [
+            "vaassdk",
+            "vaassdk.example",
+            "vaassdk.example.demo_report",
+            "vaassdk.example.demo_vaas",
+            "vaassdk.src",
+            "vaassdk.src.vaas",
+            "vaassdk.src.vaas.config",
+            "vaassdk.src.vaas.credentials",
+            "vaassdk.src.vaas.report",
+            "vaassdk.src.vaas.tools",
+            "vaassdk.src.vaas.vaas"
+        ],
+        "version": "1.0.7"
     },
     "vabbat": {
         "cmdline": [],
@@ -1616,9 +1750,7 @@
         "version": "0.22.0"
     },
     "vade-api": {
-        "cmdline": [
-            "vade_api"
-        ],
+        "cmdline": [],
         "modules": [
             "vade_api_src",
             "vade_api_src.realtime",
@@ -1626,7 +1758,7 @@
             "vade_api_src.spot_structs",
             "vade_api_src.vade_enums"
         ],
-        "version": "0.8.5"
+        "version": "0.9.3"
     },
     "vader": {
         "cmdline": [],
@@ -1779,7 +1911,7 @@
             "vaex.meta",
             "vaex.meta._version"
         ],
-        "version": "4.2.0"
+        "version": "4.3.0"
     },
     "vaex-arrow": {
         "cmdline": [],
@@ -1807,7 +1939,7 @@
             "vaex.astro.transformations",
             "vaex.astro.votable"
         ],
-        "version": "0.8.1"
+        "version": "0.8.2"
     },
     "vaex-core": {
         "cmdline": [],
@@ -1869,6 +2001,7 @@
             "vaex.hash",
             "vaex.image",
             "vaex.itertools",
+            "vaex.join",
             "vaex.json",
             "vaex.kld",
             "vaex.legacy",
@@ -1885,6 +2018,7 @@
             "vaex.multithreading",
             "vaex.parallelize",
             "vaex.promise",
+            "vaex.rolling",
             "vaex.samp",
             "vaex.schema",
             "vaex.scopes",
@@ -1906,7 +2040,7 @@
             "vaex.utils",
             "vaex.version"
         ],
-        "version": "4.2.0"
+        "version": "4.3.0.post1"
     },
     "vaex-distributed": {
         "cmdline": [],
@@ -1935,7 +2069,7 @@
             "vaex.hdf5.utils",
             "vaex.hdf5.writer"
         ],
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "vaex-jupyter": {
         "cmdline": [],
@@ -1996,7 +2130,7 @@
             "vaex.server.tornado_client",
             "vaex.server.tornado_server"
         ],
-        "version": "0.4.1"
+        "version": "0.5.0"
     },
     "vaex-ui": {
         "cmdline": [],
@@ -2064,18 +2198,20 @@
             "vag.console.commands.vagrant",
             "vag.utils",
             "vag.utils.config",
+            "vag.utils.crypto_util",
             "vag.utils.cx_db_util",
             "vag.utils.cx_schema",
             "vag.utils.cx_test_data",
             "vag.utils.exec",
             "vag.utils.gitea_api_util",
             "vag.utils.hash_util",
+            "vag.utils.jenkins_util",
             "vag.utils.misc",
             "vag.utils.nomadutil",
             "vag.utils.string_util",
             "vag.utils.user_util"
         ],
-        "version": "0.1.50"
+        "version": "0.1.55"
     },
     "vagabond": {
         "cmdline": [],
@@ -2291,6 +2427,20 @@
             "vainu.dateutil"
         ],
         "version": "2020.12.0"
+    },
+    "vaip": {
+        "cmdline": [],
+        "modules": [
+            "vaip",
+            "vaip.cli",
+            "vaip.constants",
+            "vaip.container",
+            "vaip.container.app",
+            "vaip.container.prediction",
+            "vaip.model_builder",
+            "vaip.model_deployer"
+        ],
+        "version": "3.1"
     },
     "vais": {
         "cmdline": [],
@@ -2514,6 +2664,15 @@
             "vak_test_net.network"
         ],
         "version": "0.1.1"
+    },
+    "vakantie": {
+        "cmdline": [],
+        "modules": [
+            "vakantie",
+            "vakantie.calendar_extractor",
+            "vakantie.calendar_info"
+        ],
+        "version": "0.1"
     },
     "vakdocker": {
         "cmdline": [
@@ -2822,7 +2981,7 @@
             "valclient.content",
             "valclient.resources"
         ],
-        "version": "1.7.7"
+        "version": "1.8.3"
     },
     "valclust": {
         "cmdline": [],
@@ -2842,7 +3001,7 @@
     "vald-client-python": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.1"
+        "version": "1.1.2"
     },
     "valdec": {
         "cmdline": [],
@@ -2891,6 +3050,23 @@
     "valeera": {
         "cmdline": [],
         "modules": [
+            "tests",
+            "tests.test_any_of_validator",
+            "tests.test_any_validator",
+            "tests.test_array_of_validator",
+            "tests.test_array_validator",
+            "tests.test_boolean_validator",
+            "tests.test_enum_validator",
+            "tests.test_float_validator",
+            "tests.test_integer_validator",
+            "tests.test_null_validator",
+            "tests.test_number_validator",
+            "tests.test_object_validator",
+            "tests.test_one_of_validator",
+            "tests.test_pointer",
+            "tests.test_string_validator",
+            "tests.test_timestamp_validator",
+            "tests.validator_testcase",
             "valeera",
             "valeera.abstract_formatter",
             "valeera.abstract_validator",
@@ -2900,7 +3076,7 @@
             "valeera.validator",
             "valeera.validator_visitor"
         ],
-        "version": "0.5.5"
+        "version": "0.6.9"
     },
     "valence": {
         "cmdline": [],
@@ -3024,14 +3200,6 @@
             "valentine.multiparagraphpage.tests.test_doctest"
         ],
         "version": "0.4"
-    },
-    "valentines": {
-        "cmdline": [],
-        "modules": [
-            "ValentinesCloud",
-            "ValentinesCloud.valentines"
-        ],
-        "version": "1.0"
     },
     "valepdf": {
         "cmdline": [],
@@ -4048,8 +4216,14 @@
     },
     "valera": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.0.1"
+        "modules": [
+            "valera",
+            "valera._validation_result",
+            "valera._validator",
+            "valera._version",
+            "valera.errors"
+        ],
+        "version": "1.3.0"
     },
     "valeri-health": {
         "cmdline": [],
@@ -4851,12 +5025,12 @@
     "validations-common": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.1"
+        "version": "1.2.0"
     },
     "validations-libs": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.0"
+        "version": "1.2.0"
     },
     "validationtool": {
         "cmdline": [],
@@ -5174,6 +5348,24 @@
             "validino.util"
         ],
         "version": "0.2.2"
+    },
+    "validit": {
+        "cmdline": [],
+        "modules": [
+            "validit",
+            "validit.containers",
+            "validit.errors",
+            "validit.errors.errors",
+            "validit.errors.managers",
+            "validit.errors.parsing",
+            "validit.exceptions",
+            "validit.templates",
+            "validit.templates.base",
+            "validit.templates.templates",
+            "validit.utils",
+            "validit.validate"
+        ],
+        "version": "1.3.2"
     },
     "validity": {
         "cmdline": [],
@@ -6138,7 +6330,7 @@
             "vallox_websocket_api.messages",
             "vallox_websocket_api.vallox"
         ],
-        "version": "2.7.0"
+        "version": "2.8.1"
     },
     "valohai-cli": {
         "cmdline": [],
@@ -6246,7 +6438,7 @@
             "papi.nodes",
             "papi.utils"
         ],
-        "version": "0.1.1"
+        "version": "0.1.3"
     },
     "valohai-utils": {
         "cmdline": [],
@@ -6264,6 +6456,7 @@
             "valohai.internals.guid",
             "valohai.internals.input_info",
             "valohai.internals.merge",
+            "valohai.internals.notebooks",
             "valohai.internals.parameters",
             "valohai.internals.parsing",
             "valohai.internals.pipeline",
@@ -6276,13 +6469,14 @@
             "valohai.utils",
             "valohai.yaml"
         ],
-        "version": "0.1.8"
+        "version": "0.1.10"
     },
     "valohai-yaml": {
         "cmdline": [],
         "modules": [
             "valohai_yaml",
             "valohai_yaml.commands",
+            "valohai_yaml.excs",
             "valohai_yaml.lint",
             "valohai_yaml.objs",
             "valohai_yaml.objs.base",
@@ -6299,6 +6493,7 @@
             "valohai_yaml.objs.pipelines.edge",
             "valohai_yaml.objs.pipelines.execution_node",
             "valohai_yaml.objs.pipelines.node",
+            "valohai_yaml.objs.pipelines.node_action",
             "valohai_yaml.objs.pipelines.pipeline",
             "valohai_yaml.objs.pipelines.task_node",
             "valohai_yaml.objs.step",
@@ -6310,7 +6505,7 @@
             "valohai_yaml.utils.terminal",
             "valohai_yaml.validation"
         ],
-        "version": "0.14.1"
+        "version": "0.15.0"
     },
     "valor": {
         "cmdline": [],
@@ -6329,7 +6524,7 @@
             "valorant.threads",
             "valorant.values"
         ],
-        "version": "0.4.1"
+        "version": "0.4.3"
     },
     "valorant-api": {
         "cmdline": [],
@@ -6343,8 +6538,10 @@
             "valorant_api.competitive",
             "valorant_api.competitivetiers",
             "valorant_api.contenttiers",
+            "valorant_api.contracts",
             "valorant_api.currencies",
             "valorant_api.endpoints",
+            "valorant_api.events",
             "valorant_api.exceptions",
             "valorant_api.gamemodes",
             "valorant_api.generators",
@@ -6360,7 +6557,7 @@
             "valorant_api.version",
             "valorant_api.weapons"
         ],
-        "version": "0.0.7"
+        "version": "0.0.8"
     },
     "valorum": {
         "cmdline": [],
@@ -6721,11 +6918,17 @@
             "valuta",
             "valuta.base",
             "valuta.cli",
+            "valuta.constants",
             "valuta.contrib",
             "valuta.contrib.django_integration",
+            "valuta.contrib.django_integration.context_processors",
             "valuta.contrib.django_integration.models",
+            "valuta.contrib.django_integration.templatetags",
+            "valuta.contrib.django_integration.templatetags.valuta_tags",
             "valuta.contrib.django_integration.tests",
+            "valuta.contrib.django_integration.tests.test_context_processors",
             "valuta.contrib.django_integration.tests.test_models",
+            "valuta.contrib.django_integration.tests.test_templatetags",
             "valuta.currencies",
             "valuta.currencies.aed",
             "valuta.currencies.afn",
@@ -6908,7 +7111,7 @@
             "valuta.tests.test_utils",
             "valuta.utils"
         ],
-        "version": "0.1.7"
+        "version": "0.3.1"
     },
     "valve": {
         "cmdline": [],
@@ -6963,11 +7166,13 @@
             "valvebsp.bsp",
             "valvebsp.constants",
             "valvebsp.exceptions",
+            "valvebsp.lumps",
             "valvebsp.profiles",
             "valvebsp.structs",
             "valvebsp.structs.bsp",
             "valvebsp.structs.bsp_header",
             "valvebsp.structs.common",
+            "valvebsp.structs.flags",
             "valvebsp.structs.lump_0",
             "valvebsp.structs.lump_1",
             "valvebsp.structs.lump_10",
@@ -7037,7 +7242,7 @@
             "valvebsp.structs.lump_prps",
             "valvebsp.structs.lump_tlpd"
         ],
-        "version": "1.1.0"
+        "version": "1.2.0"
     },
     "valvefgd": {
         "cmdline": [],
@@ -7417,6 +7622,17 @@
             "vanadium.vanadium"
         ],
         "version": "0.0.2.4"
+    },
+    "vancalculator": {
+        "cmdline": [],
+        "modules": [
+            "vandyck_pycalculator",
+            "vandyck_pycalculator.Binomialdistribution",
+            "vandyck_pycalculator.Distribution",
+            "vandyck_pycalculator.Gaussiandistribution",
+            "vandyck_pycalculator.Generaldistribution"
+        ],
+        "version": "0.0.2.1"
     },
     "vancare-fact": {
         "cmdline": [],
@@ -9294,7 +9510,7 @@
             "vardefunc.sharp",
             "vardefunc.util"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "varenv": {
         "cmdline": [],
@@ -9428,6 +9644,14 @@
         ],
         "version": "0.1"
     },
+    "variable-protocols": {
+        "cmdline": [],
+        "modules": [
+            "examples",
+            "variables"
+        ],
+        "version": "1.0"
+    },
     "variable-updater": {
         "cmdline": [],
         "modules": [
@@ -9459,7 +9683,7 @@
             "VariableSelection.feature_selector",
             "VariableSelection.run"
         ],
-        "version": "1.0.1"
+        "version": "1.0.2"
     },
     "variadic": {
         "cmdline": [],
@@ -9837,6 +10061,16 @@
         ],
         "version": "0.4"
     },
+    "varius": {
+        "cmdline": [],
+        "modules": [
+            "varius",
+            "varius.printer",
+            "varius.scope",
+            "varius.variable"
+        ],
+        "version": "0.1.9"
+    },
     "varject": {
         "cmdline": [],
         "modules": [
@@ -9844,7 +10078,7 @@
             "varject.core_fnc",
             "varject.quotes_handling"
         ],
-        "version": "1.0"
+        "version": "1.0.1"
     },
     "varlens": {
         "cmdline": [],
@@ -9913,7 +10147,7 @@
             "varname.ignore",
             "varname.utils"
         ],
-        "version": "0.6.4"
+        "version": "0.7.1"
     },
     "varnish-admin-socket": {
         "cmdline": [],
@@ -10103,7 +10337,7 @@
             "varsnap.assert_generator",
             "varsnap.core"
         ],
-        "version": "1.4.3"
+        "version": "1.4.4"
     },
     "varsom-avalanche-client": {
         "cmdline": [],
@@ -10588,6 +10822,11 @@
         ],
         "version": "0.0.1"
     },
+    "varstool": {
+        "cmdline": [],
+        "modules": [],
+        "version": "2.1"
+    },
     "varsubst": {
         "cmdline": [],
         "modules": [
@@ -10698,7 +10937,7 @@
             "varz.util",
             "varz.vars"
         ],
-        "version": "0.6.3"
+        "version": "0.7.0"
     },
     "vas": {
         "cmdline": [],
@@ -11239,7 +11478,7 @@
             "vaspvis.unfold.vaspwfc",
             "vaspvis.utils"
         ],
-        "version": "0.4.15"
+        "version": "0.4.25"
     },
     "vaspwiki": {
         "cmdline": [],
@@ -11678,12 +11917,14 @@
             "storage.urls",
             "storage.utils",
             "storage.views",
+            "storage.views.account",
             "storage.views.backup",
             "storage.views.main",
             "vault",
             "vault.admin",
             "vault.apps",
             "vault.client",
+            "vault.context_processors",
             "vault.forms",
             "vault.jsoninfo",
             "vault.management",
@@ -11705,10 +11946,12 @@
             "vault.urls",
             "vault.utils",
             "vault.views",
+            "vault.views.main",
+            "vault.views.swift_cloud",
             "vault.widgets",
             "vault.wsgi"
         ],
-        "version": "1.1.4"
+        "version": "1.2.0"
     },
     "vault-anyconfig": {
         "cmdline": [],
@@ -11755,7 +11998,7 @@
     "vault-cli": {
         "cmdline": [],
         "modules": [],
-        "version": "1.6.0"
+        "version": "2.0.0"
     },
     "vault-client": {
         "cmdline": [],
@@ -12187,7 +12430,7 @@
             "console",
             "console.console"
         ],
-        "version": "1.0.0"
+        "version": "1.1.1"
     },
     "vb-python": {
         "cmdline": [],
@@ -12674,6 +12917,21 @@
             "vb_ihmm.testing.util"
         ],
         "version": "1.03"
+    },
+    "vbind": {
+        "cmdline": [],
+        "modules": [
+            "vbind",
+            "vbind.Interface",
+            "vbind.analyze",
+            "vbind.binder",
+            "vbind.normalize",
+            "vbind.plot",
+            "vbind.startup",
+            "vbind.utils",
+            "vbind.verify"
+        ],
+        "version": "1.0.2"
     },
     "vbindex": {
         "cmdline": [],
@@ -13354,7 +13612,7 @@
             "vcap.testing.thread_validation",
             "vcap.version"
         ],
-        "version": "0.2.7"
+        "version": "0.3.1"
     },
     "vcap-services": {
         "cmdline": [],
@@ -13388,7 +13646,7 @@
             "vcap_utils.backends.tf_object_detection",
             "vcap_utils.version"
         ],
-        "version": "0.2.7"
+        "version": "0.3.1"
     },
     "vcapi": {
         "cmdline": [],
@@ -13609,7 +13867,7 @@
     "vcell-cli-utils": {
         "cmdline": [],
         "modules": [],
-        "version": "0.6.3"
+        "version": "0.7.1"
     },
     "vcenter": {
         "cmdline": [],
@@ -13695,6 +13953,17 @@
             "vcf_consensus_builder.vcf_consensus_builder"
         ],
         "version": "0.1.0"
+    },
+    "vcf-creator": {
+        "cmdline": [],
+        "modules": [
+            "vcf_creator",
+            "vcf_creator.cli",
+            "vcf_creator.tests",
+            "vcf_creator.tests.test_vcf",
+            "vcf_creator.vcf"
+        ],
+        "version": "1.1.0"
     },
     "vcf-dedup": {
         "cmdline": [
@@ -13794,9 +14063,40 @@
             "vcf2fhir.gene_ref_seq",
             "vcf2fhir.json_generator",
             "vcf2fhir.test",
-            "vcf2fhir.test.test_vcf2fhir"
+            "vcf2fhir.test.test_integration",
+            "vcf2fhir.test.test_unit"
         ],
-        "version": "0.0.16"
+        "version": "0.0.17"
+    },
+    "vcf2fhir-test-517": {
+        "cmdline": [],
+        "modules": [
+            "vcf2fhir_test_517",
+            "vcf2fhir_test_517.common",
+            "vcf2fhir_test_517.converter",
+            "vcf2fhir_test_517.fhir_helper",
+            "vcf2fhir_test_517.gene_ref_seq",
+            "vcf2fhir_test_517.json_generator",
+            "vcf2fhir_test_517.test",
+            "vcf2fhir_test_517.test.test_integration",
+            "vcf2fhir_test_517.test.test_unit"
+        ],
+        "version": "0.0.17"
+    },
+    "vcf2fhir-test-upgrade-test-upgrade": {
+        "cmdline": [],
+        "modules": [
+            "vcf2fhir_test_upgrade",
+            "vcf2fhir_test_upgrade.common",
+            "vcf2fhir_test_upgrade.converter",
+            "vcf2fhir_test_upgrade.fhir_helper",
+            "vcf2fhir_test_upgrade.gene_ref_seq",
+            "vcf2fhir_test_upgrade.json_generator",
+            "vcf2fhir_test_upgrade.test",
+            "vcf2fhir_test_upgrade.test.test_integration",
+            "vcf2fhir_test_upgrade.test.test_unit"
+        ],
+        "version": "0.0.17"
     },
     "vcf2mutt": {
         "cmdline": [
@@ -14089,6 +14389,16 @@
             "vcgencmd.vcgencmd"
         ],
         "version": "0.1.1"
+    },
+    "vch-distributions": {
+        "cmdline": [],
+        "modules": [
+            "vch_distributions",
+            "vch_distributions.Binomialdistribution",
+            "vch_distributions.Gaussiandistribution",
+            "vch_distributions.Generaldistribution"
+        ],
+        "version": "0.1"
     },
     "vcheck": {
         "cmdline": [],
@@ -14842,7 +15152,7 @@
             "vcspull.log",
             "vcspull.util"
         ],
-        "version": "1.5.0"
+        "version": "1.8.0"
     },
     "vcsrosetta": {
         "cmdline": [
@@ -16003,6 +16313,18 @@
         ],
         "version": "0.0.9"
     },
+    "vdr": {
+        "cmdline": [],
+        "modules": [
+            "screenagent",
+            "screenagent.screenagent",
+            "vdr",
+            "vdr.sentences",
+            "vdr.tools",
+            "vdr.vdr"
+        ],
+        "version": "1.0.9"
+    },
     "vdrnn": {
         "cmdline": [],
         "modules": [
@@ -16018,7 +16340,7 @@
             "vdropbox",
             "vdropbox.vdropbox"
         ],
-        "version": "0.2.5"
+        "version": "0.2.6"
     },
     "vds-api-client": {
         "cmdline": [],
@@ -16688,9 +17010,9 @@
         "cmdline": [],
         "modules": [
             "vecdb",
-            "vecdb.vecdb"
+            "vecdb.main"
         ],
-        "version": "1.0.2"
+        "version": "0.0.0"
     },
     "vecha": {
         "cmdline": [],
@@ -16933,6 +17255,81 @@
         ],
         "version": "0.0.7"
     },
+    "vectice": {
+        "cmdline": [],
+        "modules": [
+            "vectice",
+            "vectice.adapter",
+            "vectice.adapter.adapter",
+            "vectice.adapter.mlflow",
+            "vectice.api",
+            "vectice.api.Page",
+            "vectice.api._auth",
+            "vectice.api._http",
+            "vectice.api._utils",
+            "vectice.api.client",
+            "vectice.api.dataset",
+            "vectice.api.dataset_version",
+            "vectice.api.job",
+            "vectice.api.job_artifact",
+            "vectice.api.job_run",
+            "vectice.api.json_object",
+            "vectice.api.model",
+            "vectice.api.model_version",
+            "vectice.api.output",
+            "vectice.api.output.job_output",
+            "vectice.api.output.job_run_output",
+            "vectice.api.output.paged_response",
+            "vectice.api.project",
+            "vectice.api.rule",
+            "vectice.entity",
+            "vectice.entity._base_entity",
+            "vectice.entity._user_declared_version",
+            "vectice.entity._versioned_entity",
+            "vectice.entity.code",
+            "vectice.entity.code_version",
+            "vectice.entity.dataset",
+            "vectice.entity.dataset_version",
+            "vectice.entity.git_version",
+            "vectice.entity.job",
+            "vectice.entity.job_artifact",
+            "vectice.entity.job_run",
+            "vectice.entity.metadata_source",
+            "vectice.entity.model",
+            "vectice.entity.model_version",
+            "vectice.models",
+            "vectice.models.artifact",
+            "vectice.models.artifact_type",
+            "vectice.models.artifact_version",
+            "vectice.models.artifacts",
+            "vectice.models.code_version",
+            "vectice.models.code_version_artifact",
+            "vectice.models.dataset_version",
+            "vectice.models.dataset_version_artifact",
+            "vectice.models.errors",
+            "vectice.models.git_version",
+            "vectice.models.job",
+            "vectice.models.job_artifact_type",
+            "vectice.models.job_run",
+            "vectice.models.job_run_status",
+            "vectice.models.job_type",
+            "vectice.models.metric",
+            "vectice.models.model_version",
+            "vectice.models.model_version_artifact",
+            "vectice.models.property",
+            "vectice.models.runnable_job",
+            "vectice.models.tag",
+            "vectice.models.user_declared_version",
+            "vectice.models.user_version",
+            "vectice.models.with_metrics",
+            "vectice.models.with_parent",
+            "vectice.models.with_properties",
+            "vectice.models.with_tags",
+            "vectice.models.with_version",
+            "vectice.vectice"
+        ],
+        "version": "0.0.6"
+    },
     "vectify": {
         "cmdline": [],
         "modules": [
@@ -17014,7 +17411,7 @@
             "vecto.vocabulary",
             "vecto.vocabulary.vocabulary"
         ],
-        "version": "0.2.12"
+        "version": "0.2.18"
     },
     "vectograph": {
         "cmdline": [],
@@ -17378,9 +17775,10 @@
             "vectorbt.utils.params",
             "vectorbt.utils.random",
             "vectorbt.utils.requests",
-            "vectorbt.utils.schedule"
+            "vectorbt.utils.schedule",
+            "vectorbt.utils.template"
         ],
-        "version": "0.18.2"
+        "version": "0.19.2"
     },
     "vectorcalculator": {
         "cmdline": [],
@@ -17760,7 +18158,7 @@
             "vectorise",
             "vectorise.__vector__"
         ],
-        "version": "0.0.4"
+        "version": "0.0.6"
     },
     "vectorize": {
         "cmdline": [],
@@ -17806,6 +18204,14 @@
             "vectormath.vector"
         ],
         "version": "0.2.2"
+    },
+    "vectormatrixlib": {
+        "cmdline": [],
+        "modules": [
+            "vectormatrixlib",
+            "vectormatrixlib.matrix"
+        ],
+        "version": "1.0.0"
     },
     "vectorobjects": {
         "cmdline": [],
@@ -17854,11 +18260,6 @@
         ],
         "version": "1.0.0"
     },
-    "vectors-algebra": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
     "vectors-fosterhr": {
         "cmdline": [],
         "modules": [],
@@ -17874,11 +18275,8 @@
     },
     "vectors2d": {
         "cmdline": [],
-        "modules": [
-            "vectors2d",
-            "vectors2d.vectors2d"
-        ],
-        "version": "0.95"
+        "modules": [],
+        "version": "0.96"
     },
     "vectors32": {
         "cmdline": [],
@@ -17895,19 +18293,6 @@
             "vectorslow.joke"
         ],
         "version": "1.3"
-    },
-    "vectorspector": {
-        "cmdline": [],
-        "modules": [
-            "vectorspector",
-            "vectorspector.plot_vector_field",
-            "vectorspector.readers",
-            "vectorspector.readers.array_reader",
-            "vectorspector.readers.vector_field_function_reader",
-            "vectorspector.readers.vtk_reader",
-            "vectorspector.vector_field_reader"
-        ],
-        "version": "0.1"
     },
     "vectorspy": {
         "cmdline": [],
@@ -18049,7 +18434,7 @@
             "vectrix.sentry",
             "vectrix.settings"
         ],
-        "version": "0.2.18"
+        "version": "0.2.19"
     },
     "vecvis": {
         "cmdline": [],
@@ -18090,7 +18475,7 @@
     "vecxx": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.1"
+        "version": "0.0.3"
     },
     "ved-reader": {
         "cmdline": [],
@@ -18564,32 +18949,68 @@
             "vedro._context",
             "vedro._core",
             "vedro._core._dispatcher",
+            "vedro._core._exc_info",
+            "vedro._core._lifecycle",
+            "vedro._core._plugin",
+            "vedro._core._report",
             "vedro._core._runner",
+            "vedro._core._scenario_discoverer",
+            "vedro._core._scenario_discoverer._scenario_discoverer",
+            "vedro._core._scenario_finder",
+            "vedro._core._scenario_finder._file_filters",
+            "vedro._core._scenario_finder._file_filters._any_filter",
+            "vedro._core._scenario_finder._file_filters._dunder_filter",
+            "vedro._core._scenario_finder._file_filters._ext_filter",
+            "vedro._core._scenario_finder._file_filters._file_filter",
+            "vedro._core._scenario_finder._file_filters._hidden_filter",
+            "vedro._core._scenario_finder._scenario_file_finder",
+            "vedro._core._scenario_finder._scenario_finder",
+            "vedro._core._scenario_loader",
+            "vedro._core._scenario_loader._scenario_assert_rewriter_loader",
+            "vedro._core._scenario_loader._scenario_file_loader",
+            "vedro._core._scenario_loader._scenario_loader",
+            "vedro._core._scenario_result",
+            "vedro._core._step_result",
             "vedro._core._virtual_scenario",
             "vedro._core._virtual_step",
-            "vedro._events",
-            "vedro._events._event",
             "vedro._interface",
             "vedro._params",
             "vedro._scenario",
             "vedro._version",
+            "vedro.events",
+            "vedro.events._event",
             "vedro.plugins",
             "vedro.plugins.director",
             "vedro.plugins.director._director",
             "vedro.plugins.director._reporter",
-            "vedro.plugins.director.reporters",
-            "vedro.plugins.director.reporters._rich_reporter",
-            "vedro.plugins.director.reporters._silent_reporter",
-            "vedro.plugins.plugin",
+            "vedro.plugins.director.rich",
+            "vedro.plugins.director.rich._rich_reporter",
+            "vedro.plugins.director.rich.utils",
+            "vedro.plugins.director.silent",
+            "vedro.plugins.interrupter",
+            "vedro.plugins.interrupter._interrupter",
+            "vedro.plugins.seeder",
+            "vedro.plugins.seeder._seeder",
             "vedro.plugins.skipper",
             "vedro.plugins.skipper._only",
             "vedro.plugins.skipper._skip",
             "vedro.plugins.skipper._skipper",
+            "vedro.plugins.slicer",
+            "vedro.plugins.slicer._slicer",
+            "vedro.plugins.tagger",
+            "vedro.plugins.tagger._tagger",
             "vedro.plugins.terminator",
-            "vedro.plugins.terminator._terminator",
-            "vedro.plugins.validator"
+            "vedro.plugins.terminator._terminator"
         ],
-        "version": "1.0.4"
+        "version": "1.2.3"
+    },
+    "vedro-gitlab-reporter": {
+        "cmdline": [],
+        "modules": [
+            "vedro_gitlab_reporter",
+            "vedro_gitlab_reporter._gitlab_reporter"
+        ],
+        "version": "0.1.2"
     },
     "vee": {
         "cmdline": [],
@@ -18852,7 +19273,7 @@
             "vegaapiclient.vegatradingdataclient",
             "vegaapiclient.walletclient"
         ],
-        "version": "0.38.0"
+        "version": "0.39.0"
     },
     "vega-component": {
         "cmdline": [],
@@ -19027,7 +19448,7 @@
         "modules": [
             "vegas"
         ],
-        "version": "4.0.2"
+        "version": "4.0.3"
     },
     "vegas-lattice": {
         "cmdline": [],
@@ -19304,6 +19725,25 @@
         ],
         "version": "0.4.0"
     },
+    "veides-sdk": {
+        "cmdline": [],
+        "modules": [
+            "veides",
+            "veides.sdk",
+            "veides.sdk.api",
+            "veides.sdk.api.base_client",
+            "veides.sdk.api.client",
+            "veides.sdk.api.exceptions",
+            "veides.sdk.api.properties",
+            "veides.sdk.stream_hub",
+            "veides.sdk.stream_hub.base_client",
+            "veides.sdk.stream_hub.client",
+            "veides.sdk.stream_hub.exceptions",
+            "veides.sdk.stream_hub.models",
+            "veides.sdk.stream_hub.properties"
+        ],
+        "version": "0.1.0"
+    },
     "veidt": {
         "cmdline": [],
         "modules": [
@@ -19318,6 +19758,19 @@
             "veidt.models"
         ],
         "version": "0.0.2"
+    },
+    "veikk-config": {
+        "cmdline": [],
+        "modules": [
+            "veikk",
+            "veikk.evdev_manager",
+            "veikk.udev_manager",
+            "veikk.veikk_config_manager",
+            "veikk.veikk_daemon",
+            "veikk.veikk_device",
+            "veikkctl"
+        ],
+        "version": "3.0.0a1"
     },
     "veikkaaja": {
         "cmdline": [],
@@ -20129,7 +20582,7 @@
             "velociraptor.tools.mass_functions",
             "velociraptor.units"
         ],
-        "version": "0.15.0"
+        "version": "0.15.1"
     },
     "velocity": {
         "cmdline": [],
@@ -20251,6 +20704,17 @@
         "cmdline": [],
         "modules": [],
         "version": "1.0.1"
+    },
+    "velogames": {
+        "cmdline": [],
+        "modules": [
+            "velogames",
+            "velogames.cli",
+            "velogames.commands",
+            "velogames.containers",
+            "velogames.parser"
+        ],
+        "version": "0.1.1"
     },
     "velopy": {
         "cmdline": [],
@@ -20519,7 +20983,7 @@
             "venafi_vcert_gitlab_integration.utils",
             "venafi_vcert_gitlab_integration.version_command"
         ],
-        "version": "1.1.0"
+        "version": "1.1.1"
     },
     "venc": {
         "cmdline": [
@@ -20688,9 +21152,7 @@
         "version": "0.3.4"
     },
     "vendorize": {
-        "cmdline": [
-            "python-vendorize"
-        ],
+        "cmdline": [],
         "modules": [
             "vendorize",
             "vendorize._vendor",
@@ -20698,12 +21160,13 @@
             "vendorize._vendor.pytoml.core",
             "vendorize._vendor.pytoml.parser",
             "vendorize._vendor.pytoml.writer",
+            "vendorize.cli",
             "vendorize.files",
             "vendorize.import_rewrite",
             "vendorize.python_source",
             "vendorize.setuptools_build"
         ],
-        "version": "0.2.1"
+        "version": "0.2.2"
     },
     "vendpos": {
         "cmdline": [],
@@ -21293,7 +21756,7 @@
             "venture.ui.ui_provider",
             "venture.util"
         ],
-        "version": "2.0.0"
+        "version": "2.1.0"
     },
     "venture-tools": {
         "cmdline": [],
@@ -21619,7 +22082,7 @@
             "venvctl.utils.reports",
             "venvctl.utils.utils"
         ],
-        "version": "1.4.4"
+        "version": "1.4.12"
     },
     "venvctrl": {
         "cmdline": [],
@@ -21719,7 +22182,7 @@
         "modules": [
             "venvstarter"
         ],
-        "version": "0.8.1"
+        "version": "0.9.0"
     },
     "venvtools": {
         "cmdline": [],
@@ -22015,6 +22478,17 @@
         ],
         "version": "2020.4.0"
     },
+    "veracore-api-client": {
+        "cmdline": [],
+        "modules": [
+            "veracore_api_client",
+            "veracore_api_client.__version__",
+            "veracore_api_client.api",
+            "veracore_api_client.constants",
+            "veracore_api_client.exceptions"
+        ],
+        "version": "0.0.2"
+    },
     "veracross-api": {
         "cmdline": [],
         "modules": [
@@ -22141,7 +22615,7 @@
             "verbecc.verbs_parser",
             "verbecc.version"
         ],
-        "version": "1.7.0"
+        "version": "1.7.1"
     },
     "verbose-ls": {
         "cmdline": [],
@@ -22389,7 +22863,7 @@
         "modules": [
             "verdoc"
         ],
-        "version": "1.0.0"
+        "version": "1.0.2"
     },
     "verfun": {
         "cmdline": [],
@@ -22676,7 +23150,7 @@
             "verif.variable",
             "verif.version"
         ],
-        "version": "1.1.3"
+        "version": "1.2.0"
     },
     "verifai": {
         "cmdline": [],
@@ -23538,7 +24012,7 @@
             "verity_sdk.version",
             "verity_sdk.wallet"
         ],
-        "version": "0.4.7"
+        "version": "0.4.8"
     },
     "veriusapigateway": {
         "cmdline": [],
@@ -23789,7 +24263,7 @@
             "vermin.source_visitor",
             "vermin.utility"
         ],
-        "version": "1.2.0"
+        "version": "1.2.1"
     },
     "verminator": {
         "cmdline": [
@@ -23986,6 +24460,7 @@
             "veros.cli.veros_copy_setup",
             "veros.cli.veros_create_mask",
             "veros.cli.veros_resubmit",
+            "veros.cli.veros_run",
             "veros.core",
             "veros.core.advection",
             "veros.core.density",
@@ -24005,68 +24480,72 @@
             "veros.core.isoneutral.isoneutral",
             "veros.core.momentum",
             "veros.core.numerics",
+            "veros.core.operators",
+            "veros.core.special",
+            "veros.core.special.tdma_",
             "veros.core.streamfunction",
             "veros.core.streamfunction.island",
+            "veros.core.streamfunction.line_integrals",
             "veros.core.streamfunction.solve_stream",
             "veros.core.streamfunction.solvers",
             "veros.core.streamfunction.solvers.base",
-            "veros.core.streamfunction.solvers.petsc",
+            "veros.core.streamfunction.solvers.petsc_",
             "veros.core.streamfunction.solvers.scipy",
+            "veros.core.streamfunction.solvers.scipy_jax",
             "veros.core.streamfunction.streamfunction_init",
-            "veros.core.streamfunction.utilities",
             "veros.core.thermodynamics",
             "veros.core.tke",
             "veros.core.utilities",
-            "veros.decorators",
             "veros.diagnostics",
+            "veros.diagnostics.api",
             "veros.diagnostics.averages",
+            "veros.diagnostics.base",
             "veros.diagnostics.cfl_monitor",
-            "veros.diagnostics.diagnostic",
             "veros.diagnostics.energy",
-            "veros.diagnostics.io_tools",
-            "veros.diagnostics.io_tools.hdf5",
-            "veros.diagnostics.io_tools.netcdf",
             "veros.diagnostics.overturning",
             "veros.diagnostics.snapshot",
             "veros.diagnostics.tracer_monitor",
             "veros.distributed",
-            "veros.handlers",
+            "veros.io_tools",
+            "veros.io_tools.hdf5",
+            "veros.io_tools.netcdf",
             "veros.logs",
             "veros.plugins",
             "veros.progress",
+            "veros.pyom_compat",
+            "veros.restart",
+            "veros.routines",
             "veros.runtime",
             "veros.settings",
-            "veros.setup",
-            "veros.setup.acc",
-            "veros.setup.acc.acc",
-            "veros.setup.acc_basic",
-            "veros.setup.acc_basic.acc_basic",
-            "veros.setup.acc_sector",
-            "veros.setup.acc_sector.acc_sector",
-            "veros.setup.global_1deg",
-            "veros.setup.global_1deg.global_one_degree",
-            "veros.setup.global_4deg",
-            "veros.setup.global_4deg.global_four_degree",
-            "veros.setup.global_flexible",
-            "veros.setup.global_flexible.global_flexible",
-            "veros.setup.north_atlantic",
-            "veros.setup.north_atlantic.north_atlantic",
-            "veros.setup.wave_propagation",
-            "veros.setup.wave_propagation.wave_propagation",
+            "veros.setups",
+            "veros.setups.acc",
+            "veros.setups.acc.acc",
+            "veros.setups.acc_basic",
+            "veros.setups.acc_basic.acc_basic",
+            "veros.setups.acc_sector",
+            "veros.setups.acc_sector.acc_sector",
+            "veros.setups.global_1deg",
+            "veros.setups.global_1deg.global_1deg",
+            "veros.setups.global_4deg",
+            "veros.setups.global_4deg.global_4deg",
+            "veros.setups.global_flexible",
+            "veros.setups.global_flexible.global_flexible",
+            "veros.setups.north_atlantic",
+            "veros.setups.north_atlantic.north_atlantic",
+            "veros.setups.wave_propagation",
+            "veros.setups.wave_propagation.wave_propagation",
+            "veros.signals",
             "veros.state",
-            "veros.state_dist",
             "veros.time",
             "veros.timer",
             "veros.tools",
             "veros.tools.assets",
-            "veros.tools.cli",
             "veros.tools.filelock",
             "veros.tools.setup",
             "veros.variables",
-            "veros.veros",
-            "veros.veros_legacy"
+            "veros.veros"
         ],
-        "version": "0.2.3"
+        "version": "1.3.4"
     },
     "veros-bgc": {
         "cmdline": [],
@@ -24651,6 +25130,14 @@
         ],
         "version": "1.1.0"
     },
+    "version-regress": {
+        "cmdline": [],
+        "modules": [
+            "version",
+            "version.regress"
+        ],
+        "version": "5.0.0"
+    },
     "version-string": {
         "cmdline": [],
         "modules": [
@@ -24979,6 +25466,23 @@
         ],
         "version": "0.1.5"
     },
+    "versioningit": {
+        "cmdline": [],
+        "modules": [
+            "versioningit",
+            "versioningit.basics",
+            "versioningit.config",
+            "versioningit.core",
+            "versioningit.errors",
+            "versioningit.git",
+            "versioningit.hook",
+            "versioningit.logging",
+            "versioningit.methods",
+            "versioningit.next_version",
+            "versioningit.util"
+        ],
+        "version": "0.1.0"
+    },
     "versionizer": {
         "cmdline": [],
         "modules": [
@@ -25086,7 +25590,7 @@
             "versionpro.dryrun",
             "versionpro.help"
         ],
-        "version": "0.6.5"
+        "version": "0.6.7"
     },
     "versionpy": {
         "cmdline": [
@@ -25387,7 +25891,9 @@
         "cmdline": [],
         "modules": [
             "tests",
+            "tests.clean_test_accounts",
             "tests.conftest",
+            "tests.constants",
             "tests.models",
             "tests.models.nets",
             "tests.monitoring",
@@ -26230,7 +26736,7 @@
             "verta.visibility._visibility",
             "verta.visibility._workspace_default"
         ],
-        "version": "0.18.0"
+        "version": "0.18.1"
     },
     "verta-simulate-crashing": {
         "cmdline": [],
@@ -26318,7 +26824,7 @@
             "vertex2tex.test.test_translate",
             "vertex2tex.v2t"
         ],
-        "version": "0.2.4"
+        "version": "0.2.5"
     },
     "vertexarray": {
         "cmdline": [],
@@ -26597,6 +27103,7 @@
             "verticapy.tests.vModel.test_linear_svr",
             "verticapy.tests.vModel.test_lof",
             "verticapy.tests.vModel.test_logistic_regression",
+            "verticapy.tests.vModel.test_mca",
             "verticapy.tests.vModel.test_model_selection",
             "verticapy.tests.vModel.test_naive_bayes",
             "verticapy.tests.vModel.test_nearestcentroid",
@@ -26625,7 +27132,7 @@
             "verticapy.vcolumn",
             "verticapy.vdataframe"
         ],
-        "version": "0.6.2"
+        "version": "0.6.3"
     },
     "vertices": {
         "cmdline": [],
@@ -26869,6 +27376,11 @@
         "modules": [],
         "version": "0.1.0"
     },
+    "very-basic-math-calculator": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
     "very-basic-sql-builder": {
         "cmdline": [],
         "modules": [
@@ -26916,7 +27428,7 @@
     "veryfi": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.1"
+        "version": "2.0.0"
     },
     "verylargebits": {
         "cmdline": [],
@@ -26976,6 +27488,23 @@
         ],
         "version": "0.0.1"
     },
+    "verysimplemodule-prateek": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "verysimplemoduleuluk": {
+        "cmdline": [],
+        "modules": [
+            "verysimplemoduleuluk",
+            "verysimplemoduleuluk.divide",
+            "verysimplemoduleuluk.extras",
+            "verysimplemoduleuluk.extras.add",
+            "verysimplemoduleuluk.extras.subtract",
+            "verysimplemoduleuluk.multiply"
+        ],
+        "version": "0.0.1"
+    },
     "verysimplestats": {
         "cmdline": [],
         "modules": [
@@ -27021,7 +27550,7 @@
             "tests.test_importfile",
             "tests.test_sample"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "vesical-kaylai": {
         "cmdline": [],
@@ -27834,7 +28363,7 @@
             "vespr_model_deployment_utils.config",
             "vespr_model_deployment_utils.data_ingress"
         ],
-        "version": "2.4.1"
+        "version": "2.4.2"
     },
     "vespucci": {
         "cmdline": [],
@@ -27848,7 +28377,7 @@
             "vespucci.token_bucket",
             "vespucci.utils"
         ],
-        "version": "0.2.1"
+        "version": "0.3.0"
     },
     "vespy": {
         "cmdline": [],
@@ -28673,7 +29202,7 @@
             "vexcogutils.meta",
             "vexcogutils.version"
         ],
-        "version": "1.4.5"
+        "version": "1.4.7"
     },
     "vexaiml": {
         "cmdline": [],
@@ -29064,7 +29593,7 @@
     "vf-portalytics": {
         "cmdline": [],
         "modules": [],
-        "version": "0.8.9"
+        "version": "0.9.0"
     },
     "vf-product-creator": {
         "cmdline": [],
@@ -29521,7 +30050,7 @@
             "vgamepad.win.vigem_commons",
             "vgamepad.win.virtual_gamepad"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "vgengine": {
         "cmdline": [],
@@ -29783,6 +30312,7 @@
             "vgscli.auth_utils",
             "vgscli.callback_server",
             "vgscli.click_extensions",
+            "vgscli.config_file",
             "vgscli.errors",
             "vgscli.file_token_util",
             "vgscli.id_generator",
@@ -29794,7 +30324,7 @@
             "vgscli.vaults_api",
             "vgscli.vgs"
         ],
-        "version": "1.6.8"
+        "version": "1.7.1"
     },
     "vgs-messages": {
         "cmdline": [],
@@ -29812,7 +30342,7 @@
             "vgsstyle.linters.black",
             "vgsstyle.linters.flake"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "vgstash": {
         "cmdline": [],
@@ -29866,6 +30396,14 @@
             "coalaVHDLLintBear.VHDLLintBear"
         ],
         "version": "0.10.0"
+    },
+    "vhdlproc": {
+        "cmdline": [],
+        "modules": [
+            "vhdlproc",
+            "vhdlproc.vhdlproc"
+        ],
+        "version": "2.0"
     },
     "vhdltest": {
         "cmdline": [],
@@ -30012,17 +30550,21 @@
         "modules": [
             "vhh_cmc",
             "vhh_cmc.CMC",
+            "vhh_cmc.CmcDataset",
             "vhh_cmc.Configuration",
             "vhh_cmc.Evaluation",
+            "vhh_cmc.Model",
+            "vhh_cmc.MonoVideoOdometery",
             "vhh_cmc.OpticalFlow",
+            "vhh_cmc.OpticalFlow_Dense",
             "vhh_cmc.OpticalFlow_ORB",
-            "vhh_cmc.OpticalFlow_Pesc",
             "vhh_cmc.OpticalFlow_SIFT",
             "vhh_cmc.PreProcessing",
+            "vhh_cmc.Video",
             "vhh_cmc.Visualization",
             "vhh_cmc.cmc_io"
         ],
-        "version": "1.2.0"
+        "version": "1.2.2"
     },
     "vhh-od": {
         "cmdline": [],
@@ -30488,7 +31030,7 @@
             "vial.route",
             "vial.utils"
         ],
-        "version": "0.3.2"
+        "version": "0.3.3"
     },
     "vialib": {
         "cmdline": [],
@@ -30748,7 +31290,7 @@
             "src.util",
             "src.vibase"
         ],
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "vibe": {
         "cmdline": [],
@@ -31154,7 +31696,7 @@
             "vibration_toolbox.sdof",
             "vibration_toolbox.vibesystem"
         ],
-        "version": "0.6.7"
+        "version": "0.6.8"
     },
     "vibrations": {
         "cmdline": [],
@@ -31402,6 +31944,7 @@
             "vice.yields.agb.cristallo11",
             "vice.yields.agb.interpolator",
             "vice.yields.agb.karakas10",
+            "vice.yields.agb.settings",
             "vice.yields.agb.tests",
             "vice.yields.agb.tests.imports",
             "vice.yields.agb.tests.interpolator",
@@ -31479,6 +32022,7 @@
             "vice.yields.ccsne.engines.tests.engine",
             "vice.yields.ccsne.engines.tests.usage",
             "vice.yields.ccsne.grid_reader",
+            "vice.yields.ccsne.settings",
             "vice.yields.ccsne.tests",
             "vice.yields.ccsne.tests.grid_reader",
             "vice.yields.ccsne.tests.imports",
@@ -31519,6 +32063,7 @@
             "vice.yields.sneia.seitenzahl13.N5",
             "vice.yields.sneia.seitenzahl13.tests",
             "vice.yields.sneia.seitenzahl13.tests.set_params",
+            "vice.yields.sneia.settings",
             "vice.yields.sneia.tests",
             "vice.yields.sneia.tests.imports",
             "vice.yields.sneia.tests.lookup",
@@ -31526,7 +32071,7 @@
             "vice.yields.tests.functional_yields",
             "wind"
         ],
-        "version": "1.2.0"
+        "version": "1.2.1"
     },
     "vice-outbound": {
         "cmdline": [],
@@ -31606,7 +32151,7 @@
     "vicedtools": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "vicero": {
         "cmdline": [],
@@ -31698,7 +32243,7 @@
             "vicmiko",
             "vicmiko.junos"
         ],
-        "version": "0.0.8"
+        "version": "0.0.10"
     },
     "vicms": {
         "cmdline": [],
@@ -31721,7 +32266,7 @@
             "vicms.database",
             "vicms.filesyst"
         ],
-        "version": "0.2.0"
+        "version": "0.2.2"
     },
     "vicneuralnetwork": {
         "cmdline": [],
@@ -31926,7 +32471,7 @@
             "victoria_encrypt",
             "victoria_store"
         ],
-        "version": "1.0.3"
+        "version": "1.0.5"
     },
     "victoria-email": {
         "cmdline": [],
@@ -32049,6 +32594,21 @@
         "modules": [],
         "version": "0.2"
     },
+    "vidaug": {
+        "cmdline": [],
+        "modules": [
+            "vidaug",
+            "vidaug.augmentors",
+            "vidaug.augmentors.affine",
+            "vidaug.augmentors.crop",
+            "vidaug.augmentors.flip",
+            "vidaug.augmentors.geometric",
+            "vidaug.augmentors.group",
+            "vidaug.augmentors.intensity",
+            "vidaug.augmentors.temporal"
+        ],
+        "version": "1.5"
+    },
     "vidcompiler": {
         "cmdline": [],
         "modules": [],
@@ -32064,8 +32624,35 @@
     },
     "vidcutter": {
         "cmdline": [],
-        "modules": [],
-        "version": "6.0.0.1"
+        "modules": [
+            "vidcutter",
+            "vidcutter.about",
+            "vidcutter.changelog",
+            "vidcutter.libs",
+            "vidcutter.libs.config",
+            "vidcutter.libs.ffmetadata",
+            "vidcutter.libs.graphicseffects",
+            "vidcutter.libs.iso639",
+            "vidcutter.libs.mpvwidget",
+            "vidcutter.libs.munch",
+            "vidcutter.libs.notifications",
+            "vidcutter.libs.singleapplication",
+            "vidcutter.libs.taskbarprogress",
+            "vidcutter.libs.videoservice",
+            "vidcutter.libs.widgets",
+            "vidcutter.mediainfo",
+            "vidcutter.mediastream",
+            "vidcutter.resources",
+            "vidcutter.settings",
+            "vidcutter.updater",
+            "vidcutter.videoconsole",
+            "vidcutter.videocutter",
+            "vidcutter.videolist",
+            "vidcutter.videoslider",
+            "vidcutter.videosliderwidget",
+            "vidcutter.videostyle"
+        ],
+        "version": "6.0.5.1"
     },
     "videira": {
         "cmdline": [],
@@ -32181,7 +32768,7 @@
             "video_cli.utils.natural_sort",
             "video_cli.utils.resize_to_even"
         ],
-        "version": "1.2.0"
+        "version": "1.3.0"
     },
     "video-collage": {
         "cmdline": [],
@@ -32569,6 +33156,26 @@
         ],
         "version": "0.1.7"
     },
+    "videoanalytics": {
+        "cmdline": [],
+        "modules": [
+            "videoanalytics",
+            "videoanalytics.pipeline",
+            "videoanalytics.pipeline.sinks",
+            "videoanalytics.pipeline.sinks.background",
+            "videoanalytics.pipeline.sinks.influxdb",
+            "videoanalytics.pipeline.sinks.obj_detector",
+            "videoanalytics.pipeline.sinks.resizer",
+            "videoanalytics.pipeline.sinks.roi",
+            "videoanalytics.pipeline.sinks.trackers",
+            "videoanalytics.pipeline.sinks.trackers.sort",
+            "videoanalytics.pipeline.sinks.yolo4_detector",
+            "videoanalytics.pipeline.sinks.zmqpub",
+            "videoanalytics.pipeline.sources",
+            "videoanalytics.utils"
+        ],
+        "version": "0.0.2"
+    },
     "videoboard": {
         "cmdline": [],
         "modules": [
@@ -32857,14 +33464,14 @@
             "videoio.video_rgb",
             "videoio.video_uint16"
         ],
-        "version": "0.2.2"
+        "version": "0.2.3"
     },
     "videojoiner": {
         "cmdline": [
             "videojoiner.py"
         ],
         "modules": [],
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "videoloader": {
         "cmdline": [],
@@ -34048,6 +34655,22 @@
         "modules": [],
         "version": "0.3.2"
     },
+    "vidoptim": {
+        "cmdline": [],
+        "modules": [
+            "vidoptim",
+            "vidoptim.cli"
+        ],
+        "version": "0.0.1a2"
+    },
+    "vidpkg": {
+        "cmdline": [],
+        "modules": [
+            "vidpkg",
+            "vidpkg.player"
+        ],
+        "version": "0.0.1"
+    },
     "vidpy": {
         "cmdline": [],
         "modules": [
@@ -34233,6 +34856,17 @@
         "modules": [],
         "version": "1.0"
     },
+    "vidyo": {
+        "cmdline": [],
+        "modules": [
+            "vidyo",
+            "vidyo.channel",
+            "vidyo.client",
+            "vidyo.errors",
+            "vidyo.video"
+        ],
+        "version": "0.1.0"
+    },
     "vielinko-distritutions": {
         "cmdline": [],
         "modules": [
@@ -34288,6 +34922,13 @@
             "viennaptm"
         ],
         "version": "0.0.1"
+    },
+    "viennarna": {
+        "cmdline": [],
+        "modules": [
+            "ViennaRNA"
+        ],
+        "version": "2.4.18a1"
     },
     "viessmann-data-audit": {
         "cmdline": [],
@@ -34353,7 +34994,7 @@
             "vietnam_provinces.enums.districts",
             "vietnam_provinces.enums.wards"
         ],
-        "version": "0.3.0"
+        "version": "0.4.2"
     },
     "vietnamaddressparser": {
         "cmdline": [],
@@ -34447,7 +35088,7 @@
     "viewable": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "viewasuser": {
         "cmdline": [],
@@ -34659,6 +35300,14 @@
         ],
         "version": "0.1.5"
     },
+    "viewnttest": {
+        "cmdline": [],
+        "modules": [
+            "menu",
+            "menu.get_view"
+        ],
+        "version": "0.0.4"
+    },
     "viewnudger": {
         "cmdline": [],
         "modules": [
@@ -34730,7 +35379,7 @@
         "modules": [
             "views_schema"
         ],
-        "version": "0.2.0"
+        "version": "0.6.0"
     },
     "views-stepshift": {
         "cmdline": [],
@@ -34780,16 +35429,18 @@
             "viewser.checks",
             "viewser.cli",
             "viewser.cli_utils",
+            "viewser.context_objects",
             "viewser.crud",
             "viewser.exceptions",
+            "viewser.fetching",
+            "viewser.formatting",
             "viewser.models",
             "viewser.operations",
             "viewser.remotes",
-            "viewser.settings",
-            "viewser.tests",
-            "viewser.tests.test_checks"
+            "viewser.schema",
+            "viewser.settings"
         ],
-        "version": "2.1.0"
+        "version": "3.4.0"
     },
     "viewstate": {
         "cmdline": [],
@@ -34984,7 +35635,7 @@
             "vigilant_crypto_snatch.triggers",
             "vigilant_crypto_snatch.watchloop"
         ],
-        "version": "4.2.2"
+        "version": "4.2.4"
     },
     "vigilant-engine": {
         "cmdline": [],
@@ -35085,6 +35736,7 @@
             "vigorish.cli.menu_items.admin_tasks.add_to_database",
             "vigorish.cli.menu_items.admin_tasks.backup_database",
             "vigorish.cli.menu_items.admin_tasks.calculate_avg_pitch_times",
+            "vigorish.cli.menu_items.admin_tasks.fix_orphaned_player_ids",
             "vigorish.cli.menu_items.admin_tasks.import_scraped_data",
             "vigorish.cli.menu_items.admin_tasks.npm_install_update",
             "vigorish.cli.menu_items.admin_tasks.restore_database",
@@ -35221,18 +35873,21 @@
             "vigorish.setup.populate_teams",
             "vigorish.status",
             "vigorish.status.report_status",
+            "vigorish.status.update_player_id_team_maps",
             "vigorish.status.update_status_bbref_boxscores",
             "vigorish.status.update_status_bbref_games_for_date",
             "vigorish.status.update_status_brooks_games_for_date",
             "vigorish.status.update_status_brooks_pitch_logs",
             "vigorish.status.update_status_brooks_pitchfx",
             "vigorish.status.update_status_combined_data",
+            "vigorish.status.util",
             "vigorish.tasks",
             "vigorish.tasks.add_to_database",
             "vigorish.tasks.backup_database",
             "vigorish.tasks.base",
             "vigorish.tasks.calculate_avg_pitch_times",
             "vigorish.tasks.combine_scraped_data",
+            "vigorish.tasks.fix_orphaned_player_ids",
             "vigorish.tasks.import_scraped_data",
             "vigorish.tasks.patch_all_invalid_pfx",
             "vigorish.tasks.patch_invalid_pfx",
@@ -35274,7 +35929,7 @@
             "vigorish.views.team_bat_stats_view",
             "vigorish.views.team_pitch_stats_view"
         ],
-        "version": "0.4.17"
+        "version": "0.5.0"
     },
     "vigpy3": {
         "cmdline": [],
@@ -35361,15 +36016,30 @@
             "vika",
             "vika.const",
             "vika.datasheet",
+            "vika.datasheet.datasheet",
+            "vika.datasheet.field_manager",
+            "vika.datasheet.query_set",
+            "vika.datasheet.record",
+            "vika.datasheet.record_manager",
+            "vika.datasheet.view_manager",
             "vika.exceptions",
-            "vika.fields",
-            "vika.record",
-            "vika.record_manager",
+            "vika.node",
+            "vika.node.node_manager",
+            "vika.request",
+            "vika.space",
+            "vika.space.space",
+            "vika.space.space_manager",
+            "vika.types",
+            "vika.types.field",
+            "vika.types.node",
+            "vika.types.record",
+            "vika.types.response",
+            "vika.types.space",
+            "vika.types.view",
             "vika.utils",
-            "vika.vika",
-            "vika.vika_type"
+            "vika.vika"
         ],
-        "version": "0.1.2"
+        "version": "1.0.1"
     },
     "vikas": {
         "cmdline": [],
@@ -36576,29 +37246,35 @@
         "version": "0.1"
     },
     "vinca": {
-        "cmdline": [],
+        "cmdline": [
+            "vinca",
+            "vinca_debug"
+        ],
         "modules": [
             "vinca",
             "vinca.editors",
-            "vinca.editors.base",
-            "vinca.editors.linear",
-            "vinca.functions",
+            "vinca.editors.media",
+            "vinca.editors.two_lines",
+            "vinca.editors.verses",
+            "vinca.generators",
+            "vinca.generators.media",
+            "vinca.generators.two_lines",
+            "vinca.generators.verses",
             "vinca.lib",
             "vinca.lib.ansi",
             "vinca.lib.audio",
-            "vinca.lib.browser",
             "vinca.lib.classes",
+            "vinca.lib.filter",
             "vinca.lib.terminal",
             "vinca.lib.video",
-            "vinca.parsing",
             "vinca.reviewers",
-            "vinca.reviewers.base",
-            "vinca.reviewers.linear",
-            "vinca.run",
+            "vinca.reviewers.media",
+            "vinca.reviewers.two_lines",
+            "vinca.reviewers.verses",
             "vinca.schedulers",
             "vinca.schedulers.base"
         ],
-        "version": "1.1.73"
+        "version": "1.1.99"
     },
     "vincent": {
         "cmdline": [],
@@ -37287,6 +37963,7 @@
             "vineyard.data.utils",
             "vineyard.deploy",
             "vineyard.deploy.distributed",
+            "vineyard.deploy.etcd",
             "vineyard.deploy.kubernetes",
             "vineyard.deploy.local",
             "vineyard.deploy.tests",
@@ -37296,6 +37973,7 @@
             "vineyard.deploy.utils",
             "vineyard.io",
             "vineyard.io.byte",
+            "vineyard.io.core",
             "vineyard.io.dataframe",
             "vineyard.io.scripts",
             "vineyard.io.serialization",
@@ -37309,7 +37987,7 @@
             "vineyard.shared_memory.tests.test_shared_memory",
             "vineyard.version"
         ],
-        "version": "0.2.3"
+        "version": "0.2.5"
     },
     "vineyard-io": {
         "cmdline": [],
@@ -37324,7 +38002,14 @@
             "io.tests.test_ossfs",
             "io.tests.test_serialize"
         ],
-        "version": "0.2.3"
+        "version": "0.2.5"
+    },
+    "vinfo": {
+        "cmdline": [],
+        "modules": [
+            "vinfo"
+        ],
+        "version": "0.0.1"
     },
     "vingd": {
         "cmdline": [],
@@ -37406,6 +38091,44 @@
             "vinlib"
         ],
         "version": "0.7.14dev"
+    },
+    "vinlp": {
+        "cmdline": [],
+        "modules": [
+            "ViNLP",
+            "ViNLP/datasets",
+            "ViNLP/datasets.base_dataset",
+            "ViNLP/datasets.chunk_dataset",
+            "ViNLP/datasets.dictionary",
+            "ViNLP/datasets.ner_dataset",
+            "ViNLP/datasets.pos_dataset",
+            "ViNLP/datasets.ss_dataset",
+            "ViNLP/datasets.ws_dataset",
+            "ViNLP/features",
+            "ViNLP/features.base_feature",
+            "ViNLP/features.chunk_feature",
+            "ViNLP/features.ner_feature",
+            "ViNLP/features.pos_feature",
+            "ViNLP/features.ss_feature",
+            "ViNLP/features.ws_feature",
+            "ViNLP/models",
+            "ViNLP/models.chunk_crf",
+            "ViNLP/models.ner_crf",
+            "ViNLP/models.pos_crf",
+            "ViNLP/models.ss_crf",
+            "ViNLP/models.ws_crf",
+            "ViNLP/pipeline",
+            "ViNLP/pipeline.chunking",
+            "ViNLP/pipeline.ner",
+            "ViNLP/pipeline.pos_tag",
+            "ViNLP/pipeline.sent_tokenize",
+            "ViNLP/pipeline.word_tokenize",
+            "ViNLP/utils",
+            "ViNLP/utils.file_io",
+            "ViNLP/utils.flatten",
+            "ViNLP/utils.regex_tokenize"
+        ],
+        "version": "1.2.3"
     },
     "vinnie": {
         "cmdline": [],
@@ -37547,6 +38270,14 @@
         ],
         "version": "0.2"
     },
+    "vinset": {
+        "cmdline": [],
+        "modules": [
+            "vinset",
+            "vinset.vin"
+        ],
+        "version": "1.0.1"
+    },
     "vint": {
         "cmdline": [],
         "modules": [
@@ -37679,9 +38410,10 @@
             "vintools.machine_learning",
             "vintools.math",
             "vintools.plotting",
-            "vintools.plotting._color_pallette_preset",
-            "vintools.plotting._fig_presets",
-            "vintools.plotting._make_data_gif",
+            "vintools.plotting.color_palettes",
+            "vintools.plotting.fig_presets",
+            "vintools.plotting.make_data_gif",
+            "vintools.plotting.share_seq_df_generation",
             "vintools.simulation",
             "vintools.single_cell",
             "vintools.single_cell._parse_counts",
@@ -37691,9 +38423,13 @@
             "vintools.testing_and_development._dev_libraries",
             "vintools.utilities",
             "vintools.utilities.INPROGRESS_loader",
+            "vintools.utilities._cell_complete_audio",
+            "vintools.utilities._download_play_sound",
+            "vintools.utilities._flatten_lists",
+            "vintools.utilities._send_email",
             "vintools.utilities._vcf_tools"
         ],
-        "version": "0.0.4"
+        "version": "0.0.41"
     },
     "vinum": {
         "cmdline": [],
@@ -38745,7 +39481,7 @@
             "vipy.videosearch",
             "vipy.visualize"
         ],
-        "version": "1.11.1"
+        "version": "1.11.5"
     },
     "vipython": {
         "cmdline": [],
@@ -38853,6 +39589,17 @@
             "vire"
         ],
         "version": "0.2.0"
+    },
+    "virelay": {
+        "cmdline": [],
+        "modules": [
+            "virelay",
+            "virelay.application",
+            "virelay.image_processing",
+            "virelay.model",
+            "virelay.server"
+        ],
+        "version": "0.3.1"
     },
     "viren": {
         "cmdline": [],
@@ -39453,7 +40200,7 @@
             "viroconcom.utility",
             "viroconcom.version"
         ],
-        "version": "2.0.2"
+        "version": "2.0.4"
     },
     "viroconcom": {
         "cmdline": [],
@@ -39894,136 +40641,122 @@
         "cmdline": [],
         "modules": [
             "virtool_core",
-            "virtool_core.analyses",
-            "virtool_core.analyses.db",
             "virtool_core.bio",
-            "virtool_core.caches",
-            "virtool_core.caches.db",
-            "virtool_core.caches.utils",
-            "virtool_core.db",
-            "virtool_core.db.bindings",
-            "virtool_core.db.core",
-            "virtool_core.db.utils",
+            "virtool_core.data_model",
+            "virtool_core.data_model.analysis",
+            "virtool_core.data_model.files",
+            "virtool_core.data_model.hmms",
+            "virtool_core.data_model.indexes",
+            "virtool_core.data_model.jobs",
+            "virtool_core.data_model.otus",
+            "virtool_core.data_model.references",
+            "virtool_core.data_model.samples",
+            "virtool_core.data_model.subtractions",
             "virtool_core.errors",
-            "virtool_core.history",
-            "virtool_core.history.db",
-            "virtool_core.history.utils",
-            "virtool_core.otus",
-            "virtool_core.otus.db",
-            "virtool_core.otus.utils",
-            "virtool_core.samples",
-            "virtool_core.samples.db",
-            "virtool_core.samples.utils",
-            "virtool_core.subtractions",
-            "virtool_core.subtractions.utils",
             "virtool_core.utils"
         ],
-        "version": "0.1.1"
+        "version": "0.3.0"
     },
     "virtool-workflow": {
         "cmdline": [],
         "modules": [
-            "tests",
-            "tests.analysis",
-            "tests.analysis.fastqc_out",
-            "tests.analysis.test_analysis",
-            "tests.analysis.test_analysis_fixture",
-            "tests.analysis.test_hmms",
-            "tests.analysis.test_indexes",
-            "tests.conftest",
-            "tests.example_workflow",
-            "tests.execution",
-            "tests.execution.test_fixture_hooks",
-            "tests.execution.test_hooks",
-            "tests.execution.test_run_subprocess",
-            "tests.fixtures",
-            "tests.fixtures.execution",
-            "tests.fixtures.scope",
-            "tests.fixtures.workflow",
-            "tests.runtime",
-            "tests.runtime.db",
-            "tests.runtime.db.test_db",
-            "tests.runtime.discovery",
-            "tests.runtime.discovery.discoverable_fixtures",
-            "tests.runtime.discovery.discoverable_workflow",
-            "tests.runtime.discovery.test_discovery",
-            "tests.runtime.redis",
-            "tests.runtime.redis.test_redis",
-            "tests.runtime.test_config",
-            "tests.runtime.test_runtime",
-            "tests.runtime.test_runtime_hooks",
-            "tests.runtime.test_test_utils",
-            "tests.storage",
-            "tests.storage.test_storage",
-            "tests.subtractions",
-            "tests.subtractions.test_subtraction",
-            "tests.test_decorator_api",
-            "tests.test_workflow",
-            "tests.test_workflow_fixtures",
-            "tests.workflow_with_fixtures",
             "virtool_workflow",
             "virtool_workflow.abc",
-            "virtool_workflow.abc.db",
-            "virtool_workflow.abc.uploads",
+            "virtool_workflow.abc.caches",
+            "virtool_workflow.abc.caches.analysis_caches",
+            "virtool_workflow.abc.caches.cache",
+            "virtool_workflow.abc.data_providers",
+            "virtool_workflow.abc.data_providers.analysis",
+            "virtool_workflow.abc.data_providers.hmms",
+            "virtool_workflow.abc.data_providers.indexes",
+            "virtool_workflow.abc.data_providers.jobs",
+            "virtool_workflow.abc.data_providers.otus",
+            "virtool_workflow.abc.data_providers.samples",
+            "virtool_workflow.abc.data_providers.subtractions",
+            "virtool_workflow.abc.runtime",
+            "virtool_workflow.abc.runtime.runtime",
             "virtool_workflow.analysis",
             "virtool_workflow.analysis.analysis",
-            "virtool_workflow.analysis.cache",
             "virtool_workflow.analysis.fastqc",
             "virtool_workflow.analysis.fixtures",
             "virtool_workflow.analysis.hmms",
             "virtool_workflow.analysis.indexes",
             "virtool_workflow.analysis.library_types",
-            "virtool_workflow.analysis.paths",
-            "virtool_workflow.analysis.read_prep",
             "virtool_workflow.analysis.reads",
-            "virtool_workflow.analysis.references",
-            "virtool_workflow.analysis.references.reference",
-            "virtool_workflow.analysis.samples",
-            "virtool_workflow.analysis.samples.sample",
+            "virtool_workflow.analysis.runtime",
+            "virtool_workflow.analysis.sample",
+            "virtool_workflow.analysis.skewer",
             "virtool_workflow.analysis.subtractions",
-            "virtool_workflow.analysis.subtractions.subtraction",
-            "virtool_workflow.analysis.trim_parameters",
             "virtool_workflow.analysis.trimming",
             "virtool_workflow.analysis.utils",
+            "virtool_workflow.api",
+            "virtool_workflow.api.analysis",
+            "virtool_workflow.api.caches",
+            "virtool_workflow.api.client",
+            "virtool_workflow.api.errors",
+            "virtool_workflow.api.hmm",
+            "virtool_workflow.api.indexes",
+            "virtool_workflow.api.jobs",
+            "virtool_workflow.api.samples",
+            "virtool_workflow.api.scope",
+            "virtool_workflow.api.subtractions",
+            "virtool_workflow.api.utils",
+            "virtool_workflow.caching",
+            "virtool_workflow.caching.caches",
+            "virtool_workflow.caching.local",
+            "virtool_workflow.cli",
+            "virtool_workflow.config",
+            "virtool_workflow.config.fixtures",
+            "virtool_workflow.config.group",
+            "virtool_workflow.config.loading",
+            "virtool_workflow.data_model",
+            "virtool_workflow.data_model.analysis",
+            "virtool_workflow.data_model.files",
+            "virtool_workflow.data_model.hmms",
+            "virtool_workflow.data_model.indexes",
+            "virtool_workflow.data_model.jobs",
+            "virtool_workflow.data_model.otus",
+            "virtool_workflow.data_model.references",
+            "virtool_workflow.data_model.samples",
+            "virtool_workflow.data_model.subtractions",
             "virtool_workflow.decorator_api",
+            "virtool_workflow.discovery",
+            "virtool_workflow.environment",
+            "virtool_workflow.errors",
             "virtool_workflow.execution",
-            "virtool_workflow.execution.execution",
+            "virtool_workflow.execution.context",
+            "virtool_workflow.execution.fixtures",
             "virtool_workflow.execution.hooks",
             "virtool_workflow.execution.hooks.fixture_hooks",
             "virtool_workflow.execution.hooks.hooks",
+            "virtool_workflow.execution.hooks.workflow_hooks",
             "virtool_workflow.execution.run_in_executor",
             "virtool_workflow.execution.run_subprocess",
-            "virtool_workflow.execution.workflow_executor",
+            "virtool_workflow.execution.states",
+            "virtool_workflow.execution.workflow_execution",
             "virtool_workflow.fixtures",
             "virtool_workflow.fixtures.errors",
+            "virtool_workflow.fixtures.providers",
             "virtool_workflow.fixtures.scope",
+            "virtool_workflow.fixtures.scoping",
             "virtool_workflow.fixtures.workflow_fixture",
+            "virtool_workflow.hooks",
+            "virtool_workflow.results",
+            "virtool_workflow.runtime",
+            "virtool_workflow.runtime.fixtures",
+            "virtool_workflow.runtime.providers",
+            "virtool_workflow.runtime.runtime",
             "virtool_workflow.storage",
             "virtool_workflow.storage.paths",
             "virtool_workflow.storage.utils",
-            "virtool_workflow.uploads",
-            "virtool_workflow.uploads.file_system_upload",
-            "virtool_workflow.uploads.files",
+            "virtool_workflow.testing",
+            "virtool_workflow.testing.cli",
+            "virtool_workflow.testing.fixtures",
             "virtool_workflow.utils",
             "virtool_workflow.workflow",
-            "virtool_workflow_runtime",
-            "virtool_workflow_runtime._redis",
-            "virtool_workflow_runtime.abc",
-            "virtool_workflow_runtime.abc.runtime",
-            "virtool_workflow_runtime.cli",
-            "virtool_workflow_runtime.config",
-            "virtool_workflow_runtime.config.configuration",
-            "virtool_workflow_runtime.config.environment",
-            "virtool_workflow_runtime.db",
-            "virtool_workflow_runtime.db.db",
-            "virtool_workflow_runtime.db.fixtures",
-            "virtool_workflow_runtime.discovery",
-            "virtool_workflow_runtime.fixture_loading",
-            "virtool_workflow_runtime.liveness",
-            "virtool_workflow_runtime.runtime",
-            "virtool_workflow_runtime.test_utils"
+            "virtool_workflow.workflow_feature"
         ],
-        "version": "0.4.0"
+        "version": "0.5.1"
     },
     "virtparade": {
         "cmdline": [
@@ -40205,10 +40938,51 @@
         ],
         "version": "0.1.0"
     },
+    "virtual-cards": {
+        "cmdline": [],
+        "modules": [
+            "vc",
+            "vc.client",
+            "vc.client.schemas_base",
+            "vc.client.soldo",
+            "vc.client.soldo.client",
+            "vc.client.soldo.requesters",
+            "vc.client.soldo.requesters.requester_base",
+            "vc.client.soldo.requesters.schema_base",
+            "vc.client.soldo.requesters.schemas",
+            "vc.client.soldo.requesters.utils",
+            "vc.db",
+            "vc.db.base_class",
+            "vc.db.models",
+            "vc.init_vc",
+            "vc.libs",
+            "vc.libs.decoratos",
+            "vc.libs.utils",
+            "vc.manager",
+            "vc.manager.base",
+            "vc.manager.soldo",
+            "vc.manager.soldo_event",
+            "vc.models",
+            "vc.models.base",
+            "vc.models.soldo",
+            "vc.settings"
+        ],
+        "version": "0.0.22"
+    },
     "virtual-clapperboard": {
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "virtual-dataset": {
+        "cmdline": [],
+        "modules": [
+            "vdataset",
+            "vdataset._cmd",
+            "vdataset._core",
+            "vdataset._mount_samples"
+        ],
+        "version": "1.0.1"
     },
     "virtual-durability-lab": {
         "cmdline": [],
@@ -40227,7 +41001,7 @@
             "utils.TestSample",
             "utils.TestingEfficient"
         ],
-        "version": "1.6"
+        "version": "1.11"
     },
     "virtual-finance-api": {
         "cmdline": [],
@@ -40808,7 +41582,7 @@
             "virtual_warehouse.tab_controller",
             "virtual_warehouse.view_controller"
         ],
-        "version": "0.2.0"
+        "version": "0.2.1"
     },
     "virtualassistant": {
         "cmdline": [],
@@ -41396,7 +42170,7 @@
             "virtualfish.test.test_repl",
             "virtualfish.test.test_rm"
         ],
-        "version": "2.5.2"
+        "version": "2.5.3"
     },
     "virtualhermit": {
         "cmdline": [],
@@ -41529,13 +42303,6 @@
         "cmdline": [],
         "modules": [],
         "version": "1.0.0"
-    },
-    "virtualp": {
-        "cmdline": [],
-        "modules": [
-            "SantuVirtualPen"
-        ],
-        "version": "0.0.1"
     },
     "virtualpdu": {
         "cmdline": [],
@@ -41856,7 +42623,7 @@
     "vis-cpu": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.2"
+        "version": "0.2.1"
     },
     "vis-framework": {
         "cmdline": [],
@@ -43398,7 +44165,7 @@
             "visiannot.visiannot.components.Signal",
             "visiannot.visiannot.components.WindowsPopUp"
         ],
-        "version": "0.2.5"
+        "version": "0.2.6"
     },
     "visibility-graph": {
         "cmdline": [],
@@ -43562,6 +44329,7 @@
             "visidata.aggregators",
             "visidata.basesheet",
             "visidata.canvas",
+            "visidata.canvas_text",
             "visidata.choose",
             "visidata.clipboard",
             "visidata.cliptext",
@@ -43664,7 +44432,7 @@
             "visidata.vdobj",
             "visidata.wrappers"
         ],
-        "version": "2.4"
+        "version": "2.5"
     },
     "visie": {
         "cmdline": [],
@@ -44432,7 +45200,7 @@
             "basics.logging_utils",
             "basics.validation_utils"
         ],
-        "version": "0.3.2"
+        "version": "0.3.3"
     },
     "visionseed": {
         "cmdline": [],
@@ -44873,6 +45641,7 @@
             "vispy",
             "vispy.app",
             "vispy.app._default_app",
+            "vispy.app._detect_eventloop",
             "vispy.app.application",
             "vispy.app.backends",
             "vispy.app.backends._egl",
@@ -44887,10 +45656,12 @@
             "vispy.app.backends._pyqt5",
             "vispy.app.backends._pyside",
             "vispy.app.backends._pyside2",
+            "vispy.app.backends._pyside6",
             "vispy.app.backends._qt",
             "vispy.app.backends._sdl2",
             "vispy.app.backends._template",
             "vispy.app.backends._test",
+            "vispy.app.backends._tk",
             "vispy.app.backends._wx",
             "vispy.app.backends.ipython",
             "vispy.app.backends.ipython._widget",
@@ -44903,6 +45674,7 @@
             "vispy.app.tests",
             "vispy.app.tests.test_app",
             "vispy.app.tests.test_backends",
+            "vispy.app.tests.test_canvas",
             "vispy.app.tests.test_context",
             "vispy.app.tests.test_interactive",
             "vispy.app.tests.test_ipython",
@@ -44919,32 +45691,14 @@
             "vispy.conftest",
             "vispy.ext",
             "vispy.ext._bundled",
-            "vispy.ext._bundled._mpl_py3k_compat",
-            "vispy.ext._bundled.cassowary",
-            "vispy.ext._bundled.cassowary.edit_info",
-            "vispy.ext._bundled.cassowary.error",
-            "vispy.ext._bundled.cassowary.expression",
-            "vispy.ext._bundled.cassowary.simplex_solver",
-            "vispy.ext._bundled.cassowary.tableau",
-            "vispy.ext._bundled.cassowary.utils",
-            "vispy.ext._bundled.decorator",
-            "vispy.ext._bundled.husl",
-            "vispy.ext._bundled.png",
-            "vispy.ext._bundled.six",
-            "vispy.ext.cassowary",
             "vispy.ext.cocoapy",
             "vispy.ext.cubehelix",
-            "vispy.ext.decorator",
             "vispy.ext.egl",
             "vispy.ext.fontconfig",
             "vispy.ext.gdi32plus",
             "vispy.ext.glfw",
-            "vispy.ext.gzip_open",
-            "vispy.ext.husl",
             "vispy.ext.ipy_inputhook",
             "vispy.ext.osmesa",
-            "vispy.ext.png",
-            "vispy.ext.six",
             "vispy.geometry",
             "vispy.geometry._triangulation_debugger",
             "vispy.geometry.calculations",
@@ -45006,7 +45760,7 @@
             "vispy.glsl.antialias",
             "vispy.glsl.arrowheads",
             "vispy.glsl.arrows",
-            "vispy.glsl.build-spatial-filters",
+            "vispy.glsl.build_spatial_filters",
             "vispy.glsl.collections",
             "vispy.glsl.colormaps",
             "vispy.glsl.colormaps.parse",
@@ -45041,6 +45795,7 @@
             "vispy.scene.cameras.panzoom",
             "vispy.scene.cameras.perspective",
             "vispy.scene.cameras.tests",
+            "vispy.scene.cameras.tests.test_link",
             "vispy.scene.cameras.tests.test_perspective",
             "vispy.scene.cameras.turntable",
             "vispy.scene.canvas",
@@ -45048,6 +45803,7 @@
             "vispy.scene.node",
             "vispy.scene.subscene",
             "vispy.scene.tests",
+            "vispy.scene.tests.test_canvas",
             "vispy.scene.tests.test_node",
             "vispy.scene.tests.test_visuals",
             "vispy.scene.visuals",
@@ -45058,12 +45814,15 @@
             "vispy.scene.widgets.console",
             "vispy.scene.widgets.grid",
             "vispy.scene.widgets.label",
+            "vispy.scene.widgets.tests",
+            "vispy.scene.widgets.tests.test_colorbar",
             "vispy.scene.widgets.viewbox",
             "vispy.scene.widgets.widget",
             "vispy.testing",
             "vispy.testing._runners",
             "vispy.testing._testing",
             "vispy.testing.image_tester",
+            "vispy.testing.rendered_array_tester",
             "vispy.testing.tests",
             "vispy.testing.tests.test_testing",
             "vispy.util",
@@ -45092,7 +45851,6 @@
             "vispy.util.frozen",
             "vispy.util.keys",
             "vispy.util.logs",
-            "vispy.util.np_backport",
             "vispy.util.osmesa_gl",
             "vispy.util.profiler",
             "vispy.util.ptime",
@@ -45128,6 +45886,7 @@
             "vispy.util.wrappers",
             "vispy.version",
             "vispy.visuals",
+            "vispy.visuals._scalable_textures",
             "vispy.visuals.axis",
             "vispy.visuals.border",
             "vispy.visuals.box",
@@ -45158,6 +45917,7 @@
             "vispy.visuals.filters.clipper",
             "vispy.visuals.filters.color",
             "vispy.visuals.filters.material",
+            "vispy.visuals.filters.mesh",
             "vispy.visuals.filters.picking",
             "vispy.visuals.glsl",
             "vispy.visuals.glsl.antialiasing",
@@ -45167,9 +45927,11 @@
             "vispy.visuals.graphs.layouts",
             "vispy.visuals.graphs.layouts.circular",
             "vispy.visuals.graphs.layouts.force_directed",
+            "vispy.visuals.graphs.layouts.networkx_layout",
             "vispy.visuals.graphs.layouts.random",
             "vispy.visuals.graphs.tests",
             "vispy.visuals.graphs.tests.test_layouts",
+            "vispy.visuals.graphs.tests.test_networkx_layout",
             "vispy.visuals.graphs.util",
             "vispy.visuals.gridlines",
             "vispy.visuals.gridmesh",
@@ -45187,6 +45949,7 @@
             "vispy.visuals.linear_region",
             "vispy.visuals.markers",
             "vispy.visuals.mesh",
+            "vispy.visuals.mesh_normals",
             "vispy.visuals.plane",
             "vispy.visuals.polygon",
             "vispy.visuals.rectangle",
@@ -45222,9 +45985,11 @@
             "vispy.visuals.tests.test_linear_region",
             "vispy.visuals.tests.test_markers",
             "vispy.visuals.tests.test_mesh",
+            "vispy.visuals.tests.test_mesh_normals",
             "vispy.visuals.tests.test_polygon",
             "vispy.visuals.tests.test_rectangle",
             "vispy.visuals.tests.test_regular_polygon",
+            "vispy.visuals.tests.test_scalable_textures",
             "vispy.visuals.tests.test_sdf",
             "vispy.visuals.tests.test_spectrogram",
             "vispy.visuals.tests.test_text",
@@ -45249,7 +46014,7 @@
             "vispy.visuals.windbarb",
             "vispy.visuals.xyz_axis"
         ],
-        "version": "0.6.6"
+        "version": "0.7.0"
     },
     "vispywrapper": {
         "cmdline": [],
@@ -45698,7 +46463,7 @@
             "vistec_ser.utils",
             "vistec_ser.utils.utils"
         ],
-        "version": "0.4.4a1"
+        "version": "0.4.5a1"
     },
     "vistickedword": {
         "cmdline": [],
@@ -46520,7 +47285,7 @@
             "vistrans.util.utils",
             "vistrans.version"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "vistring": {
         "cmdline": [],
@@ -46654,9 +47419,13 @@
         "modules": [
             "visual_kinematics",
             "visual_kinematics.Frame",
-            "visual_kinematics.Robot"
+            "visual_kinematics.Robot",
+            "visual_kinematics.RobotDelta",
+            "visual_kinematics.RobotSerial",
+            "visual_kinematics.RobotTrajectory",
+            "visual_kinematics.utility"
         ],
-        "version": "0.0.7"
+        "version": "0.1.0"
     },
     "visual-logging": {
         "cmdline": [],
@@ -46763,7 +47532,7 @@
             "VisualAssertLibrary.comparator",
             "VisualAssertLibrary.config"
         ],
-        "version": "0.2.5"
+        "version": "0.2.8"
     },
     "visualcaptcha": {
         "cmdline": [],
@@ -47492,7 +48261,7 @@
             "visualpython.src.python_common",
             "visualpython.src.workflow"
         ],
-        "version": "1.1.4"
+        "version": "1.1.5"
     },
     "visualqc": {
         "cmdline": [],
@@ -47805,7 +48574,7 @@
             "pycollector.version",
             "pycollector.video"
         ],
-        "version": "0.2.1"
+        "version": "0.2.8"
     },
     "vit": {
         "cmdline": [],
@@ -47980,13 +48749,14 @@
             "vit_keras.visualize",
             "vit_keras.vit"
         ],
-        "version": "0.0.15"
+        "version": "0.0.16"
     },
     "vit-pytorch": {
         "cmdline": [],
         "modules": [
             "vit_pytorch",
             "vit_pytorch.cait",
+            "vit_pytorch.cct",
             "vit_pytorch.cross_vit",
             "vit_pytorch.cvt",
             "vit_pytorch.deepvit",
@@ -48004,7 +48774,7 @@
             "vit_pytorch.twins_svt",
             "vit_pytorch.vit"
         ],
-        "version": "0.19.4"
+        "version": "0.20.1"
     },
     "vitables": {
         "cmdline": [],
@@ -48133,7 +48903,7 @@
             "vital.internal.webhook",
             "vital.version"
         ],
-        "version": "0.2.18"
+        "version": "0.2.28"
     },
     "vital-tools": {
         "cmdline": [],
@@ -48332,6 +49102,14 @@
             "viterbi_trellis.viterbi_test"
         ],
         "version": "0.0.3"
+    },
+    "vitess-helpers": {
+        "cmdline": [],
+        "modules": [
+            "vitess_helpers",
+            "vitess_helpers.shard_ranges"
+        ],
+        "version": "0.1.0"
     },
     "vitessce": {
         "cmdline": [],
@@ -49148,7 +49926,7 @@
             "viv_utils.scripts.show_flirt_references",
             "viv_utils.scripts.trace_function_emulation"
         ],
-        "version": "0.6.4"
+        "version": "0.6.5"
     },
     "viv-vertex": {
         "cmdline": [],
@@ -49272,7 +50050,7 @@
             "vivarium_bioscrape.processes.bioscrape",
             "vivarium_bioscrape.processes.one_way_map"
         ],
-        "version": "0.0.0.6"
+        "version": "0.0.0.7"
     },
     "vivarium-cell": {
         "cmdline": [],
@@ -49423,7 +50201,19 @@
             "vivarium_cobra.processes.local_field",
             "vivarium_cobra.processes.volume"
         ],
-        "version": "0.0.11"
+        "version": "0.0.12"
+    },
+    "vivarium-convenience": {
+        "cmdline": [],
+        "modules": [
+            "vivarium_convenience",
+            "vivarium_convenience.composites",
+            "vivarium_convenience.composites.convenience_composite",
+            "vivarium_convenience.experiments",
+            "vivarium_convenience.processes",
+            "vivarium_convenience.processes.convenience_kinetics"
+        ],
+        "version": "0.0.1"
     },
     "vivarium-core": {
         "cmdline": [],
@@ -49433,18 +50223,21 @@
             "vivarium.composites.injected_glc_phosphorylation",
             "vivarium.composites.toys",
             "vivarium.core",
+            "vivarium.core.composer",
             "vivarium.core.composition",
             "vivarium.core.control",
             "vivarium.core.emitter",
-            "vivarium.core.experiment",
+            "vivarium.core.engine",
             "vivarium.core.process",
             "vivarium.core.registry",
+            "vivarium.core.serialize",
             "vivarium.core.store",
             "vivarium.core.types",
             "vivarium.experiments",
             "vivarium.experiments.composite_merge",
             "vivarium.experiments.glucose_phosphorylation",
             "vivarium.experiments.large_database_experiment",
+            "vivarium.experiments.store_api",
             "vivarium.library",
             "vivarium.library.datum",
             "vivarium.library.dict_utils",
@@ -49456,6 +50249,7 @@
             "vivarium.library.timeseries",
             "vivarium.library.topology",
             "vivarium.library.units",
+            "vivarium.library.wrappers",
             "vivarium.plots",
             "vivarium.plots.agents_multigen",
             "vivarium.plots.simulation_output",
@@ -49482,7 +50276,7 @@
             "vivarium.processes.toy_gillespie",
             "vivarium.processes.tree_mass"
         ],
-        "version": "0.2.16"
+        "version": "0.3.2"
     },
     "vivarium-helpers": {
         "cmdline": [],
@@ -49545,7 +50339,7 @@
             "vivarium_multibody.processes.multibody_physics",
             "vivarium_multibody.processes.static_field"
         ],
-        "version": "0.0.12"
+        "version": "0.0.13"
     },
     "vivarium-public-health": {
         "cmdline": [],
@@ -49600,7 +50394,7 @@
             "scripts",
             "scripts.access_db"
         ],
-        "version": "0.0.6"
+        "version": "0.0.8"
     },
     "vivek": {
         "cmdline": [],
@@ -50677,7 +51471,7 @@
             "vizcovidfr.tests",
             "vizcovidfr.tests.test_vizcovidfr"
         ],
-        "version": "0.0.4"
+        "version": "0.0.5"
     },
     "vizdato": {
         "cmdline": [],
@@ -51093,7 +51887,6 @@
         "cmdline": [],
         "modules": [
             "VizKG",
-            "VizKG.chartdict",
             "VizKG.charts",
             "VizKG.charts.areachart",
             "VizKG.charts.barchart",
@@ -51110,20 +51903,22 @@
             "VizKG.charts.linechart",
             "VizKG.charts.map",
             "VizKG.charts.piechart",
+            "VizKG.charts.radarchart",
             "VizKG.charts.scatterchart",
-            "VizKG.charts.stackedarechart",
+            "VizKG.charts.stackedareachart",
             "VizKG.charts.sunburstchart",
             "VizKG.charts.table",
             "VizKG.charts.timeline",
             "VizKG.charts.tree",
-            "VizKG.charts.treemaps",
+            "VizKG.charts.treemap",
             "VizKG.charts.violinplot",
             "VizKG.charts.wordcloud",
             "VizKG.utils",
+            "VizKG.utils.chartdict",
             "VizKG.utils.util",
             "VizKG.visualize"
         ],
-        "version": "0.0.0.1"
+        "version": "1.0.1"
     },
     "vizlab": {
         "cmdline": [],
@@ -51511,6 +52306,59 @@
         ],
         "version": "1.0.0"
     },
+    "vjemmieapi": {
+        "cmdline": [],
+        "modules": [
+            "vjemmieapi",
+            "vjemmieapi.cache",
+            "vjemmieapi.crud",
+            "vjemmieapi.crud.gamingmoment",
+            "vjemmieapi.crud.goodmorning",
+            "vjemmieapi.crud.mediatype",
+            "vjemmieapi.crud.pfmmeme",
+            "vjemmieapi.crud.reddit",
+            "vjemmieapi.crud.skribbl",
+            "vjemmieapi.crud.tidstyv",
+            "vjemmieapi.db",
+            "vjemmieapi.exceptions",
+            "vjemmieapi.exceptions.handlers",
+            "vjemmieapi.exceptions.http",
+            "vjemmieapi.main",
+            "vjemmieapi.models",
+            "vjemmieapi.models.gamingmoment",
+            "vjemmieapi.models.goodmorning",
+            "vjemmieapi.models.mediatype",
+            "vjemmieapi.models.pfmmeme",
+            "vjemmieapi.models.reddit",
+            "vjemmieapi.models.skribbl",
+            "vjemmieapi.models.tidstyv",
+            "vjemmieapi.schemas",
+            "vjemmieapi.schemas.gamingmoment",
+            "vjemmieapi.schemas.goodmorning",
+            "vjemmieapi.schemas.mediatype",
+            "vjemmieapi.schemas.pfm",
+            "vjemmieapi.schemas.reddit",
+            "vjemmieapi.schemas.skribbl",
+            "vjemmieapi.schemas.tidstyv"
+        ],
+        "version": "0.3.0"
+    },
+    "vjemmiemodels": {
+        "cmdline": [],
+        "modules": [
+            "vjemmiemodels",
+            "vjemmiemodels.internal",
+            "vjemmiemodels.internal.gamingmoment",
+            "vjemmiemodels.internal.mediatype",
+            "vjemmiemodels.internal.pfm",
+            "vjemmiemodels.internal.reddit",
+            "vjemmiemodels.internal.skribbl",
+            "vjemmiemodels.internal.tidstyv",
+            "vjemmiemodels.public",
+            "vjemmiemodels.public._gen_cls"
+        ],
+        "version": "0.1.0"
+    },
     "vjobs": {
         "cmdline": [],
         "modules": [
@@ -51634,6 +52482,11 @@
         ],
         "version": "11.9.4"
     },
+    "vk-api-for-groups": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
     "vk-audio": {
         "cmdline": [],
         "modules": [
@@ -51691,7 +52544,7 @@
             "vk_botting.utils",
             "vk_botting.view"
         ],
-        "version": "0.11.0"
+        "version": "0.11.1"
     },
     "vk-client": {
         "cmdline": [],
@@ -51769,6 +52622,16 @@
             "vk_eleven.vk_upload"
         ],
         "version": "1.0.1"
+    },
+    "vk-face-recognition": {
+        "cmdline": [],
+        "modules": [
+            "vk_face_recognition",
+            "vk_face_recognition.main",
+            "vk_face_recognition.photo_recognition",
+            "vk_face_recognition.search_by_photo"
+        ],
+        "version": "1.1.5"
     },
     "vk-facenet": {
         "cmdline": [],
@@ -52112,7 +52975,7 @@
             "core",
             "core.spam"
         ],
-        "version": "1.2.2.8"
+        "version": "1.2.3.1"
     },
     "vk-text-parser": {
         "cmdline": [],
@@ -52257,7 +53120,7 @@
             "vkale.tools.auth_flow_console",
             "vkale.vk"
         ],
-        "version": "0.3.1.1"
+        "version": "0.3.2.2"
     },
     "vkapi": {
         "cmdline": [],
@@ -52758,6 +53621,42 @@
         "modules": [],
         "version": ""
     },
+    "vke": {
+        "cmdline": [],
+        "modules": [
+            "pke",
+            "pke.base",
+            "pke.data_structures",
+            "pke.langcodes",
+            "pke.readers",
+            "pke.supervised",
+            "pke.supervised.api",
+            "pke.supervised.feature_based",
+            "pke.supervised.feature_based.kea",
+            "pke.supervised.feature_based.topiccorank",
+            "pke.supervised.feature_based.wingnus",
+            "pke.supervised.neural_based",
+            "pke.supervised.neural_based.seq2seq",
+            "pke.unsupervised",
+            "pke.unsupervised.graph_based",
+            "pke.unsupervised.graph_based.collabrank",
+            "pke.unsupervised.graph_based.expandrank",
+            "pke.unsupervised.graph_based.multipartiterank",
+            "pke.unsupervised.graph_based.positionrank",
+            "pke.unsupervised.graph_based.single_tpr",
+            "pke.unsupervised.graph_based.singlerank",
+            "pke.unsupervised.graph_based.textrank",
+            "pke.unsupervised.graph_based.topicrank",
+            "pke.unsupervised.statistical",
+            "pke.unsupervised.statistical.embedrank",
+            "pke.unsupervised.statistical.firstphrases",
+            "pke.unsupervised.statistical.kpminer",
+            "pke.unsupervised.statistical.tfidf",
+            "pke.unsupervised.statistical.yake",
+            "pke.utils"
+        ],
+        "version": "1.8.1"
+    },
     "vkeasybot": {
         "cmdline": [],
         "modules": [
@@ -53183,6 +54082,7 @@
             "vkwave.api.methods.likes",
             "vkwave.api.methods.market",
             "vkwave.api.methods.messages",
+            "vkwave.api.methods.money",
             "vkwave.api.methods.newsfeed",
             "vkwave.api.methods.notes",
             "vkwave.api.methods.notifications",
@@ -53212,6 +54112,7 @@
             "vkwave.bots.addons",
             "vkwave.bots.addons.cache",
             "vkwave.bots.addons.cache.cached_filter",
+            "vkwave.bots.addons.class_based_handlers",
             "vkwave.bots.addons.easy",
             "vkwave.bots.addons.easy.base_easy_bot",
             "vkwave.bots.addons.easy.clones_bot",
@@ -53320,7 +54221,7 @@
             "vkwave.vkscript.handlers.statements",
             "vkwave.vkscript.handlers.types"
         ],
-        "version": "0.2.10"
+        "version": "0.2.11"
     },
     "vkwave-api": {
         "cmdline": [],
@@ -53616,7 +54517,7 @@
             "vlab_prepro",
             "vlab_prepro.preprocess"
         ],
-        "version": "0.3.1"
+        "version": "0.3.3"
     },
     "vlabtool": {
         "cmdline": [],
@@ -54036,7 +54937,6 @@
             "vlib",
             "vlib.attributes",
             "vlib.cli",
-            "vlib.colors",
             "vlib.conf",
             "vlib.datarecord",
             "vlib.datatable",
@@ -54050,7 +54950,7 @@
             "vlib.sqlutils",
             "vlib.utils"
         ],
-        "version": "1.3.2"
+        "version": "2.0.0"
     },
     "vlibras-deeplearning": {
         "cmdline": [],
@@ -54195,7 +55095,7 @@
             "vlkit.transforms.transforms",
             "vlkit.utils"
         ],
-        "version": "0.1.0b9"
+        "version": "0.1.0b10"
     },
     "vlm": {
         "cmdline": [],
@@ -54214,9 +55114,10 @@
         "cmdline": [],
         "modules": [
             "vlm_security_dll",
+            "vlm_security_dll.exceptions",
             "vlm_security_dll.vlm_activator"
         ],
-        "version": "1.0.1"
+        "version": "1.0.8"
     },
     "vlog": {
         "cmdline": [],
@@ -54248,6 +55149,15 @@
             "vlpi.vLPI"
         ],
         "version": "0.1.5"
+    },
+    "vlrnn": {
+        "cmdline": [],
+        "modules": [
+            "vlrnn",
+            "vlrnn.modules",
+            "vlrnn.utilities"
+        ],
+        "version": "0.0.1"
     },
     "vlsim": {
         "cmdline": [],
@@ -54291,7 +55201,7 @@
             "sphere.utils.mft",
             "sphere.utils.reduction_path"
         ],
-        "version": "1.4.2"
+        "version": "1.4.3"
     },
     "vltk": {
         "cmdline": [],
@@ -54434,7 +55344,7 @@
             "version_manager.tests.test_regex_pattern",
             "version_manager.util_find"
         ],
-        "version": "2021.4.2"
+        "version": "2021.6.1"
     },
     "vm-automation": {
         "cmdline": [],
@@ -54533,18 +55443,36 @@
             "vma_nlu.ic",
             "vma_nlu.ic.logistic_regression_classifier",
             "vma_nlu.ic.naive_bayes_classifier",
+            "vma_nlu.ic.test",
             "vma_nlu.ner",
+            "vma_nlu.ner.biaffine_extractor",
+            "vma_nlu.ner.date_matcher",
             "vma_nlu.ner.extractor",
+            "vma_nlu.ner.flair_extractor",
             "vma_nlu.ner.pattern_extractor",
+            "vma_nlu.ner.pername_deeplearning",
+            "vma_nlu.ner.pername_deeplearning.config",
+            "vma_nlu.ner.pername_deeplearning.inference",
+            "vma_nlu.ner.pername_deeplearning.model",
+            "vma_nlu.ner.pername_deeplearning.model.layer",
+            "vma_nlu.ner.pername_deeplearning.model.layer.FeedForward",
+            "vma_nlu.ner.pername_deeplearning.model.layer.biaffine",
+            "vma_nlu.ner.pername_deeplearning.model.layer.charcnn",
+            "vma_nlu.ner.pername_deeplearning.model.layer.featureEmbed",
+            "vma_nlu.ner.pername_deeplearning.model.layer.wordnet",
+            "vma_nlu.ner.pername_deeplearning.model.model",
+            "vma_nlu.ner.pername_deeplearning.utils",
+            "vma_nlu.ner.pername_matcher",
             "vma_nlu.ner.time_matcher",
             "vma_nlu.tester",
             "vma_nlu.utils",
-            "vma_nlu.utils.PMdate",
-            "vma_nlu.utils.Preprocess",
-            "vma_nlu.utils.pattern",
+            "vma_nlu.utils.date_pattern",
+            "vma_nlu.utils.pername_pattern",
+            "vma_nlu.utils.preproces",
+            "vma_nlu.utils.time_pattern",
             "vma_nlu.utils.util"
         ],
-        "version": "1.0.4"
+        "version": "1.3.9"
     },
     "vmaas-report": {
         "cmdline": [],
@@ -54639,6 +55567,11 @@
             "vmail-python"
         ],
         "version": "0.1.0"
+    },
+    "vmail-cli": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
     },
     "vmail-manager": {
         "cmdline": [],
@@ -54811,11 +55744,6 @@
             "VMBuilder.vm"
         ],
         "version": "0.12.6"
-    },
-    "vmc": {
-        "cmdline": [],
-        "modules": [],
-        "version": "0.1.6"
     },
     "vmcenter": {
         "cmdline": [
@@ -55325,6 +56253,20 @@
         ],
         "version": "0.6.15"
     },
+    "vmigration-helper": {
+        "cmdline": [],
+        "modules": [
+            "vmigration_helper",
+            "vmigration_helper.apps",
+            "vmigration_helper.management",
+            "vmigration_helper.management.commands",
+            "vmigration_helper.management.commands.migration_current_id",
+            "vmigration_helper.management.commands.migration_records",
+            "vmigration_helper.management.commands.migration_rollback",
+            "vmigration_helper.migrations"
+        ],
+        "version": "0.0.15"
+    },
     "vmine": {
         "cmdline": [],
         "modules": [
@@ -55374,15 +56316,12 @@
         "cmdline": [],
         "modules": [
             "requirements",
-            "tests",
-            "tests.test_entry",
-            "tests.test_setup",
             "vmklib",
             "vmklib.app",
             "vmklib.entry",
             "vmklib.setup"
         ],
-        "version": "0.4.4"
+        "version": "0.4.14"
     },
     "vml-proto": {
         "cmdline": [],
@@ -56188,10 +57127,12 @@
             "submit_sample.py"
         ],
         "modules": [
+            "vmray.integration_kit",
+            "vmray.integration_kit.integration_kit",
             "vmray.rest_api",
             "vmray.rest_api.rest_api"
         ],
-        "version": "5.0.0"
+        "version": "5.1.0"
     },
     "vmrun-wrapper": {
         "cmdline": [],
@@ -56302,7 +57243,7 @@
             "vmtconnect.util",
             "vmtconnect.versions"
         ],
-        "version": "3.5.3"
+        "version": "3.6.1"
     },
     "vmtk": {
         "cmdline": [],
@@ -56366,10 +57307,14 @@
         "modules": [
             "vmtreport",
             "vmtreport.__about__",
+            "vmtreport.actions",
             "vmtreport.command_line",
+            "vmtreport.common",
+            "vmtreport.stats",
+            "vmtreport.targets",
             "vmtreport.util"
         ],
-        "version": "1.2.3"
+        "version": "2.0.0"
     },
     "vmupdate": {
         "cmdline": [],
@@ -57928,6 +58873,21 @@
         ],
         "version": "1.9.2"
     },
+    "vnpy-bybit": {
+        "cmdline": [],
+        "modules": [],
+        "version": "2021.6.21"
+    },
+    "vnpy-ctabacktester": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.1"
+    },
+    "vnpy-ctastrategy": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.2"
+    },
     "vnpy-ctp": {
         "cmdline": [],
         "modules": [],
@@ -57975,6 +58935,9 @@
             "vnpy_extra.db.import_strategy_setting",
             "vnpy_extra.db.md_reversion_rights",
             "vnpy_extra.db.orm",
+            "vnpy_extra.db.tick_data",
+            "vnpy_extra.db.tick_data.options",
+            "vnpy_extra.db.tick_data.options.load_gtja_options_tick_data",
             "vnpy_extra.db.utils",
             "vnpy_extra.logging",
             "vnpy_extra.report",
@@ -57986,12 +58949,13 @@
             "vnpy_extra.utils.cta_signal",
             "vnpy_extra.utils.data",
             "vnpy_extra.utils.enhancement",
+            "vnpy_extra.utils.factor",
             "vnpy_extra.utils.func",
             "vnpy_extra.utils.get_email",
             "vnpy_extra.utils.param_opt_result",
             "vnpy_extra.utils.send_email"
         ],
-        "version": "0.7.20210611.0"
+        "version": "0.7.20210706.0"
     },
     "vnpy-extra-tb": {
         "cmdline": [],
@@ -58000,7 +58964,7 @@
             "vnpy_extra_tb.ams",
             "vnpy_extra_tb.signals"
         ],
-        "version": "0.2.20210511.1"
+        "version": "0.2.20210616.0"
     },
     "vnpy-light": {
         "cmdline": [],
@@ -58130,22 +59094,27 @@
     "vnpy-rest": {
         "cmdline": [],
         "modules": [],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "vnpy-riskmanager": {
         "cmdline": [],
         "modules": [],
         "version": "1.0.0"
     },
+    "vnpy-spreadtrading": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.1"
+    },
     "vnpy-websocket": {
         "cmdline": [],
         "modules": [],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "vnpy-xtp": {
         "cmdline": [],
         "modules": [],
-        "version": "2.2.27.4"
+        "version": "2.2.27.5"
     },
     "vnq": {
         "cmdline": [],
@@ -58720,6 +59689,14 @@
             "vocab.vocab"
         ],
         "version": "0.0.5"
+    },
+    "vocab-api": {
+        "cmdline": [],
+        "modules": [
+            "vocab_api",
+            "vocab_api.hello"
+        ],
+        "version": "0.1.3"
     },
     "vocab-builder": {
         "cmdline": [],
@@ -59671,21 +60648,19 @@
             "voicegain_speech.models.asr_recognition_result",
             "voicegain_speech.models.asr_settings_common",
             "voicegain_speech.models.asr_settings_recognition",
-            "voicegain_speech.models.asr_settings_recognition_all_of",
             "voicegain_speech.models.asr_settings_recognition_defaults",
-            "voicegain_speech.models.asr_settings_recognition_defaults_all_of",
+            "voicegain_speech.models.asr_settings_recognition_grammars_etc",
+            "voicegain_speech.models.asr_settings_recognition_timeouts",
             "voicegain_speech.models.asr_settings_transcription",
-            "voicegain_speech.models.asr_settings_transcription_all_of",
-            "voicegain_speech.models.asr_settings_transcription_all_of_diarization",
             "voicegain_speech.models.asr_settings_transcription_async",
             "voicegain_speech.models.asr_settings_transcription_async_all_of",
             "voicegain_speech.models.asr_settings_transcription_common",
-            "voicegain_speech.models.asr_settings_transcription_common_all_of",
+            "voicegain_speech.models.asr_settings_transcription_common_lm",
+            "voicegain_speech.models.asr_settings_transcription_default_timeouts",
             "voicegain_speech.models.asr_settings_transcription_defaults",
-            "voicegain_speech.models.asr_settings_transcription_defaults_all_of",
             "voicegain_speech.models.asr_settings_transcription_sa",
-            "voicegain_speech.models.asr_settings_transcription_sa_all_of",
-            "voicegain_speech.models.asr_settings_transcription_sa_all_of_diarization",
+            "voicegain_speech.models.asr_settings_transcription_speakers",
+            "voicegain_speech.models.asr_settings_transcription_speakers_diarization",
             "voicegain_speech.models.async_audio_input_source",
             "voicegain_speech.models.async_mode",
             "voicegain_speech.models.async_mode_recognition",
@@ -59694,7 +60669,7 @@
             "voicegain_speech.models.async_post_response_base",
             "voicegain_speech.models.async_post_response_base_audio",
             "voicegain_speech.models.async_reco_post_response",
-            "voicegain_speech.models.async_reco_post_response_all_of",
+            "voicegain_speech.models.async_reco_post_response_sessions",
             "voicegain_speech.models.async_recognition_callback_response",
             "voicegain_speech.models.async_recognition_request",
             "voicegain_speech.models.async_recognition_response",
@@ -59708,13 +60683,14 @@
             "voicegain_speech.models.async_result_full_all_of_result",
             "voicegain_speech.models.async_result_incremental",
             "voicegain_speech.models.async_result_incremental_detail",
+            "voicegain_speech.models.async_result_incremental_detail_control_status",
             "voicegain_speech.models.async_result_incremental_detail_result",
             "voicegain_speech.models.async_session_established",
             "voicegain_speech.models.async_session_short_info",
+            "voicegain_speech.models.async_session_url",
             "voicegain_speech.models.async_transc_post_response",
-            "voicegain_speech.models.async_transc_post_response_all_of",
+            "voicegain_speech.models.async_transc_post_response_sessions",
             "voicegain_speech.models.async_transc_session_established",
-            "voicegain_speech.models.async_transc_session_established_all_of",
             "voicegain_speech.models.async_transcription_callback_response",
             "voicegain_speech.models.async_transcription_request",
             "voicegain_speech.models.async_transcription_response",
@@ -59722,23 +60698,22 @@
             "voicegain_speech.models.audio_channel",
             "voicegain_speech.models.audio_channel_selector",
             "voicegain_speech.models.audio_channels",
+            "voicegain_speech.models.audio_for_data_object",
             "voicegain_speech.models.audio_format",
             "voicegain_speech.models.audio_input_async",
-            "voicegain_speech.models.audio_input_async_all_of",
+            "voicegain_speech.models.audio_input_async_source",
             "voicegain_speech.models.audio_input_base",
             "voicegain_speech.models.audio_input_data",
             "voicegain_speech.models.audio_input_data_all_of",
             "voicegain_speech.models.audio_input_data_all_of_source",
             "voicegain_speech.models.audio_input_sync",
-            "voicegain_speech.models.audio_input_sync_all_of",
+            "voicegain_speech.models.audio_input_sync_source",
             "voicegain_speech.models.audio_resource_uri",
-            "voicegain_speech.models.audio_resource_uri_all_of",
             "voicegain_speech.models.audio_zone_class",
             "voicegain_speech.models.audio_zone_item",
             "voicegain_speech.models.builtin",
             "voicegain_speech.models.builtin_all_of",
             "voicegain_speech.models.call_attributes",
-            "voicegain_speech.models.call_resolution_phrase",
             "voicegain_speech.models.callback_req",
             "voicegain_speech.models.callback_req_reco",
             "voicegain_speech.models.callback_resp",
@@ -59753,9 +60728,7 @@
             "voicegain_speech.models.data_object_all_of",
             "voicegain_speech.models.data_object_base",
             "voicegain_speech.models.data_object_ids",
-            "voicegain_speech.models.data_object_modifiable",
             "voicegain_speech.models.data_object_with_audio",
-            "voicegain_speech.models.data_object_with_audio_all_of",
             "voicegain_speech.models.debug_info",
             "voicegain_speech.models.debug_settings",
             "voicegain_speech.models.demo",
@@ -59782,6 +60755,7 @@
             "voicegain_speech.models.greg_audio_input",
             "voicegain_speech.models.greg_audio_input_audio_hash",
             "voicegain_speech.models.greg_audio_input_audio_id",
+            "voicegain_speech.models.greg_audio_input_data",
             "voicegain_speech.models.greg_audio_set",
             "voicegain_speech.models.greg_audio_set_base",
             "voicegain_speech.models.greg_audio_set_base_inclusive",
@@ -59837,6 +60811,7 @@
             "voicegain_speech.models.html_radio_buttons",
             "voicegain_speech.models.html_text_entry",
             "voicegain_speech.models.if_exists",
+            "voicegain_speech.models.incident",
             "voicegain_speech.models.inline_data",
             "voicegain_speech.models.inline_object",
             "voicegain_speech.models.inline_object1",
@@ -59853,6 +60828,8 @@
             "voicegain_speech.models.language_model_doc_modifiable",
             "voicegain_speech.models.language_model_src_data",
             "voicegain_speech.models.lm_type",
+            "voicegain_speech.models.min_max_speakers",
+            "voicegain_speech.models.min_max_speakers_diarization",
             "voicegain_speech.models.mood_type",
             "voicegain_speech.models.mrc_pv1_asr_settings",
             "voicegain_speech.models.mrc_pv2_asr_settings",
@@ -59863,18 +60840,26 @@
             "voicegain_speech.models.new_speech_analytics_session",
             "voicegain_speech.models.new_speech_analytics_session_response",
             "voicegain_speech.models.new_speech_analytics_session_response_poll",
+            "voicegain_speech.models.new_speech_analytics_session_response_websocket",
             "voicegain_speech.models.non_session_error_response",
             "voicegain_speech.models.non_session_error_response400",
             "voicegain_speech.models.non_session_error_response401",
             "voicegain_speech.models.output",
             "voicegain_speech.models.output_all_of",
             "voicegain_speech.models.overtalk",
+            "voicegain_speech.models.phone_audio_input",
+            "voicegain_speech.models.phone_audio_input_prompt",
             "voicegain_speech.models.phrase_spot_example",
+            "voicegain_speech.models.phrase_spot_group",
             "voicegain_speech.models.phrase_spot_item",
+            "voicegain_speech.models.phrase_spot_item_location",
+            "voicegain_speech.models.phrase_spot_item_location_dialogue",
+            "voicegain_speech.models.phrase_spot_item_slots",
             "voicegain_speech.models.pii_redaction_conf",
             "voicegain_speech.models.poll_req",
             "voicegain_speech.models.poll_resp",
             "voicegain_speech.models.portal_output_init",
+            "voicegain_speech.models.pre_fetch",
             "voicegain_speech.models.progress",
             "voicegain_speech.models.progress_phase",
             "voicegain_speech.models.quartiles_energy",
@@ -59893,38 +60878,57 @@
             "voicegain_speech.models.s3_tag_mapping",
             "voicegain_speech.models.sa_conf_type",
             "voicegain_speech.models.sample_rate",
+            "voicegain_speech.models.session_content",
             "voicegain_speech.models.session_error_response",
             "voicegain_speech.models.session_init_recognition",
             "voicegain_speech.models.session_init_transcription",
             "voicegain_speech.models.session_success_response",
             "voicegain_speech.models.settings_async_transcription",
+            "voicegain_speech.models.settings_async_transcription_formatters",
             "voicegain_speech.models.settings_recognition",
             "voicegain_speech.models.settings_sync_transcription",
             "voicegain_speech.models.silence",
+            "voicegain_speech.models.slot_entity",
+            "voicegain_speech.models.slot_keyword",
             "voicegain_speech.models.sos_ref",
             "voicegain_speech.models.speaker_result",
+            "voicegain_speech.models.speech_analytics_base_result",
             "voicegain_speech.models.speech_analytics_channel",
             "voicegain_speech.models.speech_analytics_channel_result",
             "voicegain_speech.models.speech_analytics_channel_with_transcribe",
-            "voicegain_speech.models.speech_analytics_channel_with_transcribe_all_of",
             "voicegain_speech.models.speech_analytics_config",
             "voicegain_speech.models.speech_analytics_config_identifying",
             "voicegain_speech.models.speech_analytics_config_modifiable",
+            "voicegain_speech.models.speech_analytics_core_result",
+            "voicegain_speech.models.speech_analytics_core_result_all_of",
             "voicegain_speech.models.speech_analytics_emotion",
             "voicegain_speech.models.speech_analytics_emotion_data",
             "voicegain_speech.models.speech_analytics_emotion_item",
             "voicegain_speech.models.speech_analytics_keyword",
             "voicegain_speech.models.speech_analytics_keyword_data",
             "voicegain_speech.models.speech_analytics_keyword_item",
+            "voicegain_speech.models.speech_analytics_keyword_item_for_phrase",
             "voicegain_speech.models.speech_analytics_named_entity",
             "voicegain_speech.models.speech_analytics_named_entity_item",
+            "voicegain_speech.models.speech_analytics_named_entity_item_for_phrase",
             "voicegain_speech.models.speech_analytics_phrase",
             "voicegain_speech.models.speech_analytics_phrase_data",
+            "voicegain_speech.models.speech_analytics_phrase_group",
+            "voicegain_speech.models.speech_analytics_phrase_group_data",
+            "voicegain_speech.models.speech_analytics_phrase_group_item",
             "voicegain_speech.models.speech_analytics_phrase_item",
+            "voicegain_speech.models.speech_analytics_phrase_itemfor_phrase",
+            "voicegain_speech.models.speech_analytics_phrase_slots",
             "voicegain_speech.models.speech_analytics_result",
+            "voicegain_speech.models.speech_analytics_result_detail",
+            "voicegain_speech.models.speech_analytics_session_poll_response",
+            "voicegain_speech.models.stomp_word_correction",
+            "voicegain_speech.models.stomp_ws_word",
             "voicegain_speech.models.stream_resp",
             "voicegain_speech.models.stream_setup",
             "voicegain_speech.models.streaming_protocol",
+            "voicegain_speech.models.summary_fragment",
+            "voicegain_speech.models.summary_item",
             "voicegain_speech.models.sync_audio_input_source",
             "voicegain_speech.models.sync_recognition_request",
             "voicegain_speech.models.sync_recognition_response",
@@ -59944,9 +60948,16 @@
             "voicegain_speech.models.training_set_status_modifiable",
             "voicegain_speech.models.training_set_store_type",
             "voicegain_speech.models.transcribe_alt",
+            "voicegain_speech.models.transcribe_session_id",
+            "voicegain_speech.models.transcribe_session_modify_request",
+            "voicegain_speech.models.transcribe_session_modify_request_mute",
+            "voicegain_speech.models.transcribe_session_modify_request_pause",
             "voicegain_speech.models.transcript_position_range",
+            "voicegain_speech.models.transcript_position_range_for_phrase",
+            "voicegain_speech.models.transcript_position_range_for_phrase_with_chn",
             "voicegain_speech.models.transfer",
             "voicegain_speech.models.transfer_all_of",
+            "voicegain_speech.models.vad_mode",
             "voicegain_speech.models.websocket",
             "voicegain_speech.models.websocket_init",
             "voicegain_speech.models.websocket_init_reco",
@@ -59965,7 +60976,7 @@
             "voicegain_speech.models.words_websocket_item",
             "voicegain_speech.rest"
         ],
-        "version": "1.24.0"
+        "version": "1.36.3"
     },
     "voicegen": {
         "cmdline": [],
@@ -60340,7 +61351,7 @@
             "voidbots",
             "voidbots.main"
         ],
-        "version": "0.0.1"
+        "version": "0.0.3"
     },
     "voidforge": {
         "cmdline": [],
@@ -60479,7 +61490,7 @@
             "VoigtFit.terminal_attributes",
             "VoigtFit.voigt"
         ],
-        "version": "3.11.10"
+        "version": "3.11.14"
     },
     "voikko": {
         "cmdline": [],
@@ -60526,6 +61537,11 @@
         "version": "0.2.5"
     },
     "voila-debug": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
+    "voila-embed": {
         "cmdline": [],
         "modules": [],
         "version": "0.0.1"
@@ -60714,6 +61730,13 @@
         ],
         "version": "0.0.1"
     },
+    "voix": {
+        "cmdline": [],
+        "modules": [
+            "voix"
+        ],
+        "version": "0.1"
+    },
     "vokativ": {
         "cmdline": [],
         "modules": [
@@ -60751,15 +61774,6 @@
         ],
         "version": "0.1.1"
     },
-    "vol2timing": {
-        "cmdline": [],
-        "modules": [
-            "vol2timing",
-            "vol2timing.Log4Vol2Timing",
-            "vol2timing.Vol2timing"
-        ],
-        "version": "0.0.11"
-    },
     "volapi": {
         "cmdline": [],
         "modules": [
@@ -60776,7 +61790,7 @@
             "volapi.utils",
             "volapi.volapi"
         ],
-        "version": "5.22.0"
+        "version": "5.23.0"
     },
     "volatildap": {
         "cmdline": [],
@@ -60801,12 +61815,15 @@
     "volatilipy": {
         "cmdline": [],
         "modules": [
+            "tests",
+            "tests.test_OptionsData",
+            "tests.test_VolatilitySurface",
             "volatilipy",
             "volatilipy.helper_functions",
             "volatilipy.options_data",
             "volatilipy.volatility_surface"
         ],
-        "version": "0.1.0"
+        "version": "0.1.2"
     },
     "volatility": {
         "cmdline": [],
@@ -62165,11 +63182,15 @@
             "volcengine.example.visual.example_video_summarization_submit_task",
             "volcengine.example.vod",
             "volcengine.example.vod.media",
+            "volcengine.example.vod.media.GetSubtitleAuthToken",
+            "volcengine.example.vod.media.GetSubtitleToken",
             "volcengine.example.vod.media.MediaExample",
             "volcengine.example.vod.play",
             "volcengine.example.vod.play.GetHlsDrmAuthTokenExample",
             "volcengine.example.vod.play.GetPlayAuthTokenExample",
             "volcengine.example.vod.play.GetPlayInfoExample",
+            "volcengine.example.vod.subtitle",
+            "volcengine.example.vod.subtitle.SubtitleExample",
             "volcengine.example.vod.upload",
             "volcengine.example.vod.upload.ApplyUploadInfoExample",
             "volcengine.example.vod.upload.CommitUploadInfoExample",
@@ -62214,7 +63235,7 @@
             "volcengine.vod.models.response",
             "volcengine.vod.models.response.response_vod_pb2"
         ],
-        "version": "1.0.15"
+        "version": "1.0.16"
     },
     "volcorner": {
         "cmdline": [],
@@ -62334,7 +63355,7 @@
             "volkanic.system",
             "volkanic.utils"
         ],
-        "version": "0.3.1"
+        "version": "0.3.3"
     },
     "volkpdf": {
         "cmdline": [],
@@ -62447,6 +63468,7 @@
         "cmdline": [],
         "modules": [
             "volmdlr",
+            "volmdlr.cloud",
             "volmdlr.code_aster",
             "volmdlr.core",
             "volmdlr.display",
@@ -62461,11 +63483,12 @@
             "volmdlr.primitives2d",
             "volmdlr.primitives3d",
             "volmdlr.step",
+            "volmdlr.stl",
             "volmdlr.templates",
             "volmdlr.triangulation",
             "volmdlr.wires"
         ],
-        "version": "0.2.8.post1"
+        "version": "0.2.10"
     },
     "volodymyr": {
         "cmdline": [],
@@ -62684,7 +63707,7 @@
             "voltha_protos.voltha_pb2",
             "voltha_protos.voltha_pb2_grpc"
         ],
-        "version": "4.1.9"
+        "version": "4.2.0"
     },
     "voltools": {
         "cmdline": [],
@@ -62779,6 +63802,26 @@
             "voltron_web.ui"
         ],
         "version": "0.1.1"
+    },
+    "volttron-utils": {
+        "cmdline": [],
+        "modules": [
+            "volttron.utils",
+            "volttron.utils.context",
+            "volttron.utils.file_access",
+            "volttron.utils.filewatch",
+            "volttron.utils.frame_serialization",
+            "volttron.utils.frozendict",
+            "volttron.utils.identities",
+            "volttron.utils.jsonapi",
+            "volttron.utils.jsonrpc",
+            "volttron.utils.keystore",
+            "volttron.utils.network",
+            "volttron.utils.scheduling",
+            "volttron.utils.storeutils",
+            "volttron.utils.time"
+        ],
+        "version": "0.1.3"
     },
     "volume-manifest-tool": {
         "cmdline": [],
@@ -63051,6 +64094,14 @@
             "voms_auth_system_openstack.plugin"
         ],
         "version": "1.1"
+    },
+    "von": {
+        "cmdline": [],
+        "modules": [
+            "von",
+            "von.test"
+        ],
+        "version": "0.1a0"
     },
     "von-agent": {
         "cmdline": [],
@@ -63625,7 +64676,7 @@
             "vorta.views.ssh_dialog",
             "vorta.views.utils"
         ],
-        "version": "0.7.6"
+        "version": "0.7.7"
     },
     "vortaro": {
         "cmdline": [],
@@ -63820,7 +64871,7 @@
             "vortexasdk.version",
             "vortexasdk.version_utils"
         ],
-        "version": "0.28.8"
+        "version": "0.28.9"
     },
     "vortexfitting": {
         "cmdline": [],
@@ -64454,7 +65505,7 @@
             "voussoirkit.winglob",
             "voussoirkit.winwhich"
         ],
-        "version": "0.0.65"
+        "version": "0.0.66"
     },
     "vovp": {
         "cmdline": [],
@@ -64780,6 +65831,58 @@
         ],
         "version": "0.1.8"
     },
+    "vox-django": {
+        "cmdline": [],
+        "modules": [
+            "vox_django",
+            "vox_django.apps",
+            "vox_django.criptografia",
+            "vox_django.healthcheck",
+            "vox_django.healthcheck.backends",
+            "vox_django.management",
+            "vox_django.management.commands",
+            "vox_django.management.commands.generate_model_uml",
+            "vox_django.middleware",
+            "vox_django.models",
+            "vox_django.test_runner",
+            "vox_django.tests"
+        ],
+        "version": "0.1.3"
+    },
+    "vox-kafka": {
+        "cmdline": [],
+        "modules": [
+            "vox_kafka",
+            "vox_kafka.healthcheck",
+            "vox_kafka.healthcheck.backends",
+            "vox_kafka.kafka_client",
+            "vox_kafka.tests"
+        ],
+        "version": "0.2.3"
+    },
+    "vox-logstash": {
+        "cmdline": [],
+        "modules": [
+            "vox_logstash",
+            "vox_logstash.log_formatters",
+            "vox_logstash.log_handlers",
+            "vox_logstash.tests"
+        ],
+        "version": "0.1.1"
+    },
+    "vox-messages": {
+        "cmdline": [],
+        "modules": [
+            "vox_message",
+            "vox_message.healthcheck",
+            "vox_message.jobs",
+            "vox_message.messages",
+            "vox_message.models",
+            "vox_message.serializers",
+            "vox_message.views"
+        ],
+        "version": "0.1.1"
+    },
     "voxceleb-luigi": {
         "cmdline": [],
         "modules": [
@@ -64879,7 +65982,7 @@
             "eta.segmenters",
             "eta.segmenters.tf_segmenters"
         ],
-        "version": "0.4.1"
+        "version": "0.5.1"
     },
     "voxelbotutils": {
         "cmdline": [],
@@ -64927,6 +66030,7 @@
             "voxelbotutils.cogs.utils.custom_context",
             "voxelbotutils.cogs.utils.database",
             "voxelbotutils.cogs.utils.errors",
+            "voxelbotutils.cogs.utils.help_command",
             "voxelbotutils.cogs.utils.interactions",
             "voxelbotutils.cogs.utils.interactions.application_commands",
             "voxelbotutils.cogs.utils.interactions.components",
@@ -64935,11 +66039,24 @@
             "voxelbotutils.cogs.utils.interactions.components.models",
             "voxelbotutils.cogs.utils.interactions.components.select_menu",
             "voxelbotutils.cogs.utils.interactions.interaction_messageable",
+            "voxelbotutils.cogs.utils.menus",
+            "voxelbotutils.cogs.utils.menus.callbacks",
+            "voxelbotutils.cogs.utils.menus.check",
+            "voxelbotutils.cogs.utils.menus.converter",
+            "voxelbotutils.cogs.utils.menus.errors",
+            "voxelbotutils.cogs.utils.menus.menu",
+            "voxelbotutils.cogs.utils.menus.mixins",
+            "voxelbotutils.cogs.utils.menus.option",
+            "voxelbotutils.cogs.utils.menus.utils",
             "voxelbotutils.cogs.utils.missing_required_argument",
+            "voxelbotutils.cogs.utils.models",
             "voxelbotutils.cogs.utils.paginator",
+            "voxelbotutils.cogs.utils.partial_channel",
             "voxelbotutils.cogs.utils.redis",
             "voxelbotutils.cogs.utils.settings_menu",
+            "voxelbotutils.cogs.utils.shard_manager",
             "voxelbotutils.cogs.utils.statsd",
+            "voxelbotutils.cogs.utils.time_formatter",
             "voxelbotutils.cogs.utils.time_value",
             "voxelbotutils.cogs.utils.upgrade_chat",
             "voxelbotutils.config",
@@ -64959,7 +66076,7 @@
             "voxelbotutils.web.utils.requires_login",
             "voxelbotutils.web.utils.web_context"
         ],
-        "version": "0.4.0"
+        "version": "0.5.6"
     },
     "voxelfuse": {
         "cmdline": [],
@@ -65075,7 +66192,7 @@
             "voximplant.apiclient",
             "voximplant.apiclient.client"
         ],
-        "version": "1.2.1"
+        "version": "1.3.2"
     },
     "voximplant-client": {
         "cmdline": [],
@@ -65143,7 +66260,7 @@
     "voxrow": {
         "cmdline": [],
         "modules": [],
-        "version": "0.9.14"
+        "version": "0.9.15"
     },
     "voxsql": {
         "cmdline": [],
@@ -65220,7 +66337,7 @@
             "voyandz.util",
             "voyandz.version"
         ],
-        "version": "0.2.4"
+        "version": "0.2.5"
     },
     "voyant-indicators": {
         "cmdline": [],
@@ -65457,6 +66574,13 @@
         ],
         "version": "0.9.2"
     },
+    "vpdb": {
+        "cmdline": [
+            "vpdb"
+        ],
+        "modules": [],
+        "version": "1.0.0"
+    },
     "vpdfantiantiplagio": {
         "cmdline": [],
         "modules": [
@@ -65522,7 +66646,7 @@
             "vpic.transforms",
             "vpic.typed_client"
         ],
-        "version": "0.6.4"
+        "version": "0.7.4"
     },
     "vpicwrapper": {
         "cmdline": [],
@@ -66056,7 +67180,7 @@
             "vps_deploy.django_fabric",
             "vps_deploy.django_fabric2"
         ],
-        "version": "0.4.5"
+        "version": "0.4.7"
     },
     "vps-network": {
         "cmdline": [],
@@ -66093,7 +67217,7 @@
             "vps_network.vps_trace.do_traceroute_v2",
             "vps_network.vps_trace.ip_api"
         ],
-        "version": "0.4.3"
+        "version": "0.5.0"
     },
     "vps-online-keeper": {
         "cmdline": [],
@@ -67337,7 +68461,7 @@
             "vrt_lss_account.schemes.token_result_schema",
             "vrt_lss_account.schemes.token_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-clustering": {
         "cmdline": [],
@@ -67396,7 +68520,7 @@
             "vrt_lss_clustering.schemes.validate_result_schema",
             "vrt_lss_clustering.schemes.validate_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-delivery": {
         "cmdline": [],
@@ -67484,6 +68608,7 @@
             "vrt_lss_delivery.models.transport_type",
             "vrt_lss_delivery.models.trip",
             "vrt_lss_delivery.models.trip_action",
+            "vrt_lss_delivery.models.trip_start_time_strategy",
             "vrt_lss_delivery.models.trip_statistics",
             "vrt_lss_delivery.models.unplanned_order",
             "vrt_lss_delivery.models.validate_result",
@@ -67502,7 +68627,7 @@
             "vrt_lss_delivery.schemes.validate_result_schema",
             "vrt_lss_delivery.schemes.validate_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-fieldservice": {
         "cmdline": [],
@@ -67590,7 +68715,7 @@
             "vrt_lss_fieldservice.schemes.validate_result_schema",
             "vrt_lss_fieldservice.schemes.validate_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-lastmile": {
         "cmdline": [],
@@ -67667,6 +68792,7 @@
             "vrt_lss_lastmile.models.quality_statistics",
             "vrt_lss_lastmile.models.replan_settings",
             "vrt_lss_lastmile.models.replan_strategy",
+            "vrt_lss_lastmile.models.replan_task",
             "vrt_lss_lastmile.models.rotation_type",
             "vrt_lss_lastmile.models.routing",
             "vrt_lss_lastmile.models.routing_matrix",
@@ -67687,6 +68813,7 @@
             "vrt_lss_lastmile.models.trip",
             "vrt_lss_lastmile.models.trip_action",
             "vrt_lss_lastmile.models.trip_job",
+            "vrt_lss_lastmile.models.trip_start_time_strategy",
             "vrt_lss_lastmile.models.trip_statistics",
             "vrt_lss_lastmile.models.universal_tariff",
             "vrt_lss_lastmile.models.unplanned_order",
@@ -67705,7 +68832,7 @@
             "vrt_lss_lastmile.schemes.validate_result_schema",
             "vrt_lss_lastmile.schemes.validate_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-merchandiser": {
         "cmdline": [],
@@ -67790,7 +68917,7 @@
             "vrt_lss_merchandiser.schemes.validate_result_schema",
             "vrt_lss_merchandiser.schemes.validate_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-partner": {
         "cmdline": [],
@@ -67883,7 +69010,7 @@
             "vrt_lss_routing.schemes.route_result_schema",
             "vrt_lss_routing.schemes.route_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-stock": {
         "cmdline": [],
@@ -67926,7 +69053,7 @@
             "vrt_lss_stock.schemes.validate_result_schema",
             "vrt_lss_stock.schemes.validate_task_schema"
         ],
-        "version": "3.8.171175"
+        "version": "3.9.172873"
     },
     "vrt-lss-studio": {
         "cmdline": [],
@@ -68214,9 +69341,11 @@
         "cmdline": [],
         "modules": [
             "debandshit",
-            "debandshit.debanders"
+            "debandshit.debanders",
+            "debandshit.f3kdb",
+            "debandshit.placebo"
         ],
-        "version": "0.4.1"
+        "version": "0.4.3"
     },
     "vs-emr": {
         "cmdline": [],
@@ -68488,7 +69617,7 @@
             "vsc.utils.testing",
             "vsc.utils.wrapper"
         ],
-        "version": "3.3.0"
+        "version": "3.3.1"
     },
     "vsc-install": {
         "cmdline": [],
@@ -68532,7 +69661,7 @@
             "vsc.mympirun.rm.scoop",
             "vsc.mympirun.rm.slurm"
         ],
-        "version": "5.2.5"
+        "version": "5.2.6"
     },
     "vsc-tools-lib-gjbex": {
         "cmdline": [],
@@ -68607,6 +69736,14 @@
             "vscale_distribution.Generaldistribution"
         ],
         "version": "0.1"
+    },
+    "vscan": {
+        "cmdline": [],
+        "modules": [
+            "virus_scanner",
+            "virus_scanner.vscan_config"
+        ],
+        "version": "1.0"
     },
     "vscext": {
         "cmdline": [],
@@ -68745,12 +69882,24 @@
         "modules": [],
         "version": ""
     },
+    "vsdownload": {
+        "cmdline": [],
+        "modules": [
+            "vsdownload",
+            "vsdownload.vsdownload",
+            "vsdownload/commands",
+            "vsdownload/commands.capture",
+            "vsdownload/commands.save",
+            "vsdownload/commands.utils"
+        ],
+        "version": "1.0.0"
+    },
     "vsdx": {
         "cmdline": [],
         "modules": [
             "vsdx"
         ],
-        "version": "0.4.0"
+        "version": "0.4.4"
     },
     "vse": {
         "cmdline": [],
@@ -70338,6 +71487,11 @@
         ],
         "version": "1.3.1"
     },
+    "vslam-experiment-manager": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vslmetrics": {
         "cmdline": [],
         "modules": [],
@@ -70864,15 +72018,45 @@
         ],
         "version": "0.1.4"
     },
+    "vsource": {
+        "cmdline": [],
+        "modules": [
+            "vsource",
+            "vsource.algorithms",
+            "vsource.algorithms.face_attribute",
+            "vsource.algorithms.face_detection",
+            "vsource.algorithms.face_generation",
+            "vsource.algorithms.face_recognition",
+            "vsource.algorithms.new_algorithm",
+            "vsource.algorithms.random_number",
+            "vsource.algorithms.speaker_recognition",
+            "vsource.configs",
+            "vsource.exceptions",
+            "vsource.loginInstance",
+            "vsource.scripts",
+            "vsource.scripts.algorithm_scripts",
+            "vsource.scripts.algorithm_scripts.algorithms",
+            "vsource.scripts.enroll_service"
+        ],
+        "version": "1.0.8"
+    },
     "vsource-algorithm": {
         "cmdline": [],
         "modules": [
             "vsource_algorithm",
+            "vsource_algorithm.algorithms",
+            "vsource_algorithm.algorithms.face_attribute",
+            "vsource_algorithm.algorithms.face_detection",
+            "vsource_algorithm.algorithms.face_recognition",
+            "vsource_algorithm.algorithms.speaker_recognition",
             "vsource_algorithm.configs",
             "vsource_algorithm.exceptions",
-            "vsource_algorithm.loginInstance"
+            "vsource_algorithm.loginInstance",
+            "vsource_algorithm.scripts",
+            "vsource_algorithm.scripts.algorithm_scripts",
+            "vsource_algorithm.scripts.algorithm_scripts.algorithms"
         ],
-        "version": "1.0.2"
+        "version": "1.0.13"
     },
     "vspace": {
         "cmdline": [],
@@ -72435,7 +73619,7 @@
             "vss_cli.vssconst",
             "vss_cli.yaml"
         ],
-        "version": "2021.5.4"
+        "version": "2021.6.0"
     },
     "vss-python-api": {
         "cmdline": [],
@@ -75833,7 +77017,7 @@
     "vsw": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.22"
+        "version": "0.0.28"
     },
     "vswhere": {
         "cmdline": [],
@@ -76138,7 +77322,7 @@
             "vtb_authorizer_utils.gateway",
             "vtb_authorizer_utils.utils"
         ],
-        "version": "0.0.9"
+        "version": "0.0.10"
     },
     "vtb-django-commands": {
         "cmdline": [],
@@ -76207,7 +77391,7 @@
             "state_service_utils.logging",
             "state_service_utils.utils"
         ],
-        "version": "1.6.5"
+        "version": "1.6.7"
     },
     "vtc": {
         "cmdline": [],
@@ -76243,6 +77427,22 @@
         ],
         "version": "0.9"
     },
+    "vtda": {
+        "cmdline": [],
+        "modules": [
+            "vtda",
+            "vtda.analysis",
+            "vtda.analysis.base",
+            "vtda.analysis.batch_calculate",
+            "vtda.analysis.noise",
+            "vtda.analysis.vibration",
+            "vtda.read_data",
+            "vtda.read_data.read_dasp",
+            "vtda.util",
+            "vtda.util.util"
+        ],
+        "version": "1.3.1"
+    },
     "vte": {
         "cmdline": [],
         "modules": [
@@ -76256,38 +77456,6 @@
         "cmdline": [],
         "modules": [
             "requirements",
-            "tests",
-            "tests.classes",
-            "tests.classes.test_byte_buffer",
-            "tests.classes.test_channel",
-            "tests.classes.test_channel_group",
-            "tests.classes.test_channel_group_registry",
-            "tests.classes.test_command_queue_daemon",
-            "tests.classes.test_daemon",
-            "tests.classes.test_daemon_manager",
-            "tests.classes.test_enum_registry",
-            "tests.classes.test_event_loop_daemon",
-            "tests.classes.test_frame_reader",
-            "tests.classes.test_http_daemon",
-            "tests.classes.test_http_request_mapper",
-            "tests.classes.test_queue_daemon",
-            "tests.classes.test_state_machine",
-            "tests.classes.test_stream_writer",
-            "tests.classes.test_telemetry_daemon",
-            "tests.classes.test_telemetry_environment",
-            "tests.classes.test_telemetry_proxy",
-            "tests.classes.test_telemetry_server",
-            "tests.classes.test_time_keeper",
-            "tests.classes.test_type_registry",
-            "tests.classes.test_udp_client_manager",
-            "tests.classes.test_websocket_daemon",
-            "tests.enums",
-            "tests.enums.test_primitive",
-            "tests.factories",
-            "tests.factories.test_telemetry_environment",
-            "tests.test_app",
-            "tests.test_entry",
-            "tests.test_mtu",
             "vmklib",
             "vmklib.app",
             "vmklib.entry",
@@ -76348,7 +77516,7 @@
             "vtelem.types.command_queue_daemon",
             "vtelem.types.telemetry_server"
         ],
-        "version": "0.2.3"
+        "version": "0.2.6"
     },
     "vtem": {
         "cmdline": [],
@@ -76509,7 +77677,7 @@
     "vtfcal": {
         "cmdline": [],
         "modules": [],
-        "version": "0.2.0"
+        "version": "0.3.5"
     },
     "vtfunc": {
         "cmdline": [],
@@ -76651,11 +77819,20 @@
             "vtkmodules.util.vtkImageImportFromArray",
             "vtkmodules.util.vtkMethodParser",
             "vtkmodules.util.vtkVariant",
+            "vtkmodules.web",
+            "vtkmodules.web.camera",
+            "vtkmodules.web.dataset_builder",
+            "vtkmodules.web.protocols",
+            "vtkmodules.web.query_data_model",
+            "vtkmodules.web.render_window_serializer",
+            "vtkmodules.web.testing",
+            "vtkmodules.web.vtkjs_helper",
+            "vtkmodules.web.wslink",
             "vtkmodules.wx",
             "vtkmodules.wx.wxVTKRenderWindow",
             "vtkmodules.wx.wxVTKRenderWindowInteractor"
         ],
-        "version": "9.0.1"
+        "version": "9.0.3"
     },
     "vtk-vacreader": {
         "cmdline": [],
@@ -77350,9 +78527,10 @@
         "cmdline": [],
         "modules": [
             "vtt_to_srt",
+            "vtt_to_srt.test_vtt_to_str",
             "vtt_to_srt.vtt_to_srt"
         ],
-        "version": "0.1.8.6"
+        "version": "0.1.8.9"
     },
     "vtt2text": {
         "cmdline": [],
@@ -77507,9 +78685,10 @@
     "vtzero": {
         "cmdline": [],
         "modules": [
-            "vtzero"
+            "vtzero",
+            "vtzero.version"
         ],
-        "version": "0.0.1b1"
+        "version": "0.0.1b2"
     },
     "vu": {
         "cmdline": [],
@@ -77647,6 +78826,11 @@
             "vue4j.vue4j"
         ],
         "version": "0.1"
+    },
+    "vuegraf": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.2.0"
     },
     "vuejspython": {
         "cmdline": [],
@@ -77851,7 +79035,7 @@
             "vulcan.model._timeslot",
             "vulcan.model._unit"
         ],
-        "version": "2.0.0"
+        "version": "2.0.1"
     },
     "vulcan-athena": {
         "cmdline": [],
@@ -77873,7 +79057,7 @@
             "vulcan_athena.weather_reporting.setup",
             "vulcan_athena.weather_reporting.weather_api"
         ],
-        "version": "0.2.4"
+        "version": "0.2.5"
     },
     "vulcan-aws": {
         "cmdline": [],
@@ -78258,10 +79442,8 @@
     },
     "vulseek": {
         "cmdline": [],
-        "modules": [
-            "vulseek.cli.main"
-        ],
-        "version": "0.0.2"
+        "modules": [],
+        "version": "0.0.5"
     },
     "vultest": {
         "cmdline": [],
@@ -80146,7 +81328,7 @@
             "vvrest.utilities",
             "vvrest.vault"
         ],
-        "version": "1.7.0"
+        "version": "1.8.0"
     },
     "vvs": {
         "cmdline": [],
@@ -80346,6 +81528,29 @@
         ],
         "version": "1.1.0.post2"
     },
+    "vw-estimators": {
+        "cmdline": [],
+        "modules": [
+            "estimators",
+            "estimators.bandits",
+            "estimators.bandits.base",
+            "estimators.bandits.cats_utils",
+            "estimators.bandits.clopper_pearson",
+            "estimators.bandits.cressieread",
+            "estimators.bandits.gaussian",
+            "estimators.bandits.ips",
+            "estimators.bandits.mle",
+            "estimators.bandits.snips",
+            "estimators.basic-usage",
+            "estimators.slates",
+            "estimators.slates.base",
+            "estimators.slates.gaussian",
+            "estimators.slates.pseudo_inverse",
+            "estimators.utils",
+            "estimators.utils.ds_parse"
+        ],
+        "version": "0.0.1"
+    },
     "vw-gstore-adapter": {
         "cmdline": [],
         "modules": [
@@ -80363,7 +81568,7 @@
             "vweb.htmlpage",
             "vweb.htmltable"
         ],
-        "version": "1.3.4"
+        "version": "2.0.0"
     },
     "vweb-scraper": {
         "cmdline": [],
@@ -80939,7 +82144,7 @@
             "vxcube_api.utils",
             "vxcube_api.version"
         ],
-        "version": "1.0.0"
+        "version": "1.0.4"
     },
     "vxdata": {
         "cmdline": [],
@@ -81650,7 +82855,7 @@
             "vytools.stage",
             "vytools.utils"
         ],
-        "version": "0.2.6"
+        "version": "0.2.8"
     },
     "vyviz": {
         "cmdline": [],

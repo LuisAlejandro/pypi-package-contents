@@ -309,7 +309,7 @@
             "u3driver.commands.record_profile",
             "u3driver.runner"
         ],
-        "version": "1.0.42"
+        "version": "1.0.44"
     },
     "u8darts": {
         "cmdline": [],
@@ -334,10 +334,14 @@
             "darts.models.arima",
             "darts.models.auto_arima",
             "darts.models.baselines",
+            "darts.models.block_rnn_model",
             "darts.models.ensemble_model",
             "darts.models.exponential_smoothing",
             "darts.models.fft",
+            "darts.models.filtering_model",
             "darts.models.forecasting_model",
+            "darts.models.gaussian_process_filter",
+            "darts.models.kalman_filter",
             "darts.models.linear_regression_model",
             "darts.models.nbeats",
             "darts.models.prophet",
@@ -362,24 +366,27 @@
             "darts.tests.dataprocessing.transformers.test_missing_values_filler",
             "darts.tests.test_4theta",
             "darts.tests.test_NBEATS",
-            "darts.tests.test_RNN",
             "darts.tests.test_TCN",
             "darts.tests.test_backtesting",
+            "darts.tests.test_block_RNN",
             "darts.tests.test_dataset_loaders",
             "darts.tests.test_datasets",
             "darts.tests.test_ensemble_models",
             "darts.tests.test_fft",
+            "darts.tests.test_filters",
             "darts.tests.test_global_forecasting_models",
             "darts.tests.test_local_forecasting_models",
             "darts.tests.test_logging",
             "darts.tests.test_metrics",
             "darts.tests.test_missing_values",
+            "darts.tests.test_probabilistic_models",
             "darts.tests.test_regression_ensemble_model",
             "darts.tests.test_regression_models",
             "darts.tests.test_statistics",
             "darts.tests.test_timeseries",
             "darts.tests.test_timeseries_generation",
             "darts.tests.test_timeseries_multivariate",
+            "darts.tests.test_torch_forecasting_model",
             "darts.tests.test_transformer_model",
             "darts.tests.test_utils",
             "darts.tests.test_utils_torch",
@@ -393,6 +400,7 @@
             "darts.utils.data.shifted_dataset",
             "darts.utils.data.simple_inference_dataset",
             "darts.utils.data.timeseries_dataset",
+            "darts.utils.likelihood_models",
             "darts.utils.missing_values",
             "darts.utils.model_selection",
             "darts.utils.statistics",
@@ -400,7 +408,7 @@
             "darts.utils.torch",
             "darts.utils.utils"
         ],
-        "version": "0.8.1"
+        "version": "0.9.0"
     },
     "u8timeseries": {
         "cmdline": [],
@@ -1028,7 +1036,19 @@
             "uamqp.types",
             "uamqp.utils"
         ],
-        "version": "1.4.0"
+        "version": "1.4.1"
+    },
+    "uamutils": {
+        "cmdline": [],
+        "modules": [
+            "uamutils",
+            "uamutils.blocks",
+            "uamutils.config",
+            "uamutils.data",
+            "uamutils.mod4",
+            "uamutils.shared"
+        ],
+        "version": "0.0.0a3"
     },
     "uao": {
         "cmdline": [],
@@ -1439,6 +1459,13 @@
         ],
         "version": "0.0.3"
     },
+    "ubay-checks-computer": {
+        "cmdline": [
+            "ubay_checks_computer"
+        ],
+        "modules": [],
+        "version": "0.2"
+    },
     "ubc": {
         "cmdline": [],
         "modules": [
@@ -1704,13 +1731,19 @@
         ],
         "version": "0.1.0"
     },
+    "uberfmt": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.2"
+    },
     "ubergauss": {
         "cmdline": [],
         "modules": [
             "ubergauss",
-            "ubergauss._version"
+            "ubergauss._version",
+            "ubergauss.draw"
         ],
-        "version": "0.0.9"
+        "version": "0.0.13"
     },
     "uberjob": {
         "cmdline": [],
@@ -1762,6 +1795,17 @@
             "uberjob.stores._touch_file_store"
         ],
         "version": "0.1.0"
+    },
+    "uberlimb": {
+        "cmdline": [],
+        "modules": [
+            "uberlimb",
+            "uberlimb.frame",
+            "uberlimb.input_space",
+            "uberlimb.parameters",
+            "uberlimb.renderer"
+        ],
+        "version": "0.7.1"
     },
     "uberlogging": {
         "cmdline": [],
@@ -2556,8 +2600,19 @@
     },
     "ubotadapter": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "ubotadapter",
+            "ubotadapter.botadapter",
+            "ubotadapter.botconfig",
+            "ubotadapter.botcontext",
+            "ubotadapter.botinfo",
+            "ubotadapter.botmsg",
+            "ubotadapter.enums",
+            "ubotadapter.inbound",
+            "ubotadapter.tgu",
+            "ubotadapter.vku"
+        ],
+        "version": "0.1.7.1"
     },
     "ubox-service": {
         "cmdline": [],
@@ -2604,6 +2659,14 @@
             "ubscrape.words"
         ],
         "version": "0.1.4"
+    },
+    "ubsoar": {
+        "cmdline": [],
+        "modules": [
+            "ubsoar",
+            "ubsoar.ubsoar"
+        ],
+        "version": "0.0.2"
     },
     "ubuf": {
         "cmdline": [],
@@ -3024,7 +3087,7 @@
             "ucamdsm.lib.process",
             "ucamdsm.lib.task"
         ],
-        "version": "1.3.7"
+        "version": "1.3.8"
     },
     "ucanlintools": {
         "cmdline": [],
@@ -3789,7 +3852,7 @@
             "uciwebauth",
             "uciwebauth.uciwebauth"
         ],
-        "version": "2021.6.6"
+        "version": "2021.6.18"
     },
     "ucl": {
         "cmdline": [],
@@ -4326,7 +4389,7 @@
             "ucloud.testing.utest",
             "ucloud.version"
         ],
-        "version": "0.11.4"
+        "version": "0.11.6"
     },
     "ucloud-storage-python-wrapper": {
         "cmdline": [],
@@ -4512,7 +4575,7 @@
         "modules": [
             "ucnumber"
         ],
-        "version": "0.1.0"
+        "version": "0.1.2"
     },
     "ucode-cli": {
         "cmdline": [],
@@ -5541,6 +5604,16 @@
         ],
         "version": "0.1"
     },
+    "udacity-distr": {
+        "cmdline": [],
+        "modules": [
+            "udacity_distr",
+            "udacity_distr.Binomialdistribution",
+            "udacity_distr.Gaussiandistribution",
+            "udacity_distr.Generaldistribution"
+        ],
+        "version": "0.5"
+    },
     "udacity-distributions": {
         "cmdline": [],
         "modules": [
@@ -5821,6 +5894,16 @@
         "modules": [],
         "version": "0.1.10"
     },
+    "udarpc": {
+        "cmdline": [],
+        "modules": [
+            "udarpc",
+            "udarpc.uda",
+            "udarpc.uda_pb2",
+            "udarpc.uda_pb2_grpc"
+        ],
+        "version": "0.0.1"
+    },
     "udaswissknife": {
         "cmdline": [],
         "modules": [
@@ -5911,7 +5994,6 @@
             "udata.core.dataset.search",
             "udata.core.dataset.signals",
             "udata.core.dataset.tasks",
-            "udata.core.dataset.views",
             "udata.core.discussions",
             "udata.core.discussions.actions",
             "udata.core.discussions.api",
@@ -5969,7 +6051,6 @@
             "udata.core.organization.search",
             "udata.core.organization.signals",
             "udata.core.organization.tasks",
-            "udata.core.organization.views",
             "udata.core.post",
             "udata.core.post.api",
             "udata.core.post.factories",
@@ -5978,8 +6059,6 @@
             "udata.core.post.permissions",
             "udata.core.post.tests",
             "udata.core.post.tests.test_api",
-            "udata.core.post.tests.test_frontend",
-            "udata.core.post.views",
             "udata.core.reuse",
             "udata.core.reuse.activities",
             "udata.core.reuse.api",
@@ -5993,14 +6072,12 @@
             "udata.core.reuse.search",
             "udata.core.reuse.signals",
             "udata.core.reuse.tasks",
-            "udata.core.reuse.views",
             "udata.core.site",
             "udata.core.site.api",
             "udata.core.site.factories",
             "udata.core.site.forms",
             "udata.core.site.models",
             "udata.core.site.rdf",
-            "udata.core.site.views",
             "udata.core.spatial",
             "udata.core.spatial.api",
             "udata.core.spatial.api_fields",
@@ -6033,7 +6110,7 @@
             "udata.core.topic.forms",
             "udata.core.topic.models",
             "udata.core.topic.permissions",
-            "udata.core.topic.views",
+            "udata.core.topic.search",
             "udata.core.user",
             "udata.core.user.activities",
             "udata.core.user.api",
@@ -6047,7 +6124,6 @@
             "udata.core.user.rdf",
             "udata.core.user.search",
             "udata.core.user.tasks",
-            "udata.core.user.views",
             "udata.entrypoints",
             "udata.errors",
             "udata.factories",
@@ -6060,12 +6136,9 @@
             "udata.features.notifications",
             "udata.features.notifications.actions",
             "udata.features.notifications.api",
-            "udata.features.oembed",
-            "udata.features.oembed.api",
             "udata.features.territories",
             "udata.features.territories.api",
             "udata.features.territories.models",
-            "udata.features.territories.views",
             "udata.features.transfer",
             "udata.features.transfer.actions",
             "udata.features.transfer.api",
@@ -6079,10 +6152,7 @@
             "udata.forms.widgets",
             "udata.frontend",
             "udata.frontend.csv",
-            "udata.frontend.error_handlers",
-            "udata.frontend.helpers",
             "udata.frontend.markdown",
-            "udata.frontend.views",
             "udata.harvest",
             "udata.harvest.actions",
             "udata.harvest.api",
@@ -6122,6 +6192,8 @@
             "udata.migrations.2020-10-16-migrate-ods-resources",
             "udata.migrations.2021-04-08-update-schema-with-new-structure",
             "udata.migrations.2021-05-27-fix-default-schema-name",
+            "udata.migrations.2021-07-05-remove-unused-badges",
+            "udata.migrations.2021-07-07-update-schema-for-community-resources",
             "udata.models",
             "udata.models.badges_field",
             "udata.models.datetime_fields",
@@ -6142,7 +6214,6 @@
             "udata.search.fields",
             "udata.search.query",
             "udata.search.result",
-            "udata.search.views",
             "udata.sentry",
             "udata.settings",
             "udata.sitemap",
@@ -6155,7 +6226,6 @@
             "udata.tests.api.test_datasets_api",
             "udata.tests.api.test_follow_api",
             "udata.tests.api.test_me_api",
-            "udata.tests.api.test_oembed_api",
             "udata.tests.api.test_organizations_api",
             "udata.tests.api.test_reuses_api",
             "udata.tests.api.test_swagger",
@@ -6174,7 +6244,6 @@
             "udata.tests.features.territories",
             "udata.tests.features.territories.commands",
             "udata.tests.features.territories.test_territories_api",
-            "udata.tests.features.territories.test_territories_process",
             "udata.tests.forms",
             "udata.tests.forms.test_basic_fields",
             "udata.tests.forms.test_current_user_field",
@@ -6192,17 +6261,9 @@
             "udata.tests.forms.test_uuid_field",
             "udata.tests.frontend",
             "udata.tests.frontend.test_csv",
-            "udata.tests.frontend.test_dataset_frontend",
-            "udata.tests.frontend.test_errors",
-            "udata.tests.frontend.test_frontend_filters",
             "udata.tests.frontend.test_hooks",
             "udata.tests.frontend.test_markdown",
-            "udata.tests.frontend.test_organization_frontend",
-            "udata.tests.frontend.test_reuse_frontend",
-            "udata.tests.frontend.test_search_frontend",
-            "udata.tests.frontend.test_territories",
             "udata.tests.frontend.test_topic_frontend",
-            "udata.tests.frontend.test_user_frontend",
             "udata.tests.helpers",
             "udata.tests.models",
             "udata.tests.organization",
@@ -6223,7 +6284,6 @@
             "udata.tests.site.test_site_metrics",
             "udata.tests.site.test_site_model",
             "udata.tests.site.test_site_rdf",
-            "udata.tests.site.test_site_views",
             "udata.tests.test_activity",
             "udata.tests.test_discussions",
             "udata.tests.test_i18n",
@@ -6235,7 +6295,6 @@
             "udata.tests.test_owned",
             "udata.tests.test_rdf",
             "udata.tests.test_routing",
-            "udata.tests.test_sitemap",
             "udata.tests.test_storages",
             "udata.tests.test_tags",
             "udata.tests.test_transfer",
@@ -6248,15 +6307,13 @@
             "udata.tests.workers.test_tasks_routing",
             "udata.tests.workers.test_workers_api",
             "udata.tests.workers.test_workers_helpers",
-            "udata.theme",
-            "udata.theme.default",
             "udata.tracking",
             "udata.uris",
             "udata.utils",
             "udata.worker",
             "udata.wsgi"
         ],
-        "version": "2.7.1"
+        "version": "3.0.1"
     },
     "udata-ckan": {
         "cmdline": [],
@@ -6303,6 +6360,9 @@
         "cmdline": [],
         "modules": [
             "udata_gouvfr",
+            "udata_gouvfr.frontend",
+            "udata_gouvfr.frontend.error_handlers",
+            "udata_gouvfr.frontend.helpers",
             "udata_gouvfr.harvesters",
             "udata_gouvfr.harvesters.maaf",
             "udata_gouvfr.harvesters.tests",
@@ -6310,13 +6370,46 @@
             "udata_gouvfr.settings",
             "udata_gouvfr.tasks",
             "udata_gouvfr.tests",
+            "udata_gouvfr.tests.conftest",
+            "udata_gouvfr.tests.frontend",
+            "udata_gouvfr.tests.frontend.test_frontend_filters",
+            "udata_gouvfr.tests.frontend.test_hooks",
+            "udata_gouvfr.tests.test_csv",
+            "udata_gouvfr.tests.test_discussions",
+            "udata_gouvfr.tests.test_error",
+            "udata_gouvfr.tests.test_issue",
+            "udata_gouvfr.tests.test_sitemap",
             "udata_gouvfr.tests.test_static_pages",
             "udata_gouvfr.tests.test_tasks",
             "udata_gouvfr.tests.tests",
+            "udata_gouvfr.tests.views",
+            "udata_gouvfr.tests.views.test_dataset",
+            "udata_gouvfr.tests.views.test_oembed",
+            "udata_gouvfr.tests.views.test_organization",
+            "udata_gouvfr.tests.views.test_post",
+            "udata_gouvfr.tests.views.test_reuse",
+            "udata_gouvfr.tests.views.test_site",
+            "udata_gouvfr.tests.views.test_territories",
+            "udata_gouvfr.tests.views.test_topic",
+            "udata_gouvfr.tests.views.test_user",
             "udata_gouvfr.theme",
-            "udata_gouvfr.views"
+            "udata_gouvfr.theme.gouvfr",
+            "udata_gouvfr.views",
+            "udata_gouvfr.views.base",
+            "udata_gouvfr.views.dataset",
+            "udata_gouvfr.views.follower",
+            "udata_gouvfr.views.gouvfr",
+            "udata_gouvfr.views.oembed",
+            "udata_gouvfr.views.organization",
+            "udata_gouvfr.views.post",
+            "udata_gouvfr.views.reuse",
+            "udata_gouvfr.views.schema",
+            "udata_gouvfr.views.site",
+            "udata_gouvfr.views.territories",
+            "udata_gouvfr.views.topic",
+            "udata_gouvfr.views.user"
         ],
-        "version": "2.6.2"
+        "version": "3.0.1"
     },
     "udata-harvest": {
         "cmdline": [],
@@ -6382,7 +6475,7 @@
             "udata_piwik.utils",
             "udata_piwik.views"
         ],
-        "version": "2.1.4"
+        "version": "3.0.0"
     },
     "udata-recommendations": {
         "cmdline": [],
@@ -6453,6 +6546,23 @@
             "udawsml_distrib.Generaldistribution"
         ],
         "version": "0.1"
+    },
+    "udax": {
+        "cmdline": [],
+        "modules": [
+            "udax",
+            "udax.algorithm",
+            "udax.cli",
+            "udax.dataset",
+            "udax.dataset.glove",
+            "udax.fn",
+            "udax.pagerank",
+            "udax.rouge",
+            "udax.statistics",
+            "udax.string",
+            "udax.textrank"
+        ],
+        "version": "0.0.5"
     },
     "udaypdf": {
         "cmdline": [],
@@ -6804,7 +6914,7 @@
             "udi_interface.polylogger",
             "udi_interface.udi_interface"
         ],
-        "version": "3.0.2"
+        "version": "3.0.4"
     },
     "udi-probability": {
         "cmdline": [],
@@ -6909,7 +7019,7 @@
             "udkanbun.supar",
             "udkanbun.udkanbun"
         ],
-        "version": "3.2.2"
+        "version": "3.2.3"
     },
     "udkm1dsim": {
         "cmdline": [],
@@ -6927,7 +7037,7 @@
             "udkm1Dsim.structures.layers",
             "udkm1Dsim.structures.structure"
         ],
-        "version": "1.4.2"
+        "version": "1.4.5"
     },
     "udkundoku": {
         "cmdline": [],
@@ -6943,7 +7053,7 @@
             "udkundoku.udkundoku",
             "udkundoku.verb"
         ],
-        "version": "2.1.1"
+        "version": "2.1.3"
     },
     "udl": {
         "cmdline": [],
@@ -7180,7 +7290,7 @@
             "udocker.utils.uprocess",
             "udocker.utils.uvolume"
         ],
-        "version": "1.3.0"
+        "version": "1.3.1"
     },
     "udocker-stimela": {
         "cmdline": [
@@ -7955,6 +8065,19 @@
         ],
         "version": "1.9"
     },
+    "uefi-r2": {
+        "cmdline": [],
+        "modules": [
+            "uefi_r2",
+            "uefi_r2.test_internal",
+            "uefi_r2.uefi_analyzer",
+            "uefi_r2.uefi_protocols",
+            "uefi_r2.uefi_scanner",
+            "uefi_r2.uefi_tables",
+            "uefi_r2.uefi_te"
+        ],
+        "version": "1.0.1"
+    },
     "uek-abc": {
         "cmdline": [],
         "modules": [],
@@ -8347,6 +8470,7 @@
             "ufit.data",
             "ufit.data.cascade",
             "ufit.data.dataset",
+            "ufit.data.desy",
             "ufit.data.ill",
             "ufit.data.llb",
             "ufit.data.loader",
@@ -8401,7 +8525,7 @@
             "ufit.utils",
             "ufit.version"
         ],
-        "version": "1.4.6"
+        "version": "1.4.11"
     },
     "ufji": {
         "cmdline": [],
@@ -8543,7 +8667,7 @@
         "modules": [
             "uflash"
         ],
-        "version": "1.3.0"
+        "version": "2.0.0"
     },
     "ufload": {
         "cmdline": [],
@@ -8672,7 +8796,7 @@
             "ufo2ft.preProcessor",
             "ufo2ft.util"
         ],
-        "version": "2.21.0"
+        "version": "2.22.0"
     },
     "ufo2otf": {
         "cmdline": [],
@@ -8921,6 +9045,21 @@
         ],
         "version": "20.11.1"
     },
+    "uformer-pytorch": {
+        "cmdline": [],
+        "modules": [
+            "uformer_pytorch",
+            "uformer_pytorch.uformer_pytorch"
+        ],
+        "version": "0.0.6"
+    },
+    "ufostroker": {
+        "cmdline": [],
+        "modules": [
+            "ufostroker"
+        ],
+        "version": "0.1.0"
+    },
     "ufotest": {
         "cmdline": [],
         "modules": [
@@ -9100,13 +9239,17 @@
             "ufy.HX.data_process.udata",
             "ufy.HX.diagnosis",
             "ufy.HX.diagnosis.classify",
+            "ufy.HX.heatmap",
             "ufy.core",
             "ufy.core.DL",
             "ufy.core.DataStructure",
             "ufy.core.DataStructure.BinTree",
+            "ufy.core.DataStructure.recursive_example",
             "ufy.core.ML",
             "ufy.core.ML.compaction",
             "ufy.core.ML.compaction.pca",
+            "ufy.core.metrics",
+            "ufy.core.metrics._classification",
             "ufy.core.preprocessing",
             "ufy.core.preprocessing.scaler",
             "ufy.core.utils",
@@ -9114,7 +9257,7 @@
             "ufy.datasets",
             "ufy.np"
         ],
-        "version": "0.1.5"
+        "version": "0.1.12"
     },
     "ug": {
         "cmdline": [],
@@ -9907,9 +10050,11 @@
             "uhepp.tests.test_stack",
             "uhepp.tests.test_stackitem",
             "uhepp.tests.test_uncertainty",
-            "uhepp.tests.test_yield"
+            "uhepp.tests.test_utils",
+            "uhepp.tests.test_yield",
+            "uhepp.utils"
         ],
-        "version": "0.1.6"
+        "version": "0.2.3"
     },
     "uheprng": {
         "cmdline": [],
@@ -10118,7 +10263,7 @@
             "uhi.typing",
             "uhi.typing.plottable"
         ],
-        "version": "0.2.1"
+        "version": "0.3.0"
     },
     "uhid": {
         "cmdline": [],
@@ -10208,6 +10353,32 @@
             "uhu.utils"
         ],
         "version": "1.2.0"
+    },
+    "uhugo": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.terminal_commands",
+            "tests.terminal_commands.test___init__",
+            "tests.terminal_commands.test_posix",
+            "tests.terminal_commands.test_windows",
+            "tests.test_checks",
+            "uhugo",
+            "uhugo.checks",
+            "uhugo.cmd",
+            "uhugo.download",
+            "uhugo.install",
+            "uhugo.post_install",
+            "uhugo.post_install.detect_providers",
+            "uhugo.post_install.providers",
+            "uhugo.post_install.providers.cloudflare",
+            "uhugo.post_install.providers.netlify",
+            "uhugo.post_install.providers.vercel",
+            "uhugo.terminal_commands",
+            "uhugo.terminal_commands.posix",
+            "uhugo.terminal_commands.windows"
+        ],
+        "version": "0.0.5"
     },
     "ui": {
         "cmdline": [],
@@ -10308,7 +10479,7 @@
             "uiautomation.uiautomation",
             "uiautomation.version"
         ],
-        "version": "2.0.13"
+        "version": "2.0.14"
     },
     "uiautomator": {
         "cmdline": [],
@@ -10333,8 +10504,17 @@
     },
     "uib-experiments": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.9.0"
+        "modules": [
+            "uib_experiments",
+            "uib_experiments.data",
+            "uib_experiments.data.dades",
+            "uib_experiments.decorator",
+            "uib_experiments.experiment",
+            "uib_experiments.experiment.experiment",
+            "uib_experiments.keras",
+            "uib_experiments.keras.telegramCallback"
+        ],
+        "version": "0.9.2.2"
     },
     "uib-vfeatures": {
         "cmdline": [],
@@ -10546,6 +10726,13 @@
             "uint.util"
         ],
         "version": "0.2.1"
+    },
+    "uint16-to-img": {
+        "cmdline": [],
+        "modules": [
+            "uint16_to_img.convert_uint16"
+        ],
+        "version": "1.0.2"
     },
     "uio": {
         "cmdline": [],
@@ -10844,7 +11031,7 @@
             "uitestcore.utilities.string_util",
             "uitestcore.waiter"
         ],
-        "version": "7.0.0"
+        "version": "7.0.1"
     },
     "uitester": {
         "cmdline": [],
@@ -11087,7 +11274,7 @@
             "uiutil.window.root",
             "uiutil.window.splash"
         ],
-        "version": "1.37.1"
+        "version": "1.38.0"
     },
     "uiza": {
         "cmdline": [],
@@ -11413,7 +11600,7 @@
             "uk_election_timetables.elections.senedd_cymru",
             "uk_election_timetables.elections.uk_parliament"
         ],
-        "version": "2.2.1"
+        "version": "2.2.2"
     },
     "uk-geo-utils": {
         "cmdline": [],
@@ -11885,7 +12072,7 @@
             "ukis_metrics",
             "ukis_metrics.seg_metrics"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "ukis-pysat": {
         "cmdline": [],
@@ -12213,7 +12400,7 @@
             "ukrdc_sqla.pkb",
             "ukrdc_sqla.ukrdc"
         ],
-        "version": "1.2.0"
+        "version": "1.2.1"
     },
     "ukrdict": {
         "cmdline": [],
@@ -12363,15 +12550,23 @@
             "ukw_ml_tools",
             "ukw_ml_tools.cli",
             "ukw_ml_tools.datamodules",
-            "ukw_ml_tools.datamodules.tool_detection_datamodule",
+            "ukw_ml_tools.datamodules.binary_image_classification_dm",
             "ukw_ml_tools.datasets",
-            "ukw_ml_tools.datasets.tool_detection_dataset",
+            "ukw_ml_tools.datasets.binary_image_classification_ds",
+            "ukw_ml_tools.db",
+            "ukw_ml_tools.db.conversions",
+            "ukw_ml_tools.db.crud",
+            "ukw_ml_tools.db.visualization",
             "ukw_ml_tools.models",
             "ukw_ml_tools.models.pl_tool_detection_resnet",
+            "ukw_ml_tools.prelabeling",
+            "ukw_ml_tools.prelabeling.text_matching",
+            "ukw_ml_tools.streamlit",
             "ukw_ml_tools.utils",
+            "ukw_ml_tools.utils.export",
             "ukw_ml_tools.utils.image_augmentations"
         ],
-        "version": "0.0.0"
+        "version": "0.0.2"
     },
     "ukyvub0ffj": {
         "cmdline": [],
@@ -12386,7 +12581,7 @@
     "ulab-image-contrast": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.1.dev1"
+        "version": "0.0.1a0"
     },
     "ulakbus": {
         "cmdline": [],
@@ -12640,18 +12835,6 @@
             "testmulan.package",
             "testmulan.package.module_py",
             "testmulan.package.test",
-            "\u4e34\u65f6",
-            "\u4e34\u65f6.a",
-            "\u4e34\u65f6.dict",
-            "\u4e34\u65f6.if",
-            "\u4e34\u65f6.no_module",
-            "\u4e34\u65f6.t",
-            "\u4e34\u65f6.\u4ea4\u4e92",
-            "\u4e34\u65f6.\u4ea4\u4e92.getOutput",
-            "\u4e34\u65f6.\u4ea4\u4e92.\u7b14\u8c08",
-            "\u4e34\u65f6.\u53d8\u957f\u53c2\u6570",
-            "\u4e34\u65f6.\u5e94\u53d8\u5c5e\u6027",
-            "\u4e34\u65f6.\u8d85\u7c7b\u4e2d\u6587",
             "\u6728\u5170",
             "\u6728\u5170.\u4e2d",
             "\u6728\u5170.\u4ea4\u4e92",
@@ -12674,7 +12857,7 @@
             "\u7f16\u8f91\u5668",
             "\u7f16\u8f91\u5668.\u8fd0\u884c\u6728\u5170"
         ],
-        "version": "0.0.19"
+        "version": "0.0.21"
     },
     "ulang2": {
         "cmdline": [],
@@ -12827,6 +13010,11 @@
             "uldaq.utils"
         ],
         "version": "1.2.2"
+    },
+    "uleska-automate": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.2"
     },
     "ulia": {
         "cmdline": [],
@@ -13847,17 +14035,13 @@
     "ulogger": {
         "cmdline": [],
         "modules": [
-            "tests",
-            "tests.test_stackdriver",
-            "tests.test_syslog",
-            "tests.test_ulogger",
             "ulogger",
             "ulogger.exceptions",
             "ulogger.stackdriver",
             "ulogger.syslog",
             "ulogger.ulogger"
         ],
-        "version": "2.0.0"
+        "version": "2.0.2"
     },
     "ulozto-downloader": {
         "cmdline": [],
@@ -14023,7 +14207,7 @@
             "ultimate_hosts_blacklist.deployment_launcher.generator",
             "ultimate_hosts_blacklist.deployment_launcher.orchester"
         ],
-        "version": "2.0.0b3"
+        "version": "2.0.0b7"
     },
     "ultimate-hosts-blacklist-helpers": {
         "cmdline": [],
@@ -14101,7 +14285,7 @@
             "ultimate_hosts_blacklist.test_launcher.updater.readme",
             "ultimate_hosts_blacklist.test_launcher.updater.requirements"
         ],
-        "version": "3.0.0b27"
+        "version": "3.0.0b37"
     },
     "ultimate-hosts-blacklist-the-whitelist": {
         "cmdline": [],
@@ -14437,6 +14621,7 @@
             "ultracart.api.coupon_api",
             "ultracart.api.customer_api",
             "ultracart.api.fulfillment_api",
+            "ultracart.api.integration_log_api",
             "ultracart.api.item_api",
             "ultracart.api.oauth_api",
             "ultracart.api.order_api",
@@ -14755,6 +14940,13 @@
             "ultracart.models.group_user_membership",
             "ultracart.models.groups_response",
             "ultracart.models.http_header",
+            "ultracart.models.integration_log",
+            "ultracart.models.integration_log_file",
+            "ultracart.models.integration_log_log",
+            "ultracart.models.integration_log_query_filter_values",
+            "ultracart.models.integration_log_query_request",
+            "ultracart.models.integration_log_query_response",
+            "ultracart.models.integration_log_response",
             "ultracart.models.item",
             "ultracart.models.item_accounting",
             "ultracart.models.item_amember",
@@ -14935,6 +15127,7 @@
             "ultracart.models.screen_recording_filter_values_page_param",
             "ultracart.models.screen_recording_filter_values_page_view",
             "ultracart.models.screen_recording_heatmap",
+            "ultracart.models.screen_recording_heatmap_index_request",
             "ultracart.models.screen_recording_heatmap_index_response",
             "ultracart.models.screen_recording_heatmap_request",
             "ultracart.models.screen_recording_heatmap_reset",
@@ -15022,7 +15215,7 @@
             "ultracart.models.weight",
             "ultracart.rest"
         ],
-        "version": "3.1.45"
+        "version": "3.2.12"
     },
     "ultrachronic": {
         "cmdline": [],
@@ -15156,7 +15349,7 @@
             "ultranest.utils",
             "ultranest.viz"
         ],
-        "version": "3.2.1"
+        "version": "3.3.0"
     },
     "ultraopt": {
         "cmdline": [],
@@ -15725,15 +15918,10 @@
     "umarkdown": {
         "cmdline": [],
         "modules": [
-            "tests",
-            "tests.benchmarks",
-            "tests.conftest",
-            "tests.test_cli",
-            "tests.test_umarkdown",
             "umarkdown",
             "umarkdown.cli"
         ],
-        "version": "1.2.0"
+        "version": "1.2.1"
     },
     "umars-maths-functions": {
         "cmdline": [],
@@ -15908,29 +16096,30 @@
         "modules": [
             "umbral",
             "umbral.__about__",
-            "umbral.cfrags",
-            "umbral.config",
+            "umbral.capsule",
+            "umbral.capsule_frag",
             "umbral.curve",
-            "umbral.curvebn",
+            "umbral.curve_point",
+            "umbral.curve_scalar",
             "umbral.dem",
+            "umbral.errors",
+            "umbral.hashing",
+            "umbral.key_frag",
             "umbral.keys",
-            "umbral.kfrags",
             "umbral.openssl",
             "umbral.params",
-            "umbral.point",
             "umbral.pre",
-            "umbral.random_oracles",
-            "umbral.signing",
-            "umbral.utils"
+            "umbral.serializable",
+            "umbral.signing"
         ],
-        "version": "0.1.3a2"
+        "version": "0.2.0"
     },
     "umbral-pre": {
         "cmdline": [],
         "modules": [
             "umbral_pre"
         ],
-        "version": "0.0.1"
+        "version": "0.2.0"
     },
     "umbrella": {
         "cmdline": [],
@@ -17146,6 +17335,20 @@
         ],
         "version": "0.49"
     },
+    "unbalancedgw": {
+        "cmdline": [],
+        "modules": [
+            "unbalancedgw",
+            "unbalancedgw._batch_utils",
+            "unbalancedgw._vanilla_utils",
+            "unbalancedgw.batch_stable_ugw_solver",
+            "unbalancedgw.tests.test_batch_solvers",
+            "unbalancedgw.tests.test_vanilla_solvers",
+            "unbalancedgw.utils",
+            "unbalancedgw.vanilla_ugw_solver"
+        ],
+        "version": "0.2.0"
+    },
     "unbelipy": {
         "cmdline": [],
         "modules": [
@@ -17169,7 +17372,7 @@
             "unbounceapi.sub_accounts",
             "unbounceapi.users"
         ],
-        "version": "1.3.2"
+        "version": "1.3.4"
     },
     "unbound-console": {
         "cmdline": [],
@@ -17265,6 +17468,16 @@
             "unbuiltins.constants",
             "unbuiltins.not_collections",
             "unbuiltins.not_itertools"
+        ],
+        "version": "0.2.2"
+    },
+    "unc2url": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.test_unc2url",
+            "unc2url",
+            "unc2url.unc2url"
         ],
         "version": "0.1.0"
     },
@@ -17406,7 +17619,7 @@
             "uncertainties.unumpy.test_unumpy",
             "uncertainties.unumpy.ulinalg"
         ],
-        "version": "3.1.5"
+        "version": "3.1.6"
     },
     "uncertainty": {
         "cmdline": [],
@@ -17568,7 +17781,7 @@
             "uncertainty_wizard.quantifiers.regression_quantifiers",
             "uncertainty_wizard.quantifiers.variation_ratio"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "uncertainty-wrapper": {
         "cmdline": [],
@@ -18971,7 +19184,7 @@
             "understat.understat",
             "understat.utils"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "understatapi": {
         "cmdline": [],
@@ -19019,9 +19232,67 @@
     "understory": {
         "cmdline": [],
         "modules": [
-            "understory.loveliness"
+            "understory.indieweb",
+            "understory.indieweb.indieauth",
+            "understory.indieweb.indieauth.client",
+            "understory.indieweb.indieauth.client.templates",
+            "understory.indieweb.indieauth.server",
+            "understory.indieweb.indieauth.server.templates",
+            "understory.indieweb.indieauth.templates",
+            "understory.indieweb.micropub",
+            "understory.indieweb.micropub.templates",
+            "understory.indieweb.microsub",
+            "understory.indieweb.microsub.templates",
+            "understory.indieweb.templates",
+            "understory.indieweb.util",
+            "understory.indieweb.webmention",
+            "understory.indieweb.websub",
+            "understory.kv",
+            "understory.loveliness",
+            "understory.mf",
+            "understory.mkdn",
+            "understory.mkdn.hyphenator",
+            "understory.mkdn.titlecase",
+            "understory.mm",
+            "understory.mm.parse",
+            "understory.mm.templating",
+            "understory.pkg",
+            "understory.pkg.discover",
+            "understory.pkg.install",
+            "understory.pkg.licensing",
+            "understory.pkg.listing",
+            "understory.pkg.system",
+            "understory.solarized",
+            "understory.sql",
+            "understory.src",
+            "understory.src.git",
+            "understory.term",
+            "understory.uri",
+            "understory.uri.publicsuffix",
+            "understory.web",
+            "understory.web.agent",
+            "understory.web.braid",
+            "understory.web.framework",
+            "understory.web.framework.letsencrypt",
+            "understory.web.framework.newmath",
+            "understory.web.framework.passphrases",
+            "understory.web.framework.templates",
+            "understory.web.framework.util",
+            "understory.web.headers",
+            "understory.web.headers.entity",
+            "understory.web.headers.general",
+            "understory.web.headers.request",
+            "understory.web.headers.response",
+            "understory.web.headers.util",
+            "understory.web.response",
+            "understory.web.response.clienterror",
+            "understory.web.response.informational",
+            "understory.web.response.redirection",
+            "understory.web.response.servererror",
+            "understory.web.response.success",
+            "understory.web.response.util"
         ],
-        "version": "0.0.31"
+        "version": "0.0.42"
     },
     "understory-code": {
         "cmdline": [],
@@ -19087,17 +19358,6 @@
             "understory.web.headers.request",
             "understory.web.headers.response",
             "understory.web.headers.util",
-            "understory.web.indie",
-            "understory.web.indie.indieauth",
-            "understory.web.indie.indieauth.templates",
-            "understory.web.indie.micropub",
-            "understory.web.indie.micropub.templates",
-            "understory.web.indie.micropub.util",
-            "understory.web.indie.microsub",
-            "understory.web.indie.microsub.templates",
-            "understory.web.indie.templates",
-            "understory.web.indie.webmention",
-            "understory.web.indie.websub",
             "understory.web.response",
             "understory.web.response.clienterror",
             "understory.web.response.informational",
@@ -19106,7 +19366,7 @@
             "understory.web.response.success",
             "understory.web.response.util"
         ],
-        "version": "0.0.16"
+        "version": "0.0.22"
     },
     "understreck": {
         "cmdline": [],
@@ -19233,7 +19493,7 @@
             "undetected_chromedriver.reactor",
             "undetected_chromedriver.v2"
         ],
-        "version": "3.0.1"
+        "version": "3.0.2"
     },
     "undi": {
         "cmdline": [],
@@ -19258,7 +19518,7 @@
             "undictify._unpack",
             "undictify.tests"
         ],
-        "version": "0.11.1"
+        "version": "0.11.2"
     },
     "undmainchain": {
         "cmdline": [],
@@ -19306,6 +19566,11 @@
         ],
         "version": "0.1.0"
     },
+    "undocinclude": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.1"
+    },
     "undocker": {
         "cmdline": [],
         "modules": [
@@ -19326,6 +19591,13 @@
             "undoredo"
         ],
         "version": "0.1.4"
+    },
+    "undr": {
+        "cmdline": [],
+        "modules": [
+            "undr"
+        ],
+        "version": "0.0.6"
     },
     "undrp": {
         "cmdline": [],
@@ -19374,7 +19646,7 @@
             "unearthed.core.models.submission",
             "unearthed.logs"
         ],
-        "version": "0.1.6"
+        "version": "0.1.7"
     },
     "unebus": {
         "cmdline": [],
@@ -19452,7 +19724,7 @@
     "unetseg": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.2"
+        "version": "0.1.3"
     },
     "unextexams": {
         "cmdline": [],
@@ -19640,7 +19912,7 @@
             "data_sdk.models",
             "data_sdk.utils"
         ],
-        "version": "0.4.1"
+        "version": "0.4.2"
     },
     "unfolded-map-sdk": {
         "cmdline": [],
@@ -19862,23 +20134,6 @@
         ],
         "version": "1.0.9"
     },
-    "unianalysis": {
-        "cmdline": [],
-        "modules": [
-            "optimus",
-            "optimus.config",
-            "optimus.example",
-            "optimus.example.example",
-            "optimus.exception",
-            "optimus.optimus",
-            "optimus.schemas",
-            "optimus.utils",
-            "optimus.version",
-            "test",
-            "test.test"
-        ],
-        "version": "0.0.3"
-    },
     "uniapi": {
         "cmdline": [],
         "modules": [
@@ -19912,7 +20167,7 @@
             "uniauth_saml2_idp.utils",
             "uniauth_saml2_idp.views"
         ],
-        "version": "2.0.0b0"
+        "version": "2.0.0.post1"
     },
     "unibert": {
         "cmdline": [],
@@ -20084,7 +20339,7 @@
             "unicarbkb_glygen_api.app",
             "unicarbkb_glygen_api.mymath"
         ],
-        "version": "0.4"
+        "version": "0.5"
     },
     "unicarbkb-glygen-api-test": {
         "cmdline": [],
@@ -20697,7 +20952,7 @@
         "modules": [
             "cms"
         ],
-        "version": "0.20.0"
+        "version": "0.22.4"
     },
     "unicms-editorial-board": {
         "cmdline": [],
@@ -20707,7 +20962,7 @@
             "unicms_editorial_board.urls",
             "unicms_editorial_board.views"
         ],
-        "version": "0.17.0"
+        "version": "0.19.2"
     },
     "unicms-template-italia": {
         "cmdline": [],
@@ -20715,7 +20970,7 @@
             "unicms_template_italia",
             "unicms_template_italia.apps"
         ],
-        "version": "0.4.18"
+        "version": "0.6.0"
     },
     "unicms-template-unical": {
         "cmdline": [],
@@ -20723,7 +20978,7 @@
             "unicms_template_unical",
             "unicms_template_unical.apps"
         ],
-        "version": "0.6.2"
+        "version": "0.9.1"
     },
     "unico": {
         "cmdline": [],
@@ -20957,6 +21212,11 @@
         "modules": [],
         "version": "0.1.0"
     },
+    "unicodetools": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "unicodeutil": {
         "cmdline": [],
         "modules": [
@@ -21018,7 +21278,7 @@
             "unicon.trial.threading_issue_unicon",
             "unicon.trial.trackables"
         ],
-        "version": "21.5.1"
+        "version": "21.6"
     },
     "unicon-plugins": {
         "cmdline": [],
@@ -21426,7 +21686,7 @@
             "plugins.windows.settings",
             "plugins.windows.statemachine"
         ],
-        "version": "21.5"
+        "version": "21.6"
     },
     "uniconfig": {
         "cmdline": [],
@@ -21737,7 +21997,7 @@
             "unicorn_binance_websocket_api.unicorn_binance_websocket_api_restserver",
             "unicorn_binance_websocket_api.unicorn_binance_websocket_api_socket"
         ],
-        "version": "1.30.0"
+        "version": "1.31.0"
     },
     "unicorn-ca-herd": {
         "cmdline": [],
@@ -22211,7 +22471,7 @@
             "unidic_combo.utils.graph",
             "unidic_combo.utils.metrics"
         ],
-        "version": "1.3.1"
+        "version": "1.3.2"
     },
     "unidic-lite": {
         "cmdline": [],
@@ -22233,7 +22493,7 @@
             "unidic2ud.spacy.unidic2spacy",
             "unidic2ud.unidic2ud"
         ],
-        "version": "2.8.6"
+        "version": "2.8.7"
     },
     "unidiff": {
         "cmdline": [
@@ -22703,7 +22963,7 @@
             "unifmu.generate",
             "unifmu.gui"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "uniform": {
         "cmdline": [],
@@ -22739,7 +22999,7 @@
             "unifr_api_epuck.host_communication",
             "unifr_api_epuck.wrapper"
         ],
-        "version": "0.0.99"
+        "version": "0.0.100"
     },
     "unifrac": {
         "cmdline": [],
@@ -22760,6 +23020,28 @@
         ],
         "version": "0.5"
     },
+    "unify-cli": {
+        "cmdline": [],
+        "modules": [
+            "source",
+            "source.ah",
+            "tests",
+            "tests.properties",
+            "tests.test_cluster_command",
+            "tests.test_help",
+            "tests.test_org_command"
+        ],
+        "version": "1.3.1"
+    },
+    "unify-connector-framework": {
+        "cmdline": [],
+        "modules": [
+            "unifyconnectorframework",
+            "unifyconnectorframework.organization_client",
+            "unifyconnectorframework.utils"
+        ],
+        "version": "0.1.3"
+    },
     "unify-script": {
         "cmdline": [],
         "modules": [
@@ -22776,6 +23058,31 @@
             "unify_package.utils"
         ],
         "version": "0.1.4.8"
+    },
+    "unify-sdk": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.test_org_admin",
+            "tests.test_sources",
+            "tests.test_templates",
+            "unify",
+            "unify.WaitingLibrary",
+            "unify.apimanager",
+            "unify.apirequestsmng",
+            "unify.apiutils",
+            "unify.assetaccess",
+            "unify.clusters",
+            "unify.generalutils",
+            "unify.helpers",
+            "unify.helpers.staticsql",
+            "unify.orgadmin",
+            "unify.pipelines",
+            "unify.properties",
+            "unify.sources",
+            "unify.templates"
+        ],
+        "version": "1.0.9"
     },
     "unigo": {
         "cmdline": [],
@@ -22810,7 +23117,7 @@
             "unigui.userset",
             "unigui.utils"
         ],
-        "version": "0.6.3"
+        "version": "0.6.4"
     },
     "unihan-db": {
         "cmdline": [],
@@ -22823,7 +23130,7 @@
             "unihan_db.tables",
             "unihan_db.util"
         ],
-        "version": "0.1.0"
+        "version": "0.3.0"
     },
     "unihan-etl": {
         "cmdline": [],
@@ -22837,7 +23144,7 @@
             "unihan_etl.test",
             "unihan_etl.util"
         ],
-        "version": "0.11.0"
+        "version": "0.13.0"
     },
     "unihan-tabular": {
         "cmdline": [],
@@ -22924,6 +23231,7 @@
             "src.authentication",
             "src.authentication.authentication",
             "src.authentication.types",
+            "src.authentication.web",
             "src.cli",
             "src.cli.app",
             "src.cli.auth",
@@ -22950,6 +23258,7 @@
             "src.local.providers",
             "src.local.providers.abstract_provider",
             "src.local.providers.factory",
+            "src.local.providers.helper",
             "src.local.providers.k3d",
             "src.local.providers.k3d.k3d",
             "src.local.providers.k3d.storage",
@@ -22970,11 +23279,14 @@
             "src.unikubefile.unikube_file",
             "src.unikubefile.unikube_file_1_0",
             "tests",
-            "tests.test_cli",
+            "tests.test_cli_app",
             "tests.test_cli_auth",
+            "tests.test_cli_helper",
+            "tests.test_cli_orga",
+            "tests.test_cli_system",
             "unikube"
         ],
-        "version": "0.8.1.dev10"
+        "version": "0.9.0.dev3"
     },
     "unilever": {
         "cmdline": [],
@@ -23067,6 +23379,7 @@
             "unimatrix.lib.datastructures.tests",
             "unimatrix.lib.datastructures.tests.test_dto",
             "unimatrix.lib.environ",
+            "unimatrix.lib.etc",
             "unimatrix.lib.http",
             "unimatrix.lib.meta",
             "unimatrix.lib.rdbms",
@@ -23079,6 +23392,8 @@
             "unimatrix.lib.tests.basetestselection",
             "unimatrix.lib.tests.test_test_stage_selection",
             "unimatrix.lib.tests.test_unit_asynctestcase",
+            "unimatrix.lib.tests.test_unit_capabilities",
+            "unimatrix.lib.tests.test_unit_etc",
             "unimatrix.lib.tests.test_unit_http_parse_qs",
             "unimatrix.lib.tests.test_unit_meta_run_sync",
             "unimatrix.lib.tests.test_unit_test_scope_selection",
@@ -23096,7 +23411,7 @@
             "unimatrix.tests.settings",
             "unimatrix.tests.test_unit_settings"
         ],
-        "version": "0.8.1"
+        "version": "0.9.1"
     },
     "unimatrix-cli": {
         "cmdline": [],
@@ -23129,7 +23444,22 @@
             "unimatrix.ext.blob.tests.test_system_noop",
             "unimatrix.ext.blob.tests.test_unit_noop"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
+    },
+    "unimatrix-ext-cache": {
+        "cmdline": [],
+        "modules": [
+            "docs.source.conf",
+            "unimatrix.ext.cache",
+            "unimatrix.ext.cache.base",
+            "unimatrix.ext.cache.manager",
+            "unimatrix.ext.cache.redis",
+            "unimatrix.ext.cache.tests.test_integration_noop",
+            "unimatrix.ext.cache.tests.test_system_noop",
+            "unimatrix.ext.cache.tests.test_system_redis",
+            "unimatrix.ext.cache.tests.test_unit_noop"
+        ],
+        "version": "0.0.2"
     },
     "unimatrix-ext-crypto": {
         "cmdline": [],
@@ -23137,6 +23467,12 @@
             "docs.source.conf",
             "examples.create_jws",
             "examples.default_secret_key",
+            "examples.simple-azure",
+            "examples.simple-azure-sign",
+            "examples.simple-disk",
+            "examples.simple-google-sign",
+            "examples.trust-jwks",
+            "examples.trust-oauth",
             "unimatrix.ext.crypto",
             "unimatrix.ext.crypto.__boot__",
             "unimatrix.ext.crypto.abstractkeystore",
@@ -23149,10 +23485,9 @@
             "unimatrix.ext.crypto.algorithms.rsa",
             "unimatrix.ext.crypto.algorithms.signing",
             "unimatrix.ext.crypto.apps",
-            "unimatrix.ext.crypto.azure",
-            "unimatrix.ext.crypto.azure.azureclient",
-            "unimatrix.ext.crypto.azure.loader",
-            "unimatrix.ext.crypto.azure.privatekey",
+            "unimatrix.ext.crypto.backends",
+            "unimatrix.ext.crypto.backends.azure",
+            "unimatrix.ext.crypto.backends.disk",
             "unimatrix.ext.crypto.backends.google",
             "unimatrix.ext.crypto.ciphertext",
             "unimatrix.ext.crypto.conf",
@@ -23161,21 +23496,23 @@
             "unimatrix.ext.crypto.defaultkeystore",
             "unimatrix.ext.crypto.depends",
             "unimatrix.ext.crypto.ec",
+            "unimatrix.ext.crypto.ec.private",
             "unimatrix.ext.crypto.ec.public",
+            "unimatrix.ext.crypto.ec.tests",
+            "unimatrix.ext.crypto.ec.tests.test_unit_privatekey",
+            "unimatrix.ext.crypto.ec.tests.test_unit_publickey",
+            "unimatrix.ext.crypto.ec.verifier",
             "unimatrix.ext.crypto.encrypter",
-            "unimatrix.ext.crypto.google",
-            "unimatrix.ext.crypto.google.client",
-            "unimatrix.ext.crypto.google.const",
-            "unimatrix.ext.crypto.google.googlemanagedkey",
-            "unimatrix.ext.crypto.google.kmsloader",
-            "unimatrix.ext.crypto.google.secretmanagerloader",
-            "unimatrix.ext.crypto.google.tests",
-            "unimatrix.ext.crypto.google.tests.test_integration_google",
-            "unimatrix.ext.crypto.google.tests.test_system_google",
+            "unimatrix.ext.crypto.exceptions",
             "unimatrix.ext.crypto.ioc",
             "unimatrix.ext.crypto.keychain",
             "unimatrix.ext.crypto.keyloader",
+            "unimatrix.ext.crypto.loaders",
+            "unimatrix.ext.crypto.loaders.base",
+            "unimatrix.ext.crypto.loaders.jwks",
+            "unimatrix.ext.crypto.loaders.wellknownoauth",
             "unimatrix.ext.crypto.oid",
+            "unimatrix.ext.crypto.parsing",
             "unimatrix.ext.crypto.pkcs",
             "unimatrix.ext.crypto.pkcs.base",
             "unimatrix.ext.crypto.pkcs.fileloader",
@@ -23183,9 +23520,8 @@
             "unimatrix.ext.crypto.pkcs.pkcspublic",
             "unimatrix.ext.crypto.pkcs.rsaprivatekey",
             "unimatrix.ext.crypto.pkcs.tests",
-            "unimatrix.ext.crypto.pkcs.tests.test_unit_fileloader",
-            "unimatrix.ext.crypto.pkcs.tests.test_unit_public_bytes",
             "unimatrix.ext.crypto.plaintext",
+            "unimatrix.ext.crypto.policy",
             "unimatrix.ext.crypto.private",
             "unimatrix.ext.crypto.public",
             "unimatrix.ext.crypto.secret",
@@ -23201,11 +23537,12 @@
             "unimatrix.ext.crypto.tests.test_unit_boot",
             "unimatrix.ext.crypto.tests.test_unit_hmac",
             "unimatrix.ext.crypto.tests.test_unit_rsa",
+            "unimatrix.ext.crypto.trustedpublickey",
             "unimatrix.ext.crypto.truststore",
             "unimatrix.ext.crypto.urls",
             "unimatrix.ext.crypto.verifier"
         ],
-        "version": "0.6.0"
+        "version": "0.11.3"
     },
     "unimatrix-ext-django": {
         "cmdline": [],
@@ -23242,7 +23579,7 @@
             "unimatrix.ext.django.urls.runtime",
             "unimatrix.ext.django.wsgi"
         ],
-        "version": "0.1.41"
+        "version": "0.2.3"
     },
     "unimatrix-ext-foo": {
         "cmdline": [],
@@ -23298,7 +23635,7 @@
             "unimatrix.ext.jose.tests.test_unit_setup_ioc",
             "unimatrix.ext.jose.utils"
         ],
-        "version": "0.5.0"
+        "version": "1.0.0"
     },
     "unimatrix-ext-model": {
         "cmdline": [],
@@ -23429,7 +23766,7 @@
             "unimatrix.ext.orm.tests.test_unit_sessions",
             "unimatrix.ext.orm.tests.test_unit_testcase"
         ],
-        "version": "0.4.11"
+        "version": "0.4.13"
     },
     "unimatrix-ext-secrets": {
         "cmdline": [],
@@ -23576,13 +23913,14 @@
             "unimport.color",
             "unimport.config",
             "unimport.constants",
+            "unimport.emoji",
             "unimport.main",
             "unimport.refactor",
             "unimport.relate",
             "unimport.statement",
             "unimport.utils"
         ],
-        "version": "0.8.3"
+        "version": "0.8.4"
     },
     "unimr-compositeindex": {
         "cmdline": [],
@@ -27451,7 +27789,7 @@
             "uniparser.utils",
             "uniparser.webui"
         ],
-        "version": "1.8.5"
+        "version": "1.8.6"
     },
     "uniparser-eastern-armenian": {
         "cmdline": [],
@@ -27468,7 +27806,7 @@
             "uniparser_erzya.data_nodiacritics",
             "uniparser_erzya.data_strict"
         ],
-        "version": "1.1.1"
+        "version": "1.1.2"
     },
     "uniparser-komi-zyrian": {
         "cmdline": [],
@@ -27477,7 +27815,7 @@
             "uniparser_komi_zyrian.data_nodiacritics",
             "uniparser_komi_zyrian.data_strict"
         ],
-        "version": "1.1.4"
+        "version": "1.1.5"
     },
     "uniparser-meadow-mari": {
         "cmdline": [],
@@ -27528,7 +27866,7 @@
             "uniparser_udmurt.data_nodiacritics",
             "uniparser_udmurt.data_strict"
         ],
-        "version": "2.1.1"
+        "version": "2.1.4"
     },
     "unipass": {
         "cmdline": [],
@@ -27583,6 +27921,72 @@
             "uniphy.decorators"
         ],
         "version": "0.0.3"
+    },
+    "unipipeline": {
+        "cmdline": [],
+        "modules": [
+            "example",
+            "example.brokers",
+            "example.brokers.kafka_broker",
+            "example.brokers.rmq_broker",
+            "example.brokers.uni_log_broker",
+            "example.example_consumer",
+            "example.example_cron",
+            "example.messages",
+            "example.messages.ender_message",
+            "example.messages.inetermediate_message",
+            "example.messages.input_message",
+            "example.waitings",
+            "example.waitings.common_db_wating",
+            "example.workers",
+            "example.workers.ender_frist_worker",
+            "example.workers.ender_second_worker",
+            "example.workers.input_worker",
+            "example.workers.intermediate_first_worker",
+            "example.workers.my_super_cron_worker",
+            "unipipeline",
+            "unipipeline.args",
+            "unipipeline.brokers",
+            "unipipeline.brokers.uni_amqp_broker",
+            "unipipeline.brokers.uni_kafka_broker",
+            "unipipeline.brokers.uni_log_broker",
+            "unipipeline.brokers.uni_memory_broker",
+            "unipipeline.errors",
+            "unipipeline.main",
+            "unipipeline.messages",
+            "unipipeline.messages.uni_cron_message",
+            "unipipeline.modules",
+            "unipipeline.modules.uni",
+            "unipipeline.modules.uni_broker",
+            "unipipeline.modules.uni_broker_definition",
+            "unipipeline.modules.uni_config",
+            "unipipeline.modules.uni_cron_job",
+            "unipipeline.modules.uni_cron_task_definition",
+            "unipipeline.modules.uni_definition",
+            "unipipeline.modules.uni_echo",
+            "unipipeline.modules.uni_external_definition",
+            "unipipeline.modules.uni_mediator",
+            "unipipeline.modules.uni_message",
+            "unipipeline.modules.uni_message_codec",
+            "unipipeline.modules.uni_message_definition",
+            "unipipeline.modules.uni_message_meta",
+            "unipipeline.modules.uni_module_definition",
+            "unipipeline.modules.uni_service_definition",
+            "unipipeline.modules.uni_waiting_definition",
+            "unipipeline.modules.uni_wating",
+            "unipipeline.modules.uni_worker",
+            "unipipeline.modules.uni_worker_definition",
+            "unipipeline.run",
+            "unipipeline.utils",
+            "unipipeline.utils.camel_case",
+            "unipipeline.utils.color",
+            "unipipeline.utils.connection_pool",
+            "unipipeline.utils.parse_definition",
+            "unipipeline.utils.serializer_registry",
+            "unipipeline.utils.sig",
+            "unipipeline.utils.template"
+        ],
+        "version": "1.3.0"
     },
     "unipixel": {
         "cmdline": [],
@@ -28983,7 +29387,7 @@
             "uniswap.uniswap",
             "uniswap.util"
         ],
-        "version": "0.5.1"
+        "version": "0.5.2"
     },
     "unisync": {
         "cmdline": [],
@@ -29959,7 +30363,7 @@
             "UnitTesterSG.nestedObjectsFunctions",
             "UnitTesterSG.pytestDriver"
         ],
-        "version": "5.4.1"
+        "version": "5.4.2"
     },
     "unittestextras": {
         "cmdline": [],
@@ -30000,7 +30404,7 @@
             "unittestreport.core.testRunner",
             "unittestreport.templates"
         ],
-        "version": "1.1.14"
+        "version": "1.2.2"
     },
     "unittestzero": {
         "cmdline": [],
@@ -30365,7 +30769,7 @@
             "UnityPy.streams.EndianBinaryReader",
             "UnityPy.streams.EndianBinaryWriter"
         ],
-        "version": "1.7.6"
+        "version": "1.7.9"
     },
     "unityrde": {
         "cmdline": [],
@@ -30537,7 +30941,7 @@
             "universal_name_format.utils",
             "universal_name_format.utils.converter"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "universal-notifications": {
         "cmdline": [],
@@ -30592,6 +30996,20 @@
         ],
         "version": "1.4.0"
     },
+    "universal-object-pool": {
+        "cmdline": [],
+        "modules": [
+            "universal_object_pool",
+            "universal_object_pool.contrib",
+            "universal_object_pool.contrib.http_pool",
+            "universal_object_pool.contrib.mock_spend_time_object_use_object_pool",
+            "universal_object_pool.contrib.paramiko_pool",
+            "universal_object_pool.contrib.pika_pool",
+            "universal_object_pool.contrib.pymysql_pool",
+            "universal_object_pool.contrib.webdriver_pool"
+        ],
+        "version": "0.7"
+    },
     "universal-package-manager": {
         "cmdline": [],
         "modules": [
@@ -30627,9 +31045,25 @@
         "cmdline": [],
         "modules": [
             "upt",
+            "upt._baseparser",
+            "upt._initparser",
             "upt.atcoder",
+            "upt.baseparser",
             "upt.codeforces",
+            "upt.configmanager",
+            "upt.constants",
+            "upt.driver",
+            "upt.initparser",
+            "upt.main",
             "upt.quera",
+            "upt.sampler",
+            "upt.serviceparser",
+            "upt.services",
+            "upt.services.atcoder",
+            "upt.services.codeforces",
+            "upt.services.quera",
+            "upt.services.usaco",
+            "upt.session",
             "upt.usaco",
             "upt.util",
             "upt.util.baseparser",
@@ -30638,7 +31072,7 @@
             "upt.util.sampler",
             "upt.util.session"
         ],
-        "version": "3.2.0"
+        "version": "4.0.1"
     },
     "universal-pathlib": {
         "cmdline": [],
@@ -31079,7 +31513,7 @@
             "universum.analyzers",
             "universum.analyzers.mypy",
             "universum.analyzers.pylint",
-            "universum.analyzers.svace",
+            "universum.analyzers.scan_build_report",
             "universum.analyzers.uncrustify",
             "universum.analyzers.utils",
             "universum.api",
@@ -31125,7 +31559,7 @@
             "universum.poll",
             "universum.submit"
         ],
-        "version": "0.19.7"
+        "version": "0.19.8"
     },
     "universvideo": {
         "cmdline": [],
@@ -31457,6 +31891,13 @@
         ],
         "version": "0.2.1"
     },
+    "unleaky": {
+        "cmdline": [],
+        "modules": [
+            "unleaky"
+        ],
+        "version": "0.1.1"
+    },
     "unleash": {
         "cmdline": [],
         "modules": [
@@ -31540,7 +31981,7 @@
             "UnleashClient.variants",
             "UnleashClient.variants.Variants"
         ],
-        "version": "4.4.0"
+        "version": "4.4.1"
     },
     "unleashed": {
         "cmdline": [],
@@ -31655,7 +32096,7 @@
             "unmanic.metadata",
             "unmanic.service"
         ],
-        "version": "0.0.8"
+        "version": "0.0.9"
     },
     "unmarkd": {
         "cmdline": [],
@@ -31663,7 +32104,7 @@
             "unmarkd",
             "unmarkd.unmarkers"
         ],
-        "version": "0.1.5"
+        "version": "0.1.6"
     },
     "unmass": {
         "cmdline": [
@@ -32222,7 +32663,7 @@
             "unofficial_beam_redis.io",
             "unofficial_beam_redis.io.redisio"
         ],
-        "version": "0.6"
+        "version": "0.7"
     },
     "unofficial-googleplay-api": {
         "cmdline": [],
@@ -32668,6 +33109,11 @@
         "modules": [],
         "version": "0.1"
     },
+    "unoserver": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0b3"
+    },
     "unotools": {
         "cmdline": [],
         "modules": [
@@ -32888,6 +33334,18 @@
         ],
         "version": "0.1.9"
     },
+    "unpoly-django": {
+        "cmdline": [],
+        "modules": [
+            "unpoly",
+            "unpoly.forms",
+            "unpoly.middleware",
+            "unpoly.typehints",
+            "unpoly.unpoly",
+            "unpoly.views"
+        ],
+        "version": "0.1.0"
+    },
     "unpushed": {
         "cmdline": [],
         "modules": [
@@ -32929,9 +33387,7 @@
         "version": "0.8.1"
     },
     "unpythonic": {
-        "cmdline": [
-            "macropy3"
-        ],
+        "cmdline": [],
         "modules": [
             "unpythonic",
             "unpythonic.amb",
@@ -32943,10 +33399,12 @@
             "unpythonic.dynassign",
             "unpythonic.ec",
             "unpythonic.env",
+            "unpythonic.excutil",
             "unpythonic.fix",
             "unpythonic.fold",
             "unpythonic.fploop",
             "unpythonic.fun",
+            "unpythonic.funutil",
             "unpythonic.fup",
             "unpythonic.gmemo",
             "unpythonic.gtco",
@@ -32957,6 +33415,7 @@
             "unpythonic.llist",
             "unpythonic.mathseq",
             "unpythonic.misc",
+            "unpythonic.numutil",
             "unpythonic.regutil",
             "unpythonic.seq",
             "unpythonic.singleton",
@@ -32964,8 +33423,8 @@
             "unpythonic.symbol",
             "unpythonic.syntax",
             "unpythonic.syntax.astcompat",
+            "unpythonic.syntax.autocurry",
             "unpythonic.syntax.autoref",
-            "unpythonic.syntax.curry",
             "unpythonic.syntax.dbg",
             "unpythonic.syntax.forall",
             "unpythonic.syntax.ifexprs",
@@ -32985,7 +33444,7 @@
             "unpythonic.tco",
             "unpythonic.typecheck"
         ],
-        "version": "0.14.3"
+        "version": "0.15.0"
     },
     "unpywall": {
         "cmdline": [],
@@ -33197,7 +33656,7 @@
             "unrest.unrest",
             "unrest.util"
         ],
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "unrest-schema": {
         "cmdline": [],
@@ -34695,7 +35154,7 @@
     "uol-grades-calculator": {
         "cmdline": [],
         "modules": [],
-        "version": "0.6.0"
+        "version": "0.7.0"
     },
     "uonet-request-signer": {
         "cmdline": [],
@@ -35819,7 +36278,7 @@
             "up42.viztools",
             "up42.workflow"
         ],
-        "version": "0.15.2"
+        "version": "0.16.0"
     },
     "upaas-admin": {
         "cmdline": [],
@@ -35973,7 +36432,21 @@
             "upackage",
             "upackage.upackage"
         ],
-        "version": "0.3.1"
+        "version": "0.3.4"
+    },
+    "upagekite": {
+        "cmdline": [],
+        "modules": [
+            "upagekite",
+            "upagekite.captive",
+            "upagekite.httpd",
+            "upagekite.proto",
+            "upagekite.web",
+            "upagekite.web_mpfd",
+            "upagekite.websocket",
+            "upagekite.xml_gen"
+        ],
+        "version": "0.2.2"
     },
     "upandas": {
         "cmdline": [],
@@ -36063,7 +36536,7 @@
     "upathlib": {
         "cmdline": [],
         "modules": [],
-        "version": "0.2.7"
+        "version": "0.4.5"
     },
     "upb": {
         "cmdline": [],
@@ -36391,6 +36864,15 @@
         ],
         "version": "6.0"
     },
+    "update-gene-symbols-hgnc": {
+        "cmdline": [],
+        "modules": [
+            "update_gene_symbols_hgnc",
+            "update_gene_symbols_hgnc._nbdev",
+            "update_gene_symbols_hgnc.core"
+        ],
+        "version": "0.0.1"
+    },
     "update-he-dns": {
         "cmdline": [],
         "modules": [],
@@ -36506,6 +36988,11 @@
             "updatewrapper.utils.file"
         ],
         "version": "1.3.1"
+    },
+    "updatebrowser": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
     },
     "updatedir": {
         "cmdline": [],
@@ -36774,6 +37261,16 @@
         "modules": [],
         "version": "0.0.0"
     },
+    "upend": {
+        "cmdline": [],
+        "modules": [
+            "upend",
+            "upend.lib",
+            "upend.upend",
+            "upend.util"
+        ],
+        "version": "0.0.1"
+    },
     "upenwrt": {
         "cmdline": [],
         "modules": [
@@ -37021,6 +37518,14 @@
         ],
         "version": "0.1.2"
     },
+    "upgradechatpy": {
+        "cmdline": [],
+        "modules": [
+            "upgradechat",
+            "upgradechat.models"
+        ],
+        "version": "1.0.1"
+    },
     "upgraded-engineer": {
         "cmdline": [],
         "modules": [
@@ -37086,7 +37591,7 @@
         "modules": [
             "upins"
         ],
-        "version": "0.1.3"
+        "version": "0.1.66"
     },
     "upip": {
         "cmdline": [],
@@ -37299,7 +37804,7 @@
         "modules": [
             "uplink_httpx"
         ],
-        "version": "1.6"
+        "version": "1.7"
     },
     "uplink-protobuf": {
         "cmdline": [],
@@ -37436,6 +37941,14 @@
             "upload_insert_tools.concurrent_insert"
         ],
         "version": "0.5"
+    },
+    "upload-large-dataframes-tera": {
+        "cmdline": [],
+        "modules": [
+            "upload-large-dataframes-tera",
+            "upload-large-dataframes-tera.upload_large_dataframes_tera"
+        ],
+        "version": "0.2"
     },
     "upload-manager": {
         "cmdline": [],
@@ -37599,6 +38112,23 @@
         ],
         "version": "0.5"
     },
+    "uploadgram": {
+        "cmdline": [],
+        "modules": [
+            "uploadgram",
+            "uploadgram.config",
+            "uploadgram.get_config",
+            "uploadgram.humanbytes",
+            "uploadgram.progress",
+            "uploadgram.run_shell_command",
+            "uploadgram.shell",
+            "uploadgram.take_screen_shot",
+            "uploadgram.time_formatter",
+            "uploadgram.upload",
+            "uploadgram.uploadgram"
+        ],
+        "version": "0.1.5"
+    },
     "uploadossfile": {
         "cmdline": [],
         "modules": [],
@@ -37717,6 +38247,15 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1.0"
+    },
+    "upn2sepa": {
+        "cmdline": [],
+        "modules": [
+            "upn2sepa",
+            "upn2sepa.convert",
+            "upn2sepa.run"
+        ],
+        "version": "1.0.1"
     },
     "upnp": {
         "cmdline": [],
@@ -38101,7 +38640,7 @@
     "uproot": {
         "cmdline": [],
         "modules": [],
-        "version": "4.0.9"
+        "version": "4.0.11"
     },
     "uproot-methods": {
         "cmdline": [],
@@ -38338,7 +38877,7 @@
             "upsetplot.data",
             "upsetplot.plotting"
         ],
-        "version": "0.4.4"
+        "version": "0.5.0"
     },
     "upside-down-rl": {
         "cmdline": [],
@@ -38369,6 +38908,7 @@
             "upsies.jobs.config",
             "upsies.jobs.custom",
             "upsies.jobs.dialog",
+            "upsies.jobs.download_location",
             "upsies.jobs.imghost",
             "upsies.jobs.mediainfo",
             "upsies.jobs.release_name",
@@ -38393,6 +38933,7 @@
             "upsies.uis.tui",
             "upsies.uis.tui.commands",
             "upsies.uis.tui.commands.base",
+            "upsies.uis.tui.commands.download_location",
             "upsies.uis.tui.commands.mediainfo",
             "upsies.uis.tui.commands.release_name",
             "upsies.uis.tui.commands.scene",
@@ -38402,11 +38943,13 @@
             "upsies.uis.tui.commands.torrent",
             "upsies.uis.tui.commands.upload_images",
             "upsies.uis.tui.commands.webdb",
+            "upsies.uis.tui.headless",
             "upsies.uis.tui.jobwidgets",
             "upsies.uis.tui.jobwidgets.base",
             "upsies.uis.tui.jobwidgets.config",
             "upsies.uis.tui.jobwidgets.custom",
             "upsies.uis.tui.jobwidgets.dialog",
+            "upsies.uis.tui.jobwidgets.download_location",
             "upsies.uis.tui.jobwidgets.imghost",
             "upsies.uis.tui.jobwidgets.mediainfo",
             "upsies.uis.tui.jobwidgets.release_name",
@@ -38417,7 +38960,7 @@
             "upsies.uis.tui.jobwidgets.webdb",
             "upsies.uis.tui.main",
             "upsies.uis.tui.style",
-            "upsies.uis.tui.ui",
+            "upsies.uis.tui.tui",
             "upsies.uis.tui.utils",
             "upsies.uis.tui.widgets",
             "upsies.utils",
@@ -38438,6 +38981,7 @@
             "upsies.utils.imghosts.common",
             "upsies.utils.imghosts.dummy",
             "upsies.utils.imghosts.imgbox",
+            "upsies.utils.imghosts.ptpimg",
             "upsies.utils.iso",
             "upsies.utils.release",
             "upsies.utils.scene",
@@ -38461,7 +39005,7 @@
             "upsies.utils.webdbs.tmdb",
             "upsies.utils.webdbs.tvmaze"
         ],
-        "version": "2021.6.5"
+        "version": "2021.7.9"
     },
     "upsilon": {
         "cmdline": [],
@@ -38654,16 +39198,30 @@
     "upswingutil": {
         "cmdline": [],
         "modules": [
+            "test",
+            "test.dv",
+            "test.test_oracle_guest",
+            "test.test_oracle_reservation",
+            "test.test_reservation",
             "upswingutil",
             "upswingutil.db",
             "upswingutil.db.firestoredb",
+            "upswingutil.db.model",
+            "upswingutil.db.model.guest",
+            "upswingutil.db.model.property",
+            "upswingutil.db.model.reservation",
             "upswingutil.db.mongodb",
+            "upswingutil.db.mongodb_mongoengine",
             "upswingutil.global_variables",
             "upswingutil.pms",
             "upswingutil.pms.oracle",
             "upswingutil.pms.oracle.auth",
+            "upswingutil.pms.oracle.reservation",
+            "upswingutil.pms.oracle.variables",
             "upswingutil.pms.rms",
             "upswingutil.pms.rms.auth",
+            "upswingutil.pms.rms.reservation",
+            "upswingutil.pms.rms.variables",
             "upswingutil.resource",
             "upswingutil.resource.cloud",
             "upswingutil.resource.crypto",
@@ -38671,13 +39229,15 @@
             "upswingutil.resource.jwt",
             "upswingutil.resource.logger",
             "upswingutil.schema",
+            "upswingutil.schema.alvie",
             "upswingutil.schema.auth",
             "upswingutil.schema.country",
+            "upswingutil.schema.organization_cfg",
             "upswingutil.schema.property",
             "upswingutil.schema.pubSub",
             "upswingutil.schema.reservation"
         ],
-        "version": "0.0.17"
+        "version": "1.3.4"
     },
     "upt": {
         "cmdline": [],
@@ -38906,7 +39466,7 @@
         "modules": [
             "uptools"
         ],
-        "version": "0.1.8"
+        "version": "0.1.10"
     },
     "uptrace": {
         "cmdline": [],
@@ -39368,6 +39928,10 @@
             "uq360.models.bayesian_neural_networks.layers",
             "uq360.models.bayesian_neural_networks.misc",
             "uq360.models.heteroscedastic_mlp",
+            "uq360.models.noise_models",
+            "uq360.models.noise_models.heteroscedastic_noise_models",
+            "uq360.models.noise_models.homoscedastic_noise_models",
+            "uq360.models.noise_models.noisemodel",
             "uq360.savedmodels",
             "uq360.utils",
             "uq360.utils.generate_1D_regression_data",
@@ -39376,7 +39940,7 @@
             "uq360.utils.misc",
             "uq360.utils.optimizers"
         ],
-        "version": "0.1"
+        "version": "0.1.1"
     },
     "uqbar": {
         "cmdline": [],
@@ -39441,7 +40005,7 @@
             "uqer.utils",
             "uqer.version"
         ],
-        "version": "1.3.20"
+        "version": "1.3.21"
     },
     "uqid": {
         "cmdline": [],
@@ -39784,7 +40348,7 @@
     "ur-rtde": {
         "cmdline": [],
         "modules": [],
-        "version": "1.4.3"
+        "version": "1.4.4"
     },
     "ur-tcp-rtde": {
         "cmdline": [],
@@ -39946,7 +40510,7 @@
             "ural.utils",
             "ural.youtube"
         ],
-        "version": "0.30.2"
+        "version": "0.30.4"
     },
     "uralicnlp": {
         "cmdline": [],
@@ -40623,6 +41187,18 @@
         ],
         "version": "0.2.0"
     },
+    "urchintai-client": {
+        "cmdline": [],
+        "modules": [
+            "urchintai_client",
+            "urchintai_client.constants",
+            "urchintai_client.request_sender",
+            "urchintai_client.session_manager",
+            "urchintai_client.ur_client",
+            "urchintai_client.ur_parser"
+        ],
+        "version": "1.0.0"
+    },
     "urcollectionmanager": {
         "cmdline": [],
         "modules": [
@@ -40862,9 +41438,10 @@
             "urge",
             "urge._actions",
             "urge._core",
-            "urge._funny"
+            "urge._funny",
+            "urge._youdao"
         ],
-        "version": "0.1.1"
+        "version": "0.2.2"
     },
     "urgent": {
         "cmdline": [],
@@ -42354,7 +42931,7 @@
             "urllib3.util.url",
             "urllib3.util.wait"
         ],
-        "version": "1.26.5"
+        "version": "1.26.6"
     },
     "urllib3-1-26-2": {
         "cmdline": [],
@@ -43447,6 +44024,13 @@
             "ursina.color",
             "ursina.curve",
             "ursina.duplicate",
+            "ursina.editor",
+            "ursina.editor.3d_level_editor",
+            "ursina.editor.scenes",
+            "ursina.editor.scenes.test2[1,0]",
+            "ursina.editor.scenes.untitled_scene[0,0]",
+            "ursina.editor.scenes.untitled_scene[2,0]",
+            "ursina.editor.scenes.untitled_scene[2,3]",
             "ursina.entity",
             "ursina.gamepad",
             "ursina.hit_info",
@@ -43473,6 +44057,7 @@
             "ursina.prefabs.button",
             "ursina.prefabs.button_group",
             "ursina.prefabs.button_list",
+            "ursina.prefabs.conversation",
             "ursina.prefabs.cursor",
             "ursina.prefabs.debug_menu",
             "ursina.prefabs.draggable",
@@ -43542,12 +44127,18 @@
             "ursina.vec3",
             "ursina.window"
         ],
-        "version": "3.5.0"
+        "version": "3.6.0"
     },
     "ursinanetworking": {
         "cmdline": [],
-        "modules": [],
-        "version": "1.1.0"
+        "modules": [
+            "ursinanetworking",
+            "ursinanetworking.easyursinanetworking",
+            "ursinanetworking.test_cl",
+            "ursinanetworking.test_sv",
+            "ursinanetworking.ursinanetworking"
+        ],
+        "version": "2.0.6"
     },
     "ursine": {
         "cmdline": [],
@@ -44052,7 +44643,7 @@
             "us_libraries.utils",
             "us_libraries.utils.formatters"
         ],
-        "version": "0.0.13"
+        "version": "0.0.14"
     },
     "us-netview-non-major": {
         "cmdline": [],
@@ -44163,6 +44754,101 @@
             "service_config"
         ],
         "version": "0.0.5"
+    },
+    "us2deepposekit": {
+        "cmdline": [],
+        "modules": [
+            "deepposekit",
+            "deepposekit.annotate",
+            "deepposekit.annotate.KMeansSampler",
+            "deepposekit.annotate.gui",
+            "deepposekit.annotate.gui.Annotator",
+            "deepposekit.annotate.gui.GUI",
+            "deepposekit.annotate.gui.Skeleton",
+            "deepposekit.annotate.utils",
+            "deepposekit.annotate.utils.hotkeys",
+            "deepposekit.annotate.utils.image",
+            "deepposekit.augment",
+            "deepposekit.augment.FlipAxis",
+            "deepposekit.callbacks",
+            "deepposekit.io",
+            "deepposekit.io.BaseGenerator",
+            "deepposekit.io.DLCDataGenerator",
+            "deepposekit.io.DataGenerator",
+            "deepposekit.io.ImageGenerator",
+            "deepposekit.io.TrainingGenerator",
+            "deepposekit.io.utils",
+            "deepposekit.io.video",
+            "deepposekit.models",
+            "deepposekit.models.DeepLabCut",
+            "deepposekit.models.LEAP",
+            "deepposekit.models.StackedDenseNet",
+            "deepposekit.models.StackedHourglass",
+            "deepposekit.models.backend",
+            "deepposekit.models.backend.backend",
+            "deepposekit.models.backend.registration",
+            "deepposekit.models.backend.utils",
+            "deepposekit.models.engine",
+            "deepposekit.models.layers",
+            "deepposekit.models.layers.convolutional",
+            "deepposekit.models.layers.deeplabcut",
+            "deepposekit.models.layers.densenet",
+            "deepposekit.models.layers.hourglass",
+            "deepposekit.models.layers.imagenet_densenet",
+            "deepposekit.models.layers.imagenet_mobile",
+            "deepposekit.models.layers.imagenet_resnet",
+            "deepposekit.models.layers.imagenet_utils",
+            "deepposekit.models.layers.imagenet_xception",
+            "deepposekit.models.layers.leap",
+            "deepposekit.models.layers.squeeze_excitation",
+            "deepposekit.models.layers.subpixel",
+            "deepposekit.models.layers.util",
+            "deepposekit.models.loading",
+            "deepposekit.models.saving",
+            "deepposekit.utils",
+            "deepposekit.utils.image",
+            "deepposekit.utils.io",
+            "deepposekit.utils.keypoints"
+        ],
+        "version": "0.3.9"
+    },
+    "us2djongo": {
+        "cmdline": [],
+        "modules": [
+            "djongo",
+            "djongo.admin",
+            "djongo.base",
+            "djongo.compiler",
+            "djongo.creation",
+            "djongo.cursor",
+            "djongo.database",
+            "djongo.dynamic_formsets",
+            "djongo.dynamic_formsets.apps",
+            "djongo.dynamic_formsets.templatetags",
+            "djongo.dynamic_formsets.templatetags.formset_tags",
+            "djongo.exceptions",
+            "djongo.features",
+            "djongo.introspection",
+            "djongo.models",
+            "djongo.models.fields",
+            "djongo.models.indexes",
+            "djongo.models.json",
+            "djongo.operations",
+            "djongo.schema",
+            "djongo.sql2mongo",
+            "djongo.sql2mongo.aggregation",
+            "djongo.sql2mongo.constraints",
+            "djongo.sql2mongo.converters",
+            "djongo.sql2mongo.functions",
+            "djongo.sql2mongo.operators",
+            "djongo.sql2mongo.query",
+            "djongo.sql2mongo.sql_tokens",
+            "djongo.sql2mongo.validation",
+            "djongo.storage",
+            "djongo.transaction",
+            "djongo.utils"
+        ],
+        "version": "1.3.16"
     },
     "us3": {
         "cmdline": [],
@@ -44346,7 +45032,7 @@
         "modules": [
             "usagestats"
         ],
-        "version": "1.0"
+        "version": "1.0.1"
     },
     "usagi": {
         "cmdline": [],
@@ -44489,6 +45175,28 @@
             "usb_manager.test_serial"
         ],
         "version": "1.0.0"
+    },
+    "usb-plug-notification": {
+        "cmdline": [],
+        "modules": [
+            "usb_plug_notification"
+        ],
+        "version": "0.1.0"
+    },
+    "usb-plug-notification-darwin": {
+        "cmdline": [],
+        "modules": [
+            "usb_plug_notification_darwin",
+            "usb_plug_notification_darwin.main"
+        ],
+        "version": "0.1.1"
+    },
+    "usb-plug-notification-linux": {
+        "cmdline": [],
+        "modules": [
+            "usb_plug_notification_linux"
+        ],
+        "version": "0.1.0"
     },
     "usb-prober": {
         "cmdline": [],
@@ -44655,7 +45363,7 @@
             "usbinfo.linux",
             "usbinfo.posix"
         ],
-        "version": "1.1.1"
+        "version": "1.1.2"
     },
     "usbl": {
         "cmdline": [],
@@ -45078,7 +45786,7 @@
     "usedave": {
         "cmdline": [],
         "modules": [],
-        "version": "1.5.8"
+        "version": "1.6.0"
     },
     "usedef": {
         "cmdline": [],
@@ -45351,6 +46059,13 @@
         ],
         "version": "0.1.2"
     },
+    "useinf": {
+        "cmdline": [],
+        "modules": [
+            "useinf._init_"
+        ],
+        "version": "1.0"
+    },
     "useintest": {
         "cmdline": [],
         "modules": [
@@ -45481,6 +46196,14 @@
         ],
         "version": "0.5.1"
     },
+    "useless-calc": {
+        "cmdline": [],
+        "modules": [
+            "Calculate",
+            "Calculate.calc"
+        ],
+        "version": "0.0.1"
+    },
     "useless-lib": {
         "cmdline": [],
         "modules": [
@@ -45582,7 +46305,7 @@
     "useq-schema": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.1rc1"
+        "version": "0.1.0"
     },
     "user-agent": {
         "cmdline": [],
@@ -46190,6 +46913,28 @@
         "modules": [],
         "version": "0.0.1"
     },
+    "userelaina": {
+        "cmdline": [],
+        "modules": [
+            "userelaina",
+            "userelaina._basic",
+            "userelaina._hash",
+            "userelaina._log",
+            "userelaina._other",
+            "userelaina._pic",
+            "userelaina._pthfunc",
+            "userelaina._small",
+            "userelaina._th",
+            "userelaina.cls",
+            "userelaina.code",
+            "userelaina.pic",
+            "userelaina.small",
+            "userelaina.th",
+            "userelaina.u",
+            "userelaina.whoami"
+        ],
+        "version": "0.0.1"
+    },
     "userelainatestsetup1": {
         "cmdline": [],
         "modules": [
@@ -46514,11 +47259,12 @@
             "userprovided._version",
             "userprovided.date",
             "userprovided.hash",
+            "userprovided.hashing",
             "userprovided.mail",
             "userprovided.parameters",
             "userprovided.url"
         ],
-        "version": "0.9.0"
+        "version": "0.9.1"
     },
     "users": {
         "cmdline": [],
@@ -46721,9 +47467,10 @@
         "modules": [
             "usethatPy",
             "usethatPy.pdf2image",
+            "usethatPy.punctuation_mend",
             "usethatPy.yoda"
         ],
-        "version": "1.0.2"
+        "version": "1.0.4"
     },
     "usethis-django-bootstrap": {
         "cmdline": [],
@@ -46777,7 +47524,7 @@
             "auth_service_client",
             "auth_service_client.client"
         ],
-        "version": "0.0.11"
+        "version": "0.0.14"
     },
     "usfm": {
         "cmdline": [],
@@ -46930,6 +47677,13 @@
             "usgs_mbe.main"
         ],
         "version": "0.1.4"
+    },
+    "usgs-quake": {
+        "cmdline": [],
+        "modules": [
+            "usgs_quake"
+        ],
+        "version": "1.0.2"
     },
     "usgs-shakecast": {
         "cmdline": [],
@@ -48661,7 +49415,7 @@
             "utaupy.utils._hts2ust",
             "utaupy.utils._ust2hts"
         ],
-        "version": "1.12.0"
+        "version": "1.13.0"
     },
     "utaw": {
         "cmdline": [],
@@ -48752,7 +49506,7 @@
             "utcnow.__version__",
             "utcnow.__version_data__"
         ],
-        "version": "0.2.2"
+        "version": "0.3.0"
     },
     "utcondor": {
         "cmdline": [],
@@ -48785,7 +49539,7 @@
     "utemplate": {
         "cmdline": [],
         "modules": [],
-        "version": "1.4"
+        "version": "1.4.1"
     },
     "utensil": {
         "cmdline": [],
@@ -49032,6 +49786,13 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.2"
+    },
+    "utestcell": {
+        "cmdline": [],
+        "modules": [
+            "utestcell"
+        ],
+        "version": "0.0.15"
     },
     "utf-remote": {
         "cmdline": [],
@@ -49362,7 +50123,7 @@
             "util_hj3415.noti",
             "util_hj3415.utils"
         ],
-        "version": "0.1.4"
+        "version": "0.1.6"
     },
     "util-py": {
         "cmdline": [],
@@ -49846,7 +50607,7 @@
             "utilitys.typeoverloads",
             "utilitys.widgets"
         ],
-        "version": "0.3.18"
+        "version": "0.3.21"
     },
     "utilix": {
         "cmdline": [],
@@ -50088,17 +50849,25 @@
         "cmdline": [],
         "modules": [
             "utilmy",
+            "utilmy.configs",
+            "utilmy.configs.test",
+            "utilmy.configs.util_config",
             "utilmy.dates",
+            "utilmy.debug",
             "utilmy.decorators",
             "utilmy.images",
             "utilmy.io",
+            "utilmy.logs",
+            "utilmy.logs.test_log",
+            "utilmy.logs.util_log",
             "utilmy.tabular",
             "utilmy.text",
+            "utilmy.util_default",
             "utilmy.utilmy",
             "utilmy.zutil",
             "utilmy.zutil_features"
         ],
-        "version": "0.1.16226941"
+        "version": "0.1.16253295"
     },
     "utilofies": {
         "cmdline": [],
@@ -50151,7 +50920,7 @@
             "utilpack.util.time_util",
             "utilpack.util.vis_util"
         ],
-        "version": "1.9.3"
+        "version": "2.0.0"
     },
     "utilpy": {
         "cmdline": [],
@@ -50202,6 +50971,15 @@
             "utils.url"
         ],
         "version": "0.0.4"
+    },
+    "utils-ag": {
+        "cmdline": [],
+        "modules": [
+            "utils_ag",
+            "utils_ag.filesystem",
+            "utils_ag.first"
+        ],
+        "version": "0.0.5"
     },
     "utils-ak": {
         "cmdline": [],
@@ -50564,6 +51342,117 @@
         ],
         "version": "0.1.0"
     },
+    "utils-hoo": {
+        "cmdline": [],
+        "modules": [
+            "utils_hoo",
+            "utils_hoo.install_check",
+            "utils_hoo.tmp",
+            "utils_hoo.tmp.CtrlPreTS",
+            "utils_hoo.tmp.PIDtest",
+            "utils_hoo.tmp.PIDtest2",
+            "utils_hoo.tmp.VMD",
+            "utils_hoo.tmp.cca_test",
+            "utils_hoo.tmp.dtw_test",
+            "utils_hoo.tmp.explore",
+            "utils_hoo.tmp.gini",
+            "utils_hoo.tmp.mpc_test1",
+            "utils_hoo.tmp.options_Implied_volatility",
+            "utils_hoo.tmp.pf_test",
+            "utils_hoo.tmp.plot_test",
+            "utils_hoo.tmp.simple_smooth",
+            "utils_hoo.tmp.test_backtrader",
+            "utils_hoo.tmp.test_get_var_name",
+            "utils_hoo.tmp.tmp_args",
+            "utils_hoo.tmp.transformer_pytorch",
+            "utils_hoo.tmp.utils_SignalDec",
+            "utils_hoo.tmp.utils_TimeSeries",
+            "utils_hoo.tmp.utils_lottery",
+            "utils_hoo.tmp.utils_rl",
+            "utils_hoo.tmp.utils_rl2",
+            "utils_hoo.tmp.utils_rl3",
+            "utils_hoo.tmp.utils_rl4",
+            "utils_hoo.tmp.utils_rl5",
+            "utils_hoo.tmp.utils_rl6",
+            "utils_hoo.tmp.utils_rl7",
+            "utils_hoo.tmp.utils_sem",
+            "utils_hoo.utils_MultiProcess",
+            "utils_hoo.utils_MultiThread",
+            "utils_hoo.utils_datetime",
+            "utils_hoo.utils_datsci",
+            "utils_hoo.utils_datsci.AHP",
+            "utils_hoo.utils_datsci.AHP.AHP",
+            "utils_hoo.utils_datsci.AHP.AHP_simRIs",
+            "utils_hoo.utils_datsci.AHP.AHP_sys",
+            "utils_hoo.utils_datsci.ActivateFuncs",
+            "utils_hoo.utils_datsci.Apriori",
+            "utils_hoo.utils_datsci.ELM",
+            "utils_hoo.utils_datsci.ELM.ELM_cls",
+            "utils_hoo.utils_datsci.ELM.ELM_reg",
+            "utils_hoo.utils_datsci.EntValWeight",
+            "utils_hoo.utils_datsci.FindMaxMin",
+            "utils_hoo.utils_datsci.FreqItemSet",
+            "utils_hoo.utils_datsci.LR",
+            "utils_hoo.utils_datsci.TOPSIS",
+            "utils_hoo.utils_datsci.utils_TimeSeries",
+            "utils_hoo.utils_datsci.utils_ann",
+            "utils_hoo.utils_datsci.utils_curvature",
+            "utils_hoo.utils_datsci.utils_lgb",
+            "utils_hoo.utils_datsci.utils_ml",
+            "utils_hoo.utils_datsci.utils_preprocess",
+            "utils_hoo.utils_datsci.utils_stats",
+            "utils_hoo.utils_fin",
+            "utils_hoo.utils_fin.AHR999",
+            "utils_hoo.utils_fin.CandleSimilar",
+            "utils_hoo.utils_fin.TimesCast",
+            "utils_hoo.utils_fin.ZigZag",
+            "utils_hoo.utils_fin.fac_Bolls",
+            "utils_hoo.utils_fin.load_his_data",
+            "utils_hoo.utils_fin.plot_Boll",
+            "utils_hoo.utils_fin.utils_CHN",
+            "utils_hoo.utils_fin.utils_LimitStockVal",
+            "utils_hoo.utils_fin.utils_fin",
+            "utils_hoo.utils_fin.utils_gains",
+            "utils_hoo.utils_fin.utils_options",
+            "utils_hoo.utils_general",
+            "utils_hoo.utils_html",
+            "utils_hoo.utils_html.utils_html",
+            "utils_hoo.utils_io",
+            "utils_hoo.utils_logging",
+            "utils_hoo.utils_logging.logger_Rotating",
+            "utils_hoo.utils_logging.logger_TimedRotating",
+            "utils_hoo.utils_logging.logger_general",
+            "utils_hoo.utils_logging.logger_utils",
+            "utils_hoo.utils_logging.test_func",
+            "utils_hoo.utils_logging.test_log",
+            "utils_hoo.utils_optimizer",
+            "utils_hoo.utils_optimizer.ALO",
+            "utils_hoo.utils_optimizer.BOA",
+            "utils_hoo.utils_optimizer.CS",
+            "utils_hoo.utils_optimizer.GA",
+            "utils_hoo.utils_optimizer.GWO",
+            "utils_hoo.utils_optimizer.HCPSOBOA",
+            "utils_hoo.utils_optimizer.HHO",
+            "utils_hoo.utils_optimizer.HPSOBOA",
+            "utils_hoo.utils_optimizer.PSO",
+            "utils_hoo.utils_optimizer.WOA",
+            "utils_hoo.utils_optimizer.test_Heuristic",
+            "utils_hoo.utils_optimizer.test_Heuristic_NN",
+            "utils_hoo.utils_optimizer.test_Heuristic_SVM",
+            "utils_hoo.utils_optimizer.test_Heuristic_gbdt",
+            "utils_hoo.utils_optimizer.test_funcs",
+            "utils_hoo.utils_optimizer.utils_Heuristic",
+            "utils_hoo.utils_other",
+            "utils_hoo.utils_plot",
+            "utils_hoo.utils_plot.mpfOld",
+            "utils_hoo.utils_plot.plot_BarLine",
+            "utils_hoo.utils_plot.plot_Candle",
+            "utils_hoo.utils_plot.plot_Candle_Deprecated",
+            "utils_hoo.utils_plot.plot_Common",
+            "utils_hoo.utils_plot.plot_HistDist"
+        ],
+        "version": "0.1.4.3"
+    },
     "utils-jlg": {
         "cmdline": [],
         "modules": [
@@ -50582,6 +51471,13 @@
             "utils_pedro.knot_utils"
         ],
         "version": "1.0.4"
+    },
+    "utils-lib": {
+        "cmdline": [],
+        "modules": [
+            "utils_lib"
+        ],
+        "version": "0.1.0.27701"
     },
     "utils-mahesh": {
         "cmdline": [],
@@ -50627,21 +51523,28 @@
         "cmdline": [],
         "modules": [
             "utils",
+            "utils.browserx",
+            "utils.browserx_firefox_profile",
             "utils.cache",
+            "utils.cache_impl",
             "utils.db",
             "utils.ds",
             "utils.dt",
             "utils.filex",
             "utils.geo",
             "utils.hashx",
+            "utils.imagex",
             "utils.jsonx",
             "utils.mr",
+            "utils.plotx",
             "utils.sysx",
             "utils.timex",
             "utils.tsv",
+            "utils.twitter",
+            "utils.twitter_helpers",
             "utils.www"
         ],
-        "version": "1.0.3"
+        "version": "1.0.22"
     },
     "utils-plus": {
         "cmdline": [],
@@ -50878,7 +51781,7 @@
             "utilsd.search.confgen",
             "utilsd.search.space"
         ],
-        "version": "0.0.9"
+        "version": "0.0.10"
     },
     "utilsfunc": {
         "cmdline": [],
@@ -51679,6 +52582,60 @@
         "modules": [],
         "version": ""
     },
+    "utranslate": {
+        "cmdline": [],
+        "modules": [
+            "utranslate",
+            "utranslate._managers",
+            "utranslate._managers.directory",
+            "utranslate._managers.download",
+            "utranslate._managers.extract",
+            "utranslate._managers.ids",
+            "utranslate._managers.tests",
+            "utranslate._managers.tests.test_directory",
+            "utranslate._managers.tests.test_download",
+            "utranslate._managers.tests.test_extract",
+            "utranslate._src",
+            "utranslate._src.Data",
+            "utranslate._src.Embeddings",
+            "utranslate._src.Model",
+            "utranslate._src.Tokenizer",
+            "utranslate._src.Train",
+            "utranslate._src.src_utils",
+            "utranslate._src.src_utils.data_helpers",
+            "utranslate._src.src_utils.text_helpers",
+            "utranslate._src.tests",
+            "utranslate._src.tests.test_data",
+            "utranslate._src.tests.test_embeddings",
+            "utranslate._src.tests.test_model",
+            "utranslate._src.tests.test_tokenizer",
+            "utranslate._src.tests.test_train",
+            "utranslate.build",
+            "utranslate.build.Custom_model",
+            "utranslate.build.Model",
+            "utranslate.build._build_utils",
+            "utranslate.build._build_utils.dataset_helpers",
+            "utranslate.build._build_utils.helpers",
+            "utranslate.build._build_utils.model_helpers",
+            "utranslate.build._build_utils.save_helpers",
+            "utranslate.build.tests",
+            "utranslate.build.tests.test_custom_model",
+            "utranslate.build.tests.test_model",
+            "utranslate.setup",
+            "utranslate.tests",
+            "utranslate.tests.test_build",
+            "utranslate.tests.test_src",
+            "utranslate.tests.test_use",
+            "utranslate.use",
+            "utranslate.use.Translator",
+            "utranslate.use._use_utils",
+            "utranslate.use._use_utils.load_helpers",
+            "utranslate.use._use_utils.model_helpers",
+            "utranslate.use.tests",
+            "utranslate.use.tests.test_translator"
+        ],
+        "version": "0.1.2"
+    },
     "utrme": {
         "cmdline": [],
         "modules": [
@@ -51842,7 +52799,7 @@
             "uttlv.encoder",
             "uttlv.tlv"
         ],
-        "version": "0.4.0"
+        "version": "0.6.0"
     },
     "uttrs": {
         "cmdline": [],
@@ -52103,7 +53060,7 @@
             "utz.version",
             "utz.zip"
         ],
-        "version": "0.3.17"
+        "version": "0.3.18"
     },
     "utzpy": {
         "cmdline": [],
@@ -52221,7 +53178,7 @@
             "uunet",
             "uunet.multinet"
         ],
-        "version": "0.9"
+        "version": "1.1.4"
     },
     "uunonymous": {
         "cmdline": [],
@@ -52604,6 +53561,8 @@
             "uvicore.auth.database.tables.user_groups",
             "uvicore.auth.database.tables.user_roles",
             "uvicore.auth.database.tables.users",
+            "uvicore.auth.http.api.userinfo",
+            "uvicore.auth.http.routes.api",
             "uvicore.auth.middleware",
             "uvicore.auth.middleware.auth_OLD",
             "uvicore.auth.middleware.basic_OLD",
@@ -52619,7 +53578,7 @@
             "uvicore.auth.user_providers",
             "uvicore.auth.user_providers.jwt",
             "uvicore.auth.user_providers.orm",
-            "uvicore.cache.backends",
+            "uvicore.cache.backends.array",
             "uvicore.cache.backends.redis",
             "uvicore.cache.manager",
             "uvicore.cache.services",
@@ -52628,6 +53587,23 @@
             "uvicore.configuration.configuration",
             "uvicore.configuration.services",
             "uvicore.console",
+            "uvicore.console.asyncclick",
+            "uvicore.console.asyncclick._bashcomplete",
+            "uvicore.console.asyncclick._compat",
+            "uvicore.console.asyncclick._termui_impl",
+            "uvicore.console.asyncclick._textwrap",
+            "uvicore.console.asyncclick._unicodefun",
+            "uvicore.console.asyncclick._winconsole",
+            "uvicore.console.asyncclick.core",
+            "uvicore.console.asyncclick.decorators",
+            "uvicore.console.asyncclick.exceptions",
+            "uvicore.console.asyncclick.formatting",
+            "uvicore.console.asyncclick.globals",
+            "uvicore.console.asyncclick.parser",
+            "uvicore.console.asyncclick.termui",
+            "uvicore.console.asyncclick.testing",
+            "uvicore.console.asyncclick.types",
+            "uvicore.console.asyncclick.utils",
             "uvicore.console.bootstrap",
             "uvicore.console.click_colors",
             "uvicore.console.commands.generators",
@@ -52772,7 +53748,7 @@
             "uvicore.typing",
             "uvicore.typing.dictionary"
         ],
-        "version": "0.1.14"
+        "version": "0.1.15"
     },
     "uvicorn": {
         "cmdline": [],
@@ -52874,12 +53850,9 @@
             "uvisaurorae.inout",
             "uvisaurorae.plotting",
             "uvisaurorae.projection",
-            "uvisaurorae.resources",
-            "uvisaurorae.resources.processing_instructions.clean_LASP",
-            "uvisaurorae.resources.processing_instructions.create_single_set",
-            "uvisaurorae.resources.processing_instructions.write_json"
+            "uvisaurorae.resources"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "uvitools": {
         "cmdline": [],
@@ -53367,7 +54340,7 @@
             "uw_saml.utils",
             "uw_saml.views"
         ],
-        "version": "1.5.5"
+        "version": "1.5.6"
     },
     "uw-ems-client": {
         "cmdline": [],
@@ -53520,7 +54493,18 @@
             "uw_adsel.test",
             "uw_adsel.utilities"
         ],
-        "version": "1.7.11"
+        "version": "1.7.14"
+    },
+    "uw-restclients-attest": {
+        "cmdline": [],
+        "modules": [
+            "uw_attest",
+            "uw_attest.dao",
+            "uw_attest.models",
+            "uw_attest.test",
+            "uw_attest.utils"
+        ],
+        "version": "0.1"
     },
     "uw-restclients-bookstore": {
         "cmdline": [],
@@ -53608,7 +54592,7 @@
             "restclients_core.test",
             "restclients_core.thread"
         ],
-        "version": "1.3.6"
+        "version": "1.3.7"
     },
     "uw-restclients-django-utils": {
         "cmdline": [],
@@ -53619,7 +54603,7 @@
             "rc_django.models",
             "rc_django.urls"
         ],
-        "version": "2.3.5"
+        "version": "2.3.6"
     },
     "uw-restclients-grad": {
         "cmdline": [],
@@ -53951,7 +54935,7 @@
             "webdriver_recorder.browser",
             "webdriver_recorder.plugin"
         ],
-        "version": "3.0.1"
+        "version": "4.0.1"
     },
     "uwallet": {
         "cmdline": [],
@@ -55089,6 +56073,14 @@
         ],
         "version": "1.6.1"
     },
+    "uwtopsis": {
+        "cmdline": [],
+        "modules": [
+            "uwTOPSIS",
+            "uwTOPSIS.uwTOPSIS"
+        ],
+        "version": "0.1.0"
+    },
     "uwu": {
         "cmdline": [],
         "modules": [
@@ -55112,6 +56104,14 @@
             "uwuify.core"
         ],
         "version": "1.0.2"
+    },
+    "uwvikor": {
+        "cmdline": [],
+        "modules": [
+            "uwVIKOR",
+            "uwVIKOR.uwVIKOR"
+        ],
+        "version": "0.1.0"
     },
     "uwygtfvjha": {
         "cmdline": [],
@@ -55271,7 +56271,7 @@
             "uxapi.topic",
             "uxapi.wshandler"
         ],
-        "version": "1.0.78"
+        "version": "1.0.81"
     },
     "uxbgtk": {
         "cmdline": [],

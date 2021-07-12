@@ -48,7 +48,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (n123ester) This package is up to date.
 [INFO] (n2) This package is up to date.
 [INFO] (n2-tools) This package is up to date.
-[INFO] (n225) Data has been updated for this package.
+[INFO] (n225) This package is up to date.
 [INFO] (n26) This package is up to date.
 [INFO] (n2cw) This package is up to date.
 [INFO] (n2d) This package is up to date.
@@ -66,6 +66,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (n2yoasync) This package is up to date.
 [INFO] (n3) This package is up to date.
 [INFO] (n3d) This package is up to date.
+[INFO] (n3ml-python) Data has been updated for this package.
 [INFO] (n3th0us3) This package is up to date.
 [INFO] (n4tools) This package is up to date.
 [INFO] (n8-butler) This package is up to date.
@@ -80,7 +81,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (naamtoey-helloworld-library) This package is up to date.
 [INFO] (naapi) This package is up to date.
 [INFO] (naarad) This package is up to date.
-[INFO] (naas) Data has been updated for this package.
+[INFO] (naas) This package is up to date.
 [ERROR] (naas-client) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -99,7 +100,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (naas-drivers) Data has been updated for this package.
+[INFO] (naas-drivers) This package is up to date.
 [INFO] (naaya-ldapdump) This package is up to date.
 [INFO] (nab3) This package is up to date.
 [INFO] (nabard) This package is up to date.
@@ -356,7 +357,6 @@ Traceback (most recent call last):
 urllib.error.URLError: <urlopen error ftp error: error_perm('550 Failed to change directory.')>
 
 [INFO] (nagpyrc) This package is up to date.
-[INFO] (nah) This package is up to date.
 [INFO] (nahaath) This package is up to date.
 [INFO] (nahpackpy) This package is up to date.
 [INFO] (nahum-debug-utils) This package is up to date.
@@ -406,7 +406,7 @@ This package download URL does not point to a valid file: "http://www.keyphrene.
 [INFO] (najva-api-client) This package is up to date.
 [INFO] (nakadi-end2end) This package is up to date.
 [INFO] (nakama) This package is up to date.
-[INFO] (nakametpy) This package is up to date.
+[INFO] (nakametpy) Data has been updated for this package.
 [INFO] (nakamoto) This package is up to date.
 [INFO] (naked) This package is up to date.
 [ERROR] (nakedplanning) This package does not have downloadable releases.
@@ -432,7 +432,9 @@ This package download URL does not point to a valid file: "http://www.keyphrene.
 [INFO] (namanhelloworld) This package is up to date.
 [INFO] (namantest) This package is up to date.
 [INFO] (namara) This package is up to date.
+[INFO] (namari) Data has been updated for this package.
 [INFO] (namaste) This package is up to date.
+[INFO] (namazu) This package is up to date.
 [INFO] (nambaone) This package is up to date.
 [INFO] (nambaone-bot) This package is up to date.
 [INFO] (namdtools) This package is up to date.
@@ -466,7 +468,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (name-of-thrones) This package is up to date.
 [INFO] (name-prettier) This package is up to date.
 [INFO] (name-suggestor) This package is up to date.
-[INFO] (name-that-hash) Data has been updated for this package.
+[INFO] (name-that-hash) This package is up to date.
 [INFO] (name-tools) This package is up to date.
 [INFO] (name1) This package is up to date.
 [INFO] (name10x) This package is up to date.
@@ -489,7 +491,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (named-dates) This package is up to date.
 [INFO] (named-decorator) This package is up to date.
 [INFO] (named-entity-recognition) This package is up to date.
-[INFO] (named-entity-recognizer) This package is up to date.
 [INFO] (named-enum) This package is up to date.
 [INFO] (named-redirect) This package is up to date.
 [INFO] (namedassignments) This package is up to date.
@@ -697,14 +698,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (namekox-zookeeper) This package is up to date.
 [INFO] (namekox-zookeeper-jsonrpc) This package is up to date.
 [INFO] (nameless) This package is up to date.
-[INFO] (nameless-deploy-tools) Data has been updated for this package.
+[INFO] (nameless-deploy-tools) This package is up to date.
 [INFO] (nameless-minimal) This package is up to date.
 [INFO] (namelist) This package is up to date.
 [INFO] (namelist-python) This package is up to date.
 [INFO] (namely) This package is up to date.
-[INFO] (namely-api) This package is up to date.
 [INFO] (namemaker) This package is up to date.
 [INFO] (namemapping) This package is up to date.
+[INFO] (namemc) This package is up to date.
 [INFO] (namemcpy) This package is up to date.
 [INFO] (namemod) This package is up to date.
 [INFO] (namemysprint) This package is up to date.
@@ -730,6 +731,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nameshark-vcard) This package is up to date.
 [INFO] (namesilo) This package is up to date.
 [INFO] (namespace) This package is up to date.
+[INFO] (namespacedict) This package is up to date.
 [INFO] (namespacedkubespawner) This package is up to date.
 [INFO] (namespaces) This package is up to date.
 [INFO] (namespacetrie) This package is up to date.
@@ -742,7 +744,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (namethatcolor) This package is up to date.
 [INFO] (nametrans) This package is up to date.
 [INFO] (nameunity) This package is up to date.
-[INFO] (namex) This package is up to date.
 [INFO] (namextracter) This package is up to date.
 [INFO] (naming) This package is up to date.
 [INFO] (namitpdf) This package is up to date.
@@ -838,16 +839,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nanodb) This package is up to date.
 [INFO] (nanodb-driver) This package is up to date.
 [INFO] (nanodlna) This package is up to date.
-[INFO] (nanoemoji) This package is up to date.
+[INFO] (nanoemoji) Data has been updated for this package.
 [INFO] (nanoemoji-yisi) This package is up to date.
 [INFO] (nanoepiseg) This package is up to date.
 [INFO] (nanoevent) This package is up to date.
 [INFO] (nanofilt) This package is up to date.
-[INFO] (nanoforce) Data has been updated for this package.
+[INFO] (nanoforce) This package is up to date.
 [INFO] (nanogen) This package is up to date.
 [INFO] (nanoget) This package is up to date.
 [INFO] (nanograd) This package is up to date.
 [INFO] (nanogui) This package is up to date.
+[INFO] (nanoha) This package is up to date.
 [INFO] (nanohttp) This package is up to date.
 [INFO] (nanohub-remote) This package is up to date.
 [INFO] (nanohub-uidl) This package is up to date.
@@ -867,7 +869,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nanolp) This package is up to date.
 [INFO] (nanolyse) This package is up to date.
 [INFO] (nanomath) This package is up to date.
-[INFO] (nanome) This package is up to date.
+[INFO] (nanome) Data has been updated for this package.
 [INFO] (nanome-chemical-properties) This package is up to date.
 [INFO] (nanome-docking) This package is up to date.
 [INFO] (nanome-ligand-focus) This package is up to date.
@@ -923,7 +925,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nanoprobe) This package is up to date.
 [INFO] (nanoprofiler) This package is up to date.
 [INFO] (nanopub) This package is up to date.
-[INFO] (nanopy) Data has been updated for this package.
+[INFO] (nanopy) This package is up to date.
 [INFO] (nanopyfw) This package is up to date.
 [INFO] (nanoqc) This package is up to date.
 [INFO] (nanoraw) This package is up to date.
@@ -956,7 +958,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nanoweb) This package is up to date.
 [INFO] (nanowire-flask) This package is up to date.
 [INFO] (nanowire-plugin) This package is up to date.
-[INFO] (nanowire-service-py) Data has been updated for this package.
+[INFO] (nanowire-service-py) This package is up to date.
 [INFO] (nanpack) This package is up to date.
 [INFO] (nanpy) This package is up to date.
 [INFO] (nans-e-puzzle-bfs) This package is up to date.
@@ -991,6 +993,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nansat) This package is up to date.
 [INFO] (nanshan) This package is up to date.
 [INFO] (nanshe) This package is up to date.
+[INFO] (nansi) Data has been updated for this package.
 [INFO] (nanslice) This package is up to date.
 [INFO] (nansonytv) This package is up to date.
 [INFO] (nanstats) This package is up to date.
@@ -1047,16 +1050,19 @@ This package download URL does not point to a valid file: "https://bitbucket.org
 [INFO] (napalm-ruckus-fastiron) This package is up to date.
 [INFO] (napalm-s350) This package is up to date.
 [INFO] (napalm-salt) This package is up to date.
+[INFO] (napalm-servertech-pro2) Data has been updated for this package.
 [INFO] (napalm-vyos) This package is up to date.
 [INFO] (napalm-yang) This package is up to date.
 [INFO] (napalm25-ios-alternative-drv) This package is up to date.
 [INFO] (napalmozon) This package is up to date.
-[INFO] (napari) Data has been updated for this package.
-[INFO] (napari-aicsimageio) This package is up to date.
+[INFO] (napari) This package is up to date.
+[INFO] (napari-aicsimageio) Data has been updated for this package.
+[INFO] (napari-allencell-segmenter) Data has been updated for this package.
 [INFO] (napari-animation) This package is up to date.
 [INFO] (napari-arboretum) This package is up to date.
-[INFO] (napari-arnheim) Data has been updated for this package.
+[INFO] (napari-arnheim) This package is up to date.
 [INFO] (napari-autolign) This package is up to date.
+[INFO] (napari-bioformats) Data has been updated for this package.
 [INFO] (napari-brainreg) This package is up to date.
 [INFO] (napari-brainreg-standard) This package is up to date.
 [INFO] (napari-btrack-reader) This package is up to date.
@@ -1084,16 +1090,19 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (napari-czifile2) This package is up to date.
+[INFO] (napari-czifile2) Data has been updated for this package.
 [INFO] (napari-deepmeta) This package is up to date.
 [INFO] (napari-demo) This package is up to date.
 [INFO] (napari-denoising) This package is up to date.
 [INFO] (napari-detection) This package is up to date.
+[INFO] (napari-dexp) This package is up to date.
 [INFO] (napari-dv) This package is up to date.
-[INFO] (napari-dvid) Data has been updated for this package.
+[INFO] (napari-dvid) This package is up to date.
 [INFO] (napari-dzi-zarr) This package is up to date.
 [INFO] (napari-em-reader) This package is up to date.
-[INFO] (napari-hdf5-labels-io) This package is up to date.
+[INFO] (napari-features) This package is up to date.
+[INFO] (napari-hdf5-labels-io) Data has been updated for this package.
+[INFO] (napari-hub-cli) This package is up to date.
 [ERROR] (napari-imagecodecs) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -1180,6 +1189,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (napari-ome-zarr) This package is up to date.
 [INFO] (napari-omero) This package is up to date.
 [INFO] (napari-pims-bioformats) This package is up to date.
 [INFO] (napari-plugin-devtools) This package is up to date.
@@ -1202,15 +1212,15 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (napari-properties-plotter) This package is up to date.
+[INFO] (napari-properties-plotter) Data has been updated for this package.
 [INFO] (napari-properties-viewer) This package is up to date.
-[INFO] (napari-pyclesperanto-assistant) This package is up to date.
+[INFO] (napari-pyclesperanto-assistant) Data has been updated for this package.
 [INFO] (napari-registration) This package is up to date.
 [INFO] (napari-s3zarr) This package is up to date.
 [INFO] (napari-segmentation) This package is up to date.
 [INFO] (napari-sentinel-to-zarr) This package is up to date.
 [INFO] (napari-sentinel-zip) This package is up to date.
-[INFO] (napari-skimage-regionprops) Data has been updated for this package.
+[INFO] (napari-skimage-regionprops) This package is up to date.
 [INFO] (napari-split-dataset) This package is up to date.
 [INFO] (napari-stpt) This package is up to date.
 [INFO] (napari-svg) This package is up to date.
@@ -1238,15 +1248,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (napari-tracks-reader) This package is up to date.
 [INFO] (napari-video) This package is up to date.
 [INFO] (napari-webcam) This package is up to date.
-[INFO] (napari-yapic-prediction) This package is up to date.
+[INFO] (napari-yapic-prediction) Data has been updated for this package.
 [INFO] (napatrackmater) This package is up to date.
 [INFO] (napi) This package is up to date.
 [INFO] (napi-py) This package is up to date.
+[INFO] (napit) Data has been updated for this package.
 [INFO] (napkin) This package is up to date.
 [INFO] (napkinxc) This package is up to date.
 [ERROR] (napoleon) This package does not have downloadable releases.
 [INFO] (napoleon2html) This package is up to date.
-[INFO] (napoleontoolbox) This package is up to date.
+[INFO] (napoleontoolbox) Data has been updated for this package.
 [INFO] (naposapi) This package is up to date.
 [INFO] (napper) This package is up to date.
 [INFO] (napping) This package is up to date.
@@ -1254,7 +1265,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (napplib) Data has been updated for this package.
 [INFO] (nappo) This package is up to date.
 [INFO] (nappy) This package is up to date.
-[INFO] (naps) Data has been updated for this package.
+[INFO] (naps) This package is up to date.
 [INFO] (naps-utilities) This package is up to date.
 [INFO] (napy) This package is up to date.
 [INFO] (nar-py) This package is up to date.
@@ -1337,13 +1348,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (narou-api) This package is up to date.
 [INFO] (narpy) This package is up to date.
-[INFO] (narration) Data has been updated for this package.
+[INFO] (narration) This package is up to date.
 [INFO] (narrative) This package is up to date.
 [INFO] (narrative2vec) This package is up to date.
 [INFO] (narrator) This package is up to date.
 [INFO] (narrow) This package is up to date.
 [INFO] (narrowband) This package is up to date.
 [INFO] (narsi-square) This package is up to date.
+[INFO] (narsil) This package is up to date.
 [INFO] (nart) This package is up to date.
 [INFO] (naruhodo) This package is up to date.
 [INFO] (narumi) This package is up to date.
@@ -1369,10 +1381,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nasapy) This package is up to date.
 [INFO] (nasbench-keras) This package is up to date.
 [INFO] (nasbench301) This package is up to date.
+[INFO] (nascorp-library) Data has been updated for this package.
 [INFO] (nasdaq-python) This package is up to date.
 [INFO] (nasdaq-stock) This package is up to date.
 [INFO] (nasdaq-stock-quote) This package is up to date.
-[INFO] (nasfilesystem) This package is up to date.
+[INFO] (nasfilesystem) Data has been updated for this package.
 [INFO] (nasgrpcfilesystem) This package is up to date.
 [INFO] (nash) This package is up to date.
 [INFO] (nash-makerbot) This package is up to date.
@@ -1381,7 +1394,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nashi) This package is up to date.
 [INFO] (nashi-ocr) This package is up to date.
 [INFO] (nashit) This package is up to date.
-[INFO] (nashpy) This package is up to date.
+[INFO] (nashpy) Data has been updated for this package.
 [INFO] (nashvegas) This package is up to date.
 [INFO] (nasim) This package is up to date.
 [INFO] (nasl-parser) This package is up to date.
@@ -1402,7 +1415,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (naster-2016825) This package is up to date.
 [INFO] (naster-dmtang) This package is up to date.
 [INFO] (naster-sytang) This package is up to date.
-[INFO] (nastja) This package is up to date.
+[INFO] (nastja) Data has been updated for this package.
 [INFO] (nastools) This package is up to date.
 [INFO] (nastran-pch-reader) This package is up to date.
 [INFO] (nastranpy) This package is up to date.
@@ -1491,11 +1504,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (national-id) This package is up to date.
 [INFO] (nationalarchivescensus) This package is up to date.
 [INFO] (nationality-predictor) This package is up to date.
-[INFO] (nationstates) This package is up to date.
+[INFO] (nationstates) Data has been updated for this package.
 [INFO] (nationwide) This package is up to date.
 [INFO] (nativdebugging) This package is up to date.
+[INFO] (native) This package is up to date.
 [INFO] (native-fork-locking) This package is up to date.
 [ERROR] (native-instrument-assingment) This package does not have downloadable releases.
+[INFO] (native-program) This package is up to date.
+[INFO] (native-programs) This package is up to date.
 [ERROR] (native-shortuuid) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -1520,6 +1536,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nativeconfig) This package is up to date.
 [INFO] (nativeimaging) This package is up to date.
 [INFO] (nativemessaging) This package is up to date.
+[INFO] (natives) This package is up to date.
 [INFO] (nativetypes) This package is up to date.
 [INFO] (nativo) This package is up to date.
 [INFO] (natlang) This package is up to date.
@@ -1533,7 +1550,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nato-cli) This package is up to date.
 [INFO] (nato-phonetic) This package is up to date.
 [INFO] (nato-spell) This package is up to date.
-[INFO] (natpy) This package is up to date.
+[INFO] (natpy) Data has been updated for this package.
 [INFO] (natpy-andre-scaffidi) This package is up to date.
 [INFO] (natrixclient) This package is up to date.
 [ERROR] (nats) This package does not have downloadable releases.
@@ -1542,7 +1559,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nats-publish) This package is up to date.
 [INFO] (nats-python) This package is up to date.
 [INFO] (nats-python-client) This package is up to date.
-[INFO] (nats-request-asap) Data has been updated for this package.
+[INFO] (nats-request-asap) This package is up to date.
 [INFO] (nats-scan-wrapper) This package is up to date.
 [INFO] (natsort) This package is up to date.
 [INFO] (natspec-utils) This package is up to date.
@@ -1563,7 +1580,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (natural-keys) This package is up to date.
 [INFO] (natural-money) This package is up to date.
 [INFO] (natural-questions) This package is up to date.
-[INFO] (natural-selection) Data has been updated for this package.
+[INFO] (natural-selection) This package is up to date.
 [INFO] (natural-time) This package is up to date.
 [INFO] (natural3) This package is up to date.
 [INFO] (naturalcolors) This package is up to date.
@@ -1583,6 +1600,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (naughty-and-nice) This package is up to date.
 [INFO] (naughty-parrot) This package is up to date.
 [INFO] (naughty-string-validator) This package is up to date.
+[INFO] (naughty-words-py) This package is up to date.
 [INFO] (naughtyclustered) This package is up to date.
 [INFO] (nauka) This package is up to date.
 [INFO] (naun) This package is up to date.
@@ -1604,13 +1622,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nautilus-registry) This package is up to date.
 [INFO] (nautilus-reigstry) This package is up to date.
 [INFO] (nautilus-terminal) This package is up to date.
-[INFO] (nautilus-trader) This package is up to date.
+[INFO] (nautilus-trader) Data has been updated for this package.
 [INFO] (nautiluspy) This package is up to date.
-[INFO] (nautiluszim) Data has been updated for this package.
+[INFO] (nautiluszim) This package is up to date.
 [INFO] (nautobot) This package is up to date.
 [INFO] (nautobot-capacity-metrics) This package is up to date.
-[INFO] (nautobot-chatops) Data has been updated for this package.
-[INFO] (nautobot-circuit-maintenance) Data has been updated for this package.
+[INFO] (nautobot-chatops) This package is up to date.
+[INFO] (nautobot-circuit-maintenance) This package is up to date.
 [INFO] (nautobot-data-validation-engine) This package is up to date.
 [INFO] (nautobot-device-onboarding) This package is up to date.
 [INFO] (nautobot-eox-notices) This package is up to date.
@@ -1672,13 +1690,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (navernews) This package is up to date.
 [INFO] (navernewscrawler) This package is up to date.
+[INFO] (naverpy) This package is up to date.
 [INFO] (naverscrap) This package is up to date.
 [INFO] (navertts) This package is up to date.
 [ERROR] (naverwebtoonfeeds) This package does not have downloadable releases.
 [INFO] (navgator) This package is up to date.
 [INFO] (navhip-python) This package is up to date.
 [INFO] (navi) This package is up to date.
-[INFO] (navi-pro) This package is up to date.
+[INFO] (navi-pro) Data has been updated for this package.
 [INFO] (naviance) This package is up to date.
 [INFO] (naviance-client) This package is up to date.
 [ERROR] (navic) Could not get a response from API for this package. See below for details.
@@ -1711,7 +1730,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (navierstokes) This package is up to date.
 [INFO] (navigation) This package is up to date.
-[INFO] (navigation-2d) Data has been updated for this package.
+[INFO] (navigation-2d) This package is up to date.
 [INFO] (navigation-mdp) This package is up to date.
 [INFO] (navigation-vis) This package is up to date.
 [INFO] (navigator) This package is up to date.
@@ -1755,7 +1774,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (navpreet-distributions) This package is up to date.
 [INFO] (navpy) This package is up to date.
 [INFO] (navrep) This package is up to date.
-[INFO] (navsim) This package is up to date.
+[INFO] (navsim) Data has been updated for this package.
 [ERROR] (navsoapmanager) Could not extract data from this package. See below for details.
 "https://github.com/mesa-erik/NavSoapManager/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
@@ -1789,7 +1808,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (navy-first) This package is up to date.
 [INFO] (navyapdf) This package is up to date.
 [INFO] (nawa) This package is up to date.
-[INFO] (nawah) Data has been updated for this package.
+[INFO] (nawah) This package is up to date.
 [INFO] (nawah-cli) This package is up to date.
 [INFO] (nawano) This package is up to date.
 [INFO] (nax) This package is up to date.
@@ -1835,11 +1854,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nb-cli) This package is up to date.
 [INFO] (nb-courselevels) This package is up to date.
 [INFO] (nb-cpp) This package is up to date.
-[INFO] (nb-extension-empinken) This package is up to date.
+[INFO] (nb-cron) This package is up to date.
+[INFO] (nb-extension-empinken) Data has been updated for this package.
 [INFO] (nb-extension-tagstyler) This package is up to date.
 [INFO] (nb-filelock) This package is up to date.
 [INFO] (nb-filter-cells) This package is up to date.
-[INFO] (nb-log) This package is up to date.
+[INFO] (nb-http-client) Data has been updated for this package.
+[INFO] (nb-log) Data has been updated for this package.
 [INFO] (nb-lua-kernel) This package is up to date.
 [INFO] (nb-mermaid) This package is up to date.
 [INFO] (nb-mypy) This package is up to date.
@@ -1849,6 +1870,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nb-python) This package is up to date.
 [INFO] (nb-quality-profile) This package is up to date.
 [INFO] (nb-search) This package is up to date.
+[INFO] (nb-serverproxy-openrefine) This package is up to date.
 [INFO] (nb-tfjs-mnist) This package is up to date.
 [INFO] (nb-toc) This package is up to date.
 [INFO] (nb-util) This package is up to date.
@@ -1869,7 +1891,27 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nba-api) This package is up to date.
 [INFO] (nba-data) This package is up to date.
 [INFO] (nba-gateway-pdenno) This package is up to date.
+[INFO] (nba-history) Data has been updated for this package.
 [INFO] (nba-images-client) This package is up to date.
+[ERROR] (nba-live-mobile-hack-full-free-cash) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/90/0d/5955e18c799d80a35a1a4bbc83bca547ee6c9a6bb83cc07951497d058386/NBA%20LIVE%20MOBILE%20HACK%20FULL%20FREE%20CASH-0.64.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nba-parser) This package is up to date.
 [INFO] (nba-pbp-scraper) This package is up to date.
 [INFO] (nba-player) This package is up to date.
@@ -1981,7 +2023,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nbg) This package is up to date.
 [INFO] (nbg-py) This package is up to date.
 [INFO] (nbgen) This package is up to date.
-[INFO] (nbgitpuller) Data has been updated for this package.
+[INFO] (nbgitpuller) This package is up to date.
 [INFO] (nbgitpuller-link) This package is up to date.
 [INFO] (nbgoogleanalytics) This package is up to date.
 [INFO] (nbgrader) This package is up to date.
@@ -2000,7 +2042,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nbimageviewer) This package is up to date.
 [INFO] (nbimport) This package is up to date.
 [INFO] (nbimporter) This package is up to date.
-[INFO] (nbin-golf) This package is up to date.
+[INFO] (nbin-golf) Data has been updated for this package.
 [INFO] (nbindex-jupyter) This package is up to date.
 [INFO] (nbinteract) This package is up to date.
 [INFO] (nbiot) This package is up to date.
@@ -2017,6 +2059,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nblogic) This package is up to date.
 [INFO] (nblspiderorm) This package is up to date.
 [INFO] (nbmake) This package is up to date.
+[INFO] (nbmanips) This package is up to date.
 [INFO] (nbmc) This package is up to date.
 [INFO] (nbmediasplit) This package is up to date.
 [INFO] (nbmelt) This package is up to date.
@@ -2070,7 +2113,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nbprogress) This package is up to date.
 [INFO] (nbpy) This package is up to date.
 [INFO] (nbpyhelp) This package is up to date.
-[INFO] (nbqa) Data has been updated for this package.
+[INFO] (nbqa) This package is up to date.
 [INFO] (nbreport) This package is up to date.
 [INFO] (nbreproduce) This package is up to date.
 [INFO] (nbrequests) This package is up to date.
@@ -2108,7 +2151,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nbsvm-sklearn) This package is up to date.
 [INFO] (nbsysinfo) This package is up to date.
 [INFO] (nbt) This package is up to date.
-[INFO] (nbt-utils) Data has been updated for this package.
+[INFO] (nbt-utils) This package is up to date.
 [INFO] (nbt2yaml) This package is up to date.
 [INFO] (nbtabs) This package is up to date.
 [INFO] (nbtemplate) This package is up to date.
@@ -2189,7 +2232,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nc) This package is up to date.
 [INFO] (nc-dnsapi) This package is up to date.
 [INFO] (nc-scp-api) This package is up to date.
-[INFO] (nc-time-axis) Data has been updated for this package.
+[INFO] (nc-time-axis) This package is up to date.
 [INFO] (nc-utils) This package is up to date.
 [INFO] (nc5ng) This package is up to date.
 [INFO] (nc5ng-common) This package is up to date.
@@ -2256,6 +2299,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ncdu-dropbox) This package is up to date.
 [INFO] (ncdu-s3) This package is up to date.
 [INFO] (ncellapp) This package is up to date.
+[INFO] (ncem) Data has been updated for this package.
 [INFO] (ncempy) This package is up to date.
 [INFO] (ncep-client) This package is up to date.
 [INFO] (ncephes) This package is up to date.
@@ -2268,6 +2312,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nch-distributions) This package is up to date.
 [INFO] (nch-distributions-1) This package is up to date.
 [INFO] (nchash) This package is up to date.
+[INFO] (nchu-sdk) This package is up to date.
 [INFO] (nci) This package is up to date.
 [INFO] (nci-config-loader) This package is up to date.
 [INFO] (nci-eval) This package is up to date.
@@ -2293,9 +2338,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ncloud-vserver) This package is up to date.
 [INFO] (ncloudaisdk) This package is up to date.
 [INFO] (nclpy) This package is up to date.
-[INFO] (ncls) Data has been updated for this package.
+[INFO] (ncls) This package is up to date.
 [INFO] (ncluster) This package is up to date.
-[INFO] (nclustgen) Data has been updated for this package.
+[INFO] (nclustgen) This package is up to date.
 [INFO] (ncm) This package is up to date.
 [INFO] (ncmb) This package is up to date.
 [INFO] (ncmbot) This package is up to date.
@@ -2304,17 +2349,19 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ncmon) This package is up to date.
 [INFO] (ncmpy) This package is up to date.
 [INFO] (ncnn) This package is up to date.
+[INFO] (ncnnqat) This package is up to date.
 [INFO] (ncnyt) This package is up to date.
 [INFO] (nco) This package is up to date.
 [INFO] (ncobj) This package is up to date.
 [ERROR] (ncoda) This package does not have downloadable releases.
-[INFO] (ncollpyde) Data has been updated for this package.
+[INFO] (ncollpyde) This package is up to date.
 [INFO] (ncolony) This package is up to date.
 [INFO] (ncomix) This package is up to date.
 [INFO] (ncon) This package is up to date.
 [INFO] (nconsole) This package is up to date.
 [INFO] (ncoop57-mages) This package is up to date.
 [INFO] (ncoreparser) This package is up to date.
+[INFO] (ncortho) Data has been updated for this package.
 [INFO] (ncov) This package is up to date.
 [INFO] (ncov-parser) Data has been updated for this package.
 [INFO] (ncp) This package is up to date.
@@ -2343,7 +2390,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ncs-tools) This package is up to date.
 [INFO] (ncs-yang) This package is up to date.
 [INFO] (ncs2-device-plugin) This package is up to date.
-[INFO] (ncscli) This package is up to date.
+[INFO] (ncscli) Data has been updated for this package.
 [ERROR] (ncsdaemon) This package does not have downloadable releases.
 [INFO] (ncshunter) This package is up to date.
 [INFO] (ncssl-api-client) This package is up to date.
@@ -2378,7 +2425,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ncsv) This package is up to date.
 [INFO] (nctf-2019-installme) This package is up to date.
 [INFO] (nctime) This package is up to date.
-[INFO] (nctoolkit) This package is up to date.
+[INFO] (nctoolkit) Data has been updated for this package.
 [INFO] (nctools) This package is up to date.
 [INFO] (nctu-oauth) This package is up to date.
 [INFO] (ncu-python-edm) This package is up to date.
@@ -2386,13 +2433,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ncutils) This package is up to date.
 [INFO] (ncvis) This package is up to date.
 [ERROR] (ncvtk) This package does not have downloadable releases.
-[INFO] (ncvue) Data has been updated for this package.
+[INFO] (ncvue) This package is up to date.
 [INFO] (ncvx) This package is up to date.
 [INFO] (nd) This package is up to date.
 [INFO] (nd-distriprob) This package is up to date.
 [INFO] (nd-hopfield) This package is up to date.
 [INFO] (nd-metrics) This package is up to date.
-[INFO] (nd-mlp-mixer) Data has been updated for this package.
+[INFO] (nd-mlp-mixer) This package is up to date.
 [INFO] (nd-primer) This package is up to date.
 [INFO] (nd-project) This package is up to date.
 [ERROR] (nd-reader) Could not get a response from API for this package. See below for details.
@@ -2421,7 +2468,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nd2reader) This package is up to date.
 [INFO] (nd456) This package is up to date.
 [INFO] (nd4j) This package is up to date.
-[INFO] (nda-tools) This package is up to date.
+[INFO] (nda-tools) Data has been updated for this package.
 [INFO] (ndantoinpdf) This package is up to date.
 [INFO] (ndar-backend) This package is up to date.
 [INFO] (ndar-unpack) This package is up to date.
@@ -2442,6 +2489,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ndb-x) This package is up to date.
 [INFO] (ndbc) This package is up to date.
 [INFO] (ndbd-distributions) This package is up to date.
+[INFO] (ndbd-probability) This package is up to date.
 [INFO] (ndbext) This package is up to date.
 [INFO] (ndblite) This package is up to date.
 [INFO] (ndbounds) This package is up to date.
@@ -2515,7 +2563,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ndh) This package is up to date.
 [INFO] (ndi-formatter) This package is up to date.
 [INFO] (ndic) This package is up to date.
-[INFO] (ndicapi) Data has been updated for this package.
+[INFO] (ndicapi) This package is up to date.
 [INFO] (ndicom-cuda-kmeans) This package is up to date.
 [INFO] (ndicom-fcm) This package is up to date.
 [INFO] (ndicom-gauss-kernel-kmeans) This package is up to date.
@@ -2586,6 +2634,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ndml-probability-distributions) This package is up to date.
 [INFO] (ndms2-client) This package is up to date.
 [INFO] (ndmtk) This package is up to date.
+[INFO] (ndn-hydra) Data has been updated for this package.
 [INFO] (ndn-ms) This package is up to date.
 [INFO] (ndn-python-repo) This package is up to date.
 [ERROR] (ndn-repo) Could not get a response from API for this package. See below for details.
@@ -2650,12 +2699,14 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (nds) This package is up to date.
 [INFO] (nds2utils) This package is up to date.
 [INFO] (ndsampler) This package is up to date.
 [INFO] (ndsb) This package is up to date.
 [INFO] (ndscheduler) This package is up to date.
 [INFO] (ndscope) This package is up to date.
 [INFO] (ndserviceregistry) This package is up to date.
+[INFO] (ndsi) This package is up to date.
 [INFO] (ndslogfetcher) This package is up to date.
 [INFO] (ndsplines) This package is up to date.
 [INFO] (ndspy) This package is up to date.
@@ -2668,7 +2719,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ndtreepy) This package is up to date.
 [INFO] (ndtypes) This package is up to date.
 [INFO] (ndu-gate-camera) This package is up to date.
-[INFO] (ndu-gateway) Data has been updated for this package.
+[INFO] (ndu-gateway) This package is up to date.
 [INFO] (ndv-dist) This package is up to date.
 [INFO] (ndvector) This package is up to date.
 [INFO] (ndvi2gif) This package is up to date.
@@ -2706,11 +2757,29 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nealpan-nester) This package is up to date.
 [INFO] (neapolitan) This package is up to date.
 [INFO] (near) This package is up to date.
-[INFO] (near-corr-mat) This package is up to date.
+[ERROR] (near-corr-mat) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nearbeach) This package is up to date.
 [INFO] (nearbeachapi) This package is up to date.
 [INFO] (nearby) This package is up to date.
 [ERROR] (nearchus) This package does not have downloadable releases.
+[INFO] (nearcorrmat) This package is up to date.
 [INFO] (nearduplicatesdetection) This package is up to date.
 [INFO] (nearest-neighbors) This package is up to date.
 [INFO] (nearest-square) This package is up to date.
@@ -2721,6 +2790,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nearside) This package is up to date.
 [INFO] (nearst) This package is up to date.
 [INFO] (nearup) This package is up to date.
+[INFO] (nease) This package is up to date.
 [INFO] (neast) This package is up to date.
 [INFO] (neaster) This package is up to date.
 [INFO] (neaster2) This package is up to date.
@@ -2803,6 +2873,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nebulapythonsdk) This package is up to date.
 [INFO] (nebulas) This package is up to date.
 [INFO] (nebulassdkpy) This package is up to date.
+[INFO] (nebulatrading) This package is up to date.
 [INFO] (nebulento) This package is up to date.
 [INFO] (nebulizer) This package is up to date.
 [INFO] (nebulo) This package is up to date.
@@ -2886,6 +2957,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (needs) This package is up to date.
 [ERROR] (needy) This package does not have downloadable releases.
 [INFO] (needystates) This package is up to date.
+[INFO] (neegpred) This package is up to date.
 [INFO] (neeha-test) This package is up to date.
 [INFO] (neehi) This package is up to date.
 [INFO] (neel) This package is up to date.
@@ -2979,7 +3051,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (negetis) This package is up to date.
 [INFO] (negex) This package is up to date.
 [INFO] (negima) This package is up to date.
-[INFO] (negmas) Data has been updated for this package.
+[INFO] (negmas) This package is up to date.
 [INFO] (nego) This package is up to date.
 [INFO] (negotiate) This package is up to date.
 [INFO] (negotiator) This package is up to date.
@@ -2990,7 +3062,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (negotiator2) This package is up to date.
 [INFO] (negspacy) This package is up to date.
 [INFO] (negspy) This package is up to date.
-[INFO] (nehushtan) Data has been updated for this package.
+[INFO] (nehushtan) This package is up to date.
 [INFO] (nei) This package is up to date.
 [INFO] (neighborhood) This package is up to date.
 [INFO] (neighborhood-analysis) This package is up to date.
@@ -3001,7 +3073,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neil) This package is up to date.
 [INFO] (neilpdf) This package is up to date.
 [INFO] (neiqian) This package is up to date.
-[INFO] (neiro) Data has been updated for this package.
+[INFO] (neiro) This package is up to date.
 [INFO] (neispy) This package is up to date.
 [ERROR] (neith) This package does not have downloadable releases.
 [INFO] (nejgit) This package is up to date.
@@ -3023,9 +3095,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nekobot) This package is up to date.
 [INFO] (nekocas) This package is up to date.
 [INFO] (nekogirl) This package is up to date.
+[INFO] (nekomimi) Data has been updated for this package.
 [INFO] (nekoplot) This package is up to date.
 [INFO] (nekos-py) This package is up to date.
-[INFO] (nekosbest) Data has been updated for this package.
+[INFO] (nekosbest) This package is up to date.
+[INFO] (nekosfw) This package is up to date.
 [INFO] (nekoyume) This package is up to date.
 [INFO] (nekpy) This package is up to date.
 [INFO] (nekrobox) This package is up to date.
@@ -3095,7 +3169,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nelsnmp) This package is up to date.
 [INFO] (nelson) This package is up to date.
 [INFO] (nelson-siegel-svensson) This package is up to date.
-[INFO] (nelsoncheck) Data has been updated for this package.
+[INFO] (nelsoncheck) This package is up to date.
 [INFO] (nelsonsaludo) This package is up to date.
 [INFO] (nelsonsiegel) This package is up to date.
 [INFO] (nelxte) This package is up to date.
@@ -3109,7 +3183,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nemea-pycommon) This package is up to date.
 [INFO] (nemea-pytrap) This package is up to date.
 [INFO] (nemesis) This package is up to date.
-[INFO] (nemesis-daxfeliz) Data has been updated for this package.
+[INFO] (nemesis-daxfeliz) This package is up to date.
 [INFO] (nemesispdf) This package is up to date.
 [INFO] (nemesistest) This package is up to date.
 [ERROR] (nemezizpdf) Could not get a response from API for this package. See below for details.
@@ -3163,7 +3237,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (nemo-sz) This package is up to date.
 [INFO] (nemo-templates) This package is up to date.
-[INFO] (nemo-toolkit) Data has been updated for this package.
+[INFO] (nemo-toolkit) This package is up to date.
+[INFO] (nemo-transaction-validation) Data has been updated for this package.
 [INFO] (nemo-tts) This package is up to date.
 [INFO] (nemoa) This package is up to date.
 [ERROR] (nemoest) Could not get a response from API for this package. See below for details.
@@ -3184,17 +3259,19 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (nemonet) Data has been updated for this package.
+[INFO] (nemonet) This package is up to date.
 [INFO] (nemopt) This package is up to date.
-[INFO] (nemosis) This package is up to date.
+[INFO] (nemosis) Data has been updated for this package.
+[INFO] (nemosyne) This package is up to date.
 [INFO] (nempy) This package is up to date.
 [INFO] (nemreader) This package is up to date.
 [INFO] (nems) This package is up to date.
 [INFO] (nemsdk) This package is up to date.
-[INFO] (nemspy) This package is up to date.
+[INFO] (nemspy) Data has been updated for this package.
 [INFO] (nemster) This package is up to date.
-[INFO] (nemtropy) Data has been updated for this package.
+[INFO] (nemtropy) This package is up to date.
 [INFO] (nemu) This package is up to date.
+[INFO] (nemui) This package is up to date.
 [ERROR] (nemunemuhello) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -3221,7 +3298,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nengo-bones) This package is up to date.
 [INFO] (nengo-dl) This package is up to date.
 [INFO] (nengo-extras) This package is up to date.
-[INFO] (nengo-gui) Data has been updated for this package.
+[INFO] (nengo-gui) This package is up to date.
 [INFO] (nengo-loihi) This package is up to date.
 [INFO] (nengo-ocl) This package is up to date.
 [INFO] (nengo-spa) This package is up to date.
@@ -3258,13 +3335,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neo3vm-stubs) This package is up to date.
 [INFO] (neo4ast) This package is up to date.
 [INFO] (neo4django) This package is up to date.
-[INFO] (neo4j) This package is up to date.
+[INFO] (neo4j) Data has been updated for this package.
 [INFO] (neo4j-api) This package is up to date.
 [INFO] (neo4j-bigbang) This package is up to date.
 [INFO] (neo4j-connector) This package is up to date.
 [INFO] (neo4j-decorators) This package is up to date.
 [INFO] (neo4j-doc-manager) This package is up to date.
-[INFO] (neo4j-driver) This package is up to date.
+[INFO] (neo4j-driver) Data has been updated for this package.
 [INFO] (neo4j-gds) This package is up to date.
 [INFO] (neo4j-graphql-py) This package is up to date.
 [INFO] (neo4japi) This package is up to date.
@@ -3293,17 +3370,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neo4py) This package is up to date.
 [INFO] (neoalchemy) This package is up to date.
 [INFO] (neoapi) This package is up to date.
-[INFO] (neobase) This package is up to date.
+[INFO] (neobase) Data has been updated for this package.
 [INFO] (neobee) This package is up to date.
 [INFO] (neobolt) This package is up to date.
 [INFO] (neobot) This package is up to date.
-[INFO] (neobulkmp) This package is up to date.
+[INFO] (neobulkmp) Data has been updated for this package.
 [INFO] (neochain) This package is up to date.
 [INFO] (neocommand) This package is up to date.
 [INFO] (neocompilermodelloaders) This package is up to date.
 [INFO] (neocore) This package is up to date.
 [INFO] (neocortex) This package is up to date.
-[INFO] (neocrym-sphinx-theme) This package is up to date.
+[INFO] (neocrym-sphinx-theme) Data has been updated for this package.
 [INFO] (neodigit-dyndns) This package is up to date.
 [INFO] (neodjango) This package is up to date.
 [INFO] (neodroid) This package is up to date.
@@ -3333,6 +3410,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neoepiscope) This package is up to date.
 [INFO] (neofetch-win) This package is up to date.
 [INFO] (neofox) This package is up to date.
+[INFO] (neogiinstruments) Data has been updated for this package.
 [INFO] (neogm) This package is up to date.
 [INFO] (neographviz) This package is up to date.
 [INFO] (neohub) This package is up to date.
@@ -3359,7 +3437,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neon-diagrams) This package is up to date.
 [INFO] (neon-goby) This package is up to date.
 [INFO] (neon-goby-saleswhale) This package is up to date.
-[INFO] (neon-nlp) This package is up to date.
+[INFO] (neon-ml) This package is up to date.
 [INFO] (neon-py) This package is up to date.
 [INFO] (neon-schemas) This package is up to date.
 [INFO] (neonmob) This package is up to date.
@@ -3369,6 +3447,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neonx) This package is up to date.
 [INFO] (neop) This package is up to date.
 [INFO] (neopdf) This package is up to date.
+[INFO] (neopitool) This package is up to date.
 [INFO] (neopixel-plus) This package is up to date.
 [INFO] (neoppod) This package is up to date.
 [INFO] (neoptolemus-cli) This package is up to date.
@@ -3387,7 +3466,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neoscrypt-python) This package is up to date.
 [INFO] (neosdong-nester) This package is up to date.
 [INFO] (neosensory-python) This package is up to date.
-[INFO] (neosh) Data has been updated for this package.
+[INFO] (neosh) This package is up to date.
 [INFO] (neosign) This package is up to date.
 [INFO] (neospatial) This package is up to date.
 [INFO] (neotasker) This package is up to date.
@@ -3408,6 +3487,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nepal-company-registrar) This package is up to date.
 [INFO] (nepal-forex) This package is up to date.
 [INFO] (nepal-stock) This package is up to date.
+[INFO] (nepal-stonks) This package is up to date.
 [INFO] (nepaldatascrapper) This package is up to date.
 [INFO] (nepali) This package is up to date.
 [INFO] (nepali-date) This package is up to date.
@@ -3451,8 +3531,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nepitope) This package is up to date.
 [INFO] (nepo) This package is up to date.
 [INFO] (nepox) This package is up to date.
-[INFO] (nepse) Data has been updated for this package.
-[INFO] (nepse-api) Data has been updated for this package.
+[INFO] (nepse) This package is up to date.
+[INFO] (nepse-api) This package is up to date.
+[INFO] (nepsense) Data has been updated for this package.
 [INFO] (nepserate) This package is up to date.
 [INFO] (nepseutils) This package is up to date.
 [INFO] (nepster) This package is up to date.
@@ -3479,8 +3560,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (neptune-cache-redis) This package is up to date.
 [INFO] (neptune-cli) This package is up to date.
-[INFO] (neptune-client) This package is up to date.
-[INFO] (neptune-contrib) This package is up to date.
+[INFO] (neptune-client) Data has been updated for this package.
+[INFO] (neptune-contrib) Data has been updated for this package.
 [INFO] (neptune-dns-server) This package is up to date.
 [INFO] (neptune-dnsoverhttps-protocol) This package is up to date.
 [INFO] (neptune-fastai) Data has been updated for this package.
@@ -3493,10 +3574,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (neptune-resolver-default) This package is up to date.
 [INFO] (neptune-resolver-redis) This package is up to date.
 [INFO] (neptune-resolver-rest) This package is up to date.
-[INFO] (neptune-sacred) This package is up to date.
+[INFO] (neptune-sacred) Data has been updated for this package.
 [INFO] (neptune-sklearn) This package is up to date.
 [INFO] (neptune-tensorboard) This package is up to date.
-[INFO] (neptune-tensorflow-keras) This package is up to date.
+[INFO] (neptune-tensorflow-keras) Data has been updated for this package.
 [INFO] (neptune-xgboost) Data has been updated for this package.
 [INFO] (neptuno2) This package is up to date.
 [INFO] (nepy) This package is up to date.
@@ -3507,8 +3588,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ner-d) This package is up to date.
 [INFO] (ner-error-analysis) This package is up to date.
 [INFO] (ner-s2s) This package is up to date.
-[INFO] (nerblackbox) This package is up to date.
+[INFO] (nerblackbox) Data has been updated for this package.
 [INFO] (nerd) This package is up to date.
+[INFO] (nerd-color) This package is up to date.
 [ERROR] (nerd-reviewer) This package does not have downloadable releases.
 [INFO] (nerd-storage) This package is up to date.
 [INFO] (nerd-vision) This package is up to date.
@@ -3518,6 +3600,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nerdirc) This package is up to date.
 [INFO] (nerdlog) This package is up to date.
 [INFO] (nerdo) This package is up to date.
+[INFO] (nerdpool-client) Data has been updated for this package.
 [INFO] (nerdvision) This package is up to date.
 [INFO] (nerdvision-grpc-api) This package is up to date.
 [INFO] (nerdvision-serverless) This package is up to date.
@@ -3578,6 +3661,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (nero) This package is up to date.
 [INFO] (nero-nlp) This package is up to date.
 [INFO] (nerodia) This package is up to date.
+[INFO] (neron) This package is up to date.
 [INFO] (neronet) This package is up to date.
 [INFO] (nerparser) This package is up to date.
 [INFO] (nersi) This package is up to date.
@@ -3590,6 +3674,7 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (nervaluate) This package is up to date.
 [INFO] (nervanagpu) This package is up to date.
 [INFO] (nervananeon) This package is up to date.
+[INFO] (nervatura) Data has been updated for this package.
 [ERROR] (nerve) This package does not have downloadable releases.
 [INFO] (nerve-api) This package is up to date.
 [INFO] (nerwhal) This package is up to date.
@@ -3619,11 +3704,11 @@ urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 [INFO] (nesp-lib) This package is up to date.
 [INFO] (nesper) This package is up to date.
 [INFO] (nespy) This package is up to date.
-[INFO] (nessai) This package is up to date.
+[INFO] (nessai) Data has been updated for this package.
 [INFO] (nessaid-cli) This package is up to date.
 [INFO] (nessaws) This package is up to date.
 [INFO] (nessclient) This package is up to date.
-[INFO] (nessiedemo) Data has been updated for this package.
+[INFO] (nessiedemo) This package is up to date.
 [INFO] (nessrest) This package is up to date.
 [INFO] (nesssery) This package is up to date.
 [INFO] (nessus) This package is up to date.
@@ -3666,13 +3751,14 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (nest-desktop) This package is up to date.
+[INFO] (nest-desktop) Data has been updated for this package.
 [INFO] (nest-distributions) This package is up to date.
 [INFO] (nest-function) This package is up to date.
 [INFO] (nest-le) This package is up to date.
 [INFO] (nest-list) This package is up to date.
 [INFO] (nest-list-print) This package is up to date.
 [INFO] (nest-loop) This package is up to date.
+[INFO] (nest-on-square-wheels) This package is up to date.
 [INFO] (nest-p) This package is up to date.
 [INFO] (nest-pf) This package is up to date.
 [INFO] (nest-printer) This package is up to date.
@@ -3697,6 +3783,7 @@ Unsupported package directory structure.
 [INFO] (nestargs) This package is up to date.
 [INFO] (nestartg) This package is up to date.
 [INFO] (nestback) This package is up to date.
+[INFO] (nestbackup) Data has been updated for this package.
 [INFO] (nestcecil) This package is up to date.
 [INFO] (nestcheck) This package is up to date.
 [INFO] (nestconverge) This package is up to date.
@@ -4536,6 +4623,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nester-peter) This package is up to date.
 [INFO] (nester-pj) This package is up to date.
 [INFO] (nester-pjy) This package is up to date.
+[INFO] (nester-pkg-edemrobin) This package is up to date.
 [INFO] (nester-pkg-gjones1228) This package is up to date.
 [INFO] (nester-plough) This package is up to date.
 [ERROR] (nester-pochuan) Could not get a response from API for this package. See below for details.
@@ -5852,7 +5940,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nestlistjaco1) This package is up to date.
 [INFO] (nestlistjacotest) This package is up to date.
 [INFO] (nestly) This package is up to date.
-[INFO] (nestml) Data has been updated for this package.
+[INFO] (nestml) This package is up to date.
 [INFO] (nestmod) This package is up to date.
 [INFO] (nestnainaing) This package is up to date.
 [INFO] (nestnone) This package is up to date.
@@ -5911,9 +5999,28 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (net-con-check) This package does not have downloadable releases.
 [INFO] (net-conf) This package is up to date.
 [INFO] (net-contextdiff) This package is up to date.
+[ERROR] (net-devices2) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (net-emulator) This package is up to date.
 [INFO] (net-file) This package is up to date.
 [INFO] (net-genconfig) This package is up to date.
+[INFO] (net-gsd) Data has been updated for this package.
 [INFO] (net-health) This package is up to date.
 [INFO] (net-inventorylib) This package is up to date.
 [INFO] (net-maurus-authserver) This package is up to date.
@@ -5941,7 +6048,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (net-speed-checker) This package is up to date.
 [INFO] (net-speed-monitor) This package is up to date.
 [INFO] (net-survey) This package is up to date.
-[INFO] (net-templates) Data has been updated for this package.
+[INFO] (net-templates) This package is up to date.
 [INFO] (net-tester) This package is up to date.
 [INFO] (net-tools) This package is up to date.
 [INFO] (net-uml-draw) This package is up to date.
@@ -5961,6 +6068,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netana) This package is up to date.
 [INFO] (netapi) This package is up to date.
 [INFO] (netapp-api) This package is up to date.
+[INFO] (netapp-dataops-k8s) This package is up to date.
+[INFO] (netapp-dataops-traditional) This package is up to date.
 [INFO] (netapp-lib) This package is up to date.
 [INFO] (netapp-ocum) This package is up to date.
 [INFO] (netapp-ontap) This package is up to date.
@@ -5974,7 +6083,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netatmo) This package is up to date.
 [INFO] (netatmo-client) This package is up to date.
 [INFO] (netatmo2influxdb) This package is up to date.
-[INFO] (netatmoqc) Data has been updated for this package.
+[INFO] (netatmoqc) This package is up to date.
 [INFO] (netauto) This package is up to date.
 [INFO] (netbars) This package is up to date.
 [INFO] (netbase) This package is up to date.
@@ -5982,13 +6091,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netbeansconverter) This package is up to date.
 [INFO] (netbeansifier) This package is up to date.
 [INFO] (netbee) This package is up to date.
+[INFO] (netbench) This package is up to date.
 [ERROR] (netbin) This package does not have downloadable releases.
 [INFO] (netbiosspoof) This package is up to date.
 [INFO] (netblocks) This package is up to date.
 [INFO] (netblocks3) This package is up to date.
 [INFO] (netblow) This package is up to date.
 [INFO] (netbluemind) This package is up to date.
-[INFO] (netbluemind4) Data has been updated for this package.
+[INFO] (netbluemind4) This package is up to date.
 [INFO] (netboot-config) This package is up to date.
 [INFO] (netbox-agent) This package is up to date.
 [INFO] (netbox-animal-sounds) This package is up to date.
@@ -5996,7 +6106,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netbox-announcement) This package is up to date.
 [INFO] (netbox-api) This package is up to date.
 [INFO] (netbox-aws-accounts) This package is up to date.
-[INFO] (netbox-bgp) This package is up to date.
+[INFO] (netbox-bgp) Data has been updated for this package.
 [INFO] (netbox-cable-expansion) This package is up to date.
 [INFO] (netbox-capirca-plugin) This package is up to date.
 [INFO] (netbox-client) This package is up to date.
@@ -6067,6 +6177,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netcloud) This package is up to date.
 [INFO] (netcloudapi) This package is up to date.
 [INFO] (netcm) This package is up to date.
+[INFO] (netcoloc) This package is up to date.
 [INFO] (netcomp) This package is up to date.
 [INFO] (netconan) This package is up to date.
 [INFO] (netconan-nsv) This package is up to date.
@@ -6139,6 +6250,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netfleece) This package is up to date.
 [INFO] (netflix) This package is up to date.
 [INFO] (netflix-blocklist-test) This package is up to date.
+[INFO] (netflix-org) Data has been updated for this package.
 [INFO] (netflix-roulette) This package is up to date.
 [INFO] (netflix-spectator-py) This package is up to date.
 [INFO] (netflix-spectator-pyconf) This package is up to date.
@@ -6154,7 +6266,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netgard) This package is up to date.
 [INFO] (netgen) This package is up to date.
 [INFO] (netgrab) This package is up to date.
-[INFO] (netgraph) Data has been updated for this package.
+[INFO] (netgraph) This package is up to date.
 [INFO] (netgrasp) This package is up to date.
 [INFO] (netgrep) This package is up to date.
 [INFO] (netguru-recruitment-task-adrian) This package is up to date.
@@ -6258,6 +6370,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netmaker) This package is up to date.
 [INFO] (netman) This package is up to date.
 [INFO] (netmanager) This package is up to date.
+[INFO] (netmap) This package is up to date.
 [INFO] (netmath) This package is up to date.
 [INFO] (netmem) This package is up to date.
 [INFO] (netmetr-proxy) This package is up to date.
@@ -6274,7 +6387,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netoi-check) This package is up to date.
 [INFO] (netom) This package is up to date.
 [INFO] (netomaton) This package is up to date.
-[INFO] (netonics) Data has been updated for this package.
+[INFO] (netonics) This package is up to date.
 [INFO] (netoprmgr) This package is up to date.
 [INFO] (netopsauto) This package is up to date.
 [INFO] (netorcai) This package is up to date.
@@ -6329,6 +6442,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netropy) This package is up to date.
 [ERROR] (netrunner) This package does not have downloadable releases.
 [INFO] (nets) This package is up to date.
+[INFO] (netsblox) Data has been updated for this package.
 [INFO] (netscaler-api) This package is up to date.
 [INFO] (netscaler-tool) This package is up to date.
 [INFO] (netschoolapi) This package is up to date.
@@ -6336,7 +6450,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netscrypt) This package is up to date.
 [INFO] (netscud) This package is up to date.
 [INFO] (netsdldv) This package is up to date.
-[INFO] (netseasy) Data has been updated for this package.
+[INFO] (netseasy) This package is up to date.
 [INFO] (netser20) This package is up to date.
 [INFO] (netset) This package is up to date.
 [INFO] (netsgiro) This package is up to date.
@@ -6349,6 +6463,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netsight-cloudstorage) This package is up to date.
 [INFO] (netsight-windowsauthplugin) This package is up to date.
 [INFO] (netsim) This package is up to date.
+[INFO] (netsim-tools) Data has been updated for this package.
 [INFO] (netsim-wrapper) This package is up to date.
 [INFO] (netsink) This package is up to date.
 [INFO] (netsnmp-py) This package is up to date.
@@ -6357,6 +6472,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netspeed) This package is up to date.
 [INFO] (netspeedmonitor) This package is up to date.
 [ERROR] (netsquid) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (netsrv) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
     timeout=10).read()
@@ -6400,11 +6533,12 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (netticapy) This package is up to date.
 [INFO] (nettigo-air-monitor) This package is up to date.
 [INFO] (nettlesome) This package is up to date.
-[INFO] (nettoolkit) This package is up to date.
+[INFO] (nettoolkit) Data has been updated for this package.
 [INFO] (nettools) This package is up to date.
 [INFO] (nettrade) This package is up to date.
 [INFO] (nettraffic) This package is up to date.
 [INFO] (nettrarec) This package is up to date.
+[INFO] (netty) This package is up to date.
 [INFO] (netty-finder) This package is up to date.
 [INFO] (netuitive) This package is up to date.
 [INFO] (netuitive-statsd) This package is up to date.
@@ -6412,7 +6546,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (netunnel) This package is up to date.
 [INFO] (netunnel-jwthenticator) This package is up to date.
 [INFO] (netutil) This package is up to date.
-[INFO] (netutils) Data has been updated for this package.
+[INFO] (netutils) This package is up to date.
 [INFO] (netutils-linux) This package is up to date.
 [INFO] (netviel) This package is up to date.
 [INFO] (netview) This package is up to date.
@@ -6431,7 +6565,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [ERROR] (network-checker) This package does not have downloadable releases.
 [INFO] (network-cli) This package is up to date.
 [INFO] (network-connectivity-tester) This package is up to date.
-[INFO] (network-control) Data has been updated for this package.
+[INFO] (network-control) This package is up to date.
 [INFO] (network-dict) This package is up to date.
 [INFO] (network-diffusion) This package is up to date.
 [INFO] (network-docopt) This package is up to date.
@@ -6440,6 +6574,35 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (network-importer) This package is up to date.
 [INFO] (network-interface) This package is up to date.
 [INFO] (network-interfaces) This package is up to date.
+[INFO] (network-manager-dispatcher-app) This package is up to date.
+[ERROR] (network-manager-dispatcher-app-hat) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [ERROR] (network-meeting-example-101) This package does not have downloadable releases.
 [INFO] (network-meeting-example-banwait) This package is up to date.
 [ERROR] (network-meeting-example-bhulsebusch) This package does not have downloadable releases.
@@ -6482,6 +6645,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (network-serializer) This package is up to date.
 [INFO] (network-stability) This package is up to date.
 [INFO] (network-statistics-service) This package is up to date.
+[INFO] (network-symmetry) This package is up to date.
 [INFO] (network-tester) This package is up to date.
 [INFO] (network-tools) This package is up to date.
 [INFO] (network-topology) This package is up to date.
@@ -6553,6 +6717,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (networkl) This package is up to date.
 [INFO] (networklib) This package is up to date.
 [INFO] (networkliteraturedownloader) This package is up to date.
+[INFO] (networkm) Data has been updated for this package.
 [INFO] (networkml) This package is up to date.
 [INFO] (networkparse) This package is up to date.
 [INFO] (networkqa) This package is up to date.
@@ -6581,12 +6746,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (netx) This package is up to date.
 [INFO] (netxlib) This package is up to date.
 [INFO] (nety) This package is up to date.
-[INFO] (netyce) Data has been updated for this package.
+[INFO] (netyce) This package is up to date.
 [INFO] (netz) This package is up to date.
 [INFO] (netzero) This package is up to date.
 [INFO] (netzob) This package is up to date.
 [INFO] (netzwerk) This package is up to date.
 [INFO] (neu) This package is up to date.
+[INFO] (neu-ipgw-manager) Data has been updated for this package.
 [ERROR] (neuauth) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -6608,6 +6774,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (neucleus) This package does not have downloadable releases.
 [INFO] (neufbox-client) This package is up to date.
 [INFO] (neulang) This package is up to date.
+[INFO] (neulprogrammist) This package is up to date.
 [INFO] (neumf) This package is up to date.
 [INFO] (neunorm) This package is up to date.
 [INFO] (neuprint-python) This package is up to date.
@@ -6641,6 +6808,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (neural-mmo) This package is up to date.
 [ERROR] (neural-network) This package does not have downloadable releases.
 [INFO] (neural-networks-tfw1) This package is up to date.
 [INFO] (neural-pipeline) This package is up to date.
@@ -6782,7 +6950,7 @@ Unsupported package directory structure.
 [INFO] (neuro-athelets) This package is up to date.
 [INFO] (neuro-cli) Data has been updated for this package.
 [INFO] (neuro-extras) This package is up to date.
-[INFO] (neuro-flow) This package is up to date.
+[INFO] (neuro-flow) Data has been updated for this package.
 [INFO] (neuro-helper) This package is up to date.
 [INFO] (neuro-pypes) This package is up to date.
 [INFO] (neuro-sdk) Data has been updated for this package.
@@ -6791,9 +6959,9 @@ Unsupported package directory structure.
 [INFO] (neuro-tools) This package is up to date.
 [INFO] (neuroarch) This package is up to date.
 [INFO] (neurobank) This package is up to date.
-[INFO] (neurobiba) Data has been updated for this package.
+[INFO] (neurobiba) This package is up to date.
 [INFO] (neurobit) This package is up to date.
-[INFO] (neuroboom) Data has been updated for this package.
+[INFO] (neuroboom) This package is up to date.
 [INFO] (neurobytes) This package is up to date.
 [INFO] (neurocat) This package is up to date.
 [INFO] (neurochat) This package is up to date.
@@ -6829,11 +6997,12 @@ Unsupported package directory structure.
 [INFO] (neurolang) This package is up to date.
 [INFO] (neurolib) This package is up to date.
 [INFO] (neurolucidaxml2ex) This package is up to date.
-[INFO] (neurom) Data has been updated for this package.
+[INFO] (neurom) This package is up to date.
 [INFO] (neuromation) This package is up to date.
 [INFO] (neuromllite) This package is up to date.
 [INFO] (neurommsig-epilepsy) This package is up to date.
 [INFO] (neurommsig-knowledge) This package is up to date.
+[INFO] (neuromodcell) Data has been updated for this package.
 [INFO] (neuromodels) This package is up to date.
 [INFO] (neuromorpho) This package is up to date.
 [INFO] (neuromorpholib) This package is up to date.
@@ -6916,17 +7085,18 @@ Unsupported package directory structure.
 [INFO] (neurotpr) This package is up to date.
 [INFO] (neurounits) This package is up to date.
 [INFO] (neurovis) This package is up to date.
+[INFO] (neurox) This package is up to date.
 [INFO] (neurst) This package is up to date.
 [INFO] (neurtu) This package is up to date.
 [INFO] (neus642-fake-package) This package is up to date.
 [INFO] (neuspell) This package is up to date.
-[INFO] (neutcurve) This package is up to date.
+[INFO] (neutcurve) Data has been updated for this package.
 [INFO] (neutompy) This package is up to date.
 [INFO] (neutpy) This package is up to date.
 [INFO] (neutrino) This package is up to date.
 [INFO] (neutrino-api) This package is up to date.
-[INFO] (neutrino-engine) Data has been updated for this package.
-[INFO] (neutrino-torch) Data has been updated for this package.
+[INFO] (neutrino-engine) This package is up to date.
+[INFO] (neutrino-torch) This package is up to date.
 [INFO] (neutrinomass) This package is up to date.
 [INFO] (neutron) This package is up to date.
 [INFO] (neutron-arista-ccf-lldp) This package is up to date.
@@ -6968,10 +7138,10 @@ Unsupported package directory structure.
 [INFO] (neverlose) This package is up to date.
 [INFO] (nevermined-authlib) This package is up to date.
 [INFO] (nevermined-compute-api) This package is up to date.
-[INFO] (nevermined-contracts) This package is up to date.
+[INFO] (nevermined-contracts) Data has been updated for this package.
 [INFO] (nevermined-metadata-driver-aws) This package is up to date.
 [INFO] (nevermined-metadata-driver-azure) This package is up to date.
-[INFO] (nevermined-metadata-driver-elasticsearch) This package is up to date.
+[INFO] (nevermined-metadata-driver-elasticsearch) Data has been updated for this package.
 [INFO] (nevermined-metadata-driver-filecoin) This package is up to date.
 [INFO] (nevermined-metadata-driver-interface) This package is up to date.
 [INFO] (nevermined-metadata-driver-ipfs) This package is up to date.
@@ -7025,8 +7195,6 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (new-cash-app-hack-money-generator-2021) Data has been updated for this package.
-[INFO] (new-cash-app-money-hack) Data has been updated for this package.
 [INFO] (new-celery-config) This package is up to date.
 [INFO] (new-contributor-wizard) This package is up to date.
 [INFO] (new-crazy) This package is up to date.
@@ -7056,7 +7224,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (new-framework) This package is up to date.
 [INFO] (new-grand-schmidt) This package is up to date.
 [INFO] (new-guid) This package is up to date.
-[INFO] (new-hack-how-to-get-free-money-on-cash-app-2021) Data has been updated for this package.
 [INFO] (new-hd-tools) This package is up to date.
 [INFO] (new-html) This package is up to date.
 [INFO] (new-mongo) This package is up to date.
@@ -7096,6 +7263,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (new-timer) This package is up to date.
 [INFO] (new-trackr) This package is up to date.
 [INFO] (new-vk) This package is up to date.
+[INFO] (new-words-detection) Data has been updated for this package.
 [INFO] (new11) This package is up to date.
 [INFO] (new123) This package is up to date.
 [INFO] (newajlib) This package is up to date.
@@ -7215,6 +7383,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newkiton) This package is up to date.
 [INFO] (newlambdata) This package is up to date.
 [INFO] (newlandface) This package is up to date.
+[INFO] (newlandface-r) This package is up to date.
 [INFO] (newlib2) This package is up to date.
 [INFO] (newlibcode) This package is up to date.
 [INFO] (newlibrary) This package is up to date.
@@ -7246,12 +7415,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newnested) This package is up to date.
 [INFO] (newnester) This package is up to date.
 [INFO] (newone) This package is up to date.
-[INFO] (neworder) This package is up to date.
+[INFO] (neworder) Data has been updated for this package.
 [INFO] (newords) This package is up to date.
 [INFO] (newp) This package is up to date.
 [INFO] (newpacktest) This package is up to date.
 [INFO] (newparth) This package is up to date.
 [INFO] (newpdf) This package is up to date.
+[INFO] (newpersonlei-demo-20210625) This package is up to date.
 [INFO] (newpipprojectpkg) This package is up to date.
 [INFO] (newpjt) This package is up to date.
 [INFO] (newportesp) This package is up to date.
@@ -7265,6 +7435,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newpyfile) This package is up to date.
 [INFO] (newpyproj) This package is up to date.
 [INFO] (newpyter) This package is up to date.
+[INFO] (newql) This package is up to date.
 [INFO] (newrelation) This package is up to date.
 [INFO] (newrelic) Data has been updated for this package.
 [INFO] (newrelic-airflow-plugin) This package is up to date.
@@ -7390,7 +7561,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newsharvest) This package is up to date.
 [INFO] (newsie) This package is up to date.
 [INFO] (newsletter) This package is up to date.
-[INFO] (newslookout) Data has been updated for this package.
+[INFO] (newslookout) This package is up to date.
 [INFO] (newslynx) This package is up to date.
 [INFO] (newslynx-sc-example) This package is up to date.
 [ERROR] (newslynx-sc-homepage) This package does not have downloadable releases.
@@ -7410,6 +7581,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newsparser) This package is up to date.
 [INFO] (newspeak) This package is up to date.
 [INFO] (newspider) This package is up to date.
+[INFO] (newspy) Data has been updated for this package.
 [INFO] (newsreader) This package is up to date.
 [INFO] (newsroom) This package is up to date.
 [INFO] (newsscraper) This package is up to date.
@@ -7437,6 +7609,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (newstldr) This package is up to date.
 [INFO] (newstone) This package is up to date.
 [INFO] (newstore-json-encoder) This package is up to date.
+[INFO] (newstory-common) Data has been updated for this package.
 [INFO] (newstrends) This package is up to date.
 [INFO] (newstressedflux) This package is up to date.
 [INFO] (newsub) This package is up to date.
@@ -7544,16 +7717,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nexedge) This package is up to date.
 [INFO] (nexg) This package is up to date.
 [INFO] (nexgcn) This package is up to date.
-[INFO] (nexgen) Data has been updated for this package.
-[INFO] (nexia) This package is up to date.
+[INFO] (nexgen) This package is up to date.
+[INFO] (nexia) Data has been updated for this package.
 [INFO] (nexiles-fabric-tasks) This package is up to date.
 [INFO] (nexiles-tools-api) This package is up to date.
-[INFO] (nexinfosys) Data has been updated for this package.
+[INFO] (nexinfosys) This package is up to date.
 [INFO] (nexinfosys-client) This package is up to date.
 [INFO] (nexmo) This package is up to date.
 [INFO] (nexmo-api) This package is up to date.
 [INFO] (nexmo-jwt) This package is up to date.
-[INFO] (nexoclom) This package is up to date.
+[INFO] (nexoclom) Data has been updated for this package.
 [INFO] (nexodyne) This package is up to date.
 [INFO] (nexosisapi) This package is up to date.
 [INFO] (nexpose) This package is up to date.
@@ -7588,14 +7761,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (next) This package is up to date.
 [INFO] (next-action) This package is up to date.
 [INFO] (next-review) This package is up to date.
-[INFO] (next-theme-kit) Data has been updated for this package.
+[INFO] (next-theme-kit) This package is up to date.
 [INFO] (next-word-prediction) This package is up to date.
 [INFO] (next0ff) This package is up to date.
+[INFO] (nextai) Data has been updated for this package.
 [INFO] (nextapm) This package is up to date.
 [INFO] (nextbike-api) This package is up to date.
-[INFO] (nextbox-ui-plugin) Data has been updated for this package.
+[INFO] (nextbox-ui-plugin) This package is up to date.
 [INFO] (nextbus) This package is up to date.
 [INFO] (nextbus-client) This package is up to date.
+[INFO] (nextcloud-api-wrapper) This package is up to date.
+[INFO] (nextcloud-deck) This package is up to date.
 [INFO] (nextcloud-news-updater) This package is up to date.
 [INFO] (nextcloud-notes-api) This package is up to date.
 [INFO] (nextcloud-sdk) This package is up to date.
@@ -7603,7 +7779,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nextcode) This package is up to date.
 [INFO] (nextcode-cli) This package is up to date.
 [INFO] (nextcode-platform-kit) This package is up to date.
-[INFO] (nextcode-sdk) Data has been updated for this package.
+[INFO] (nextcode-sdk) This package is up to date.
 [INFO] (nextcrop) This package is up to date.
 [INFO] (nextdnn) This package is up to date.
 [INFO] (nextepisode) This package is up to date.
@@ -7715,7 +7891,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (nexusforge) This package is up to date.
 [INFO] (nexusformat) This package is up to date.
-[INFO] (nexushousekeeper) Data has been updated for this package.
+[INFO] (nexushousekeeper) This package is up to date.
 [INFO] (nexusmaker) This package is up to date.
 [INFO] (nexusmeo) This package is up to date.
 [INFO] (nexuspy) This package is up to date.
@@ -7747,7 +7923,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nf-batch-runner) This package is up to date.
 [INFO] (nf-core) This package is up to date.
 [INFO] (nf-grapher) This package is up to date.
-[INFO] (nf-gym) This package is up to date.
+[INFO] (nf-gym) Data has been updated for this package.
 [INFO] (nf-prefix-tree) This package is up to date.
 [INFO] (nf1) This package is up to date.
 [INFO] (nfa) This package is up to date.
@@ -7771,7 +7947,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nfer-sandbox-cli) This package is up to date.
 [INFO] (nfer-secure-sandbox-cli) This package is up to date.
 [INFO] (nfermodule) This package is up to date.
-[INFO] (nfetl) This package is up to date.
+[INFO] (nfetl) Data has been updated for this package.
 [INFO] (nfft) This package is up to date.
 [INFO] (nfft-cffi) This package is up to date.
 [INFO] (nfg-ideal) This package is up to date.
@@ -7826,6 +8002,42 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nflx-cloudsol-python-libs) This package is up to date.
 [INFO] (nflx-genie-client) This package is up to date.
 [INFO] (nflx-jira) This package is up to date.
+[ERROR] (nflx-kragle) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (nflx-kragle-quinto) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nflx-kragle-scripts) This package is up to date.
 [INFO] (nflxprofile) This package is up to date.
 [INFO] (nflyway) This package is up to date.
@@ -7841,8 +8053,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nfq) This package is up to date.
 [INFO] (nfq-conductor) This package is up to date.
 [INFO] (nfqp3) This package is up to date.
+[INFO] (nfr) This package is up to date.
 [INFO] (nfreezer) This package is up to date.
-[INFO] (nfs4-share) This package is up to date.
+[INFO] (nfs4-share) Data has been updated for this package.
 [ERROR] (nfse-library) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -7868,7 +8081,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nfsim) This package is up to date.
 [INFO] (nfsinkhole) This package is up to date.
 [INFO] (nfsnapi) This package is up to date.
-[INFO] (nfstream) Data has been updated for this package.
+[INFO] (nfstream) This package is up to date.
 [INFO] (nfsyndication) This package is up to date.
 [INFO] (nft) This package is up to date.
 [INFO] (nft-sdk) This package is up to date.
@@ -8007,6 +8220,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ngacodeconverter) This package is up to date.
 [INFO] (ngage) This package is up to date.
 [INFO] (ngalerie) This package is up to date.
+[INFO] (ngasubgmm) Data has been updated for this package.
+[INFO] (ngasubgmmcoeffskbcg20post) Data has been updated for this package.
 [INFO] (ngauge) This package is up to date.
 [INFO] (ngblog) This package is up to date.
 [INFO] (ngboost) This package is up to date.
@@ -8051,7 +8266,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nginx-config-builder) This package is up to date.
 [INFO] (nginx-error-log) This package is up to date.
 [INFO] (nginx-krbauth) This package is up to date.
-[INFO] (nginx-language-server) Data has been updated for this package.
+[INFO] (nginx-language-server) This package is up to date.
 [INFO] (nginx-manager) This package is up to date.
 [INFO] (nginx-parser) This package is up to date.
 [INFO] (nginx-redis-cache) This package is up to date.
@@ -8070,6 +8285,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nginxlib) This package is up to date.
 [INFO] (nginxparser) This package is up to date.
 [INFO] (nginxparser-eb) This package is up to date.
+[INFO] (nginxpla) Data has been updated for this package.
 [INFO] (nginxplusapi) This package is up to date.
 [INFO] (nginxpy) This package is up to date.
 [INFO] (nginxwebauthn-jv) This package is up to date.
@@ -8101,8 +8317,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nglimsclient) This package is up to date.
 [INFO] (nglpy) This package is up to date.
 [INFO] (nglpy-cuda) This package is up to date.
-[INFO] (nglui) Data has been updated for this package.
-[INFO] (nglview) Data has been updated for this package.
+[INFO] (nglui) This package is up to date.
+[INFO] (nglview) This package is up to date.
 [ERROR] (nglview-js-widgets-lab3) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -8167,6 +8383,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ngrok-api) This package is up to date.
 [INFO] (ngrok-info) This package is up to date.
 [INFO] (ngrok-pdb) This package is up to date.
+[INFO] (ngroklinkify) This package is up to date.
 [INFO] (ngrp) This package is up to date.
 [INFO] (ngs-destruct) This package is up to date.
 [INFO] (ngs-plumbing) This package is up to date.
@@ -8268,7 +8485,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nhanes) This package is up to date.
 [INFO] (nhanes-semantic-data-dictionary-annotation) This package is up to date.
 [INFO] (nhaystack) This package is up to date.
-[INFO] (nhc2-coco) Data has been updated for this package.
+[INFO] (nhc2-coco) This package is up to date.
 [ERROR] (nhc2-coco2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -8297,6 +8514,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nhehir) This package is up to date.
 [INFO] (nhentai) This package is up to date.
 [INFO] (nhentai-api) This package is up to date.
+[INFO] (nhentai-doujin-downloader) This package is up to date.
 [INFO] (nhentai-downloader) This package is up to date.
 [INFO] (nhentai-py) This package is up to date.
 [INFO] (nhentai-sites) This package is up to date.
@@ -8339,6 +8557,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ni-config) This package is up to date.
 [INFO] (ni-consumers-core) This package is up to date.
 [INFO] (ni-core-server) This package is up to date.
+[INFO] (ni-cts3) This package is up to date.
 [INFO] (ni-logging-utils) This package is up to date.
 [INFO] (ni-python-styleguide) This package is up to date.
 [INFO] (ni2c) This package is up to date.
@@ -8346,12 +8565,32 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (niaaml-gui) This package is up to date.
 [INFO] (niacin) This package is up to date.
 [INFO] (niaclass) This package is up to date.
+[INFO] (niah) This package is up to date.
+[ERROR] (niah-scanner) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nian) This package is up to date.
 [INFO] (niaopendata) This package is up to date.
 [INFO] (niapy) This package is up to date.
 [INFO] (niatlas) This package is up to date.
 [INFO] (nib) This package is up to date.
 [INFO] (nibabel) This package is up to date.
+[INFO] (nibabies-wrapper) This package is up to date.
 [INFO] (nibble) This package is up to date.
 [INFO] (nibble-coding) This package is up to date.
 [INFO] (nibbler) This package is up to date.
@@ -8375,11 +8614,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nicecoding) This package is up to date.
 [INFO] (nicecommits) This package is up to date.
 [INFO] (niceconf) This package is up to date.
+[INFO] (nicecsv) This package is up to date.
 [INFO] (nicecx-dev) This package is up to date.
 [INFO] (niced-url-request) This package is up to date.
 [INFO] (nicedice) This package is up to date.
 [INFO] (nicedjango) This package is up to date.
-[INFO] (nicegui) This package is up to date.
+[INFO] (nicegui) Data has been updated for this package.
 [INFO] (nicehash-python) This package is up to date.
 [INFO] (nicehr) This package is up to date.
 [INFO] (nicejuzi) This package is up to date.
@@ -8398,7 +8638,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nicer) This package is up to date.
 [INFO] (nicetable) This package is up to date.
 [INFO] (nicetouch) This package is up to date.
-[INFO] (nicett6-pp81381) Data has been updated for this package.
+[INFO] (nicett6-pp81381) This package is up to date.
 [INFO] (nicetypes) This package is up to date.
 [INFO] (niceutils) This package is up to date.
 [INFO] (nicevk) This package is up to date.
@@ -8459,7 +8699,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nidaba-client) This package is up to date.
 [INFO] (nidaqmx) This package is up to date.
 [INFO] (nidb-to-bids) This package is up to date.
-[INFO] (nidcpower) This package is up to date.
+[INFO] (nidcpower) Data has been updated for this package.
 [ERROR] (nideep) This package does not have downloadable releases.
 [INFO] (nider) This package is up to date.
 [INFO] (nidhi-missing-data-101703369) This package is up to date.
@@ -8471,11 +8711,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nidhoggr) This package is up to date.
 [INFO] (nidhoggr-core) This package is up to date.
 [INFO] (nidhoggr-requests) This package is up to date.
-[INFO] (nidigital) This package is up to date.
+[INFO] (nidigital) Data has been updated for this package.
 [ERROR] (nidm) This package does not have downloadable releases.
 [INFO] (nidmd) This package is up to date.
 [INFO] (nidmfsl) This package is up to date.
-[INFO] (nidmm) This package is up to date.
+[INFO] (nidmm) Data has been updated for this package.
 [INFO] (nidmresults) This package is up to date.
 [INFO] (nidmviewer) This package is up to date.
 [INFO] (nido) This package is up to date.
@@ -8521,7 +8761,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (niff) This package is up to date.
 [INFO] (niffler) This package is up to date.
 [INFO] (niffleranalyticssdk) This package is up to date.
-[INFO] (nifgen) This package is up to date.
+[INFO] (nifgen) Data has been updated for this package.
 [INFO] (nifi-api) This package is up to date.
 [INFO] (nifi-deploy) This package is up to date.
 [INFO] (nifi-flowfile) This package is up to date.
@@ -8532,7 +8772,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (niflow-nipype1-examples) This package is up to date.
 [INFO] (niflow-nipype1-workflows) This package is up to date.
 [INFO] (nifpga) This package is up to date.
-[INFO] (nifpy) Data has been updated for this package.
+[INFO] (nifpy) This package is up to date.
 [INFO] (nifstd-tools) This package is up to date.
 [INFO] (nifti2png) This package is up to date.
 [INFO] (niftianon) This package is up to date.
@@ -8543,6 +8783,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nifty-nesting) This package is up to date.
 [INFO] (nifty4gemini) This package is up to date.
 [INFO] (nifty4nifs) This package is up to date.
+[INFO] (nifty7) Data has been updated for this package.
 [INFO] (niftyclient) This package is up to date.
 [INFO] (niftyhacks) This package is up to date.
 [INFO] (niftyml) This package is up to date.
@@ -8577,8 +8818,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (night) This package is up to date.
 [INFO] (nightcore) This package is up to date.
 [INFO] (nightcrawler) This package is up to date.
-[INFO] (nightex) This package is up to date.
-[INFO] (nightfall) Data has been updated for this package.
+[INFO] (nightfall) This package is up to date.
 [INFO] (nightflight) This package is up to date.
 [INFO] (nighthtr-django-3-jet) This package is up to date.
 [INFO] (nightingale) This package is up to date.
@@ -8590,6 +8830,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nightpy) This package is up to date.
 [ERROR] (nights-watch) This package does not have downloadable releases.
 [ERROR] (nightshades) This package does not have downloadable releases.
+[INFO] (nightshift) Data has been updated for this package.
 [INFO] (nightwalker) This package is up to date.
 [INFO] (nightwind3dlib) This package is up to date.
 [INFO] (nightwind3dlib2) This package is up to date.
@@ -8597,7 +8838,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nightwind3dlib4) This package is up to date.
 [INFO] (nightwindaudiolib) This package is up to date.
 [INFO] (nightwinddatalib) This package is up to date.
-[INFO] (nightwindgamelib) Data has been updated for this package.
+[INFO] (nightwindgamelib) This package is up to date.
 [INFO] (nigualscript) This package is up to date.
 [INFO] (nigula-nihao) This package is up to date.
 [INFO] (nihao) This package is up to date.
@@ -8607,6 +8848,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nii2png) This package is up to date.
 [INFO] (niicat) This package is up to date.
 [INFO] (niice) This package is up to date.
+[INFO] (niiif-niiif) Data has been updated for this package.
 [INFO] (niiu) This package is up to date.
 [INFO] (nija-test) This package is up to date.
 [INFO] (nijas-gaussian-binomial) This package is up to date.
@@ -8634,6 +8876,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nikita-probability) This package is up to date.
 [INFO] (nikitapdf) This package is up to date.
 [INFO] (nikki) This package is up to date.
+[INFO] (nikki30201) This package is up to date.
 [INFO] (nikl) This package is up to date.
 [ERROR] (niknight) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -8720,6 +8963,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nimapdf) This package is up to date.
 [INFO] (nimare) This package is up to date.
 [INFO] (nimays-solitaire) This package is up to date.
+[INFO] (nimba) This package is up to date.
 [INFO] (nimbella) This package is up to date.
 [INFO] (nimbits) This package is up to date.
 [INFO] (nimbixappdef) This package is up to date.
@@ -8774,7 +9018,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nimiqclient) This package is up to date.
 [INFO] (niml) This package is up to date.
 [INFO] (nimmy) This package is up to date.
-[INFO] (nimodinst) This package is up to date.
+[INFO] (nimodinst) Data has been updated for this package.
 [INFO] (nimoy) This package is up to date.
 [INFO] (nimoy-framework) This package is up to date.
 [INFO] (nimp) This package is up to date.
@@ -8787,8 +9031,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nimscommon) This package is up to date.
 [INFO] (nimses-adimate) This package is up to date.
 [INFO] (nimsp) This package is up to date.
+[INFO] (nimutool) This package is up to date.
 [INFO] (nimvelo) This package is up to date.
 [INFO] (nimview) This package is up to date.
+[INFO] (nin) Data has been updated for this package.
 [INFO] (nin-distributions) This package is up to date.
 [INFO] (nina) This package is up to date.
 [INFO] (nina-helper) This package is up to date.
@@ -8814,8 +9060,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ninetysix) This package is up to date.
 [INFO] (ninfs) This package is up to date.
 [INFO] (ning-try-test01) This package is up to date.
+[INFO] (ninia) This package is up to date.
 [INFO] (nining) This package is up to date.
 [INFO] (ninja) This package is up to date.
+[INFO] (ninja-authentication) This package is up to date.
 [ERROR] (ninja-ide) Could not extract data from this package. See below for details.
 "http://ninja-ide.googlecode.com/files/ninja-ide-1.0b2.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
@@ -8855,6 +9103,7 @@ Unsupported package directory structure.
 [INFO] (ninjwt) This package is up to date.
 [INFO] (ninka) This package is up to date.
 [INFO] (ninklings) This package is up to date.
+[INFO] (nino) Data has been updated for this package.
 [INFO] (nino-violino) This package is up to date.
 [INFO] (ninopianino) This package is up to date.
 [INFO] (ninputtestrunner) This package is up to date.
@@ -8865,7 +9114,7 @@ Unsupported package directory structure.
 [INFO] (nintendeals) This package is up to date.
 [INFO] (nintendo) This package is up to date.
 [INFO] (nintorch) This package is up to date.
-[INFO] (ninty) This package is up to date.
+[INFO] (ninty) Data has been updated for this package.
 [INFO] (ninvoice2data) This package is up to date.
 [ERROR] (ninwavelets) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -8904,8 +9153,27 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nionutils) This package is up to date.
 [INFO] (nioshell) This package is up to date.
 [INFO] (niota) This package is up to date.
+[ERROR] (niozdaspy) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [ERROR] (nip) This package does not have downloadable releases.
 [INFO] (nip-cli) This package is up to date.
+[INFO] (nip-config) Data has been updated for this package.
 [INFO] (nipals) This package is up to date.
 [INFO] (nipaputils) This package is up to date.
 [INFO] (nipet) This package is up to date.
@@ -8954,6 +9222,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (niq) This package is up to date.
 [ERROR] (niquery) This package does not have downloadable releases.
 [INFO] (nir-preprocess) This package is up to date.
+[INFO] (niraapad) This package is up to date.
 [INFO] (nirah) This package is up to date.
 [INFO] (nirajpdf) This package is up to date.
 [INFO] (niram) This package is up to date.
@@ -8977,8 +9246,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nirvanachow) This package is up to date.
 [INFO] (nisaba) This package is up to date.
 [INFO] (nisarg-circle) This package is up to date.
-[INFO] (niscope) This package is up to date.
-[INFO] (nise) This package is up to date.
+[INFO] (niscope) Data has been updated for this package.
+[INFO] (nise) Data has been updated for this package.
 [INFO] (nishant-miss-data-76) This package is up to date.
 [INFO] (nishant-outlier-76) This package is up to date.
 [INFO] (nishant-outlier-removal-76) This package is up to date.
@@ -9014,12 +9283,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nist-nestor) This package is up to date.
 [INFO] (nista-learn) This package is up to date.
 [INFO] (nistats) This package is up to date.
-[INFO] (nistauthenticator) Data has been updated for this package.
+[INFO] (nistauthenticator) This package is up to date.
 [INFO] (nistbeacon) This package is up to date.
 [INFO] (nisteag) This package is up to date.
 [INFO] (nistitl) This package is up to date.
 [INFO] (nistrng) This package is up to date.
-[INFO] (niswitch) This package is up to date.
+[INFO] (niswitch) Data has been updated for this package.
 [INFO] (nisyscfg) This package is up to date.
 [INFO] (nisystemlink-clients) This package is up to date.
 [INFO] (nisystemlink-configuration) This package is up to date.
@@ -9045,7 +9314,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (nitclk) This package is up to date.
+[INFO] (nitclk) Data has been updated for this package.
 [INFO] (nitdms) This package is up to date.
 [INFO] (niteoweb-aweber) This package is up to date.
 [INFO] (niteoweb-click2sell) This package is up to date.
@@ -9059,7 +9328,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (niteoweb-transmogrifier-simpleusage) This package is up to date.
 [INFO] (niteoweb-windmill) This package is up to date.
 [INFO] (niteowl) This package is up to date.
-[INFO] (niteru) This package is up to date.
+[INFO] (niteru) Data has been updated for this package.
 [INFO] (nith-results) This package is up to date.
 [ERROR] (nithin) This package does not have downloadable releases.
 [INFO] (niti-distributions) This package is up to date.
@@ -9078,12 +9347,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nitlab) This package is up to date.
 [INFO] (nitor-audit) This package is up to date.
 [INFO] (nitor-deploy-tools) This package is up to date.
-[INFO] (nitor-vault) Data has been updated for this package.
+[INFO] (nitor-vault) This package is up to date.
 [INFO] (nitpick) This package is up to date.
 [INFO] (nitpicker) This package is up to date.
 [INFO] (nitpyck) This package is up to date.
 [INFO] (nitpycker) This package is up to date.
-[INFO] (nitransforms) This package is up to date.
+[INFO] (nitransforms) Data has been updated for this package.
 [INFO] (nitrate) This package is up to date.
 [INFO] (nitrate-tcms) This package is up to date.
 [INFO] (nitrate-xml2dict) This package is up to date.
@@ -9124,7 +9393,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nivestor-nivestorindia) This package is up to date.
 [INFO] (niwidgets) This package is up to date.
 [INFO] (niwlittleutils) This package is up to date.
-[INFO] (niworkflows) Data has been updated for this package.
+[INFO] (niworkflows) This package is up to date.
 [ERROR] (nix) This package does not have downloadable releases.
 [INFO] (nix-nox) This package is up to date.
 [INFO] (nix-prefetch-github) This package is up to date.
@@ -9140,27 +9409,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nixpkgs) This package is up to date.
 [INFO] (nixpkgs-pytools) This package is up to date.
 [ERROR] (nixpy) This package does not have downloadable releases.
-[INFO] (nixstatsagent) This package is up to date.
+[INFO] (nixstatsagent) Data has been updated for this package.
 [ERROR] (nixtest) This package does not have downloadable releases.
 [INFO] (nixtla) This package is up to date.
-[ERROR] (nixtlats) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (nixtlats) This package is up to date.
 [INFO] (nixtract) This package is up to date.
 [INFO] (nixtract-slurm) This package is up to date.
 [INFO] (nixy) This package is up to date.
@@ -9179,7 +9431,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (njnuko) This package is up to date.
 [INFO] (njsd) This package is up to date.
 [INFO] (njserial) This package is up to date.
-[INFO] (njsscan) Data has been updated for this package.
+[INFO] (njsscan) This package is up to date.
 [INFO] (njswpose) This package is up to date.
 [INFO] (njtest) This package is up to date.
 [INFO] (nju-jiaowu-helper) This package is up to date.
@@ -9249,7 +9501,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nl-nut-telegraf) This package is up to date.
 [INFO] (nl-philter) This package is up to date.
 [INFO] (nl4dv) This package is up to date.
-[INFO] (nl4py) Data has been updated for this package.
+[INFO] (nl4py) This package is up to date.
 [INFO] (nlab) This package is up to date.
 [INFO] (nlab-essential) This package is up to date.
 [INFO] (nlab-inf-engine-scripts) This package is up to date.
@@ -9267,7 +9519,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nldata) This package is up to date.
 [INFO] (nldi-el-serv) This package is up to date.
 [INFO] (nldsl) This package is up to date.
-[INFO] (nle) Data has been updated for this package.
+[INFO] (nle) This package is up to date.
 [INFO] (nlex) This package is up to date.
 [INFO] (nlfepy) This package is up to date.
 [INFO] (nlg) This package is up to date.
@@ -9286,7 +9538,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlist) This package is up to date.
 [INFO] (nlkit) This package is up to date.
 [INFO] (nlknhjc) This package is up to date.
-[INFO] (nllgrid) This package is up to date.
+[INFO] (nllgrid) Data has been updated for this package.
 [INFO] (nlloc) This package is up to date.
 [INFO] (nlmanager) This package is up to date.
 [INFO] (nlmpy) This package is up to date.
@@ -9296,12 +9548,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (nlog) This package does not have downloadable releases.
 [INFO] (nlogger) This package is up to date.
 [INFO] (nlogo-utils) This package is up to date.
-[INFO] (nlon-py) Data has been updated for this package.
+[INFO] (nlon-py) This package is up to date.
 [INFO] (nlopt) This package is up to date.
 [INFO] (nlp) This package is up to date.
 [INFO] (nlp-900) This package is up to date.
 [INFO] (nlp-annotations) This package is up to date.
 [INFO] (nlp-architect) This package is up to date.
+[INFO] (nlp-augment) This package is up to date.
 [INFO] (nlp-classifier) This package is up to date.
 [ERROR] (nlp-classifier-text-mining-assignment) Could not extract data from this package. See below for details.
 "https://files.pythonhosted.org/packages/16/7d/ed03100590fdf07d5e2611d744801ff7354cda5f0df0817aff6729553027/NLP_classifier-Text%20mining%20assignment-0.1.tar.gz" file could not be downloaded. See below for details.
@@ -9329,7 +9582,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlp-dict) This package is up to date.
 [INFO] (nlp-fenci) This package is up to date.
 [INFO] (nlp-gym) This package is up to date.
-[INFO] (nlp-id) This package is up to date.
+[INFO] (nlp-id) Data has been updated for this package.
 [INFO] (nlp-jp-gears) This package is up to date.
 [INFO] (nlp-lib) This package is up to date.
 [INFO] (nlp-lib-cpu) This package is up to date.
@@ -9337,11 +9590,29 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlp-model-gen) This package is up to date.
 [INFO] (nlp-model-gen-plugins) This package is up to date.
 [INFO] (nlp-modeller) This package is up to date.
-[INFO] (nlp-nn) Data has been updated for this package.
+[INFO] (nlp-nn) This package is up to date.
 [INFO] (nlp-opticalreader) This package is up to date.
 [INFO] (nlp-pie) This package is up to date.
 [INFO] (nlp-playground) This package is up to date.
 [INFO] (nlp-postprocessor) This package is up to date.
+[ERROR] (nlp-preprocess-nayeri) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nlp-preprocessing) This package is up to date.
 [INFO] (nlp-preprocessor) This package is up to date.
 [INFO] (nlp-primitives) This package is up to date.
@@ -9382,8 +9653,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlp-utils-ch) This package is up to date.
 [INFO] (nlp-xiaojiang) This package is up to date.
 [INFO] (nlp-zero) This package is up to date.
-[INFO] (nlp2) Data has been updated for this package.
-[INFO] (nlp2go) Data has been updated for this package.
+[INFO] (nlp12) This package is up to date.
+[INFO] (nlp2) This package is up to date.
+[INFO] (nlp2go) This package is up to date.
 [INFO] (nlp4ml) This package is up to date.
 [INFO] (nlpa) This package is up to date.
 [INFO] (nlpaeg) This package is up to date.
@@ -9394,21 +9666,23 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlpbook) This package is up to date.
 [INFO] (nlpbox) This package is up to date.
 [INFO] (nlpc) This package is up to date.
-[INFO] (nlpcda) This package is up to date.
+[INFO] (nlpcda) Data has been updated for this package.
 [INFO] (nlpcleaner) This package is up to date.
 [INFO] (nlpcloud) This package is up to date.
 [INFO] (nlpcontractions) This package is up to date.
 [INFO] (nlpcorepy) This package is up to date.
 [INFO] (nlpcube) This package is up to date.
+[INFO] (nlpdatasets) Data has been updated for this package.
 [INFO] (nlpeasy) This package is up to date.
 [INFO] (nlpeda) This package is up to date.
 [INFO] (nlpengine) This package is up to date.
 [INFO] (nlper) This package is up to date.
 [INFO] (nlpfeatures) This package is up to date.
+[INFO] (nlphub) Data has been updated for this package.
 [INFO] (nlpia) This package is up to date.
 [INFO] (nlpia-bot) This package is up to date.
 [INFO] (nlpipe) This package is up to date.
-[INFO] (nlpir-python) This package is up to date.
+[INFO] (nlpir-python) Data has been updated for this package.
 [INFO] (nlpjcd) This package is up to date.
 [INFO] (nlpjunk) This package is up to date.
 [INFO] (nlpk) This package is up to date.
@@ -9417,7 +9691,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlpknowledge) This package is up to date.
 [INFO] (nlplab) This package is up to date.
 [INFO] (nlplib) This package is up to date.
-[INFO] (nlplot) This package is up to date.
+[INFO] (nlplot) Data has been updated for this package.
 [INFO] (nlpls) This package is up to date.
 [INFO] (nlpnet) This package is up to date.
 [INFO] (nlpnet-py3-mirror) This package is up to date.
@@ -9433,7 +9707,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlprov) This package is up to date.
 [INFO] (nlprule) This package is up to date.
 [INFO] (nlps) This package is up to date.
-[INFO] (nlpsandbox-client) Data has been updated for this package.
+[INFO] (nlpsandbox-client) This package is up to date.
 [INFO] (nlpscaffold) This package is up to date.
 [INFO] (nlpt) This package is up to date.
 [INFO] (nlptasks) This package is up to date.
@@ -9469,10 +9743,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlptextmatcher) This package is up to date.
 [INFO] (nlptool) This package is up to date.
 [INFO] (nlptooldemo) This package is up to date.
-[INFO] (nlptoolkit-annotatedsentence) This package is up to date.
-[INFO] (nlptoolkit-annotatedsentence-cy) This package is up to date.
-[INFO] (nlptoolkit-annotatedtree) This package is up to date.
-[INFO] (nlptoolkit-annotatedtree-cy) This package is up to date.
+[INFO] (nlptoolkit-annotatedsentence) Data has been updated for this package.
+[INFO] (nlptoolkit-annotatedsentence-cy) Data has been updated for this package.
+[INFO] (nlptoolkit-annotatedtree) Data has been updated for this package.
+[INFO] (nlptoolkit-annotatedtree-cy) Data has been updated for this package.
 [INFO] (nlptoolkit-classification) This package is up to date.
 [INFO] (nlptoolkit-classification-cy) This package is up to date.
 [INFO] (nlptoolkit-corpus) This package is up to date.
@@ -9513,8 +9787,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nlptoolkit-sampling-cy) This package is up to date.
 [INFO] (nlptoolkit-semanticrolelabeling) This package is up to date.
 [INFO] (nlptoolkit-semanticrolelabeling-cy) This package is up to date.
-[INFO] (nlptoolkit-sentinet) This package is up to date.
-[INFO] (nlptoolkit-sentinet-cy) This package is up to date.
+[INFO] (nlptoolkit-sentinet) Data has been updated for this package.
+[INFO] (nlptoolkit-sentinet-cy) Data has been updated for this package.
 [INFO] (nlptoolkit-spellchecker) This package is up to date.
 [INFO] (nlptoolkit-spellchecker-cy) This package is up to date.
 [INFO] (nlptoolkit-util) This package is up to date.
@@ -9621,7 +9895,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nmap-scan) This package is up to date.
 [INFO] (nmap-vscan) This package is up to date.
 [INFO] (nmapparser) This package is up to date.
-[INFO] (nmapper) Data has been updated for this package.
+[INFO] (nmapper) This package is up to date.
 [INFO] (nmapthon) This package is up to date.
 [INFO] (nmaptocsv) This package is up to date.
 [INFO] (nmapxml) This package is up to date.
@@ -9646,9 +9920,9 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (nmc-met-base) Data has been updated for this package.
-[INFO] (nmc-met-graphics) Data has been updated for this package.
-[INFO] (nmc-met-io) Data has been updated for this package.
+[INFO] (nmc-met-base) This package is up to date.
+[INFO] (nmc-met-graphics) This package is up to date.
+[INFO] (nmc-met-io) This package is up to date.
 [INFO] (nmcbins) This package is up to date.
 [INFO] (nmcc-acis) This package is up to date.
 [ERROR] (nmcc-etmodels) This package does not have downloadable releases.
@@ -9661,7 +9935,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nmd-plonelinkasvideoembed) This package is up to date.
 [INFO] (nmdc) This package is up to date.
 [INFO] (nmdc-mongo-tools) This package is up to date.
-[INFO] (nmdc-schema) Data has been updated for this package.
+[INFO] (nmdc-schema) This package is up to date.
 [INFO] (nmdriver) This package is up to date.
 [INFO] (nmea) This package is up to date.
 [INFO] (nmea-parser) This package is up to date.
@@ -9690,6 +9964,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nmesh) This package is up to date.
 [INFO] (nmevent) This package is up to date.
 [INFO] (nmf) This package is up to date.
+[INFO] (nmf-gucky92) This package is up to date.
+[INFO] (nmf-torch) This package is up to date.
+[INFO] (nmfia) This package is up to date.
 [INFO] (nmfishingreport) This package is up to date.
 [INFO] (nmfu) This package is up to date.
 [INFO] (nmi-mysql) This package is up to date.
@@ -9697,7 +9974,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nmigen-boards) This package is up to date.
 [INFO] (nmigen-soc) This package is up to date.
 [INFO] (nmigen-stdio) This package is up to date.
-[INFO] (nmigen-yosys) This package is up to date.
+[INFO] (nmigen-yosys) Data has been updated for this package.
 [INFO] (nmjanalyzer) This package is up to date.
 [INFO] (nml) This package is up to date.
 [INFO] (nmlread) This package is up to date.
@@ -9733,15 +10010,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nmos-reverseproxy) This package is up to date.
 [INFO] (nmoscommon) This package is up to date.
 [INFO] (nmosreverseproxy) This package is up to date.
+[INFO] (nmp) Data has been updated for this package.
 [INFO] (nmqn) This package is up to date.
 [INFO] (nmr-classifier) This package is up to date.
 [INFO] (nmr-peaks-picking) This package is up to date.
-[INFO] (nmrespy) Data has been updated for this package.
+[INFO] (nmrespy) This package is up to date.
 [INFO] (nmrglue) This package is up to date.
 [INFO] (nmrml2isa) This package is up to date.
 [ERROR] (nmrml2isa-qt) This package does not have downloadable releases.
 [INFO] (nmrpoise) This package is up to date.
-[INFO] (nmrpro) Data has been updated for this package.
+[INFO] (nmrpro) This package is up to date.
 [INFO] (nmrpy) This package is up to date.
 [INFO] (nmrpyschedule) This package is up to date.
 [INFO] (nmrpystar) This package is up to date.
@@ -9762,6 +10040,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nmtvis) This package is up to date.
 [INFO] (nmutils) This package is up to date.
 [INFO] (nn) This package is up to date.
+[INFO] (nn-analysis) Data has been updated for this package.
+[INFO] (nn-analysis-prednet) Data has been updated for this package.
 [INFO] (nn-backpropogate) This package is up to date.
 [INFO] (nn-builder) This package is up to date.
 [INFO] (nn-calculator) This package is up to date.
@@ -9835,25 +10115,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nn13framework) This package is up to date.
 [INFO] (nn4mc) This package is up to date.
 [INFO] (nn6) This package is up to date.
-[INFO] (nnabla) Data has been updated for this package.
-[INFO] (nnabla-converter) Data has been updated for this package.
+[INFO] (nnabla) This package is up to date.
+[INFO] (nnabla-converter) This package is up to date.
 [INFO] (nnabla-ext-cuda) This package is up to date.
-[INFO] (nnabla-ext-cuda100) Data has been updated for this package.
+[INFO] (nnabla-ext-cuda100) This package is up to date.
 [INFO] (nnabla-ext-cuda100-nccl2-mpi1-10-2) This package is up to date.
-[INFO] (nnabla-ext-cuda100-nccl2-mpi2-1-1) Data has been updated for this package.
-[INFO] (nnabla-ext-cuda100-nccl2-mpi3-1-6) Data has been updated for this package.
+[INFO] (nnabla-ext-cuda100-nccl2-mpi2-1-1) This package is up to date.
+[INFO] (nnabla-ext-cuda100-nccl2-mpi3-1-6) This package is up to date.
 [INFO] (nnabla-ext-cuda100-nccl2-ubuntu16) This package is up to date.
 [INFO] (nnabla-ext-cuda100-nccl2-ubuntu18) This package is up to date.
 [INFO] (nnabla-ext-cuda101) This package is up to date.
 [INFO] (nnabla-ext-cuda101-nccl2-ubuntu16) This package is up to date.
 [INFO] (nnabla-ext-cuda101-nccl2-ubuntu18) This package is up to date.
-[INFO] (nnabla-ext-cuda102) Data has been updated for this package.
+[INFO] (nnabla-ext-cuda102) This package is up to date.
 [INFO] (nnabla-ext-cuda102-nccl2-mpi1-10-2) This package is up to date.
-[INFO] (nnabla-ext-cuda102-nccl2-mpi2-1-1) Data has been updated for this package.
-[INFO] (nnabla-ext-cuda102-nccl2-mpi3-1-6) Data has been updated for this package.
-[INFO] (nnabla-ext-cuda110) Data has been updated for this package.
-[INFO] (nnabla-ext-cuda110-nccl2-mpi2-1-1) Data has been updated for this package.
-[INFO] (nnabla-ext-cuda110-nccl2-mpi3-1-6) Data has been updated for this package.
+[INFO] (nnabla-ext-cuda102-nccl2-mpi2-1-1) This package is up to date.
+[INFO] (nnabla-ext-cuda102-nccl2-mpi3-1-6) This package is up to date.
+[INFO] (nnabla-ext-cuda110) This package is up to date.
+[INFO] (nnabla-ext-cuda110-nccl2-mpi2-1-1) This package is up to date.
+[INFO] (nnabla-ext-cuda110-nccl2-mpi3-1-6) This package is up to date.
 [INFO] (nnabla-ext-cuda80) This package is up to date.
 [INFO] (nnabla-ext-cuda90) This package is up to date.
 [INFO] (nnabla-ext-cuda90-nccl2-mpi1-10-2) This package is up to date.
@@ -9861,11 +10141,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nnabla-ext-cuda90-nccl2-mpi3-1-6) This package is up to date.
 [INFO] (nnabla-ext-cuda90-nccl2-ubuntu16) This package is up to date.
 [INFO] (nnabla-nas) This package is up to date.
+[INFO] (nnabla-rl) This package is up to date.
 [INFO] (nnabla-ubuntu16) This package is up to date.
 [INFO] (nnabla-ubuntu18) This package is up to date.
 [INFO] (nnamdipdf) This package is up to date.
 [INFO] (nnaps) This package is up to date.
-[INFO] (nnaudio) Data has been updated for this package.
+[INFO] (nnaudio) This package is up to date.
 [INFO] (nnbnonaybay) This package is up to date.
 [INFO] (nnbuilder) This package is up to date.
 [INFO] (nnc) This package is up to date.
@@ -10031,7 +10312,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nnunet) This package is up to date.
 [INFO] (nnunet-inference-on-cpu-and-gpu) This package is up to date.
 [INFO] (nnutils-pytorch) This package is up to date.
-[INFO] (nnv) This package is up to date.
+[INFO] (nnv) Data has been updated for this package.
 [INFO] (nnvis) This package is up to date.
 [INFO] (nnvisualizer) This package is up to date.
 [INFO] (nnvlp) This package is up to date.
@@ -10068,6 +10349,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (no-more-query-string) This package is up to date.
 [INFO] (no-mroy-1) This package is up to date.
 [INFO] (no-op) This package is up to date.
+[INFO] (no-recursion) This package is up to date.
 [INFO] (no-string-hints) This package is up to date.
 [INFO] (no-thanks) This package is up to date.
 [INFO] (no-version) This package is up to date.
@@ -10091,12 +10373,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (noaaweather) This package is up to date.
 [INFO] (noacore) This package is up to date.
 [ERROR] (noah) This package does not have downloadable releases.
-[INFO] (noah-vega) Data has been updated for this package.
+[INFO] (noah-vega) This package is up to date.
 [INFO] (noaho) This package is up to date.
 [INFO] (noahong) This package is up to date.
 [INFO] (noaodatalab) This package is up to date.
 [INFO] (noapt) This package is up to date.
-[INFO] (noapy) Data has been updated for this package.
+[INFO] (noapy) This package is up to date.
 [INFO] (noashark) This package is up to date.
 [INFO] (noat) This package is up to date.
 [INFO] (noattr) This package is up to date.
@@ -10106,10 +10388,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nobel) This package is up to date.
 [INFO] (nobeldb) This package is up to date.
 [INFO] (nobi-distributions) This package is up to date.
-[INFO] (nobinobi-child) Data has been updated for this package.
-[INFO] (nobinobi-core) Data has been updated for this package.
+[INFO] (nobinobi-child) This package is up to date.
+[INFO] (nobinobi-core) This package is up to date.
 [INFO] (nobinobi-daily-follow-up) This package is up to date.
-[INFO] (nobinobi-staff) Data has been updated for this package.
+[INFO] (nobinobi-staff) This package is up to date.
 [INFO] (nobiserviceslib) This package is up to date.
 [INFO] (nobitex) This package is up to date.
 [INFO] (noblesse) This package is up to date.
@@ -10132,6 +10414,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nock) This package is up to date.
 [INFO] (nocloud) This package is up to date.
 [INFO] (nocnus) This package is up to date.
+[INFO] (nocode) This package is up to date.
 [INFO] (nocolon) This package is up to date.
 [INFO] (nocomentariosn2t) This package is up to date.
 [INFO] (nocps) This package is up to date.
@@ -10142,7 +10425,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nocton) This package is up to date.
 [INFO] (noctoolz) This package is up to date.
 [INFO] (nocycle-singleton) This package is up to date.
-[INFO] (nod) This package is up to date.
+[INFO] (nod) Data has been updated for this package.
 [INFO] (nod-labs-nns) This package is up to date.
 [INFO] (nod2svg) This package is up to date.
 [INFO] (nodal) This package is up to date.
@@ -10289,7 +10572,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nodenet) This package is up to date.
 [INFO] (nodeon) This package is up to date.
 [INFO] (nodeping-api) This package is up to date.
-[INFO] (nodepool) This package is up to date.
+[INFO] (nodepool) Data has been updated for this package.
 [INFO] (nodepy) This package is up to date.
 [INFO] (nodepy-runtime) This package is up to date.
 [INFO] (nodequery) This package is up to date.
@@ -10454,9 +10737,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nom-test-workshop-il-rillettes) This package is up to date.
 [INFO] (noma) This package is up to date.
 [INFO] (nomad) This package is up to date.
-[INFO] (nomad-api) This package is up to date.
+[INFO] (nomad-api) Data has been updated for this package.
 [INFO] (nomad-cbec-cli) This package is up to date.
-[INFO] (nomad-cbec-id-cli) Data has been updated for this package.
+[INFO] (nomad-cbec-id-cli) This package is up to date.
 [INFO] (nomad-connectors-cli) This package is up to date.
 [INFO] (nomad-deploy) This package is up to date.
 [INFO] (nomad-diff) This package is up to date.
@@ -10471,7 +10754,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nomadgen) This package is up to date.
 [INFO] (nomadic) This package is up to date.
 [INFO] (nomadix-python-api) This package is up to date.
-[INFO] (nomadnet) This package is up to date.
+[INFO] (nomadnet) Data has been updated for this package.
 [INFO] (nomanini-appengine) This package is up to date.
 [ERROR] (nomanini-appengine-scripts) This package does not have downloadable releases.
 [ERROR] (nomanini-ci) This package does not have downloadable releases.
@@ -10509,7 +10792,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nommy) This package is up to date.
 [INFO] (nomnomdata-auth) This package is up to date.
 [INFO] (nomnomdata-cli) This package is up to date.
-[INFO] (nomnomdata-engine) This package is up to date.
+[INFO] (nomnomdata-engine) Data has been updated for this package.
 [INFO] (nomnomdata-nominode) This package is up to date.
 [INFO] (nomnomdata-tools-engine) This package is up to date.
 [INFO] (nomoney-shop) This package is up to date.
@@ -10565,18 +10848,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nonebot) This package is up to date.
 [INFO] (nonebot-adapter-cqhttp) This package is up to date.
 [INFO] (nonebot-adapter-ding) This package is up to date.
-[INFO] (nonebot-adapter-gocq) Data has been updated for this package.
+[INFO] (nonebot-adapter-gocq) This package is up to date.
 [INFO] (nonebot-adapter-mirai) This package is up to date.
-[INFO] (nonebot-hk-reporter) This package is up to date.
+[INFO] (nonebot-hk-reporter) Data has been updated for this package.
 [INFO] (nonebot-plugin-7s-roll) This package is up to date.
 [INFO] (nonebot-plugin-abbrreply) This package is up to date.
 [INFO] (nonebot-plugin-alias) This package is up to date.
-[INFO] (nonebot-plugin-analysis-bilibili) Data has been updated for this package.
+[INFO] (nonebot-plugin-analysis-bilibili) This package is up to date.
 [INFO] (nonebot-plugin-apscheduler) This package is up to date.
 [INFO] (nonebot-plugin-arcaea) This package is up to date.
 [INFO] (nonebot-plugin-bam) This package is up to date.
 [INFO] (nonebot-plugin-biliav) This package is up to date.
-[INFO] (nonebot-plugin-cocdicer) Data has been updated for this package.
+[INFO] (nonebot-plugin-cocdicer) This package is up to date.
 [INFO] (nonebot-plugin-cooldown) This package is up to date.
 [INFO] (nonebot-plugin-docs) This package is up to date.
 [INFO] (nonebot-plugin-gamedraw) Data has been updated for this package.
@@ -10592,13 +10875,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nonebot-plugin-ncm) This package is up to date.
 [INFO] (nonebot-plugin-nodice) This package is up to date.
 [INFO] (nonebot-plugin-picsearcher) This package is up to date.
+[INFO] (nonebot-plugin-pixivrank-search) This package is up to date.
 [INFO] (nonebot-plugin-puppet) This package is up to date.
 [INFO] (nonebot-plugin-r6s) This package is up to date.
 [INFO] (nonebot-plugin-rauthman) This package is up to date.
 [INFO] (nonebot-plugin-rua) This package is up to date.
-[INFO] (nonebot-plugin-sentry) Data has been updated for this package.
+[INFO] (nonebot-plugin-russian) This package is up to date.
+[INFO] (nonebot-plugin-sentry) This package is up to date.
 [INFO] (nonebot-plugin-simdraw) This package is up to date.
 [INFO] (nonebot-plugin-songpicker2) This package is up to date.
+[INFO] (nonebot-plugin-statistical) Data has been updated for this package.
 [INFO] (nonebot-plugin-status) This package is up to date.
 [INFO] (nonebot-plugin-styledstr) This package is up to date.
 [INFO] (nonebot-plugin-test) This package is up to date.
@@ -10611,7 +10897,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nonebot-test) This package is up to date.
 [INFO] (nonebot-tuling) This package is up to date.
 [INFO] (nonebot2) This package is up to date.
-[INFO] (nonechucks) Data has been updated for this package.
+[INFO] (nonechucks) This package is up to date.
 [INFO] (nonelib) This package is up to date.
 [INFO] (nonemptystr) This package is up to date.
 [INFO] (nones) This package is up to date.
@@ -10621,7 +10907,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nonfig-sdk) This package is up to date.
 [INFO] (nong-nnrepos) This package is up to date.
 [INFO] (noni) This package is up to date.
-[INFO] (nonion) This package is up to date.
+[INFO] (nonion) Data has been updated for this package.
 [INFO] (nonlincausality) This package is up to date.
 [INFO] (nonlindyn) This package is up to date.
 [INFO] (nonlinear-optimizations) This package is up to date.
@@ -10643,6 +10929,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nonofusedmadd) This package is up to date.
 [INFO] (nonogram) This package is up to date.
 [INFO] (nonogram-analysis) This package is up to date.
+[INFO] (nonogram-cracker) This package is up to date.
 [INFO] (nonogram-solver) This package is up to date.
 [INFO] (nonos) This package is up to date.
 [INFO] (nonparametricdensity) This package is up to date.
@@ -10658,7 +10945,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nontemplate) This package is up to date.
 [INFO] (nonude) This package is up to date.
 [INFO] (nonzero) This package is up to date.
-[INFO] (noob) This package is up to date.
 [INFO] (noobcode) This package is up to date.
 [INFO] (noobelectric) This package is up to date.
 [ERROR] (noobexcel) Could not get a response from API for this package. See below for details.
@@ -10693,6 +10979,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (noobhack) This package does not have downloadable releases.
 [INFO] (noobhttp) This package is up to date.
 [INFO] (noobiez) This package is up to date.
+[INFO] (noobnote) This package is up to date.
 [INFO] (noodle) This package is up to date.
 [INFO] (noodle-logging) This package is up to date.
 [INFO] (noodleextensions) This package is up to date.
@@ -10732,6 +11019,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nope) This package is up to date.
 [INFO] (nopea) This package is up to date.
 [INFO] (nopi) This package is up to date.
+[INFO] (nopo) This package is up to date.
 [ERROR] (nopy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -10762,6 +11050,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nord-pygments) This package is up to date.
 [INFO] (nordata) This package is up to date.
 [INFO] (nordic-alttp) This package is up to date.
+[INFO] (nordigen-ha-lib) Data has been updated for this package.
+[INFO] (nordigen-python) This package is up to date.
 [INFO] (nordnm) This package is up to date.
 [INFO] (nordpool) This package is up to date.
 [INFO] (nordstrompy) This package is up to date.
@@ -10797,6 +11087,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (nori) This package is up to date.
+[INFO] (nori-rush) This package is up to date.
 [INFO] (norilog) This package is up to date.
 [ERROR] (norilog-otok) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -10817,6 +11108,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (norilog1) This package is up to date.
+[INFO] (nork) This package is up to date.
 [INFO] (norm) This package is up to date.
 [INFO] (norm-bino) This package is up to date.
 [INFO] (norm-binom-distribution) This package is up to date.
@@ -10894,6 +11186,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (normalize-css) This package is up to date.
 [INFO] (normalize-cz-unicode) This package is up to date.
 [INFO] (normalize-easy) This package is up to date.
+[INFO] (normalize-japanese-address) This package is up to date.
 [INFO] (normalize-japanese-addresses) Data has been updated for this package.
 [INFO] (normalize-pkgresources) This package is up to date.
 [INFO] (normalizedata) This package is up to date.
@@ -10908,7 +11201,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (normanpg) This package is up to date.
 [INFO] (normbinom) This package is up to date.
 [INFO] (normcap) This package is up to date.
-[INFO] (normcl) Data has been updated for this package.
+[INFO] (normcl) This package is up to date.
 [INFO] (normdb) This package is up to date.
 [INFO] (normdistbiondist-probability) This package is up to date.
 [INFO] (normetapi) This package is up to date.
@@ -10934,6 +11227,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nornir-routeros) This package is up to date.
 [INFO] (nornir-salt) This package is up to date.
 [INFO] (nornir-scrapli) This package is up to date.
+[INFO] (nornir-table-inventory) This package is up to date.
 [INFO] (nornir-tests) This package is up to date.
 [INFO] (nornir-utils) This package is up to date.
 [INFO] (norns) This package is up to date.
@@ -10944,7 +11238,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (norrisutils) This package is up to date.
 [INFO] (norse) This package is up to date.
 [INFO] (norsecorpus) This package is up to date.
-[INFO] (norskfaktura) This package is up to date.
+[INFO] (norskfaktura) Data has been updated for this package.
 [INFO] (norsourceparser) This package is up to date.
 [INFO] (norsu) This package is up to date.
 [INFO] (norta) This package is up to date.
@@ -10956,13 +11250,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (north-robots) This package is up to date.
 [INFO] (north-utils) This package is up to date.
 [INFO] (northgravity) This package is up to date.
-[INFO] (northrend) Data has been updated for this package.
+[INFO] (northrend) This package is up to date.
 [INFO] (northstar) This package is up to date.
 [INFO] (nortrom) This package is up to date.
 [INFO] (norutil) This package is up to date.
 [INFO] (norwegian-adresses) This package is up to date.
 [INFO] (norwegian-forest-cat) This package is up to date.
 [INFO] (norwegian-numbers) This package is up to date.
+[INFO] (norwegianblue) This package is up to date.
 [INFO] (norwind-nester) This package is up to date.
 [INFO] (nos) This package is up to date.
 [INFO] (nos-brick) This package is up to date.
@@ -11210,6 +11505,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (noselint) This package is up to date.
 [INFO] (noselisting) This package is up to date.
 [INFO] (noselog) This package is up to date.
+[INFO] (nosem) This package is up to date.
 [INFO] (nosemerge) This package is up to date.
 [INFO] (nosemouse) This package is up to date.
 [INFO] (nosemultiversion) This package is up to date.
@@ -11333,12 +11629,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notch-agent) This package is up to date.
 [INFO] (notch-client) This package is up to date.
 [INFO] (notcologger) This package is up to date.
-[INFO] (notcurses) Data has been updated for this package.
+[INFO] (notcurses) This package is up to date.
 [INFO] (note) This package is up to date.
+[INFO] (note-board) Data has been updated for this package.
 [INFO] (note-class) This package is up to date.
 [INFO] (note-clerk) This package is up to date.
 [INFO] (note-py) This package is up to date.
-[INFO] (note-python) This package is up to date.
+[INFO] (note-python) Data has been updated for this package.
 [INFO] (note-seq) This package is up to date.
 [INFO] (note-shell) This package is up to date.
 [INFO] (note0) This package is up to date.
@@ -11385,7 +11682,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (notebook-to-blog) This package is up to date.
 [INFO] (notebook-toggle-code) This package is up to date.
-[INFO] (notebook-tools) Data has been updated for this package.
+[INFO] (notebook-tools) This package is up to date.
 [INFO] (notebook-viewer) This package is up to date.
 [INFO] (notebook-wide-screen) This package is up to date.
 [INFO] (notebook-xterm) This package is up to date.
@@ -11439,7 +11736,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notelbm) This package is up to date.
 [INFO] (noteline-kf) This package is up to date.
 [INFO] (noteline-sdk-core) This package is up to date.
-[INFO] (notelist) Data has been updated for this package.
+[INFO] (notelink) This package is up to date.
+[INFO] (notelist) This package is up to date.
 [INFO] (notementum) This package is up to date.
 [INFO] (notemind) This package is up to date.
 [INFO] (notemodel) This package is up to date.
@@ -11499,6 +11797,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nothing-matrix-calculator) This package is up to date.
 [INFO] (nothingatall) This package is up to date.
 [INFO] (nothingness) This package is up to date.
+[INFO] (nothoney) This package is up to date.
 [INFO] (nothrottling-dl) This package is up to date.
 [INFO] (notiadb) This package is up to date.
 [INFO] (noticeme) This package is up to date.
@@ -11510,6 +11809,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notification-common-service) This package is up to date.
 [INFO] (notification-macos) This package is up to date.
 [INFO] (notification-mount) This package is up to date.
+[INFO] (notification-services) Data has been updated for this package.
 [INFO] (notification-timer) This package is up to date.
 [ERROR] (notification-timer-phenomenal-karthikeyan) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -11535,15 +11835,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (notificationframework) This package does not have downloadable releases.
 [INFO] (notificationoptoutplugin) This package is up to date.
 [INFO] (notifications) This package is up to date.
+[INFO] (notifications-android-tv) Data has been updated for this package.
 [INFO] (notifications-central) This package is up to date.
 [INFO] (notifications-plugin) This package is up to date.
 [INFO] (notifications-python-client) This package is up to date.
+[INFO] (notificationservices) Data has been updated for this package.
 [INFO] (notificationsmail) This package is up to date.
 [INFO] (notifier) This package is up to date.
 [INFO] (notifier-altear) This package is up to date.
 [INFO] (notifier-function) This package is up to date.
 [INFO] (notifierclient) This package is up to date.
-[INFO] (notifierlib) This package is up to date.
+[INFO] (notifierlib) Data has been updated for this package.
 [INFO] (notifiers) This package is up to date.
 [INFO] (notifikation-nu) This package is up to date.
 [INFO] (notifique-me) This package is up to date.
@@ -11577,7 +11879,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notifybot) This package is up to date.
 [INFO] (notifybot3) This package is up to date.
 [INFO] (notifycenter) This package is up to date.
-[INFO] (notifyd) Data has been updated for this package.
+[INFO] (notifyd) This package is up to date.
 [INFO] (notifydict) This package is up to date.
 [INFO] (notifyexceptions) This package is up to date.
 [INFO] (notifyhub) This package is up to date.
@@ -11586,10 +11888,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notifymail) This package is up to date.
 [INFO] (notifymanager) This package is up to date.
 [INFO] (notifyme) This package is up to date.
+[INFO] (notifyme-traveltimer) Data has been updated for this package.
 [INFO] (notifyourself) This package is up to date.
 [INFO] (notifypy) This package is up to date.
+[INFO] (notifypy-saturn) This package is up to date.
 [INFO] (notifyr) This package is up to date.
 [INFO] (notifysms) This package is up to date.
+[INFO] (notifyvocab) This package is up to date.
 [INFO] (notigen) This package is up to date.
 [INFO] (notimantionsdk) This package is up to date.
 [INFO] (notimportchecker) This package is up to date.
@@ -11599,6 +11904,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notion-as-db) This package is up to date.
 [INFO] (notion-backup) This package is up to date.
 [INFO] (notion-client) This package is up to date.
+[INFO] (notion-database) Data has been updated for this package.
 [INFO] (notion-export-enhancer) This package is up to date.
 [INFO] (notion-log-exec) This package is up to date.
 [INFO] (notion-my) This package is up to date.
@@ -11616,8 +11922,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notion2jekyll) This package is up to date.
 [INFO] (notion2md) This package is up to date.
 [INFO] (notioncalendarsync) This package is up to date.
+[INFO] (notiondb) This package is up to date.
 [INFO] (notionhq-client) This package is up to date.
 [INFO] (notionist) This package is up to date.
+[INFO] (notionpy) This package is up to date.
 [INFO] (notipy) This package is up to date.
 [INFO] (notipy-me) This package is up to date.
 [INFO] (notipy-osx) This package is up to date.
@@ -11625,7 +11933,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (notipymail) This package is up to date.
 [INFO] (notirss) This package is up to date.
 [INFO] (notitia) This package is up to date.
+[INFO] (notix-python) This package is up to date.
 [INFO] (notizen) This package is up to date.
+[INFO] (notme) This package is up to date.
+[INFO] (notmenotme) This package is up to date.
 [INFO] (notmike) This package is up to date.
 [ERROR] (notmm) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -11694,6 +12005,25 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nova-dpm) This package is up to date.
 [INFO] (nova-evefamilia) This package is up to date.
 [ERROR] (nova-fusioncompute) This package does not have downloadable releases.
+[ERROR] (nova-legacy-hack-full-free-trilithium) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/dd/91/6a9ae6fe569ec0e4671ab8c274fed8dcc36672c2b85721b55e2d75735d55/NOVA%20LEGACY%20HACK%20FULL%20FREE%20TRILITHIUM-0.31.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nova-limits) This package is up to date.
 [INFO] (nova-lxd) This package is up to date.
 [INFO] (nova-mksproxy) This package is up to date.
@@ -11737,7 +12067,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (novelsave) This package is up to date.
 [INFO] (novelspider) This package is up to date.
 [INFO] (novelty) This package is up to date.
-[INFO] (novelwriter) Data has been updated for this package.
+[INFO] (novelwriter) This package is up to date.
 [ERROR] (novice) Could not extract data from this package. See below for details.
 ".git" extension not supported.
 [INFO] (novicedude-cli) This package is up to date.
@@ -11765,7 +12095,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nowhere) This package is up to date.
 [INFO] (noworkflow) This package is up to date.
 [INFO] (noworkflow-alpha) This package is up to date.
-[INFO] (nowpayments) Data has been updated for this package.
+[INFO] (nowpayments) This package is up to date.
 [ERROR] (nowpayments-python) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -11818,9 +12148,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nowyou-grafis-script-python) This package is up to date.
 [INFO] (nowyou-grafits-script-python) This package is up to date.
 [INFO] (nowyou-vstitcher-script-python) This package is up to date.
-[INFO] (nox) Data has been updated for this package.
+[INFO] (nox) This package is up to date.
 [INFO] (nox-automation) This package is up to date.
-[INFO] (nox-poetry) Data has been updated for this package.
+[INFO] (nox-poetry) This package is up to date.
 [INFO] (nox-py2) This package is up to date.
 [INFO] (noxmainnetwork) This package is up to date.
 [INFO] (noy-black) This package is up to date.
@@ -11870,7 +12200,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (npal) This package is up to date.
 [INFO] (nparray) This package is up to date.
 [INFO] (npat) This package is up to date.
-[INFO] (npaws) Data has been updated for this package.
+[INFO] (npaws) This package is up to date.
 [INFO] (npbrain) This package is up to date.
 [INFO] (npc) This package is up to date.
 [ERROR] (npc-shop-cli) Could not get a response from API for this package. See below for details.
@@ -11899,7 +12229,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (npconf) This package is up to date.
 [INFO] (npctypes) This package is up to date.
 [INFO] (npd-data) This package is up to date.
-[INFO] (npd-entropy) Data has been updated for this package.
+[INFO] (npd-entropy) This package is up to date.
+[INFO] (npd-whale-wisdom) This package is up to date.
 [INFO] (npdb) This package is up to date.
 [INFO] (npdchecker) This package is up to date.
 [INFO] (npdk) This package is up to date.
@@ -12052,12 +12383,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nprint) This package is up to date.
 [INFO] (nprintml) This package is up to date.
 [ERROR] (nprn) This package does not have downloadable releases.
-[INFO] (nproc) Data has been updated for this package.
+[INFO] (nproc) This package is up to date.
 [INFO] (nproxypool) This package is up to date.
 [INFO] (nps) This package is up to date.
 [INFO] (nps-sdk) This package is up to date.
 [INFO] (nps-weather) This package is up to date.
-[INFO] (npsdkk) Data has been updated for this package.
+[INFO] (npsdk) This package is up to date.
+[INFO] (npsdkk) This package is up to date.
 [INFO] (npshmex) This package is up to date.
 [INFO] (npsn) This package is up to date.
 [INFO] (npso) This package is up to date.
@@ -12131,7 +12463,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (npy-append-array) This package is up to date.
 [INFO] (npy2bdv) This package is up to date.
 [INFO] (npy4chan) This package is up to date.
-[INFO] (npyc) Data has been updated for this package.
+[INFO] (npyc) This package is up to date.
 [INFO] (npyetl) This package is up to date.
 [INFO] (npyfile) This package is up to date.
 [INFO] (npyi) This package is up to date.
@@ -12335,7 +12667,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nr-utils-io) This package is up to date.
 [INFO] (nr-utils-ponyorm) This package is up to date.
 [INFO] (nr-utils-process) This package is up to date.
-[INFO] (nr-utils-re) Data has been updated for this package.
+[INFO] (nr-utils-re) This package is up to date.
 [INFO] (nra-project) This package is up to date.
 [INFO] (nrask) This package is up to date.
 [INFO] (nrb) This package is up to date.
@@ -12577,9 +12909,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nre-darwin-py) This package is up to date.
 [ERROR] (nrecipes) This package does not have downloadable releases.
 [INFO] (nrefocus) This package is up to date.
+[INFO] (nrel-cloud-fs) This package is up to date.
 [INFO] (nrel-dev-api) This package is up to date.
 [INFO] (nrel-farms) This package is up to date.
-[INFO] (nrel-jade) This package is up to date.
+[INFO] (nrel-jade) Data has been updated for this package.
 [INFO] (nrel-nrwal) This package is up to date.
 [INFO] (nrel-phygnn) This package is up to date.
 [INFO] (nrel-pysam) This package is up to date.
@@ -12587,14 +12920,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nrel-pysam-dao-tk-stubs) This package is up to date.
 [INFO] (nrel-pysam-stubs) This package is up to date.
 [INFO] (nrel-rev) This package is up to date.
-[INFO] (nrel-revx) Data has been updated for this package.
-[INFO] (nrel-rex) This package is up to date.
+[INFO] (nrel-revx) This package is up to date.
+[INFO] (nrel-rex) Data has been updated for this package.
 [INFO] (nrepl) This package is up to date.
 [INFO] (nrepl-python-client) This package is up to date.
 [INFO] (nretools) This package is up to date.
 [INFO] (nrewebservices) This package is up to date.
 [INFO] (nrf24) This package is up to date.
 [INFO] (nrf24lu1-boot) This package is up to date.
+[INFO] (nrf52dfu) This package is up to date.
+[INFO] (nrf52otadfu) This package is up to date.
 [INFO] (nrfsec) This package is up to date.
 [INFO] (nrftool) This package is up to date.
 [INFO] (nrfutil) This package is up to date.
@@ -12618,7 +12953,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (nrghash) This package is up to date.
 [INFO] (nrgmodbus) This package is up to date.
-[INFO] (nrgpy) Data has been updated for this package.
+[INFO] (nrgpy) This package is up to date.
 [INFO] (nrgten) This package is up to date.
 [INFO] (nrinsightsapi) This package is up to date.
 [INFO] (nrk-api) This package is up to date.
@@ -12657,7 +12992,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nrnutils) This package is up to date.
 [INFO] (nrosepdf) This package is up to date.
 [INFO] (nround) This package is up to date.
-[INFO] (nrpcalc) This package is up to date.
+[INFO] (nrpcalc) Data has been updated for this package.
 [INFO] (nrpylatex) This package is up to date.
 [INFO] (nrql-api) This package is up to date.
 [INFO] (nrql-cli) This package is up to date.
@@ -12674,6 +13009,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ns-jwt) This package is up to date.
 [INFO] (ns-kafka-python) This package is up to date.
 [INFO] (ns-lattice) This package is up to date.
+[INFO] (ns-py) Data has been updated for this package.
 [INFO] (ns-record) This package is up to date.
 [INFO] (ns-stitchclient) This package is up to date.
 [INFO] (ns1) This package is up to date.
@@ -12734,8 +13070,9 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (nse-fno-expiry-calculator) Data has been updated for this package.
+[INFO] (nse-fno-expiry-calculator) This package is up to date.
 [ERROR] (nse-info) This package does not have downloadable releases.
+[INFO] (nse-nn-lpv) Data has been updated for this package.
 [INFO] (nse-quadratic-mats) This package is up to date.
 [INFO] (nse50bse30) This package is up to date.
 [INFO] (nsedata) This package is up to date.
@@ -12794,7 +13131,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nsgvalidation) This package is up to date.
 [INFO] (nshack) This package is up to date.
 [INFO] (nshowrss) This package is up to date.
-[INFO] (nsi-bertrand) Data has been updated for this package.
+[INFO] (nsi-bertrand) This package is up to date.
 [INFO] (nsi-cloudooomanager) This package is up to date.
 [INFO] (nsi-granulate) This package is up to date.
 [INFO] (nsi-metadataextractor) This package is up to date.
@@ -12852,11 +13189,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nspywrapper) This package is up to date.
 [INFO] (nsq-api) This package is up to date.
 [INFO] (nsq-py) This package is up to date.
+[INFO] (nsq2arangodb) Data has been updated for this package.
 [INFO] (nsq2kafka) This package is up to date.
 [INFO] (nsqio) This package is up to date.
 [INFO] (nsqs) This package is up to date.
 [INFO] (nsqworker) This package is up to date.
 [INFO] (nsre) This package is up to date.
+[INFO] (nsrt-mk3-dev) Data has been updated for this package.
 [INFO] (nss) This package is up to date.
 [INFO] (nss2) This package is up to date.
 [INFO] (nss3) This package is up to date.
@@ -12921,7 +13260,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nt-comm) This package is up to date.
 [INFO] (nt-frwk) This package is up to date.
 [INFO] (nt-lib) This package is up to date.
-[INFO] (nt-py) Data has been updated for this package.
+[INFO] (nt-py) This package is up to date.
 [INFO] (nt-svcutils) This package is up to date.
 [INFO] (nt-test) This package is up to date.
 [INFO] (nt-version) This package is up to date.
@@ -12935,6 +13274,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ntbea) This package is up to date.
 [INFO] (ntc) This package is up to date.
 [INFO] (ntc-ansible) This package is up to date.
+[INFO] (ntc-ansible-plugin) This package is up to date.
 [INFO] (ntc-netbox-plugin-metrics-ext) This package is up to date.
 [INFO] (ntc-netbox-plugin-onboarding) This package is up to date.
 [INFO] (ntc-pcrypto) This package is up to date.
@@ -12980,8 +13320,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nteu-translation-engine) This package is up to date.
 [INFO] (nteu-translation-engine-fake) This package is up to date.
 [INFO] (ntfb) This package is up to date.
-[INFO] (ntfsdump) This package is up to date.
-[INFO] (ntfsfind) This package is up to date.
+[INFO] (ntfsdump) Data has been updated for this package.
+[INFO] (ntfsfind) Data has been updated for this package.
 [INFO] (ntfsjournal) This package is up to date.
 [INFO] (ntfsutils) This package is up to date.
 [INFO] (ntfy) This package is up to date.
@@ -13024,7 +13364,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ntier-aiohttp) This package is up to date.
 [INFO] (ntils-yuxin-wang) This package is up to date.
 [INFO] (ntk) This package is up to date.
-[INFO] (ntl) Data has been updated for this package.
+[INFO] (ntl) This package is up to date.
 [INFO] (ntlk) This package is up to date.
 [INFO] (ntlm-auth) This package is up to date.
 [INFO] (ntlm-info) This package is up to date.
@@ -13062,8 +13402,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (ntnu-kt) This package is up to date.
 [INFO] (ntnu-process-mining) This package is up to date.
-[INFO] (ntnucourses) Data has been updated for this package.
-[INFO] (ntnx-api) Data has been updated for this package.
+[INFO] (ntnucourses) This package is up to date.
+[INFO] (ntnx-api) This package is up to date.
 [INFO] (ntnx-gcli) This package is up to date.
 [INFO] (ntokloapi) This package is up to date.
 [INFO] (ntools) This package is up to date.
@@ -13083,7 +13423,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ntracer) This package is up to date.
 [ERROR] (ntrct) This package does not have downloadable releases.
 [INFO] (ntripbrowser) This package is up to date.
-[INFO] (ntripstreams) Data has been updated for this package.
+[INFO] (ntripstreams) This package is up to date.
 [INFO] (ntropy) This package is up to date.
 [INFO] (ntropy-sdk) This package is up to date.
 [INFO] (nts) This package is up to date.
@@ -13165,11 +13505,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nubium-aiokafka) This package is up to date.
 [INFO] (nubium-faust) This package is up to date.
 [INFO] (nubium-schemas) This package is up to date.
-[INFO] (nubium-utils) Data has been updated for this package.
+[INFO] (nubium-utils) This package is up to date.
 [ERROR] (nublas) This package does not have downloadable releases.
 [INFO] (nublast) This package is up to date.
 [INFO] (nubo) This package is up to date.
-[INFO] (nuc-data-tool) Data has been updated for this package.
+[INFO] (nuc-data-tool) This package is up to date.
 [INFO] (nuc-fwhm) This package is up to date.
 [INFO] (nuc-led) This package is up to date.
 [INFO] (nucdetect) This package is up to date.
@@ -13181,6 +13521,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nuclear-postaladdress) This package is up to date.
 [INFO] (nuclear-python) This package is up to date.
 [INFO] (nuclear-tf) This package is up to date.
+[INFO] (nuclearstate) This package is up to date.
 [INFO] (nucleartools) This package is up to date.
 [INFO] (nuclease-off-target) This package is up to date.
 [INFO] (nuclei) This package is up to date.
@@ -13202,7 +13543,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nucleusutils) This package is up to date.
 [INFO] (nucling) This package is up to date.
 [INFO] (nuclio) This package is up to date.
-[INFO] (nuclio-jupyter) This package is up to date.
+[INFO] (nuclio-jupyter) Data has been updated for this package.
 [INFO] (nuclio-sdk) This package is up to date.
 [INFO] (nuclitrack) This package is up to date.
 [INFO] (nuclyr) This package is up to date.
@@ -13291,14 +13632,35 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (null101703074) This package is up to date.
 [INFO] (nullauthenticator) This package is up to date.
 [INFO] (nullblack-gitflow) This package is up to date.
+[INFO] (nulled) This package is up to date.
 [INFO] (nulledapi) This package is up to date.
 [INFO] (nullent1ty-external-ip) This package is up to date.
+[ERROR] (nullpercentage) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (nullpobug-chaser) This package is up to date.
 [INFO] (nullpom) This package is up to date.
+[INFO] (nullsafe) This package is up to date.
 [INFO] (nullsmtp) This package is up to date.
 [INFO] (nullsmtpd) This package is up to date.
 [INFO] (nullspace-optimizer) This package is up to date.
 [INFO] (nulltype) This package is up to date.
+[INFO] (nullwriter) Data has been updated for this package.
 [INFO] (num-calculus) This package is up to date.
 [INFO] (num-cfs-cluster) This package is up to date.
 [INFO] (num-distributions) This package is up to date.
@@ -13328,10 +13690,12 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (num2chinese) This package is up to date.
 [INFO] (num2cyrillic) This package is up to date.
 [INFO] (num2es) This package is up to date.
 [INFO] (num2fawords) This package is up to date.
 [INFO] (num2kor) This package is up to date.
+[INFO] (num2name) This package is up to date.
 [INFO] (num2rus) This package is up to date.
 [INFO] (num2str) This package is up to date.
 [INFO] (num2tex) This package is up to date.
@@ -13350,6 +13714,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (numba) This package is up to date.
 [INFO] (numba-doc-zh) This package is up to date.
 [INFO] (numba-passthru) This package is up to date.
+[INFO] (numba-plsa) Data has been updated for this package.
 [INFO] (numba-quaternion) This package is up to date.
 [INFO] (numba-scipy) This package is up to date.
 [INFO] (numba-special) This package is up to date.
@@ -13364,7 +13729,24 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (numbasummarizer) This package is up to date.
 [INFO] (number-comparator) This package is up to date.
 [INFO] (number-converter) This package is up to date.
-[INFO] (number-exchange) This package is up to date.
+[ERROR] (number-exchange) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (number-game) This package is up to date.
 [INFO] (number-generator) This package is up to date.
 [INFO] (number-guesser) This package is up to date.
@@ -13401,6 +13783,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (number-to-words) This package is up to date.
 [INFO] (number-tools) This package is up to date.
 [INFO] (number-types) This package is up to date.
+[INFO] (number-utility) This package is up to date.
 [INFO] (number-verifier) This package is up to date.
 [INFO] (number-writer) This package is up to date.
 [INFO] (number2letters) This package is up to date.
@@ -13420,6 +13803,8 @@ This package download URL does not point to a valid file: "http://ioam.github.io
 [INFO] (numberify) This package is up to date.
 [INFO] (numberjack) This package is up to date.
 [INFO] (numbername) This package is up to date.
+[INFO] (numberpuzzle) This package is up to date.
+[INFO] (numberpuzzlegame) This package is up to date.
 [ERROR] (numbers) This package does not have downloadable releases.
 [INFO] (numbers-extractor) This package is up to date.
 [ERROR] (numbers-in-text) Could not get a response from API for this package. See below for details.
@@ -13479,6 +13864,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numbytes) This package is up to date.
 [INFO] (numcall) This package is up to date.
 [INFO] (numcaptcha) This package is up to date.
+[INFO] (numcat) This package is up to date.
 [INFO] (numcodecs) This package is up to date.
 [INFO] (numcompress) This package is up to date.
 [INFO] (numconv) This package is up to date.
@@ -13545,6 +13931,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numereval) This package is up to date.
 [ERROR] (numeric) This package does not have downloadable releases.
 [INFO] (numeric-sets-dyaroshevych) This package is up to date.
+[ERROR] (numeric-systems) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (numeric-version) This package is up to date.
 [INFO] (numerica) This package is up to date.
 [INFO] (numerical-analysis) This package is up to date.
@@ -13700,7 +14104,7 @@ This package download URL does not point to a valid file: "http://sourceforge.ne
 [INFO] (numpy-nn) This package is up to date.
 [INFO] (numpy-partition) This package is up to date.
 [INFO] (numpy-posit) This package is up to date.
-[INFO] (numpy-quaternion) Data has been updated for this package.
+[INFO] (numpy-quaternion) This package is up to date.
 [INFO] (numpy-reduced-flowcytometrytools) This package is up to date.
 [INFO] (numpy-ringbuffer) This package is up to date.
 [INFO] (numpy-ros) This package is up to date.
@@ -13727,6 +14131,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numpy-string-indexed) This package is up to date.
 [INFO] (numpy-sugar) This package is up to date.
 [INFO] (numpy-syncer) This package is up to date.
+[INFO] (numpy-tools) This package is up to date.
 [INFO] (numpy-turtle) This package is up to date.
 [INFO] (numpy-unit) This package is up to date.
 [INFO] (numpy-utils) This package is up to date.
@@ -13739,7 +14144,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numpygraph) This package is up to date.
 [INFO] (numpymongo) This package is up to date.
 [INFO] (numpyprint) This package is up to date.
-[INFO] (numpyro) This package is up to date.
+[INFO] (numpyrett) This package is up to date.
+[INFO] (numpyro) Data has been updated for this package.
 [INFO] (numpysane) This package is up to date.
 [INFO] (numpyson) This package is up to date.
 [INFO] (numpythia) This package is up to date.
@@ -13749,10 +14155,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numpyxtns) This package is up to date.
 [INFO] (numq) This package is up to date.
 [INFO] (numrep) This package is up to date.
-[INFO] (nums) Data has been updated for this package.
+[INFO] (nums) This package is up to date.
 [INFO] (nums-from-string) This package is up to date.
 [INFO] (numscons) This package is up to date.
 [INFO] (numscrypt) This package is up to date.
+[INFO] (numsolve) Data has been updated for this package.
 [INFO] (numspy) This package is up to date.
 [INFO] (numstranslate) This package is up to date.
 [INFO] (numsys) This package is up to date.
@@ -13768,12 +14175,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (numtraits) This package is up to date.
 [INFO] (numtxt) This package is up to date.
 [INFO] (numty) This package is up to date.
+[INFO] (numuse) This package is up to date.
 [INFO] (numutil) This package is up to date.
 [INFO] (numutils) This package is up to date.
 [INFO] (numwhizz) This package is up to date.
 [INFO] (numworkshop) This package is up to date.
 [INFO] (nuna) This package is up to date.
-[INFO] (nunavut) Data has been updated for this package.
+[INFO] (nunavut) This package is up to date.
 [INFO] (nunchuck-pi) This package is up to date.
 [ERROR] (nunens19) This package does not have downloadable releases.
 [INFO] (nunit) This package is up to date.
@@ -13881,6 +14289,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nutils) This package is up to date.
 [INFO] (nutjob) This package is up to date.
 [INFO] (nutmeg) This package is up to date.
+[INFO] (nutpy) This package is up to date.
 [INFO] (nutra) This package is up to date.
 [INFO] (nutratracker) This package is up to date.
 [INFO] (nutri) This package is up to date.
@@ -13956,6 +14365,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nvhtml) This package is up to date.
 [INFO] (nvhtop) This package is up to date.
 [INFO] (nvidia-clara-client) This package is up to date.
+[INFO] (nvidia-clara-pipeline-driver) This package is up to date.
 [INFO] (nvidia-cublas) This package is up to date.
 [INFO] (nvidia-cublas-cu11) This package is up to date.
 [INFO] (nvidia-cublas-cu110) This package is up to date.
@@ -14100,6 +14510,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nvlib) This package is up to date.
 [INFO] (nvmdeploy) This package is up to date.
 [INFO] (nvmelib) This package is up to date.
+[INFO] (nvn) Data has been updated for this package.
 [INFO] (nvpnsxapi) This package is up to date.
 [INFO] (nvprof) This package is up to date.
 [INFO] (nvpy) This package is up to date.
@@ -14112,7 +14523,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nvstrings) This package is up to date.
 [INFO] (nvstrings-cuda100) This package is up to date.
 [INFO] (nvstrings-cuda92) This package is up to date.
-[INFO] (nvtabular) Data has been updated for this package.
+[INFO] (nvtabular) This package is up to date.
+[INFO] (nvtof) Data has been updated for this package.
 [INFO] (nvtx) This package is up to date.
 [INFO] (nvtx-plugins) This package is up to date.
 [INFO] (nvuti) This package is up to date.
@@ -14174,7 +14586,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nwanime-dl) This package is up to date.
 [INFO] (nwapp) This package is up to date.
 [INFO] (nwavclauncher) This package is up to date.
-[INFO] (nway) Data has been updated for this package.
+[INFO] (nway) This package is up to date.
 [ERROR] (nwaycache) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -14216,7 +14628,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nwc-pattern-miner) This package is up to date.
 [INFO] (nwcsafpps-runner) This package is up to date.
 [INFO] (nwd) This package is up to date.
-[INFO] (nwdata) Data has been updated for this package.
+[INFO] (nwdata) This package is up to date.
 [INFO] (nwdiag) This package is up to date.
 [INFO] (nwe) This package is up to date.
 [INFO] (nwebclient) This package is up to date.
@@ -14227,6 +14639,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nwm) This package is up to date.
 [INFO] (nwpc-hpc-model) This package is up to date.
 [INFO] (nwpc-workflow-model) This package is up to date.
+[INFO] (nwpm) This package is up to date.
 [INFO] (nwpoetry) This package is up to date.
 [INFO] (nwpy) This package is up to date.
 [INFO] (nwqt4) This package is up to date.
@@ -14277,6 +14690,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nwu-cards-demo) This package is up to date.
 [INFO] (nx) This package is up to date.
 [INFO] (nx-altair) This package is up to date.
+[INFO] (nx-config) Data has been updated for this package.
 [INFO] (nx-csv2json) This package is up to date.
 [INFO] (nx-express) This package is up to date.
 [INFO] (nx-graph) This package is up to date.
@@ -14285,6 +14699,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nx-spatial) This package is up to date.
 [INFO] (nx-viper) This package is up to date.
 [INFO] (nx-work-log) This package is up to date.
+[INFO] (nx100-remote-control) Data has been updated for this package.
 [INFO] (nx2ipe) This package is up to date.
 [ERROR] (nx4-selenium-test) This package does not have downloadable releases.
 [INFO] (nx584mqtt) This package is up to date.
@@ -14318,7 +14733,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nxfvars) This package is up to date.
 [INFO] (nxlib) This package is up to date.
 [INFO] (nxmake) This package is up to date.
-[INFO] (nxontology) Data has been updated for this package.
+[INFO] (nxontology) This package is up to date.
 [INFO] (nxosncrpc) This package is up to date.
 [INFO] (nxp) This package is up to date.
 [INFO] (nxp-dlagent) This package is up to date.
@@ -14330,7 +14745,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nxp-pp) This package is up to date.
 [INFO] (nxpd) This package is up to date.
 [INFO] (nxpl) This package is up to date.
-[INFO] (nxpprog) This package is up to date.
+[INFO] (nxpprog) Data has been updated for this package.
 [INFO] (nxppy) This package is up to date.
 [ERROR] (nxppylos) This package does not have downloadable releases.
 [INFO] (nxpy) This package is up to date.
@@ -14364,13 +14779,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nxsrecselector) This package is up to date.
 [INFO] (nxstart) This package is up to date.
 [INFO] (nxstaurusgui) This package is up to date.
-[INFO] (nxstools) Data has been updated for this package.
+[INFO] (nxstools) This package is up to date.
 [INFO] (nxsugarpy) This package is up to date.
 [ERROR] (nxsvg) This package does not have downloadable releases.
 [INFO] (nxswriter) This package is up to date.
 [INFO] (nxt) This package is up to date.
 [INFO] (nxt-core) This package is up to date.
-[INFO] (nxt-editor) This package is up to date.
+[INFO] (nxt-editor) Data has been updated for this package.
 [INFO] (nxt-python) This package is up to date.
 [INFO] (nxt-python-tools) This package is up to date.
 [INFO] (nxt-python2) This package is up to date.
@@ -14415,6 +14830,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nyanbar) This package is up to date.
 [INFO] (nyancat) This package is up to date.
 [INFO] (nyanping) This package is up to date.
+[INFO] (nyantip) This package is up to date.
 [INFO] (nyaraka) This package is up to date.
 [INFO] (nyawc) This package is up to date.
 [ERROR] (nyc) This package does not have downloadable releases.
@@ -14424,6 +14840,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nyc-parser) This package is up to date.
 [INFO] (nycdb) This package is up to date.
 [INFO] (nycflights13) This package is up to date.
+[INFO] (nychka) This package is up to date.
 [INFO] (nyckelmastaren-casahl) This package is up to date.
 [ERROR] (nycpython) This package does not have downloadable releases.
 [INFO] (nydus) This package is up to date.
@@ -14435,7 +14852,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nylas-production-python) This package is up to date.
 [INFO] (nylib) This package is up to date.
 [INFO] (nylon) This package is up to date.
-[INFO] (nylon-ai) Data has been updated for this package.
+[INFO] (nylon-ai) This package is up to date.
 [INFO] (nymms) This package is up to date.
 [INFO] (nymp) This package is up to date.
 [INFO] (nymph) This package is up to date.
@@ -14514,12 +14931,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nyx) This package is up to date.
 [INFO] (nyx-abc) This package is up to date.
 [INFO] (nyx-dry-run) This package is up to date.
-[INFO] (nyzostrings) Data has been updated for this package.
+[INFO] (nyzostrings) This package is up to date.
 [INFO] (nz-allo-usage-tools) This package is up to date.
 [INFO] (nz-flow-naturalisation) This package is up to date.
 [INFO] (nz-labyrinth) This package is up to date.
 [INFO] (nz-rma-permits) This package is up to date.
-[INFO] (nzalchemy) Data has been updated for this package.
+[INFO] (nzalchemy) This package is up to date.
 [INFO] (nzbclients) This package is up to date.
 [INFO] (nzbget-file-opener) This package is up to date.
 [INFO] (nzbsort) This package is up to date.
@@ -14535,17 +14952,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (nzproxy) This package is up to date.
 [INFO] (nzpy) This package is up to date.
 [INFO] (nztests) This package is up to date.
-[INFO] (nztm) This package is up to date.
+[INFO] (nztm) Data has been updated for this package.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 9238
-[INFO]     Packages processed: 9238
-[INFO]         Packages updated: 185
-[INFO]         Packages up-to-date: 8470
-[INFO]         Packages without response: 250
+[INFO] Total packages: 9422
+[INFO]     Packages processed: 9422
+[INFO]         Packages updated: 187
+[INFO]         Packages up-to-date: 8639
+[INFO]         Packages without response: 261
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 298
-[INFO]         Packages with data errors: 35
+[INFO]         Packages with data errors: 37
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

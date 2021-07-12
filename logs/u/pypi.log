@@ -5,7 +5,7 @@
 [ERROR] (u-cli) This package does not have downloadable releases.
 [INFO] (u-coreutils) This package is up to date.
 [INFO] (u-grpc-lib) This package is up to date.
-[INFO] (u-micro-rsa) Data has been updated for this package.
+[INFO] (u-micro-rsa) This package is up to date.
 [INFO] (u-msgpack-python) This package is up to date.
 [INFO] (u1-test-utils) This package is up to date.
 [INFO] (u1db) This package is up to date.
@@ -15,8 +15,8 @@
 [INFO] (u2py) This package is up to date.
 [INFO] (u2t) This package is up to date.
 [INFO] (u3d-studio) This package is up to date.
-[INFO] (u3driver) This package is up to date.
-[INFO] (u8darts) This package is up to date.
+[INFO] (u3driver) Data has been updated for this package.
+[INFO] (u8darts) Data has been updated for this package.
 [INFO] (u8timeseries) This package is up to date.
 [INFO] (ua) This package is up to date.
 [INFO] (ua-api-utils) This package is up to date.
@@ -48,7 +48,7 @@
 [INFO] (ua2-table3a) This package is up to date.
 [INFO] (ua2nx) This package is up to date.
 [INFO] (uaconnect) This package is up to date.
-[INFO] (uacs) Data has been updated for this package.
+[INFO] (uacs) This package is up to date.
 [ERROR] (uacs1) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -81,11 +81,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uamf) This package is up to date.
 [INFO] (uamobile) This package is up to date.
 [INFO] (uamqp) This package is up to date.
+[INFO] (uamutils) This package is up to date.
 [INFO] (uao) This package is up to date.
 [INFO] (uaparser) This package is up to date.
 [INFO] (uapy) This package is up to date.
 [INFO] (uapycon) This package is up to date.
-[INFO] (uaqtpy) Data has been updated for this package.
+[INFO] (uaqtpy) This package is up to date.
 [INFO] (uarango) This package is up to date.
 [INFO] (uarchiver) This package is up to date.
 [INFO] (uareach) This package is up to date.
@@ -152,6 +153,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ubarec) This package is up to date.
 [INFO] (ubase) This package is up to date.
 [INFO] (ubatch) This package is up to date.
+[INFO] (ubay-checks-computer) Data has been updated for this package.
 [INFO] (ubc) This package is up to date.
 [INFO] (ubc-chbe-computational-methods) This package is up to date.
 [INFO] (ubc-knn) This package is up to date.
@@ -169,8 +171,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uberdict) This package is up to date.
 [INFO] (uberdoc) This package is up to date.
 [INFO] (uberfare) This package is up to date.
+[INFO] (uberfmt) This package is up to date.
 [INFO] (ubergauss) This package is up to date.
 [INFO] (uberjob) This package is up to date.
+[INFO] (uberlimb) This package is up to date.
 [INFO] (uberlogging) This package is up to date.
 [INFO] (uberlogs) This package is up to date.
 [INFO] (ubermag) This package is up to date.
@@ -220,29 +224,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uboat) This package is up to date.
 [INFO] (uboot) This package is up to date.
 [INFO] (ubot) This package is up to date.
-[ERROR] (ubotadapter) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (ubotadapter) This package is up to date.
 [INFO] (ubox-service) This package is up to date.
 [INFO] (ubox360) This package is up to date.
 [INFO] (ubpy) This package is up to date.
 [ERROR] (ubrew) This package does not have downloadable releases.
 [INFO] (ubscrape) This package is up to date.
+[INFO] (ubsoar) This package is up to date.
 [INFO] (ubuf) This package is up to date.
 [INFO] (ubuild) This package is up to date.
 [ERROR] (ubuntu) This package does not have downloadable releases.
@@ -378,7 +366,7 @@ This package download URL does not point to a valid file: "http://pypi.python.or
 [INFO] (ucloud-common) This package is up to date.
 [INFO] (ucloud-py) This package is up to date.
 [INFO] (ucloud-sdk-python2) This package is up to date.
-[INFO] (ucloud-sdk-python3) This package is up to date.
+[INFO] (ucloud-sdk-python3) Data has been updated for this package.
 [INFO] (ucloud-storage-python-wrapper) This package is up to date.
 [ERROR] (ucloud-ufile) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -437,7 +425,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ucnn) This package is up to date.
 [INFO] (ucnp-skybility) This package is up to date.
 [ERROR] (ucnum) This package does not have downloadable releases.
-[INFO] (ucnumber) This package is up to date.
+[INFO] (ucnumber) Data has been updated for this package.
 [INFO] (ucode-cli) This package is up to date.
 [INFO] (ucodeio-hellolib) This package is up to date.
 [INFO] (ucoinpy) This package is up to date.
@@ -635,6 +623,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (udacity-carndt1test) This package is up to date.
 [INFO] (udacity-chiron) This package is up to date.
 [INFO] (udacity-cocajoey-dsnd) This package is up to date.
+[INFO] (udacity-distr) Data has been updated for this package.
 [INFO] (udacity-distributions) This package is up to date.
 [INFO] (udacity-distributions-01) This package is up to date.
 [INFO] (udacity-distributions-5-exe) This package is up to date.
@@ -698,14 +687,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (udacitymle-distributions) This package is up to date.
 [INFO] (udacitymledistributions) This package is up to date.
 [INFO] (udapi) This package is up to date.
-[INFO] (udar) Data has been updated for this package.
+[INFO] (udar) This package is up to date.
+[INFO] (udarpc) This package is up to date.
 [INFO] (udaswissknife) This package is up to date.
-[INFO] (udata) This package is up to date.
+[INFO] (udata) Data has been updated for this package.
 [INFO] (udata-ckan) This package is up to date.
 [INFO] (udata-croquemort) This package is up to date.
 [INFO] (udata-data-fair) This package is up to date.
 [INFO] (udata-geoplatform) This package is up to date.
-[INFO] (udata-gouvfr) This package is up to date.
+[INFO] (udata-gouvfr) Data has been updated for this package.
 [ERROR] (udata-harvest) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -728,7 +718,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (udata-ldap) This package is up to date.
 [INFO] (udata-metrics) This package is up to date.
 [INFO] (udata-ods) This package is up to date.
-[INFO] (udata-piwik) This package is up to date.
+[INFO] (udata-piwik) Data has been updated for this package.
 [INFO] (udata-recommendations) This package is up to date.
 [INFO] (udata-schema-gouvfr) This package is up to date.
 [INFO] (udata-tabular-preview) This package is up to date.
@@ -736,6 +726,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (udatastore) This package is up to date.
 [INFO] (udatetime) This package is up to date.
 [INFO] (udawsml-distrib) This package is up to date.
+[INFO] (udax) This package is up to date.
 [INFO] (udaypdf) This package is up to date.
 [ERROR] (udb) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -799,7 +790,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (udft) This package is up to date.
 [INFO] (udger) This package is up to date.
-[INFO] (udi-interface) This package is up to date.
+[INFO] (udi-interface) Data has been updated for this package.
 [INFO] (udi-probability) This package is up to date.
 [INFO] (udica) This package is up to date.
 [INFO] (udicopendata) This package is up to date.
@@ -839,8 +830,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (udiskie) This package is up to date.
 [INFO] (udk-configparser) This package is up to date.
 [INFO] (udkanbun) Data has been updated for this package.
-[INFO] (udkm1dsim) Data has been updated for this package.
-[INFO] (udkundoku) This package is up to date.
+[INFO] (udkm1dsim) This package is up to date.
+[INFO] (udkundoku) Data has been updated for this package.
 [ERROR] (udl) Could not extract data from this package. See below for details.
 "https://github.com/Arpitbhawar/Udacity-Course-Downloader.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
@@ -873,7 +864,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (udo-db) This package is up to date.
 [INFO] (udo-optimization) This package is up to date.
 [INFO] (udoc) This package is up to date.
-[INFO] (udocker) Data has been updated for this package.
+[INFO] (udocker) This package is up to date.
 [INFO] (udocker-stimela) This package is up to date.
 [INFO] (udon) This package is up to date.
 [INFO] (udon2) This package is up to date.
@@ -932,7 +923,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ue) This package is up to date.
 [INFO] (ue-schedule) This package is up to date.
 [INFO] (ue4-ci-helpers) This package is up to date.
-[INFO] (ue4-docker) Data has been updated for this package.
+[INFO] (ue4-docker) This package is up to date.
 [INFO] (ue4cli) This package is up to date.
 [INFO] (uea-ucr-datasets) This package is up to date.
 [INFO] (ueagle) This package is up to date.
@@ -964,6 +955,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ueditor-nimbus) This package is up to date.
 [INFO] (ueditor4tornado) This package is up to date.
 [INFO] (uefi-firmware) This package is up to date.
+[INFO] (uefi-r2) This package is up to date.
 [INFO] (uek-abc) This package is up to date.
 [INFO] (uek-ex-pkg) This package is up to date.
 [INFO] (uek-light1111) This package is up to date.
@@ -1019,7 +1011,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ufire-mod-ec) This package is up to date.
 [INFO] (ufire-mod-orp) This package is up to date.
 [INFO] (ufire-mod-ph) This package is up to date.
-[INFO] (ufit) This package is up to date.
+[INFO] (ufit) Data has been updated for this package.
 [ERROR] (ufji) Could not extract data from this package. See below for details.
 
 [INFO] (ufl) This package is up to date.
@@ -1033,7 +1025,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ufo) This package is up to date.
 [INFO] (ufo-extractor) This package is up to date.
 [INFO] (ufo-filter) This package is up to date.
-[INFO] (ufo2ft) This package is up to date.
+[INFO] (ufo2ft) Data has been updated for this package.
 [INFO] (ufo2otf) This package is up to date.
 [INFO] (ufobit) This package is up to date.
 [INFO] (ufodiff) This package is up to date.
@@ -1049,6 +1041,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uforgecli) This package is up to date.
 [INFO] (uforgecli-nightly) This package is up to date.
 [INFO] (ufork) This package is up to date.
+[INFO] (uformer-pytorch) This package is up to date.
+[INFO] (ufostroker) Data has been updated for this package.
 [INFO] (ufotest) This package is up to date.
 [INFO] (ufp) This package is up to date.
 [INFO] (ufro-uhi-plot) This package is up to date.
@@ -1153,6 +1147,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uhome) This package is up to date.
 [INFO] (uhttplib) This package is up to date.
 [INFO] (uhu) This package is up to date.
+[INFO] (uhugo) Data has been updated for this package.
 [INFO] (ui) This package is up to date.
 [INFO] (ui-automation-framework) This package is up to date.
 [INFO] (ui-map-parser) This package is up to date.
@@ -1162,7 +1157,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ui3) This package is up to date.
 [ERROR] (ui57) This package does not have downloadable releases.
 [INFO] (uiauto) This package is up to date.
-[INFO] (uiautomation) Data has been updated for this package.
+[INFO] (uiautomation) This package is up to date.
 [INFO] (uiautomator) This package is up to date.
 [INFO] (uiautomator2) This package is up to date.
 [INFO] (uiautomatorplug) This package is up to date.
@@ -1184,6 +1179,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uinames) This package is up to date.
 [INFO] (uinfo) This package is up to date.
 [INFO] (uint) This package is up to date.
+[INFO] (uint16-to-img) Data has been updated for this package.
 [INFO] (uio) This package is up to date.
 [INFO] (uio-monty-hall-game) This package is up to date.
 [INFO] (uiotedge-driver-link-sdk) This package is up to date.
@@ -1338,7 +1334,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ukgov-treasury-cra) This package is up to date.
 [INFO] (ukhotides) This package is up to date.
 [INFO] (ukim42d08) This package is up to date.
-[INFO] (ukim42d08-2) Data has been updated for this package.
+[INFO] (ukim42d08-2) This package is up to date.
 [INFO] (uking-saves) This package is up to date.
 [INFO] (ukis-csmask) This package is up to date.
 [INFO] (ukis-metrics) This package is up to date.
@@ -1370,7 +1366,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ukpostcodes) This package is up to date.
 [INFO] (ukpostcodevalidator) This package is up to date.
 [INFO] (ukrainian) This package is up to date.
-[INFO] (ukrdc-sqla) Data has been updated for this package.
+[INFO] (ukrdc-sqla) This package is up to date.
 [INFO] (ukrdict) This package is up to date.
 [INFO] (ukrit) This package is up to date.
 [INFO] (ukritlib) This package is up to date.
@@ -1385,7 +1381,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ukw-ml-tools) This package is up to date.
 [INFO] (ukyvub0ffj) This package is up to date.
 [INFO] (ul) This package is up to date.
-[INFO] (ulab-image-contrast) Data has been updated for this package.
+[INFO] (ulab-image-contrast) This package is up to date.
 [INFO] (ulakbus) This package is up to date.
 [INFO] (ulam-spiral) This package is up to date.
 [INFO] (ulang) This package is up to date.
@@ -1399,6 +1395,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ulcarchetype) This package is up to date.
 [INFO] (uld) This package is up to date.
 [INFO] (uldaq) This package is up to date.
+[INFO] (uleska-automate) Data has been updated for this package.
 [INFO] (ulia) This package is up to date.
 [INFO] (uliacceleration) This package is up to date.
 [INFO] (ulib) This package is up to date.
@@ -1487,7 +1484,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ultimate-hosts-blacklist-deployment-launcher) This package is up to date.
 [INFO] (ultimate-hosts-blacklist-helpers) This package is up to date.
 [INFO] (ultimate-hosts-blacklist-input-repo-updater) This package is up to date.
-[INFO] (ultimate-hosts-blacklist-test-launcher) This package is up to date.
+[INFO] (ultimate-hosts-blacklist-test-launcher) Data has been updated for this package.
 [INFO] (ultimate-hosts-blacklist-the-whitelist) This package is up to date.
 [INFO] (ultimate-hosts-blacklist-whitelist) This package is up to date.
 [INFO] (ultimate-hosts-blacklist-whitelist-dev) This package is up to date.
@@ -1496,7 +1493,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ultimate-ttt) This package is up to date.
 [ERROR] (ultimate-webshots-converter-for-kde) Could not extract data from this package. See below for details.
 ".php" extension not supported.
-[INFO] (ultimatechemcalc) Data has been updated for this package.
+[INFO] (ultimatechemcalc) This package is up to date.
 [INFO] (ultimatelabeling) This package is up to date.
 [INFO] (ultimatepkg2) This package is up to date.
 [INFO] (ultimatum) This package is up to date.
@@ -1529,7 +1526,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (ultracart-rest-sdk) This package is up to date.
+[INFO] (ultracart-rest-sdk) Data has been updated for this package.
 [INFO] (ultrachronic) This package is up to date.
 [INFO] (ultraconfig) This package is up to date.
 [INFO] (ultracrawler) This package is up to date.
@@ -1700,7 +1697,7 @@ This package download URL does not point to a valid file: "http://www.umitprojec
 [INFO] (umr-line-driver) This package is up to date.
 [INFO] (umr-mirai-driver) This package is up to date.
 [INFO] (umr-telegram-driver) This package is up to date.
-[INFO] (ums) Data has been updated for this package.
+[INFO] (ums) This package is up to date.
 [INFO] (ums-doc-swag) This package is up to date.
 [INFO] (ums-doc-swagger) This package is up to date.
 [INFO] (umsg) This package is up to date.
@@ -1729,7 +1726,7 @@ This package download URL does not point to a valid file: "http://www.umitprojec
 [ERROR] (unagi-py) Could not extract data from this package. See below for details.
 ".html" extension not supported.
 [INFO] (unakite) This package is up to date.
-[INFO] (unalix) Data has been updated for this package.
+[INFO] (unalix) This package is up to date.
 [ERROR] (unalog-python) This package does not have downloadable releases.
 [INFO] (uname2) This package is up to date.
 [INFO] (unanimous) This package is up to date.
@@ -1741,8 +1738,9 @@ This package download URL does not point to a valid file: "http://www.umitprojec
 [INFO] (unavailable-object) This package is up to date.
 [INFO] (unbabel-comet) This package is up to date.
 [INFO] (unbabel-py) This package is up to date.
+[INFO] (unbalancedgw) This package is up to date.
 [INFO] (unbelipy) This package is up to date.
-[INFO] (unbounce-python-api) This package is up to date.
+[INFO] (unbounce-python-api) Data has been updated for this package.
 [INFO] (unbound-console) This package is up to date.
 [INFO] (unbound-ec2) This package is up to date.
 [INFO] (unbound-key-control-client-api) This package is up to date.
@@ -1752,6 +1750,7 @@ This package download URL does not point to a valid file: "http://www.umitprojec
 [INFO] (unbroken-pyobjc) This package is up to date.
 [INFO] (unbuffered-input) This package is up to date.
 [INFO] (unbuiltins) This package is up to date.
+[INFO] (unc2url) This package is up to date.
 [INFO] (uncalled) This package is up to date.
 [INFO] (uncanny) This package is up to date.
 [INFO] (uncatchable-exception) This package is up to date.
@@ -1780,7 +1779,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (uncertaint-sdp-python) This package is up to date.
-[INFO] (uncertainties) This package is up to date.
+[INFO] (uncertainties) Data has been updated for this package.
 [INFO] (uncertainty) This package is up to date.
 [INFO] (uncertainty-baselines) This package is up to date.
 [INFO] (uncertainty-calibration) This package is up to date.
@@ -1861,8 +1860,8 @@ Unsupported package directory structure.
 [INFO] (understatapi) This package is up to date.
 [INFO] (understate) This package is up to date.
 [INFO] (understory) Data has been updated for this package.
-[INFO] (understory-code) Data has been updated for this package.
-[INFO] (understory-db) Data has been updated for this package.
+[INFO] (understory-code) This package is up to date.
+[INFO] (understory-db) This package is up to date.
 [INFO] (understory-fx) This package is up to date.
 [INFO] (understory-term) This package is up to date.
 [INFO] (understory-web) Data has been updated for this package.
@@ -1879,7 +1878,7 @@ Unsupported package directory structure.
 [INFO] (undetected-chromedriver) This package is up to date.
 [INFO] (undi) This package is up to date.
 [INFO] (undict) This package is up to date.
-[INFO] (undictify) Data has been updated for this package.
+[INFO] (undictify) This package is up to date.
 [INFO] (undmainchain) This package is up to date.
 [INFO] (undname) This package is up to date.
 [ERROR] (undo) Could not extract data from this package. See below for details.
@@ -1887,12 +1886,14 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (undo-redo) This package is up to date.
 [INFO] (undoable) This package is up to date.
 [INFO] (undoable-transaction) This package is up to date.
+[INFO] (undocinclude) This package is up to date.
 [INFO] (undocker) This package is up to date.
 [INFO] (undopy) This package is up to date.
 [INFO] (undoredo) This package is up to date.
+[INFO] (undr) This package is up to date.
 [INFO] (undrp) This package is up to date.
 [INFO] (undupe) This package is up to date.
-[INFO] (unearthed-cli) Data has been updated for this package.
+[INFO] (unearthed-cli) This package is up to date.
 [INFO] (unebus) This package is up to date.
 [INFO] (unenchhash) This package is up to date.
 [INFO] (unencryptedsocket) This package is up to date.
@@ -1901,7 +1902,7 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (unet-stylegan2) This package is up to date.
 [INFO] (unete) This package is up to date.
 [INFO] (unetpy) This package is up to date.
-[INFO] (unetseg) This package is up to date.
+[INFO] (unetseg) Data has been updated for this package.
 [INFO] (unextexams) This package is up to date.
 [INFO] (unf) This package is up to date.
 [INFO] (unfairseq) This package is up to date.
@@ -1912,14 +1913,14 @@ This package download URL does not point to a valid file: "http://bitbucket.org/
 [INFO] (unfluff) This package is up to date.
 [INFO] (unfold-protein) This package is up to date.
 [INFO] (unfolded) This package is up to date.
-[INFO] (unfolded-data-sdk) Data has been updated for this package.
-[INFO] (unfolded-map-sdk) Data has been updated for this package.
+[INFO] (unfolded-data-sdk) This package is up to date.
+[INFO] (unfolded-map-sdk) This package is up to date.
 [INFO] (unfoldnd) This package is up to date.
 [INFO] (unfollower) This package is up to date.
 [INFO] (unfor19-appy) This package is up to date.
 [INFO] (unfor19-tbs) This package is up to date.
 [INFO] (unfromm) This package is up to date.
-[INFO] (unfurl) Data has been updated for this package.
+[INFO] (unfurl) This package is up to date.
 [INFO] (ungi-utils) This package is up to date.
 [INFO] (ungleich-cli) This package is up to date.
 [INFO] (ungog) This package is up to date.
@@ -1955,24 +1956,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (uni2ascii-janin) This package is up to date.
 [INFO] (uni2esky) This package is up to date.
-[ERROR] (unianalysis) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
 [INFO] (uniapi) This package is up to date.
 [INFO] (uniauth) This package is up to date.
 [INFO] (uniauth-saml2-idp) This package is up to date.
@@ -2029,11 +2012,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unicef-attachments) This package is up to date.
 [INFO] (unicef-djangolib) This package is up to date.
 [INFO] (unicef-djangosaml2) This package is up to date.
-[INFO] (unicef-locations) Data has been updated for this package.
+[INFO] (unicef-locations) This package is up to date.
 [INFO] (unicef-notification) This package is up to date.
 [INFO] (unicef-rest-export) This package is up to date.
 [INFO] (unicef-restlib) This package is up to date.
-[INFO] (unicef-security) Data has been updated for this package.
+[INFO] (unicef-security) This package is up to date.
 [INFO] (unicef-sharepoint) This package is up to date.
 [INFO] (unicef-snapshot) This package is up to date.
 [INFO] (unicef-vision) This package is up to date.
@@ -2044,8 +2027,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unicmobile-common) This package is up to date.
 [INFO] (unicms) Data has been updated for this package.
 [INFO] (unicms-editorial-board) Data has been updated for this package.
-[INFO] (unicms-template-italia) This package is up to date.
-[INFO] (unicms-template-unical) This package is up to date.
+[INFO] (unicms-template-italia) Data has been updated for this package.
+[INFO] (unicms-template-unical) Data has been updated for this package.
 [ERROR] (unico) This package does not have downloadable releases.
 [INFO] (unicode) This package is up to date.
 [INFO] (unicode-babel) This package is up to date.
@@ -2103,6 +2086,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (unicodescript) This package is up to date.
 [INFO] (unicodeset) This package is up to date.
+[ERROR] (unicodetools) This package does not have downloadable releases.
 [INFO] (unicodeutil) This package is up to date.
 [ERROR] (unicoding) This package does not have downloadable releases.
 [INFO] (unicoin) This package is up to date.
@@ -2127,7 +2111,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unicorn-banner) This package is up to date.
 [INFO] (unicorn-binance-rest-api) This package is up to date.
 [INFO] (unicorn-binance-suite) This package is up to date.
-[INFO] (unicorn-binance-websocket-api) This package is up to date.
+[INFO] (unicorn-binance-websocket-api) Data has been updated for this package.
 [ERROR] (unicorn-ca-herd) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -2172,9 +2156,9 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (unide-python) This package is up to date.
 [INFO] (unidecode) This package is up to date.
 [INFO] (unidic) This package is up to date.
-[INFO] (unidic-combo) This package is up to date.
+[INFO] (unidic-combo) Data has been updated for this package.
 [INFO] (unidic-lite) This package is up to date.
-[INFO] (unidic2ud) This package is up to date.
+[INFO] (unidic2ud) Data has been updated for this package.
 [INFO] (unidiff) This package is up to date.
 [INFO] (unidip) This package is up to date.
 [INFO] (unidist) This package is up to date.
@@ -2208,10 +2192,13 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (unifmu) This package is up to date.
 [INFO] (uniform) This package is up to date.
 [INFO] (uniformversion) This package is up to date.
-[INFO] (unifr-api-epuck) This package is up to date.
+[INFO] (unifr-api-epuck) Data has been updated for this package.
 [INFO] (unifrac) This package is up to date.
 [INFO] (unify) This package is up to date.
+[INFO] (unify-cli) This package is up to date.
+[INFO] (unify-connector-framework) This package is up to date.
 [INFO] (unify-script) This package is up to date.
+[INFO] (unify-sdk) This package is up to date.
 [INFO] (unigo) This package is up to date.
 [INFO] (unigui) This package is up to date.
 [INFO] (unihan-db) This package is up to date.
@@ -2219,8 +2206,8 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (unihan-tabular) This package is up to date.
 [INFO] (unihandecode) This package is up to date.
 [INFO] (unijson) This package is up to date.
-[INFO] (unikold-connector) Data has been updated for this package.
-[INFO] (unikube) Data has been updated for this package.
+[INFO] (unikold-connector) This package is up to date.
+[INFO] (unikube) This package is up to date.
 [INFO] (unilever) This package is up to date.
 [INFO] (unilint) This package is up to date.
 [INFO] (unilog) This package is up to date.
@@ -2228,10 +2215,11 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (unimake) This package is up to date.
 [INFO] (unimate) This package is up to date.
 [INFO] (unimator) This package is up to date.
-[INFO] (unimatrix) Data has been updated for this package.
+[INFO] (unimatrix) This package is up to date.
 [INFO] (unimatrix-cli) This package is up to date.
-[INFO] (unimatrix-ext-blob) Data has been updated for this package.
-[INFO] (unimatrix-ext-crypto) This package is up to date.
+[INFO] (unimatrix-ext-blob) This package is up to date.
+[INFO] (unimatrix-ext-cache) This package is up to date.
+[INFO] (unimatrix-ext-crypto) Data has been updated for this package.
 [INFO] (unimatrix-ext-django) This package is up to date.
 [INFO] (unimatrix-ext-foo) This package is up to date.
 [INFO] (unimatrix-ext-guacamole) This package is up to date.
@@ -2278,17 +2266,18 @@ This package download URL does not point to a valid file: "https://sourceforge.n
 [INFO] (unipag) This package is up to date.
 [INFO] (uniparser) This package is up to date.
 [INFO] (uniparser-eastern-armenian) This package is up to date.
-[INFO] (uniparser-erzya) This package is up to date.
-[INFO] (uniparser-komi-zyrian) Data has been updated for this package.
-[INFO] (uniparser-meadow-mari) Data has been updated for this package.
+[INFO] (uniparser-erzya) Data has been updated for this package.
+[INFO] (uniparser-komi-zyrian) This package is up to date.
+[INFO] (uniparser-meadow-mari) This package is up to date.
 [INFO] (uniparser-moksha) This package is up to date.
-[INFO] (uniparser-morph) Data has been updated for this package.
-[INFO] (uniparser-udmurt) This package is up to date.
+[INFO] (uniparser-morph) This package is up to date.
+[INFO] (uniparser-udmurt) Data has been updated for this package.
 [INFO] (unipass) This package is up to date.
 [INFO] (unipath) This package is up to date.
 [INFO] (unipdgest-portlet-navigation) This package is up to date.
 [INFO] (uniphi) This package is up to date.
 [INFO] (uniphy) This package is up to date.
+[INFO] (unipipeline) Data has been updated for this package.
 [INFO] (unipixel) This package is up to date.
 [INFO] (uniplaces-aws-scheduler) This package is up to date.
 [INFO] (uniplate) This package is up to date.
@@ -2407,7 +2396,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unisos-wsinvokericm) This package is up to date.
 [INFO] (unisos-x822msg) This package is up to date.
 [INFO] (unisquid) This package is up to date.
-[INFO] (uniswap-python) Data has been updated for this package.
+[INFO] (uniswap-python) This package is up to date.
 [INFO] (unisync) This package is up to date.
 [INFO] (unit) This package is up to date.
 [INFO] (unit-conversion) This package is up to date.
@@ -2512,7 +2501,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unittestextras) This package is up to date.
 [INFO] (unittestone) This package is up to date.
 [INFO] (unittestrandgenstate) This package is up to date.
-[INFO] (unittestreport) This package is up to date.
+[INFO] (unittestreport) Data has been updated for this package.
 [INFO] (unittestzero) This package is up to date.
 [INFO] (unitth) This package is up to date.
 [INFO] (unittrial) This package is up to date.
@@ -2530,7 +2519,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unitypack) This package is up to date.
 [INFO] (unitypackage-extractor) This package is up to date.
 [INFO] (unityparser) This package is up to date.
-[INFO] (unitypy) This package is up to date.
+[INFO] (unitypy) Data has been updated for this package.
 [INFO] (unityrde) This package is up to date.
 [INFO] (uniudpubapi) This package is up to date.
 [INFO] (uniutils) This package is up to date.
@@ -2547,6 +2536,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (universal-interferometer) This package is up to date.
 [INFO] (universal-name-format) This package is up to date.
 [INFO] (universal-notifications) This package is up to date.
+[INFO] (universal-object-pool) This package is up to date.
 [ERROR] (universal-package-manager) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -2566,7 +2556,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (universal-parser) This package is up to date.
-[INFO] (universal-parser-tool) This package is up to date.
+[INFO] (universal-parser-tool) Data has been updated for this package.
 [INFO] (universal-pathlib) This package is up to date.
 [INFO] (universal-portfolios) This package is up to date.
 [INFO] (universal-response-mobile-api) This package is up to date.
@@ -2693,10 +2683,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (unknown) This package does not have downloadable releases.
 [INFO] (unknownannei) This package is up to date.
 [INFO] (unladenswallow) This package is up to date.
+[INFO] (unleaky) This package is up to date.
 [INFO] (unleash) This package is up to date.
 [INFO] (unleash-client) This package is up to date.
 [INFO] (unleash-potential) This package is up to date.
-[INFO] (unleashclient) Data has been updated for this package.
+[INFO] (unleashclient) This package is up to date.
 [INFO] (unleashed) This package is up to date.
 [INFO] (unleashed-py) This package is up to date.
 [INFO] (unlicense-text) This package is up to date.
@@ -2708,7 +2699,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unlzw3) This package is up to date.
 [INFO] (unmain) This package is up to date.
 [INFO] (unmanic) Data has been updated for this package.
-[INFO] (unmarkd) This package is up to date.
+[INFO] (unmarkd) Data has been updated for this package.
 [INFO] (unmass) This package is up to date.
 [INFO] (unmatch) This package is up to date.
 [INFO] (unmatcher) This package is up to date.
@@ -2730,7 +2721,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unoccupied) This package is up to date.
 [INFO] (unoconv) This package is up to date.
 [INFO] (unofficial-allennlp-nightly) This package is up to date.
-[INFO] (unofficial-beam-redis) This package is up to date.
+[INFO] (unofficial-beam-redis) Data has been updated for this package.
 [INFO] (unofficial-googleplay-api) This package is up to date.
 [INFO] (unofficial-pt-lightning-sphinx-theme) This package is up to date.
 [INFO] (unofficial-pyknp) This package is up to date.
@@ -2759,6 +2750,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (unoserver) This package is up to date.
 [INFO] (unotools) This package is up to date.
 [INFO] (unounouno) This package is up to date.
 [INFO] (unp) This package is up to date.
@@ -2793,6 +2785,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unplag) This package is up to date.
 [INFO] (unplate) This package is up to date.
 [INFO] (unplugged) This package is up to date.
+[INFO] (unpoly-django) This package is up to date.
 [INFO] (unpushed) This package is up to date.
 [INFO] (unpy) This package is up to date.
 [INFO] (unpy2exe) This package is up to date.
@@ -2818,7 +2811,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (unrec) This package is up to date.
 [INFO] (unred) This package is up to date.
 [INFO] (unreferenced) This package is up to date.
-[INFO] (unrest) This package is up to date.
+[INFO] (unrest) Data has been updated for this package.
 [INFO] (unrest-schema) This package is up to date.
 [INFO] (unrestricted-advex) This package is up to date.
 [INFO] (unroll) This package is up to date.
@@ -2976,14 +2969,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uofsc-calculus-labs) This package is up to date.
 [INFO] (uoftscrapers) This package is up to date.
 [INFO] (uol-autograder) This package is up to date.
-[INFO] (uol-grades-calculator) Data has been updated for this package.
+[INFO] (uol-grades-calculator) This package is up to date.
 [INFO] (uonet-request-signer) This package is up to date.
 [INFO] (uonet-request-signer-hebe) This package is up to date.
 [INFO] (uopy) This package is up to date.
 [INFO] (uorm) This package is up to date.
 [INFO] (uos-activpal) This package is up to date.
 [INFO] (uos-cli) This package is up to date.
-[INFO] (uos-complex) Data has been updated for this package.
+[INFO] (uos-complex) This package is up to date.
 [INFO] (uos-statphys) This package is up to date.
 [INFO] (uosclient) This package is up to date.
 [INFO] (uotp) This package is up to date.
@@ -3005,7 +2998,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upaas-client) This package is up to date.
 [INFO] (upaas-common) This package is up to date.
 [INFO] (upack) This package is up to date.
-[INFO] (upackage) Data has been updated for this package.
+[INFO] (upackage) This package is up to date.
+[INFO] (upagekite) Data has been updated for this package.
 [INFO] (upandas) This package is up to date.
 [INFO] (upapi) This package is up to date.
 [INFO] (uparallel) This package is up to date.
@@ -3061,7 +3055,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upcloud) This package is up to date.
 [INFO] (upcloud-api) This package is up to date.
 [INFO] (upcloud-api-python) This package is up to date.
-[INFO] (upcpayment) Data has been updated for this package.
+[INFO] (upcpayment) This package is up to date.
 [INFO] (upctools) This package is up to date.
 [INFO] (upd89) This package is up to date.
 [INFO] (updatable) This package is up to date.
@@ -3075,6 +3069,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (update-copyright) This package is up to date.
 [INFO] (update-docker-detach-keys) This package is up to date.
 [INFO] (update-dotdee) This package is up to date.
+[INFO] (update-gene-symbols-hgnc) This package is up to date.
 [INFO] (update-he-dns) This package is up to date.
 [INFO] (update-ip) This package is up to date.
 [INFO] (update-notipy) This package is up to date.
@@ -3086,6 +3081,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (update-route53) This package is up to date.
 [INFO] (update-tool) This package is up to date.
 [INFO] (update-wrapper) This package is up to date.
+[INFO] (updatebrowser) This package is up to date.
 [INFO] (updatedir) This package is up to date.
 [ERROR] (updatedockertags) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -3136,6 +3132,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (updown) This package is up to date.
 [INFO] (updrytwist-updrytwist) This package is up to date.
 [INFO] (updt) This package is up to date.
+[INFO] (upend) This package is up to date.
 [INFO] (upenwrt) This package is up to date.
 [INFO] (uperations-base) This package is up to date.
 [INFO] (uperations-kernel) This package is up to date.
@@ -3154,13 +3151,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upgrade-ensurepip) This package is up to date.
 [INFO] (upgrade-requirements) This package is up to date.
 [INFO] (upgradechat) This package is up to date.
+[INFO] (upgradechatpy) Data has been updated for this package.
 [INFO] (upgraded-engineer) This package is up to date.
 [INFO] (upgradegit) This package is up to date.
 [INFO] (upguard) This package is up to date.
 [INFO] (uphold-python3) This package is up to date.
 [INFO] (upicasa) This package is up to date.
 [INFO] (upimg) This package is up to date.
-[INFO] (upins) Data has been updated for this package.
+[INFO] (upins) This package is up to date.
 [ERROR] (upip) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -3190,7 +3188,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upldr-apilibs) This package is up to date.
 [INFO] (uplift) This package is up to date.
 [INFO] (uplink) This package is up to date.
-[INFO] (uplink-httpx) This package is up to date.
+[INFO] (uplink-httpx) Data has been updated for this package.
 [INFO] (uplink-protobuf) This package is up to date.
 [INFO] (uplink-python) This package is up to date.
 [INFO] (uplist) This package is up to date.
@@ -3205,6 +3203,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upload-file-s3) This package is up to date.
 [INFO] (upload-haddocks) This package is up to date.
 [INFO] (upload-insert-tools) This package is up to date.
+[INFO] (upload-large-dataframes-tera) This package is up to date.
 [INFO] (upload-manager) This package is up to date.
 [INFO] (upload-path-pyramid) This package is up to date.
 [INFO] (upload-pkg-sam-gordon) This package is up to date.
@@ -3247,6 +3246,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uploader) This package is up to date.
 [INFO] (uploaderjs) This package is up to date.
 [INFO] (uploadfu) This package is up to date.
+[INFO] (uploadgram) This package is up to date.
 [INFO] (uploadossfile) This package is up to date.
 [INFO] (uploadserver) This package is up to date.
 [INFO] (uploadtest) This package is up to date.
@@ -3262,6 +3262,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upmcli) This package is up to date.
 [INFO] (upme) This package is up to date.
 [INFO] (upmost-beta) This package is up to date.
+[INFO] (upn2sepa) This package is up to date.
 [INFO] (upnp) This package is up to date.
 [INFO] (upnp-inspector) This package is up to date.
 [INFO] (upnp-map) This package is up to date.
@@ -3275,7 +3276,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upolygon) This package is up to date.
 [INFO] (uponorjnap) This package is up to date.
 [INFO] (upp) This package is up to date.
-[INFO] (uppaal-py) Data has been updated for this package.
+[INFO] (uppaal-py) This package is up to date.
 [INFO] (upparat) This package is up to date.
 [INFO] (upper-50) This package is up to date.
 [INFO] (upper-folder-getter) This package is up to date.
@@ -3290,7 +3291,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uprime) This package is up to date.
 [INFO] (uprjct-distributions) This package is up to date.
 [INFO] (uprofile) This package is up to date.
-[INFO] (uproot) Data has been updated for this package.
+[INFO] (uproot) This package is up to date.
 [INFO] (uproot-methods) This package is up to date.
 [INFO] (uproot-tree-utils) This package is up to date.
 [INFO] (uproot3) This package is up to date.
@@ -3309,7 +3310,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (upsetplot) Data has been updated for this package.
 [INFO] (upside-down-rl) This package is up to date.
 [INFO] (upsidedown) This package is up to date.
-[INFO] (upsies) This package is up to date.
+[INFO] (upsies) Data has been updated for this package.
 [INFO] (upsilon) This package is up to date.
 [ERROR] (upsilont) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -3355,7 +3356,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (upstream-ontologist) Data has been updated for this package.
+[INFO] (upstream-ontologist) This package is up to date.
 [INFO] (upstride-alchemy) This package is up to date.
 [INFO] (upstride-argparse) This package is up to date.
 [INFO] (upsty) This package is up to date.
@@ -3382,7 +3383,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uptodate) This package is up to date.
 [INFO] (uptool) This package is up to date.
 [INFO] (uptools) This package is up to date.
-[INFO] (uptrace) Data has been updated for this package.
+[INFO] (uptrace) This package is up to date.
 [INFO] (uptt) This package is up to date.
 [ERROR] (upup-essays) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -3553,6 +3554,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (urbansim-templates) This package is up to date.
 [INFO] (urbansim-wfrc) This package is up to date.
 [INFO] (urcalc) This package is up to date.
+[INFO] (urchintai-client) Data has been updated for this package.
 [INFO] (urcollectionmanager) This package is up to date.
 [INFO] (urconf) This package is up to date.
 [INFO] (urdf-parser-py) This package is up to date.
@@ -3694,7 +3696,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (urler) This package is up to date.
 [INFO] (urlexpander) This package is up to date.
-[INFO] (urlextract) Data has been updated for this package.
+[INFO] (urlextract) This package is up to date.
 [INFO] (urlextract-py2-7) This package is up to date.
 [INFO] (urlfetch) This package is up to date.
 [INFO] (urlfiddler) This package is up to date.
@@ -3729,7 +3731,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (urllib4) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/urllib4/downloads/list"
 [INFO] (urllibcache) This package is up to date.
-[INFO] (urlman) Data has been updated for this package.
+[INFO] (urlman) This package is up to date.
 [ERROR] (urlmap) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "https://nodeload.github.com/0wls/urlmap/zipball/master"
 [INFO] (urlmark) This package is up to date.
@@ -3908,6 +3910,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (us-school-data-api) This package is up to date.
 [INFO] (us-senate) This package is up to date.
 [INFO] (us-service-config) This package is up to date.
+[INFO] (us2deepposekit) This package is up to date.
+[INFO] (us2djongo) Data has been updated for this package.
 [INFO] (us3) This package is up to date.
 [ERROR] (usa) This package does not have downloadable releases.
 [INFO] (usa-spending) This package is up to date.
@@ -3953,6 +3957,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (usb-imager) This package is up to date.
 [INFO] (usb-iss) This package is up to date.
 [INFO] (usb-manager) This package is up to date.
+[INFO] (usb-plug-notification) Data has been updated for this package.
+[INFO] (usb-plug-notification-darwin) Data has been updated for this package.
+[INFO] (usb-plug-notification-linux) Data has been updated for this package.
 [INFO] (usb-prober) This package is up to date.
 [INFO] (usb-quartermaster-client) This package is up to date.
 [INFO] (usb-quartermaster-common) This package is up to date.
@@ -4003,7 +4010,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (use-logging) This package is up to date.
 [INFO] (use0mk) This package is up to date.
 [INFO] (useb) This package is up to date.
-[INFO] (usedave) Data has been updated for this package.
+[INFO] (usedave) This package is up to date.
 [INFO] (usedef) This package is up to date.
 [INFO] (useful) This package is up to date.
 [INFO] (useful-collections) This package is up to date.
@@ -4021,14 +4028,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (usefullibs) This package is up to date.
 [INFO] (usefulltools) This package is up to date.
 [INFO] (usefulpy) This package is up to date.
-[INFO] (usefulpython) Data has been updated for this package.
+[INFO] (usefulpython) This package is up to date.
 [ERROR] (usefulutil) This package does not have downloadable releases.
 [INFO] (usefulutils) This package is up to date.
+[INFO] (useinf) This package is up to date.
 [INFO] (useintest) This package is up to date.
 [INFO] (useis) This package is up to date.
 [INFO] (useismic) This package is up to date.
 [INFO] (usejenkins) This package is up to date.
 [INFO] (useless) This package is up to date.
+[INFO] (useless-calc) This package is up to date.
 [INFO] (useless-lib) This package is up to date.
 [INFO] (useless-pipes) This package is up to date.
 [INFO] (useless-py) This package is up to date.
@@ -4227,12 +4236,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (userdocker) This package is up to date.
 [INFO] (useready) This package is up to date.
+[INFO] (userelaina) This package is up to date.
 [INFO] (userelainatestsetup1) This package is up to date.
 [INFO] (useresponse) This package is up to date.
 [INFO] (userexit) This package is up to date.
 [INFO] (userful) This package is up to date.
 [INFO] (userge) This package is up to date.
-[INFO] (usergeantispamapi) Data has been updated for this package.
+[INFO] (usergeantispamapi) This package is up to date.
 [INFO] (usergrid) This package is up to date.
 [INFO] (usergrid-tools) This package is up to date.
 [ERROR] (usergrid-util) Could not extract data from this package. See below for details.
@@ -4293,7 +4303,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uservice-logging) This package is up to date.
 [INFO] (uservice-utils) This package is up to date.
 [INFO] (uservoice) This package is up to date.
-[INFO] (usethatpy) This package is up to date.
+[INFO] (usethatpy) Data has been updated for this package.
 [INFO] (usethis-django-bootstrap) This package is up to date.
 [INFO] (usetwitter) This package is up to date.
 [INFO] (useurmind-mkdocs-macros-plugin) This package is up to date.
@@ -4311,6 +4321,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (usgs) This package is up to date.
 [INFO] (usgs-api) This package is up to date.
 [INFO] (usgs-mbe) This package is up to date.
+[INFO] (usgs-quake) This package is up to date.
 [INFO] (usgs-shakecast) This package is up to date.
 [INFO] (usgs-topo-tiler) This package is up to date.
 [ERROR] (usgsdata-citiesx020) This package does not have downloadable releases.
@@ -4417,7 +4428,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uswarm) This package is up to date.
 [INFO] (uswoodnester) This package is up to date.
 [INFO] (usyslog) This package is up to date.
-[INFO] (uszipcode) Data has been updated for this package.
+[INFO] (uszipcode) This package is up to date.
 [INFO] (ut) This package is up to date.
 [INFO] (ut-nester) This package is up to date.
 [INFO] (ut-test-distributions) This package is up to date.
@@ -4451,6 +4462,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utensor-cgen) This package is up to date.
 [INFO] (uterm) This package is up to date.
 [INFO] (utest) This package is up to date.
+[INFO] (utestcell) Data has been updated for this package.
 [INFO] (utf-remote) This package is up to date.
 [INFO] (utf7) This package is up to date.
 [ERROR] (utf8) Could not get a response from API for this package. See below for details.
@@ -4513,7 +4525,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (util-func) This package is up to date.
 [INFO] (util-functions) This package is up to date.
 [INFO] (util-gfsilveira) This package is up to date.
-[INFO] (util-hj3415) This package is up to date.
+[INFO] (util-hj3415) Data has been updated for this package.
 [INFO] (util-py) This package is up to date.
 [INFO] (util-q) This package is up to date.
 [INFO] (util-random) This package is up to date.
@@ -4534,7 +4546,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utilio) This package is up to date.
 [INFO] (utilipy) This package is up to date.
 [INFO] (utilis) This package is up to date.
-[INFO] (utilita) Data has been updated for this package.
+[INFO] (utilita) This package is up to date.
 [ERROR] (utilitarian) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -4613,10 +4625,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utilmy) This package is up to date.
 [INFO] (utilofies) This package is up to date.
 [INFO] (utilp) This package is up to date.
-[INFO] (utilpack) This package is up to date.
+[INFO] (utilpack) Data has been updated for this package.
 [INFO] (utilpy) This package is up to date.
 [INFO] (utils) This package is up to date.
 [INFO] (utils-aazerra) This package is up to date.
+[INFO] (utils-ag) This package is up to date.
 [INFO] (utils-ak) This package is up to date.
 [INFO] (utils-bsa) This package is up to date.
 [INFO] (utils-config) This package is up to date.
@@ -4628,8 +4641,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utils-flask-sqlalchemy-geo) This package is up to date.
 [INFO] (utils-functions-plus) This package is up to date.
 [INFO] (utils-gao) This package is up to date.
+[INFO] (utils-hoo) Data has been updated for this package.
 [INFO] (utils-jlg) This package is up to date.
 [INFO] (utils-knot) This package is up to date.
+[INFO] (utils-lib) This package is up to date.
 [INFO] (utils-mahesh) This package is up to date.
 [INFO] (utils-manager) This package is up to date.
 [INFO] (utils-mini) This package is up to date.
@@ -4643,13 +4658,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utils2) This package is up to date.
 [INFO] (utils2devops) This package is up to date.
 [INFO] (utils48) This package is up to date.
-[INFO] (utils4dd) Data has been updated for this package.
+[INFO] (utils4dd) This package is up to date.
 [INFO] (utils4py) This package is up to date.
 [INFO] (utils4r) This package is up to date.
 [INFO] (utils4ymc) This package is up to date.
 [INFO] (utilsbib) This package is up to date.
 [INFO] (utilscell) This package is up to date.
-[INFO] (utilsd) Data has been updated for this package.
+[INFO] (utilsd) This package is up to date.
 [INFO] (utilsfunc) This package is up to date.
 [INFO] (utilsmanager) This package is up to date.
 [INFO] (utilsoptima) This package is up to date.
@@ -4773,6 +4788,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (utranslate) Data has been updated for this package.
 [INFO] (utrme) This package is up to date.
 [INFO] (utrunner) This package is up to date.
 [INFO] (uts) This package is up to date.
@@ -4783,7 +4799,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (utterance) This package is up to date.
 [INFO] (utteranceflow) This package is up to date.
 [INFO] (utterson) This package is up to date.
-[INFO] (uttlv) This package is up to date.
+[INFO] (uttlv) Data has been updated for this package.
 [INFO] (uttrs) This package is up to date.
 [INFO] (uttt) This package is up to date.
 [INFO] (uttt-irc) This package is up to date.
@@ -4825,7 +4841,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uuid64) This package is up to date.
 [INFO] (uule-grabber) This package is up to date.
 [INFO] (uulm-mensa) This package is up to date.
-[INFO] (uunet) This package is up to date.
+[INFO] (uunet) Data has been updated for this package.
 [INFO] (uunonymous) This package is up to date.
 [INFO] (uuo) This package is up to date.
 [ERROR] (uuoskit) Could not get a response from API for this package. See below for details.
@@ -4940,13 +4956,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uw-panopto-client) This package is up to date.
 [INFO] (uw-restclients) This package is up to date.
 [INFO] (uw-restclients-adsel) Data has been updated for this package.
+[INFO] (uw-restclients-attest) This package is up to date.
 [INFO] (uw-restclients-bookstore) This package is up to date.
 [INFO] (uw-restclients-bridge) This package is up to date.
 [INFO] (uw-restclients-canvas) This package is up to date.
 [INFO] (uw-restclients-catalyst) This package is up to date.
 [INFO] (uw-restclients-coda) This package is up to date.
-[INFO] (uw-restclients-core) Data has been updated for this package.
-[INFO] (uw-restclients-django-utils) Data has been updated for this package.
+[INFO] (uw-restclients-core) This package is up to date.
+[INFO] (uw-restclients-django-utils) This package is up to date.
 [INFO] (uw-restclients-grad) This package is up to date.
 [INFO] (uw-restclients-gradepage) This package is up to date.
 [INFO] (uw-restclients-graderoster) This package is up to date.
@@ -4965,13 +4982,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uw-restclients-sws) This package is up to date.
 [INFO] (uw-restclients-trumba) This package is up to date.
 [INFO] (uw-restclients-upass) This package is up to date.
-[INFO] (uw-restclients-uwnetid) Data has been updated for this package.
+[INFO] (uw-restclients-uwnetid) This package is up to date.
 [INFO] (uw-restclients-wheniwork) This package is up to date.
 [INFO] (uw-restclients-zoom) This package is up to date.
 [INFO] (uw-saml) This package is up to date.
 [INFO] (uw-stempals-demos) This package is up to date.
 [INFO] (uw-tools) This package is up to date.
-[INFO] (uw-webdriver-recorder) This package is up to date.
+[INFO] (uw-webdriver-recorder) Data has been updated for this package.
 [INFO] (uwallet) This package is up to date.
 [INFO] (uwaterloo-addcourse) This package is up to date.
 [INFO] (uwaterlooapi) This package is up to date.
@@ -5117,9 +5134,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uwsift) This package is up to date.
 [INFO] (uwstyle) This package is up to date.
 [INFO] (uwtools) This package is up to date.
+[INFO] (uwtopsis) This package is up to date.
 [INFO] (uwu) This package is up to date.
 [INFO] (uwuifier) This package is up to date.
 [INFO] (uwuify) This package is up to date.
+[INFO] (uwvikor) This package is up to date.
 [INFO] (uwygtfvjha) This package is up to date.
 [INFO] (ux) This package is up to date.
 [INFO] (uxadt) This package is up to date.
@@ -5146,13 +5165,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (uzu-accounts-app) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3372
-[INFO]     Packages processed: 3372
-[INFO]         Packages updated: 66
-[INFO]         Packages up-to-date: 3136
-[INFO]         Packages without response: 80
+[INFO] Total packages: 3425
+[INFO]     Packages processed: 3425
+[INFO]         Packages updated: 69
+[INFO]         Packages up-to-date: 3187
+[INFO]         Packages without response: 78
 [INFO]         Packages without urls: 0
-[INFO]         Packages without downloads: 64
+[INFO]         Packages without downloads: 65
 [INFO]         Packages with data errors: 26
 [INFO]     Packages not processed: 0
 [INFO] 

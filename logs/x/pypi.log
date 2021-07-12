@@ -2,6 +2,7 @@
 [INFO] Downloading package list from PyPI ...
 [ERROR] (x) This package does not have downloadable releases.
 [INFO] (x-ae-a-12) This package is up to date.
+[INFO] (x-ai) Data has been updated for this package.
 [INFO] (x-aps) This package is up to date.
 [INFO] (x-atp-api) This package is up to date.
 [INFO] (x-atp-cli) This package is up to date.
@@ -35,9 +36,9 @@
 [INFO] (x-python) This package is up to date.
 [INFO] (x-rand) This package is up to date.
 [INFO] (x-ray) This package is up to date.
-[INFO] (x-tagger) This package is up to date.
+[INFO] (x-tagger) Data has been updated for this package.
 [INFO] (x-to-nwb) This package is up to date.
-[INFO] (x-transformers) This package is up to date.
+[INFO] (x-transformers) Data has been updated for this package.
 [INFO] (x-utils) This package is up to date.
 [INFO] (x-x) This package is up to date.
 [INFO] (x-xmlparse) This package is up to date.
@@ -60,11 +61,12 @@
 [INFO] (x16rv2-hash) This package is up to date.
 [INFO] (x16s-hash) This package is up to date.
 [INFO] (x17-hash) This package is up to date.
+[INFO] (x1x) Data has been updated for this package.
 [INFO] (x20157576-sns-pkg) This package is up to date.
 [INFO] (x256) This package is up to date.
 [INFO] (x256-img) This package is up to date.
 [INFO] (x2cdict) This package is up to date.
-[INFO] (x2paddle) Data has been updated for this package.
+[INFO] (x2paddle) This package is up to date.
 [INFO] (x2polygons) This package is up to date.
 [INFO] (x2py) This package is up to date.
 [INFO] (x2t) This package is up to date.
@@ -150,6 +152,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xai-tabular-widget) This package is up to date.
 [INFO] (xaib) This package is up to date.
 [ERROR] (xail) This package does not have downloadable releases.
+[INFO] (xaim) Data has been updated for this package.
 [ERROR] (xain) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -173,6 +176,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xain-proto) This package is up to date.
 [INFO] (xain-sdk) This package is up to date.
 [INFO] (xairos-arc) This package is up to date.
+[INFO] (xaitk-saliency) This package is up to date.
 [INFO] (xako) This package is up to date.
 [INFO] (xal) This package is up to date.
 [INFO] (xalanih) This package is up to date.
@@ -181,7 +185,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xaled-utils) This package is up to date.
 [INFO] (xaler) This package is up to date.
 [INFO] (xalglib) This package is up to date.
-[INFO] (xalpha) Data has been updated for this package.
+[INFO] (xalpha) This package is up to date.
 [INFO] (xam) This package is up to date.
 [INFO] (xamarin-legos) This package is up to date.
 [INFO] (xamcheck-utils) This package is up to date.
@@ -228,7 +232,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xapiparser) This package is up to date.
 [INFO] (xapo-sdk) This package is up to date.
 [INFO] (xappt) This package is up to date.
-[INFO] (xappt-qt) Data has been updated for this package.
+[INFO] (xappt-qt) This package is up to date.
 [INFO] (xappy) This package is up to date.
 [INFO] (xaptum-tpm-python) This package is up to date.
 [ERROR] (xapwrap) This package does not have downloadable releases.
@@ -262,12 +266,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xarray-sentinel) This package is up to date.
 [INFO] (xarray-simlab) This package is up to date.
 [INFO] (xarray-spatial) Data has been updated for this package.
-[INFO] (xarray-spatial-chlochlo) This package is up to date.
-[INFO] (xarray-spatial-chlochlo-b) This package is up to date.
-[INFO] (xarray-spatial-chlochlo-c) This package is up to date.
-[INFO] (xarray-spatial-chlochlo-d) This package is up to date.
-[INFO] (xarray-spatial-chlochlo-f) This package is up to date.
-[INFO] (xarray-spatial-mijn) This package is up to date.
 [INFO] (xarray-stac) This package is up to date.
 [INFO] (xarray-topo) This package is up to date.
 [INFO] (xarrayutils) This package is up to date.
@@ -305,7 +303,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xavi) This package is up to date.
 [INFO] (xavier) This package is up to date.
 [INFO] (xaws) This package is up to date.
-[INFO] (xawsprofile) Data has been updated for this package.
+[INFO] (xawsprofile) This package is up to date.
 [INFO] (xaxtsuxo) This package is up to date.
 [INFO] (xaynet-sdk-python) This package is up to date.
 [ERROR] (xb) This package does not have downloadable releases.
@@ -338,7 +336,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xbmc-client) This package is up to date.
 [INFO] (xbmc-json) This package is up to date.
 [INFO] (xbmcswift2) This package is up to date.
-[INFO] (xbnet) Data has been updated for this package.
+[INFO] (xbnet) This package is up to date.
 [INFO] (xbob-buildout) This package is up to date.
 [INFO] (xbob-daq) This package is up to date.
 [INFO] (xbob-db-arface) This package is up to date.
@@ -470,7 +468,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xbrr) This package is up to date.
 [INFO] (xbrz-py) This package is up to date.
 [INFO] (xbsryzmvon) This package is up to date.
-[INFO] (xbstrap) Data has been updated for this package.
+[INFO] (xbstrap) This package is up to date.
 [INFO] (xbundle) This package is up to date.
 [INFO] (xbus) This package is up to date.
 [INFO] (xbus-broker) This package is up to date.
@@ -495,6 +493,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xccdfparser) This package is up to date.
 [INFO] (xcdb) This package is up to date.
 [INFO] (xcell) This package is up to date.
+[INFO] (xcesionpackage) This package is up to date.
 [INFO] (xcessiv) This package is up to date.
 [INFO] (xcffib) This package is up to date.
 [INFO] (xcfont) This package is up to date.
@@ -535,7 +534,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xcloudpy) This package is up to date.
 [INFO] (xcltk) This package is up to date.
 [INFO] (xcmd) This package is up to date.
-[INFO] (xcmocean) Data has been updated for this package.
+[INFO] (xcmocean) This package is up to date.
 [INFO] (xcms) This package is up to date.
 [INFO] (xcode-releasemaker) This package is up to date.
 [INFO] (xcode-toolbox) This package is up to date.
@@ -550,7 +549,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xcom485i) This package is up to date.
 [INFO] (xcomcan) This package is up to date.
 [INFO] (xcomfort) This package is up to date.
-[INFO] (xcomfortmqtt) Data has been updated for this package.
+[INFO] (xcomfortmqtt) This package is up to date.
 [INFO] (xcomment) This package is up to date.
 [INFO] (xcommon) This package is up to date.
 [INFO] (xcompact3d-toolbox) This package is up to date.
@@ -588,7 +587,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xcproxy) This package is up to date.
 [INFO] (xcrawler) This package is up to date.
 [INFO] (xcresult) This package is up to date.
-[INFO] (xcross) Data has been updated for this package.
+[INFO] (xcross) This package is up to date.
 [INFO] (xcrun) This package is up to date.
 [INFO] (xcrypto) This package is up to date.
 [INFO] (xcs) This package is up to date.
@@ -656,7 +655,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xdetection) This package is up to date.
 [INFO] (xdev) This package is up to date.
 [INFO] (xdevs) This package is up to date.
-[INFO] (xdg) Data has been updated for this package.
+[INFO] (xdg) This package is up to date.
 [INFO] (xdg-binary-cache) This package is up to date.
 [INFO] (xdg-cache) This package is up to date.
 [INFO] (xdgappdirs) This package is up to date.
@@ -693,7 +692,7 @@ Unsupported package directory structure.
 [INFO] (xdress) This package is up to date.
 [INFO] (xdrgen) This package is up to date.
 [ERROR] (xdrlib2) This package does not have downloadable releases.
-[INFO] (xdrone) Data has been updated for this package.
+[INFO] (xdrone) This package is up to date.
 [INFO] (xdrparser) This package is up to date.
 [INFO] (xdrt) This package is up to date.
 [INFO] (xds) This package is up to date.
@@ -713,11 +712,11 @@ Unsupported package directory structure.
 [INFO] (xe-admix) This package is up to date.
 [INFO] (xe2) This package is up to date.
 [INFO] (xe2layout) This package is up to date.
-[INFO] (xeauth) This package is up to date.
+[INFO] (xeauth) Data has been updated for this package.
 [INFO] (xeberus-core-library) This package is up to date.
 [INFO] (xeberus-restful-api-client-library) This package is up to date.
 [INFO] (xeberus-restful-api-server-library) This package is up to date.
-[INFO] (xebus-core-library) Data has been updated for this package.
+[INFO] (xebus-core-library) This package is up to date.
 [INFO] (xebus-id-card-image-generator) This package is up to date.
 [INFO] (xebus-restful-api-client-library) This package is up to date.
 [INFO] (xecd-rates) This package is up to date.
@@ -731,7 +730,7 @@ Unsupported package directory structure.
 [INFO] (xeko) This package is up to date.
 [INFO] (xelpaste) This package is up to date.
 [INFO] (xem-wrapper) This package is up to date.
-[INFO] (xemc3) Data has been updated for this package.
+[INFO] (xemc3) This package is up to date.
 [INFO] (xemd) This package is up to date.
 [INFO] (xen-bridge) This package is up to date.
 [INFO] (xena-gdc-etl) This package is up to date.
@@ -776,9 +775,9 @@ Unsupported package directory structure.
 [INFO] (xenvman) This package is up to date.
 [INFO] (xenzen) This package is up to date.
 [INFO] (xeo-simple-calc) This package is up to date.
-[INFO] (xepmts) This package is up to date.
+[INFO] (xepmts) Data has been updated for this package.
 [INFO] (xepmts-endpoints) This package is up to date.
-[INFO] (xepmts-server) This package is up to date.
+[INFO] (xepmts-server) Data has been updated for this package.
 [INFO] (xeprapi) This package is up to date.
 [INFO] (xer2csv) This package is up to date.
 [INFO] (xerial) This package is up to date.
@@ -804,8 +803,9 @@ Unsupported package directory structure.
 [INFO] (xetracker) This package is up to date.
 [INFO] (xeuledoc) This package is up to date.
 [INFO] (xeus-python) This package is up to date.
-[INFO] (xeus-robot) This package is up to date.
+[INFO] (xeus-robot) Data has been updated for this package.
 [INFO] (xevan-hash) This package is up to date.
+[INFO] (xevel) Data has been updated for this package.
 [INFO] (xevo) This package is up to date.
 [INFO] (xexpr) This package is up to date.
 [INFO] (xextract) This package is up to date.
@@ -842,6 +842,7 @@ Unsupported package directory structure.
 [INFO] (xflat) This package is up to date.
 [INFO] (xflow) This package is up to date.
 [INFO] (xfmers) This package is up to date.
+[INFO] (xfmr) Data has been updated for this package.
 [INFO] (xfmt) This package is up to date.
 [INFO] (xfn) This package is up to date.
 [INFO] (xfnester) This package is up to date.
@@ -886,6 +887,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xgbmagic) This package is up to date.
 [INFO] (xgboost) This package is up to date.
 [INFO] (xgboost-deploy) This package is up to date.
+[INFO] (xgboost-distribution) Data has been updated for this package.
 [INFO] (xgboost-doc-zh) This package is up to date.
 [INFO] (xgboost-launcher) This package is up to date.
 [INFO] (xgboost-model) This package is up to date.
@@ -894,7 +896,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xgboost-ray) This package is up to date.
 [INFO] (xgboost-tuner) This package is up to date.
 [INFO] (xgboostwithwarmstart) This package is up to date.
-[INFO] (xgbse) Data has been updated for this package.
+[INFO] (xgbse) This package is up to date.
 [INFO] (xgbtune) This package is up to date.
 [INFO] (xgc) This package is up to date.
 [INFO] (xgcm) This package is up to date.
@@ -918,7 +920,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xhastar) This package is up to date.
 [INFO] (xhb2beancount) This package is up to date.
 [INFO] (xheap) This package is up to date.
-[INFO] (xhistogram) This package is up to date.
+[INFO] (xhistogram) Data has been updated for this package.
 [INFO] (xhm) This package is up to date.
 [INFO] (xhmonitor) This package is up to date.
 [INFO] (xhostplus-blog) This package is up to date.
@@ -948,7 +950,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (xhp-flow) This package is up to date.
 [INFO] (xhpflow-1-0) This package is up to date.
-[INFO] (xhproxies) Data has been updated for this package.
+[INFO] (xhproxies) This package is up to date.
 [INFO] (xhpubqt) This package is up to date.
 [INFO] (xhpubs) This package is up to date.
 [INFO] (xhpy) This package is up to date.
@@ -956,7 +958,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xhtml2pdf-legacy) This package is up to date.
 [ERROR] (xhtmlhook) This package does not have downloadable releases.
 [ERROR] (xhttp) This package does not have downloadable releases.
-[INFO] (xhuang-demo) Data has been updated for this package.
+[INFO] (xhuang-demo) This package is up to date.
 [INFO] (xhuang-py) Data has been updated for this package.
 [INFO] (xi) This package is up to date.
 [INFO] (xia-nester) This package is up to date.
@@ -994,6 +996,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xiangshi) This package is up to date.
 [INFO] (xianshi) This package is up to date.
 [INFO] (xiao) This package is up to date.
+[INFO] (xiao-asgi) This package is up to date.
 [INFO] (xiao11) This package is up to date.
 [INFO] (xiaobaiauto) This package is up to date.
 [INFO] (xiaobaiauto2) This package is up to date.
@@ -1014,6 +1017,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xiaojiutest) This package is up to date.
 [INFO] (xiaojunmodule) This package is up to date.
 [INFO] (xiaoli-nester) This package is up to date.
+[INFO] (xiaolisensor) Data has been updated for this package.
+[INFO] (xiaomai-chaun) This package is up to date.
 [INFO] (xiaomeilv) This package is up to date.
 [INFO] (xiaomi) This package is up to date.
 [INFO] (xiaomi-flashable-firmware-creator) This package is up to date.
@@ -1022,7 +1027,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xiaomirouter) This package is up to date.
 [INFO] (xiaomo) This package is up to date.
 [INFO] (xiaoniu-tr-free) This package is up to date.
-[INFO] (xiaoriben) Data has been updated for this package.
+[INFO] (xiaoriben) This package is up to date.
 [ERROR] (xiaoshuaib) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -1060,7 +1065,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (xiaowei) This package is up to date.
-[INFO] (xiaoweiahfang) Data has been updated for this package.
+[INFO] (xiaoweiahfang) This package is up to date.
 [INFO] (xiaoweilib) This package is up to date.
 [INFO] (xiaoxin-service) This package is up to date.
 [INFO] (xiaoxinservice) This package is up to date.
@@ -1089,8 +1094,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xicam-xpcs) This package is up to date.
 [INFO] (xickle) This package is up to date.
 [INFO] (xicor) This package is up to date.
-[INFO] (xicra) This package is up to date.
+[INFO] (xicra) Data has been updated for this package.
 [INFO] (xicsrt) This package is up to date.
+[INFO] (xicsrt-contrib) This package is up to date.
 [INFO] (xict) This package is up to date.
 [INFO] (xid) This package is up to date.
 [ERROR] (xid-py) Could not get a response from API for this package. See below for details.
@@ -1139,7 +1145,9 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 [INFO] (xiehw) This package is up to date.
 [INFO] (xiejing-nester) This package is up to date.
 [INFO] (xiejun) This package is up to date.
+[INFO] (xieminxuan10) Data has been updated for this package.
 [INFO] (xieyang) This package is up to date.
+[INFO] (xifa) Data has been updated for this package.
 [INFO] (xigt) This package is up to date.
 [INFO] (xillar) This package is up to date.
 [INFO] (xillypy) This package is up to date.
@@ -1268,7 +1276,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (xiongxiong) This package is up to date.
-[INFO] (xiot) Data has been updated for this package.
+[INFO] (xiot) This package is up to date.
 [INFO] (xipctl) This package is up to date.
 [INFO] (xipy) This package is up to date.
 [INFO] (xir) This package is up to date.
@@ -1363,7 +1371,7 @@ Unsupported package directory structure.
 [INFO] (xktools) This package is up to date.
 [INFO] (xkwformat) This package is up to date.
 [INFO] (xkwpy) This package is up to date.
-[INFO] (xkye) Data has been updated for this package.
+[INFO] (xkye) This package is up to date.
 [INFO] (xl) This package is up to date.
 [INFO] (xl-bert) This package is up to date.
 [INFO] (xl-distributions) This package is up to date.
@@ -1398,6 +1406,7 @@ Unsupported package directory structure.
 [INFO] (xldiff) This package is up to date.
 [INFO] (xldt) This package is up to date.
 [INFO] (xlearn) This package is up to date.
+[INFO] (xlearning) Data has been updated for this package.
 [INFO] (xlearntestbyamshoreline) This package is up to date.
 [INFO] (xled) This package is up to date.
 [INFO] (xleditor) This package is up to date.
@@ -1429,7 +1438,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (xlines) This package is up to date.
 [INFO] (xlist) This package is up to date.
-[INFO] (xllabelme) Data has been updated for this package.
+[INFO] (xllabelme) This package is up to date.
 [INFO] (xlmg) This package is up to date.
 [INFO] (xlmhg) This package is up to date.
 [INFO] (xlmmacrodeobfuscator) This package is up to date.
@@ -1444,7 +1453,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xlogging) This package is up to date.
 [INFO] (xlogin) This package is up to date.
 [INFO] (xlogit) This package is up to date.
-[INFO] (xlogitprit) This package is up to date.
+[INFO] (xlogitprit) Data has been updated for this package.
 [INFO] (xlogs) This package is up to date.
 [INFO] (xloil) This package is up to date.
 [INFO] (xlpandas) This package is up to date.
@@ -1539,12 +1548,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xlsx-xargs) This package is up to date.
 [INFO] (xlsx2csv) This package is up to date.
 [INFO] (xlsx2dfs) This package is up to date.
-[INFO] (xlsx2html) Data has been updated for this package.
+[INFO] (xlsx2html) This package is up to date.
 [INFO] (xlsx2json) This package is up to date.
 [INFO] (xlsx2pdf) This package is up to date.
-[INFO] (xlsx2sqlite) Data has been updated for this package.
+[INFO] (xlsx2sqlite) This package is up to date.
 [INFO] (xlsxcessive) This package is up to date.
 [INFO] (xlsxcompare) This package is up to date.
+[INFO] (xlsxcsvconverterrr) Data has been updated for this package.
 [INFO] (xlsxcursor) This package is up to date.
 [INFO] (xlsxdiff) This package is up to date.
 [INFO] (xlsxdocument) This package is up to date.
@@ -1558,8 +1568,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xlsxtpl) This package is up to date.
 [INFO] (xlsxutility) This package is up to date.
 [INFO] (xlsxutils) This package is up to date.
-[INFO] (xlsxwriter) This package is up to date.
-[INFO] (xlsxwriter-celldsl) This package is up to date.
+[INFO] (xlsxwriter) Data has been updated for this package.
+[INFO] (xlsxwriter-celldsl) Data has been updated for this package.
 [ERROR] (xlsxwriterchan) This package does not have downloadable releases.
 [INFO] (xltable) This package is up to date.
 [INFO] (xltojson) This package is up to date.
@@ -1652,21 +1662,21 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xmind-sdk-python-upload-file) This package is up to date.
 [INFO] (xmind2case) This package is up to date.
 [INFO] (xmind2excel) This package is up to date.
-[INFO] (xmind2json) Data has been updated for this package.
+[INFO] (xmind2json) This package is up to date.
 [INFO] (xmind2testcase) This package is up to date.
 [INFO] (xmind2testcase-interchen) This package is up to date.
 [INFO] (xmind2testlink) This package is up to date.
 [INFO] (xmind2xls) This package is up to date.
 [INFO] (xmindparser) This package is up to date.
 [INFO] (xminds) This package is up to date.
-[INFO] (xmindtotestlink) This package is up to date.
+[INFO] (xmindtotestlink) Data has been updated for this package.
 [INFO] (xmiparser) This package is up to date.
 [INFO] (xmipy) This package is up to date.
 [INFO] (xmisc) This package is up to date.
 [INFO] (xmission) This package is up to date.
 [INFO] (xmitgcm) This package is up to date.
 [INFO] (xmkeys) This package is up to date.
-[INFO] (xml-analyser) Data has been updated for this package.
+[INFO] (xml-analyser) This package is up to date.
 [INFO] (xml-analyzer) This package is up to date.
 [INFO] (xml-archive-to-pdf) This package is up to date.
 [INFO] (xml-boiler) This package is up to date.
@@ -1724,7 +1734,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xml-subsetter) This package is up to date.
 [ERROR] (xml-template) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://klette.us/~klette/xml-template"
-[INFO] (xml-thunder) Data has been updated for this package.
+[INFO] (xml-thunder) This package is up to date.
 [INFO] (xml-to-df) This package is up to date.
 [INFO] (xml-to-dict) This package is up to date.
 [INFO] (xml-utils) This package is up to date.
@@ -1836,7 +1846,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (xmlrecords) This package is up to date.
-[INFO] (xmlrepr) Data has been updated for this package.
+[INFO] (xmlrepr) This package is up to date.
 [INFO] (xmlrpc2) This package is up to date.
 [INFO] (xmlrpcauth) This package is up to date.
 [INFO] (xmlrpccomp) This package is up to date.
@@ -1847,7 +1857,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (xmlrpclibex) This package is up to date.
 [ERROR] (xmlrpcssl) This package does not have downloadable releases.
 [INFO] (xmlrunner) This package is up to date.
-[INFO] (xmlschema) Data has been updated for this package.
+[INFO] (xmlschema) This package is up to date.
 [INFO] (xmlscomparator) This package is up to date.
 [INFO] (xmlsec) This package is up to date.
 [INFO] (xmlsec-aop) This package is up to date.
@@ -1869,7 +1879,7 @@ This package download URL does not point to a valid file: "http://effbot.org/dow
 [INFO] (xmltool) This package is up to date.
 [ERROR] (xmltools) This package does not have downloadable releases.
 [INFO] (xmltopy) This package is up to date.
-[INFO] (xmltotabular) Data has been updated for this package.
+[INFO] (xmltotabular) This package is up to date.
 [ERROR] (xmltramp) Could not extract data from this package. See below for details.
 ".py" extension not supported.
 [INFO] (xmltramp2) This package is up to date.
@@ -1931,6 +1941,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xmlwitch) This package is up to date.
 [INFO] (xmlx) This package is up to date.
 [INFO] (xmlxdiff) This package is up to date.
+[ERROR] (xmlxutils) This package does not have downloadable releases.
 [INFO] (xmm) This package is up to date.
 [INFO] (xmminiappcli) This package is up to date.
 [INFO] (xmmsclient) This package is up to date.
@@ -1988,7 +1999,7 @@ This package download URL does not point to a valid file: "http://xmppony.last-e
 [INFO] (xnatpytools) This package is up to date.
 [INFO] (xnatum) This package is up to date.
 [INFO] (xnatuploadtool) This package is up to date.
-[INFO] (xnatuploadtooldicom) This package is up to date.
+[INFO] (xnatuploadtooldicom) Data has been updated for this package.
 [INFO] (xnatutils) This package is up to date.
 [INFO] (xnatworkflowgather) This package is up to date.
 [INFO] (xnd) This package is up to date.
@@ -2016,7 +2027,7 @@ This package download URL does not point to a valid file: "http://xmppony.last-e
 [INFO] (xoa) This package is up to date.
 [INFO] (xoak) This package is up to date.
 [INFO] (xoay) This package is up to date.
-[INFO] (xobjects) This package is up to date.
+[INFO] (xobjects) Data has been updated for this package.
 [INFO] (xoc-utils-python) This package is up to date.
 [INFO] (xocto) This package is up to date.
 [INFO] (xodb) This package is up to date.
@@ -2100,7 +2111,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xontrib-powerline-binding) This package is up to date.
 [INFO] (xontrib-powerline-refined) This package is up to date.
 [INFO] (xontrib-powerline2) This package is up to date.
-[INFO] (xontrib-powerline3) Data has been updated for this package.
+[INFO] (xontrib-powerline3) This package is up to date.
 [INFO] (xontrib-prompt-bar) This package is up to date.
 [INFO] (xontrib-prompt-ret-code) This package is up to date.
 [INFO] (xontrib-prompt-starship) This package is up to date.
@@ -2116,7 +2127,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xontrib-syslog-shell-profiler) This package is up to date.
 [INFO] (xontrib-termcolors) This package is up to date.
 [INFO] (xontrib-thefuck) This package is up to date.
-[INFO] (xontrib-xlsd) Data has been updated for this package.
+[INFO] (xontrib-xlsd) This package is up to date.
 [INFO] (xontrib-xpg) This package is up to date.
 [INFO] (xontrib-z) This package is up to date.
 [INFO] (xontrib-zoxide) This package is up to date.
@@ -2144,7 +2155,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xorgauth) This package is up to date.
 [ERROR] (xorm) This package does not have downloadable releases.
 [INFO] (xortool) This package is up to date.
-[INFO] (xortool-ciphey) Data has been updated for this package.
+[INFO] (xortool-ciphey) This package is up to date.
 [INFO] (xosapi) This package is up to date.
 [INFO] (xosconfig) This package is up to date.
 [INFO] (xosgenx) This package is up to date.
@@ -2184,6 +2195,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xpath-parser) This package is up to date.
 [INFO] (xpath-py) This package is up to date.
 [INFO] (xpath-string) This package is up to date.
+[INFO] (xpath-utils) This package is up to date.
 [INFO] (xpath-validator) This package is up to date.
 [INFO] (xpathi) This package is up to date.
 [INFO] (xpathparser) This package is up to date.
@@ -2197,8 +2209,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xpboards) This package is up to date.
 [INFO] (xpc) This package is up to date.
 [INFO] (xpcs) This package is up to date.
-[INFO] (xpcs-viewer) Data has been updated for this package.
-[INFO] (xpcspy) Data has been updated for this package.
+[INFO] (xpcs-viewer) This package is up to date.
+[INFO] (xpcspy) This package is up to date.
 [INFO] (xpdacq) This package is up to date.
 [INFO] (xpdconf) This package is up to date.
 [INFO] (xpdf-python) This package is up to date.
@@ -2230,6 +2242,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xplay) This package is up to date.
 [INFO] (xplenty) This package is up to date.
 [INFO] (xplenty3) This package is up to date.
+[INFO] (xplique) This package is up to date.
 [INFO] (xplogger) This package is up to date.
 [INFO] (xploitv) This package is up to date.
 [INFO] (xplore) This package is up to date.
@@ -2252,7 +2265,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xpressinsight) This package is up to date.
 [INFO] (xpressplot) This package is up to date.
 [INFO] (xpresstools) This package is up to date.
-[INFO] (xpring) Data has been updated for this package.
+[INFO] (xpring) This package is up to date.
 [INFO] (xprint) This package is up to date.
 [INFO] (xprintidle) This package is up to date.
 [INFO] (xprize-data) This package is up to date.
@@ -2400,6 +2413,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xrecord) This package is up to date.
 [INFO] (xrecsys) This package is up to date.
 [INFO] (xreload) This package is up to date.
+[INFO] (xrely-lib-client) This package is up to date.
 [INFO] (xremotebot) This package is up to date.
 [INFO] (xrenner) This package is up to date.
 [INFO] (xrennerjsonnlp) This package is up to date.
@@ -2410,7 +2424,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xrfgui) This package is up to date.
 [INFO] (xrft) This package is up to date.
 [INFO] (xrit) This package is up to date.
-[INFO] (xrmreader) Data has been updated for this package.
+[INFO] (xrmreader) This package is up to date.
 [INFO] (xrootd) This package is up to date.
 [INFO] (xrootdfs) This package is up to date.
 [INFO] (xrootdpyfs) This package is up to date.
@@ -2419,11 +2433,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xround) This package is up to date.
 [INFO] (xrpc) This package is up to date.
 [INFO] (xrpi-test-12-10-16) This package is up to date.
-[INFO] (xrpl-py) This package is up to date.
+[INFO] (xrpl-py) Data has been updated for this package.
 [INFO] (xrpl-websocket) This package is up to date.
 [INFO] (xrptipbotpy) This package is up to date.
 [INFO] (xrqwpgfaey) This package is up to date.
-[INFO] (xrrloader) Data has been updated for this package.
+[INFO] (xrrloader) This package is up to date.
 [INFO] (xrsdkit) This package is up to date.
 [INFO] (xrsigproc) This package is up to date.
 [INFO] (xrsmtp) This package is up to date.
@@ -2471,7 +2485,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xsd-to-django-model) This package is up to date.
 [INFO] (xsd-to-vol) This package is up to date.
 [INFO] (xsd-validator) This package is up to date.
-[INFO] (xsdata) This package is up to date.
+[INFO] (xsdata) Data has been updated for this package.
 [INFO] (xsdata-plantuml) This package is up to date.
 [ERROR] (xsdb) This package does not have downloadable releases.
 [INFO] (xsdreg) This package is up to date.
@@ -2690,12 +2704,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xt) This package is up to date.
 [INFO] (xt-cvdata) This package is up to date.
 [INFO] (xt-flaskapidocs) This package is up to date.
-[INFO] (xt-githooks) Data has been updated for this package.
+[INFO] (xt-githooks) This package is up to date.
 [INFO] (xt-models) This package is up to date.
 [INFO] (xt-nlp) This package is up to date.
 [INFO] (xt-timeutils) This package is up to date.
 [INFO] (xt-training) This package is up to date.
 [INFO] (xtab) This package is up to date.
+[INFO] (xtable) Data has been updated for this package.
 [INFO] (xtal) This package is up to date.
 [INFO] (xtalpi) This package is up to date.
 [INFO] (xtalpi-pandas) This package is up to date.
@@ -2704,7 +2719,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xtas) This package is up to date.
 [INFO] (xtbapi) This package is up to date.
 [INFO] (xtcocotools) This package is up to date.
-[INFO] (xtcryptosignals) This package is up to date.
+[INFO] (xtcryptosignals) Data has been updated for this package.
 [INFO] (xtd) This package is up to date.
 [INFO] (xtea) This package is up to date.
 [INFO] (xtea3) This package is up to date.
@@ -2780,10 +2795,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xtermutil) This package is up to date.
 [INFO] (xtest) This package is up to date.
 [INFO] (xtesting) This package is up to date.
-[INFO] (xtesting-db-populate) Data has been updated for this package.
+[INFO] (xtesting-db-populate) This package is up to date.
 [INFO] (xtestx) This package is up to date.
 [INFO] (xtgen) This package is up to date.
 [INFO] (xtgeo) This package is up to date.
+[INFO] (xtgeoviz) This package is up to date.
 [INFO] (xthematic) This package is up to date.
 [INFO] (xtheme) This package is up to date.
 [INFO] (xtick) This package is up to date.
@@ -2795,11 +2811,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xtip) This package is up to date.
 [INFO] (xtl) This package is up to date.
 [INFO] (xtl-read-assistant) This package is up to date.
-[INFO] (xtlearn) Data has been updated for this package.
+[INFO] (xtlearn) This package is up to date.
 [INFO] (xtlib) This package is up to date.
 [INFO] (xtls) This package is up to date.
 [INFO] (xtool) This package is up to date.
-[INFO] (xtoolkit) Data has been updated for this package.
+[INFO] (xtoolkit) This package is up to date.
 [INFO] (xtools) This package is up to date.
 [INFO] (xtoy) This package is up to date.
 [INFO] (xtp-job-control) This package is up to date.
@@ -3170,8 +3186,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xyz-points) This package is up to date.
 [INFO] (xyz-py) This package is up to date.
 [INFO] (xyz-qcloud) This package is up to date.
-[INFO] (xyz-restful) This package is up to date.
-[INFO] (xyz-saas) Data has been updated for this package.
+[INFO] (xyz-restful) Data has been updated for this package.
+[INFO] (xyz-saas) This package is up to date.
 [INFO] (xyz-school) This package is up to date.
 [INFO] (xyz-survey) This package is up to date.
 [INFO] (xyz-system) This package is up to date.
@@ -3182,7 +3198,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xyz-unionauth) This package is up to date.
 [INFO] (xyz-util) Data has been updated for this package.
 [INFO] (xyz-verify) This package is up to date.
-[INFO] (xyz-wechat) Data has been updated for this package.
+[INFO] (xyz-wechat) This package is up to date.
 [INFO] (xyz01) This package is up to date.
 [INFO] (xyz2rast) This package is up to date.
 [INFO] (xyzclean) This package is up to date.
@@ -3204,13 +3220,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (xzqs-01) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 2387
-[INFO]     Packages processed: 2387
-[INFO]         Packages updated: 52
-[INFO]         Packages up-to-date: 2218
+[INFO] Total packages: 2403
+[INFO]     Packages processed: 2403
+[INFO]         Packages updated: 39
+[INFO]         Packages up-to-date: 2246
 [INFO]         Packages without response: 39
 [INFO]         Packages without urls: 0
-[INFO]         Packages without downloads: 64
+[INFO]         Packages without downloads: 65
 [INFO]         Packages with data errors: 14
 [INFO]     Packages not processed: 0
 [INFO] 

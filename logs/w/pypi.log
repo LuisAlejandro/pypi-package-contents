@@ -21,9 +21,11 @@
 [INFO] (w2j) This package is up to date.
 [INFO] (w2m) This package is up to date.
 [INFO] (w2n2w) This package is up to date.
+[INFO] (w2nvshellmessage) This package is up to date.
 [INFO] (w2ptemplate) This package is up to date.
 [INFO] (w2re) This package is up to date.
 [INFO] (w2vembeddings) This package is up to date.
+[INFO] (w3) This package is up to date.
 [INFO] (w3af-api-client) This package is up to date.
 [INFO] (w3bch3ck) This package is up to date.
 [INFO] (w3blog) This package is up to date.
@@ -55,10 +57,9 @@
 [INFO] (wa-leg-api) This package is up to date.
 [INFO] (wa-simulator) This package is up to date.
 [INFO] (wa0517) This package is up to date.
-[INFO] (wa1) This package is up to date.
 [INFO] (waaazzi) This package is up to date.
 [INFO] (waafle) This package is up to date.
-[INFO] (waapi-client) Data has been updated for this package.
+[INFO] (waapi-client) This package is up to date.
 [INFO] (waapuro) This package is up to date.
 [INFO] (waas-client) This package is up to date.
 [INFO] (wabbit-wappa) This package is up to date.
@@ -167,7 +168,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wafec-tests-openstack-stub) This package is up to date.
 [INFO] (wafec-tests-openstack-testware) This package is up to date.
 [INFO] (wafec-wrapt-custom) This package is up to date.
-[INFO] (wafer) Data has been updated for this package.
+[INFO] (wafer) This package is up to date.
 [INFO] (wafer-debconf) Data has been updated for this package.
 [INFO] (wafer-map) This package is up to date.
 [INFO] (wafer-thin-mint) This package is up to date.
@@ -197,14 +198,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagon) This package is up to date.
 [INFO] (wagon-tools) This package is up to date.
 [INFO] (wagoner) This package is up to date.
-[INFO] (wagtail) This package is up to date.
+[INFO] (wagtail) Data has been updated for this package.
 [INFO] (wagtail-2fa) This package is up to date.
-[INFO] (wagtail-ab-testing) This package is up to date.
+[INFO] (wagtail-ab-testing) Data has been updated for this package.
 [INFO] (wagtail-accessibility) This package is up to date.
 [INFO] (wagtail-admin-list-controls) This package is up to date.
 [INFO] (wagtail-adminsortable) This package is up to date.
 [INFO] (wagtail-advanced-form-builder) This package is up to date.
-[INFO] (wagtail-airtable) Data has been updated for this package.
+[INFO] (wagtail-airtable) This package is up to date.
 [INFO] (wagtail-altstreamfield) This package is up to date.
 [INFO] (wagtail-annotations) This package is up to date.
 [INFO] (wagtail-app-pages) This package is up to date.
@@ -311,7 +312,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-events) This package is up to date.
 [INFO] (wagtail-experiments) This package is up to date.
 [INFO] (wagtail-exportcsv) This package is up to date.
-[INFO] (wagtail-extendedsearch) This package is up to date.
+[INFO] (wagtail-extendedsearch) Data has been updated for this package.
 [INFO] (wagtail-external-menu-items) This package is up to date.
 [INFO] (wagtail-extras) This package is up to date.
 [INFO] (wagtail-factories) This package is up to date.
@@ -321,7 +322,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-flags) This package is up to date.
 [INFO] (wagtail-foliage) This package is up to date.
 [INFO] (wagtail-font-awesome-svg) This package is up to date.
-[INFO] (wagtail-footnotes) Data has been updated for this package.
+[INFO] (wagtail-footnotes) This package is up to date.
 [INFO] (wagtail-gallery) This package is up to date.
 [ERROR] (wagtail-gardentronic) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -382,6 +383,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-link-block) This package is up to date.
 [INFO] (wagtail-linkchecker) This package is up to date.
 [INFO] (wagtail-links) This package is up to date.
+[INFO] (wagtail-live) Data has been updated for this package.
 [INFO] (wagtail-livepreview) This package is up to date.
 [INFO] (wagtail-localize) This package is up to date.
 [INFO] (wagtail-localize-git) This package is up to date.
@@ -398,7 +400,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-metadata-mixin) This package is up to date.
 [INFO] (wagtail-model-tools) This package is up to date.
 [ERROR] (wagtail-model-utils) This package does not have downloadable releases.
-[INFO] (wagtail-modelchooser) Data has been updated for this package.
+[INFO] (wagtail-modelchooser) This package is up to date.
 [INFO] (wagtail-modelchooser-1-13-1) This package is up to date.
 [INFO] (wagtail-modeltranslation) This package is up to date.
 [INFO] (wagtail-multi-image-edit) This package is up to date.
@@ -442,7 +444,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-paginated-subpages) This package is up to date.
 [INFO] (wagtail-pdf-view) This package is up to date.
 [INFO] (wagtail-peregrine) This package is up to date.
-[INFO] (wagtail-personalisation) This package is up to date.
+[INFO] (wagtail-personalisation) Data has been updated for this package.
 [INFO] (wagtail-personalisation-molo) This package is up to date.
 [INFO] (wagtail-pg-search-backend) This package is up to date.
 [INFO] (wagtail-photo-gallery) This package is up to date.
@@ -463,8 +465,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-redirect-importer) This package is up to date.
 [INFO] (wagtail-references) This package is up to date.
 [INFO] (wagtail-related) This package is up to date.
-[INFO] (wagtail-rest-pack) This package is up to date.
-[INFO] (wagtail-rest-polls) Data has been updated for this package.
+[INFO] (wagtail-rest-pack) Data has been updated for this package.
+[INFO] (wagtail-rest-polls) This package is up to date.
 [INFO] (wagtail-restaurant) This package is up to date.
 [INFO] (wagtail-resume) This package is up to date.
 [INFO] (wagtail-review) This package is up to date.
@@ -506,8 +508,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-textract) This package is up to date.
 [INFO] (wagtail-themes) This package is up to date.
 [INFO] (wagtail-tinify) This package is up to date.
-[INFO] (wagtail-transfer) This package is up to date.
-[INFO] (wagtail-trash) Data has been updated for this package.
+[INFO] (wagtail-transfer) Data has been updated for this package.
+[INFO] (wagtail-trash) This package is up to date.
 [INFO] (wagtail-treemodeladmin) This package is up to date.
 [INFO] (wagtail-unsplash) This package is up to date.
 [INFO] (wagtail-uplift) This package is up to date.
@@ -516,7 +518,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtail-videos) This package is up to date.
 [INFO] (wagtail-webstories) This package is up to date.
 [INFO] (wagtail-whoosh) This package is up to date.
-[INFO] (wagtail-xliff-translation) Data has been updated for this package.
+[INFO] (wagtail-xliff-translation) This package is up to date.
 [INFO] (wagtail1-13-1-modelchooser) This package is up to date.
 [INFO] (wagtailadminfontawesome) This package is up to date.
 [INFO] (wagtailadminintercom) This package is up to date.
@@ -544,7 +546,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtaildocs-previews) This package is up to date.
 [INFO] (wagtaildraftail) This package is up to date.
 [INFO] (wagtailembedder) This package is up to date.
-[INFO] (wagtailembedpeertube) This package is up to date.
+[INFO] (wagtailembedpeertube) Data has been updated for this package.
 [INFO] (wagtailemoji) This package is up to date.
 [INFO] (wagtailenforcer) This package is up to date.
 [INFO] (wagtailerrorpages) This package is up to date.
@@ -566,14 +568,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wagtailmakeup) This package is up to date.
 [INFO] (wagtailmarkdownblock) This package is up to date.
 [INFO] (wagtailmath) This package is up to date.
-[INFO] (wagtailmedia) Data has been updated for this package.
+[INFO] (wagtailmedia) This package is up to date.
 [INFO] (wagtailmenus) This package is up to date.
 [INFO] (wagtailmodeladmin) This package is up to date.
 [INFO] (wagtailmodelchooser) This package is up to date.
 [INFO] (wagtailmodelchoosers) This package is up to date.
 [INFO] (wagtailnest) This package is up to date.
 [INFO] (wagtailnetlify) This package is up to date.
-[INFO] (wagtailnews) This package is up to date.
+[INFO] (wagtailnews) Data has been updated for this package.
 [INFO] (wagtailnews-collection) This package is up to date.
 [INFO] (wagtailosm) This package is up to date.
 [INFO] (wagtailperson) This package is up to date.
@@ -638,6 +640,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (wahlfang) This package is up to date.
 [INFO] (wahlrecht) This package is up to date.
 [INFO] (wahoo) This package is up to date.
 [ERROR] (wai) Could not get a response from API for this package. See below for details.
@@ -671,6 +674,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wai-annotations-subdir) This package is up to date.
 [INFO] (wai-annotations-tf) This package is up to date.
 [INFO] (wai-annotations-vgg) This package is up to date.
+[INFO] (wai-annotations-voc) This package is up to date.
 [INFO] (wai-bynning) This package is up to date.
 [INFO] (wai-common) This package is up to date.
 [INFO] (wai-json) This package is up to date.
@@ -684,7 +688,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wai-tfutils) This package is up to date.
 [INFO] (waifu) This package is up to date.
 [INFO] (waifu-cli) This package is up to date.
-[INFO] (waifu-py) This package is up to date.
+[INFO] (waifu-pics) Data has been updated for this package.
+[INFO] (waifu-py) Data has been updated for this package.
 [INFO] (waifu2x) This package is up to date.
 [INFO] (waifuai) This package is up to date.
 [INFO] (waifulabs) This package is up to date.
@@ -710,7 +715,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wait-util) This package is up to date.
 [INFO] (wait4it) This package is up to date.
 [INFO] (waiter) This package is up to date.
-[INFO] (waiter-client) This package is up to date.
+[INFO] (waiter-client) Data has been updated for this package.
 [INFO] (waiterdb) This package is up to date.
 [INFO] (waitforit) This package is up to date.
 [INFO] (waitfornet) This package is up to date.
@@ -740,7 +745,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wake-t) This package is up to date.
 [INFO] (wakeblaster-sdk) This package is up to date.
 [INFO] (wakeonlan) This package is up to date.
-[INFO] (wakepy) Data has been updated for this package.
+[INFO] (wakepy) This package is up to date.
 [INFO] (wakeywakey) This package is up to date.
 [INFO] (waky) This package is up to date.
 [ERROR] (wal) This package does not have downloadable releases.
@@ -856,7 +861,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wallarm-api) This package is up to date.
 [INFO] (wallarm-fast-cli) This package is up to date.
 [INFO] (wallarmrasp) This package is up to date.
-[INFO] (wallaroo) Data has been updated for this package.
+[INFO] (wallaroo) This package is up to date.
 [INFO] (wallberry-uberpotato) This package is up to date.
 [INFO] (wallbox) This package is up to date.
 [INFO] (wallbreaker) This package is up to date.
@@ -919,7 +924,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wallet-sdk-noah-huppert) This package is up to date.
 [INFO] (walletconnect) This package is up to date.
 [INFO] (walletkit) This package is up to date.
-[INFO] (walletlib) Data has been updated for this package.
+[INFO] (walletlib) This package is up to date.
 [ERROR] (walletobjects) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -938,7 +943,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (wallger) Data has been updated for this package.
+[INFO] (wallger) This package is up to date.
 [INFO] (wallhaven) This package is up to date.
 [INFO] (wallme) This package is up to date.
 [INFO] (wallp) This package is up to date.
@@ -974,7 +979,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (wallstreet) This package is up to date.
+[INFO] (wallstreet) Data has been updated for this package.
 [INFO] (wallstreetbets-sentiment-analyser) This package is up to date.
 [INFO] (wallstreetbetsanalyser) This package is up to date.
 [INFO] (walltask) This package is up to date.
@@ -990,7 +995,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (walmartcalendar) This package is up to date.
 [INFO] (walnut) This package is up to date.
 [INFO] (walnutgen) This package is up to date.
-[INFO] (walnuts) This package is up to date.
+[INFO] (walnuts) Data has been updated for this package.
 [INFO] (walpy) This package is up to date.
 [INFO] (walq) This package is up to date.
 [INFO] (walrus) This package is up to date.
@@ -1028,13 +1033,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wand) This package is up to date.
 [INFO] (wand-cli) This package is up to date.
 [INFO] (wandatoolbox) This package is up to date.
-[INFO] (wandb) Data has been updated for this package.
+[INFO] (wandb) This package is up to date.
 [INFO] (wandb-allennlp) This package is up to date.
 [INFO] (wandb-callbacks) This package is up to date.
 [INFO] (wandb-ng) This package is up to date.
 [INFO] (wandb-summarizer) This package is up to date.
 [INFO] (wandb-testing) This package is up to date.
-[INFO] (wandbfs) Data has been updated for this package.
+[INFO] (wandbfs) This package is up to date.
 [INFO] (wandbox-api) This package is up to date.
 [INFO] (wanderer) This package is up to date.
 [ERROR] (wanderer-test) Could not get a response from API for this package. See below for details.
@@ -1110,6 +1115,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wang-test) This package is up to date.
 [INFO] (wangba) This package is up to date.
 [INFO] (wangchess) This package is up to date.
+[INFO] (wangchess333) This package is up to date.
 [INFO] (wangdiantong-py) This package is up to date.
 [INFO] (wanghongyan) This package is up to date.
 [INFO] (wanghuanranmyfun89757) This package is up to date.
@@ -1213,7 +1219,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (warbusses) This package is up to date.
 [INFO] (warc) This package is up to date.
 [INFO] (warc2graph) This package is up to date.
-[INFO] (warc2zim) Data has been updated for this package.
+[INFO] (warc2zim) This package is up to date.
 [INFO] (warc3-wet) This package is up to date.
 [INFO] (warc3-wet-clueweb09) This package is up to date.
 [INFO] (warcat) This package is up to date.
@@ -1226,6 +1232,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ward) Data has been updated for this package.
 [INFO] (ward-metrics) This package is up to date.
 [INFO] (warden) This package is up to date.
+[INFO] (warden-sdk) This package is up to date.
 [INFO] (warden-sdk-py) This package is up to date.
 [INFO] (warden-terminal) This package is up to date.
 [INFO] (wardenbot) This package is up to date.
@@ -1271,6 +1278,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (warehouse-client) This package is up to date.
 [INFO] (warehouse-service-client) This package is up to date.
+[INFO] (warehouse14) Data has been updated for this package.
 [INFO] (warema-wms-controller) This package is up to date.
 [INFO] (wareweb) This package is up to date.
 [ERROR] (warf) Could not get a response from API for this package. See below for details.
@@ -1305,7 +1313,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (warker) This package is up to date.
 [INFO] (warlock) This package is up to date.
 [INFO] (warm) This package is up to date.
-[INFO] (warmahordes-opendata) Data has been updated for this package.
+[INFO] (warmahordes-opendata) This package is up to date.
 [ERROR] (warmap) This package does not have downloadable releases.
 [ERROR] (warmap-core) This package does not have downloadable releases.
 [ERROR] (warmap-tm) This package does not have downloadable releases.
@@ -1437,7 +1445,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (washer) This package is up to date.
 [INFO] (washi) This package is up to date.
 [ERROR] (washington) This package does not have downloadable releases.
-[INFO] (washington-football) This package is up to date.
 [ERROR] (washoe) This package does not have downloadable releases.
 [INFO] (wasi) This package is up to date.
 [INFO] (wasic) This package is up to date.
@@ -1469,7 +1476,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wasmite) This package is up to date.
 [INFO] (wasmpy) This package is up to date.
 [INFO] (wasmpy-build) This package is up to date.
-[INFO] (wasmtime) Data has been updated for this package.
+[INFO] (wasmtime) This package is up to date.
 [INFO] (wasp) This package is up to date.
 [INFO] (wasp-backup) This package is up to date.
 [INFO] (wasp-backup-minimal) This package is up to date.
@@ -1555,16 +1562,10 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (watch-fs) This package is up to date.
+[INFO] (watch-open) Data has been updated for this package.
 [INFO] (watch-path) This package is up to date.
 [INFO] (watch-rsync) This package is up to date.
-[ERROR] (watch-the-conjuring-3-2021-full-online-free-hd) Could not extract data from this package. See below for details.
-
-[ERROR] (watch-the-conjuring-3-2021-full-online-free-hd-quality) Could not extract data from this package. See below for details.
-
-[ERROR] (watch-the-conjuring-3-the-devil-made-me-do-it-2021-full-online-free-hd-quality) Could not extract data from this package. See below for details.
-
-[INFO] (watch-the-family-man-season-2-episode-1-full-series-online-free-hd) This package is up to date.
-[INFO] (watch-ui) This package is up to date.
+[INFO] (watch-ui) Data has been updated for this package.
 [INFO] (watchall) This package is up to date.
 [INFO] (watchbot-progress) This package is up to date.
 [INFO] (watchcode) This package is up to date.
@@ -1636,12 +1637,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watchlogs) This package is up to date.
 [INFO] (watchm8) This package is up to date.
 [INFO] (watchmagic) This package is up to date.
-[INFO] (watchmaker) This package is up to date.
+[INFO] (watchmaker) Data has been updated for this package.
 [INFO] (watchman) This package is up to date.
 [INFO] (watchme) This package is up to date.
 [INFO] (watchmen) This package is up to date.
 [INFO] (watchmen-data-engine) This package is up to date.
-[INFO] (watchmen-storage-engine) Data has been updated for this package.
+[INFO] (watchmen-storage-engine) This package is up to date.
 [INFO] (watchmysass) This package is up to date.
 [INFO] (watchng) This package is up to date.
 [INFO] (watchntouch) This package is up to date.
@@ -1651,7 +1652,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watchstat) This package is up to date.
 [INFO] (watchsubs) This package is up to date.
 [INFO] (watchtower) This package is up to date.
-[INFO] (watchtower-cash-py) Data has been updated for this package.
+[INFO] (watchtower-cash-py) This package is up to date.
 [INFO] (watchtower-logging) This package is up to date.
 [INFO] (watchtower2) This package is up to date.
 [INFO] (watchui) This package is up to date.
@@ -1659,10 +1660,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watdarepo) This package is up to date.
 [INFO] (water) This package is up to date.
 [INFO] (water-api) This package is up to date.
-[INFO] (water-cli) Data has been updated for this package.
+[INFO] (water-cli) This package is up to date.
 [INFO] (water-ebmas) This package is up to date.
 [INFO] (water-healer) This package is up to date.
 [INFO] (water-masses) This package is up to date.
+[INFO] (water-sort-puzzle) This package is up to date.
 [INFO] (waterbear) This package is up to date.
 [INFO] (waterbend) This package is up to date.
 [INFO] (waterboy) This package is up to date.
@@ -1714,7 +1716,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (watermoccasin) This package is up to date.
 [INFO] (watero-go) This package is up to date.
 [INFO] (wateronce) This package is up to date.
-[INFO] (wateroptim) Data has been updated for this package.
+[INFO] (wateroptim) This package is up to date.
 [INFO] (waters) This package is up to date.
 [INFO] (watershed) This package is up to date.
 [ERROR] (waterspout) This package does not have downloadable releases.
@@ -1726,7 +1728,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (waterz) This package is up to date.
 [INFO] (wati-api) This package is up to date.
 [INFO] (watiba) This package is up to date.
-[INFO] (watlow) This package is up to date.
+[INFO] (watlow) Data has been updated for this package.
 [INFO] (watools) This package is up to date.
 [ERROR] (wator) This package does not have downloadable releases.
 [INFO] (watson) This package is up to date.
@@ -1786,7 +1788,6 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (wattle) This package is up to date.
-[INFO] (wattle-core) This package is up to date.
 [INFO] (wattpad-ebook) This package is up to date.
 [INFO] (wattson) This package is up to date.
 [INFO] (wattson-abstract-rtu) This package is up to date.
@@ -1828,6 +1829,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wave-checker) This package is up to date.
 [INFO] (wave-chunk-parser) This package is up to date.
 [INFO] (wave-demo) This package is up to date.
+[INFO] (wave-pay) This package is up to date.
 [INFO] (wave-reader) This package is up to date.
 [INFO] (wave-share-4d3inch-epaper) This package is up to date.
 [INFO] (wave-tool) This package is up to date.
@@ -1885,7 +1887,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wavelengthlib2) This package is up to date.
 [ERROR] (wavelet-calculations) Could not extract data from this package. See below for details.
 ".html" extension not supported.
-[INFO] (waveletai) This package is up to date.
+[INFO] (waveletai) Data has been updated for this package.
 [ERROR] (wavelets) Could not extract data from this package. See below for details.
 "https://github.com/sjoerdvansteenkiste/wavelets.git/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
@@ -1906,6 +1908,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (waveletspec) This package is up to date.
+[INFO] (wavelib) This package is up to date.
 [INFO] (waveline) This package is up to date.
 [INFO] (wavelink) This package is up to date.
 [INFO] (wavelink-stubs) This package is up to date.
@@ -1926,7 +1929,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (waver) This package is up to date.
 [INFO] (waverest) This package is up to date.
 [INFO] (waverunner) This package is up to date.
-[INFO] (waves) Data has been updated for this package.
+[INFO] (waves) This package is up to date.
 [INFO] (waves-core) This package is up to date.
 [INFO] (waves-demo) This package is up to date.
 [INFO] (waves-galaxy-adaptors) This package is up to date.
@@ -1996,7 +1999,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (wax-ml) Data has been updated for this package.
+[INFO] (wax-ml) This package is up to date.
 [INFO] (wax-mock) This package is up to date.
 [INFO] (wax-toolbox) This package is up to date.
 [INFO] (waxeye) This package is up to date.
@@ -2043,7 +2046,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (waylay-beta) Data has been updated for this package.
+[INFO] (waylay-beta) This package is up to date.
 [INFO] (waylonlee) This package is up to date.
 [INFO] (waymo) This package is up to date.
 [INFO] (waymo-od-tf1-15) This package is up to date.
@@ -2124,6 +2127,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wayround-org-xmpp) This package is up to date.
 [INFO] (ways) This package is up to date.
 [INFO] (wayscript) This package is up to date.
+[INFO] (wayscript-cli) This package is up to date.
 [INFO] (wayslack) This package is up to date.
 [INFO] (wayslack2) This package is up to date.
 [ERROR] (wayterm) This package does not have downloadable releases.
@@ -2134,6 +2138,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wazimap) This package is up to date.
 [INFO] (wazimap-mapit) This package is up to date.
 [INFO] (wb) This package is up to date.
+[INFO] (wb-artifacts-public) This package is up to date.
 [INFO] (wb-vandalism) This package is up to date.
 [INFO] (wbbw1990) This package is up to date.
 [INFO] (wbclione) This package is up to date.
@@ -2152,7 +2157,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wbia-pyrf) This package is up to date.
 [INFO] (wbia-utool) This package is up to date.
 [INFO] (wbia-vtool) This package is up to date.
-[INFO] (wbib) Data has been updated for this package.
+[INFO] (wbib) This package is up to date.
 [INFO] (wbl) This package is up to date.
 [INFO] (wblib) This package is up to date.
 [INFO] (wbml) This package is up to date.
@@ -2167,7 +2172,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wbsync) This package is up to date.
 [INFO] (wbtools) This package is up to date.
 [INFO] (wbuild) This package is up to date.
-[INFO] (wbuilder) This package is up to date.
+[INFO] (wbuilder) Data has been updated for this package.
 [ERROR] (wbuilder2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -2209,11 +2214,13 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (wc-bankid-nbu) Data has been updated for this package.
 [INFO] (wc-cli) This package is up to date.
 [INFO] (wc-cookiecredentials) This package is up to date.
 [INFO] (wc-csv) This package is up to date.
 [INFO] (wc-db) This package is up to date.
 [INFO] (wc-django-geo-db) Data has been updated for this package.
+[INFO] (wc-django-user-checks) Data has been updated for this package.
 [INFO] (wc-env-manager) This package is up to date.
 [ERROR] (wc-kb) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -2368,10 +2375,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wda2-0) This package is up to date.
 [INFO] (wdapi) This package is up to date.
 [INFO] (wdata) This package is up to date.
+[INFO] (wday) This package is up to date.
 [INFO] (wdb) This package is up to date.
 [INFO] (wdb-over-pdb) This package is up to date.
 [INFO] (wdb-server) This package is up to date.
 [INFO] (wdb-server-aiohttp) This package is up to date.
+[INFO] (wdbse) This package is up to date.
 [INFO] (wdc) This package is up to date.
 [INFO] (wdcrypt) This package is up to date.
 [INFO] (wdcsdcsd123456) This package is up to date.
@@ -2384,7 +2393,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wdhtools) This package is up to date.
 [INFO] (wdict) This package is up to date.
 [INFO] (wdid) This package is up to date.
-[INFO] (wdiff) Data has been updated for this package.
+[INFO] (wdiff) This package is up to date.
 [INFO] (wdiffhtml) This package is up to date.
 [INFO] (wdisp) This package is up to date.
 [INFO] (wdj) This package is up to date.
@@ -2444,6 +2453,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weacceptpayments) This package is up to date.
 [INFO] (weaklabels) This package is up to date.
 [INFO] (weaklisp) This package is up to date.
+[INFO] (weaklru) This package is up to date.
 [INFO] (weaklysupervised) This package is up to date.
 [INFO] (weaknet) This package is up to date.
 [INFO] (weakpoint) This package is up to date.
@@ -2454,6 +2464,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weakrefset) This package is up to date.
 [INFO] (weakscraper) This package is up to date.
 [INFO] (weallcode-robot) This package is up to date.
+[INFO] (wealth) Data has been updated for this package.
 [INFO] (wealthsimple-trade-python) This package is up to date.
 [INFO] (weaminglib) This package is up to date.
 [INFO] (weapprobot) This package is up to date.
@@ -2462,7 +2473,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wearesports) This package is up to date.
 [INFO] (wearing-glasses) This package is up to date.
 [INFO] (weary) This package is up to date.
-[INFO] (weasel) This package is up to date.
+[ERROR] (weasel) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (weasel-cli) This package is up to date.
 [INFO] (weasel-client) This package is up to date.
 [INFO] (weasel-data-sources) This package is up to date.
@@ -2502,10 +2530,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weather-forecast) This package is up to date.
 [INFO] (weather-forecast-motd) This package is up to date.
 [INFO] (weather-forecast-retrieval) This package is up to date.
-[INFO] (weather-forecaster) Data has been updated for this package.
+[INFO] (weather-forecaster) This package is up to date.
 [INFO] (weather-history) This package is up to date.
 [INFO] (weather-jamesooo) This package is up to date.
-[INFO] (weather-naveen) Data has been updated for this package.
+[INFO] (weather-naveen) This package is up to date.
 [INFO] (weather-notify) This package is up to date.
 [INFO] (weather-pj01) This package is up to date.
 [INFO] (weather-report-bitch) This package is up to date.
@@ -2624,20 +2652,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weaveml-agent) This package is up to date.
 [INFO] (weaveq) This package is up to date.
 [INFO] (weaver) This package is up to date.
-[INFO] (weaverbird) This package is up to date.
+[INFO] (weaverbird) Data has been updated for this package.
 [INFO] (weavery) This package is up to date.
 [INFO] (weaviate-classification) This package is up to date.
 [INFO] (weaviate-cli) This package is up to date.
-[INFO] (weaviate-client) Data has been updated for this package.
+[INFO] (weaviate-client) This package is up to date.
 [INFO] (weaviate-etl) This package is up to date.
 [ERROR] (web) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://www.pythonweb.org/web/release/"
-[INFO] (web-2-album) Data has been updated for this package.
+[INFO] (web-2-album) This package is up to date.
 [INFO] (web-and-file-utils) This package is up to date.
 [INFO] (web-anno-tsv) This package is up to date.
 [INFO] (web-asset-vendor) This package is up to date.
 [INFO] (web-assist) This package is up to date.
-[INFO] (web-auth) Data has been updated for this package.
+[INFO] (web-auth) This package is up to date.
 [INFO] (web-auth-ssh) This package is up to date.
 [INFO] (web-cache) This package is up to date.
 [INFO] (web-chameleon) This package is up to date.
@@ -2759,6 +2787,7 @@ This package download URL does not point to a valid file: "http://www.pythonweb.
 [INFO] (web-py-ingi) This package is up to date.
 [INFO] (web-py-modules) This package is up to date.
 [INFO] (web-rich-object) This package is up to date.
+[INFO] (web-scrape-tool) Data has been updated for this package.
 [INFO] (web-scraper) This package is up to date.
 [INFO] (web-scraping-framework) This package is up to date.
 [INFO] (web-scraping-utility) This package is up to date.
@@ -2789,7 +2818,7 @@ This package download URL does not point to a valid file: "http://www.pythonweb.
 [INFO] (web2py-utils) This package is up to date.
 [INFO] (web2pyrecipe) This package is up to date.
 [INFO] (web2sms) This package is up to date.
-[INFO] (web3) Data has been updated for this package.
+[INFO] (web3) This package is up to date.
 [INFO] (web3-erc20) This package is up to date.
 [INFO] (web3-erc20-predefined) This package is up to date.
 [INFO] (web3-gear) This package is up to date.
@@ -2818,7 +2847,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (web3quorum) This package is up to date.
-[INFO] (web3s) Data has been updated for this package.
+[INFO] (web3s) This package is up to date.
 [INFO] (web3tools) This package is up to date.
 [INFO] (web3utils) This package is up to date.
 [INFO] (weback-unofficial) This package is up to date.
@@ -2858,6 +2887,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webapp2pp) This package is up to date.
 [INFO] (webapp3) This package is up to date.
 [INFO] (webapp3-flask) This package is up to date.
+[INFO] (webappdirac) This package is up to date.
 [INFO] (webappify) This package is up to date.
 [INFO] (webappmanager) This package is up to date.
 [INFO] (webapppp) This package is up to date.
@@ -2978,7 +3008,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webcollector) This package is up to date.
 [INFO] (webcolors) This package is up to date.
 [INFO] (webcolors-stubs) This package is up to date.
-[INFO] (webcomix) This package is up to date.
+[INFO] (webcomix) Data has been updated for this package.
 [INFO] (webcommon) This package is up to date.
 [INFO] (webcon) This package is up to date.
 [ERROR] (webconda) Could not get a response from API for this package. See below for details.
@@ -3058,7 +3088,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webdataset-latch) This package is up to date.
 [INFO] (webdav) This package is up to date.
 [INFO] (webdav-kerberos) This package is up to date.
-[INFO] (webdav4) Data has been updated for this package.
+[INFO] (webdav4) This package is up to date.
 [INFO] (webdavclient) This package is up to date.
 [INFO] (webdavclient2) This package is up to date.
 [INFO] (webdavclient3) This package is up to date.
@@ -3174,6 +3204,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webexteamsarchiver) This package is up to date.
 [INFO] (webexteamsbot) This package is up to date.
 [INFO] (webexteamssdk) This package is up to date.
+[INFO] (webeye) This package is up to date.
 [INFO] (webf) This package is up to date.
 [INFO] (webfaction-fab2) This package is up to date.
 [INFO] (webfile) This package is up to date.
@@ -3237,6 +3268,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webheroes-utils) This package is up to date.
 [INFO] (webhist) This package is up to date.
 [ERROR] (webhook) This package does not have downloadable releases.
+[INFO] (webhook-actions) This package is up to date.
 [INFO] (webhook-bridge) This package is up to date.
 [INFO] (webhook-broker-python) This package is up to date.
 [INFO] (webhook-command-runner) This package is up to date.
@@ -3311,6 +3343,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (webkage) This package is up to date.
 [INFO] (webkin) This package is up to date.
+[INFO] (webkio) This package is up to date.
 [ERROR] (webkit) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -3505,7 +3538,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webpage-reader) This package is up to date.
 [INFO] (webpage2html) This package is up to date.
 [INFO] (webpage2pdf) This package is up to date.
-[INFO] (webpage2telegraph) Data has been updated for this package.
+[INFO] (webpage2telegraph) This package is up to date.
 [INFO] (webpages) This package is up to date.
 [INFO] (webpageshot) This package is up to date.
 [INFO] (webpagetest) This package is up to date.
@@ -3570,8 +3603,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webpy3legacysupport) This package is up to date.
 [INFO] (webpype) This package is up to date.
 [INFO] (webpype-django) This package is up to date.
-[ERROR] (webpyte) Could not extract data from this package. See below for details.
-This package download URL does not point to a valid file: "http://code.google.com/p/webpyte/downloads/list"
 [ERROR] (webpython) Could not extract data from this package. See below for details.
 ".php" extension not supported.
 [INFO] (webpyutils) This package is up to date.
@@ -3617,6 +3648,8 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (webscraping) This package is up to date.
 [INFO] (webscraping-ai) This package is up to date.
 [INFO] (webscraping-tools) This package is up to date.
+[INFO] (webscrapingapi) Data has been updated for this package.
+[INFO] (webscrapingapi-scrapy-sdk) Data has been updated for this package.
 [INFO] (webscrapingjordi) This package is up to date.
 [INFO] (webscreenshot) This package is up to date.
 [INFO] (websearch) This package is up to date.
@@ -3658,14 +3691,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webshrinker) This package is up to date.
 [INFO] (websigning) This package is up to date.
 [INFO] (website) This package is up to date.
+[INFO] (website-categorization) Data has been updated for this package.
 [INFO] (website-checker) This package is up to date.
 [INFO] (website-monitor) This package is up to date.
 [INFO] (website-poller) This package is up to date.
 [INFO] (website-status) This package is up to date.
 [INFO] (website-up) This package is up to date.
 [INFO] (website-worth) This package is up to date.
-[INFO] (websiteblocker) Data has been updated for this package.
-[INFO] (websiteblockerx) Data has been updated for this package.
+[INFO] (websiteblocker) This package is up to date.
 [INFO] (websitecloner) This package is up to date.
 [INFO] (websitesavailability) This package is up to date.
 [INFO] (websitetest) This package is up to date.
@@ -3679,7 +3712,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (websnort) This package is up to date.
 [INFO] (websock) This package is up to date.
 [INFO] (websocket) This package is up to date.
-[INFO] (websocket-client) Data has been updated for this package.
+[INFO] (websocket-client) This package is up to date.
 [INFO] (websocket-client-py3) This package is up to date.
 [INFO] (websocket-client-temp) This package is up to date.
 [INFO] (websocket-client2) This package is up to date.
@@ -3713,7 +3746,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (websockets-router) This package is up to date.
 [INFO] (websockets-routes) This package is up to date.
 [INFO] (websockify) This package is up to date.
-[INFO] (websocks) This package is up to date.
+[INFO] (websocks) Data has been updated for this package.
 [INFO] (websonar) This package is up to date.
 [INFO] (websourcebrowser) This package is up to date.
 [INFO] (webspace) This package is up to date.
@@ -3722,6 +3755,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (webspider-douban) This package is up to date.
 [INFO] (webspidy) This package is up to date.
 [INFO] (webspinner) This package is up to date.
+[INFO] (webspray) This package is up to date.
 [INFO] (webssh) This package is up to date.
 [INFO] (webstack) This package is up to date.
 [INFO] (webstack-django-endless-pagination) This package is up to date.
@@ -3739,7 +3773,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (webstor) This package does not have downloadable releases.
 [INFO] (webstoremgr) This package is up to date.
 [INFO] (webstories) This package is up to date.
-[INFO] (webstorm) This package is up to date.
+[INFO] (webstream) Data has been updated for this package.
 [INFO] (webstring) This package is up to date.
 [INFO] (webstruct) This package is up to date.
 [INFO] (websub) This package is up to date.
@@ -3879,8 +3913,8 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (webviz-subsurface) Data has been updated for this package.
-[INFO] (webviz-subsurface-components) Data has been updated for this package.
+[INFO] (webviz-subsurface) This package is up to date.
+[INFO] (webviz-subsurface-components) This package is up to date.
 [INFO] (webvtt-py) This package is up to date.
 [ERROR] (webwall) This package does not have downloadable releases.
 [INFO] (webware) This package is up to date.
@@ -3966,7 +4000,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wechatoauth) This package is up to date.
 [INFO] (wechatpay) This package is up to date.
 [INFO] (wechatpay-api-v3) This package is up to date.
-[INFO] (wechatpay-py) Data has been updated for this package.
+[INFO] (wechatpay-py) This package is up to date.
 [INFO] (wechatpayapi) This package is up to date.
 [INFO] (wechatpayv3) This package is up to date.
 [INFO] (wechatpy) This package is up to date.
@@ -3988,7 +4022,34 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wechaty-puppet-hostie) This package is up to date.
 [INFO] (wechaty-puppet-mock) This package is up to date.
 [INFO] (wechaty-puppet-service) This package is up to date.
-[INFO] (wecheck) This package is up to date.
+[ERROR] (wecheck) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (wechinelearn) This package is up to date.
 [INFO] (weclapp-cli) This package is up to date.
 [INFO] (wecli) This package is up to date.
@@ -3998,7 +4059,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wecode2md) This package is up to date.
 [INFO] (wecoded) This package is up to date.
 [INFO] (wecolib) This package is up to date.
-[INFO] (wecom) Data has been updated for this package.
+[INFO] (wecom) This package is up to date.
 [INFO] (weconnect) Data has been updated for this package.
 [INFO] (weconnect-cli) Data has been updated for this package.
 [INFO] (weconnect-mqtt) Data has been updated for this package.
@@ -4087,6 +4148,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wegift-datetimeutil) This package is up to date.
 [INFO] (wego) This package is up to date.
 [INFO] (wegroupchatbot) This package is up to date.
+[INFO] (wehoop-py) Data has been updated for this package.
 [INFO] (wei-dev) This package is up to date.
 [INFO] (weibo) This package is up to date.
 [INFO] (weibo-2-album) This package is up to date.
@@ -4114,6 +4176,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weichigong) This package is up to date.
 [INFO] (weidao) This package is up to date.
 [INFO] (weidian) This package is up to date.
+[INFO] (weigangtang-mypkg) Data has been updated for this package.
 [INFO] (weighmail) This package is up to date.
 [INFO] (weighslide) This package is up to date.
 [INFO] (weight-convertor) This package is up to date.
@@ -4132,11 +4195,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weightedmarkov) This package is up to date.
 [INFO] (weightedset) This package is up to date.
 [INFO] (weightedstats) This package is up to date.
-[INFO] (weightgis) This package is up to date.
+[INFO] (weightgis) Data has been updated for this package.
+[INFO] (weighting-platform) Data has been updated for this package.
 [INFO] (weightless-core) This package is up to date.
 [INFO] (weightreservoir) This package is up to date.
-[INFO] (weightsplitter) This package is up to date.
-[INFO] (weightwatcher) Data has been updated for this package.
+[INFO] (weightsplitter) Data has been updated for this package.
+[INFO] (weightwatcher) This package is up to date.
 [INFO] (weighwords) This package is up to date.
 [INFO] (weiheng-distributions) This package is up to date.
 [INFO] (weihnachtsgurke) This package is up to date.
@@ -4172,7 +4236,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (weka) This package is up to date.
 [INFO] (weka-easypy) This package is up to date.
 [INFO] (weka-porter) This package is up to date.
-[INFO] (wekalib) This package is up to date.
+[INFO] (wekalib) Data has been updated for this package.
 [INFO] (wekan) This package is up to date.
 [INFO] (wekapy) This package is up to date.
 [INFO] (wekeypedia) This package is up to date.
@@ -4205,7 +4269,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wellcomeml) This package is up to date.
 [INFO] (wellcometohello) This package is up to date.
 [INFO] (wellcompare) This package is up to date.
-[INFO] (welleng) Data has been updated for this package.
+[INFO] (welleng) This package is up to date.
 [INFO] (wellfare) This package is up to date.
 [INFO] (wellfit) This package is up to date.
 [INFO] (wellknown) This package is up to date.
@@ -4360,7 +4424,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wereurl) This package is up to date.
 [INFO] (werf-chart-repo-doit-tasks) This package is up to date.
 [INFO] (werk24) This package is up to date.
-[INFO] (werkit) This package is up to date.
+[INFO] (werkit) Data has been updated for this package.
 [INFO] (werkzeug) This package is up to date.
 [ERROR] (werkzeug-asgi) This package does not have downloadable releases.
 [INFO] (werkzeug-encryptedcookie) This package is up to date.
@@ -4424,8 +4488,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wev) This package is up to date.
 [INFO] (wev-awscodeartifact) This package is up to date.
 [INFO] (wev-awsmfa) This package is up to date.
-[INFO] (weverse) This package is up to date.
+[INFO] (weverse) Data has been updated for this package.
 [INFO] (wework) This package is up to date.
+[INFO] (weworkapi-cfomp) This package is up to date.
 [INFO] (weworkbot) This package is up to date.
 [INFO] (weworkhelper) This package is up to date.
 [INFO] (wex) This package is up to date.
@@ -4437,6 +4502,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wexy) This package is up to date.
 [INFO] (weyland) This package is up to date.
 [INFO] (weylchamber) This package is up to date.
+[INFO] (wezbxsrv-cfomp) Data has been updated for this package.
 [INFO] (wf) This package is up to date.
 [INFO] (wf-analysis) This package is up to date.
 [INFO] (wf-api-client) This package is up to date.
@@ -4451,7 +4517,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wf-geom-render) This package is up to date.
 [INFO] (wf-gqlpycgen) This package is up to date.
 [INFO] (wf-graphql-client-python) This package is up to date.
-[INFO] (wf-honeycomb-io) Data has been updated for this package.
+[INFO] (wf-honeycomb-io) This package is up to date.
 [INFO] (wf-manager) This package is up to date.
 [INFO] (wf-minimal-honeycomb-python) This package is up to date.
 [INFO] (wf-pose-tracking-3d) This package is up to date.
@@ -4537,7 +4603,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wfr) This package is up to date.
 [INFO] (wfront) This package is up to date.
 [INFO] (wfs-downloader) This package is up to date.
-[INFO] (wfsim) This package is up to date.
+[INFO] (wfsim) Data has been updated for this package.
 [INFO] (wfslib) This package is up to date.
 [INFO] (wfst) This package is up to date.
 [INFO] (wfun) This package is up to date.
@@ -4598,6 +4664,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wgangp-pytorch) This package is up to date.
 [INFO] (wgcf) This package is up to date.
 [INFO] (wgconfig) This package is up to date.
+[INFO] (wgcpy) This package is up to date.
 [INFO] (wgdi) This package is up to date.
 [INFO] (wger) This package is up to date.
 [INFO] (wget) This package is up to date.
@@ -4613,7 +4680,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wgmgr) This package is up to date.
 [INFO] (wgnet) This package is up to date.
 [INFO] (wgnlpy) This package is up to date.
-[INFO] (wgpu) Data has been updated for this package.
+[INFO] (wgpu) This package is up to date.
 [ERROR] (wgrib-python) Could not extract data from this package. See below for details.
 Unsupported package directory structure.
 [INFO] (wgs2json) This package is up to date.
@@ -4673,6 +4740,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whale-linter) This package is up to date.
 [INFO] (whale-listprinter) This package is up to date.
 [INFO] (whale-pipelines) This package is up to date.
+[INFO] (whale-revenue-projection) This package is up to date.
 [INFO] (whalebuilder) This package is up to date.
 [INFO] (whaler) This package is up to date.
 [INFO] (whales) This package is up to date.
@@ -4731,7 +4799,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (whatap-python) This package is up to date.
+[INFO] (whatap-python) Data has been updated for this package.
 [INFO] (whatapi) This package is up to date.
 [INFO] (whatbuild) This package is up to date.
 [INFO] (whatcd-cau) This package is up to date.
@@ -4812,7 +4880,6 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (whatsapp-message-snd) This package is up to date.
 [INFO] (whatsapp-parser) This package is up to date.
 [ERROR] (whatsapp-py) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -4845,6 +4912,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whatsapp-web) This package is up to date.
 [INFO] (whatsappapi) This package is up to date.
 [INFO] (whatsappbot) This package is up to date.
+[INFO] (whatsappbot-selenium) This package is up to date.
 [INFO] (whatsappchatbot) This package is up to date.
 [INFO] (whatsappchatbot-pkg-seemantsingh) This package is up to date.
 [INFO] (whatsappening-cli) This package is up to date.
@@ -4992,7 +5060,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wheelwright) This package is up to date.
 [INFO] (wheelz) This package is up to date.
 [INFO] (wheezy-caching) This package is up to date.
-[INFO] (wheezy-captcha) This package is up to date.
+[INFO] (wheezy-captcha) Data has been updated for this package.
 [INFO] (wheezy-core) This package is up to date.
 [INFO] (wheezy-extractor) This package is up to date.
 [INFO] (wheezy-html) This package is up to date.
@@ -5009,7 +5077,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (when-will-it-end) This package is up to date.
 [INFO] (whenareyou) This package is up to date.
 [INFO] (whenconnect) This package is up to date.
-[INFO] (whendo) Data has been updated for this package.
+[INFO] (whendo) This package is up to date.
 [INFO] (whendo-gpio) This package is up to date.
 [INFO] (whenio) This package is up to date.
 [INFO] (whenis) This package is up to date.
@@ -5033,7 +5101,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wherethedjeck) This package is up to date.
 [INFO] (whereto) This package is up to date.
 [INFO] (whetstone) This package is up to date.
-[INFO] (whey) This package is up to date.
+[INFO] (whey) Data has been updated for this package.
+[INFO] (whey-conda) This package is up to date.
 [INFO] (whey-pth) This package is up to date.
 [ERROR] (which) This package does not have downloadable releases.
 [INFO] (which-cloud) This package is up to date.
@@ -5048,7 +5117,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whiff) This package is up to date.
 [INFO] (whiffle) This package is up to date.
 [INFO] (whigo) This package is up to date.
-[INFO] (whikoperator) This package is up to date.
+[INFO] (whikoperator) Data has been updated for this package.
+[INFO] (while-lang) This package is up to date.
 [INFO] (while-machine) This package is up to date.
 [INFO] (whilelang) This package is up to date.
 [INFO] (whileloop) This package is up to date.
@@ -5067,7 +5137,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whiptail-dialogs) This package is up to date.
 [INFO] (whiptailpy) This package is up to date.
 [INFO] (whirl) This package is up to date.
-[INFO] (whirlcalc) Data has been updated for this package.
+[INFO] (whirlcalc) This package is up to date.
 [INFO] (whirldata) This package is up to date.
 [INFO] (whirlpool) This package is up to date.
 [INFO] (whirlpool-sixth-sense) This package is up to date.
@@ -5156,10 +5226,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whitebeam) This package is up to date.
 [INFO] (whiteboard) This package is up to date.
 [INFO] (whiteboard-bin) This package is up to date.
-[INFO] (whitebox) Data has been updated for this package.
+[INFO] (whitebox) This package is up to date.
 [INFO] (whitebox-tempest-plugin) This package is up to date.
-[INFO] (whiteboxgui) Data has been updated for this package.
-[INFO] (whiteboxlayer) Data has been updated for this package.
+[INFO] (whiteboxgui) This package is up to date.
+[INFO] (whiteboxlayer) This package is up to date.
 [INFO] (whitecanzelib) This package is up to date.
 [INFO] (whitefly) This package is up to date.
 [INFO] (whitefuck) This package is up to date.
@@ -5240,7 +5310,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (whoami) This package is up to date.
 [INFO] (whoapi) This package is up to date.
 [INFO] (whoarder) This package is up to date.
-[INFO] (whoare) Data has been updated for this package.
+[INFO] (whoare) This package is up to date.
 [INFO] (whocall) This package is up to date.
 [INFO] (whocolor) This package is up to date.
 [INFO] (whodan-prob) This package is up to date.
@@ -5478,7 +5548,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (widgitutils) This package is up to date.
 [ERROR] (widgy-blog) This package does not have downloadable releases.
 [INFO] (widgyts) This package is up to date.
-[INFO] (widlparser) Data has been updated for this package.
+[INFO] (widlparser) This package is up to date.
 [INFO] (widow-spider) This package is up to date.
 [INFO] (widowx-env) This package is up to date.
 [INFO] (wids-datathon-2020) This package is up to date.
@@ -5625,10 +5695,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wiki-futures) This package is up to date.
 [INFO] (wiki-helper) This package is up to date.
 [INFO] (wiki-markdown) This package is up to date.
-[INFO] (wiki-monkey) Data has been updated for this package.
+[INFO] (wiki-monkey) This package is up to date.
 [INFO] (wiki-music) This package is up to date.
 [INFO] (wiki-passage-retriever) This package is up to date.
 [INFO] (wiki-ru-wordnet) This package is up to date.
+[INFO] (wiki-scraper) This package is up to date.
 [INFO] (wiki-scrapper) This package is up to date.
 [INFO] (wiki-sub-scrapper) This package is up to date.
 [INFO] (wiki-template) This package is up to date.
@@ -5718,16 +5789,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikiget) This package is up to date.
 [INFO] (wikigloss) This package is up to date.
 [ERROR] (wikihaus) This package does not have downloadable releases.
-[INFO] (wikihowunofficialapi) This package is up to date.
+[INFO] (wikihowunofficialapi) Data has been updated for this package.
 [INFO] (wikiid2vec) This package is up to date.
 [INFO] (wikilabels) This package is up to date.
 [INFO] (wikilink) This package is up to date.
 [INFO] (wikilinks) This package is up to date.
+[INFO] (wikilyzer-ska-1) Data has been updated for this package.
 [INFO] (wikiman) This package is up to date.
 [INFO] (wikimapia-api) This package is up to date.
 [INFO] (wikimapper) This package is up to date.
 [INFO] (wikimarkup) This package is up to date.
-[INFO] (wikimedia-spicerack) Data has been updated for this package.
+[INFO] (wikimedia-spicerack) This package is up to date.
 [INFO] (wikimediaci-utils) This package is up to date.
 [INFO] (wikimon) This package is up to date.
 [INFO] (wikimon-bot) This package is up to date.
@@ -5763,6 +5835,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (wikipedia-ql) Data has been updated for this package.
 [INFO] (wikipedia-revisions) This package is up to date.
 [ERROR] (wikipedia-scraper) Could not extract data from this package. See below for details.
 "https://files.pythonhosted.org/packages/65/f7/c73ce65286a6c61494b705e6fb9c7d7fe40b0abe138530be5f09357c8b4f/Wikipedia%20Scraper-1.0.0.tar.gz" file could not be downloaded. See below for details.
@@ -5783,6 +5856,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (wikipedia-searcher) Data has been updated for this package.
 [INFO] (wikipedia-sections) This package is up to date.
 [INFO] (wikipedia-template-parser) This package is up to date.
 [INFO] (wikipedia2vec) This package is up to date.
@@ -5791,7 +5865,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikipedia2vecsm002583) This package is up to date.
 [INFO] (wikipediabase) This package is up to date.
 [INFO] (wikipediacategoryresolver) This package is up to date.
-[INFO] (wikipeople) Data has been updated for this package.
+[INFO] (wikipeople) This package is up to date.
 [INFO] (wikiphilosophy) This package is up to date.
 [ERROR] (wikipipexample) This package does not have downloadable releases.
 [INFO] (wikipit) This package is up to date.
@@ -5802,9 +5876,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikiquote) This package is up to date.
 [INFO] (wikiquotes) This package is up to date.
 [INFO] (wikir) This package is up to date.
+[INFO] (wikirate4py) Data has been updated for this package.
 [INFO] (wikireader) This package is up to date.
 [INFO] (wikirec) This package is up to date.
-[INFO] (wikirender) This package is up to date.
+[INFO] (wikirender) Data has been updated for this package.
 [INFO] (wikirepo) This package is up to date.
 [INFO] (wikirevparser) This package is up to date.
 [ERROR] (wikirevparser-a) Could not get a response from API for this package. See below for details.
@@ -5872,6 +5947,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wikitrad) This package is up to date.
 [INFO] (wikitrans) This package is up to date.
 [INFO] (wikiup) This package is up to date.
+[INFO] (wikiusers) Data has been updated for this package.
+[INFO] (wikiusers-cli) Data has been updated for this package.
 [INFO] (wikiutils) This package is up to date.
 [INFO] (wikivector) This package is up to date.
 [INFO] (wikivents) This package is up to date.
@@ -5988,7 +6065,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (william-blake-crypto) This package is up to date.
 [INFO] (williaml-test-nester) This package is up to date.
 [INFO] (willie) This package is up to date.
-[INFO] (willing-zg) This package is up to date.
+[INFO] (willing-zg) Data has been updated for this package.
 [INFO] (willow) This package is up to date.
 [INFO] (willowlabs) This package is up to date.
 [INFO] (willpy) This package is up to date.
@@ -6059,7 +6136,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (win10toast-for-pip-bigger-10) This package is up to date.
 [INFO] (win10toast-persist) This package is up to date.
 [INFO] (win10toast-withsound) This package is up to date.
-[INFO] (win2xcur) Data has been updated for this package.
+[INFO] (win2xcur) This package is up to date.
 [INFO] (win32-setctime) This package is up to date.
 [INFO] (win32-setfiletime) This package is up to date.
 [INFO] (win32compat) This package is up to date.
@@ -6068,6 +6145,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (win32gui) This package is up to date.
 [INFO] (win32printing) This package is up to date.
 [INFO] (win32wifi) This package is up to date.
+[ERROR] (win64py) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
+    timeout=10).read()
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (win7ools) This package is up to date.
 [INFO] (winacl) This package is up to date.
 [INFO] (winapi) This package is up to date.
@@ -6080,7 +6175,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (winbrew) This package is up to date.
 [INFO] (wincapture) This package is up to date.
 [INFO] (wincast) This package is up to date.
-[INFO] (wincertstore) Data has been updated for this package.
+[INFO] (wincertstore) This package is up to date.
 [INFO] (winchester) This package is up to date.
 [INFO] (wincipher) This package is up to date.
 [INFO] (winclip) This package is up to date.
@@ -6103,7 +6198,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (windialog) This package is up to date.
 [ERROR] (windio) This package does not have downloadable releases.
 [INFO] (windirs) This package is up to date.
-[INFO] (windlib) This package is up to date.
+[INFO] (windlib) Data has been updated for this package.
 [INFO] (windmailer) This package is up to date.
 [INFO] (windmapper) This package is up to date.
 [INFO] (windmill) This package is up to date.
@@ -6198,7 +6293,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (windy-weather-crawler) This package is up to date.
 [INFO] (windylib) This package is up to date.
 [INFO] (windypie) This package is up to date.
-[INFO] (windyquery) This package is up to date.
+[INFO] (windyquery) Data has been updated for this package.
 [ERROR] (windyquery-0-0-2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -6271,7 +6366,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wininfo) This package is up to date.
 [INFO] (winio) This package is up to date.
 [INFO] (winiobinary) This package is up to date.
-[INFO] (winix) This package is up to date.
+[INFO] (winix) Data has been updated for this package.
 [INFO] (winjob) This package is up to date.
 [INFO] (winkar-utils) This package is up to date.
 [INFO] (winkerberos) This package is up to date.
@@ -6312,14 +6407,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (winney) This package is up to date.
 [INFO] (winney-redis) This package is up to date.
 [ERROR] (winniepooh) This package does not have downloadable releases.
-[INFO] (winning) Data has been updated for this package.
+[INFO] (winning) This package is up to date.
 [INFO] (winnotify) This package is up to date.
 [INFO] (winnow) This package is up to date.
 [INFO] (winnow-filters) This package is up to date.
 [INFO] (winnowing) This package is up to date.
 [INFO] (wino) This package is up to date.
 [INFO] (winoc) This package is up to date.
-[INFO] (winocr) Data has been updated for this package.
+[INFO] (winocr) This package is up to date.
 [INFO] (winontop) This package is up to date.
 [INFO] (winot) This package is up to date.
 [INFO] (winotify) This package is up to date.
@@ -6345,7 +6440,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (winreg-helpers) This package is up to date.
 [INFO] (winreg-unicode) This package is up to date.
 [INFO] (winregal) This package is up to date.
-[INFO] (winregistry) This package is up to date.
+[INFO] (winregistry) Data has been updated for this package.
 [INFO] (winreglib) This package is up to date.
 [INFO] (winregmgr) This package is up to date.
 [INFO] (winregrc) This package is up to date.
@@ -6424,7 +6519,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (winterstone) This package is up to date.
 [INFO] (wintersweet) This package is up to date.
 [INFO] (wintimer) This package is up to date.
-[INFO] (wintmp) This package is up to date.
+[INFO] (wintmp) Data has been updated for this package.
 [INFO] (wintoast) This package is up to date.
 [INFO] (wintunnel) This package is up to date.
 [INFO] (wintx) This package is up to date.
@@ -6519,14 +6614,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wire-mafia) This package is up to date.
 [INFO] (wire-skin) This package is up to date.
 [INFO] (wire-st-sdk) This package is up to date.
-[INFO] (wire4-auth) Data has been updated for this package.
-[INFO] (wire4-client) Data has been updated for this package.
+[INFO] (wire4-auth) This package is up to date.
+[INFO] (wire4-client) This package is up to date.
 [INFO] (wirebin) This package is up to date.
 [INFO] (wirecard) This package is up to date.
 [INFO] (wirecardpy) This package is up to date.
 [INFO] (wirecheckingtool) This package is up to date.
 [INFO] (wirecloud) This package is up to date.
-[INFO] (wirecloud-keycloak) This package is up to date.
+[INFO] (wirecloud-keycloak) Data has been updated for this package.
 [INFO] (wirecloud-markdown-github) This package is up to date.
 [INFO] (wirecloud-pubsub) This package is up to date.
 [INFO] (wirecurly) This package is up to date.
@@ -6567,6 +6662,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (wiremock2) This package is up to date.
 [INFO] (wirepas-backend-client) This package is up to date.
+[INFO] (wirepas-console) This package is up to date.
 [INFO] (wirepas-gateway) This package is up to date.
 [INFO] (wirepas-mesh-messaging) This package is up to date.
 [INFO] (wirepas-messaging) This package is up to date.
@@ -6577,6 +6673,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wirerope) This package is up to date.
 [INFO] (wires) This package is up to date.
 [INFO] (wireshark-ext) This package is up to date.
+[INFO] (wiresharkdownload) This package is up to date.
 [INFO] (wireui-thetimmoth) This package is up to date.
 [INFO] (wireviz) This package is up to date.
 [INFO] (wireviz-web) This package is up to date.
@@ -6594,6 +6691,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wisbec) This package is up to date.
 [INFO] (wisconsin-covid19) This package is up to date.
 [INFO] (wisdom) This package is up to date.
+[INFO] (wisdom-tree) Data has been updated for this package.
 [INFO] (wisdomhord) This package is up to date.
 [INFO] (wisdomnuggets) This package is up to date.
 [INFO] (wisdoms) This package is up to date.
@@ -6712,7 +6810,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wit-sifive) This package is up to date.
 [INFO] (witapi) This package is up to date.
 [INFO] (witch) This package is up to date.
-[INFO] (witchcraft) This package is up to date.
+[INFO] (witchcraft) Data has been updated for this package.
 [INFO] (witcher) This package is up to date.
 [INFO] (witcher-cli) This package is up to date.
 [INFO] (witchfinder) This package is up to date.
@@ -6735,7 +6833,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (withings-api) This package is up to date.
 [INFO] (withings-api-cdt) This package is up to date.
 [INFO] (withings-cli) This package is up to date.
-[INFO] (withings-sync) Data has been updated for this package.
+[INFO] (withings-sync) This package is up to date.
 [INFO] (withlog) This package is up to date.
 [INFO] (withnewimplemenation11) This package is up to date.
 [INFO] (withref) This package is up to date.
@@ -6759,6 +6857,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wittgenstein) This package is up to date.
 [ERROR] (witty) This package does not have downloadable releases.
 [INFO] (witty-cli) This package is up to date.
+[INFO] (witty-flow-sms) This package is up to date.
 [INFO] (wittypy) This package is up to date.
 [INFO] (witwidget) This package is up to date.
 [INFO] (witwidget-gpu) This package is up to date.
@@ -8279,7 +8378,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wkb-raster) This package is up to date.
 [INFO] (wkbheader) This package is up to date.
 [INFO] (wkconnect) This package is up to date.
-[INFO] (wkcuber) This package is up to date.
+[INFO] (wkcuber) Data has been updated for this package.
 [INFO] (wkdfh) This package is up to date.
 [INFO] (wkdict) This package is up to date.
 [INFO] (wkgnester) This package is up to date.
@@ -8297,8 +8396,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wkstools) This package is up to date.
 [INFO] (wkt-scraper) This package is up to date.
 [INFO] (wktplot) This package is up to date.
-[INFO] (wktutils) Data has been updated for this package.
-[INFO] (wkw) Data has been updated for this package.
+[INFO] (wktutils) This package is up to date.
+[INFO] (wkw) This package is up to date.
 [INFO] (wkweb) This package is up to date.
 [ERROR] (wkz03) This package does not have downloadable releases.
 [ERROR] (wkz032) This package does not have downloadable releases.
@@ -8308,14 +8407,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wl-parsers) This package is up to date.
 [INFO] (wlab) This package is up to date.
 [INFO] (wladmin) This package is up to date.
-[INFO] (wlalign) Data has been updated for this package.
+[INFO] (wlalign) This package is up to date.
 [INFO] (wlauto) This package is up to date.
 [INFO] (wlc) This package is up to date.
 [INFO] (wlcg) This package is up to date.
 [INFO] (wlcsim) This package is up to date.
 [INFO] (wldhx-yadisk-direct) This package is up to date.
 [INFO] (wldyd23) This package is up to date.
-[INFO] (wled) Data has been updated for this package.
+[INFO] (wled) This package is up to date.
 [INFO] (wledpy-pctechjon) This package is up to date.
 [INFO] (wlfilebrowser) This package is up to date.
 [INFO] (wlg-fayefv) This package is up to date.
@@ -8456,7 +8555,7 @@ This package download URL does not point to a valid file: "http://badcomputer.or
 [INFO] (wneuralcoref) This package is up to date.
 [INFO] (wnget) This package is up to date.
 [INFO] (wnlp) This package is up to date.
-[INFO] (wnmf) This package is up to date.
+[INFO] (wnmf) Data has been updated for this package.
 [INFO] (wnsresolver) This package is up to date.
 [INFO] (wntlpdawotaiddoqaiblggazodvtwtuerncdsetygavokojzue) This package is up to date.
 [INFO] (wntr) This package is up to date.
@@ -8687,7 +8786,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (wonterfact) This package is up to date.
+[INFO] (wonterfact) Data has been updated for this package.
 [ERROR] (wonton) This package does not have downloadable releases.
 [INFO] (woo-sy) This package is up to date.
 [INFO] (woob) This package is up to date.
@@ -8739,8 +8838,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (woolang-project-generator) This package is up to date.
 [INFO] (wooldridge) This package is up to date.
 [INFO] (woolf) This package is up to date.
+[INFO] (woollylib) Data has been updated for this package.
 [INFO] (wools) This package is up to date.
-[INFO] (woolseyworkshop-circuitpython-74hc165) Data has been updated for this package.
+[INFO] (woolseyworkshop-circuitpython-74hc165) This package is up to date.
 [ERROR] (wooly) This package does not have downloadable releases.
 [INFO] (wooper) This package is up to date.
 [INFO] (woopra) This package is up to date.
@@ -8752,11 +8852,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (woothee) This package is up to date.
 [INFO] (wootoff) This package is up to date.
 [INFO] (wootz) This package is up to date.
-[INFO] (wop) This package is up to date.
+[INFO] (wop) Data has been updated for this package.
 [INFO] (wopeditor) This package is up to date.
 [INFO] (wopmars) This package is up to date.
 [INFO] (woptics) This package is up to date.
-[INFO] (worc) This package is up to date.
+[INFO] (worc) Data has been updated for this package.
 [INFO] (worch) This package is up to date.
 [INFO] (worch-g4lbne) This package is up to date.
 [INFO] (worch-ups) This package is up to date.
@@ -8788,7 +8888,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (word-forms) This package is up to date.
 [INFO] (word-game) This package is up to date.
 [INFO] (word-gen-py) This package is up to date.
-[INFO] (word-gener) Data has been updated for this package.
+[INFO] (word-gener) This package is up to date.
 [INFO] (word-identifiers) This package is up to date.
 [INFO] (word-knn) This package is up to date.
 [INFO] (word-ladder) This package is up to date.
@@ -8868,7 +8968,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wordcountnorico) This package is up to date.
 [INFO] (wordcutpy) This package is up to date.
 [INFO] (worddistance) This package is up to date.
-[INFO] (wordembed) Data has been updated for this package.
+[INFO] (wordembed) This package is up to date.
 [INFO] (wordembeddingloader) This package is up to date.
 [INFO] (worden) This package is up to date.
 [INFO] (wordexpansion) This package is up to date.
@@ -9061,7 +9161,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wordwide) This package is up to date.
 [INFO] (wordwise) This package is up to date.
 [INFO] (worek) This package is up to date.
-[INFO] (worf) Data has been updated for this package.
+[INFO] (worf) This package is up to date.
 [INFO] (worin) This package is up to date.
 [ERROR] (work) This package does not have downloadable releases.
 [INFO] (work-calendar-ru) This package is up to date.
@@ -9072,7 +9172,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (work-weixin) This package is up to date.
 [INFO] (work-weixin-api) This package is up to date.
 [INFO] (workabilly) This package is up to date.
-[INFO] (workadays) Data has been updated for this package.
+[INFO] (workadays) This package is up to date.
 [INFO] (workaholic) This package is up to date.
 [INFO] (workalendar) This package is up to date.
 [INFO] (workaround) This package is up to date.
@@ -9125,7 +9225,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (workflow) This package is up to date.
 [INFO] (workflow-manager) This package is up to date.
 [INFO] (workflow-mq) This package is up to date.
-[INFO] (workflow-nodes) This package is up to date.
+[INFO] (workflow-nodes) Data has been updated for this package.
 [INFO] (workflow-py) This package is up to date.
 [INFO] (workflow-sandbox) This package is up to date.
 [INFO] (workflow-templater) This package is up to date.
@@ -9137,6 +9237,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (workflowhub) This package is up to date.
 [INFO] (workflows) Data has been updated for this package.
 [INFO] (workflowwebtools) This package is up to date.
+[INFO] (workflux) This package is up to date.
 [INFO] (workforce) This package is up to date.
 [INFO] (workfrankomik) This package is up to date.
 [INFO] (workfront-bridge) This package is up to date.
@@ -9170,7 +9271,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (workoutizer) Data has been updated for this package.
 [ERROR] (workouttimer) This package does not have downloadable releases.
 [INFO] (workpathapi) This package is up to date.
-[INFO] (workplace-extractor) Data has been updated for this package.
+[INFO] (workplace-extractor) This package is up to date.
 [ERROR] (workplaceconsultingobfuscate) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -9219,6 +9320,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (workwechatsdk) This package is up to date.
 [INFO] (workweixinrobot) This package is up to date.
 [INFO] (workwerobot) This package is up to date.
+[INFO] (workwithpdf) Data has been updated for this package.
 [INFO] (world) This package is up to date.
 [INFO] (world-bank-data) This package is up to date.
 [INFO] (world-class) This package is up to date.
@@ -9254,6 +9356,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (world-of-games-tombrov) This package is up to date.
 [INFO] (world-of-warships-replays-parser) This package is up to date.
 [INFO] (world-price) This package is up to date.
+[INFO] (world-rowing) Data has been updated for this package.
 [INFO] (world-serpent) This package is up to date.
 [INFO] (world-time) This package is up to date.
 [INFO] (world-time-api) This package is up to date.
@@ -9271,6 +9374,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (worldcookery) This package is up to date.
 [INFO] (worldcup) This package is up to date.
 [INFO] (worldcup18) This package is up to date.
+[INFO] (worlddata) This package is up to date.
 [INFO] (worldengine) This package is up to date.
 [INFO] (worldguess) This package is up to date.
 [INFO] (worldmap) This package is up to date.
@@ -9286,6 +9390,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (worldometers-py) This package is up to date.
 [INFO] (worldpay) This package is up to date.
 [INFO] (worldpops) This package is up to date.
+[INFO] (worldsamplemodule) This package is up to date.
 [ERROR] (worldshifter) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -9314,8 +9419,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (worldtime-py) Data has been updated for this package.
-[INFO] (worldtimepy) Data has been updated for this package.
+[INFO] (worldtimepy) This package is up to date.
 [INFO] (worldtradingdata) This package is up to date.
 [INFO] (worldview-dl) This package is up to date.
 [INFO] (worldweatherpy) This package is up to date.
@@ -9396,7 +9500,7 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (worship) This package is up to date.
-[INFO] (worstcase) Data has been updated for this package.
+[INFO] (worstcase) This package is up to date.
 [INFO] (worstengine-py) This package is up to date.
 [INFO] (wort) This package is up to date.
 [INFO] (wortfilter) This package is up to date.
@@ -9450,7 +9554,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wotconsole) This package is up to date.
 [INFO] (wotemu) This package is up to date.
 [INFO] (wotever) This package is up to date.
-[INFO] (wotpy) Data has been updated for this package.
+[INFO] (wotpy) This package is up to date.
 [INFO] (wotragicrd) This package is up to date.
 [INFO] (wotreplay) This package is up to date.
 [INFO] (wotw-highlighter) This package is up to date.
@@ -9673,8 +9777,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wquantiles) This package is up to date.
 [INFO] (wqunlong-blog) This package is up to date.
 [INFO] (wqwqq) This package is up to date.
-[INFO] (wqxlib) Data has been updated for this package.
-[INFO] (wqxweblib) Data has been updated for this package.
+[INFO] (wqxlib) This package is up to date.
+[INFO] (wqxweblib) This package is up to date.
 [INFO] (wr) This package is up to date.
 [INFO] (wr-attrs) This package is up to date.
 [INFO] (wr-drf-oidc-auth) This package is up to date.
@@ -9682,7 +9786,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wr-schemas) This package is up to date.
 [INFO] (wracker) This package is up to date.
 [INFO] (wradex) This package is up to date.
-[INFO] (wradlib) This package is up to date.
+[INFO] (wradlib) Data has been updated for this package.
 [INFO] (wrallen) This package is up to date.
 [INFO] (wrangalytics) This package is up to date.
 [INFO] (wrangle) This package is up to date.
@@ -9702,7 +9806,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wrap-py) This package is up to date.
 [INFO] (wrap-pybind11) This package is up to date.
 [INFO] (wrap2) This package is up to date.
-[INFO] (wrapanapi) Data has been updated for this package.
+[INFO] (wrapanapi) This package is up to date.
 [INFO] (wrapapi) This package is up to date.
 [INFO] (wrapcache) This package is up to date.
 [INFO] (wrapclib) This package is up to date.
@@ -9715,6 +9819,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wrapitup) This package is up to date.
 [INFO] (wraplite) This package is up to date.
 [INFO] (wraplot) This package is up to date.
+[INFO] (wrapmail) Data has been updated for this package.
 [INFO] (wrapml) This package is up to date.
 [INFO] (wrapnumpy3) This package is up to date.
 [INFO] (wrappa) This package is up to date.
@@ -9739,7 +9844,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (wrappedbrowser) This package is up to date.
 [INFO] (wrapper) This package is up to date.
-[INFO] (wrapper-base) Data has been updated for this package.
+[INFO] (wrapper-base) This package is up to date.
 [INFO] (wrappercoreference) This package is up to date.
 [INFO] (wrappercreater) This package is up to date.
 [INFO] (wrappers) This package is up to date.
@@ -9823,7 +9928,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wrestful) This package is up to date.
 [ERROR] (wrestle) This package does not have downloadable releases.
 [INFO] (wrestler) This package is up to date.
-[INFO] (wrestling) This package is up to date.
+[INFO] (wrestling) Data has been updated for this package.
 [INFO] (wrestlr) This package is up to date.
 [ERROR] (wretch) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
@@ -9960,7 +10065,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wronganswer) This package is up to date.
 [INFO] (wronnay-search-lib) This package is up to date.
 [INFO] (wrpclient) This package is up to date.
-[INFO] (wrs) Data has been updated for this package.
+[INFO] (wrs) This package is up to date.
 [INFO] (wrtdk) This package is up to date.
 [INFO] (wrtview) This package is up to date.
 [INFO] (wrun) This package is up to date.
@@ -9970,6 +10075,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ws-amqp) This package is up to date.
 [INFO] (ws-caldavcheck) This package is up to date.
 [INFO] (ws-callbacks) This package is up to date.
+[INFO] (ws-common) Data has been updated for this package.
 [INFO] (ws-ddns) This package is up to date.
 [INFO] (ws-dependencychecker) This package is up to date.
 [INFO] (ws-docutils) This package is up to date.
@@ -9983,7 +10089,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ws-rebalancer) This package is up to date.
 [INFO] (ws-recorder) This package is up to date.
 [INFO] (ws-rsspull) This package is up to date.
-[INFO] (ws-sdk) Data has been updated for this package.
+[INFO] (ws-sdk) This package is up to date.
 [INFO] (ws-sheets) This package is up to date.
 [INFO] (ws-sheets-server) This package is up to date.
 [INFO] (ws-sizzle) This package is up to date.
@@ -10124,7 +10230,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsgicli) This package is up to date.
 [INFO] (wsgicors) This package is up to date.
 [INFO] (wsgid) This package is up to date.
-[INFO] (wsgidav) This package is up to date.
+[INFO] (wsgidav) Data has been updated for this package.
 [INFO] (wsgidelegator) This package is up to date.
 [ERROR] (wsgifileserver) Could not extract data from this package. See below for details.
 Could not extract tarball. See below for details.
@@ -10238,7 +10344,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsh) This package is up to date.
 [INFO] (wshook) This package is up to date.
 [INFO] (wshubsapi) This package is up to date.
-[INFO] (wsi-handling) This package is up to date.
+[INFO] (wsi-handling) Data has been updated for this package.
 [INFO] (wsimple) This package is up to date.
 [INFO] (wsinfo) This package is up to date.
 [INFO] (wsing007-nester) This package is up to date.
@@ -10249,7 +10355,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wsit) This package is up to date.
 [INFO] (wsit-python) This package is up to date.
 [INFO] (wsjson) This package is up to date.
-[INFO] (wsjsonrpc) Data has been updated for this package.
+[INFO] (wsjsonrpc) This package is up to date.
 [INFO] (wsk) This package is up to date.
 [INFO] (wsk-input-validator) This package is up to date.
 [INFO] (wsl) This package is up to date.
@@ -10297,7 +10403,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[INFO] (wsp-tools) This package is up to date.
+[INFO] (wsp-tools) Data has been updated for this package.
 [INFO] (wspaceping) This package is up to date.
 [INFO] (wspc) This package is up to date.
 [INFO] (wspdf) This package is up to date.
@@ -10327,7 +10433,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wssplugin-integration) This package is up to date.
 [INFO] (wsssimpletest) This package is up to date.
 [INFO] (wsstat) This package is up to date.
-[INFO] (wssx126) Data has been updated for this package.
+[INFO] (wssx126) This package is up to date.
 [INFO] (wst) This package is up to date.
 [INFO] (wstan) This package is up to date.
 [INFO] (wsterm) This package is up to date.
@@ -10336,24 +10442,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wstools) This package is up to date.
 [INFO] (wstools-py3) This package is up to date.
 [INFO] (wstrade-alhparsa) This package is up to date.
-[ERROR] (wstring) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
-    timeout=10).read()
-  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (wstring) This package is up to date.
 [INFO] (wstund) This package is up to date.
 [INFO] (wstunnel) This package is up to date.
 [INFO] (wsu-autograder) This package is up to date.
@@ -10440,6 +10529,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wto) This package is up to date.
 [INFO] (wtool-utils) This package is up to date.
 [INFO] (wtools) This package is up to date.
+[INFO] (wtoolzargs) This package is up to date.
+[INFO] (wtoolzexceptions) This package is up to date.
 [INFO] (wtop) This package is up to date.
 [INFO] (wtouch) This package is up to date.
 [INFO] (wtp) This package is up to date.
@@ -10463,6 +10554,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (wtprogress) This package is up to date.
 [INFO] (wtpy) This package is up to date.
 [INFO] (wtrwrks) This package is up to date.
 [INFO] (wtsize) This package is up to date.
@@ -10512,7 +10604,7 @@ Unsupported package directory structure.
 [INFO] (wu-diff) This package is up to date.
 [INFO] (wuafeing) This package is up to date.
 [INFO] (wubi) This package is up to date.
-[INFO] (wud) Data has been updated for this package.
+[INFO] (wud) This package is up to date.
 [INFO] (wudaodict) This package is up to date.
 [INFO] (wudder) This package is up to date.
 [INFO] (wudesim-py) This package is up to date.
@@ -10592,6 +10684,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wumb-to-sqlite) This package is up to date.
 [INFO] (wumbo) This package is up to date.
 [INFO] (wumpus) This package is up to date.
+[INFO] (wumpus-py) Data has been updated for this package.
 [INFO] (wundercell) This package is up to date.
 [INFO] (wunderclient) This package is up to date.
 [INFO] (wunderground-pws) This package is up to date.
@@ -10605,7 +10698,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wuppercodegen) This package is up to date.
 [INFO] (wupunci-test) This package is up to date.
 [INFO] (wuqiwei) This package is up to date.
-[INFO] (wurfapi) Data has been updated for this package.
+[INFO] (wurfapi) This package is up to date.
 [INFO] (wurfl-cloud) This package is up to date.
 [INFO] (wurfl-paypal) This package is up to date.
 [INFO] (wurfl-python) This package is up to date.
@@ -10719,6 +10812,63 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wwcpylib) This package is up to date.
 [INFO] (wwcpytools) This package is up to date.
 [INFO] (wwdata) This package is up to date.
+[ERROR] (wwe-champions-hack-full-free-cash) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/5f/76/a7365c140199256cc836e2f1145cf39ad347830f49119971d94a35fbfaba/WWE%20CHAMPIONS%20HACK%20FULL%20FREE%20CASH-0.84.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (wwe-immortals-hack-full-free-credits) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/d8/a1/732d51c07b2c6b240d6103631fb79e9f28247a4efc5a76cdafda1bdda298/WWE%20IMMORTALS%20HACK%20FULL%20FREE%20CREDITS-0.84.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (wwe-supercard-hack-full-free-credits) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/1e/fd/f2f01c7bc0d5af3719d0d274abeb0b0a8b2b1ebeb30bdd78784fd2103081/WWE%20SUPERCARD%20HACK%20FULL%20FREE%20CREDITS-0.12.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (wwexercise) This package is up to date.
 [INFO] (wwf) This package is up to date.
 [ERROR] (wwg-athletelist) This package does not have downloadable releases.
@@ -10743,7 +10893,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wwpdb-utils-emdb) This package is up to date.
 [INFO] (wwpdb-utils-markdown-wrapper) This package is up to date.
 [INFO] (wwpdb-utils-message-queue) This package is up to date.
-[INFO] (wwpdb-utils-oe-util) This package is up to date.
+[INFO] (wwpdb-utils-oe-util) Data has been updated for this package.
 [INFO] (wwpdb-utils-seqdb-v2) This package is up to date.
 [INFO] (wwpdb-utils-session) This package is up to date.
 [INFO] (wwpdb-utils-testing) This package is up to date.
@@ -10752,12 +10902,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wwpolytechnique-distributions) This package is up to date.
 [INFO] (wwr-api) This package is up to date.
 [INFO] (wws) This package is up to date.
-[INFO] (wwsclient) This package is up to date.
+[INFO] (wwsclient) Data has been updated for this package.
 [INFO] (wwscraper) This package is up to date.
 [INFO] (wwt-data-formats) This package is up to date.
 [INFO] (wwu) This package is up to date.
 [INFO] (wwu-tinker) This package is up to date.
-[INFO] (wwvb) Data has been updated for this package.
+[INFO] (wwvb) This package is up to date.
 [ERROR] (www) This package does not have downloadable releases.
 [INFO] (www-authenticate) This package is up to date.
 [ERROR] (www-rottentomatoes) Could not extract data from this package. See below for details.
@@ -10766,7 +10916,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wwwoman) This package is up to date.
 [INFO] (wwx) This package is up to date.
 [ERROR] (wwyatt) This package does not have downloadable releases.
-[INFO] (wwyeutupm) Data has been updated for this package.
+[INFO] (wwyeutupm) This package is up to date.
 [ERROR] (wx) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
   File "/usr/local/lib/python3.7/dist-packages/pypicontents/api/pypi.py", line 264, in get_pkgdata
@@ -10810,7 +10960,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wxbot) This package is up to date.
 [INFO] (wxbreads) This package is up to date.
 [INFO] (wxbtool) This package is up to date.
-[INFO] (wxc) Data has been updated for this package.
+[INFO] (wxc) This package is up to date.
 [INFO] (wxcast) This package is up to date.
 [INFO] (wxchatlib) This package is up to date.
 [INFO] (wxcloudsdk) This package is up to date.
@@ -10907,6 +11057,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 ".html" extension not supported.
 [ERROR] (wxpython-slider-bank-creator) Could not extract data from this package. See below for details.
 ".html" extension not supported.
+[INFO] (wxpython-zombie) This package is up to date.
 [INFO] (wxr-parser) This package is up to date.
 [INFO] (wxreply) This package is up to date.
 [INFO] (wxrobot) This package is up to date.
@@ -10916,6 +11067,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wxterminal) This package is up to date.
 [INFO] (wxtestlib) This package is up to date.
 [INFO] (wxtextview) This package is up to date.
+[INFO] (wxtoolslujx) Data has been updated for this package.
 [INFO] (wxtrio) This package is up to date.
 [INFO] (wxtwitterbot) This package is up to date.
 [INFO] (wxunhandledexceptionmanager) This package is up to date.
@@ -10958,7 +11110,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wyfy) This package is up to date.
 [INFO] (wyh) This package is up to date.
 [INFO] (wykop-sdk) This package is up to date.
-[INFO] (wykop-sdk-reborn) Data has been updated for this package.
+[INFO] (wykop-sdk-reborn) This package is up to date.
 [INFO] (wyl-test-lib) This package is up to date.
 [INFO] (wylie) This package is up to date.
 [INFO] (wyliozero) This package is up to date.
@@ -10981,6 +11133,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wysdom) This package is up to date.
 [INFO] (wysiweb) This package is up to date.
 [INFO] (wyspypi001) This package is up to date.
+[INFO] (wystia) This package is up to date.
 [INFO] (wythoff-construct) This package is up to date.
 [INFO] (wyvern) This package is up to date.
 [INFO] (wyxtest) This package is up to date.
@@ -10992,7 +11145,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wyzesense) This package is up to date.
 [INFO] (wz) This package is up to date.
 [INFO] (wz-uniform-crawler) This package is up to date.
-[INFO] (wzarp) Data has been updated for this package.
+[INFO] (wzarp) This package is up to date.
 [INFO] (wzh123-package) This package is up to date.
 [INFO] (wzj) This package is up to date.
 [INFO] (wzk) This package is up to date.
@@ -11057,17 +11210,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (wzone) This package is up to date.
 [INFO] (wzry-spider) This package is up to date.
 [INFO] (wztnester) This package is up to date.
-[INFO] (wzx) Data has been updated for this package.
+[INFO] (wzx) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 7519
-[INFO]     Packages processed: 7519
-[INFO]         Packages updated: 117
-[INFO]         Packages up-to-date: 7017
-[INFO]         Packages without response: 165
+[INFO] Total packages: 7578
+[INFO]     Packages processed: 7578
+[INFO]         Packages updated: 106
+[INFO]         Packages up-to-date: 7086
+[INFO]         Packages without response: 167
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 169
-[INFO]         Packages with data errors: 51
+[INFO]         Packages with data errors: 50
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

@@ -3349,7 +3349,7 @@
             "za_id_number.constants",
             "za_id_number.za_id_number"
         ],
-        "version": "0.0.4"
+        "version": "0.0.6"
     },
     "za-parliament-scrapers": {
         "cmdline": [],
@@ -4029,7 +4029,7 @@
             "zaber_motion.tools",
             "zaber_motion.units"
         ],
-        "version": "2.3.2"
+        "version": "2.4.1"
     },
     "zaber-motion-bindings-darwin": {
         "cmdline": [],
@@ -4037,7 +4037,7 @@
             "zaber_motion_bindings_darwin",
             "zaber_motion_bindings_darwin.bindings"
         ],
-        "version": "2.3.2"
+        "version": "2.4.1"
     },
     "zaber-motion-bindings-linux": {
         "cmdline": [],
@@ -4045,7 +4045,7 @@
             "zaber_motion_bindings_linux",
             "zaber_motion_bindings_linux.bindings"
         ],
-        "version": "2.3.2"
+        "version": "2.4.1"
     },
     "zaber-motion-bindings-windows": {
         "cmdline": [],
@@ -4053,7 +4053,7 @@
             "zaber_motion_bindings_windows",
             "zaber_motion_bindings_windows.bindings"
         ],
-        "version": "2.3.2"
+        "version": "2.4.1"
     },
     "zaber-production-tester": {
         "cmdline": [],
@@ -4188,6 +4188,13 @@
             "nester"
         ],
         "version": "1.3.0"
+    },
+    "zachs-pypi-poc-a": {
+        "cmdline": [],
+        "modules": [
+            "zachs_pypi_poc_a"
+        ],
+        "version": "0.8.0"
     },
     "zacieraczka": {
         "cmdline": [],
@@ -4993,7 +5000,7 @@
             "zalando_kubectl.traffic",
             "zalando_kubectl.utils"
         ],
-        "version": "1.19.6.137"
+        "version": "1.20.8.138"
     },
     "zalando-turnstile": {
         "cmdline": [],
@@ -5039,6 +5046,34 @@
             "zalgo.zalgo"
         ],
         "version": "0.2.0"
+    },
+    "zalo-official-sdk": {
+        "cmdline": [],
+        "modules": [
+            "examples",
+            "examples.example1",
+            "zalo_official",
+            "zalo_official.APIConfig",
+            "zalo_official.APIException",
+            "zalo_official.ApiBaseClient",
+            "zalo_official.app",
+            "zalo_official.app.AppClient",
+            "zalo_official.app.AppInfo",
+            "zalo_official.article",
+            "zalo_official.article.ArticleClient",
+            "zalo_official.oa",
+            "zalo_official.oa.OaClient",
+            "zalo_official.oa.OaInfo",
+            "zalo_official.oa.OaOnbehalf",
+            "zalo_official.store",
+            "zalo_official.store.StoreClient",
+            "zalo_official.store.StoreOnbehalfClient",
+            "zalo_official.test",
+            "zalo_official.test.unit",
+            "zalo_official.utils",
+            "zalo_official.utils.MacUtils"
+        ],
+        "version": "1.0.1"
     },
     "zalo-python-sdk": {
         "cmdline": [],
@@ -5482,14 +5517,21 @@
         ],
         "version": "0.6"
     },
+    "zanshincli": {
+        "cmdline": [],
+        "modules": [
+            "zanshincli",
+            "zanshincli.main"
+        ],
+        "version": "0.2.0"
+    },
     "zanshinsdk": {
         "cmdline": [],
         "modules": [
             "zanshinsdk",
-            "zanshinsdk.cli",
             "zanshinsdk.client"
         ],
-        "version": "0.0.1"
+        "version": "0.2.0"
     },
     "zantedeschia": {
         "cmdline": [],
@@ -5620,7 +5662,7 @@
             "zap_automation_renderer.template",
             "zap_automation_renderer.version"
         ],
-        "version": "0.0.9"
+        "version": "0.0.11"
     },
     "zap-cli-v2": {
         "cmdline": [],
@@ -5785,7 +5827,7 @@
             "zappa.utilities",
             "zappa.wsgi"
         ],
-        "version": "0.52.0"
+        "version": "0.53.0"
     },
     "zappa-bepro": {
         "cmdline": [],
@@ -6106,7 +6148,7 @@
             "zardoz.ztable",
             "zardoz.zvars"
         ],
-        "version": "0.9.2"
+        "version": "0.9.4"
     },
     "zarennerqq": {
         "cmdline": [],
@@ -6186,6 +6228,22 @@
             "zarnegar_converter.zar_file"
         ],
         "version": "0.1.3"
+    },
+    "zarpaint": {
+        "cmdline": [],
+        "modules": [
+            "zarpaint",
+            "zarpaint._dims_chooser",
+            "zarpaint._dock_widget",
+            "zarpaint._main",
+            "zarpaint._tests",
+            "zarpaint._tests.test_dock_widget",
+            "zarpaint._version",
+            "zarpaint._watershed",
+            "zarpaint._zarpaint",
+            "zarpaint.plugin"
+        ],
+        "version": "0.1.0"
     },
     "zarr": {
         "cmdline": [],
@@ -7084,7 +7142,7 @@
             "zest.zest_runner_multi_thread",
             "zest.zest_runner_single_thread"
         ],
-        "version": "1.1.16"
+        "version": "1.1.20"
     },
     "zbsmsa": {
         "cmdline": [],
@@ -7168,7 +7226,7 @@
             "zbuilder.vm.vagrant",
             "zbuilder.wrappers"
         ],
-        "version": "0.0.31"
+        "version": "0.0.33"
     },
     "zbus": {
         "cmdline": [],
@@ -7254,6 +7312,14 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1.6"
+    },
+    "zbzdata": {
+        "cmdline": [],
+        "modules": [
+            "zbzdata",
+            "zbzdata.history"
+        ],
+        "version": "1.0.0"
     },
     "zc": {
         "cmdline": [],
@@ -8862,6 +8928,9 @@
             "zcls.model.recognizers",
             "zcls.model.recognizers.base_recognizer",
             "zcls.model.recognizers.build",
+            "zcls.model.recognizers.efficientnet",
+            "zcls.model.recognizers.efficientnet.efficientnet_lite",
+            "zcls.model.recognizers.efficientnet.effnet_lite",
             "zcls.model.recognizers.ghostnet",
             "zcls.model.recognizers.ghostnet.ghostnet",
             "zcls.model.recognizers.mobilenet",
@@ -8910,7 +8979,7 @@
             "zcls.util.prefetcher",
             "zcls.util.registry"
         ],
-        "version": "0.8.0"
+        "version": "0.9.1"
     },
     "zcm": {
         "cmdline": [],
@@ -10107,7 +10176,7 @@
             "zdrive.upload.uploader",
             "zdrive.version"
         ],
-        "version": "2.1.0"
+        "version": "2.1.1"
     },
     "zds-member": {
         "cmdline": [],
@@ -10869,7 +10938,7 @@
             "zebrazoom.videoFormatConversion",
             "zebrazoom.videoFormatConversion.seq_to_avi"
         ],
-        "version": "0.82"
+        "version": "0.89"
     },
     "zebrunnerpy": {
         "cmdline": [],
@@ -10950,6 +11019,35 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "zedasystem": {
+        "cmdline": [],
+        "modules": [
+            "ZedaSystem",
+            "ZedaSystem.Config",
+            "ZedaSystem.Config.errors",
+            "ZedaSystem.Config.utils",
+            "ZedaSystem.data_mongo",
+            "ZedaSystem.data_mongo.Pyfilters",
+            "ZedaSystem.data_mongo.afk_mongo",
+            "ZedaSystem.data_mongo.assistant_data",
+            "ZedaSystem.data_mongo.automationdb",
+            "ZedaSystem.data_mongo.captcha_db",
+            "ZedaSystem.data_mongo.echo_db",
+            "ZedaSystem.data_mongo.env_db",
+            "ZedaSystem.data_mongo.force_mongo",
+            "ZedaSystem.data_mongo.gban_db",
+            "ZedaSystem.data_mongo.kang_db",
+            "ZedaSystem.data_mongo.pm_db_mongo",
+            "ZedaSystem.data_mongo.string_db",
+            "ZedaSystem.data_mongo.voicechat_db",
+            "ZedaSystem.data_mongo.warn_db",
+            "ZedaSystem.data_mongo.wspr_db",
+            "ZedaSystem.decorators",
+            "ZedaSystem.utils",
+            "ZedaSystem.utils.creation"
+        ],
+        "version": "0.1.15"
     },
     "zeddo": {
         "cmdline": [],
@@ -11675,7 +11773,7 @@
             "zemberek.tokenization.turkish_sentence_extractor",
             "zemberek.tokenization.turkish_tokenizer"
         ],
-        "version": "0.1.0"
+        "version": "0.1.2"
     },
     "zemfrog": {
         "cmdline": [],
@@ -11946,12 +12044,26 @@
         ],
         "version": "1.0.2"
     },
+    "zen-screw-bolt": {
+        "cmdline": [],
+        "modules": [
+            "screw_bolt"
+        ],
+        "version": "1.0.2"
+    },
     "zen-sj-nester": {
         "cmdline": [],
         "modules": [
             "nester"
         ],
         "version": "1.3.0"
+    },
+    "zen-spring": {
+        "cmdline": [],
+        "modules": [
+            "spring"
+        ],
+        "version": "1.0.0"
     },
     "zenaton": {
         "cmdline": [],
@@ -12346,7 +12458,7 @@
             "zenframe.unbound",
             "zenframe.util"
         ],
-        "version": "1.1.0"
+        "version": "1.1.1"
     },
     "zengapay": {
         "cmdline": [],
@@ -12559,7 +12671,7 @@
             "pytone.kintone_file",
             "pytone.test"
         ],
-        "version": "2.0.0"
+        "version": "2.0.1"
     },
     "zenlog": {
         "cmdline": [],
@@ -12919,6 +13031,22 @@
         "modules": [],
         "version": "1.0.0"
     },
+    "zennit": {
+        "cmdline": [],
+        "modules": [
+            "zennit",
+            "zennit.attribution",
+            "zennit.canonizers",
+            "zennit.composites",
+            "zennit.core",
+            "zennit.image",
+            "zennit.layer",
+            "zennit.rules",
+            "zennit.torchvision",
+            "zennit.types"
+        ],
+        "version": "0.3.1"
+    },
     "zennla": {
         "cmdline": [],
         "modules": [
@@ -13077,26 +13205,13 @@
         "cmdline": [],
         "modules": [
             "zenora",
-            "zenora.base.factory",
-            "zenora.base.mapper",
-            "zenora.base.query",
-            "zenora.base.rest",
-            "zenora.channels",
-            "zenora.emoji",
-            "zenora.errors",
-            "zenora.file",
-            "zenora.guild",
-            "zenora.impl.factory",
-            "zenora.impl.mapper",
-            "zenora.impl.query",
-            "zenora.impl.rest",
-            "zenora.messages",
-            "zenora.users",
-            "zenora.utils.endpoints",
-            "zenora.utils.http",
-            "zenora.utils.misc"
+            "zenora.client",
+            "zenora.exceptions",
+            "zenora.request",
+            "zenora.routes",
+            "zenora.utils"
         ],
-        "version": "0.0.34"
+        "version": "0.0.1"
     },
     "zenoss": {
         "cmdline": [],
@@ -13334,11 +13449,12 @@
         "cmdline": [],
         "modules": [
             "bibstract",
+            "bibstract.app",
             "bibstract.cli",
-            "bibstract.config",
+            "bibstract.domain",
             "bibstract.extractor"
         ],
-        "version": "0.0.3"
+        "version": "0.0.4"
     },
     "zensols-clojure": {
         "cmdline": [],
@@ -13604,7 +13720,7 @@
             "util.tempfile",
             "util.time"
         ],
-        "version": "1.5.0"
+        "version": "1.5.1"
     },
     "zensols-zotsite": {
         "cmdline": [],
@@ -15204,7 +15320,7 @@
             "zephyrus_sc2_parser.s2protocol_fixed.versions.protocol84643",
             "zephyrus_sc2_parser.utils"
         ],
-        "version": "0.3.5"
+        "version": "0.3.6"
     },
     "zepid": {
         "cmdline": [],
@@ -15522,7 +15638,7 @@
             "zernike.test",
             "zernike.version"
         ],
-        "version": "0.0.29"
+        "version": "0.0.31"
     },
     "zero": {
         "cmdline": [],
@@ -15916,7 +16032,7 @@
             "IceStorm.Metrics_ice",
             "slice2py"
         ],
-        "version": "3.7.5"
+        "version": "3.7.6"
     },
     "zeroc-icecertutils": {
         "cmdline": [],
@@ -15934,6 +16050,11 @@
         "cmdline": [],
         "modules": [],
         "version": "1.0.2"
+    },
+    "zerocalculatortest": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
     },
     "zerocater": {
         "cmdline": [],
@@ -15967,11 +16088,30 @@
         "cmdline": [],
         "modules": [
             "zeroconf",
+            "zeroconf._cache",
+            "zeroconf._core",
+            "zeroconf._dns",
+            "zeroconf._exceptions",
+            "zeroconf._handlers",
+            "zeroconf._history",
+            "zeroconf._logger",
+            "zeroconf._protocol",
+            "zeroconf._services",
+            "zeroconf._services.browser",
+            "zeroconf._services.info",
+            "zeroconf._services.registry",
+            "zeroconf._services.types",
+            "zeroconf._updates",
+            "zeroconf._utils",
+            "zeroconf._utils.asyncio",
+            "zeroconf._utils.name",
+            "zeroconf._utils.net",
+            "zeroconf._utils.struct",
+            "zeroconf._utils.time",
             "zeroconf.asyncio",
-            "zeroconf.test",
-            "zeroconf.test_asyncio"
+            "zeroconf.const"
         ],
-        "version": "0.31.0"
+        "version": "0.32.0"
     },
     "zeroconf-monkey": {
         "cmdline": [],
@@ -16274,7 +16414,7 @@
             "zeroinger.time.dateutils",
             "zeroinger.time.stopwatch"
         ],
-        "version": "1.2.2"
+        "version": "1.2.3"
     },
     "zerokspot-recipe-distutils": {
         "cmdline": [],
@@ -16371,6 +16511,23 @@
             "zeromessage.envelop_socket"
         ],
         "version": "0.2"
+    },
+    "zeromq-pyre": {
+        "cmdline": [],
+        "modules": [
+            "pyre",
+            "pyre.pyre",
+            "pyre.pyre_event",
+            "pyre.pyre_group",
+            "pyre.pyre_node",
+            "pyre.pyre_peer",
+            "pyre.zactor",
+            "pyre.zbeacon",
+            "pyre.zhelper",
+            "pyre.zre_msg",
+            "pyre.zsocket"
+        ],
+        "version": "0.3.3"
     },
     "zeroncy": {
         "cmdline": [],
@@ -17058,7 +17215,7 @@
             "zespa.main",
             "zespa.zenhub_requester"
         ],
-        "version": "0.1.3"
+        "version": "0.1.4"
     },
     "zess-chapter3": {
         "cmdline": [],
@@ -18095,7 +18252,7 @@
         "modules": [
             "__version__"
         ],
-        "version": "1.0.6"
+        "version": "1.0.7.1"
     },
     "zfnew": {
         "cmdline": [],
@@ -18725,7 +18882,7 @@
             "zgtf",
             "zgtf.zgtf"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "zgtoolkit": {
         "cmdline": [],
@@ -18733,10 +18890,20 @@
             "zgtoolkit",
             "zgtoolkit.dataset",
             "zgtoolkit.dataset.check",
-            "zgtoolkit.dataset.generate_annofile",
+            "zgtoolkit.dataset.generate",
             "zgtoolkit.dataset.modify",
             "zgtoolkit.dataset.parse",
             "zgtoolkit.dataset.visualization",
+            "zgtoolkit.mm_tools",
+            "zgtoolkit.mm_tools.config",
+            "zgtoolkit.mm_tools.dataset",
+            "zgtoolkit.mm_tools.dataset.bbox_overlaps",
+            "zgtoolkit.mm_tools.dataset.class_names",
+            "zgtoolkit.mm_tools.dataset.dataset",
+            "zgtoolkit.mm_tools.dataset.mean_ap",
+            "zgtoolkit.mm_tools.hook",
+            "zgtoolkit.mm_tools.hook.history",
+            "zgtoolkit.mm_tools.inference",
             "zgtoolkit.statistic",
             "zgtoolkit.statistic.iou",
             "zgtoolkit.statistic.statistic_area",
@@ -18746,7 +18913,7 @@
             "zgtoolkit.utils.path",
             "zgtoolkit.utils.progressbar"
         ],
-        "version": "0.0.20"
+        "version": "0.0.25"
     },
     "zgtools": {
         "cmdline": [],
@@ -18755,7 +18922,7 @@
             "zgtools.data_tool",
             "zgtools.db_handle"
         ],
-        "version": "0.1.0"
+        "version": "0.1.3"
     },
     "zgulde": {
         "cmdline": [],
@@ -18802,7 +18969,7 @@
     "zgy2sgz": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.2"
+        "version": "0.1.3"
     },
     "zh": {
         "cmdline": [],
@@ -18943,6 +19110,8 @@
             "zhaquirks.lutron.lzl4bwhl01remote",
             "zhaquirks.netvox",
             "zhaquirks.netvox.z308e3ed",
+            "zhaquirks.nue",
+            "zhaquirks.nue.auwz02000",
             "zhaquirks.orvibo",
             "zhaquirks.orvibo.dimmer",
             "zhaquirks.orvibo.motion",
@@ -19000,6 +19169,8 @@
             "zhaquirks.trust",
             "zhaquirks.trust.zpir8000",
             "zhaquirks.tuya",
+            "zhaquirks.tuya.air",
+            "zhaquirks.tuya.air.ts0601_air_quality",
             "zhaquirks.tuya.electric_heating",
             "zhaquirks.tuya.motion",
             "zhaquirks.tuya.plug",
@@ -19008,6 +19179,7 @@
             "zhaquirks.tuya.thermostat_88teujp",
             "zhaquirks.tuya.ts001x",
             "zhaquirks.tuya.ts0041",
+            "zhaquirks.tuya.ts0041_moes",
             "zhaquirks.tuya.ts0041_zemismart",
             "zhaquirks.tuya.ts0042",
             "zhaquirks.tuya.ts0043",
@@ -19015,6 +19187,7 @@
             "zhaquirks.tuya.ts0501b",
             "zhaquirks.tuya.ts0601",
             "zhaquirks.tuya.ts0601_dimmer",
+            "zhaquirks.tuya.ts0601_smoke",
             "zhaquirks.tuya.ts130f",
             "zhaquirks.tuya.valve",
             "zhaquirks.visonic",
@@ -19061,7 +19234,7 @@
             "zhaquirks.zhongxing",
             "zhaquirks.zhongxing.motion"
         ],
-        "version": "0.0.57"
+        "version": "0.0.58"
     },
     "zhang": {
         "cmdline": [],
@@ -19754,7 +19927,7 @@
             "zhmc_prometheus_exporter._version",
             "zhmc_prometheus_exporter.zhmc_prometheus_exporter"
         ],
-        "version": "0.6.0"
+        "version": "0.7.0"
     },
     "zhmccli": {
         "cmdline": [],
@@ -19780,7 +19953,7 @@
             "zhmccli._version",
             "zhmccli.zhmccli"
         ],
-        "version": "0.21.1"
+        "version": "0.22.0"
     },
     "zhmcclient": {
         "cmdline": [],
@@ -19829,7 +20002,7 @@
             "zhmcclient_mock._session",
             "zhmcclient_mock._urihandler"
         ],
-        "version": "0.31.0"
+        "version": "0.32.0"
     },
     "zhn-nester": {
         "cmdline": [],
@@ -20106,6 +20279,7 @@
             "tests.test_cache",
             "tests.test_code_generator",
             "tests.test_code_generator.test_json2model",
+            "tests.test_defer",
             "zhtools",
             "zhtools.api_service",
             "zhtools.cache",
@@ -20119,6 +20293,7 @@
             "zhtools.code_generator.orms.tortoise",
             "zhtools.concurrents",
             "zhtools.convertors",
+            "zhtools.ctx",
             "zhtools.enum",
             "zhtools.exceptions",
             "zhtools.exporters",
@@ -20132,7 +20307,7 @@
             "zhtools.timetools",
             "zhtools.type_hint"
         ],
-        "version": "0.0.9"
+        "version": "0.0.10"
     },
     "zhttp": {
         "cmdline": [],
@@ -22036,7 +22211,7 @@
             "zigpy.zdo",
             "zigpy.zdo.types"
         ],
-        "version": "0.34.0"
+        "version": "0.35.0"
     },
     "zigpy-cc": {
         "cmdline": [],
@@ -22651,7 +22826,7 @@
             "zimagi"
         ],
         "modules": [],
-        "version": "0.5.0"
+        "version": "0.5.1"
     },
     "zimbra-permissions-inspector": {
         "cmdline": [
@@ -23296,7 +23471,7 @@
         "modules": [
             "zio"
         ],
-        "version": "2.1.1"
+        "version": "2.1.2"
     },
     "zio-py": {
         "cmdline": [],
@@ -23428,6 +23603,14 @@
         "modules": [],
         "version": ""
     },
+    "zip2kafka": {
+        "cmdline": [],
+        "modules": [
+            "zip2kafka",
+            "zip2kafka.main"
+        ],
+        "version": "0.1.0"
+    },
     "zip2np": {
         "cmdline": [],
         "modules": [
@@ -23547,7 +23730,7 @@
         "modules": [
             "zipcodes"
         ],
-        "version": "1.1.2"
+        "version": "1.1.3"
     },
     "zipcodetw": {
         "cmdline": [],
@@ -23556,7 +23739,7 @@
             "zipcodetw.builder",
             "zipcodetw.util"
         ],
-        "version": "0.6.4.1989"
+        "version": "0.6.5"
     },
     "zipcreator": {
         "cmdline": [],
@@ -24829,7 +25012,7 @@
             "zipline_norgatedata.version",
             "zipline_norgatedata.zipline_norgatedata"
         ],
-        "version": "2.0.8"
+        "version": "2.0.9"
     },
     "zipline-poloniex": {
         "cmdline": [],
@@ -25380,7 +25563,7 @@
     "zipp": {
         "cmdline": [],
         "modules": [],
-        "version": "3.4.1"
+        "version": "3.5.0"
     },
     "zippath": {
         "cmdline": [],
@@ -25624,6 +25807,14 @@
         ],
         "version": "1.1.8"
     },
+    "zipstream-ng": {
+        "cmdline": [],
+        "modules": [
+            "zipstream",
+            "zipstream.server"
+        ],
+        "version": "1.0.0"
+    },
     "zipstreamer": {
         "cmdline": [],
         "modules": [
@@ -25792,7 +25983,7 @@
             "zisan.Seg.model",
             "zisan.Seg.utils"
         ],
-        "version": "1.0.20"
+        "version": "1.0.21"
     },
     "zish": {
         "cmdline": [],
@@ -25913,7 +26104,7 @@
             "ziva.sm_monitor",
             "ziva.ziva"
         ],
-        "version": "0.1.6"
+        "version": "0.1.7"
     },
     "zivid": {
         "cmdline": [],
@@ -26191,9 +26382,14 @@
             "zipkin.binding.celery",
             "zipkin.binding.celery.events",
             "zipkin.binding.celery.impl",
+            "zipkin.binding.django",
+            "zipkin.binding.django.apps",
+            "zipkin.binding.django.middleware",
             "zipkin.binding.flask",
             "zipkin.binding.flask.events",
             "zipkin.binding.flask.impl",
+            "zipkin.binding.psycopg2",
+            "zipkin.binding.psycopg2.tracer",
             "zipkin.binding.pyramid",
             "zipkin.binding.pyramid.config",
             "zipkin.binding.pyramid.pyramidhook",
@@ -26209,7 +26405,6 @@
             "zipkin.client",
             "zipkin.config",
             "zipkin.models",
-            "zipkin.scribe",
             "zipkin.tests",
             "zipkin.tests.bindings",
             "zipkin.tests.bindings.test_flask",
@@ -26220,10 +26415,14 @@
             "zipkin.tests.test_util",
             "zipkin.tests.utils",
             "zipkin.thread",
+            "zipkin.transport",
+            "zipkin.transport.httpclient",
+            "zipkin.transport.scribe",
+            "zipkin.transport.scribeclient",
             "zipkin.util",
             "zipkin.zipkin"
         ],
-        "version": "0.6.10"
+        "version": "0.8.3"
     },
     "zk-athletelist": {
         "cmdline": [],
@@ -26374,7 +26573,7 @@
             "zk_shell.watcher",
             "zk_shell.xclient"
         ],
-        "version": "1.3.2"
+        "version": "1.3.3"
     },
     "zk-watcher": {
         "cmdline": [],
@@ -26535,6 +26734,11 @@
         ],
         "version": "0.0.7"
     },
+    "zkeys": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.0.post1"
+    },
     "zkg": {
         "cmdline": [],
         "modules": [
@@ -26546,7 +26750,7 @@
             "zeekpkg.template",
             "zeekpkg.uservar"
         ],
-        "version": "2.9.0"
+        "version": "2.10.0"
     },
     "zkie": {
         "cmdline": [],
@@ -26832,7 +27036,7 @@
             "zkyhaxpy.str_tools",
             "zkyhaxpy.util_tools"
         ],
-        "version": "0.2.8.7.9"
+        "version": "0.2.8.8.0"
     },
     "zl": {
         "cmdline": [],
@@ -27390,7 +27594,7 @@
     "zlogger": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.1"
+        "version": "0.1.3"
     },
     "zlogging": {
         "cmdline": [],
@@ -27454,6 +27658,15 @@
             "zlparse.zlshenpi.parse_shenpi"
         ],
         "version": "1.5.1"
+    },
+    "zlsender": {
+        "cmdline": [],
+        "modules": [
+            "zlsender",
+            "zlsender.__version__",
+            "zlsender.sender"
+        ],
+        "version": "1.0.0"
     },
     "zlshare": {
         "cmdline": [],
@@ -29310,7 +29523,7 @@
             "zmfcli.session",
             "zmfcli.zmf"
         ],
-        "version": "0.1.17"
+        "version": "0.1.18"
     },
     "zmg": {
         "cmdline": [],
@@ -31038,6 +31251,160 @@
         ],
         "version": "0.0.2"
     },
+    "zohobooks-api": {
+        "cmdline": [],
+        "modules": [
+            "books",
+            "books.api",
+            "books.api.Api",
+            "books.api.BankAccountsApi",
+            "books.api.BankRulesApi",
+            "books.api.BankTransactionsApi",
+            "books.api.BaseCurrencyAdjustmentApi",
+            "books.api.BillsApi",
+            "books.api.ChartOfAccountsApi",
+            "books.api.ContactPersonsApi",
+            "books.api.ContactsApi",
+            "books.api.CreditNotesApi",
+            "books.api.CustomerPaymentsApi",
+            "books.api.EstimatesApi",
+            "books.api.ExpensesApi",
+            "books.api.InvoicesApi",
+            "books.api.ItemsApi",
+            "books.api.JournalsApi",
+            "books.api.OrganizationsApi",
+            "books.api.ProjectsApi",
+            "books.api.RecurringExpensesApi",
+            "books.api.RecurringInvoicesApi",
+            "books.api.SettingsApi",
+            "books.api.UsersApi",
+            "books.api.VendorPaymentsApi",
+            "books.exception",
+            "books.exception.BooksException",
+            "books.model",
+            "books.model.Account",
+            "books.model.Address",
+            "books.model.AddressFormat",
+            "books.model.AutoReminderList",
+            "books.model.Autoreminder",
+            "books.model.BankAccount",
+            "books.model.BankAccountList",
+            "books.model.BankRule",
+            "books.model.BankRuleList",
+            "books.model.BaseCurrencyAdjustment",
+            "books.model.BaseCurrencyAdjustmentList",
+            "books.model.Bill",
+            "books.model.BillList",
+            "books.model.BillPayment",
+            "books.model.ChartOfAccount",
+            "books.model.ChartOfAccountList",
+            "books.model.Comment",
+            "books.model.CommentList",
+            "books.model.Contact",
+            "books.model.ContactList",
+            "books.model.ContactPerson",
+            "books.model.ContactPersonList",
+            "books.model.CreditNote",
+            "books.model.CreditNoteList",
+            "books.model.CreditNoteRefund",
+            "books.model.CreditNoteRefundList",
+            "books.model.CreditnoteSetting",
+            "books.model.Criteria",
+            "books.model.Currency",
+            "books.model.CurrencyList",
+            "books.model.CustomField",
+            "books.model.Customer",
+            "books.model.CustomerPayment",
+            "books.model.CustomerPaymentList",
+            "books.model.DefaultTemplate",
+            "books.model.Email",
+            "books.model.EmailHistory",
+            "books.model.EmailId",
+            "books.model.EmailTemplate",
+            "books.model.Estimate",
+            "books.model.EstimateList",
+            "books.model.EstimateSetting",
+            "books.model.ExchangeRate",
+            "books.model.ExchangeRateList",
+            "books.model.Expense",
+            "books.model.ExpenseList",
+            "books.model.FromEmail",
+            "books.model.Instrumentation",
+            "books.model.Invoice",
+            "books.model.InvoiceCredited",
+            "books.model.InvoiceCreditedList",
+            "books.model.InvoiceList",
+            "books.model.InvoicePayment",
+            "books.model.InvoiceSetting",
+            "books.model.Item",
+            "books.model.ItemList",
+            "books.model.Journal",
+            "books.model.JournalList",
+            "books.model.LineItem",
+            "books.model.ManualReminder",
+            "books.model.ManualReminderList",
+            "books.model.NotesAndTerms",
+            "books.model.OpeningBalance",
+            "books.model.Organization",
+            "books.model.PageContext",
+            "books.model.PaymentAndCredit",
+            "books.model.PaymentGateway",
+            "books.model.PaymentList",
+            "books.model.PlaceHolder",
+            "books.model.PlaceholderAddressFormat",
+            "books.model.Preference",
+            "books.model.PreferenceList",
+            "books.model.Project",
+            "books.model.ProjectList",
+            "books.model.RecurringExpense",
+            "books.model.RecurringExpenseList",
+            "books.model.RecurringInvoice",
+            "books.model.RecurringInvoiceList",
+            "books.model.SearchCriteria",
+            "books.model.Statement",
+            "books.model.Task",
+            "books.model.TaskList",
+            "books.model.Tax",
+            "books.model.TaxGroup",
+            "books.model.TaxList",
+            "books.model.Template",
+            "books.model.TemplateList",
+            "books.model.Term",
+            "books.model.TimeEntry",
+            "books.model.TimeEntryList",
+            "books.model.ToContact",
+            "books.model.Transaction",
+            "books.model.TransactionList",
+            "books.model.User",
+            "books.model.UserList",
+            "books.model.VendorPayment",
+            "books.model.VendorPaymentList",
+            "books.parser",
+            "books.parser.BankAccountsParser",
+            "books.parser.BankRulesParser",
+            "books.parser.BankTransactionsParser",
+            "books.parser.BaseCurrencyAdjustmentParser",
+            "books.parser.BillsParser",
+            "books.parser.ChartOfAccountsParser",
+            "books.parser.ContactParser",
+            "books.parser.CreditNotesParser",
+            "books.parser.CustomerPaymentsParser",
+            "books.parser.EstimatesParser",
+            "books.parser.ExpensesParser",
+            "books.parser.InvoicesParser",
+            "books.parser.JournalsParser",
+            "books.parser.ProjectsParser",
+            "books.parser.RecurringExpensesParser",
+            "books.parser.RecurringInvoiceParser",
+            "books.parser.SettingsParser",
+            "books.parser.VendorPaymentsParser",
+            "books.service",
+            "books.service.ZohoBooks",
+            "books.util",
+            "books.util.ZohoHttpClient"
+        ],
+        "version": "1.2"
+    },
     "zohocrm-api": {
         "cmdline": [],
         "modules": [
@@ -31061,6 +31428,413 @@
             "zohocrm"
         ],
         "version": "0.0.11"
+    },
+    "zohocrmsdk2-0": {
+        "cmdline": [],
+        "modules": [
+            "zcrmsdk",
+            "zcrmsdk.src",
+            "zcrmsdk.src.com",
+            "zcrmsdk.src.com.zoho",
+            "zcrmsdk.src.com.zoho.api",
+            "zcrmsdk.src.com.zoho.api.authenticator",
+            "zcrmsdk.src.com.zoho.api.authenticator.oauth_token",
+            "zcrmsdk.src.com.zoho.api.authenticator.store",
+            "zcrmsdk.src.com.zoho.api.authenticator.store.db_store",
+            "zcrmsdk.src.com.zoho.api.authenticator.store.file_store",
+            "zcrmsdk.src.com.zoho.api.authenticator.store.token_store",
+            "zcrmsdk.src.com.zoho.api.authenticator.token",
+            "zcrmsdk.src.com.zoho.api.logger",
+            "zcrmsdk.src.com.zoho.api.logger.logger",
+            "zcrmsdk.src.com.zoho.crm",
+            "zcrmsdk.src.com.zoho.crm.api",
+            "zcrmsdk.src.com.zoho.crm.api.attachments",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.attachment",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.attachments_operations",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.attachments.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.blue_print",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.blue_print_operations",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.next_transition",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.process_info",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.transition",
+            "zcrmsdk.src.com.zoho.crm.api.blue_print.validation_error",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.bulk_read_operations",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.call_back",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.criteria",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.job_detail",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.query",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.request_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.result",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_read.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.bulk_write_operations",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.bulk_write_response",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.call_back",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.field_mapping",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.file",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.request_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.resource",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.result",
+            "zcrmsdk.src.com.zoho.crm.api.bulk_write.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.contact_role",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.contact_roles_operations",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.contact_roles.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.currencies",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.base_currency_action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.base_currency_action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.base_currency_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.currencies_operations",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.currency",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.format",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.currencies.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.criteria",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.custom_view",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.custom_views_operations",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.info",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.range",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.shared_details",
+            "zcrmsdk.src.com.zoho.crm.api.custom_views.translation",
+            "zcrmsdk.src.com.zoho.crm.api.dc",
+            "zcrmsdk.src.com.zoho.crm.api.dc.au_data_center",
+            "zcrmsdk.src.com.zoho.crm.api.dc.cn_data_center",
+            "zcrmsdk.src.com.zoho.crm.api.dc.data_center",
+            "zcrmsdk.src.com.zoho.crm.api.dc.eu_data_center",
+            "zcrmsdk.src.com.zoho.crm.api.dc.in_data_center",
+            "zcrmsdk.src.com.zoho.crm.api.dc.us_data_center",
+            "zcrmsdk.src.com.zoho.crm.api.exception",
+            "zcrmsdk.src.com.zoho.crm.api.exception.sdk_exception",
+            "zcrmsdk.src.com.zoho.crm.api.fields",
+            "zcrmsdk.src.com.zoho.crm.api.fields.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.fields.association_details",
+            "zcrmsdk.src.com.zoho.crm.api.fields.auto_number",
+            "zcrmsdk.src.com.zoho.crm.api.fields.crypt",
+            "zcrmsdk.src.com.zoho.crm.api.fields.currency",
+            "zcrmsdk.src.com.zoho.crm.api.fields.field",
+            "zcrmsdk.src.com.zoho.crm.api.fields.fields_operations",
+            "zcrmsdk.src.com.zoho.crm.api.fields.formula",
+            "zcrmsdk.src.com.zoho.crm.api.fields.lookup_field",
+            "zcrmsdk.src.com.zoho.crm.api.fields.module",
+            "zcrmsdk.src.com.zoho.crm.api.fields.multi_select_lookup",
+            "zcrmsdk.src.com.zoho.crm.api.fields.pick_list_value",
+            "zcrmsdk.src.com.zoho.crm.api.fields.private",
+            "zcrmsdk.src.com.zoho.crm.api.fields.related_details",
+            "zcrmsdk.src.com.zoho.crm.api.fields.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.fields.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.fields.tool_tip",
+            "zcrmsdk.src.com.zoho.crm.api.fields.unique",
+            "zcrmsdk.src.com.zoho.crm.api.fields.view_type",
+            "zcrmsdk.src.com.zoho.crm.api.file",
+            "zcrmsdk.src.com.zoho.crm.api.file.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.file.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.file.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.file.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.file.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.file.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.file.file_operations",
+            "zcrmsdk.src.com.zoho.crm.api.file.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.file.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.header",
+            "zcrmsdk.src.com.zoho.crm.api.header_map",
+            "zcrmsdk.src.com.zoho.crm.api.initializer",
+            "zcrmsdk.src.com.zoho.crm.api.layouts",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.layout",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.layouts_operations",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.properties",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.layouts.section",
+            "zcrmsdk.src.com.zoho.crm.api.modules",
+            "zcrmsdk.src.com.zoho.crm.api.modules.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.modules.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.modules.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.modules.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.modules.argument",
+            "zcrmsdk.src.com.zoho.crm.api.modules.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.modules.module",
+            "zcrmsdk.src.com.zoho.crm.api.modules.modules_operations",
+            "zcrmsdk.src.com.zoho.crm.api.modules.related_list_properties",
+            "zcrmsdk.src.com.zoho.crm.api.modules.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.modules.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.modules.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.modules.territory",
+            "zcrmsdk.src.com.zoho.crm.api.notes",
+            "zcrmsdk.src.com.zoho.crm.api.notes.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.notes.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.notes.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.notes.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.notes.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.notes.info",
+            "zcrmsdk.src.com.zoho.crm.api.notes.note",
+            "zcrmsdk.src.com.zoho.crm.api.notes.notes_operations",
+            "zcrmsdk.src.com.zoho.crm.api.notes.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.notes.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.notes.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.notification",
+            "zcrmsdk.src.com.zoho.crm.api.notification.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.notification.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.notification.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.notification.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.notification.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.notification.info",
+            "zcrmsdk.src.com.zoho.crm.api.notification.notification",
+            "zcrmsdk.src.com.zoho.crm.api.notification.notification_operations",
+            "zcrmsdk.src.com.zoho.crm.api.notification.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.notification.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.notification.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.org",
+            "zcrmsdk.src.com.zoho.crm.api.org.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.org.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.org.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.org.license_details",
+            "zcrmsdk.src.com.zoho.crm.api.org.org",
+            "zcrmsdk.src.com.zoho.crm.api.org.org_operations",
+            "zcrmsdk.src.com.zoho.crm.api.org.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.org.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.org.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.param",
+            "zcrmsdk.src.com.zoho.crm.api.parameter_map",
+            "zcrmsdk.src.com.zoho.crm.api.profiles",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.category",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.permission_detail",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.profile",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.profiles_operations",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.profiles.section",
+            "zcrmsdk.src.com.zoho.crm.api.query",
+            "zcrmsdk.src.com.zoho.crm.api.query.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.query.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.query.query_operations",
+            "zcrmsdk.src.com.zoho.crm.api.query.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.query.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record",
+            "zcrmsdk.src.com.zoho.crm.api.record.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.record.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.record.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.carry_over_tags",
+            "zcrmsdk.src.com.zoho.crm.api.record.comment",
+            "zcrmsdk.src.com.zoho.crm.api.record.consent",
+            "zcrmsdk.src.com.zoho.crm.api.record.convert_action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.convert_action_response",
+            "zcrmsdk.src.com.zoho.crm.api.record.convert_action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.convert_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.criteria",
+            "zcrmsdk.src.com.zoho.crm.api.record.deleted_record",
+            "zcrmsdk.src.com.zoho.crm.api.record.deleted_records_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.deleted_records_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.download_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.field",
+            "zcrmsdk.src.com.zoho.crm.api.record.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.file_details",
+            "zcrmsdk.src.com.zoho.crm.api.record.file_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.info",
+            "zcrmsdk.src.com.zoho.crm.api.record.inventory_line_items",
+            "zcrmsdk.src.com.zoho.crm.api.record.lead_converter",
+            "zcrmsdk.src.com.zoho.crm.api.record.line_item_product",
+            "zcrmsdk.src.com.zoho.crm.api.record.line_tax",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_action_response",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_response",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.mass_update_success_response",
+            "zcrmsdk.src.com.zoho.crm.api.record.options",
+            "zcrmsdk.src.com.zoho.crm.api.record.participants",
+            "zcrmsdk.src.com.zoho.crm.api.record.pricing_details",
+            "zcrmsdk.src.com.zoho.crm.api.record.record",
+            "zcrmsdk.src.com.zoho.crm.api.record.record_operations",
+            "zcrmsdk.src.com.zoho.crm.api.record.recurring_activity",
+            "zcrmsdk.src.com.zoho.crm.api.record.remind_at",
+            "zcrmsdk.src.com.zoho.crm.api.record.reminder",
+            "zcrmsdk.src.com.zoho.crm.api.record.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.record.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.record.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.record.successful_convert",
+            "zcrmsdk.src.com.zoho.crm.api.record.territory",
+            "zcrmsdk.src.com.zoho.crm.api.related_lists",
+            "zcrmsdk.src.com.zoho.crm.api.related_lists.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.related_lists.related_list",
+            "zcrmsdk.src.com.zoho.crm.api.related_lists.related_lists_operations",
+            "zcrmsdk.src.com.zoho.crm.api.related_lists.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.related_lists.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.related_records",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.file_body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.related_records_operations",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.related_records.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.request_proxy",
+            "zcrmsdk.src.com.zoho.crm.api.roles",
+            "zcrmsdk.src.com.zoho.crm.api.roles.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.roles.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.roles.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.roles.role",
+            "zcrmsdk.src.com.zoho.crm.api.roles.roles_operations",
+            "zcrmsdk.src.com.zoho.crm.api.sdk_config",
+            "zcrmsdk.src.com.zoho.crm.api.share_records",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.delete_action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.delete_action_response",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.delete_action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.share_record",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.share_records_operations",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.shared_through",
+            "zcrmsdk.src.com.zoho.crm.api.share_records.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.tags",
+            "zcrmsdk.src.com.zoho.crm.api.tags.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.tags.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.tags.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.tags.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.conflict_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.count_handler",
+            "zcrmsdk.src.com.zoho.crm.api.tags.count_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.info",
+            "zcrmsdk.src.com.zoho.crm.api.tags.merge_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.record_action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.tags.record_action_response",
+            "zcrmsdk.src.com.zoho.crm.api.tags.record_action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.tags.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.tags.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.tags.tag",
+            "zcrmsdk.src.com.zoho.crm.api.tags.tags_operations",
+            "zcrmsdk.src.com.zoho.crm.api.taxes",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.preference",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.tax",
+            "zcrmsdk.src.com.zoho.crm.api.taxes.taxes_operations",
+            "zcrmsdk.src.com.zoho.crm.api.territories",
+            "zcrmsdk.src.com.zoho.crm.api.territories.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.territories.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.territories.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.territories.territories_operations",
+            "zcrmsdk.src.com.zoho.crm.api.territories.territory",
+            "zcrmsdk.src.com.zoho.crm.api.user_signature",
+            "zcrmsdk.src.com.zoho.crm.api.users",
+            "zcrmsdk.src.com.zoho.crm.api.users.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.users.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.users.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.users.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.users.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.users.customize_info",
+            "zcrmsdk.src.com.zoho.crm.api.users.info",
+            "zcrmsdk.src.com.zoho.crm.api.users.request_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.users.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.users.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.users.shift",
+            "zcrmsdk.src.com.zoho.crm.api.users.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.users.tab_theme",
+            "zcrmsdk.src.com.zoho.crm.api.users.territory",
+            "zcrmsdk.src.com.zoho.crm.api.users.theme",
+            "zcrmsdk.src.com.zoho.crm.api.users.user",
+            "zcrmsdk.src.com.zoho.crm.api.users.users_operations",
+            "zcrmsdk.src.com.zoho.crm.api.util",
+            "zcrmsdk.src.com.zoho.crm.api.util.api_http_connector",
+            "zcrmsdk.src.com.zoho.crm.api.util.api_response",
+            "zcrmsdk.src.com.zoho.crm.api.util.choice",
+            "zcrmsdk.src.com.zoho.crm.api.util.common_api_handler",
+            "zcrmsdk.src.com.zoho.crm.api.util.constants",
+            "zcrmsdk.src.com.zoho.crm.api.util.converter",
+            "zcrmsdk.src.com.zoho.crm.api.util.datatype_converter",
+            "zcrmsdk.src.com.zoho.crm.api.util.downloader",
+            "zcrmsdk.src.com.zoho.crm.api.util.form_data_converter",
+            "zcrmsdk.src.com.zoho.crm.api.util.header_param_validator",
+            "zcrmsdk.src.com.zoho.crm.api.util.json_converter",
+            "zcrmsdk.src.com.zoho.crm.api.util.module_fields_handler",
+            "zcrmsdk.src.com.zoho.crm.api.util.stream_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.util.utility",
+            "zcrmsdk.src.com.zoho.crm.api.util.xml_converter",
+            "zcrmsdk.src.com.zoho.crm.api.variable_groups",
+            "zcrmsdk.src.com.zoho.crm.api.variable_groups.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.variable_groups.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.variable_groups.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.variable_groups.variable_group",
+            "zcrmsdk.src.com.zoho.crm.api.variable_groups.variable_groups_operations",
+            "zcrmsdk.src.com.zoho.crm.api.variables",
+            "zcrmsdk.src.com.zoho.crm.api.variables.action_handler",
+            "zcrmsdk.src.com.zoho.crm.api.variables.action_response",
+            "zcrmsdk.src.com.zoho.crm.api.variables.action_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.variables.api_exception",
+            "zcrmsdk.src.com.zoho.crm.api.variables.body_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.variables.response_handler",
+            "zcrmsdk.src.com.zoho.crm.api.variables.response_wrapper",
+            "zcrmsdk.src.com.zoho.crm.api.variables.success_response",
+            "zcrmsdk.src.com.zoho.crm.api.variables.variable",
+            "zcrmsdk.src.com.zoho.crm.api.variables.variables_operations"
+        ],
+        "version": "1.0.0"
     },
     "zohodocs": {
         "cmdline": [],
@@ -31574,6 +32348,90 @@
         ],
         "version": "0.0.0dev"
     },
+    "zone-api": {
+        "cmdline": [],
+        "modules": [
+            "zone_api",
+            "zone_api.alert",
+            "zone_api.alert_manager",
+            "zone_api.audio_manager",
+            "zone_api.core",
+            "zone_api.core.action",
+            "zone_api.core.actions",
+            "zone_api.core.actions.alert_on_bad_computer_states",
+            "zone_api.core.actions.alert_on_entrance_activity",
+            "zone_api.core.actions.alert_on_external_door_left_open",
+            "zone_api.core.actions.alert_on_external_window_open",
+            "zone_api.core.actions.alert_on_failure_to_arm",
+            "zone_api.core.actions.alert_on_high_gas_level",
+            "zone_api.core.actions.alert_on_humidity_out_of_range",
+            "zone_api.core.actions.alert_on_inactive_devices",
+            "zone_api.core.actions.alert_on_rain_or_snow_during_the_day",
+            "zone_api.core.actions.alert_on_security_alarm_triggered",
+            "zone_api.core.actions.alert_on_temperature_out_of_range",
+            "zone_api.core.actions.alert_on_water_leak",
+            "zone_api.core.actions.announce_morning_weather_and_play_music",
+            "zone_api.core.actions.arm_after_front_door_closed",
+            "zone_api.core.actions.arm_if_no_movement",
+            "zone_api.core.actions.arm_stay_in_the_night",
+            "zone_api.core.actions.change_thermostat_based_on_security_arm_mode",
+            "zone_api.core.actions.control_music_player",
+            "zone_api.core.actions.disarm_on_internal_motion",
+            "zone_api.core.actions.disarm_when_garage_door_is_open",
+            "zone_api.core.actions.manage_plugs",
+            "zone_api.core.actions.play_mindfulness_bell",
+            "zone_api.core.actions.play_music_at_dinner_time",
+            "zone_api.core.actions.play_music_during_shower",
+            "zone_api.core.actions.range_violation_alert",
+            "zone_api.core.actions.security_alert_in_vacation_mode",
+            "zone_api.core.actions.send_weather_alert",
+            "zone_api.core.actions.set_switch_timer_after_startup",
+            "zone_api.core.actions.simulate_daytime_presence",
+            "zone_api.core.actions.simulate_nighttime_presence",
+            "zone_api.core.actions.tell_kids_to_go_to_bed",
+            "zone_api.core.actions.turn_off_adjacent_zones",
+            "zone_api.core.actions.turn_off_devices_on_alarm_mode_change",
+            "zone_api.core.actions.turn_on_switch",
+            "zone_api.core.device",
+            "zone_api.core.devices",
+            "zone_api.core.devices.activity_times",
+            "zone_api.core.devices.alarm_partition",
+            "zone_api.core.devices.astro_sensor",
+            "zone_api.core.devices.camera",
+            "zone_api.core.devices.chromecast_audio_sink",
+            "zone_api.core.devices.computer",
+            "zone_api.core.devices.contact",
+            "zone_api.core.devices.dimmer",
+            "zone_api.core.devices.gas_sensor",
+            "zone_api.core.devices.humidity_sensor",
+            "zone_api.core.devices.illuminance_sensor",
+            "zone_api.core.devices.motion_sensor",
+            "zone_api.core.devices.network_presence",
+            "zone_api.core.devices.plug",
+            "zone_api.core.devices.switch",
+            "zone_api.core.devices.temperature_sensor",
+            "zone_api.core.devices.thermostat",
+            "zone_api.core.devices.tv",
+            "zone_api.core.devices.vacation",
+            "zone_api.core.devices.water_leak_sensor",
+            "zone_api.core.devices.weather",
+            "zone_api.core.devices.wled",
+            "zone_api.core.event_info",
+            "zone_api.core.immutable_zone_manager",
+            "zone_api.core.neighbor",
+            "zone_api.core.zone",
+            "zone_api.core.zone_event",
+            "zone_api.core.zone_manager",
+            "zone_api.device_factory",
+            "zone_api.environment_canada",
+            "zone_api.music_streams",
+            "zone_api.platform_encapsulator",
+            "zone_api.security_manager",
+            "zone_api.time_utilities",
+            "zone_api.zone_parser"
+        ],
+        "version": "0.2.1"
+    },
     "zone-file": {
         "cmdline": [],
         "modules": [
@@ -31730,6 +32588,7 @@
             "zonys.core.handler.base",
             "zonys.core.handler.execute",
             "zonys.core.handler.include",
+            "zonys.core.handler.jail",
             "zonys.core.handler.mount",
             "zonys.core.handler.mount.devfs",
             "zonys.core.handler.mount.nullfs",
@@ -31751,6 +32610,7 @@
             "zonys.core.namespace",
             "zonys.core.persistence",
             "zonys.core.test_collection",
+            "zonys.core.test_zone",
             "zonys.core.util",
             "zonys.core.volume",
             "zonys.core.zfs",
@@ -31761,7 +32621,7 @@
             "zonys.core.zone",
             "zonys.util"
         ],
-        "version": "0.3.1"
+        "version": "0.6.1"
     },
     "zoo": {
         "cmdline": [],
@@ -32106,6 +32966,22 @@
             "zoomconnect_sdk.error"
         ],
         "version": "0.0.3"
+    },
+    "zoomdl": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "zoomdl-2": {
+        "cmdline": [],
+        "modules": [
+            "zoom_dl/",
+            "zoom_dl/.cookiejar",
+            "zoom_dl/.parser",
+            "zoom_dl/.version",
+            "zoom_dl/.zoomdl"
+        ],
+        "version": "1970.1.1"
     },
     "zoome": {
         "cmdline": [],
@@ -37929,13 +38805,14 @@
             "zopyx.plone.persistentlogger",
             "zopyx.plone.persistentlogger.browser",
             "zopyx.plone.persistentlogger.browser.logger",
+            "zopyx.plone.persistentlogger.file_logger",
             "zopyx.plone.persistentlogger.interfaces",
             "zopyx.plone.persistentlogger.logger",
             "zopyx.plone.persistentlogger.tests",
             "zopyx.plone.persistentlogger.tests.base",
             "zopyx.plone.persistentlogger.tests.test_logger"
         ],
-        "version": "0.4.9.1"
+        "version": "0.5.0"
     },
     "zopyx-pysiriproxy": {
         "cmdline": [],
@@ -38715,7 +39592,7 @@
             "zotero-cli"
         ],
         "modules": [],
-        "version": "1.0.7"
+        "version": "1.2.1"
     },
     "zotero-sync": {
         "cmdline": [],
@@ -39036,7 +39913,7 @@
             "zou.utils.movie",
             "zou.utils.playlist"
         ],
-        "version": "0.12.80"
+        "version": "0.12.83"
     },
     "zouaho-nester": {
         "cmdline": [],
@@ -39270,7 +40147,7 @@
             "zoviz.metadata",
             "zoviz.visualization"
         ],
-        "version": "0.4.141"
+        "version": "0.4.144"
     },
     "zowe": {
         "cmdline": [],
@@ -39823,7 +40700,7 @@
             "zprofile.profile_pb2",
             "zprofile.wall_profiler"
         ],
-        "version": "1.0.11"
+        "version": "1.0.12"
     },
     "zprogressbar": {
         "cmdline": [],
@@ -40644,6 +41521,11 @@
         ],
         "version": "0.0.1"
     },
+    "zry551-lib": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zrydemo": {
         "cmdline": [],
         "modules": [
@@ -41180,6 +42062,7 @@
             "snakypy.zshpower.commands.credits",
             "snakypy.zshpower.commands.deactivate",
             "snakypy.zshpower.commands.init",
+            "snakypy.zshpower.commands.logs",
             "snakypy.zshpower.commands.reset",
             "snakypy.zshpower.commands.sync",
             "snakypy.zshpower.commands.uninstall",
@@ -41240,7 +42123,7 @@
             "snakypy.zshpower.utils.process",
             "snakypy.zshpower.utils.shift"
         ],
-        "version": "0.9.0"
+        "version": "0.10.0"
     },
     "zsi": {
         "cmdline": [],
@@ -41848,7 +42731,7 @@
             "zswag.gen",
             "zswag.reflect"
         ],
-        "version": "1.0.6"
+        "version": "1.0.7"
     },
     "zt": {
         "cmdline": [],
@@ -42051,7 +42934,7 @@
             "ztfquery.utils.tools",
             "ztfquery.ztftable"
         ],
-        "version": "1.15.5"
+        "version": "1.15.6"
     },
     "ztfy-alchemy": {
         "cmdline": [],
@@ -43115,6 +43998,28 @@
         ],
         "version": "0.5"
     },
+    "zts-hellopypi": {
+        "cmdline": [],
+        "modules": [
+            "helloPypi",
+            "helloPypi.hello"
+        ],
+        "version": "0.0.4"
+    },
+    "ztshare": {
+        "cmdline": [],
+        "modules": [
+            "ztshare",
+            "ztshare.client",
+            "ztshare.common",
+            "ztshare.common.cons",
+            "ztshare.data_pro",
+            "ztshare.util",
+            "ztshare.util.str_util",
+            "ztshare.util.upass"
+        ],
+        "version": "0.0.1"
+    },
     "ztv": {
         "cmdline": [],
         "modules": [
@@ -43692,7 +44597,6 @@
         "cmdline": [],
         "modules": [
             "zulu",
-            "zulu.__version__",
             "zulu.api",
             "zulu.delta",
             "zulu.helpers",
@@ -43700,7 +44604,7 @@
             "zulu.timer",
             "zulu.zulu"
         ],
-        "version": "1.3.0"
+        "version": "2.0.0"
     },
     "zum": {
         "cmdline": [],
@@ -43780,9 +44684,11 @@
             "zumi.util.screen",
             "zumi.util.tourist_demo_helper",
             "zumi.util.vision",
+            "zumi.util.webcamutil",
+            "zumi.util.webstreaming",
             "zumi.zumi"
         ],
-        "version": "1.61"
+        "version": "1.62"
     },
     "zumidashboard": {
         "cmdline": [],
@@ -43800,7 +44706,7 @@
             "zumidashboard.updater",
             "zumidashboard.webstreaming"
         ],
-        "version": "2.50"
+        "version": "2.51"
     },
     "zums": {
         "cmdline": [],
@@ -46965,7 +47871,7 @@
     "zuul": {
         "cmdline": [],
         "modules": [],
-        "version": "4.5.0"
+        "version": "4.6.0"
     },
     "zuul-client": {
         "cmdline": [],
@@ -47638,7 +48544,7 @@
             "zwave_js_server.util.node",
             "zwave_js_server.version"
         ],
-        "version": "0.26.1"
+        "version": "0.27.0"
     },
     "zwave-mqtt-bridge": {
         "cmdline": [
@@ -47647,6 +48553,14 @@
         ],
         "modules": [],
         "version": "0.0.3"
+    },
+    "zwb": {
+        "cmdline": [],
+        "modules": [
+            "zwb",
+            "zwb.module01"
+        ],
+        "version": "1.0"
     },
     "zwb-data": {
         "cmdline": [],
@@ -48032,29 +48946,13 @@
     "zwutils": {
         "cmdline": [],
         "modules": [
-            "tests",
-            "tests.conftest",
-            "tests.test_comm",
-            "tests.test_config",
-            "tests.test_dateutils",
-            "tests.test_dlso",
-            "tests.test_fileutils",
-            "tests.test_htmlutils",
-            "tests.test_imageutils",
-            "tests.test_logger",
-            "tests.test_mp",
-            "tests.test_mt",
-            "tests.test_network",
-            "tests.test_reutils",
-            "tests.test_sysutils",
-            "tests.test_textutils",
-            "tests.test_urlutils",
             "zwutils",
             "zwutils.comm",
             "zwutils.config",
             "zwutils.dateutils",
             "zwutils.dlso",
             "zwutils.fileutils",
+            "zwutils.geoutils",
             "zwutils.htmlutils",
             "zwutils.imageutils",
             "zwutils.logger",
@@ -48067,7 +48965,7 @@
             "zwutils.urlutils",
             "zwutils.zwtask"
         ],
-        "version": "0.0.90"
+        "version": "0.0.94"
     },
     "zwyfastai": {
         "cmdline": [],
@@ -48181,6 +49079,11 @@
         ],
         "version": "0.7.0"
     },
+    "zx-backtesting": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zx-core-backend": {
         "cmdline": [],
         "modules": [],
@@ -48212,6 +49115,11 @@
             "zx81p2wav.modulator"
         ],
         "version": "0.1.0"
+    },
+    "zxbacktesting": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
     },
     "zxbasic": {
         "cmdline": [],
@@ -48475,7 +49383,7 @@
     "zxpy": {
         "cmdline": [],
         "modules": [],
-        "version": "1.2.5"
+        "version": "1.4.0"
     },
     "zxs": {
         "cmdline": [],
@@ -48616,6 +49524,11 @@
         "modules": [],
         "version": "1.2.0"
     },
+    "zy-test-pip": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
+    },
     "zy-tools": {
         "cmdline": [],
         "modules": [
@@ -48703,6 +49616,13 @@
             "zyc.zyc"
         ],
         "version": "0.4.0"
+    },
+    "zycelium-dataconfig": {
+        "cmdline": [],
+        "modules": [
+            "zycelium.dataconfig"
+        ],
+        "version": "0.1.1"
     },
     "zydis": {
         "cmdline": [],
@@ -48810,7 +49730,7 @@
             "zygoat.utils.printing",
             "zygoat.utils.shell"
         ],
-        "version": "1.10.0"
+        "version": "1.11.0"
     },
     "zygoat-django": {
         "cmdline": [],
@@ -49158,6 +50078,20 @@
         ],
         "version": "0.3.1"
     },
+    "zyppnotify": {
+        "cmdline": [],
+        "modules": [
+            "notify",
+            "notify.exceptions",
+            "notify.mail",
+            "notify.teams",
+            "notify.tests",
+            "notify.tests.test_email",
+            "notify.tests.test_teams",
+            "notify.utils"
+        ],
+        "version": "0.1.3"
+    },
     "zyputility": {
         "cmdline": [],
         "modules": [
@@ -49190,6 +50124,14 @@
             "autoextract.utils"
         ],
         "version": "0.7.0"
+    },
+    "zytestpip": {
+        "cmdline": [],
+        "modules": [
+            "zytestpip",
+            "zytestpip.main"
+        ],
+        "version": "1.0.3"
     },
     "zython": {
         "cmdline": [],
@@ -49275,9 +50217,10 @@
         "modules": [
             "ZYXtools",
             "ZYXtools.debug",
+            "ZYXtools.mouse",
             "ZYXtools.time"
         ],
-        "version": "1.0"
+        "version": "2.0"
     },
     "zyytif": {
         "cmdline": [],
@@ -49848,6 +50791,20 @@
             "libzzzfs.zpool"
         ],
         "version": "0.1.2"
+    },
+    "zzzpypitest": {
+        "cmdline": [],
+        "modules": [
+            "test"
+        ],
+        "version": "0.0.2"
+    },
+    "zzzpypitest2": {
+        "cmdline": [],
+        "modules": [
+            "test"
+        ],
+        "version": "0.0.2"
     },
     "zzzutils": {
         "cmdline": [],

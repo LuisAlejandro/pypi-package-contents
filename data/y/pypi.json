@@ -1,8 +1,14 @@
 {
-    "y": {
+    "y-disc-math": {
         "cmdline": [],
-        "modules": [],
-        "version": ""
+        "modules": [
+            "y_disc_math",
+            "y_disc_math.first_order_logic",
+            "y_disc_math.test_and",
+            "y_disc_math.test_or",
+            "y_disc_math.test_xor"
+        ],
+        "version": "1.2"
     },
     "y-lineagetracker": {
         "cmdline": [],
@@ -73,33 +79,8 @@
     },
     "y0": {
         "cmdline": [],
-        "modules": [
-            "y0",
-            "y0.algorithm",
-            "y0.algorithm.simplify_latent",
-            "y0.causaleffect",
-            "y0.cli",
-            "y0.dsl",
-            "y0.examples",
-            "y0.graph",
-            "y0.identify",
-            "y0.mutate",
-            "y0.mutate.canonicalize",
-            "y0.parser",
-            "y0.parser.ce",
-            "y0.parser.ce.grammar",
-            "y0.parser.ce.utils",
-            "y0.parser.craig",
-            "y0.parser.craig.grammar",
-            "y0.parser.craig.utils",
-            "y0.parser.internal",
-            "y0.parser_utils",
-            "y0.predicates",
-            "y0.r_utils",
-            "y0.struct",
-            "y0.version"
-        ],
-        "version": "0.0.5"
+        "modules": [],
+        "version": "0.1.0"
     },
     "y0-bio": {
         "cmdline": [],
@@ -430,7 +411,7 @@
             "ya_payment.test.test_rejection_reason",
             "ya_payment.test.test_requestor_api"
         ],
-        "version": "0.6.1"
+        "version": "0.6.2"
     },
     "ya-client-activity": {
         "cmdline": [],
@@ -856,7 +837,7 @@
             "yaaredis.sentinel",
             "yaaredis.utils"
         ],
-        "version": "2.0.0"
+        "version": "2.0.3"
     },
     "yaargh": {
         "cmdline": [],
@@ -1398,7 +1379,7 @@
             "yacfg_batch.yacfg_batch",
             "yacfg_batch.yacfg_batch_cli"
         ],
-        "version": "0.8.3"
+        "version": "0.9.1"
     },
     "yacgol": {
         "cmdline": [],
@@ -1420,6 +1401,11 @@
             "yachain.config"
         ],
         "version": "0.1.4"
+    },
+    "yachalk": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.1"
     },
     "yacho": {
         "cmdline": [],
@@ -1468,7 +1454,7 @@
         "modules": [
             "yacl"
         ],
-        "version": "0.4.1"
+        "version": "0.4.3"
     },
     "yacli": {
         "cmdline": [],
@@ -1548,7 +1534,7 @@
             "yacman.exceptions",
             "yacman.yacman"
         ],
-        "version": "0.8.1"
+        "version": "0.8.2"
     },
     "yacms": {
         "cmdline": [],
@@ -1882,7 +1868,7 @@
             "yacron.statsd",
             "yacron.version"
         ],
-        "version": "0.12.2"
+        "version": "0.13.0"
     },
     "yacryptopan": {
         "cmdline": [],
@@ -2341,7 +2327,7 @@
             "yadisk_async.utils",
             "yadisk_async.yadisk"
         ],
-        "version": "1.3.0"
+        "version": "1.3.2"
     },
     "yadiskclient": {
         "cmdline": [],
@@ -2738,6 +2724,13 @@
             "fastText.util.util"
         ],
         "version": "0.8.22.2018120701"
+    },
+    "yafcorse": {
+        "cmdline": [],
+        "modules": [
+            "yafcorse"
+        ],
+        "version": "1.0.0"
     },
     "yafe": {
         "cmdline": [],
@@ -3307,6 +3300,18 @@
             "yager.templates"
         ],
         "version": "0.1.0"
+    },
+    "yaghm": {
+        "cmdline": [],
+        "modules": [
+            "yaghm",
+            "yaghm.disable",
+            "yaghm.enable",
+            "yaghm.lib",
+            "yaghm.list_hooks",
+            "yaghm.main"
+        ],
+        "version": "0.1.4"
     },
     "yaghurl": {
         "cmdline": [],
@@ -4919,6 +4924,11 @@
         ],
         "version": "2.4.1"
     },
+    "yahoo-fantasy-baseball-stat-analysis": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "yahoo-fantasy-bot": {
         "cmdline": [
             "ybot",
@@ -4938,6 +4948,14 @@
             "yahoo_fantasy_bot.utils"
         ],
         "version": "0.1.0"
+    },
+    "yahoo-fb-stat-analysis": {
+        "cmdline": [],
+        "modules": [
+            "yahoo_fb_stat_analysis",
+            "yahoo_fb_stat_analysis.main"
+        ],
+        "version": "1.7"
     },
     "yahoo-ff": {
         "cmdline": [],
@@ -4959,7 +4977,7 @@
             "yahoo_fin.setup",
             "yahoo_fin.stock_info"
         ],
-        "version": "0.8.8"
+        "version": "0.8.9.1"
     },
     "yahoo-finance": {
         "cmdline": [],
@@ -5053,7 +5071,7 @@
             "yahoo_historical",
             "yahoo_historical.fetch"
         ],
-        "version": "0.3.2"
+        "version": "0.4.0"
     },
     "yahoo-market-data": {
         "cmdline": [],
@@ -6157,7 +6175,7 @@
             "yalexs.pubnub_async",
             "yalexs.util"
         ],
-        "version": "1.1.11"
+        "version": "1.1.12"
     },
     "yali-server": {
         "cmdline": [],
@@ -6444,7 +6462,7 @@
             "yamale.yamale_error",
             "yamale.yamale_testcase"
         ],
-        "version": "3.0.6"
+        "version": "3.0.7"
     },
     "yamale-aac": {
         "cmdline": [],
@@ -6573,7 +6591,6 @@
     "yamcs-cli": {
         "cmdline": [],
         "modules": [
-            "yamcs",
             "yamcs.cli",
             "yamcs.cli.algorithms",
             "yamcs.cli.commands",
@@ -6593,13 +6610,11 @@
             "yamcs.cli.tables",
             "yamcs.cli.utils"
         ],
-        "version": "1.3.1"
+        "version": "1.4.0"
     },
     "yamcs-client": {
         "cmdline": [],
         "modules": [
-            "yamcs",
-            "yamcs.api",
             "yamcs.api.annotations_pb2",
             "yamcs.api.exception_pb2",
             "yamcs.api.httpbody_pb2",
@@ -6627,56 +6642,36 @@
             "yamcs.mdb.client",
             "yamcs.mdb.model",
             "yamcs.model",
-            "yamcs.protobuf",
-            "yamcs.protobuf.alarms",
             "yamcs.protobuf.alarms.alarms_pb2",
             "yamcs.protobuf.alarms.alarms_service_pb2",
-            "yamcs.protobuf.archive",
             "yamcs.protobuf.archive.archive_pb2",
             "yamcs.protobuf.archive.index_service_pb2",
             "yamcs.protobuf.archive.parameter_archive_service_pb2",
             "yamcs.protobuf.archive.rocksdb_service_pb2",
             "yamcs.protobuf.archive.tag_service_pb2",
-            "yamcs.protobuf.buckets",
             "yamcs.protobuf.buckets.buckets_pb2",
-            "yamcs.protobuf.clients",
             "yamcs.protobuf.clients.clients_pb2",
-            "yamcs.protobuf.commanding",
             "yamcs.protobuf.commanding.clearance_service_pb2",
             "yamcs.protobuf.commanding.commanding_pb2",
             "yamcs.protobuf.commanding.commands_service_pb2",
             "yamcs.protobuf.commanding.queue_service_pb2",
-            "yamcs.protobuf.cop1",
             "yamcs.protobuf.cop1.cop1_pb2",
-            "yamcs.protobuf.database",
             "yamcs.protobuf.database.database_service_pb2",
-            "yamcs.protobuf.events",
             "yamcs.protobuf.events.events_service_pb2",
-            "yamcs.protobuf.filetransfer",
             "yamcs.protobuf.filetransfer.filetransfer_pb2",
-            "yamcs.protobuf.iam",
             "yamcs.protobuf.iam.iam_pb2",
-            "yamcs.protobuf.mdb",
             "yamcs.protobuf.mdb.mdb_pb2",
-            "yamcs.protobuf.packets",
             "yamcs.protobuf.packets.packets_service_pb2",
-            "yamcs.protobuf.processing",
+            "yamcs.protobuf.processing.mdb_override_service_pb2",
             "yamcs.protobuf.processing.processing_pb2",
-            "yamcs.protobuf.pvalue",
             "yamcs.protobuf.pvalue.pvalue_pb2",
-            "yamcs.protobuf.replication",
             "yamcs.protobuf.replication.replication_pb2",
-            "yamcs.protobuf.table",
             "yamcs.protobuf.table.table_pb2",
-            "yamcs.protobuf.tco",
             "yamcs.protobuf.tco.tco_pb2",
-            "yamcs.protobuf.time",
             "yamcs.protobuf.time.time_service_pb2",
-            "yamcs.protobuf.web",
             "yamcs.protobuf.web.auth_pb2",
             "yamcs.protobuf.web.server_service_pb2",
             "yamcs.protobuf.web.websocket_pb2",
-            "yamcs.protobuf.yamcsManagement",
             "yamcs.protobuf.yamcsManagement.yamcsManagement_pb2",
             "yamcs.protobuf.yamcs_pb2",
             "yamcs.storage",
@@ -6689,15 +6684,14 @@
             "yamcs.tmtc.client",
             "yamcs.tmtc.model"
         ],
-        "version": "1.6.6"
+        "version": "1.7.1"
     },
     "yamcs-client-kerberos": {
         "cmdline": [],
         "modules": [
-            "yamcs",
             "yamcs.kerberos"
         ],
-        "version": "1.1.0"
+        "version": "1.2.0"
     },
     "yamd-mcengk": {
         "cmdline": [],
@@ -6745,6 +6739,18 @@
             "yamgl_gen.yamgl_gen"
         ],
         "version": "0.0.4"
+    },
+    "yami": {
+        "cmdline": [],
+        "modules": [
+            "yami",
+            "yami.bot",
+            "yami.commands",
+            "yami.context",
+            "yami.errors",
+            "yami.modules"
+        ],
+        "version": "0.1.4"
     },
     "yamicache": {
         "cmdline": [],
@@ -6824,6 +6830,13 @@
         "modules": [],
         "version": ""
     },
+    "yaml-axis-parser": {
+        "cmdline": [],
+        "modules": [
+            "yaml_axis_parser"
+        ],
+        "version": "0.0.1"
+    },
     "yaml-backed-structs": {
         "cmdline": [],
         "modules": [
@@ -6893,6 +6906,14 @@
             "yaml_cv_py.text2yaml"
         ],
         "version": "1.0.0"
+    },
+    "yaml-doc-fix": {
+        "cmdline": [],
+        "modules": [
+            "yaml_doc_fix",
+            "yaml_doc_fix.script"
+        ],
+        "version": "1"
     },
     "yaml-dump": {
         "cmdline": [],
@@ -6974,6 +6995,14 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1.5"
+    },
+    "yaml-param-search": {
+        "cmdline": [],
+        "modules": [
+            "yaml_param_search",
+            "yaml_param_search.search"
+        ],
+        "version": "0.1.0"
     },
     "yaml-patcher": {
         "cmdline": [],
@@ -7140,6 +7169,13 @@
         ],
         "version": "0.1"
     },
+    "yaml-utils": {
+        "cmdline": [],
+        "modules": [
+            "yaml_utils"
+        ],
+        "version": "0.0.4"
+    },
     "yaml-walker": {
         "cmdline": [],
         "modules": [
@@ -7266,7 +7302,7 @@
             "yaml2resume.output",
             "yaml2resume.parse"
         ],
-        "version": "0.0.10"
+        "version": "0.0.11"
     },
     "yaml2rst": {
         "cmdline": [],
@@ -7336,7 +7372,7 @@
             "yamlable.tests.test_yamlobjects",
             "yamlable.yaml_objects"
         ],
-        "version": "1.0.3"
+        "version": "1.0.4"
     },
     "yamlapi": {
         "cmdline": [],
@@ -8073,7 +8109,7 @@
             "yamlpath.wrappers.nodecoords",
             "yamlpath.yamlpath"
         ],
-        "version": "3.6.0"
+        "version": "3.6.1"
     },
     "yamlplus": {
         "cmdline": [],
@@ -8087,6 +8123,16 @@
         ],
         "version": "1.0.1"
     },
+    "yamlprofiles": {
+        "cmdline": [],
+        "modules": [
+            "yamlprofiles",
+            "yamlprofiles.nested_dict_value",
+            "yamlprofiles.variables",
+            "yamlprofiles.yaml_parse"
+        ],
+        "version": "0.0.1"
+    },
     "yamlpy": {
         "cmdline": [],
         "modules": [
@@ -8094,6 +8140,17 @@
             "yamlpy.yaml_py"
         ],
         "version": "1.1.8"
+    },
+    "yamlpyowl": {
+        "cmdline": [],
+        "modules": [
+            "yamlpyowl",
+            "yamlpyowl.core",
+            "yamlpyowl.old_core",
+            "yamlpyowl.release",
+            "yamlpyowl.script"
+        ],
+        "version": "0.2.1"
     },
     "yamlradio": {
         "cmdline": [],
@@ -8256,7 +8313,7 @@
         "modules": [
             "yamlwrap"
         ],
-        "version": "1.0.0"
+        "version": "2.0.0"
     },
     "yamm": {
         "cmdline": [],
@@ -8487,7 +8544,7 @@
             "yams_cli.profile",
             "yams_cli.utils"
         ],
-        "version": "2.8.2"
+        "version": "2.9.0"
     },
     "yams-datadog": {
         "cmdline": [],
@@ -8517,6 +8574,15 @@
             "yamtof.mocp_transcriber"
         ],
         "version": "0.1"
+    },
+    "yamunaque-examples": {
+        "cmdline": [],
+        "modules": [
+            "yamunaque_examples",
+            "yamunaque_examples.example_1",
+            "yamunaque_examples.example_2"
+        ],
+        "version": "1.0"
     },
     "yamux": {
         "cmdline": [],
@@ -9084,7 +9150,7 @@
             "yandex_direct_stats.email_handler",
             "yandex_direct_stats.yandex_direct_stats"
         ],
-        "version": "0.688"
+        "version": "0.693"
     },
     "yandex-domain-mail": {
         "cmdline": [],
@@ -9568,7 +9634,7 @@
             "yandex_tracker_client.settings",
             "yandex_tracker_client.uriutils"
         ],
-        "version": "2.0"
+        "version": "2.1"
     },
     "yandex-tracker-import": {
         "cmdline": [],
@@ -10332,7 +10398,7 @@
             "yandexcloud._wrappers.dataproc",
             "yandexcloud.operations"
         ],
-        "version": "0.89.0"
+        "version": "0.93.0"
     },
     "yandexdictionary": {
         "cmdline": [],
@@ -10531,7 +10597,7 @@
             "yang.connector.tests.test_yang",
             "yang.connector.xpath_util"
         ],
-        "version": "21.5"
+        "version": "21.6"
     },
     "yang-ion-pred": {
         "cmdline": [],
@@ -10567,7 +10633,7 @@
             "ncdiff.tests",
             "ncdiff.tests.test_ncdiff"
         ],
-        "version": "21.5"
+        "version": "21.6"
     },
     "yang-print-list": {
         "cmdline": [],
@@ -10623,7 +10689,7 @@
             "yanggui.southbound",
             "yanggui.yanggui"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "yangify": {
         "cmdline": [],
@@ -10829,7 +10895,7 @@
             "yangsuite.views",
             "yangsuite.wsgi"
         ],
-        "version": "2.7.10"
+        "version": "2.8.2"
     },
     "yangsuite-coverage": {
         "cmdline": [],
@@ -10873,7 +10939,7 @@
             "ysdevices.utilities",
             "ysdevices.views"
         ],
-        "version": "2.8.4"
+        "version": "2.8.7"
     },
     "yangsuite-filemanager": {
         "cmdline": [],
@@ -10918,6 +10984,26 @@
         ],
         "version": "1.8.1"
     },
+    "yangsuite-gnmi": {
+        "cmdline": [],
+        "modules": [
+            "ysgnmi",
+            "ysgnmi._version",
+            "ysgnmi.apps",
+            "ysgnmi.device_plugin",
+            "ysgnmi.gnmi",
+            "ysgnmi.gnmi_util",
+            "ysgnmi.tests",
+            "ysgnmi.tests.test_device_plugin",
+            "ysgnmi.tests.test_testmgr",
+            "ysgnmi.tests.test_views",
+            "ysgnmi.tests.test_yangtree",
+            "ysgnmi.urls",
+            "ysgnmi.views",
+            "ysgnmi.yangtree"
+        ],
+        "version": "2.1.9"
+    },
     "yangsuite-grpc-telemetry": {
         "cmdline": [],
         "modules": [
@@ -10961,6 +11047,23 @@
             "ysnetconf.views.utilities"
         ],
         "version": "1.15.3"
+    },
+    "yangsuite-restconf": {
+        "cmdline": [],
+        "modules": [
+            "ysrestconf",
+            "ysrestconf._version",
+            "ysrestconf.apps",
+            "ysrestconf.device_plugin",
+            "ysrestconf.restconf",
+            "ysrestconf.rmodels",
+            "ysrestconf.tests",
+            "ysrestconf.tests.test_nesting",
+            "ysrestconf.tests.test_views",
+            "ysrestconf.urls",
+            "ysrestconf.views"
+        ],
+        "version": "2.0.2"
     },
     "yangsuite-yangtree": {
         "cmdline": [],
@@ -11089,9 +11192,24 @@
     "yank": {
         "cmdline": [],
         "modules": [
-            "yank"
+            "yank",
+            "yank.browser",
+            "yank.constants",
+            "yank.exceptions",
+            "yank.history",
+            "yank.interface",
+            "yank.interface_database_mixin",
+            "yank.interface_display_mixin",
+            "yank.request",
+            "yank.response",
+            "yank.target",
+            "yank.tools",
+            "yank.tools.display",
+            "yank.yanker",
+            "yank.yanker_display_mixin",
+            "yank.yanker_util_mixin"
         ],
-        "version": "0.1.0"
+        "version": "1.0.0"
     },
     "yanker": {
         "cmdline": [],
@@ -11279,6 +11397,15 @@
             "yanotme_nester"
         ],
         "version": "1.4.0"
+    },
+    "yanpdf": {
+        "cmdline": [],
+        "modules": [
+            "yanpdf",
+            "yanpdf.pdf2image",
+            "yanpdf.pdf2text"
+        ],
+        "version": "1.0"
     },
     "yanpj": {
         "cmdline": [],
@@ -11654,17 +11781,23 @@
             "yapapi._cli.market",
             "yapapi._cli.payment",
             "yapapi._cli.run",
+            "yapapi.agreements_pool",
+            "yapapi.ctx",
+            "yapapi.engine",
+            "yapapi.events",
             "yapapi.executor",
             "yapapi.executor._smartq",
-            "yapapi.executor.agreements_pool",
             "yapapi.executor.ctx",
             "yapapi.executor.events",
             "yapapi.executor.strategy",
             "yapapi.executor.task",
-            "yapapi.executor.utils",
+            "yapapi.golem",
             "yapapi.log",
             "yapapi.package",
             "yapapi.package.vm",
+            "yapapi.payload",
+            "yapapi.payload.package",
+            "yapapi.payload.vm",
             "yapapi.props",
             "yapapi.props.base",
             "yapapi.props.builder",
@@ -11677,11 +11810,14 @@
             "yapapi.rest.market",
             "yapapi.rest.payment",
             "yapapi.rest.resource",
+            "yapapi.services",
             "yapapi.storage",
             "yapapi.storage.gftp",
-            "yapapi.storage.webdav"
+            "yapapi.storage.webdav",
+            "yapapi.strategy",
+            "yapapi.utils"
         ],
-        "version": "0.5.5"
+        "version": "0.6.2"
     },
     "yapatch": {
         "cmdline": [],
@@ -11881,8 +12017,12 @@
     },
     "yapf-isort": {
         "cmdline": [],
-        "modules": [],
-        "version": "0.5.5"
+        "modules": [
+            "yapf_isort",
+            "yapf_isort.generics",
+            "yapf_isort.quotes"
+        ],
+        "version": "0.6.0"
     },
     "yapf-junit": {
         "cmdline": [],
@@ -12008,7 +12148,7 @@
             "yapic_io.transformations",
             "yapic_io.utils"
         ],
-        "version": "0.1.4"
+        "version": "0.2.1"
     },
     "yapic-json": {
         "cmdline": [],
@@ -13216,6 +13356,13 @@
         ],
         "version": "1.1.4"
     },
+    "yarab": {
+        "cmdline": [],
+        "modules": [
+            "yarab"
+        ],
+        "version": "0.0.0"
+    },
     "yarabuilder": {
         "cmdline": [],
         "modules": [
@@ -13283,7 +13430,7 @@
             "pybind11",
             "pybind11._version"
         ],
-        "version": "3.10.6"
+        "version": "3.10.7"
     },
     "yaraprocessor": {
         "cmdline": [],
@@ -13837,6 +13984,20 @@
         ],
         "version": "0.4.0"
     },
+    "yarp-middleware": {
+        "cmdline": [],
+        "modules": [],
+        "version": "3.4.7.dev926"
+    },
+    "yarp-parser": {
+        "cmdline": [],
+        "modules": [
+            "yarp_parser",
+            "yarp_parser.recursive_parser",
+            "yarp_parser.streaming_lexer"
+        ],
+        "version": "0.2"
+    },
     "yarpc": {
         "cmdline": [],
         "modules": [
@@ -13946,6 +14107,13 @@
         "modules": [],
         "version": "1.0"
     },
+    "yarub": {
+        "cmdline": [],
+        "modules": [
+            "yarub"
+        ],
+        "version": "0.1.0"
+    },
     "yarw": {
         "cmdline": [],
         "modules": [
@@ -14028,9 +14196,10 @@
             "yascc",
             "yascc._bench",
             "yascc.camelcase",
+            "yascc.common",
             "yascc.snakecase"
         ],
-        "version": "0.1.3"
+        "version": "0.2.0"
     },
     "yascp": {
         "cmdline": [
@@ -14121,20 +14290,6 @@
         ],
         "version": "0.1"
     },
-    "yash-shell": {
-        "cmdline": [],
-        "modules": [
-            "yash_shell",
-            "yash_shell.checker",
-            "yash_shell.themes",
-            "yash_shell.themes.bashLikeTheme",
-            "yash_shell.themes.neoTheme",
-            "yash_shell.yash",
-            "yash_shell.yash.functions",
-            "yash_shell.yash.shell"
-        ],
-        "version": "0.1.12"
-    },
     "yasha": {
         "cmdline": [],
         "modules": [
@@ -14156,6 +14311,13 @@
             "example-pkg-Yashaa.topsis"
         ],
         "version": "0.7"
+    },
+    "yashi": {
+        "cmdline": [],
+        "modules": [
+            "yashi.emptypackage"
+        ],
+        "version": "1.0.1"
     },
     "yashiro": {
         "cmdline": [],
@@ -14341,7 +14503,7 @@
             "yasoo.typing",
             "yasoo.utils"
         ],
-        "version": "0.8.5"
+        "version": "0.8.6"
     },
     "yasopenstackhandler": {
         "cmdline": [],
@@ -14412,6 +14574,88 @@
             "yaspop.yaspop"
         ],
         "version": "0.1.0"
+    },
+    "yasril-lib": {
+        "cmdline": [],
+        "modules": [
+            "Yasril",
+            "Yasril.Dictionary",
+            "Yasril.Dictionary.ArrayDictionary",
+            "Yasril.Dictionary.DictionaryInterface",
+            "Yasril.Morphology",
+            "Yasril.Morphology.Disambiguator",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule1",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule10",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule11",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule12",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule13",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule14",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule15",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule16",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule17",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule18",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule19",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule2",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule20",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule21",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule23",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule24",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule25",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule26",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule27",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule28",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule29",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule3",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule30",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule31",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule32",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule34",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule35",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule36",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule37",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule38",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule39",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule4",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule40",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule41",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule42",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule5",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule6",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule7",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule8",
+            "Yasril.Morphology.Disambiguator.DisambiguatorPrefixRule9",
+            "Yasril.Morphology.InvalidAffixPairSpecification",
+            "Yasril.Stemmer",
+            "Yasril.Stemmer.Cache",
+            "Yasril.Stemmer.Cache.ArrayCache",
+            "Yasril.Stemmer.Cache.CacheInterface",
+            "Yasril.Stemmer.CachedStemmer",
+            "Yasril.Stemmer.ConfixStripping",
+            "Yasril.Stemmer.ConfixStripping.PrecedenceAdjustmentSpecification",
+            "Yasril.Stemmer.Context",
+            "Yasril.Stemmer.Context.Context",
+            "Yasril.Stemmer.Context.ContextInterface",
+            "Yasril.Stemmer.Context.Removal",
+            "Yasril.Stemmer.Context.RemovalInterface",
+            "Yasril.Stemmer.Context.Visitor",
+            "Yasril.Stemmer.Context.Visitor.AbstractDisambiguatePrefixRule",
+            "Yasril.Stemmer.Context.Visitor.DontStemShortWord",
+            "Yasril.Stemmer.Context.Visitor.PrefixDisambiguator",
+            "Yasril.Stemmer.Context.Visitor.RemoveDerivationalSuffix",
+            "Yasril.Stemmer.Context.Visitor.RemoveInflectionalParticle",
+            "Yasril.Stemmer.Context.Visitor.RemoveInflectionalPossessivePronoun",
+            "Yasril.Stemmer.Context.Visitor.RemovePlainPrefix",
+            "Yasril.Stemmer.Context.Visitor.VisitorProvider",
+            "Yasril.Stemmer.Filter",
+            "Yasril.Stemmer.Filter.TextNormalizer",
+            "Yasril.Stemmer.Stemmer",
+            "Yasril.Stemmer.StemmerFactory",
+            "Yasril.Stemmer.StemmerInterface",
+            "Yasril.StopWordRemover",
+            "Yasril.StopWordRemover.StopWordRemover",
+            "Yasril.StopWordRemover.StopWordRemoverFactory"
+        ],
+        "version": "1.2.0"
     },
     "yass": {
         "cmdline": [],
@@ -14545,6 +14789,14 @@
             "yastatsd.server"
         ],
         "version": "0.1.6"
+    },
+    "yaststool": {
+        "cmdline": [],
+        "modules": [
+            "yaststool",
+            "yaststool.main"
+        ],
+        "version": "0.1.1"
     },
     "yasuf": {
         "cmdline": [],
@@ -14925,9 +15177,10 @@
             "yatracker.types.issue",
             "yatracker.types.objects",
             "yatracker.utils",
+            "yatracker.utils.json",
             "yatracker.utils.mixins"
         ],
-        "version": "0.0.6"
+        "version": "2021.7.2"
     },
     "yatrash": {
         "cmdline": [],
@@ -15328,7 +15581,7 @@
             "yautil.tests.test_plotutil",
             "yautil.tests.test_subcommand"
         ],
-        "version": "0.0.53"
+        "version": "0.0.54"
     },
     "yaval": {
         "cmdline": [],
@@ -15772,7 +16025,7 @@
             "yawsso",
             "yawsso.cli"
         ],
-        "version": "0.6.2"
+        "version": "0.7.1"
     },
     "yawttk": {
         "cmdline": [],
@@ -15823,7 +16076,7 @@
             "yaxil.functools",
             "yaxil.session"
         ],
-        "version": "0.6.3"
+        "version": "0.6.4"
     },
     "yaxit": {
         "cmdline": [],
@@ -15871,6 +16124,11 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "yaxmldiff": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.0"
     },
     "yay": {
         "cmdline": [],
@@ -17319,10 +17577,10 @@
         ],
         "version": "0.1.71"
     },
-    "ycm-build-modules": {
+    "ycm-cmake-modules": {
         "cmdline": [],
         "modules": [],
-        "version": "0.12.2.dev40"
+        "version": "0.13.0"
     },
     "ycml": {
         "cmdline": [],
@@ -17652,8 +17910,12 @@
             "kikimr.public.api.grpc.draft.ydb_s3_internal_v1_pb2_grpc",
             "kikimr.public.api.grpc.draft.ydb_yql_internal_pb2",
             "kikimr.public.api.grpc.draft.ydb_yql_internal_pb2_grpc",
+            "kikimr.public.api.grpc.draft.yq_v1_pb2",
+            "kikimr.public.api.grpc.draft.yq_v1_pb2_grpc",
             "kikimr.public.api.grpc.draft.yql_analytics_v1_pb2",
             "kikimr.public.api.grpc.draft.yql_analytics_v1_pb2_grpc",
+            "kikimr.public.api.grpc.draft.yql_db_v1_pb2",
+            "kikimr.public.api.grpc.draft.yql_db_v1_pb2_grpc",
             "kikimr.public.api.grpc.ydb_cms_v1_pb2",
             "kikimr.public.api.grpc.ydb_cms_v1_pb2_grpc",
             "kikimr.public.api.grpc.ydb_coordination_v1_pb2",
@@ -17683,7 +17945,9 @@
             "kikimr.public.api.protos.draft.persqueue_pb2",
             "kikimr.public.api.protos.draft.streaming_pb2",
             "kikimr.public.api.protos.draft.ydb_long_tx_pb2",
+            "kikimr.public.api.protos.draft.yq_pb2",
             "kikimr.public.api.protos.draft.yql_analytics_pb2",
+            "kikimr.public.api.protos.draft.yql_internal_pb2",
             "kikimr.public.api.protos.persqueue_error_codes_v1_pb2",
             "kikimr.public.api.protos.validation",
             "kikimr.public.api.protos.validation.validation_pb2",
@@ -17721,6 +17985,7 @@
             "kikimr.public.sdk.python.client.connection",
             "kikimr.public.sdk.python.client.convert",
             "kikimr.public.sdk.python.client.credentials",
+            "kikimr.public.sdk.python.client.default_pem",
             "kikimr.public.sdk.python.client.driver",
             "kikimr.public.sdk.python.client.experimental",
             "kikimr.public.sdk.python.client.export",
@@ -17752,7 +18017,7 @@
             "ydb.iam",
             "ydb.sqlalchemy"
         ],
-        "version": "1.0.4"
+        "version": "1.0.9"
     },
     "ydbf": {
         "cmdline": [],
@@ -19378,6 +19643,33 @@
         ],
         "version": "0.1.6"
     },
+    "yea": {
+        "cmdline": [],
+        "modules": [
+            "yea",
+            "yea.cli",
+            "yea.config",
+            "yea.context",
+            "yea.plugins",
+            "yea.runner",
+            "yea.schema",
+            "yea.testcfg",
+            "yea.testspec",
+            "yea.ytest"
+        ],
+        "version": "0.3.0"
+    },
+    "yea-wandb": {
+        "cmdline": [],
+        "modules": [
+            "yea_wandb",
+            "yea_wandb.backend",
+            "yea_wandb.mock_requests",
+            "yea_wandb.mock_server",
+            "yea_wandb.plugin"
+        ],
+        "version": "0.3.0"
+    },
     "yeadon": {
         "cmdline": [
             "yeadon"
@@ -20691,10 +20983,11 @@
         "cmdline": [],
         "modules": [
             "spotify_lyrics",
-            "spotify_lyrics_once",
-            "utils"
+            "spotify_lyrics.spotify_lyrics",
+            "spotify_lyrics.spotify_lyrics_once",
+            "spotify_lyrics.utils"
         ],
-        "version": "2.4.4"
+        "version": "2.4.5"
     },
     "yetanotherimageresizer": {
         "cmdline": [],
@@ -20784,7 +21077,7 @@
             "yext.exceptions",
             "yext.yext_client"
         ],
-        "version": "0.3.0"
+        "version": "0.3.3"
     },
     "yeyenino": {
         "cmdline": [],
@@ -20894,7 +21187,7 @@
             "yfinance.utils",
             "yfinance.version"
         ],
-        "version": "0.1.59"
+        "version": "0.1.63"
     },
     "yfinance-ez": {
         "cmdline": [],
@@ -21184,7 +21477,7 @@
             "ygctools",
             "ygctools.cmd"
         ],
-        "version": "0.0.8"
+        "version": "0.0.9"
     },
     "ygetter": {
         "cmdline": [],
@@ -21879,7 +22172,7 @@
             "yhttp.statuses",
             "yhttp.validation"
         ],
-        "version": "2.12.2"
+        "version": "2.13.1"
     },
     "yhttp-auth": {
         "cmdline": [],
@@ -22690,6 +22983,11 @@
         ],
         "version": "1.0.6"
     },
+    "yingmiyaml": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "yingzi": {
         "cmdline": [],
         "modules": [
@@ -22780,6 +23078,13 @@
         ],
         "version": "2.5.3"
     },
+    "yiopypi": {
+        "cmdline": [],
+        "modules": [
+            "yiopypi"
+        ],
+        "version": "0.0.2"
+    },
     "yip": {
         "cmdline": [],
         "modules": [],
@@ -22810,10 +23115,11 @@
             "yippi.AsyncYippi",
             "yippi.Classes",
             "yippi.Constants",
+            "yippi.Enums",
             "yippi.Exceptions",
             "yippi.YippiSync"
         ],
-        "version": "0.1.1"
+        "version": "0.2.0.1"
     },
     "yipy": {
         "cmdline": [],
@@ -22823,6 +23129,29 @@
             "yipy.config"
         ],
         "version": "1.0.0"
+    },
+    "yiri-mirai": {
+        "cmdline": [],
+        "modules": [
+            "mirai",
+            "mirai.adapters",
+            "mirai.adapters.base",
+            "mirai.adapters.http",
+            "mirai.adapters.websocket",
+            "mirai.bot",
+            "mirai.bus",
+            "mirai.colorlog",
+            "mirai.exceptions",
+            "mirai.models",
+            "mirai.models.api",
+            "mirai.models.base",
+            "mirai.models.bus",
+            "mirai.models.entities",
+            "mirai.models.events",
+            "mirai.models.message",
+            "mirai.utils"
+        ],
+        "version": "0.1.2"
     },
     "yiriair": {
         "cmdline": [],
@@ -23051,7 +23380,7 @@
             "vscoscrape.constants",
             "vscoscrape.vscoscrape"
         ],
-        "version": "1.0"
+        "version": "1.1"
     },
     "yjlab": {
         "cmdline": [],
@@ -23409,7 +23738,7 @@
             "yledl.version",
             "yledl.yledl"
         ],
-        "version": "20210502"
+        "version": "20210704"
     },
     "ylib": {
         "cmdline": [],
@@ -23456,6 +23785,18 @@
             "ylogger"
         ],
         "version": "1.2"
+    },
+    "ylp9-blog": {
+        "cmdline": [],
+        "modules": [
+            "__init__",
+            "data",
+            "manager",
+            "models",
+            "tools",
+            "views"
+        ],
+        "version": "1.0"
     },
     "ylx-tools": {
         "cmdline": [],
@@ -23861,6 +24202,22 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "ymlconf": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.base_test_case",
+            "tests.test_common",
+            "tests.test_more_itertools",
+            "tests.test_yaml_config_manager",
+            "ymlconf",
+            "ymlconf._version",
+            "ymlconf.attribute",
+            "ymlconf.common",
+            "ymlconf.yaml_config_manager"
+        ],
+        "version": "2.0.0"
     },
     "ymlconfig": {
         "cmdline": [],
@@ -25014,7 +25371,7 @@
             "ynabintegrationscli.ynabintegrationscli",
             "ynabintegrationscli.ynabintegrationscliexceptions"
         ],
-        "version": "0.1.3"
+        "version": "0.1.5"
     },
     "ynabintegrationslib": {
         "cmdline": [],
@@ -25028,7 +25385,7 @@
             "ynabintegrationslib.ynabintegrationslib",
             "ynabintegrationslib.ynabintegrationslibexceptions"
         ],
-        "version": "0.1.4"
+        "version": "0.2.1"
     },
     "ynabinterfaceslib": {
         "cmdline": [],
@@ -25038,7 +25395,7 @@
             "ynabinterfaceslib.ynabinterfaceslib",
             "ynabinterfaceslib.ynabinterfaceslibexceptions"
         ],
-        "version": "1.0.1"
+        "version": "1.0.4"
     },
     "ynablib": {
         "cmdline": [],
@@ -25048,7 +25405,7 @@
             "ynablib.ynablib",
             "ynablib.ynablibexceptions"
         ],
-        "version": "0.2.0"
+        "version": "0.2.2"
     },
     "ynca": {
         "cmdline": [],
@@ -25364,14 +25721,16 @@
         "cmdline": [],
         "modules": [
             "yo_jenkins",
+            "yo_jenkins.Docker",
+            "yo_jenkins.Docker.DockerJenkinsServer",
             "yo_jenkins.Monitor",
             "yo_jenkins.Monitor.BuildMonitor",
             "yo_jenkins.Monitor.FolderMonitor",
             "yo_jenkins.Monitor.JobMonitor",
             "yo_jenkins.Monitor.Monitor",
             "yo_jenkins.Monitor.monitor_utility",
-            "yo_jenkins.Setup",
-            "yo_jenkins.Setup.DockerJenkinsServer",
+            "yo_jenkins.Tools",
+            "yo_jenkins.Tools.Package",
             "yo_jenkins.Utility",
             "yo_jenkins.Utility.utility",
             "yo_jenkins.YoJenkins",
@@ -25379,6 +25738,7 @@
             "yo_jenkins.YoJenkins.Build",
             "yo_jenkins.YoJenkins.Folder",
             "yo_jenkins.YoJenkins.JenkinsItemClasses",
+            "yo_jenkins.YoJenkins.JenkinsItemConfig",
             "yo_jenkins.YoJenkins.Job",
             "yo_jenkins.YoJenkins.REST",
             "yo_jenkins.YoJenkins.Server",
@@ -25396,11 +25756,11 @@
             "yo_jenkins.cli.cli_server",
             "yo_jenkins.cli.cli_stage",
             "yo_jenkins.cli.cli_step",
+            "yo_jenkins.cli.cli_tools",
             "yo_jenkins.cli.cli_utility",
-            "yo_jenkins.cli.logger_setup",
-            "yo_jenkins.docker-python-class-test"
+            "yo_jenkins.cli.logger_setup"
         ],
-        "version": "0.0.19"
+        "version": "0.0.33"
     },
     "yo-payments": {
         "cmdline": [],
@@ -25764,7 +26124,7 @@
             "yoctools.tools",
             "yoctools.yoc"
         ],
-        "version": "2.0.14"
+        "version": "2.0.15"
     },
     "yoctools-t1": {
         "cmdline": [],
@@ -25943,7 +26303,7 @@
             "yoctopuce.yocto_weighscale",
             "yoctopuce.yocto_wireless"
         ],
-        "version": "1.10.45343"
+        "version": "1.10.45664"
     },
     "yoda": {
         "cmdline": [],
@@ -26421,6 +26781,13 @@
         ],
         "version": "1.6.dev0"
     },
+    "yogendra-fizzbuzz": {
+        "cmdline": [],
+        "modules": [
+            "yogendra_fizzbuzz"
+        ],
+        "version": "0.4.0"
+    },
     "yogesh": {
         "cmdline": [],
         "modules": [],
@@ -26794,6 +27161,34 @@
         ],
         "version": "0.0.2"
     },
+    "yolo-distribution-distillation-demo": {
+        "cmdline": [],
+        "modules": [
+            "model",
+            "model.deep_ensemble",
+            "model.models",
+            "model.yolo_layer",
+            "utilz",
+            "utilz.torch_utils",
+            "utilz.utils"
+        ],
+        "version": "1.0.1"
+    },
+    "yolo-ed2-demo": {
+        "cmdline": [],
+        "modules": [
+            "yolo_ens_dist",
+            "yolo_ens_dist.model",
+            "yolo_ens_dist.model.deep_ensemble",
+            "yolo_ens_dist.model.models",
+            "yolo_ens_dist.model.yolo_layer",
+            "yolo_ens_dist.test_model",
+            "yolo_ens_dist.utilz",
+            "yolo_ens_dist.utilz.torch_utils",
+            "yolo_ens_dist.utilz.utils"
+        ],
+        "version": "1.0.3"
+    },
     "yolo-labeler": {
         "cmdline": [],
         "modules": [
@@ -27007,6 +27402,20 @@
         ],
         "version": "0.0.2"
     },
+    "yolov4detector": {
+        "cmdline": [],
+        "modules": [
+            "Yolov4Detector",
+            "Yolov4Detector.Yolov4Detector",
+            "Yolov4Detector.darknet",
+            "Yolov4Detector.darknet_batchimages",
+            "Yolov4Detector.darknet_images",
+            "Yolov4Detector.darknet_video",
+            "Yolov4Detector.io",
+            "Yolov4Detector.utils"
+        ],
+        "version": "0.1.2"
+    },
     "yolov4track": {
         "cmdline": [],
         "modules": [
@@ -27032,12 +27441,12 @@
         "modules": [
             "yolov5",
             "yolov5.detect",
+            "yolov5.export",
             "yolov5.helpers",
             "yolov5.hubconf",
             "yolov5.models",
             "yolov5.models.common",
             "yolov5.models.experimental",
-            "yolov5.models.export",
             "yolov5.models.yolo",
             "yolov5.test",
             "yolov5.train",
@@ -27059,7 +27468,7 @@
             "yolov5.utils.wandb_logging.log_dataset",
             "yolov5.utils.wandb_logging.wandb_utils"
         ],
-        "version": "5.0.5"
+        "version": "5.0.7"
     },
     "yolov5-evaluator": {
         "cmdline": [],
@@ -27126,7 +27535,7 @@
             "yolov5processor.utils.google_utils",
             "yolov5processor.utils.torch_utils"
         ],
-        "version": "1.1.1"
+        "version": "1.2"
     },
     "yolov6": {
         "cmdline": [],
@@ -27154,7 +27563,7 @@
             "YOMAPI",
             "YOMAPI.YOMAPI"
         ],
-        "version": "0.0.4"
+        "version": "0.0.11"
     },
     "yomari": {
         "cmdline": [],
@@ -27377,6 +27786,15 @@
             "yoohoo"
         ],
         "version": "0.0.3"
+    },
+    "yoojampdf": {
+        "cmdline": [],
+        "modules": [
+            "yoojampdf",
+            "yoojampdf.pdf2image",
+            "yoojampdf.pdf2text"
+        ],
+        "version": "1.1"
     },
     "yookassa": {
         "cmdline": [],
@@ -27607,6 +28025,16 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "yootk": {
+        "cmdline": [],
+        "modules": [
+            "mldn",
+            "mldn.info",
+            "mldn.info.information",
+            "mldn.info.message"
+        ],
+        "version": "1.5"
     },
     "yootk-mess": {
         "cmdline": [],
@@ -28767,7 +29195,7 @@
             "you_get.util.term",
             "you_get.version"
         ],
-        "version": "0.4.1527"
+        "version": "0.4.1536"
     },
     "you-live": {
         "cmdline": [],
@@ -28906,6 +29334,11 @@
             "youdao.spider"
         ],
         "version": "0.3.6"
+    },
+    "youdao-client": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "youdao-dict": {
         "cmdline": [],
@@ -29724,6 +30157,13 @@
         ],
         "version": "0.0.1"
     },
+    "youtea": {
+        "cmdline": [],
+        "modules": [
+            "youtea"
+        ],
+        "version": "0.1.22"
+    },
     "youtiao": {
         "cmdline": [],
         "modules": [
@@ -30052,7 +30492,7 @@
             "youtube_api.youtube_api",
             "youtube_api.youtube_api_utils"
         ],
-        "version": "0.0.20"
+        "version": "0.0.21"
     },
     "youtube-data-api3": {
         "cmdline": [],
@@ -30068,6 +30508,37 @@
             "youtube_data_api3.video"
         ],
         "version": "0.0.10"
+    },
+    "youtube-discusion-tree-api2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "youtube-discussion-tree-api": {
+        "cmdline": [],
+        "modules": [
+            "youtube_discussion_tree_api",
+            "youtube_discussion_tree_api._api",
+            "youtube_discussion_tree_api._conflicts",
+            "youtube_discussion_tree_api._errors",
+            "youtube_discussion_tree_api._http",
+            "youtube_discussion_tree_api._quota",
+            "youtube_discussion_tree_api._tree",
+            "youtube_discussion_tree_api._viz",
+            "youtube_discussion_tree_api._xml",
+            "youtube_discussion_tree_api.tests",
+            "youtube_discussion_tree_api.tests.test_api",
+            "youtube_discussion_tree_api.tests.test_conflicts",
+            "youtube_discussion_tree_api.tests.test_http",
+            "youtube_discussion_tree_api.tests.test_quota",
+            "youtube_discussion_tree_api.tests.test_tree",
+            "youtube_discussion_tree_api.tests.test_xml",
+            "youtube_discussion_tree_api.utils",
+            "youtube_discussion_tree_api.utils.node",
+            "youtube_discussion_tree_api.utils.quota",
+            "youtube_discussion_tree_api.utils.video"
+        ],
+        "version": "1.0.3"
     },
     "youtube-django": {
         "cmdline": [],
@@ -30942,6 +31413,17 @@
             "youtube_dl_gui.main"
         ],
         "version": "1.0.4"
+    },
+    "youtube-dl-gui-server": {
+        "cmdline": [],
+        "modules": [
+            "youtube_dl_gui_server",
+            "youtube_dl_gui_server.__version__",
+            "youtube_dl_gui_server.dfn_error",
+            "youtube_dl_gui_server.main",
+            "youtube_dl_gui_server.routing"
+        ],
+        "version": "0.0.1"
     },
     "youtube-dl-helper": {
         "cmdline": [
@@ -33625,7 +34107,7 @@
             "youtube_playlist_randomizer.auth",
             "youtube_playlist_randomizer.playlist"
         ],
-        "version": "0.1.1"
+        "version": "0.2.0"
     },
     "youtube-playlist-to-m3u": {
         "cmdline": [],
@@ -33660,7 +34142,7 @@
             "youtube.Extract",
             "youtube.Stream"
         ],
-        "version": "2.0.0"
+        "version": "2.1.0"
     },
     "youtube-python": {
         "cmdline": [],
@@ -33721,7 +34203,7 @@
     "youtube-scraping-api": {
         "cmdline": [],
         "modules": [],
-        "version": "1.1.1"
+        "version": "1.1.3"
     },
     "youtube-sdk-py": {
         "cmdline": [],
@@ -33760,7 +34242,7 @@
             "youtubesearchpython.search",
             "youtubesearchpython.streamurlfetcher"
         ],
-        "version": "1.4.5"
+        "version": "1.4.6"
     },
     "youtube-search-requests": {
         "cmdline": [],
@@ -33896,6 +34378,20 @@
         ],
         "version": "1.0"
     },
+    "youtube-stream": {
+        "cmdline": [],
+        "modules": [
+            "youtube_stream",
+            "youtube_stream.commands",
+            "youtube_stream.distrun",
+            "youtube_stream.imports",
+            "youtube_stream.mute_shell",
+            "youtube_stream.playmedia",
+            "youtube_stream.search",
+            "youtube_stream.voice_recognition"
+        ],
+        "version": "0.0.14"
+    },
     "youtube-streamer": {
         "cmdline": [
             "ys"
@@ -33912,6 +34408,14 @@
             "youtube_synopsis.youtube_synopsis"
         ],
         "version": "1.0.0"
+    },
+    "youtube-thumbnail": {
+        "cmdline": [],
+        "modules": [
+            "youtube_thumbnail",
+            "youtube_thumbnail.cli"
+        ],
+        "version": "0.1.0"
     },
     "youtube-title-parse": {
         "cmdline": [],
@@ -34002,7 +34506,7 @@
             "youtube_tts_data_generator.text_cleaner",
             "youtube_tts_data_generator.youtube_tts_data_generator"
         ],
-        "version": "0.1.7"
+        "version": "0.2.1"
     },
     "youtube-unlimited-search": {
         "cmdline": [],
@@ -34134,7 +34638,7 @@
             "youtube2ipfs",
             "youtube2ipfs.youtube2ipfs"
         ],
-        "version": "0.2.1"
+        "version": "0.2.2"
     },
     "youtube2m4a": {
         "cmdline": [],
@@ -34317,7 +34821,7 @@
         "modules": [
             "YouTubeMusicAPI"
         ],
-        "version": "1.8"
+        "version": "1.9"
     },
     "youtubepy": {
         "cmdline": [],
@@ -34639,80 +35143,87 @@
         "modules": [
             "yowasp_nextpnr_ecp5"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ecp5-25k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ecp5"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ecp5-45k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ecp5"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ecp5-85k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ecp5"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ecp5-all": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ice40"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40-1k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ice40"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40-384": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ice40"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40-5k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ice40"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40-8k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ice40"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40-all": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-nextpnr-ice40-u4k": {
         "cmdline": [],
         "modules": [
             "yowasp_nextpnr_ice40"
         ],
-        "version": "0.0.post3529.dev139"
+        "version": "0.0.post3645.dev167"
+    },
+    "yowasp-nextpnr-nexus": {
+        "cmdline": [],
+        "modules": [
+            "yowasp_nextpnr_nexus"
+        ],
+        "version": "0.0.post3645.dev167"
     },
     "yowasp-yosys": {
         "cmdline": [],
@@ -34721,7 +35232,7 @@
             "yowasp_yosys.sby",
             "yowasp_yosys.smtbmc"
         ],
-        "version": "0.9.post5376.dev155"
+        "version": "0.9.post5464.dev176"
     },
     "yowlayer-django-store": {
         "cmdline": [],
@@ -35854,6 +36365,30 @@
         ],
         "version": "0.1.3"
     },
+    "ypricemagic": {
+        "cmdline": [],
+        "modules": [
+            "ypricemagic",
+            "ypricemagic.balancer",
+            "ypricemagic.chainlink",
+            "ypricemagic.compound",
+            "ypricemagic.constants",
+            "ypricemagic.curve",
+            "ypricemagic.interfaces",
+            "ypricemagic.interfaces.balancer",
+            "ypricemagic.interfaces.balancer.WeightedPool",
+            "ypricemagic.magic",
+            "ypricemagic.uniswap",
+            "ypricemagic.utils",
+            "ypricemagic.utils.cache",
+            "ypricemagic.utils.events",
+            "ypricemagic.utils.middleware",
+            "ypricemagic.utils.multicall2",
+            "ypricemagic.utils.utils",
+            "ypricemagic.yearn"
+        ],
+        "version": "0.2.1"
+    },
     "ypstruct": {
         "cmdline": [],
         "modules": [
@@ -36124,7 +36659,7 @@
             "yqn_project_cli.utils.portal",
             "yqn_project_cli.utils.restx"
         ],
-        "version": "0.0.0rc1"
+        "version": "0.0.0rc2"
     },
     "yqn-pytorch-framework": {
         "cmdline": [],
@@ -36205,16 +36740,6 @@
             "yqn_pytorch_framework.train.base_train"
         ],
         "version": "0.2.3"
-    },
-    "yqscripts": {
-        "cmdline": [],
-        "modules": [
-            "yqscripts",
-            "yqscripts.csv_split",
-            "yqscripts.csv_wos",
-            "yqscripts.pandas_fre"
-        ],
-        "version": "0.1.13"
     },
     "yqt": {
         "cmdline": [
@@ -36395,6 +36920,14 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "ysdata": {
+        "cmdline": [],
+        "modules": [
+            "ysdata",
+            "ysdata.history"
+        ],
+        "version": "0.1.1"
     },
     "ysdtools": {
         "cmdline": [],
@@ -36653,100 +37186,36 @@
             "yt",
             "yt.analysis_modules",
             "yt.analysis_modules.absorption_spectrum",
-            "yt.analysis_modules.absorption_spectrum.absorption_line",
-            "yt.analysis_modules.absorption_spectrum.absorption_spectrum",
-            "yt.analysis_modules.absorption_spectrum.absorption_spectrum_fit",
             "yt.analysis_modules.absorption_spectrum.api",
-            "yt.analysis_modules.absorption_spectrum.tests",
-            "yt.analysis_modules.absorption_spectrum.tests.test_absorption_spectrum",
             "yt.analysis_modules.cosmological_observation",
             "yt.analysis_modules.cosmological_observation.api",
-            "yt.analysis_modules.cosmological_observation.cosmology_splice",
-            "yt.analysis_modules.cosmological_observation.light_cone",
-            "yt.analysis_modules.cosmological_observation.light_cone.api",
-            "yt.analysis_modules.cosmological_observation.light_cone.light_cone",
-            "yt.analysis_modules.cosmological_observation.light_cone.light_cone_projection",
-            "yt.analysis_modules.cosmological_observation.light_cone.tests",
-            "yt.analysis_modules.cosmological_observation.light_cone.tests.test_light_cone",
-            "yt.analysis_modules.cosmological_observation.light_ray",
-            "yt.analysis_modules.cosmological_observation.light_ray.api",
-            "yt.analysis_modules.cosmological_observation.light_ray.light_ray",
-            "yt.analysis_modules.cosmological_observation.light_ray.tests",
-            "yt.analysis_modules.cosmological_observation.light_ray.tests.test_light_ray",
             "yt.analysis_modules.halo_analysis",
             "yt.analysis_modules.halo_analysis.api",
-            "yt.analysis_modules.halo_analysis.enzofof_merger_tree",
-            "yt.analysis_modules.halo_analysis.halo_callbacks",
-            "yt.analysis_modules.halo_analysis.halo_catalog",
-            "yt.analysis_modules.halo_analysis.halo_filters",
-            "yt.analysis_modules.halo_analysis.halo_finding_methods",
-            "yt.analysis_modules.halo_analysis.halo_object",
-            "yt.analysis_modules.halo_analysis.halo_quantities",
-            "yt.analysis_modules.halo_analysis.halo_recipes",
-            "yt.analysis_modules.halo_analysis.tests",
-            "yt.analysis_modules.halo_analysis.tests.run_halo_finder",
-            "yt.analysis_modules.halo_analysis.tests.test_halo_catalog",
-            "yt.analysis_modules.halo_analysis.tests.test_halo_finders",
             "yt.analysis_modules.halo_finding",
             "yt.analysis_modules.halo_finding.api",
-            "yt.analysis_modules.halo_finding.fof",
-            "yt.analysis_modules.halo_finding.halo_objects",
-            "yt.analysis_modules.halo_finding.hop",
-            "yt.analysis_modules.halo_finding.rockstar",
-            "yt.analysis_modules.halo_finding.rockstar.api",
-            "yt.analysis_modules.halo_finding.rockstar.rockstar",
-            "yt.analysis_modules.halo_finding.tests",
-            "yt.analysis_modules.halo_finding.tests.run_rockstar",
-            "yt.analysis_modules.halo_finding.tests.test_halo_finders",
-            "yt.analysis_modules.halo_finding.tests.test_rockstar",
             "yt.analysis_modules.halo_mass_function",
             "yt.analysis_modules.halo_mass_function.api",
-            "yt.analysis_modules.halo_mass_function.halo_mass_function",
             "yt.analysis_modules.level_sets",
             "yt.analysis_modules.level_sets.api",
-            "yt.analysis_modules.list_modules",
             "yt.analysis_modules.particle_trajectories",
             "yt.analysis_modules.particle_trajectories.api",
             "yt.analysis_modules.photon_simulator",
             "yt.analysis_modules.photon_simulator.api",
-            "yt.analysis_modules.photon_simulator.photon_models",
-            "yt.analysis_modules.photon_simulator.photon_simulator",
-            "yt.analysis_modules.photon_simulator.spectral_models",
-            "yt.analysis_modules.photon_simulator.tests",
-            "yt.analysis_modules.photon_simulator.tests.test_beta_model",
-            "yt.analysis_modules.photon_simulator.tests.test_sloshing",
-            "yt.analysis_modules.photon_simulator.tests.test_spectra",
             "yt.analysis_modules.ppv_cube",
             "yt.analysis_modules.ppv_cube.api",
-            "yt.analysis_modules.ppv_cube.ppv_cube",
-            "yt.analysis_modules.ppv_cube.tests",
-            "yt.analysis_modules.ppv_cube.tests.test_ppv",
             "yt.analysis_modules.radmc3d_export",
-            "yt.analysis_modules.radmc3d_export.RadMC3DImageUtilities",
-            "yt.analysis_modules.radmc3d_export.RadMC3DInterface",
             "yt.analysis_modules.radmc3d_export.api",
-            "yt.analysis_modules.radmc3d_export.tests",
-            "yt.analysis_modules.radmc3d_export.tests.test_radmc3d_exporter",
             "yt.analysis_modules.spectral_integrator",
             "yt.analysis_modules.spectral_integrator.api",
             "yt.analysis_modules.star_analysis",
             "yt.analysis_modules.star_analysis.api",
-            "yt.analysis_modules.star_analysis.sfr_spectrum",
             "yt.analysis_modules.sunrise_export",
             "yt.analysis_modules.sunrise_export.api",
-            "yt.analysis_modules.sunrise_export.sunrise_exporter",
-            "yt.analysis_modules.sunyaev_zeldovich",
-            "yt.analysis_modules.sunyaev_zeldovich.api",
-            "yt.analysis_modules.sunyaev_zeldovich.projection",
-            "yt.analysis_modules.sunyaev_zeldovich.tests",
-            "yt.analysis_modules.sunyaev_zeldovich.tests.test_projection",
             "yt.analysis_modules.two_point_functions",
             "yt.analysis_modules.two_point_functions.api",
-            "yt.analysis_modules.two_point_functions.two_point_functions",
             "yt.api",
             "yt.arraytypes",
             "yt.config",
-            "yt.convenience",
             "yt.data_objects",
             "yt.data_objects.analyzer_objects",
             "yt.data_objects.api",
@@ -36754,8 +37223,12 @@
             "yt.data_objects.data_containers",
             "yt.data_objects.derived_quantities",
             "yt.data_objects.field_data",
-            "yt.data_objects.grid_patch",
             "yt.data_objects.image_array",
+            "yt.data_objects.index_subobjects",
+            "yt.data_objects.index_subobjects.grid_patch",
+            "yt.data_objects.index_subobjects.octree_subset",
+            "yt.data_objects.index_subobjects.particle_container",
+            "yt.data_objects.index_subobjects.unstructured_mesh",
             "yt.data_objects.level_sets",
             "yt.data_objects.level_sets.api",
             "yt.data_objects.level_sets.clump_handling",
@@ -36765,16 +37238,27 @@
             "yt.data_objects.level_sets.contour_finder",
             "yt.data_objects.level_sets.tests",
             "yt.data_objects.level_sets.tests.test_clump_finding",
-            "yt.data_objects.octree_subset",
             "yt.data_objects.particle_filters",
             "yt.data_objects.particle_trajectories",
             "yt.data_objects.particle_unions",
             "yt.data_objects.profiles",
             "yt.data_objects.region_expression",
-            "yt.data_objects.selection_data_containers",
+            "yt.data_objects.selection_objects",
+            "yt.data_objects.selection_objects.boolean_operations",
+            "yt.data_objects.selection_objects.cut_region",
+            "yt.data_objects.selection_objects.data_selection_objects",
+            "yt.data_objects.selection_objects.disk",
+            "yt.data_objects.selection_objects.object_collection",
+            "yt.data_objects.selection_objects.point",
+            "yt.data_objects.selection_objects.ray",
+            "yt.data_objects.selection_objects.region",
+            "yt.data_objects.selection_objects.slices",
+            "yt.data_objects.selection_objects.spheroids",
             "yt.data_objects.static_output",
             "yt.data_objects.tests",
+            "yt.data_objects.tests.test_bbox",
             "yt.data_objects.tests.test_boolean_regions",
+            "yt.data_objects.tests.test_center_squeeze",
             "yt.data_objects.tests.test_chunking",
             "yt.data_objects.tests.test_clone",
             "yt.data_objects.tests.test_compose",
@@ -36793,11 +37277,13 @@
             "yt.data_objects.tests.test_fluxes",
             "yt.data_objects.tests.test_glue",
             "yt.data_objects.tests.test_image_array",
+            "yt.data_objects.tests.test_io_geometry",
             "yt.data_objects.tests.test_numpy_ops",
+            "yt.data_objects.tests.test_octree",
             "yt.data_objects.tests.test_ortho_rays",
             "yt.data_objects.tests.test_particle_filter",
             "yt.data_objects.tests.test_particle_trajectories",
-            "yt.data_objects.tests.test_pickle",
+            "yt.data_objects.tests.test_pickling",
             "yt.data_objects.tests.test_points",
             "yt.data_objects.tests.test_profiles",
             "yt.data_objects.tests.test_projection",
@@ -36805,26 +37291,13 @@
             "yt.data_objects.tests.test_refinement",
             "yt.data_objects.tests.test_regions",
             "yt.data_objects.tests.test_slice",
+            "yt.data_objects.tests.test_sph_data_objects",
             "yt.data_objects.tests.test_spheres",
-            "yt.data_objects.tests.test_streamlines",
+            "yt.data_objects.tests.test_time_series",
+            "yt.data_objects.tests.test_units_override",
             "yt.data_objects.time_series",
             "yt.data_objects.unions",
-            "yt.data_objects.unstructured_mesh",
             "yt.extensions",
-            "yt.extern",
-            "yt.extern._dummy_thread32",
-            "yt.extern.parameterized",
-            "yt.extern.peewee",
-            "yt.extern.pydot",
-            "yt.extern.pykdtree",
-            "yt.extern.reprlib32",
-            "yt.extern.six",
-            "yt.extern.tqdm",
-            "yt.extern.tqdm._tqdm",
-            "yt.extern.tqdm._tqdm_gui",
-            "yt.extern.tqdm._tqdm_pandas",
-            "yt.extern.tqdm._utils",
-            "yt.extern.tqdm._version",
             "yt.exthook",
             "yt.fields",
             "yt.fields.angular_momentum",
@@ -36851,12 +37324,17 @@
             "yt.fields.particle_fields",
             "yt.fields.species_fields",
             "yt.fields.tests",
+            "yt.fields.tests.test_ambiguous_fields",
             "yt.fields.tests.test_angular_momentum",
             "yt.fields.tests.test_field_access",
+            "yt.fields.tests.test_field_access_pytest",
             "yt.fields.tests.test_field_name_container",
             "yt.fields.tests.test_fields",
             "yt.fields.tests.test_fields_plugins",
             "yt.fields.tests.test_magnetic_fields",
+            "yt.fields.tests.test_particle_fields",
+            "yt.fields.tests.test_species_fields",
+            "yt.fields.tests.test_sph_fields",
             "yt.fields.tests.test_vector_fields",
             "yt.fields.tests.test_xray_fields",
             "yt.fields.vector_operations",
@@ -36887,7 +37365,15 @@
             "yt.frontends.amrvac.tests",
             "yt.frontends.amrvac.tests.test_outputs",
             "yt.frontends.amrvac.tests.test_read_amrvac_namelist",
+            "yt.frontends.amrvac.tests.test_units_override",
             "yt.frontends.api",
+            "yt.frontends.arepo",
+            "yt.frontends.arepo.api",
+            "yt.frontends.arepo.data_structures",
+            "yt.frontends.arepo.fields",
+            "yt.frontends.arepo.io",
+            "yt.frontends.arepo.tests",
+            "yt.frontends.arepo.tests.test_outputs",
             "yt.frontends.art",
             "yt.frontends.art.api",
             "yt.frontends.art.data_structures",
@@ -36959,16 +37445,16 @@
             "yt.frontends.enzo.simulation_handling",
             "yt.frontends.enzo.tests",
             "yt.frontends.enzo.tests.test_outputs",
-            "yt.frontends.enzo_p",
-            "yt.frontends.enzo_p.api",
-            "yt.frontends.enzo_p.data_structures",
-            "yt.frontends.enzo_p.definitions",
-            "yt.frontends.enzo_p.fields",
-            "yt.frontends.enzo_p.io",
-            "yt.frontends.enzo_p.misc",
-            "yt.frontends.enzo_p.tests",
-            "yt.frontends.enzo_p.tests.test_misc",
-            "yt.frontends.enzo_p.tests.test_outputs",
+            "yt.frontends.enzo_e",
+            "yt.frontends.enzo_e.api",
+            "yt.frontends.enzo_e.data_structures",
+            "yt.frontends.enzo_e.definitions",
+            "yt.frontends.enzo_e.fields",
+            "yt.frontends.enzo_e.io",
+            "yt.frontends.enzo_e.misc",
+            "yt.frontends.enzo_e.tests",
+            "yt.frontends.enzo_e.tests.test_misc",
+            "yt.frontends.enzo_e.tests.test_outputs",
             "yt.frontends.exodus_ii",
             "yt.frontends.exodus_ii.api",
             "yt.frontends.exodus_ii.data_structures",
@@ -37032,7 +37518,9 @@
             "yt.frontends.gdf.io",
             "yt.frontends.gdf.misc",
             "yt.frontends.gdf.tests",
+            "yt.frontends.gdf.tests.conftest",
             "yt.frontends.gdf.tests.test_outputs",
+            "yt.frontends.gdf.tests.test_outputs_nose",
             "yt.frontends.gizmo",
             "yt.frontends.gizmo.api",
             "yt.frontends.gizmo.data_structures",
@@ -37059,6 +37547,13 @@
             "yt.frontends.moab.misc",
             "yt.frontends.moab.tests",
             "yt.frontends.moab.tests.test_c5",
+            "yt.frontends.nc4_cm1",
+            "yt.frontends.nc4_cm1.api",
+            "yt.frontends.nc4_cm1.data_structures",
+            "yt.frontends.nc4_cm1.fields",
+            "yt.frontends.nc4_cm1.io",
+            "yt.frontends.nc4_cm1.tests",
+            "yt.frontends.nc4_cm1.tests.test_outputs",
             "yt.frontends.open_pmd",
             "yt.frontends.open_pmd.api",
             "yt.frontends.open_pmd.data_structures",
@@ -37071,7 +37566,6 @@
             "yt.frontends.owls",
             "yt.frontends.owls.api",
             "yt.frontends.owls.data_structures",
-            "yt.frontends.owls.definitions",
             "yt.frontends.owls.fields",
             "yt.frontends.owls.io",
             "yt.frontends.owls.owls_ion_tables",
@@ -37116,6 +37610,7 @@
             "yt.frontends.sph.api",
             "yt.frontends.sph.data_structures",
             "yt.frontends.sph.fields",
+            "yt.frontends.sph.io",
             "yt.frontends.stream",
             "yt.frontends.stream.api",
             "yt.frontends.stream.data_structures",
@@ -37134,9 +37629,16 @@
             "yt.frontends.stream.tests.test_stream_particles",
             "yt.frontends.stream.tests.test_stream_unstructured",
             "yt.frontends.stream.tests.test_update_data",
+            "yt.frontends.swift",
+            "yt.frontends.swift.api",
+            "yt.frontends.swift.data_structures",
+            "yt.frontends.swift.io",
+            "yt.frontends.swift.tests",
+            "yt.frontends.swift.tests.test_outputs",
             "yt.frontends.tipsy",
             "yt.frontends.tipsy.api",
             "yt.frontends.tipsy.data_structures",
+            "yt.frontends.tipsy.definitions",
             "yt.frontends.tipsy.fields",
             "yt.frontends.tipsy.io",
             "yt.frontends.tipsy.tests",
@@ -37149,6 +37651,7 @@
             "yt.frontends.ytdata.tests",
             "yt.frontends.ytdata.tests.test_old_outputs",
             "yt.frontends.ytdata.tests.test_outputs",
+            "yt.frontends.ytdata.tests.test_unit",
             "yt.frontends.ytdata.utilities",
             "yt.funcs",
             "yt.geometry",
@@ -37162,34 +37665,41 @@
             "yt.geometry.coordinates.polar_coordinates",
             "yt.geometry.coordinates.spec_cube_coordinates",
             "yt.geometry.coordinates.spherical_coordinates",
+            "yt.geometry.coordinates.tests",
+            "yt.geometry.coordinates.tests.test_axial_pixelization",
+            "yt.geometry.coordinates.tests.test_cartesian_coordinates",
+            "yt.geometry.coordinates.tests.test_cylindrical_coordinates",
+            "yt.geometry.coordinates.tests.test_geographic_coordinates",
+            "yt.geometry.coordinates.tests.test_polar_coordinates",
+            "yt.geometry.coordinates.tests.test_spherical_coordinates",
             "yt.geometry.geometry_handler",
             "yt.geometry.grid_geometry_handler",
-            "yt.geometry.object_finding_mixin",
             "yt.geometry.oct_geometry_handler",
             "yt.geometry.particle_geometry_handler",
             "yt.geometry.tests",
             "yt.geometry.tests.fake_octree",
             "yt.geometry.tests.test_grid_container",
-            "yt.geometry.tests.test_neighbor_search",
             "yt.geometry.tests.test_particle_deposit",
             "yt.geometry.tests.test_particle_octree",
+            "yt.geometry.tests.test_pickleable_selections",
             "yt.geometry.unstructured_mesh_handler",
+            "yt.loaders",
             "yt.mods",
-            "yt.pmods",
+            "yt.sample_data",
+            "yt.sample_data.api",
             "yt.startup_tasks",
             "yt.testing",
             "yt.tests",
             "yt.tests.test_funcs",
+            "yt.tests.test_load_errors",
+            "yt.tests.test_load_sample",
             "yt.tests.test_testing",
             "yt.units",
             "yt.units.dimensions",
             "yt.units.equivalencies",
-            "yt.units.pint_conversions",
+            "yt.units.physical_constants",
             "yt.units.tests",
-            "yt.units.tests.test_define_unit",
-            "yt.units.tests.test_unit_systems",
-            "yt.units.tests.test_units",
-            "yt.units.tests.test_ytarray",
+            "yt.units.tests.test_magnetic_code_units",
             "yt.units.unit_lookup_table",
             "yt.units.unit_object",
             "yt.units.unit_registry",
@@ -37206,17 +37716,17 @@
             "yt.utilities.answer_testing.api",
             "yt.utilities.answer_testing.framework",
             "yt.utilities.answer_testing.level_sets_tests",
-            "yt.utilities.answer_testing.utils",
+            "yt.utilities.answer_testing.testing_utilities",
             "yt.utilities.api",
             "yt.utilities.chemical_formulas",
             "yt.utilities.command_line",
+            "yt.utilities.configuration_tree",
             "yt.utilities.configure",
             "yt.utilities.cosmology",
             "yt.utilities.decompose",
             "yt.utilities.definitions",
             "yt.utilities.exceptions",
             "yt.utilities.file_handler",
-            "yt.utilities.fits_image",
             "yt.utilities.flagging_methods",
             "yt.utilities.fortran_utils",
             "yt.utilities.grid_data_format",
@@ -37231,6 +37741,15 @@
             "yt.utilities.io_handler",
             "yt.utilities.lib",
             "yt.utilities.lib.api",
+            "yt.utilities.lib.cykdtree",
+            "yt.utilities.lib.cykdtree.plot",
+            "yt.utilities.lib.cykdtree.tests",
+            "yt.utilities.lib.cykdtree.tests.scaling",
+            "yt.utilities.lib.cykdtree.tests.test_kdtree",
+            "yt.utilities.lib.cykdtree.tests.test_plot",
+            "yt.utilities.lib.cykdtree.tests.test_utils",
+            "yt.utilities.lib.embree_mesh",
+            "yt.utilities.lib.octree_raytracing",
             "yt.utilities.lib.tests",
             "yt.utilities.lib.tests.test_allocation_container",
             "yt.utilities.lib.tests.test_alt_ray_tracers",
@@ -37239,17 +37758,18 @@
             "yt.utilities.lib.tests.test_element_mappings",
             "yt.utilities.lib.tests.test_fill_region",
             "yt.utilities.lib.tests.test_geometry_utils",
+            "yt.utilities.lib.tests.test_nn",
             "yt.utilities.lib.tests.test_ragged_arrays",
             "yt.utilities.lib.tests.test_sample",
             "yt.utilities.linear_interpolators",
             "yt.utilities.lodgeit",
             "yt.utilities.logger",
-            "yt.utilities.lru_cache",
             "yt.utilities.math_utils",
             "yt.utilities.mesh_code_generation",
             "yt.utilities.metadata",
             "yt.utilities.minimal_representation",
             "yt.utilities.nodal_data_utils",
+            "yt.utilities.object_registries",
             "yt.utilities.on_demand_imports",
             "yt.utilities.operator_registry",
             "yt.utilities.orientation",
@@ -37265,9 +37785,6 @@
             "yt.utilities.physical_constants",
             "yt.utilities.physical_ratios",
             "yt.utilities.png_writer",
-            "yt.utilities.poster",
-            "yt.utilities.poster.encode",
-            "yt.utilities.poster.streaminghttp",
             "yt.utilities.rpdb",
             "yt.utilities.sdf",
             "yt.utilities.tests",
@@ -37285,9 +37802,11 @@
             "yt.utilities.tests.test_periodic_table",
             "yt.utilities.tests.test_periodicity",
             "yt.utilities.tests.test_selectors",
+            "yt.utilities.tests.test_set_log_level",
             "yt.utilities.tree_container",
             "yt.visualization",
             "yt.visualization._colormap_data",
+            "yt.visualization._commons",
             "yt.visualization._mpl_imports",
             "yt.visualization.api",
             "yt.visualization.base_plot_types",
@@ -37311,6 +37830,7 @@
             "yt.visualization.tests",
             "yt.visualization.tests.test_callbacks",
             "yt.visualization.tests.test_color_maps",
+            "yt.visualization.tests.test_commons",
             "yt.visualization.tests.test_export_frb",
             "yt.visualization.tests.test_filters",
             "yt.visualization.tests.test_fits_image",
@@ -37320,9 +37840,11 @@
             "yt.visualization.tests.test_mesh_slices",
             "yt.visualization.tests.test_offaxisprojection",
             "yt.visualization.tests.test_particle_plot",
+            "yt.visualization.tests.test_plot_modifications",
             "yt.visualization.tests.test_plotwindow",
             "yt.visualization.tests.test_profile_plots",
             "yt.visualization.tests.test_raw_field_slices",
+            "yt.visualization.tests.test_save",
             "yt.visualization.tests.test_splat",
             "yt.visualization.volume_rendering",
             "yt.visualization.volume_rendering.UBVRI",
@@ -37331,25 +37853,20 @@
             "yt.visualization.volume_rendering.camera",
             "yt.visualization.volume_rendering.camera_path",
             "yt.visualization.volume_rendering.create_spline",
-            "yt.visualization.volume_rendering.glfw_inputhook",
             "yt.visualization.volume_rendering.image_handling",
-            "yt.visualization.volume_rendering.input_events",
-            "yt.visualization.volume_rendering.interactive_loop",
-            "yt.visualization.volume_rendering.interactive_vr",
-            "yt.visualization.volume_rendering.interactive_vr_helpers",
             "yt.visualization.volume_rendering.lens",
             "yt.visualization.volume_rendering.off_axis_projection",
             "yt.visualization.volume_rendering.old_camera",
             "yt.visualization.volume_rendering.render_source",
             "yt.visualization.volume_rendering.scene",
-            "yt.visualization.volume_rendering.shader_objects",
-            "yt.visualization.volume_rendering.shaders",
             "yt.visualization.volume_rendering.tests",
             "yt.visualization.volume_rendering.tests.test_camera_attributes",
             "yt.visualization.volume_rendering.tests.test_composite",
             "yt.visualization.volume_rendering.tests.test_lenses",
             "yt.visualization.volume_rendering.tests.test_mesh_render",
+            "yt.visualization.volume_rendering.tests.test_off_axis_SPH",
             "yt.visualization.volume_rendering.tests.test_points",
+            "yt.visualization.volume_rendering.tests.test_save_render",
             "yt.visualization.volume_rendering.tests.test_scene",
             "yt.visualization.volume_rendering.tests.test_sigma_clip",
             "yt.visualization.volume_rendering.tests.test_simple_vr",
@@ -37363,7 +37880,7 @@
             "yt.visualization.volume_rendering.volume_rendering",
             "yt.visualization.volume_rendering.zbuffer_array"
         ],
-        "version": "3.6.1"
+        "version": "4.0.0"
     },
     "yt-archiver": {
         "cmdline": [],
@@ -37611,7 +38128,7 @@
             "youtube_dl_gui.version",
             "youtube_dl_gui.widgets"
         ],
-        "version": "1.6.0"
+        "version": "1.7.0"
     },
     "yt-dlp": {
         "cmdline": [],
@@ -37630,9 +38147,11 @@
             "yt_dlp.downloader.hls",
             "yt_dlp.downloader.http",
             "yt_dlp.downloader.ism",
+            "yt_dlp.downloader.mhtml",
             "yt_dlp.downloader.niconico",
             "yt_dlp.downloader.rtmp",
             "yt_dlp.downloader.rtsp",
+            "yt_dlp.downloader.websocket",
             "yt_dlp.downloader.youtube_live_chat",
             "yt_dlp.extractor",
             "yt_dlp.extractor.abc",
@@ -37981,7 +38500,6 @@
             "yt_dlp.extractor.linuxacademy",
             "yt_dlp.extractor.litv",
             "yt_dlp.extractor.livejournal",
-            "yt_dlp.extractor.liveleak",
             "yt_dlp.extractor.livestream",
             "yt_dlp.extractor.lnkgo",
             "yt_dlp.extractor.localnews8",
@@ -38160,6 +38678,7 @@
             "yt_dlp.extractor.raywenderlich",
             "yt_dlp.extractor.rbmaradio",
             "yt_dlp.extractor.rcs",
+            "yt_dlp.extractor.rcti",
             "yt_dlp.extractor.rds",
             "yt_dlp.extractor.redbulltv",
             "yt_dlp.extractor.reddit",
@@ -38480,7 +38999,7 @@
             "yt_dlp.version",
             "yt_dlp.webvtt"
         ],
-        "version": "2021.6.9"
+        "version": "2021.7.7"
     },
     "yt-finance": {
         "cmdline": [],
@@ -38757,7 +39276,7 @@
             "yt_videos_list.scroller",
             "yt_videos_list.writer"
         ],
-        "version": "0.5.8"
+        "version": "0.5.9"
     },
     "yt2mp3": {
         "cmdline": [],
@@ -39293,9 +39812,12 @@
             "ytmdl.stringutils",
             "ytmdl.trim",
             "ytmdl.utility",
+            "ytmdl.utils",
+            "ytmdl.utils.archive",
+            "ytmdl.utils.ytmusic",
             "ytmdl.yt"
         ],
-        "version": "2021.5.26.post1"
+        "version": "2021.6.26.post1"
     },
     "ytmonsterclient": {
         "cmdline": [],
@@ -39347,7 +39869,7 @@
             "ytmusicapi.setup",
             "ytmusicapi.ytmusic"
         ],
-        "version": "0.17.3"
+        "version": "0.18.0"
     },
     "ytool": {
         "cmdline": [
@@ -40057,6 +40579,7 @@
         "cmdline": [],
         "modules": [
             "yuantool",
+            "yuantool.asn1",
             "yuantool.common",
             "yuantool.crypto",
             "yuantool.database",
@@ -40079,7 +40602,14 @@
             "yuantool.upload",
             "yuantool.xmltools"
         ],
-        "version": "1.41"
+        "version": "1.57"
+    },
+    "yuanian": {
+        "cmdline": [],
+        "modules": [
+            "yuanian"
+        ],
+        "version": "0.0.1"
     },
     "yuankq": {
         "cmdline": [],
@@ -40112,6 +40642,13 @@
             "dianyi.tiledmap"
         ],
         "version": "2.0"
+    },
+    "yuanni": {
+        "cmdline": [],
+        "modules": [
+            "yuan"
+        ],
+        "version": "0.0.0"
     },
     "yuanrl": {
         "cmdline": [],
@@ -40359,6 +40896,11 @@
             "yubikit.yubiotp"
         ],
         "version": "4.0.3"
+    },
+    "yubikey-manager-lib": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1.2"
     },
     "yubikey-neo-manager": {
         "cmdline": [],
@@ -40634,6 +41176,57 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.9"
+    },
+    "yucebio-notifier": {
+        "cmdline": [],
+        "modules": [
+            "yucebio_notifier",
+            "yucebio_notifier.backend",
+            "yucebio_notifier.backend.base",
+            "yucebio_notifier.backend.dingding",
+            "yucebio_notifier.commands",
+            "yucebio_notifier.utils",
+            "yucebio_notifier.utils.markdown"
+        ],
+        "version": "0.0.3"
+    },
+    "yucebio-scheduler": {
+        "cmdline": [],
+        "modules": [
+            "yucebio_scheduler",
+            "yucebio_scheduler.commands",
+            "yucebio_scheduler.jobs",
+            "yucebio_scheduler.jobs.example",
+            "yucebio_scheduler.rpc",
+            "yucebio_scheduler.rpc.client",
+            "yucebio_scheduler.rpc.server",
+            "yucebio_scheduler.scheduler",
+            "yucebio_scheduler.utils",
+            "yucebio_scheduler.web",
+            "yucebio_scheduler.web.api",
+            "yucebio_scheduler.web.django",
+            "yucebio_scheduler.web.django_mongo",
+            "yucebio_scheduler.web.django_mongo.apps",
+            "yucebio_scheduler.web.django_mongo.management",
+            "yucebio_scheduler.web.django_mongo.management.commands",
+            "yucebio_scheduler.web.django_mongo.management.commands.scheduler",
+            "yucebio_scheduler.web.django_mongo.urls",
+            "yucebio_scheduler.web.django_mongo.utils",
+            "yucebio_scheduler.web.django_mongo.views",
+            "yucebio_scheduler.web.flask"
+        ],
+        "version": "0.0.5"
+    },
+    "yucebio-uploader": {
+        "cmdline": [],
+        "modules": [
+            "yucebio_uploader",
+            "yucebio_uploader.ali",
+            "yucebio_uploader.aws",
+            "yucebio_uploader.base",
+            "yucebio_uploader.commands"
+        ],
+        "version": "0.0.11"
     },
     "yucebio-wdladaptor": {
         "cmdline": [],
@@ -41252,11 +41845,16 @@
         "cmdline": [],
         "modules": [
             "yuncheng_util_pkg",
+            "yuncheng_util_pkg.analysis_pic",
+            "yuncheng_util_pkg.analysis_pipeline",
+            "yuncheng_util_pkg.compare_two_al_result",
+            "yuncheng_util_pkg.compare_yuncheng_al",
             "yuncheng_util_pkg.util",
             "yuncheng_util_pkg.util_file",
-            "yuncheng_util_pkg.yuncheng_al_class"
+            "yuncheng_util_pkg.yuncheng_al_class",
+            "yuncheng_util_pkg.yuncheng_label"
         ],
-        "version": "0.5"
+        "version": "1.1"
     },
     "yundama": {
         "cmdline": [],
@@ -41659,7 +42257,7 @@
             "yupi.trajectory",
             "yupi.vector"
         ],
-        "version": "0.4.2"
+        "version": "0.5.7"
     },
     "yupp": {
         "cmdline": [],
@@ -41877,13 +42475,12 @@
             "yutto.api.bangumi",
             "yutto.api.danmaku",
             "yutto.api.info",
-            "yutto.api.types",
+            "yutto.api.space",
             "yutto.cli",
-            "yutto.cli.basic",
             "yutto.cli.batch_get",
-            "yutto.cli.check_options",
+            "yutto.cli.checker",
             "yutto.cli.get",
-            "yutto.cli.info",
+            "yutto.exceptions",
             "yutto.media",
             "yutto.media.codec",
             "yutto.media.quality",
@@ -41893,6 +42490,7 @@
             "yutto.processor.path_resolver",
             "yutto.processor.progressbar",
             "yutto.processor.urlparser",
+            "yutto.typing",
             "yutto.utils",
             "yutto.utils.asynclib",
             "yutto.utils.console",
@@ -41909,7 +42507,7 @@
             "yutto.utils.functiontools.sync",
             "yutto.utils.subtitle"
         ],
-        "version": "2.0.0a13"
+        "version": "2.0.0b3"
     },
     "yutu": {
         "cmdline": [],
@@ -42056,6 +42654,15 @@
         ],
         "version": "1.0"
     },
+    "yuzu": {
+        "cmdline": [],
+        "modules": [
+            "yuzu",
+            "yuzu.cache",
+            "yuzu.logging"
+        ],
+        "version": "0.4.6"
+    },
     "yv": {
         "cmdline": [],
         "modules": [],
@@ -42116,6 +42723,18 @@
             "yw_distributions.Generaldistribution"
         ],
         "version": "0.1"
+    },
+    "yw-gw-sdk": {
+        "cmdline": [],
+        "modules": [
+            "yw_gw_sdk",
+            "yw_gw_sdk.conf_parser",
+            "yw_gw_sdk.exception",
+            "yw_gw_sdk.request",
+            "yw_gw_sdk.signer",
+            "yw_gw_sdk.test"
+        ],
+        "version": "0.0.4"
     },
     "yw-nester": {
         "cmdline": [],
@@ -42437,6 +43056,11 @@
         ],
         "version": "0.1.5"
     },
+    "yxq-stock": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
+    },
     "yxs-one2one": {
         "cmdline": [],
         "modules": [],
@@ -42458,6 +43082,7 @@
         "cmdline": [],
         "modules": [
             "yxspkg",
+            "yxspkg.SciencePlots",
             "yxspkg.StockDataAPI",
             "yxspkg.command_line",
             "yxspkg.convert_url",
@@ -42479,6 +43104,10 @@
             "yxspkg.getdata.getdata",
             "yxspkg.getdata.getdata_qt",
             "yxspkg.h5dataset",
+            "yxspkg.html_lib",
+            "yxspkg.html_lib._kube_css",
+            "yxspkg.html_lib._style_css",
+            "yxspkg.html_lib.jquery_min_js",
             "yxspkg.image",
             "yxspkg.image.image_operator",
             "yxspkg.init_system",
@@ -42494,6 +43123,7 @@
             "yxspkg.pytecio",
             "yxspkg.same_file",
             "yxspkg.scfd_io",
+            "yxspkg.sci_plot",
             "yxspkg.songzgif",
             "yxspkg.songzgif.CutImageWidget",
             "yxspkg.songzgif.gif",
@@ -42506,9 +43136,10 @@
             "yxspkg.video2html",
             "yxspkg.wget",
             "yxspkg.xemail",
+            "yxspkg.xget",
             "yxspkg.yxsfile"
         ],
-        "version": "6.8.5"
+        "version": "6.8.7"
     },
     "yxspkg-binary": {
         "cmdline": [],
@@ -42630,7 +43261,7 @@
             "yxttest.sceRequest",
             "yxttest.signer"
         ],
-        "version": "0.0.12"
+        "version": "0.0.18"
     },
     "yxxhero": {
         "cmdline": [],
@@ -42778,6 +43409,13 @@
             "yyc.utils.validity"
         ],
         "version": "1.0"
+    },
+    "yyds": {
+        "cmdline": [],
+        "modules": [
+            "yyds"
+        ],
+        "version": "0.0.1"
     },
     "yyggtest": {
         "cmdline": [],
@@ -42996,6 +43634,63 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.2"
+    },
+    "yz-core": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.test_setting_reload",
+            "tests.test_uid",
+            "yzcore",
+            "yzcore.core",
+            "yzcore.core.const",
+            "yzcore.core.data_hash",
+            "yzcore.core.datastructures",
+            "yzcore.core.encoders",
+            "yzcore.core.management",
+            "yzcore.core.management.base",
+            "yzcore.core.management.commands",
+            "yzcore.core.management.commands.startapp",
+            "yzcore.core.management.commands.startproject",
+            "yzcore.core.management.templates",
+            "yzcore.db",
+            "yzcore.db.db_session",
+            "yzcore.db.pymongo_crud_base",
+            "yzcore.db.sqlalchemy_crud_base",
+            "yzcore.decorators",
+            "yzcore.default_settings",
+            "yzcore.exceptions",
+            "yzcore.extensions",
+            "yzcore.extensions.aliyun_oss",
+            "yzcore.extensions.oss",
+            "yzcore.extensions.oss.aliyun",
+            "yzcore.extensions.oss.amazon",
+            "yzcore.extensions.oss.huawei",
+            "yzcore.extensions.uid",
+            "yzcore.logger",
+            "yzcore.logger.config",
+            "yzcore.logger.filters",
+            "yzcore.logger.handlers",
+            "yzcore.request",
+            "yzcore.request.aio_http",
+            "yzcore.response",
+            "yzcore.response.response",
+            "yzcore.response.response_code",
+            "yzcore.templates",
+            "yzcore.templates.app_template",
+            "yzcore.templates.app_template.controllers",
+            "yzcore.templates.app_template.models",
+            "yzcore.templates.app_template.schemas",
+            "yzcore.templates.app_template.tests",
+            "yzcore.templates.app_template.views",
+            "yzcore.utils",
+            "yzcore.utils.check_path",
+            "yzcore.utils.check_sys",
+            "yzcore.utils.crypto",
+            "yzcore.utils.encoding",
+            "yzcore.utils.time_utils"
+        ],
+        "version": "0.1.3"
     },
     "yz-distributions": {
         "cmdline": [],

@@ -439,6 +439,14 @@
         ],
         "version": "0.3.0"
     },
+    "w2nvshellmessage": {
+        "cmdline": [],
+        "modules": [
+            "w2nvshellmsg",
+            "w2nvshellmsg.main"
+        ],
+        "version": "0.1.5"
+    },
     "w2ptemplate": {
         "cmdline": [],
         "modules": [
@@ -472,6 +480,11 @@
             "w2vembeddings.w2vemb"
         ],
         "version": "0.1.2"
+    },
+    "w3": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.0"
     },
     "w3af-api-client": {
         "cmdline": [],
@@ -575,7 +588,7 @@
             "w3bsite.classes.vps",
             "w3bsite.classes.website"
         ],
-        "version": "4.56.5"
+        "version": "4.56.9"
     },
     "w3c-validator": {
         "cmdline": [],
@@ -943,11 +956,6 @@
             "nester"
         ],
         "version": "1.3.0"
-    },
-    "wa1": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.0.1"
     },
     "waaazzi": {
         "cmdline": [],
@@ -2160,7 +2168,6 @@
             "debconf.management.commands.load_videos",
             "debconf.management.commands.speakers_countries",
             "debconf.management.commands.validate_schedule",
-            "debconf.markdown",
             "debconf.models",
             "debconf.settings",
             "debconf.talk_urls",
@@ -2270,7 +2277,7 @@
             "volunteers.utils",
             "volunteers.views"
         ],
-        "version": "0.3.16"
+        "version": "0.3.19"
     },
     "wafer-map": {
         "cmdline": [],
@@ -3804,7 +3811,7 @@
             "wagtail.utils.version",
             "wagtail.utils.widgets"
         ],
-        "version": "2.13.1"
+        "version": "2.13.3"
     },
     "wagtail-2fa": {
         "cmdline": [],
@@ -3830,7 +3837,6 @@
             "wagtail_ab_testing.api",
             "wagtail_ab_testing.apps",
             "wagtail_ab_testing.compat",
-            "wagtail_ab_testing.conf",
             "wagtail_ab_testing.events",
             "wagtail_ab_testing.migrations",
             "wagtail_ab_testing.migrations.0001_initial",
@@ -3845,6 +3851,8 @@
             "wagtail_ab_testing.migrations.0010_rename_treatment_to_variant",
             "wagtail_ab_testing.migrations.0011_rename_treatment_to_variant_data",
             "wagtail_ab_testing.models",
+            "wagtail_ab_testing.templatetags",
+            "wagtail_ab_testing.templatetags.wagtail_ab_testing_tags",
             "wagtail_ab_testing.test",
             "wagtail_ab_testing.test.apps",
             "wagtail_ab_testing.test.migrations",
@@ -3860,13 +3868,15 @@
             "wagtail_ab_testing.test.tests.test_report",
             "wagtail_ab_testing.test.tests.test_results",
             "wagtail_ab_testing.test.tests.test_serve",
+            "wagtail_ab_testing.test.tests.test_views",
             "wagtail_ab_testing.test.tests.utils",
             "wagtail_ab_testing.test.urls",
+            "wagtail_ab_testing.urls",
             "wagtail_ab_testing.utils",
             "wagtail_ab_testing.views",
             "wagtail_ab_testing.wagtail_hooks"
         ],
-        "version": "0.2.2"
+        "version": "0.3.1"
     },
     "wagtail-accessibility": {
         "cmdline": [],
@@ -3989,7 +3999,7 @@
     "wagtail-altstreamfield": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.9"
+        "version": "0.0.10"
     },
     "wagtail-annotations": {
         "cmdline": [],
@@ -4613,7 +4623,7 @@
     "wagtail-donate": {
         "cmdline": [],
         "modules": [],
-        "version": "1.2.0"
+        "version": "1.3.0"
     },
     "wagtail-download-counter": {
         "cmdline": [],
@@ -4831,7 +4841,7 @@
             "extendedsearch.signal_handlers",
             "extendedsearch.utils"
         ],
-        "version": "1.0.5"
+        "version": "1.0.6"
     },
     "wagtail-external-menu-items": {
         "cmdline": [],
@@ -4843,7 +4853,7 @@
             "wagtail_external_menu_items.settings",
             "wagtail_external_menu_items.wagtail_hooks"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "wagtail-extras": {
         "cmdline": [],
@@ -4948,7 +4958,7 @@
     "wagtail-footnotes": {
         "cmdline": [],
         "modules": [],
-        "version": "0.6.0"
+        "version": "0.7.0"
     },
     "wagtail-gallery": {
         "cmdline": [],
@@ -6100,7 +6110,7 @@
             "wagtaillinkchecker.views",
             "wagtaillinkchecker.wagtail_hooks"
         ],
-        "version": "0.5.4"
+        "version": "0.6.0"
     },
     "wagtail-links": {
         "cmdline": [],
@@ -6122,6 +6132,11 @@
             "wagtail_links.tests"
         ],
         "version": "2.4.3"
+    },
+    "wagtail-live": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0a2"
     },
     "wagtail-livepreview": {
         "cmdline": [],
@@ -6328,13 +6343,11 @@
             "wagtailmarkdown.mdx.tables",
             "wagtailmarkdown.templatetags",
             "wagtailmarkdown.templatetags.wagtailmarkdown",
-            "wagtailmarkdown.tests",
-            "wagtailmarkdown.tests.settings",
             "wagtailmarkdown.utils",
             "wagtailmarkdown.warnings",
             "wagtailmarkdown.widgets"
         ],
-        "version": "0.6"
+        "version": "0.7.0"
     },
     "wagtail-marketing-addons": {
         "cmdline": [],
@@ -6815,7 +6828,7 @@
             "wagtail_personalisation.views",
             "wagtail_personalisation.wagtail_hooks"
         ],
-        "version": "0.14.0"
+        "version": "0.15.0"
     },
     "wagtail-personalisation-molo": {
         "cmdline": [],
@@ -6855,7 +6868,7 @@
             "wagtail_personalisation.views",
             "wagtail_personalisation.wagtail_hooks"
         ],
-        "version": "3.0.3"
+        "version": "3.0.4"
     },
     "wagtail-pg-search-backend": {
         "cmdline": [],
@@ -7147,7 +7160,7 @@
     "wagtail-rest-pack": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.13"
+        "version": "0.0.14"
     },
     "wagtail-rest-polls": {
         "cmdline": [],
@@ -8024,6 +8037,7 @@
             "tests.test_views",
             "wagtail_transfer",
             "wagtail_transfer.admin_urls",
+            "wagtail_transfer.apps",
             "wagtail_transfer.auth",
             "wagtail_transfer.field_adapters",
             "wagtail_transfer.files",
@@ -8056,7 +8070,7 @@
             "wagtail_transfer.views",
             "wagtail_transfer.wagtail_hooks"
         ],
-        "version": "0.8.0"
+        "version": "0.8.1"
     },
     "wagtail-trash": {
         "cmdline": [],
@@ -8100,7 +8114,7 @@
             "treemodeladmin.tests.urls",
             "treemodeladmin.views"
         ],
-        "version": "1.4.0"
+        "version": "1.5.0"
     },
     "wagtail-unsplash": {
         "cmdline": [],
@@ -8611,17 +8625,8 @@
     },
     "wagtailembedpeertube": {
         "cmdline": [],
-        "modules": [
-            "wagtailembedpeertube",
-            "wagtailembedpeertube.admin",
-            "wagtailembedpeertube.apps",
-            "wagtailembedpeertube.finders",
-            "wagtailembedpeertube.migrations",
-            "wagtailembedpeertube.models",
-            "wagtailembedpeertube.tests",
-            "wagtailembedpeertube.views"
-        ],
-        "version": "0.1.0"
+        "modules": [],
+        "version": "0.2.0"
     },
     "wagtailemoji": {
         "cmdline": [],
@@ -9155,7 +9160,7 @@
             "wagtailnews.wagtail_hooks",
             "wagtailnews.widgets"
         ],
-        "version": "2.7.1"
+        "version": "2.7.2"
     },
     "wagtailnews-collection": {
         "cmdline": [],
@@ -9465,7 +9470,7 @@
             "wagtailstreamforms.wagtailstreamforms_fields",
             "wagtailstreamforms.wagtailstreamforms_hooks"
         ],
-        "version": "3.14"
+        "version": "3.15"
     },
     "wagtailsurveys": {
         "cmdline": [],
@@ -9731,7 +9736,7 @@
             "wagtailvideos.wagtail_hooks",
             "wagtailvideos.widgets"
         ],
-        "version": "2.10.7"
+        "version": "2.10.8"
     },
     "wagtailyoast": {
         "cmdline": [],
@@ -9784,6 +9789,74 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "wahlfang": {
+        "cmdline": [],
+        "modules": [
+            "management",
+            "management.admin",
+            "management.apps",
+            "management.authentication",
+            "management.consumers",
+            "management.forms",
+            "management.migrations",
+            "management.migrations.0001_initial",
+            "management.migrations.0002_auto_20201007_1636",
+            "management.models",
+            "management.routing",
+            "management.urls",
+            "management.utils",
+            "management.views",
+            "vote",
+            "vote.admin",
+            "vote.apps",
+            "vote.authentication",
+            "vote.consumers",
+            "vote.forms",
+            "vote.migrations",
+            "vote.migrations.0001_initial",
+            "vote.migrations.0002_auto_20200529_2104",
+            "vote.migrations.0003_auto_20200529_2118",
+            "vote.migrations.0004_auto_20200529_2250",
+            "vote.migrations.0005_auto_20200530_0019",
+            "vote.migrations.0006_auto_20200530_1836",
+            "vote.migrations.0007_auto_20200530_2113",
+            "vote.migrations.0008_election_result_published",
+            "vote.migrations.0009_remove_voter_remind_me",
+            "vote.migrations.0010_auto_20200601_0020",
+            "vote.migrations.0011_voter_logged_in",
+            "vote.migrations.0012_auto_20200601_0047",
+            "vote.migrations.0013_auto_20201007_1830",
+            "vote.migrations.0014_election_voters_self_apply",
+            "vote.migrations.0015_auto_20201011_1826",
+            "vote.migrations.0016_voter_name",
+            "vote.migrations.0017_election_send_emails_on_start",
+            "vote.migrations.0018_auto_20201025_2159",
+            "vote.migrations.0019_auto_20201030_1913",
+            "vote.migrations.0020_election_remind_text_sent",
+            "vote.migrations.0021_auto_20201103_1923",
+            "vote.migrations.0022_auto_20201104_1438",
+            "vote.migrations.0023_election_disable_abstention",
+            "vote.migrations.0024_auto_20201116_2128",
+            "vote.migrations.0025_session_spectator_token",
+            "vote.migrations.0026_voter_invalid_email",
+            "vote.models",
+            "vote.routing",
+            "vote.tests",
+            "vote.urls",
+            "vote.views",
+            "wahlfang",
+            "wahlfang.asgi",
+            "wahlfang.manage",
+            "wahlfang.routing",
+            "wahlfang.settings",
+            "wahlfang.settings.base",
+            "wahlfang.settings.development",
+            "wahlfang.settings.wahlfang",
+            "wahlfang.urls",
+            "wahlfang.wsgi"
+        ],
+        "version": "1.0.1"
     },
     "wahlrecht": {
         "cmdline": [],
@@ -10125,13 +10198,18 @@
             "wai.annotations.main.logging",
             "wai.annotations.main.logging._app_logger",
             "wai.annotations.xdc",
+            "wai.annotations.xdc.od_to_ic",
+            "wai.annotations.xdc.od_to_ic.component",
+            "wai.annotations.xdc.od_to_ic.component._OD2ICXDC",
+            "wai.annotations.xdc.od_to_ic.specifier",
+            "wai.annotations.xdc.od_to_ic.specifier._OD2ICXDCSpecifier",
             "wai.annotations.xdc.od_to_is",
             "wai.annotations.xdc.od_to_is.component",
             "wai.annotations.xdc.od_to_is.component._OD2ISXDC",
             "wai.annotations.xdc.od_to_is.specifier",
             "wai.annotations.xdc.od_to_is.specifier._OD2ISXDCSpecifier"
         ],
-        "version": "0.1.2"
+        "version": "0.1.3"
     },
     "wai-annotations-festvox": {
         "cmdline": [],
@@ -10277,6 +10355,23 @@
             "wai.annotations.vgg.utils._shape_attributes"
         ],
         "version": "1.0.0"
+    },
+    "wai-annotations-voc": {
+        "cmdline": [],
+        "modules": [
+            "wai.annotations.voc",
+            "wai.annotations.voc.od",
+            "wai.annotations.voc.od._format",
+            "wai.annotations.voc.od.component",
+            "wai.annotations.voc.od.component._FromVOCOD",
+            "wai.annotations.voc.od.component._ToVOCOD",
+            "wai.annotations.voc.od.component._VOCODReader",
+            "wai.annotations.voc.od.component._VOCODWriter",
+            "wai.annotations.voc.od.specifier",
+            "wai.annotations.voc.od.specifier._VOCODInputFormatSpecifier",
+            "wai.annotations.voc.od.specifier._VOCODOutputFormatSpecifier"
+        ],
+        "version": "1.1.0"
     },
     "wai-bynning": {
         "cmdline": [],
@@ -11063,15 +11158,22 @@
     },
     "waifu": {
         "cmdline": [],
-        "modules": [
-            "waifu"
-        ],
-        "version": "0.0.1"
+        "modules": [],
+        "version": "0.0.2"
     },
     "waifu-cli": {
         "cmdline": [],
         "modules": [],
         "version": "0.0.4"
+    },
+    "waifu-pics": {
+        "cmdline": [],
+        "modules": [
+            "waifu_pics",
+            "waifu_pics.constants",
+            "waifu_pics.waifu"
+        ],
+        "version": "1.0.1"
     },
     "waifu-py": {
         "cmdline": [],
@@ -11082,7 +11184,7 @@
             "waifu.exceptions",
             "waifu.utils"
         ],
-        "version": "1.0.1"
+        "version": "1.0.2"
     },
     "waifu2x": {
         "cmdline": [],
@@ -11102,18 +11204,20 @@
     },
     "waifuai": {
         "cmdline": [],
-        "modules": [
-            "waifuai"
-        ],
-        "version": "0.0.1"
+        "modules": [],
+        "version": "0.0.2"
     },
     "waifulabs": {
         "cmdline": [],
         "modules": [
             "waifulabs",
-            "waifulabs.exception"
+            "waifulabs.asynchronous",
+            "waifulabs.exception",
+            "waifulabs.func",
+            "waifulabs.sync",
+            "waifulabs.waifu"
         ],
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "waileong-distributions": {
         "cmdline": [],
@@ -11358,7 +11462,7 @@
             "waiter.util",
             "waiter.version"
         ],
-        "version": "1.3.0"
+        "version": "1.4.0"
     },
     "waiterdb": {
         "cmdline": [],
@@ -11743,7 +11847,7 @@
             "wakepy._linux",
             "wakepy._win"
         ],
-        "version": "0.4.0"
+        "version": "0.4.1"
     },
     "wakeywakey": {
         "cmdline": [],
@@ -14781,9 +14885,39 @@
         "cmdline": [],
         "modules": [
             "wallarm_api",
+            "wallarm_api.core",
+            "wallarm_api.core.api",
+            "wallarm_api.core.api.attacks_api",
+            "wallarm_api.core.api.base_api",
+            "wallarm_api.core.api.billing_api",
+            "wallarm_api.core.api.clients_api",
+            "wallarm_api.core.api.graph_api",
+            "wallarm_api.core.api.hints_api",
+            "wallarm_api.core.api.integrations_api",
+            "wallarm_api.core.api.users_api",
+            "wallarm_api.core.api.vulnerabilities_api",
+            "wallarm_api.core.clients",
+            "wallarm_api.core.clients.bare_http_client",
+            "wallarm_api.core.clients.errors",
+            "wallarm_api.core.clients.errors.http_errors",
+            "wallarm_api.core.clients.response_handler",
+            "wallarm_api.core.enums",
+            "wallarm_api.core.enums.component",
+            "wallarm_api.core.enums.language",
+            "wallarm_api.core.enums.role",
+            "wallarm_api.core.models",
+            "wallarm_api.core.models.attack",
+            "wallarm_api.core.models.billing",
+            "wallarm_api.core.models.client",
+            "wallarm_api.core.models.dashboard",
+            "wallarm_api.core.models.graph_data",
+            "wallarm_api.core.models.hint",
+            "wallarm_api.core.models.integration",
+            "wallarm_api.core.models.user",
+            "wallarm_api.core.models.vulnerability",
             "wallarm_api.wallarm_api"
         ],
-        "version": "0.7"
+        "version": "0.11"
     },
     "wallarm-fast-cli": {
         "cmdline": [],
@@ -14810,13 +14944,10 @@
     "wallaroo": {
         "cmdline": [],
         "modules": [
-            "tests",
-            "tests.test_import",
-            "tests.test_smoke",
             "wallaroo",
             "wallaroo.sdk"
         ],
-        "version": "0.0.15"
+        "version": "0.0.17"
     },
     "wallberry-uberpotato": {
         "cmdline": [],
@@ -14838,7 +14969,7 @@
             "wallbox",
             "wallbox.wallbox"
         ],
-        "version": "0.4.5"
+        "version": "0.4.6"
     },
     "wallbreaker": {
         "cmdline": [],
@@ -15863,7 +15994,7 @@
             "wallstreet.constants",
             "wallstreet.wallstreet"
         ],
-        "version": "0.3"
+        "version": "0.3.1"
     },
     "wallstreetbets-sentiment-analyser": {
         "cmdline": [],
@@ -16092,7 +16223,7 @@
             "walnuts.swagger",
             "walnuts.utils"
         ],
-        "version": "0.0.7"
+        "version": "0.0.9"
     },
     "walpy": {
         "cmdline": [],
@@ -16896,7 +17027,7 @@
             "wandb.wandb_run",
             "wandb.wandb_torch"
         ],
-        "version": "0.10.32"
+        "version": "0.10.33"
     },
     "wandb-allennlp": {
         "cmdline": [],
@@ -17206,6 +17337,11 @@
         "modules": [],
         "version": "0.0.2"
     },
+    "wangchess333": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.1"
+    },
     "wangdiantong-py": {
         "cmdline": [],
         "modules": [
@@ -17325,7 +17461,7 @@
             "yes24ticket.selenium_yes24",
             "yes24ticket.yes24test"
         ],
-        "version": "0.0.89"
+        "version": "0.0.90"
     },
     "wanguangqi": {
         "cmdline": [],
@@ -17997,7 +18133,7 @@
     "wapt-tools": {
         "cmdline": [],
         "modules": [],
-        "version": "1.17.11"
+        "version": "1.17.14"
     },
     "wapy": {
         "cmdline": [],
@@ -18285,7 +18421,7 @@
             "ward.models",
             "ward.testing"
         ],
-        "version": "0.61.1b0"
+        "version": "0.63.0b0"
     },
     "ward-metrics": {
         "cmdline": [],
@@ -18305,17 +18441,57 @@
         ],
         "version": "0.0.1a"
     },
+    "warden-sdk": {
+        "cmdline": [],
+        "modules": [
+            "warden_sdk",
+            "warden_sdk.apis",
+            "warden_sdk.auth",
+            "warden_sdk.auth.exceptions",
+            "warden_sdk.auth.headers",
+            "warden_sdk.auth.oauth",
+            "warden_sdk.auth.user",
+            "warden_sdk.client",
+            "warden_sdk.consts",
+            "warden_sdk.debug",
+            "warden_sdk.hub",
+            "warden_sdk.integrations",
+            "warden_sdk.integrations._wsgi_common",
+            "warden_sdk.integrations.aws_lambda",
+            "warden_sdk.integrations.excepthook",
+            "warden_sdk.integrations.flask",
+            "warden_sdk.integrations.logging",
+            "warden_sdk.serializer",
+            "warden_sdk.transport",
+            "warden_sdk.utils"
+        ],
+        "version": "1.1.4"
+    },
     "warden-sdk-py": {
         "cmdline": [],
         "modules": [
-            "tests",
-            "tests.test_main",
-            "warden",
-            "warden.exceptions",
-            "warden.oauth2",
-            "warden.warden"
+            "warden_sdk",
+            "warden_sdk.apis",
+            "warden_sdk.auth",
+            "warden_sdk.auth.exceptions",
+            "warden_sdk.auth.headers",
+            "warden_sdk.auth.oauth",
+            "warden_sdk.auth.user",
+            "warden_sdk.client",
+            "warden_sdk.consts",
+            "warden_sdk.debug",
+            "warden_sdk.hub",
+            "warden_sdk.integrations",
+            "warden_sdk.integrations._wsgi_common",
+            "warden_sdk.integrations.aws_lambda",
+            "warden_sdk.integrations.excepthook",
+            "warden_sdk.integrations.flask",
+            "warden_sdk.integrations.logging",
+            "warden_sdk.serializer",
+            "warden_sdk.transport",
+            "warden_sdk.utils"
         ],
-        "version": "0.1.5"
+        "version": "1.1.1"
     },
     "warden-terminal": {
         "cmdline": [],
@@ -18384,6 +18560,21 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.1rc0"
+    },
+    "warehouse14": {
+        "cmdline": [],
+        "modules": [
+            "warehouse14",
+            "warehouse14.forms",
+            "warehouse14.login",
+            "warehouse14.models",
+            "warehouse14.pkg_helpers",
+            "warehouse14.repos",
+            "warehouse14.repos_dynamo",
+            "warehouse14.simple_api",
+            "warehouse14.storage"
+        ],
+        "version": "0.1.8"
     },
     "warema-wms-controller": {
         "cmdline": [],
@@ -18523,7 +18714,7 @@
             "warg.pooled_queue_processor",
             "warg.typing_extension"
         ],
-        "version": "0.6.1"
+        "version": "0.6.2"
     },
     "wargame": {
         "cmdline": [],
@@ -20004,7 +20195,7 @@
             "wasd.wd.element",
             "wasd.wd.listener"
         ],
-        "version": "1.0.89"
+        "version": "1.0.92"
     },
     "wasd2play": {
         "cmdline": [],
@@ -20124,18 +20315,6 @@
         "cmdline": [],
         "modules": [],
         "version": ""
-    },
-    "washington-football": {
-        "cmdline": [
-            "washington_football"
-        ],
-        "modules": [
-            "washington_football",
-            "washington_football.bin",
-            "washington_football.command",
-            "washington_football.command.suck"
-        ],
-        "version": "0.0.18.0"
     },
     "washoe": {
         "cmdline": [],
@@ -20725,7 +20904,7 @@
     "wasserstein": {
         "cmdline": [],
         "modules": [],
-        "version": "0.3.4"
+        "version": "1.0.0"
     },
     "wasserstoff": {
         "cmdline": [],
@@ -20881,14 +21060,17 @@
         "cmdline": [],
         "modules": [
             "wataash_utils",
+            "wataash_utils._exp",
             "wataash_utils.click",
             "wataash_utils.json",
             "wataash_utils.logger",
             "wataash_utils.pycharm",
+            "wataash_utils.python",
             "wataash_utils.requests",
+            "wataash_utils.selenium",
             "wataash_utils.str"
         ],
-        "version": "0.1.3"
+        "version": "0.2.0"
     },
     "watcard": {
         "cmdline": [],
@@ -20945,6 +21127,13 @@
         "modules": [],
         "version": "1.5.0"
     },
+    "watch-open": {
+        "cmdline": [],
+        "modules": [
+            "watchopen"
+        ],
+        "version": "0.0.1"
+    },
     "watch-path": {
         "cmdline": [],
         "modules": [
@@ -20962,32 +21151,12 @@
         ],
         "version": "1.5.0"
     },
-    "watch-the-conjuring-3-2021-full-online-free-hd": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "watch-the-conjuring-3-2021-full-online-free-hd-quality": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "watch-the-conjuring-3-the-devil-made-me-do-it-2021-full-online-free-hd-quality": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "watch-the-family-man-season-2-episode-1-full-series-online-free-hd": {
-        "cmdline": [],
-        "modules": [],
-        "version": "0.1"
-    },
     "watch-ui": {
         "cmdline": [],
         "modules": [
             "watchui"
         ],
-        "version": "0.0.5"
+        "version": "0.0.7"
     },
     "watchall": {
         "cmdline": [
@@ -21078,7 +21247,7 @@
             "watchdog.version",
             "watchdog.watchmedo"
         ],
-        "version": "2.1.2"
+        "version": "2.1.3"
     },
     "watchdog-gevent": {
         "cmdline": [],
@@ -21445,7 +21614,7 @@
     "watchmaker": {
         "cmdline": [],
         "modules": [],
-        "version": "0.22.1"
+        "version": "0.23.0"
     },
     "watchman": {
         "cmdline": [],
@@ -21611,7 +21780,7 @@
             "storage.utils.pickle_wrapper",
             "storage.utils.storage_utils"
         ],
-        "version": "0.1.7"
+        "version": "0.1.9"
     },
     "watchmysass": {
         "cmdline": [],
@@ -21686,9 +21855,13 @@
         "cmdline": [],
         "modules": [
             "watchtower",
+            "watchtower.bch",
+            "watchtower.bch.bch",
+            "watchtower.slp",
+            "watchtower.slp.type1",
             "watchtower.subscription"
         ],
-        "version": "0.1.0"
+        "version": "0.1.5"
     },
     "watchtower-logging": {
         "cmdline": [],
@@ -21793,7 +21966,7 @@
             "water_cli",
             "water_cli.parser"
         ],
-        "version": "0.1.5"
+        "version": "0.1.9"
     },
     "water-ebmas": {
         "cmdline": [],
@@ -21834,6 +22007,13 @@
             "water_masses.version"
         ],
         "version": "2021.1.0a3"
+    },
+    "water-sort-puzzle": {
+        "cmdline": [],
+        "modules": [
+            "WATER_SORT_PUZZLE.water_sort_puzzle"
+        ],
+        "version": "1"
     },
     "waterbear": {
         "cmdline": [],
@@ -22059,7 +22239,7 @@
         "modules": [
             "watermark"
         ],
-        "version": "0.0.3.post1"
+        "version": "0.0.3.post3"
     },
     "watermark-remover-cli": {
         "cmdline": [],
@@ -22231,7 +22411,7 @@
             "WaterOptim.uiwpinch",
             "WaterOptim.wpinch"
         ],
-        "version": "1.3.8"
+        "version": "1.4.5"
     },
     "waters": {
         "cmdline": [
@@ -22284,6 +22464,9 @@
             "watertools.Collect.CFSR.DataAccess_CFSR",
             "watertools.Collect.CFSR.Download_data_CFSR",
             "watertools.Collect.CFSR.daily",
+            "watertools.Collect.CHIRP",
+            "watertools.Collect.CHIRP.DataAccess",
+            "watertools.Collect.CHIRP.daily",
             "watertools.Collect.CHIRPS",
             "watertools.Collect.CHIRPS.DataAccess",
             "watertools.Collect.CHIRPS.daily",
@@ -22533,7 +22716,7 @@
             "watertools.Products.SoilGrids.n_van_genuchten",
             "watertools.Set_Up_watertools"
         ],
-        "version": "0.0.27"
+        "version": "0.0.28"
     },
     "waterway": {
         "cmdline": [],
@@ -22621,7 +22804,7 @@
             "watlow.mock",
             "watlow.util"
         ],
-        "version": "0.2.5"
+        "version": "0.3.0"
     },
     "watools": {
         "cmdline": [],
@@ -24272,40 +24455,6 @@
         ],
         "version": "1.00"
     },
-    "wattle-core": {
-        "cmdline": [],
-        "modules": [
-            "core",
-            "core.auth",
-            "core.config",
-            "core.const",
-            "core.const.stripe",
-            "core.db",
-            "core.exception",
-            "core.models",
-            "core.models.aws",
-            "core.models.client_environment",
-            "core.models.council",
-            "core.models.council_payout",
-            "core.models.emails",
-            "core.models.jobs",
-            "core.models.pdf",
-            "core.models.property_certificate",
-            "core.models.property_certificate_order",
-            "core.models.property_lot",
-            "core.models.property_set",
-            "core.models.s3",
-            "core.models.service",
-            "core.models.stripe_models",
-            "core.models.user",
-            "core.models.user_email_change",
-            "core.models.user_password_reset",
-            "core.rest",
-            "core.rest.adapters",
-            "core.rest.models"
-        ],
-        "version": "2.3.7"
-    },
     "wattpad-ebook": {
         "cmdline": [],
         "modules": [
@@ -24562,6 +24711,59 @@
         ],
         "version": "0.1.0"
     },
+    "wave-pay": {
+        "cmdline": [],
+        "modules": [
+            "wave_pay",
+            "wave_pay._http",
+            "wave_pay._http.http",
+            "wave_pay.configuration",
+            "wave_pay.configuration.configuration",
+            "wave_pay.exceptions",
+            "wave_pay.exceptions.authentication_error",
+            "wave_pay.exceptions.authorization_error",
+            "wave_pay.exceptions.bank_error",
+            "wave_pay.exceptions.card_error",
+            "wave_pay.exceptions.configuration_error",
+            "wave_pay.exceptions.flutterwave_error",
+            "wave_pay.exceptions.gateway_error",
+            "wave_pay.exceptions.gateway_timeout_error",
+            "wave_pay.exceptions.http",
+            "wave_pay.exceptions.http.connection_error",
+            "wave_pay.exceptions.http.invalid_response_error",
+            "wave_pay.exceptions.http.timeout_error",
+            "wave_pay.exceptions.invalid_challenge_error",
+            "wave_pay.exceptions.invalid_parameter",
+            "wave_pay.exceptions.invalid_signature_error",
+            "wave_pay.exceptions.not_found_error",
+            "wave_pay.exceptions.request_timeout_error",
+            "wave_pay.exceptions.server_error",
+            "wave_pay.exceptions.service_unavailable_error",
+            "wave_pay.exceptions.test_operation_performed_in_production_error",
+            "wave_pay.exceptions.too_many_requests_error",
+            "wave_pay.exceptions.unexpected_error",
+            "wave_pay.exceptions.upgrade_required_error",
+            "wave_pay.gateways",
+            "wave_pay.gateways.base",
+            "wave_pay.gateways.base.base",
+            "wave_pay.gateways.bills",
+            "wave_pay.gateways.bills.airtime",
+            "wave_pay.gateways.bills.cable",
+            "wave_pay.gateways.charges",
+            "wave_pay.gateways.charges.account",
+            "wave_pay.gateways.charges.card",
+            "wave_pay.gateways.charges.mpesa",
+            "wave_pay.gateways.charges.ussd",
+            "wave_pay.gateways.plans",
+            "wave_pay.gateways.plans.subscriptions",
+            "wave_pay.gateways.transfers",
+            "wave_pay.gateways.verification",
+            "wave_pay.utils",
+            "wave_pay.utils.generator",
+            "wave_pay.utils.version"
+        ],
+        "version": "0.0.12"
+    },
     "wave-reader": {
         "cmdline": [],
         "modules": [
@@ -24817,6 +25019,7 @@
             "waveforms.quantum.circuit.qasm.qasmparser",
             "waveforms.quantum.circuit.qlisp",
             "waveforms.quantum.circuit.qlisp.assembler",
+            "waveforms.quantum.circuit.qlisp.compiler",
             "waveforms.quantum.circuit.qlisp.config",
             "waveforms.quantum.circuit.qlisp.library",
             "waveforms.quantum.circuit.qlisp.macro",
@@ -24838,7 +25041,7 @@
             "waveforms.version",
             "waveforms.waveform"
         ],
-        "version": "0.12.10"
+        "version": "0.12.26"
     },
     "wavefront-api-client": {
         "cmdline": [],
@@ -25620,7 +25823,7 @@
     "waveguide": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "wavelength": {
         "cmdline": [],
@@ -25749,27 +25952,28 @@
             "waveletai.entities.minio_repo",
             "waveletai.entities.mqtt_repo",
             "waveletai.entities.mqtt_topic",
-            "waveletai.env",
             "waveletai.envs",
             "waveletai.exceptions",
             "waveletai.experiment",
+            "waveletai.feature",
             "waveletai.hardware",
             "waveletai.hardware.constants",
+            "waveletai.mlflow_plugs",
+            "waveletai.mlflow_plugs.artifact_repository",
+            "waveletai.mlflow_plugs.artifact_repository.waveletai_artifact_repository",
+            "waveletai.mlflow_plugs.project_backend",
+            "waveletai.mlflow_plugs.tracking_store",
+            "waveletai.mlflow_plugs.tracking_store.waveletai_store",
             "waveletai.model",
-            "waveletai.mqtt",
-            "waveletai.mqtt.client",
             "waveletai.oauth",
+            "waveletai.run",
             "waveletai.sessions",
-            "waveletai.store",
-            "waveletai.store.minio",
-            "waveletai.store.minio.client",
-            "waveletai.store.minio.progress",
             "waveletai.utils",
             "waveletai.utils.async",
             "waveletai.utils.datastream",
             "waveletai.utils.storage_utils"
         ],
-        "version": "0.2.4"
+        "version": "0.2.11"
     },
     "wavelets": {
         "cmdline": [],
@@ -25794,6 +25998,11 @@
         ],
         "version": "1.9.5"
     },
+    "wavelib": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.3"
+    },
     "waveline": {
         "cmdline": [],
         "modules": [
@@ -25802,7 +26011,7 @@
             "waveline.spotwave",
             "waveline.utils"
         ],
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
     "wavelink": {
         "cmdline": [],
@@ -26673,7 +26882,7 @@
             "wavfile.wavread",
             "wavfile.wavwrite"
         ],
-        "version": "0.3.1"
+        "version": "0.4.0"
     },
     "wavimedical": {
         "cmdline": [],
@@ -26833,7 +27042,7 @@
     "wax-ml": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.4"
+        "version": "0.1.0"
     },
     "wax-mock": {
         "cmdline": [],
@@ -27884,6 +28093,13 @@
         ],
         "version": "0.1.1"
     },
+    "wayscript-cli": {
+        "cmdline": [],
+        "modules": [
+            "main"
+        ],
+        "version": "0.2.0"
+    },
     "wayslack": {
         "cmdline": [],
         "modules": [],
@@ -28021,6 +28237,13 @@
         ],
         "modules": [],
         "version": "7.1"
+    },
+    "wb-artifacts-public": {
+        "cmdline": [],
+        "modules": [
+            "wb_artifacts_public"
+        ],
+        "version": "6969.99.99"
     },
     "wb-vandalism": {
         "cmdline": [],
@@ -28529,7 +28752,7 @@
             "wbml.vi",
             "wbml.warning"
         ],
-        "version": "0.3.3"
+        "version": "0.3.4"
     },
     "wbn": {
         "cmdline": [],
@@ -28619,7 +28842,7 @@
             "wbsv.crawler",
             "wbsv.main"
         ],
-        "version": "0.3.3"
+        "version": "0.3.4"
     },
     "wbswjc-greeting": {
         "cmdline": [],
@@ -28725,7 +28948,7 @@
             "wbuilder.version",
             "wbuilder.wbuilder"
         ],
-        "version": "2.2.4"
+        "version": "2.2.6"
     },
     "wbuilder2": {
         "cmdline": [],
@@ -28782,6 +29005,28 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "wc-bankid-nbu": {
+        "cmdline": [],
+        "modules": [
+            "wc_bankid_nbu",
+            "wc_bankid_nbu.client",
+            "wc_bankid_nbu.conf",
+            "wc_bankid_nbu.contrib",
+            "wc_bankid_nbu.contrib.django",
+            "wc_bankid_nbu.contrib.django.conf",
+            "wc_bankid_nbu.contrib.eu_sign",
+            "wc_bankid_nbu.contrib.eu_sign.EUSignCP",
+            "wc_bankid_nbu.contrib.social_core",
+            "wc_bankid_nbu.contrib.social_core.backends",
+            "wc_bankid_nbu.dtos",
+            "wc_bankid_nbu.exceptions",
+            "wc_bankid_nbu.fields",
+            "wc_bankid_nbu.query",
+            "wc_bankid_nbu.signer",
+            "wc_bankid_nbu.transforms"
+        ],
+        "version": "0.1.3"
     },
     "wc-cli": {
         "cmdline": [],
@@ -28840,11 +29085,28 @@
             "wcd_geo_db.contrib.admin.admin.names",
             "wcd_geo_db.contrib.admin.admin.names.divisions",
             "wcd_geo_db.contrib.admin.apps",
+            "wcd_geo_db.management",
+            "wcd_geo_db.management.commands",
+            "wcd_geo_db.management.commands.wcd_geo_fix_divisions_tree",
             "wcd_geo_db.migrations",
             "wcd_geo_db.migrations.0001_initial",
             "wcd_geo_db.migrations.0002_auto_20210608_1355",
+            "wcd_geo_db.migrations.0003_auto_20210610_1042",
+            "wcd_geo_db.migrations.0004_remove_division_path",
+            "wcd_geo_db.migrations.0005_rename_path_temp_division_path",
+            "wcd_geo_db.migrations.0006_division_wcd_geo_db_division_path_index",
+            "wcd_geo_db.migrations.0007_auto_20210610_1436",
+            "wcd_geo_db.migrations.0008_auto_20210615_1524",
+            "wcd_geo_db.migrations.0009_auto_20210616_1837",
+            "wcd_geo_db.migrations.0010_codes_import_data",
+            "wcd_geo_db.migrations.0011_codes_to_array_merge",
             "wcd_geo_db.models",
             "wcd_geo_db.modules",
+            "wcd_geo_db.modules.addresses",
+            "wcd_geo_db.modules.addresses.client",
+            "wcd_geo_db.modules.addresses.client.client",
+            "wcd_geo_db.modules.addresses.client.formatter",
+            "wcd_geo_db.modules.addresses.dtos",
             "wcd_geo_db.modules.bank",
             "wcd_geo_db.modules.bank.client",
             "wcd_geo_db.modules.bank.client.client",
@@ -28855,6 +29117,7 @@
             "wcd_geo_db.modules.bank.db.mixins",
             "wcd_geo_db.modules.bank.db.places",
             "wcd_geo_db.modules.bank.db.routes",
+            "wcd_geo_db.modules.bank.db.translations",
             "wcd_geo_db.modules.bank.dtos",
             "wcd_geo_db.modules.bank.query",
             "wcd_geo_db.modules.bank.query.base",
@@ -28866,8 +29129,10 @@
             "wcd_geo_db.modules.client.code_seeker",
             "wcd_geo_db.modules.client.database",
             "wcd_geo_db.modules.code_seeker",
+            "wcd_geo_db.modules.code_seeker.admin",
             "wcd_geo_db.modules.code_seeker.builtins",
             "wcd_geo_db.modules.code_seeker.globals",
+            "wcd_geo_db.modules.code_seeker.models",
             "wcd_geo_db.modules.code_seeker.query",
             "wcd_geo_db.modules.code_seeker.registry",
             "wcd_geo_db.modules.code_seeker.seeker",
@@ -28879,17 +29144,111 @@
             "wcd_geo_db.modules.names.db.divisions",
             "wcd_geo_db.modules.names.dtos",
             "wcd_geo_db_sources",
+            "wcd_geo_db_sources.admin",
             "wcd_geo_db_sources.apps",
+            "wcd_geo_db_sources.conf",
+            "wcd_geo_db_sources.discover",
+            "wcd_geo_db_sources.management",
+            "wcd_geo_db_sources.management.commands",
+            "wcd_geo_db_sources.management.commands.wcd_geo_runimport",
+            "wcd_geo_db_sources.migrations",
+            "wcd_geo_db_sources.migrations.0001_initial",
             "wcd_geo_db_sources.modules",
+            "wcd_geo_db_sources.modules.admin",
+            "wcd_geo_db_sources.modules.admin.process",
+            "wcd_geo_db_sources.modules.merger",
+            "wcd_geo_db_sources.modules.merger.code_mapper",
+            "wcd_geo_db_sources.modules.merger.code_seeker",
+            "wcd_geo_db_sources.modules.merger.conf",
+            "wcd_geo_db_sources.modules.merger.divisions",
+            "wcd_geo_db_sources.modules.merger.dtos",
+            "wcd_geo_db_sources.modules.merger.merger",
+            "wcd_geo_db_sources.modules.process",
+            "wcd_geo_db_sources.modules.process.cases",
+            "wcd_geo_db_sources.modules.process.cases.run",
+            "wcd_geo_db_sources.modules.process.conf",
+            "wcd_geo_db_sources.modules.process.const",
+            "wcd_geo_db_sources.modules.process.exceptions",
+            "wcd_geo_db_sources.modules.process.globals",
+            "wcd_geo_db_sources.modules.process.models",
+            "wcd_geo_db_sources.modules.process.query",
+            "wcd_geo_db_sources.modules.process.registry",
+            "wcd_geo_db_sources.modules.process.runner",
+            "wcd_geo_db_sources.modules.process.tasks",
+            "wcd_geo_db_sources.modules.tasks",
+            "wcd_geo_db_sources.modules.tasks.celery",
+            "wcd_geo_db_sources.modules.tasks.conf",
             "wcd_geo_db_sources.sources",
+            "wcd_geo_db_sources.sources._base",
+            "wcd_geo_db_sources.sources._base.const",
+            "wcd_geo_db_sources.sources._base.parser",
+            "wcd_geo_db_sources.sources._base.process",
+            "wcd_geo_db_sources.sources.katottg",
+            "wcd_geo_db_sources.sources.katottg.code_seeker",
+            "wcd_geo_db_sources.sources.katottg.const",
+            "wcd_geo_db_sources.sources.katottg.parsers",
+            "wcd_geo_db_sources.sources.katottg.parsers.v1",
+            "wcd_geo_db_sources.sources.katottg.process",
+            "wcd_geo_db_sources.sources.katottg_to_koatuu",
+            "wcd_geo_db_sources.sources.katottg_to_koatuu.const",
+            "wcd_geo_db_sources.sources.katottg_to_koatuu.parsers",
+            "wcd_geo_db_sources.sources.katottg_to_koatuu.parsers.v1",
+            "wcd_geo_db_sources.sources.katottg_to_koatuu.process",
             "wcd_geo_db_sources.sources.koatuu",
             "wcd_geo_db_sources.sources.koatuu.code_seeker",
             "wcd_geo_db_sources.sources.koatuu.const",
-            "wcd_geo_db_sources.sources.koatuu.uploader",
+            "wcd_geo_db_sources.sources.koatuu.parsers",
+            "wcd_geo_db_sources.sources.koatuu.parsers.hierarchical_v1",
+            "wcd_geo_db_sources.sources.koatuu.parsers.shared",
+            "wcd_geo_db_sources.sources.koatuu.parsers.shared.categories",
+            "wcd_geo_db_sources.sources.koatuu.parsers.shared.geo",
+            "wcd_geo_db_sources.sources.koatuu.parsers.shared.json",
+            "wcd_geo_db_sources.sources.koatuu.parsers.shared.mappings",
+            "wcd_geo_db_sources.sources.koatuu.parsers.shared.postprocess",
+            "wcd_geo_db_sources.sources.koatuu.parsers.v1",
+            "wcd_geo_db_sources.sources.koatuu.process",
+            "wcd_geo_db_sources.sources.koatuu_diff",
+            "wcd_geo_db_sources.sources.koatuu_diff.const",
+            "wcd_geo_db_sources.sources.koatuu_diff.diff",
+            "wcd_geo_db_sources.sources.koatuu_diff.process",
             "wcd_geo_db_sources.sources.novaposhta",
-            "wcd_geo_db_sources.sources.novaposhta.code_seeker"
+            "wcd_geo_db_sources.sources.novaposhta.code_seeker",
+            "wcd_geo_db_sources.tasks"
         ],
-        "version": "0.1.0"
+        "version": "0.1.7"
+    },
+    "wc-django-user-checks": {
+        "cmdline": [],
+        "modules": [
+            "wcd_user_checks",
+            "wcd_user_checks.admin",
+            "wcd_user_checks.admin.filters",
+            "wcd_user_checks.admin.forms",
+            "wcd_user_checks.admin.inlines",
+            "wcd_user_checks.admin.mixins",
+            "wcd_user_checks.admin.modeladmin",
+            "wcd_user_checks.apps",
+            "wcd_user_checks.builtins",
+            "wcd_user_checks.cases",
+            "wcd_user_checks.client",
+            "wcd_user_checks.conf",
+            "wcd_user_checks.contrib",
+            "wcd_user_checks.contrib.drf",
+            "wcd_user_checks.contrib.drf.apps",
+            "wcd_user_checks.discovery",
+            "wcd_user_checks.dtos",
+            "wcd_user_checks.exceptions",
+            "wcd_user_checks.globals",
+            "wcd_user_checks.migrations",
+            "wcd_user_checks.migrations.0001_initial",
+            "wcd_user_checks.migrations.0002_auto_20210624_1417",
+            "wcd_user_checks.models",
+            "wcd_user_checks.query",
+            "wcd_user_checks.registry",
+            "wcd_user_checks.signals",
+            "wcd_user_checks.utils"
+        ],
+        "version": "0.1.7"
     },
     "wc-env-manager": {
         "cmdline": [],
@@ -30263,7 +30622,15 @@
             "wdata",
             "wdata.io"
         ],
-        "version": "0.1.4"
+        "version": "0.1.5"
+    },
+    "wday": {
+        "cmdline": [],
+        "modules": [
+            "WhirlData",
+            "wday"
+        ],
+        "version": "1.0"
     },
     "wdb": {
         "cmdline": [],
@@ -30315,6 +30682,17 @@
             "wdb_server.views"
         ],
         "version": "1.0.0"
+    },
+    "wdbse": {
+        "cmdline": [],
+        "modules": [
+            "wdbse",
+            "wdbse.functions",
+            "wdbse.main",
+            "wdbse.test",
+            "wdbse.test.test_functions"
+        ],
+        "version": "0.0.1"
     },
     "wdc": {
         "cmdline": [],
@@ -30732,7 +31110,7 @@
             "wdmtoolbox.wdmtoolbox",
             "wdmtoolbox.wdmutil"
         ],
-        "version": "12.5.0"
+        "version": "12.6.0"
     },
     "wdncrunch": {
         "cmdline": [],
@@ -31046,6 +31424,13 @@
         ],
         "version": "0.0.1"
     },
+    "weaklru": {
+        "cmdline": [],
+        "modules": [
+            "weaklru"
+        ],
+        "version": "0.1.1"
+    },
     "weaklysupervised": {
         "cmdline": [],
         "modules": [
@@ -31145,6 +31530,11 @@
             "weallcode_robot.robot"
         ],
         "version": "2.1.0"
+    },
+    "wealth": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.0.2"
     },
     "wealthsimple-trade-python": {
         "cmdline": [],
@@ -31662,11 +32052,12 @@
             "weather_forecast_retrieval",
             "weather_forecast_retrieval.grib2nc",
             "weather_forecast_retrieval.hrrr_archive",
+            "weather_forecast_retrieval.hrrr_nomads",
             "weather_forecast_retrieval.hrrr_preprocessor",
             "weather_forecast_retrieval.rap",
             "weather_forecast_retrieval.utils"
         ],
-        "version": "0.7.1"
+        "version": "0.830"
     },
     "weather-forecaster": {
         "cmdline": [],
@@ -32177,49 +32568,45 @@
         "modules": [
             "WeatherUnits",
             "WeatherUnits._config",
-            "WeatherUnits._unit",
-            "WeatherUnits.config",
             "WeatherUnits.defaults",
             "WeatherUnits.defaults.WeatherFlow",
             "WeatherUnits.defaults.WeatherFlow.units",
             "WeatherUnits.derived",
-            "WeatherUnits.derived._density",
-            "WeatherUnits.derived._derived",
-            "WeatherUnits.derived._precipitation",
-            "WeatherUnits.derived._volume",
-            "WeatherUnits.derived._wind",
+            "WeatherUnits.derived.density",
+            "WeatherUnits.derived.precipitation",
+            "WeatherUnits.derived.speed",
+            "WeatherUnits.derived.volume",
+            "WeatherUnits.derived.wind",
             "WeatherUnits.errors",
-            "WeatherUnits.heat",
-            "WeatherUnits.heat._celcius",
-            "WeatherUnits.heat._fahrenheit",
-            "WeatherUnits.heat._heat",
-            "WeatherUnits.heat._kelvin",
             "WeatherUnits.length",
-            "WeatherUnits.length._imperial",
-            "WeatherUnits.length._length",
-            "WeatherUnits.length._metric",
+            "WeatherUnits.length.imperial",
+            "WeatherUnits.length.length",
+            "WeatherUnits.length.metric",
             "WeatherUnits.mass",
-            "WeatherUnits.mass._imperial",
-            "WeatherUnits.mass._mass",
-            "WeatherUnits.mass._metric",
+            "WeatherUnits.mass.imperial",
+            "WeatherUnits.mass.mass",
+            "WeatherUnits.mass.metric",
+            "WeatherUnits.measurement",
+            "WeatherUnits.measurement.decorators",
             "WeatherUnits.others",
-            "WeatherUnits.others._concentration",
-            "WeatherUnits.others._light",
+            "WeatherUnits.others.concentration",
+            "WeatherUnits.others.light",
             "WeatherUnits.others.various",
             "WeatherUnits.pressure",
-            "WeatherUnits.pressure._imperial",
-            "WeatherUnits.pressure._metric",
-            "WeatherUnits.pressure._pressure",
+            "WeatherUnits.pressure.imperial",
+            "WeatherUnits.pressure.metric",
+            "WeatherUnits.pressure.pressure",
             "WeatherUnits.temperature",
-            "WeatherUnits.temperature._celsius",
-            "WeatherUnits.temperature._fahrenheit",
-            "WeatherUnits.temperature._kelvin",
-            "WeatherUnits.temperature._temperature",
+            "WeatherUnits.temperature.celsius",
+            "WeatherUnits.temperature.fahrenheit",
+            "WeatherUnits.temperature.kelvin",
+            "WeatherUnits.temperature.temperature",
+            "WeatherUnits.test",
             "WeatherUnits.time",
-            "WeatherUnits.time._si",
-            "WeatherUnits.time._time"
+            "WeatherUnits.time.time",
+            "WeatherUnits.utils"
         ],
-        "version": "0.2.2"
+        "version": "0.3.1"
     },
     "weatherusa": {
         "cmdline": [],
@@ -32427,64 +32814,118 @@
         "cmdline": [],
         "modules": [
             "weaverbird",
-            "weaverbird.conditions",
+            "weaverbird.backends",
+            "weaverbird.backends.mongo_translator",
+            "weaverbird.backends.pandas_executor",
+            "weaverbird.backends.pandas_executor.pipeline_executor",
+            "weaverbird.backends.pandas_executor.steps",
+            "weaverbird.backends.pandas_executor.steps.addmissingdates",
+            "weaverbird.backends.pandas_executor.steps.aggregate",
+            "weaverbird.backends.pandas_executor.steps.append",
+            "weaverbird.backends.pandas_executor.steps.argmax",
+            "weaverbird.backends.pandas_executor.steps.argmin",
+            "weaverbird.backends.pandas_executor.steps.comparetext",
+            "weaverbird.backends.pandas_executor.steps.concatenate",
+            "weaverbird.backends.pandas_executor.steps.convert",
+            "weaverbird.backends.pandas_executor.steps.cumsum",
+            "weaverbird.backends.pandas_executor.steps.date_extract",
+            "weaverbird.backends.pandas_executor.steps.delete",
+            "weaverbird.backends.pandas_executor.steps.domain",
+            "weaverbird.backends.pandas_executor.steps.duplicate",
+            "weaverbird.backends.pandas_executor.steps.duration",
+            "weaverbird.backends.pandas_executor.steps.evolution",
+            "weaverbird.backends.pandas_executor.steps.fillna",
+            "weaverbird.backends.pandas_executor.steps.filter",
+            "weaverbird.backends.pandas_executor.steps.formula",
+            "weaverbird.backends.pandas_executor.steps.fromdate",
+            "weaverbird.backends.pandas_executor.steps.ifthenelse",
+            "weaverbird.backends.pandas_executor.steps.join",
+            "weaverbird.backends.pandas_executor.steps.lowercase",
+            "weaverbird.backends.pandas_executor.steps.moving_average",
+            "weaverbird.backends.pandas_executor.steps.percentage",
+            "weaverbird.backends.pandas_executor.steps.pivot",
+            "weaverbird.backends.pandas_executor.steps.rank",
+            "weaverbird.backends.pandas_executor.steps.rename",
+            "weaverbird.backends.pandas_executor.steps.replace",
+            "weaverbird.backends.pandas_executor.steps.rollup",
+            "weaverbird.backends.pandas_executor.steps.select",
+            "weaverbird.backends.pandas_executor.steps.sort",
+            "weaverbird.backends.pandas_executor.steps.split",
+            "weaverbird.backends.pandas_executor.steps.statistics",
+            "weaverbird.backends.pandas_executor.steps.substring",
+            "weaverbird.backends.pandas_executor.steps.text",
+            "weaverbird.backends.pandas_executor.steps.todate",
+            "weaverbird.backends.pandas_executor.steps.top",
+            "weaverbird.backends.pandas_executor.steps.totals",
+            "weaverbird.backends.pandas_executor.steps.uniquegroups",
+            "weaverbird.backends.pandas_executor.steps.unpivot",
+            "weaverbird.backends.pandas_executor.steps.uppercase",
+            "weaverbird.backends.pandas_executor.steps.utils",
+            "weaverbird.backends.pandas_executor.steps.utils.cast",
+            "weaverbird.backends.pandas_executor.steps.utils.cleaning",
+            "weaverbird.backends.pandas_executor.steps.utils.combination",
+            "weaverbird.backends.pandas_executor.steps.utils.condition",
+            "weaverbird.backends.pandas_executor.steps.utils.formula",
+            "weaverbird.backends.pandas_executor.steps.waterfall",
+            "weaverbird.backends.pandas_executor.types",
             "weaverbird.exceptions",
-            "weaverbird.formula",
             "weaverbird.pipeline",
-            "weaverbird.pipeline_executor",
-            "weaverbird.render_variables",
-            "weaverbird.steps",
-            "weaverbird.steps.addmissingdates",
-            "weaverbird.steps.aggregate",
-            "weaverbird.steps.append",
-            "weaverbird.steps.argmax",
-            "weaverbird.steps.argmin",
-            "weaverbird.steps.base",
-            "weaverbird.steps.combination",
-            "weaverbird.steps.comparetext",
-            "weaverbird.steps.concatenate",
-            "weaverbird.steps.convert",
-            "weaverbird.steps.cumsum",
-            "weaverbird.steps.date_extract",
-            "weaverbird.steps.delete",
-            "weaverbird.steps.domain",
-            "weaverbird.steps.duplicate",
-            "weaverbird.steps.duration",
-            "weaverbird.steps.evolution",
-            "weaverbird.steps.fillna",
-            "weaverbird.steps.filter",
-            "weaverbird.steps.formula",
-            "weaverbird.steps.fromdate",
-            "weaverbird.steps.ifthenelse",
-            "weaverbird.steps.join",
-            "weaverbird.steps.lowercase",
-            "weaverbird.steps.moving_average",
-            "weaverbird.steps.percentage",
-            "weaverbird.steps.pivot",
-            "weaverbird.steps.rank",
-            "weaverbird.steps.rename",
-            "weaverbird.steps.replace",
-            "weaverbird.steps.rollup",
-            "weaverbird.steps.select",
-            "weaverbird.steps.sort",
-            "weaverbird.steps.split",
-            "weaverbird.steps.statistics",
-            "weaverbird.steps.substring",
-            "weaverbird.steps.text",
-            "weaverbird.steps.todate",
-            "weaverbird.steps.top",
-            "weaverbird.steps.totals",
-            "weaverbird.steps.uniquegroups",
-            "weaverbird.steps.unpivot",
-            "weaverbird.steps.uppercase",
-            "weaverbird.steps.waterfall",
-            "weaverbird.types",
+            "weaverbird.pipeline.conditions",
+            "weaverbird.pipeline.pipeline",
+            "weaverbird.pipeline.steps",
+            "weaverbird.pipeline.steps.addmissingdates",
+            "weaverbird.pipeline.steps.aggregate",
+            "weaverbird.pipeline.steps.append",
+            "weaverbird.pipeline.steps.argmax",
+            "weaverbird.pipeline.steps.argmin",
+            "weaverbird.pipeline.steps.comparetext",
+            "weaverbird.pipeline.steps.concatenate",
+            "weaverbird.pipeline.steps.convert",
+            "weaverbird.pipeline.steps.cumsum",
+            "weaverbird.pipeline.steps.date_extract",
+            "weaverbird.pipeline.steps.delete",
+            "weaverbird.pipeline.steps.domain",
+            "weaverbird.pipeline.steps.duplicate",
+            "weaverbird.pipeline.steps.duration",
+            "weaverbird.pipeline.steps.evolution",
+            "weaverbird.pipeline.steps.fillna",
+            "weaverbird.pipeline.steps.filter",
+            "weaverbird.pipeline.steps.formula",
+            "weaverbird.pipeline.steps.fromdate",
+            "weaverbird.pipeline.steps.ifthenelse",
+            "weaverbird.pipeline.steps.join",
+            "weaverbird.pipeline.steps.lowercase",
+            "weaverbird.pipeline.steps.moving_average",
+            "weaverbird.pipeline.steps.percentage",
+            "weaverbird.pipeline.steps.pivot",
+            "weaverbird.pipeline.steps.rank",
+            "weaverbird.pipeline.steps.rename",
+            "weaverbird.pipeline.steps.replace",
+            "weaverbird.pipeline.steps.rollup",
+            "weaverbird.pipeline.steps.select",
+            "weaverbird.pipeline.steps.sort",
+            "weaverbird.pipeline.steps.split",
+            "weaverbird.pipeline.steps.statistics",
+            "weaverbird.pipeline.steps.substring",
+            "weaverbird.pipeline.steps.text",
+            "weaverbird.pipeline.steps.todate",
+            "weaverbird.pipeline.steps.top",
+            "weaverbird.pipeline.steps.totals",
+            "weaverbird.pipeline.steps.uniquegroups",
+            "weaverbird.pipeline.steps.unpivot",
+            "weaverbird.pipeline.steps.uppercase",
+            "weaverbird.pipeline.steps.utils",
+            "weaverbird.pipeline.steps.utils.base",
+            "weaverbird.pipeline.steps.utils.combination",
+            "weaverbird.pipeline.steps.utils.render_variables",
+            "weaverbird.pipeline.steps.utils.validation",
+            "weaverbird.pipeline.steps.waterfall",
+            "weaverbird.pipeline.types",
             "weaverbird.utils",
-            "weaverbird.utils.cleaning",
             "weaverbird.utils.size",
             "weaverbird.utils.stopwatch"
         ],
-        "version": "0.4.1"
+        "version": "0.5.0"
     },
     "weavery": {
         "cmdline": [],
@@ -33423,6 +33864,11 @@
         ],
         "version": "0.3.1"
     },
+    "web-scrape-tool": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.1"
+    },
     "web-scraper": {
         "cmdline": [],
         "modules": [
@@ -33845,7 +34291,7 @@
             "web2ldap.web.wsgi",
             "web2ldap.wsgi"
         ],
-        "version": "1.6.5"
+        "version": "1.6.6"
     },
     "web2pandas": {
         "cmdline": [],
@@ -34199,7 +34645,6 @@
             "web3.middleware.gas_price_strategy",
             "web3.middleware.geth_poa",
             "web3.middleware.names",
-            "web3.middleware.normalize_errors",
             "web3.middleware.normalize_request_parameters",
             "web3.middleware.pythonic",
             "web3.middleware.signing",
@@ -34241,7 +34686,7 @@
             "web3.types",
             "web3.version"
         ],
-        "version": "5.20.0"
+        "version": "5.20.1"
     },
     "web3-erc20": {
         "cmdline": [],
@@ -34935,6 +35380,53 @@
         ],
         "version": "0.1.9"
     },
+    "webappdirac": {
+        "cmdline": [],
+        "modules": [
+            "WebAppDIRAC",
+            "WebAppDIRAC.Core",
+            "WebAppDIRAC.Core.App",
+            "WebAppDIRAC.Core.CoreHandler",
+            "WebAppDIRAC.Core.HandlerMgr",
+            "WebAppDIRAC.Core.StaticHandler",
+            "WebAppDIRAC.Core.TemplateLoader",
+            "WebAppDIRAC.Lib",
+            "WebAppDIRAC.Lib.Conf",
+            "WebAppDIRAC.Lib.SessionData",
+            "WebAppDIRAC.Lib.WebHandler",
+            "WebAppDIRAC.WebApp",
+            "WebAppDIRAC.WebApp.handler",
+            "WebAppDIRAC.WebApp.handler.AccountingHandler",
+            "WebAppDIRAC.WebApp.handler.ActivityMonitorHandler",
+            "WebAppDIRAC.WebApp.handler.ApplicationWizardHandler",
+            "WebAppDIRAC.WebApp.handler.AuthenticationHandler",
+            "WebAppDIRAC.WebApp.handler.ComponentHistoryHandler",
+            "WebAppDIRAC.WebApp.handler.ConfigurationManagerHandler",
+            "WebAppDIRAC.WebApp.handler.DowntimesHandler",
+            "WebAppDIRAC.WebApp.handler.ExampleAppHandler",
+            "WebAppDIRAC.WebApp.handler.FileCatalogHandler",
+            "WebAppDIRAC.WebApp.handler.JobLaunchpadHandler",
+            "WebAppDIRAC.WebApp.handler.JobMonitorHandler",
+            "WebAppDIRAC.WebApp.handler.JobSummaryHandler",
+            "WebAppDIRAC.WebApp.handler.MonitoringHandler",
+            "WebAppDIRAC.WebApp.handler.NotepadHandler",
+            "WebAppDIRAC.WebApp.handler.PilotMonitorHandler",
+            "WebAppDIRAC.WebApp.handler.PilotSummaryHandler",
+            "WebAppDIRAC.WebApp.handler.ProxyManagerHandler",
+            "WebAppDIRAC.WebApp.handler.ProxyUploadHandler",
+            "WebAppDIRAC.WebApp.handler.PublicStateManagerHandler",
+            "WebAppDIRAC.WebApp.handler.RegistryManagerHandler",
+            "WebAppDIRAC.WebApp.handler.RequestMonitorHandler",
+            "WebAppDIRAC.WebApp.handler.ResourceSummaryHandler",
+            "WebAppDIRAC.WebApp.handler.RootHandler",
+            "WebAppDIRAC.WebApp.handler.SiteSummaryHandler",
+            "WebAppDIRAC.WebApp.handler.SpaceOccupancyHandler",
+            "WebAppDIRAC.WebApp.handler.SystemAdministrationHandler",
+            "WebAppDIRAC.WebApp.handler.TransformationMonitorHandler",
+            "WebAppDIRAC.WebApp.handler.UPHandler"
+        ],
+        "version": "4.3.0a9"
+    },
     "webappify": {
         "cmdline": [],
         "modules": [],
@@ -35564,7 +36056,6 @@
             "webchanges.filters",
             "webchanges.handler",
             "webchanges.jobs",
-            "webchanges.jobs_browser",
             "webchanges.mailer",
             "webchanges.main",
             "webchanges.reporters",
@@ -35573,7 +36064,7 @@
             "webchanges.util",
             "webchanges.worker"
         ],
-        "version": "3.6.1"
+        "version": "3.7.1"
     },
     "webchangestopmotion": {
         "cmdline": [
@@ -35747,7 +36238,7 @@
             "webcomix.tests.test_search",
             "webcomix.util"
         ],
-        "version": "3.4.1"
+        "version": "3.5.0"
     },
     "webcommon": {
         "cmdline": [],
@@ -36164,7 +36655,7 @@
     "webdav4": {
         "cmdline": [],
         "modules": [],
-        "version": "0.7.0"
+        "version": "0.8.2"
     },
     "webdavclient": {
         "cmdline": [],
@@ -37705,6 +38196,15 @@
         ],
         "version": "1.6"
     },
+    "webeye": {
+        "cmdline": [],
+        "modules": [
+            "webeye",
+            "webeye.session",
+            "webeye.webeye"
+        ],
+        "version": "1.0.0"
+    },
     "webf": {
         "cmdline": [],
         "modules": [
@@ -38120,7 +38620,7 @@
             "webgram.ssoup",
             "webgram.util"
         ],
-        "version": "0.0.33"
+        "version": "0.0.34"
     },
     "webgrep": {
         "cmdline": [
@@ -38353,6 +38853,34 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "webhook-actions": {
+        "cmdline": [],
+        "modules": [
+            "webhook_actions",
+            "webhook_actions.adapters",
+            "webhook_actions.adapters.app_impl",
+            "webhook_actions.adapters.repo_impl",
+            "webhook_actions.app",
+            "webhook_actions.app.app",
+            "webhook_actions.app.run",
+            "webhook_actions.app.run.run",
+            "webhook_actions.app.run.run_repo",
+            "webhook_actions.app.run.run_test",
+            "webhook_actions.config",
+            "webhook_actions.core",
+            "webhook_actions.core.entities",
+            "webhook_actions.core.entities.action",
+            "webhook_actions.gateways",
+            "webhook_actions.gateways.flask_gateway",
+            "webhook_actions.gateways.script_gateway",
+            "webhook_actions.utils",
+            "webhook_actions.utils.arg_parser",
+            "webhook_actions.utils.config_file_args",
+            "webhook_actions.utils.config_file_parser",
+            "webhook_actions.utils.logger"
+        ],
+        "version": "0.1.0"
     },
     "webhook-bridge": {
         "cmdline": [],
@@ -38763,6 +39291,16 @@
         ],
         "version": "1.0.3"
     },
+    "webkio": {
+        "cmdline": [],
+        "modules": [
+            "webkio",
+            "webkio.client",
+            "webkio.errors",
+            "webkio.server"
+        ],
+        "version": "0.3.1"
+    },
     "webkit": {
         "cmdline": [],
         "modules": [],
@@ -38845,6 +39383,8 @@
             "weblate.accounts.migrations.0012_profile_auto_watch",
             "weblate.accounts.migrations.0013_auto_20210217_1653",
             "weblate.accounts.migrations.0014_auto_20210506_1421",
+            "weblate.accounts.migrations.0015_auto_20210512_1955",
+            "weblate.accounts.migrations.0016_alter_auditlog_activity",
             "weblate.accounts.models",
             "weblate.accounts.notifications",
             "weblate.accounts.password_validation",
@@ -38936,6 +39476,9 @@
             "weblate.auth.migrations.0011_unique_case_insensitive",
             "weblate.auth.migrations.0012_auto_20200729_1200",
             "weblate.auth.migrations.0013_rename_sources_group",
+            "weblate.auth.migrations.0014_auto_20210512_1955",
+            "weblate.auth.migrations.0015_userblock",
+            "weblate.auth.migrations.0016_alter_userblock_unique_together",
             "weblate.auth.models",
             "weblate.auth.permissions",
             "weblate.auth.templatetags",
@@ -38957,6 +39500,7 @@
             "weblate.billing.migrations.0002_remove_billing_grace_period",
             "weblate.billing.migrations.0003_auto_20201118_1217",
             "weblate.billing.migrations.0004_replace_expired",
+            "weblate.billing.migrations.0005_auto_20210512_1955",
             "weblate.billing.migrations.0020_auto_20200320_1007",
             "weblate.billing.models",
             "weblate.billing.tasks",
@@ -38983,6 +39527,7 @@
             "weblate.checks.migrations",
             "weblate.checks.migrations.0001_squashed_0003_auto_20191212_1441",
             "weblate.checks.migrations.0004_auto_20200516_1821",
+            "weblate.checks.migrations.0005_alter_check_options",
             "weblate.checks.models",
             "weblate.checks.parser",
             "weblate.checks.placeholders",
@@ -39017,6 +39562,7 @@
             "weblate.configuration.apps",
             "weblate.configuration.migrations",
             "weblate.configuration.migrations.0001_initial",
+            "weblate.configuration.migrations.0002_alter_setting_options",
             "weblate.configuration.models",
             "weblate.configuration.tests",
             "weblate.configuration.views",
@@ -39026,6 +39572,7 @@
             "weblate.fonts.forms",
             "weblate.fonts.migrations",
             "weblate.fonts.migrations.0001_squashed_0007_auto_20190517_1907",
+            "weblate.fonts.migrations.0002_auto_20210512_1955",
             "weblate.fonts.models",
             "weblate.fonts.tasks",
             "weblate.fonts.tests",
@@ -39101,6 +39648,7 @@
             "weblate.legal.middleware",
             "weblate.legal.migrations",
             "weblate.legal.migrations.0001_squashed_0002_auto_20190516_1224",
+            "weblate.legal.migrations.0002_alter_agreement_options",
             "weblate.legal.models",
             "weblate.legal.pipeline",
             "weblate.legal.tests",
@@ -39117,6 +39665,7 @@
             "weblate.machinery.glosbe",
             "weblate.machinery.google",
             "weblate.machinery.googlev3",
+            "weblate.machinery.libretranslate",
             "weblate.machinery.microsoft",
             "weblate.machinery.microsoftterminology",
             "weblate.machinery.models",
@@ -39144,6 +39693,7 @@
             "weblate.memory.migrations.0008_adjust_similarity",
             "weblate.memory.migrations.0009_pg_index",
             "weblate.memory.migrations.0010_auto_20210506_1439",
+            "weblate.memory.migrations.0011_alter_memory_options",
             "weblate.memory.models",
             "weblate.memory.tasks",
             "weblate.memory.tests",
@@ -39161,6 +39711,7 @@
             "weblate.metrics.migrations.0007_auto_20210402_1205",
             "weblate.metrics.migrations.0008_alter_metric_value",
             "weblate.metrics.migrations.0009_alter_metric_name",
+            "weblate.metrics.migrations.0010_alter_metric_options",
             "weblate.metrics.models",
             "weblate.metrics.tasks",
             "weblate.metrics.templatetags",
@@ -39180,6 +39731,7 @@
             "weblate.screenshots.migrations.0002_screenshot_translation",
             "weblate.screenshots.migrations.0003_fill_translation",
             "weblate.screenshots.migrations.0004_auto_20201002_1423",
+            "weblate.screenshots.migrations.0005_alter_screenshot_options",
             "weblate.screenshots.models",
             "weblate.screenshots.tasks",
             "weblate.screenshots.tests",
@@ -39290,6 +39842,9 @@
             "weblate.trans.migrations.0131_alter_unit_index_together",
             "weblate.trans.migrations.0132_alter_unit_state",
             "weblate.trans.migrations.0133_glossary_missing_files",
+            "weblate.trans.migrations.0134_component_remote_revision",
+            "weblate.trans.migrations.0135_component_local_revision",
+            "weblate.trans.migrations.0136_auto_20210611_0731",
             "weblate.trans.mixins",
             "weblate.trans.models",
             "weblate.trans.models._conf",
@@ -39477,9 +40032,11 @@
             "weblate.wladmin",
             "weblate.wladmin.apps",
             "weblate.wladmin.forms",
+            "weblate.wladmin.middleware",
             "weblate.wladmin.migrations",
             "weblate.wladmin.migrations.0001_squashed_0008_auto_20191011_0816",
             "weblate.wladmin.migrations.0002_supportstatus_discoverable",
+            "weblate.wladmin.migrations.0003_auto_20210512_1955",
             "weblate.wladmin.models",
             "weblate.wladmin.sites",
             "weblate.wladmin.tasks",
@@ -39489,7 +40046,7 @@
             "weblate.wladmin.views",
             "weblate.wsgi"
         ],
-        "version": "4.6.2"
+        "version": "4.7.1"
     },
     "weblate-a1az": {
         "cmdline": [],
@@ -41646,7 +42203,7 @@
             "weboa.utils.Processing",
             "weboa_res"
         ],
-        "version": "0.5.0"
+        "version": "0.5.2"
     },
     "webob": {
         "cmdline": [],
@@ -42288,7 +42845,7 @@
         "modules": [
             "webpage2telegraph"
         ],
-        "version": "2021.6.14"
+        "version": "2021.6.21"
     },
     "webpages": {
         "cmdline": [],
@@ -42327,7 +42884,7 @@
     "webpagetester": {
         "cmdline": [],
         "modules": [],
-        "version": "0.1.0"
+        "version": "0.1.5"
     },
     "webpagetracker": {
         "cmdline": [],
@@ -42558,7 +43115,7 @@
             "webpie/webob.static",
             "webpie/webob.util"
         ],
-        "version": "5.5.2"
+        "version": "5.5.3"
     },
     "webpigpio": {
         "cmdline": [],
@@ -43051,11 +43608,6 @@
         "cmdline": [],
         "modules": [],
         "version": "0.1dev"
-    },
-    "webpyte": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
     },
     "webpython": {
         "cmdline": [],
@@ -43968,6 +44520,24 @@
         ],
         "version": "0.1.7"
     },
+    "webscrapingapi": {
+        "cmdline": [],
+        "modules": [
+            "webscrapingapi",
+            "webscrapingapi.client"
+        ],
+        "version": "1.2.6"
+    },
+    "webscrapingapi-scrapy-sdk": {
+        "cmdline": [],
+        "modules": [
+            "webscrapingapi_scrapy_sdk",
+            "webscrapingapi_scrapy_sdk.middleware",
+            "webscrapingapi_scrapy_sdk.request",
+            "webscrapingapi_scrapy_sdk.spider"
+        ],
+        "version": "1.0.7"
+    },
     "webscrapingjordi": {
         "cmdline": [],
         "modules": [
@@ -44209,7 +44779,7 @@
             "webship",
             "webship.tasks"
         ],
-        "version": "0.1.0"
+        "version": "0.1.2"
     },
     "webshot": {
         "cmdline": [],
@@ -44274,6 +44844,23 @@
         ],
         "version": "1.1"
     },
+    "website-categorization": {
+        "cmdline": [],
+        "modules": [
+            "__init__",
+            "websitecategorization",
+            "websitecategorization.client",
+            "websitecategorization.exceptions",
+            "websitecategorization.exceptions.error",
+            "websitecategorization.models",
+            "websitecategorization.models.base",
+            "websitecategorization.models.response",
+            "websitecategorization.net",
+            "websitecategorization.net.http",
+            "websitecategorization.version"
+        ],
+        "version": "1.0.0"
+    },
     "website-checker": {
         "cmdline": [],
         "modules": [
@@ -44336,14 +44923,6 @@
             "websiteblocker.web"
         ],
         "version": "0.2.4"
-    },
-    "websiteblockerx": {
-        "cmdline": [],
-        "modules": [
-            "websiteblocker",
-            "websiteblocker.web"
-        ],
-        "version": "0.2.6"
     },
     "websitecloner": {
         "cmdline": [],
@@ -44752,7 +45331,7 @@
             "websocks.types",
             "websocks.utils"
         ],
-        "version": "0.4.4"
+        "version": "0.4.6"
     },
     "websonar": {
         "cmdline": [],
@@ -44983,6 +45562,15 @@
         ],
         "version": "1.1.0"
     },
+    "webspray": {
+        "cmdline": [],
+        "modules": [
+            "webspray.lib.logger",
+            "webspray.lib.threadpool",
+            "webspray.webspray"
+        ],
+        "version": "1.0.0"
+    },
     "webssh": {
         "cmdline": [],
         "modules": [
@@ -45190,10 +45778,12 @@
             "tests.test_website",
             "tests.test_webstaterator",
             "webstaterator",
+            "webstaterator.cli",
             "webstaterator.templateengine",
-            "webstaterator.website"
+            "webstaterator.website",
+            "webstaterator.webstaterator"
         ],
-        "version": "0.2.2"
+        "version": "0.3.1"
     },
     "webstemmer": {
         "cmdline": [
@@ -45260,30 +45850,10 @@
         ],
         "version": "0.0.2"
     },
-    "webstorm": {
+    "webstream": {
         "cmdline": [],
-        "modules": [
-            "WebStorm",
-            "WebStorm.data",
-            "WebStorm.data.base",
-            "WebStorm.data.errors",
-            "WebStorm.data.schema",
-            "WebStorm.proto",
-            "WebStorm.proto.data",
-            "WebStorm.proto.error",
-            "WebStorm.proto.web",
-            "WebStorm.protocol",
-            "WebStorm.protocol.http",
-            "WebStorm.protocol.tcp",
-            "WebStorm.protocol.ws",
-            "WebStorm.server",
-            "WebStorm.web",
-            "WebStorm.web.connection",
-            "WebStorm.web.handlers",
-            "WebStorm.web.identity",
-            "WebStorm.web.request"
-        ],
-        "version": "1.0.1"
+        "modules": [],
+        "version": "0.2.0"
     },
     "webstring": {
         "cmdline": [],
@@ -46335,7 +46905,7 @@
         "modules": [
             "webviz_config_equinor"
         ],
-        "version": "0.1.1"
+        "version": "0.1.2"
     },
     "webviz-core-components": {
         "cmdline": [],
@@ -47709,7 +48279,7 @@
             "wechatpayv3.type",
             "wechatpayv3.utils"
         ],
-        "version": "1.0.1"
+        "version": "1.0.3"
     },
     "wechatpy": {
         "cmdline": [],
@@ -48356,7 +48926,7 @@
             "weconnect.util",
             "weconnect.weconnect"
         ],
-        "version": "0.6.1"
+        "version": "0.12.1"
     },
     "weconnect-cli": {
         "cmdline": [],
@@ -48364,7 +48934,7 @@
             "weconnect_cli",
             "weconnect_cli.weconnect_cli"
         ],
-        "version": "0.6.1"
+        "version": "0.11.2"
     },
     "weconnect-mqtt": {
         "cmdline": [],
@@ -48372,7 +48942,7 @@
             "weconnect_mqtt",
             "weconnect_mqtt.weconnect_mqtt"
         ],
-        "version": "0.6.1"
+        "version": "0.11.2"
     },
     "wecover": {
         "cmdline": [],
@@ -48436,7 +49006,7 @@
     "wedge-lib": {
         "cmdline": [],
         "modules": [],
-        "version": "1.2.9.9"
+        "version": "1.2.9.13"
     },
     "wedgedriver": {
         "cmdline": [],
@@ -49074,6 +49644,18 @@
         ],
         "version": "0.0.5"
     },
+    "wehoop-py": {
+        "cmdline": [],
+        "modules": [
+            "wehoop",
+            "wehoop.config",
+            "wehoop.dl_utils",
+            "wehoop.errors",
+            "wehoop.wbb",
+            "wehoop.wnba"
+        ],
+        "version": "0.0.8"
+    },
     "wei-dev": {
         "cmdline": [],
         "modules": [
@@ -49308,7 +49890,7 @@
         "modules": [
             "weiboo"
         ],
-        "version": "0.0.9"
+        "version": "0.0.12"
     },
     "weibopy": {
         "cmdline": [],
@@ -49393,6 +49975,15 @@
             "test"
         ],
         "version": "1.0.0"
+    },
+    "weigangtang-mypkg": {
+        "cmdline": [],
+        "modules": [
+            "weigangtang_mypkg",
+            "weigangtang_mypkg.mktest",
+            "weigangtang_mypkg.myfunc"
+        ],
+        "version": "0.0.9"
     },
     "weighmail": {
         "cmdline": [],
@@ -49577,7 +50168,12 @@
             "weightGIS.weighting.ConstructWeights",
             "weightGIS.weighting.WeightExternal"
         ],
-        "version": "0.10.4"
+        "version": "0.11.0"
+    },
+    "weighting-platform": {
+        "cmdline": [],
+        "modules": [],
+        "version": "1.0.0"
     },
     "weightless-core": {
         "cmdline": [],
@@ -49652,7 +50248,7 @@
             "weightsplitter.tests.settings_test",
             "weightsplitter.tests.support_functions_tests"
         ],
-        "version": "1.19"
+        "version": "1.20"
     },
     "weightwatcher": {
         "cmdline": [],
@@ -50267,13 +50863,14 @@
         "modules": [
             "wekalib",
             "wekalib.circular",
+            "wekalib.exceptions",
             "wekalib.signals",
             "wekalib.sthreads",
             "wekalib.wekaapi",
             "wekalib.wekacluster",
             "wekalib.wekatime"
         ],
-        "version": "1.0.6"
+        "version": "1.2.4"
     },
     "wekan": {
         "cmdline": [],
@@ -50485,7 +51082,7 @@
             "well_profile.plot",
             "well_profile.well"
         ],
-        "version": "0.5.3"
+        "version": "0.6.0"
     },
     "well-schematics": {
         "cmdline": [],
@@ -50742,16 +51339,9 @@
             "wellcompare.grph",
             "wellcompare.heatmap",
             "wellcompare.plate",
-            "wellcompare.process",
-            "wellcompare_old_code",
-            "wellcompare_old_code.combine",
-            "wellcompare_old_code.extract",
-            "wellcompare_old_code.graph_repl",
-            "wellcompare_old_code.grph",
-            "wellcompare_old_code.heatmap",
-            "wellcompare_old_code.process"
+            "wellcompare.process"
         ],
-        "version": "2.1.6"
+        "version": "2.3.4"
     },
     "welleng": {
         "cmdline": [],
@@ -50782,7 +51372,7 @@
             "welleng.version",
             "welleng.visual"
         ],
-        "version": "0.2.22"
+        "version": "0.2.24"
     },
     "wellfare": {
         "cmdline": [
@@ -51082,7 +51672,7 @@
             "welly.utils",
             "welly.well"
         ],
-        "version": "0.4.9"
+        "version": "0.4.10"
     },
     "welovenad": {
         "cmdline": [],
@@ -51283,7 +51873,7 @@
             "wemake_python_styleguide.visitors.tokenize.statements",
             "wemake_python_styleguide.visitors.tokenize.syntax"
         ],
-        "version": "0.15.2"
+        "version": "0.15.3"
     },
     "wemakeprice": {
         "cmdline": [],
@@ -52399,7 +52989,7 @@
             "werkit.s3",
             "werkit.schema"
         ],
-        "version": "0.16.0"
+        "version": "0.17.0"
     },
     "werkzeug": {
         "cmdline": [],
@@ -52567,7 +53157,7 @@
             "wesell.sqlalchemy",
             "wesell.sqlalchemy.types"
         ],
-        "version": "1.0.4"
+        "version": "1.1.0"
     },
     "wesgi": {
         "cmdline": [],
@@ -53291,6 +53881,7 @@
             "wetterdienst.exceptions",
             "wetterdienst.metadata",
             "wetterdienst.metadata.columns",
+            "wetterdienst.metadata.datarange",
             "wetterdienst.metadata.extension",
             "wetterdienst.metadata.kind",
             "wetterdienst.metadata.period",
@@ -53357,6 +53948,7 @@
             "wetterdienst.provider.eumetnet.opera.sites",
             "wetterdienst.ui",
             "wetterdienst.ui.cli",
+            "wetterdienst.ui.core",
             "wetterdienst.ui.explorer",
             "wetterdienst.ui.explorer.app",
             "wetterdienst.ui.explorer.layout",
@@ -53371,12 +53963,14 @@
             "wetterdienst.util.datetime",
             "wetterdienst.util.enumeration",
             "wetterdienst.util.geo",
+            "wetterdienst.util.logging",
             "wetterdienst.util.network",
+            "wetterdienst.util.pandas",
             "wetterdienst.util.parameter",
             "wetterdienst.util.pdf",
             "wetterdienst.util.url"
         ],
-        "version": "0.19.0"
+        "version": "0.20.2"
     },
     "wev": {
         "cmdline": [],
@@ -53472,12 +54066,13 @@
             "Weverse.models.photo",
             "Weverse.models.post",
             "Weverse.models.tab",
+            "Weverse.models.video",
             "Weverse.objects",
             "Weverse.weverseasync",
             "Weverse.weverseclient",
             "Weverse.weversesync"
         ],
-        "version": "1.0.1"
+        "version": "1.0.3"
     },
     "wework": {
         "cmdline": [],
@@ -53501,6 +54096,26 @@
             "wework.ierror"
         ],
         "version": "0.1.4"
+    },
+    "weworkapi-cfomp": {
+        "cmdline": [],
+        "modules": [
+            "wework_callback",
+            "wework_callback.WXBizMsgCrypt3",
+            "wework_callback.ierror",
+            "wework_callback_json",
+            "wework_callback_json.Sample",
+            "wework_callback_json.WXBizJsonMsgCrypt",
+            "wework_callback_json.ierror",
+            "wework_sendmsg",
+            "wework_sendmsg.sendmsg",
+            "weworkapi",
+            "weworkapi.AbstractApi",
+            "weworkapi.CorpApi",
+            "weworkapi.ServiceCorpApi",
+            "weworkapi.ServiceProviderApi"
+        ],
+        "version": "1.1.4"
     },
     "weworkbot": {
         "cmdline": [],
@@ -53670,6 +54285,17 @@
         ],
         "version": "0.3.2"
     },
+    "wezbxsrv-cfomp": {
+        "cmdline": [],
+        "modules": [
+            "wezbxsrv",
+            "wezbxsrv.app",
+            "wezbxsrv.msgtype_handler",
+            "wezbxsrv.msgtype_handler.event_msgtype_handler",
+            "wezbxsrv.msgtype_handler.text_msgtype_handler"
+        ],
+        "version": "1.0.1"
+    },
     "wf": {
         "cmdline": [],
         "modules": [
@@ -53824,7 +54450,7 @@
             "honeycomb_io.utils",
             "honeycomb_io.uwb_data"
         ],
-        "version": "1.6.3"
+        "version": "1.7.0"
     },
     "wf-manager": {
         "cmdline": [],
@@ -53870,28 +54496,51 @@
         "cmdline": [],
         "modules": [
             "process_cuwb_data",
+            "process_cuwb_data.cli",
             "process_cuwb_data.core",
-            "process_cuwb_data.features",
+            "process_cuwb_data.filters",
+            "process_cuwb_data.filters.butter",
+            "process_cuwb_data.filters.filt_filt",
+            "process_cuwb_data.filters.savgol",
+            "process_cuwb_data.filters.sos_filt_filt",
             "process_cuwb_data.geom_render",
+            "process_cuwb_data.honeycomb_imu_data",
+            "process_cuwb_data.honeycomb_pose_data",
+            "process_cuwb_data.parse_events",
+            "process_cuwb_data.utils",
+            "process_cuwb_data.utils.case_insensitive_enum",
+            "process_cuwb_data.utils.io",
+            "process_cuwb_data.utils.log",
+            "process_cuwb_data.utils.util",
+            "process_cuwb_data.uwb_extract_data",
+            "process_cuwb_data.uwb_motion_classifier_human_activity",
+            "process_cuwb_data.uwb_motion_classifier_random_forest",
+            "process_cuwb_data.uwb_motion_classifier_tray_carry",
+            "process_cuwb_data.uwb_motion_enum_carry_categories",
+            "process_cuwb_data.uwb_motion_enum_groundtruth_data_source",
+            "process_cuwb_data.uwb_motion_enum_human_activities",
+            "process_cuwb_data.uwb_motion_enum_interaction_types",
+            "process_cuwb_data.uwb_motion_events",
+            "process_cuwb_data.uwb_motion_features",
+            "process_cuwb_data.uwb_motion_filters",
+            "process_cuwb_data.uwb_motion_ground_truth",
+            "process_cuwb_data.uwb_motion_tray_interactions",
+            "process_cuwb_data.uwb_predict_tray_centroids",
             "process_cuwb_data.visualize"
         ],
-        "version": "0.4.0"
+        "version": "1.1"
     },
     "wf-process-pose-data": {
         "cmdline": [],
         "modules": [
             "process_pose_data",
-            "process_pose_data.filter",
             "process_pose_data.geom_render",
-            "process_pose_data.identify",
             "process_pose_data.local_io",
             "process_pose_data.overlay",
             "process_pose_data.process",
-            "process_pose_data.reconstruct",
-            "process_pose_data.track_poses",
-            "process_pose_data.visualize"
+            "process_pose_data.viz_3d"
         ],
-        "version": "3.4.0"
+        "version": "4.2.0"
     },
     "wf-pycat": {
         "cmdline": [],
@@ -54301,7 +54950,7 @@
             "wfield.viz",
             "wfield.widgets"
         ],
-        "version": "0.1"
+        "version": "0.2.2"
     },
     "wfieldtools": {
         "cmdline": [],
@@ -54574,7 +55223,7 @@
             "wfsim.units",
             "wfsim.utils"
         ],
-        "version": "0.5.3"
+        "version": "0.5.5"
     },
     "wfslib": {
         "cmdline": [],
@@ -54837,7 +55486,7 @@
             "wg_meshconf.wg_meshconf",
             "wg_meshconf.wireguard"
         ],
-        "version": "2.4.0"
+        "version": "2.5.0"
     },
     "wg-pyutils": {
         "cmdline": [],
@@ -54949,6 +55598,30 @@
             "wgconfig.wgexec"
         ],
         "version": "0.2.2"
+    },
+    "wgcpy": {
+        "cmdline": [],
+        "modules": [
+            "wgcpy",
+            "wgcpy.bins",
+            "wgcpy.bins.chi_merge",
+            "wgcpy.bins.cut_bins",
+            "wgcpy.config",
+            "wgcpy.featureSelector",
+            "wgcpy.featureSelector.cal_iv_psi",
+            "wgcpy.featureSelector.selector",
+            "wgcpy.main",
+            "wgcpy.model",
+            "wgcpy.model.dz_eval",
+            "wgcpy.model.gen_model",
+            "wgcpy.model.gen_pmml_model",
+            "wgcpy.preprocessing",
+            "wgcpy.preprocessing.data_dectection",
+            "wgcpy.preprocessing.eda",
+            "wgcpy.utils",
+            "wgcpy.utils.ext_fn"
+        ],
+        "version": "1.0.0"
     },
     "wgdi": {
         "cmdline": [],
@@ -55686,22 +56359,27 @@
             "whacc.examples.5_split_data_for_retrain_example",
             "whacc.examples.6_retrain_example",
             "whacc.examples.add_pole_times",
+            "whacc.examples.diff_h5_creator",
+            "whacc.examples.gists",
             "whacc.examples.gui_example",
             "whacc.examples.h5_tester",
             "whacc.examples.make_master_training_H5_example",
             "whacc.examples.re_pole_down",
             "whacc.examples.re_pole_down_2",
             "whacc.examples.read_frame_test",
+            "whacc.examples.run_all_model",
             "whacc.examples.scratch",
             "whacc.examples.scratch_2",
             "whacc.examples.track_moving_test",
+            "whacc.examples.var_rename_scratch",
             "whacc.image_tools",
             "whacc.pole_tracker",
             "whacc.subset_h5_generator",
             "whacc.touch_curation_GUI",
+            "whacc.transfer_learning",
             "whacc.utils"
         ],
-        "version": "0.0.31"
+        "version": "0.0.40"
     },
     "whack": {
         "cmdline": [],
@@ -55898,6 +56576,17 @@
             "whale.utils.sql"
         ],
         "version": "1.5.1"
+    },
+    "whale-revenue-projection": {
+        "cmdline": [],
+        "modules": [
+            "whale_revenue_projection",
+            "whale_revenue_projection.get_ltv",
+            "whale_revenue_projection.get_survival",
+            "whale_revenue_projection.revenue_prediction",
+            "whale_revenue_projection.validation_prediction"
+        ],
+        "version": "0.0.2"
     },
     "whalebuilder": {
         "cmdline": [],
@@ -56396,6 +57085,7 @@
             "whatap.trace.mod.application_nameko",
             "whatap.trace.mod.application_tornado",
             "whatap.trace.mod.application_wsgi",
+            "whatap.trace.mod.database_mongo",
             "whatap.trace.mod.database_mysql",
             "whatap.trace.mod.database_postgresql",
             "whatap.trace.mod.database_redis",
@@ -56456,7 +57146,7 @@
             "whatap.value.value",
             "whatap.value.value_enum"
         ],
-        "version": "1.0.9"
+        "version": "1.1.2"
     },
     "whatapi": {
         "cmdline": [],
@@ -56857,7 +57547,7 @@
             "whatportis.server",
             "whatportis.utils"
         ],
-        "version": "0.8.1"
+        "version": "0.8.2"
     },
     "whatprovides": {
         "cmdline": [],
@@ -57005,24 +57695,18 @@
         "cmdline": [],
         "modules": [
             "whatsapp_converter",
+            "whatsapp_converter.colors",
             "whatsapp_converter.tests",
             "whatsapp_converter.tests.test_parse",
             "whatsapp_converter.version",
             "whatsapp_converter.whatsapp_converter"
         ],
-        "version": "0.4.4"
+        "version": "0.5.4"
     },
     "whatsapp-guru": {
         "cmdline": [],
         "modules": [],
         "version": ""
-    },
-    "whatsapp-message-snd": {
-        "cmdline": [],
-        "modules": [
-            "waspam"
-        ],
-        "version": "3.0.2"
     },
     "whatsapp-parser": {
         "cmdline": [],
@@ -57096,6 +57780,13 @@
             "bot.main"
         ],
         "version": "0.0.1.0"
+    },
+    "whatsappbot-selenium": {
+        "cmdline": [],
+        "modules": [
+            "whatsappbot-selenium.setup"
+        ],
+        "version": "0.0.1"
     },
     "whatsappchatbot": {
         "cmdline": [],
@@ -57543,7 +58234,7 @@
             "whdtscraper",
             "whdtscraper.whdtscraper"
         ],
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "wheat-sample-app": {
         "cmdline": [],
@@ -57738,6 +58429,8 @@
             "wheelchair.api.auth",
             "wheelchair.api.auth.auth",
             "wheelchair.api.auth.cookie_auth",
+            "wheelchair.api.cluster_setup",
+            "wheelchair.api.cluster_setup.cluster_setup",
             "wheelchair.api.connection",
             "wheelchair.api.database",
             "wheelchair.api.database.attachment",
@@ -57759,6 +58452,8 @@
             "wheelchair.api.node",
             "wheelchair.api.node.config",
             "wheelchair.api.node.node",
+            "wheelchair.api.scheduler",
+            "wheelchair.api.scheduler.scheduler",
             "wheelchair.api.server",
             "wheelchair.api.server.server",
             "wheelchair.api.session",
@@ -57769,7 +58464,7 @@
             "wheelchair.api.utils.stale_options",
             "wheelchair.version"
         ],
-        "version": "0.1.7"
+        "version": "0.1.9"
     },
     "wheelcms": {
         "cmdline": [],
@@ -58144,7 +58839,7 @@
     "wheelfile": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.5"
+        "version": "0.0.6"
     },
     "wheelhouse": {
         "cmdline": [],
@@ -58402,7 +59097,7 @@
             "wheezy.captcha.image",
             "wheezy.captcha.mixin"
         ],
-        "version": "3.0.1"
+        "version": "3.0.2"
     },
     "wheezy-core": {
         "cmdline": [],
@@ -58866,12 +59561,20 @@
     "whey": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.14"
+        "version": "0.0.17"
+    },
+    "whey-conda": {
+        "cmdline": [],
+        "modules": [
+            "whey_conda",
+            "whey_conda.config"
+        ],
+        "version": "0.1.2"
     },
     "whey-pth": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.3"
+        "version": "0.0.4"
     },
     "which": {
         "cmdline": [],
@@ -59140,6 +59843,7 @@
         "modules": [
             "whikoperator",
             "whikoperator.configs",
+            "whikoperator.configs.cam_count",
             "whikoperator.functions",
             "whikoperator.main",
             "whikoperator.settings",
@@ -59149,7 +59853,18 @@
             "whikoperator.tests.settings_test",
             "whikoperator.tests.shot_test"
         ],
-        "version": "1.42"
+        "version": "1.43"
+    },
+    "while-lang": {
+        "cmdline": [],
+        "modules": [
+            "whilelang",
+            "whilelang.interpret",
+            "whilelang.jit",
+            "whilelang.models",
+            "whilelang.parse"
+        ],
+        "version": "0.7.1"
     },
     "while-machine": {
         "cmdline": [],
@@ -59910,7 +60625,7 @@
             "whiteboxlayer.extensions.utility",
             "whiteboxlayer.layers"
         ],
-        "version": "0.1.9"
+        "version": "0.1.13.post5"
     },
     "whitecanzelib": {
         "cmdline": [],
@@ -60150,7 +60865,7 @@
             "whitesource_backend.paths",
             "whitesource_backend.util"
         ],
-        "version": "0.27.0"
+        "version": "0.31.0"
     },
     "whitesource-common": {
         "cmdline": [],
@@ -60751,7 +61466,7 @@
             "whoisit.query",
             "whoisit.utils"
         ],
-        "version": "1.5"
+        "version": "1.9"
     },
     "whoiske": {
         "cmdline": [],
@@ -61260,7 +61975,7 @@
             "whooshes.ext.fields",
             "whooshes.transformer"
         ],
-        "version": "0.1a1"
+        "version": "0.1a2"
     },
     "whooshstore": {
         "cmdline": [],
@@ -61828,11 +62543,11 @@
             "whylogs.core.statistics.datatypes",
             "whylogs.core.statistics.datatypes.floattracker",
             "whylogs.core.statistics.datatypes.integertracker",
-            "whylogs.core.statistics.datatypes.stringtracker",
             "whylogs.core.statistics.datatypes.variancetracker",
             "whylogs.core.statistics.hllsketch",
             "whylogs.core.statistics.numbertracker",
             "whylogs.core.statistics.schematracker",
+            "whylogs.core.statistics.stringtracker",
             "whylogs.core.statistics.thetasketch",
             "whylogs.core.summaryconverters",
             "whylogs.core.types",
@@ -61857,6 +62572,7 @@
             "whylogs.util.protobuf",
             "whylogs.util.stats",
             "whylogs.util.time",
+            "whylogs.util.util_functions",
             "whylogs.util.varint",
             "whylogs.viz",
             "whylogs.viz.base",
@@ -61867,7 +62583,7 @@
             "whylogs.whylabs_client",
             "whylogs.whylabs_client.wrapper"
         ],
-        "version": "0.4.8"
+        "version": "0.4.9"
     },
     "whynot": {
         "cmdline": [],
@@ -62861,7 +63577,7 @@
             "widlparser.protocols",
             "widlparser.tokenizer"
         ],
-        "version": "1.0.10"
+        "version": "1.0.11"
     },
     "widow-spider": {
         "cmdline": [],
@@ -64056,7 +64772,7 @@
             "wiki_monkey.lib.static",
             "wiki_monkey.main"
         ],
-        "version": "5.4.0"
+        "version": "5.5.0"
     },
     "wiki-music": {
         "cmdline": [],
@@ -64157,6 +64873,14 @@
             "wiki_ru_wordnet.word"
         ],
         "version": "1.0.3"
+    },
+    "wiki-scraper": {
+        "cmdline": [],
+        "modules": [
+            "wiki_scraper",
+            "wiki_scraper.myfunctions"
+        ],
+        "version": "0.1.0"
     },
     "wiki-scrapper": {
         "cmdline": [],
@@ -65188,7 +65912,7 @@
             "wikihowunofficialapi",
             "wikihowunofficialapi.exceptions"
         ],
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "wikiid2vec": {
         "cmdline": [],
@@ -65260,6 +65984,23 @@
             "wikilinks"
         ],
         "version": "0.0.4"
+    },
+    "wikilyzer-ska-1": {
+        "cmdline": [],
+        "modules": [
+            "classes",
+            "classes.bip",
+            "classes.uc",
+            "functions",
+            "functions.banner",
+            "functions.clear",
+            "functions.csf",
+            "functions.req",
+            "functions.sto",
+            "process",
+            "process.core"
+        ],
+        "version": "0.0.0"
     },
     "wikiman": {
         "cmdline": [],
@@ -65339,7 +66080,7 @@
             "spicerack.toolforge.etcdctl",
             "spicerack.typing"
         ],
-        "version": "0.0.53"
+        "version": "0.0.56"
     },
     "wikimediaci-utils": {
         "cmdline": [],
@@ -65563,6 +66304,24 @@
         "modules": [],
         "version": ""
     },
+    "wikipedia-ql": {
+        "cmdline": [],
+        "modules": [
+            "tests",
+            "tests.test_fragment",
+            "tests.test_fragment_query",
+            "tests.test_fragment_select",
+            "tests.test_parser",
+            "tests.test_selectors",
+            "tests.test_wikipedia_ql",
+            "wikipedia_ql",
+            "wikipedia_ql.fragment",
+            "wikipedia_ql.media_wiki",
+            "wikipedia_ql.parser",
+            "wikipedia_ql.selectors"
+        ],
+        "version": "0.0.2"
+    },
     "wikipedia-revisions": {
         "cmdline": [],
         "modules": [],
@@ -65572,6 +66331,18 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "wikipedia-searcher": {
+        "cmdline": [],
+        "modules": [
+            "wikisearch",
+            "wikisearch.article",
+            "wikisearch.wikisearcher",
+            "wikisearch.wikiutil",
+            "wikisearch.wikiutil.report",
+            "wikisearch.wikiutil.wikiutil"
+        ],
+        "version": "0.0.4"
     },
     "wikipedia-sections": {
         "cmdline": [],
@@ -65802,6 +66573,18 @@
         ],
         "version": "0.4.1"
     },
+    "wikirate4py": {
+        "cmdline": [],
+        "modules": [
+            "wikirate4py",
+            "wikirate4py.api",
+            "wikirate4py.cursor",
+            "wikirate4py.exceptions",
+            "wikirate4py.mixins",
+            "wikirate4py.models"
+        ],
+        "version": "1.0.1"
+    },
     "wikireader": {
         "cmdline": [],
         "modules": [
@@ -65844,10 +66627,10 @@
             "wikifile.toolbox",
             "wikifile.wikiExtract",
             "wikifile.wikiFile",
-            "wikifile.wikiFix",
+            "wikifile.wikiFileManager",
             "wikifile.wikiRender"
         ],
-        "version": "0.0.7"
+        "version": "0.0.12"
     },
     "wikirepo": {
         "cmdline": [],
@@ -66204,6 +66987,45 @@
             "wikiup"
         ],
         "version": "1.1"
+    },
+    "wikiusers": {
+        "cmdline": [],
+        "modules": [
+            "wikiusers",
+            "wikiusers.dataloader",
+            "wikiusers.dataloader.whdtloader",
+            "wikiusers.logger",
+            "wikiusers.logger.logger",
+            "wikiusers.postprocessor",
+            "wikiusers.postprocessor.processor",
+            "wikiusers.postprocessor.utils",
+            "wikiusers.postprocessor.utils.batcher",
+            "wikiusers.postprocessor.utils.elaborator",
+            "wikiusers.postprocessor.utils.elaborator.sex",
+            "wikiusers.postprocessor.utils.elaborator.users",
+            "wikiusers.postprocessor.utils.uploader",
+            "wikiusers.rawprocessor",
+            "wikiusers.rawprocessor.processor",
+            "wikiusers.rawprocessor.utils",
+            "wikiusers.rawprocessor.utils.analyzer",
+            "wikiusers.rawprocessor.utils.keys",
+            "wikiusers.rawprocessor.utils.misc",
+            "wikiusers.rawprocessor.utils.parser",
+            "wikiusers.rawprocessor.utils.uploader",
+            "wikiusers.settings",
+            "wikiusers.settings.settings"
+        ],
+        "version": "1.1.1"
+    },
+    "wikiusers-cli": {
+        "cmdline": [],
+        "modules": [
+            "wikiusers_cli",
+            "wikiusers_cli.main",
+            "wikiusers_cli.utils",
+            "wikiusers_cli.utils.langs"
+        ],
+        "version": "1.1.1"
     },
     "wikiutils": {
         "cmdline": [],
@@ -67321,7 +68143,7 @@
             "wildgram.tobedeleted",
             "wildgram.wildgram"
         ],
-        "version": "0.2.7"
+        "version": "0.3.0"
     },
     "wildhops": {
         "cmdline": [],
@@ -67807,12 +68629,13 @@
             "willing_zg.django_willing_zg",
             "willing_zg.get_env",
             "willing_zg.google_analytics",
+            "willing_zg.idle_session_handler",
             "willing_zg.resources",
             "willing_zg.resources.deploy",
             "willing_zg.resources.mailer",
             "willing_zg.tokens"
         ],
-        "version": "1.3.3"
+        "version": "1.3.5"
     },
     "willow": {
         "cmdline": [],
@@ -68008,7 +68831,7 @@
             "wily.operators.raw",
             "wily.state"
         ],
-        "version": "1.19.0"
+        "version": "1.20.0"
     },
     "wim": {
         "cmdline": [],
@@ -68801,6 +69624,11 @@
         ],
         "version": "0.1.0"
     },
+    "win64py": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "win7ools": {
         "cmdline": [],
         "modules": [
@@ -69218,7 +70046,7 @@
             "windfreak.device",
             "windfreak.synth_hd"
         ],
-        "version": "0.2.0"
+        "version": "0.2.1"
     },
     "windhelper": {
         "cmdline": [],
@@ -69256,7 +70084,7 @@
         "modules": [
             "windlib"
         ],
-        "version": "1.7.7"
+        "version": "1.7.11"
     },
     "windmailer": {
         "cmdline": [],
@@ -69608,14 +70436,14 @@
             "windows_firewall",
             "wmi_queries"
         ],
-        "version": "2.0.3"
+        "version": "2.0.4"
     },
     "windows-tools-antivirus": {
         "cmdline": [],
         "modules": [
             "antivirus"
         ],
-        "version": "0.6.1"
+        "version": "0.7.1"
     },
     "windows-tools-bitlocker": {
         "cmdline": [],
@@ -69678,7 +70506,7 @@
         "modules": [
             "product_key"
         ],
-        "version": "0.3.1"
+        "version": "0.3.2"
     },
     "windows-tools-registry": {
         "cmdline": [],
@@ -69720,7 +70548,7 @@
         "modules": [
             "virtualization"
         ],
-        "version": "0.3.1"
+        "version": "0.3.2"
     },
     "windows-tools-windows-firewall": {
         "cmdline": [],
@@ -69734,7 +70562,7 @@
         "modules": [
             "wmi_queries"
         ],
-        "version": "0.9.6"
+        "version": "0.9.7"
     },
     "windows-unix-commands": {
         "cmdline": [],
@@ -70167,6 +70995,9 @@
             "windyquery.provider.param",
             "windyquery.provider.parentheses",
             "windyquery.provider.record",
+            "windyquery.scripts",
+            "windyquery.scripts.migration",
+            "windyquery.scripts.migration_templates",
             "windyquery.tests",
             "windyquery.tests.conftest",
             "windyquery.tests.test_alter_table",
@@ -70176,6 +71007,7 @@
             "windyquery.tests.test_insert",
             "windyquery.tests.test_join",
             "windyquery.tests.test_listener",
+            "windyquery.tests.test_migrations",
             "windyquery.tests.test_raw",
             "windyquery.tests.test_rrule",
             "windyquery.tests.test_scheme",
@@ -70229,7 +71061,7 @@
             "windyquery.validator.values.true",
             "windyquery.validator.where"
         ],
-        "version": "0.0.22"
+        "version": "0.0.24"
     },
     "windyquery-0-0-2": {
         "cmdline": [],
@@ -70570,7 +71402,7 @@
             "winix.cmd",
             "winix.driver"
         ],
-        "version": "0.2.1"
+        "version": "0.3.0"
     },
     "winjob": {
         "cmdline": [],
@@ -70700,7 +71532,7 @@
             "winney.mock",
             "winney.winney"
         ],
-        "version": "0.5.5"
+        "version": "0.5.6"
     },
     "winney-redis": {
         "cmdline": [],
@@ -70722,11 +71554,11 @@
             "winning.lattice_calibration",
             "winning.lattice_conventions",
             "winning.lattice_plot",
-            "winning.lattice_pricing",
+            "winning.lattice_simulation",
             "winning.skew_calibration",
             "winning.std_calibration"
         ],
-        "version": "0.0.4"
+        "version": "0.1.2"
     },
     "winnotify": {
         "cmdline": [],
@@ -71080,11 +71912,14 @@
         "cmdline": [],
         "modules": [
             "winregistry",
+            "winregistry.consts",
+            "winregistry.models",
             "winregistry.robot",
             "winregistry.robot.keywords",
+            "winregistry.utils",
             "winregistry.winregistry"
         ],
-        "version": "0.8.3"
+        "version": "1.0.1"
     },
     "winreglib": {
         "cmdline": [],
@@ -71893,6 +72728,7 @@
             "winter.core.json",
             "winter.core.json.decoder",
             "winter.core.json.encoder",
+            "winter.core.module_discovery",
             "winter.core.utils",
             "winter.core.utils.beautify_string",
             "winter.core.utils.cached_property",
@@ -71967,6 +72803,7 @@
             "winter_ddd.domain_event_subscription",
             "winter_ddd.domain_events",
             "winter_django",
+            "winter_django.autodiscovery",
             "winter_django.body_argument_resolver",
             "winter_django.body_with_context",
             "winter_django.http_request_argument_resolver",
@@ -71995,12 +72832,12 @@
             "winter_sqlalchemy.query",
             "winter_sqlalchemy.repository"
         ],
-        "version": "9.2.0"
+        "version": "9.4.0"
     },
     "winter-theme": {
         "cmdline": [],
         "modules": [],
-        "version": "0.0.1"
+        "version": "0.0.3"
     },
     "winterboot": {
         "cmdline": [],
@@ -72156,7 +72993,7 @@
         "modules": [
             "WinTmp"
         ],
-        "version": "0.0.5"
+        "version": "0.0.7"
     },
     "wintoast": {
         "cmdline": [],
@@ -73157,7 +73994,7 @@
             "wirecloud.keycloak.utils",
             "wirecloud.keycloak.views"
         ],
-        "version": "0.3.6"
+        "version": "0.4.4"
     },
     "wirecloud-markdown-github": {
         "cmdline": [],
@@ -73646,6 +74483,18 @@
         ],
         "version": "1.3.7"
     },
+    "wirepas-console": {
+        "cmdline": [],
+        "modules": [
+            "wirepas_console",
+            "wirepas_console.backend",
+            "wirepas_console.backend.mqtt_connection",
+            "wirepas_console.backend.settings",
+            "wirepas_console.console",
+            "wirepas_console.frontend"
+        ],
+        "version": "1.0"
+    },
     "wirepas-gateway": {
         "cmdline": [],
         "modules": [
@@ -73834,6 +74683,11 @@
             "wireshark_ext.packet"
         ],
         "version": "0.1"
+    },
+    "wiresharkdownload": {
+        "cmdline": [],
+        "modules": [],
+        "version": "0.3.0"
     },
     "wireui-thetimmoth": {
         "cmdline": [],
@@ -74053,6 +74907,14 @@
             "wisdom"
         ],
         "version": "0.1.0"
+    },
+    "wisdom-tree": {
+        "cmdline": [],
+        "modules": [
+            "wisdom_tree",
+            "wisdom_tree.main"
+        ],
+        "version": "0.0.3"
     },
     "wisdomhord": {
         "cmdline": [],
@@ -75239,7 +76101,7 @@
             "witchcraft.upsert",
             "witchcraft.utils"
         ],
-        "version": "0.2.45"
+        "version": "0.2.47"
     },
     "witcher": {
         "cmdline": [],
@@ -75827,6 +76689,13 @@
         "modules": [],
         "version": "0.0.3"
     },
+    "witty-flow-sms": {
+        "cmdline": [],
+        "modules": [
+            "witty_flow_sms"
+        ],
+        "version": "1.0.2"
+    },
     "wittypy": {
         "cmdline": [],
         "modules": [
@@ -76191,13 +77060,18 @@
             "media_platform.service.live_service.close_stream_request",
             "media_platform.service.live_service.enforced_stream_params",
             "media_platform.service.live_service.geo_location",
+            "media_platform.service.live_service.get_stream_frame_request",
             "media_platform.service.live_service.get_stream_request",
+            "media_platform.service.live_service.list_streams_request",
+            "media_platform.service.live_service.list_streams_response",
             "media_platform.service.live_service.live_service",
             "media_platform.service.live_service.live_stream",
             "media_platform.service.live_service.open_stream_request",
             "media_platform.service.live_service.stream_dvr",
             "media_platform.service.live_service.stream_error_code",
             "media_platform.service.live_service.stream_error_info",
+            "media_platform.service.live_service.stream_list_order",
+            "media_platform.service.live_service.stream_list_order_direction",
             "media_platform.service.live_service.stream_playback",
             "media_platform.service.live_service.stream_protocol",
             "media_platform.service.live_service.stream_publisher_endpoint",
@@ -76233,7 +77107,7 @@
             "media_platform.service.visual_search_service.model",
             "media_platform.service.visual_search_service.visual_search_service"
         ],
-        "version": "1.49.0"
+        "version": "1.54.0"
     },
     "wix-media-test-framework": {
         "cmdline": [],
@@ -83667,7 +84541,7 @@
             "wizardwebssh.utils",
             "wizardwebssh.worker"
         ],
-        "version": "1.6.9"
+        "version": "1.7.2"
     },
     "wizarniak-distributions": {
         "cmdline": [],
@@ -83694,7 +84568,7 @@
             "wizcon",
             "wizcon.wizcon"
         ],
-        "version": "0.1.1"
+        "version": "0.2.1"
     },
     "wizdict": {
         "cmdline": [],
@@ -83724,11 +84598,11 @@
     "wiznote": {
         "cmdline": [],
         "modules": [
-            "wiz",
-            "wiz.core",
-            "wiz.error"
+            "wiznote",
+            "wiznote.core",
+            "wiznote.error"
         ],
-        "version": "1.1.3"
+        "version": "2.0.0"
     },
     "wiznote-cli": {
         "cmdline": [],
@@ -83851,7 +84725,7 @@
             "wizwalker.mouse_handler",
             "wizwalker.utils"
         ],
-        "version": "1.3.2"
+        "version": "1.3.3"
     },
     "wizzi-utils": {
         "cmdline": [],
@@ -83877,6 +84751,14 @@
             "wizzi_utils/misc.misc_tools",
             "wizzi_utils/misc/test",
             "wizzi_utils/misc/test.test_misc_tools",
+            "wizzi_utils/models",
+            "wizzi_utils/models.labels_bank",
+            "wizzi_utils/models.models",
+            "wizzi_utils/models.models_configs",
+            "wizzi_utils/models.object_detection",
+            "wizzi_utils/models.pose_detection",
+            "wizzi_utils/models/test",
+            "wizzi_utils/models/test.test_models",
             "wizzi_utils/open_cv",
             "wizzi_utils/open_cv.open_cv_tools",
             "wizzi_utils/open_cv/test",
@@ -83900,9 +84782,13 @@
             "wizzi_utils/torch",
             "wizzi_utils/torch.torch_tools",
             "wizzi_utils/torch/test",
-            "wizzi_utils/torch/test.test_torch_tools"
+            "wizzi_utils/torch/test.test_torch_tools",
+            "wizzi_utils/tts",
+            "wizzi_utils/tts.tts",
+            "wizzi_utils/tts/test",
+            "wizzi_utils/tts/test.test_tts"
         ],
-        "version": "6.5.7"
+        "version": "6.6.14"
     },
     "wj": {
         "cmdline": [],
@@ -84176,21 +85062,21 @@
             "wkconnect.webknossos.client",
             "wkconnect.webknossos.models"
         ],
-        "version": "21.4.0"
+        "version": "21.6.0"
     },
     "wkcuber": {
         "cmdline": [],
         "modules": [
             "wkcuber",
-            "wkcuber.api.Dataset",
-            "wkcuber.api.Layer",
-            "wkcuber.api.MagDataset",
-            "wkcuber.api.Properties.DatasetProperties",
-            "wkcuber.api.Properties.LayerProperties",
-            "wkcuber.api.Properties.ResolutionProperties",
-            "wkcuber.api.TiffData.TiffMag",
-            "wkcuber.api.View",
+            "wkcuber.api",
             "wkcuber.api.bounding_box",
+            "wkcuber.api.dataset",
+            "wkcuber.api.layer",
+            "wkcuber.api.mag_view",
+            "wkcuber.api.properties.dataset_properties",
+            "wkcuber.api.properties.layer_properties",
+            "wkcuber.api.properties.resolution_properties",
+            "wkcuber.api.view",
             "wkcuber.check_equality",
             "wkcuber.compress",
             "wkcuber.compress_utils",
@@ -84215,7 +85101,7 @@
             "wkcuber.vendor.dm3",
             "wkcuber.vendor.dm4"
         ],
-        "version": "0.6.7"
+        "version": "0.7.0"
     },
     "wkdfh": {
         "cmdline": [],
@@ -84320,7 +85206,7 @@
             "workspace.git",
             "workspace.message"
         ],
-        "version": "0.0.9"
+        "version": "0.1.7"
     },
     "wkskel": {
         "cmdline": [],
@@ -84728,7 +85614,7 @@
             "wled.models",
             "wled.wled"
         ],
-        "version": "0.6.0"
+        "version": "0.7.1"
     },
     "wledpy-pctechjon": {
         "cmdline": [],
@@ -84836,7 +85722,7 @@
             "wllutils.read_df",
             "wllutils.wll_cmd"
         ],
-        "version": "0.0.5"
+        "version": "0.0.7"
     },
     "wllvm": {
         "cmdline": [],
@@ -84940,7 +85826,6 @@
             "wloc",
             "wloc.app",
             "wloc.app.run",
-            "wloc.app.settings",
             "wloc.backends",
             "wloc.backends.google",
             "wloc.backends.mozilla",
@@ -84953,7 +85838,7 @@
             "wloc.fetchers.windows.native",
             "wloc.fetchers.windows.native.structures"
         ],
-        "version": "0.6.0"
+        "version": "0.7.0"
     },
     "wlog": {
         "cmdline": [],
@@ -88506,13 +89391,14 @@
             "wmflib.dns",
             "wmflib.exceptions",
             "wmflib.fileio",
+            "wmflib.idm",
             "wmflib.interactive",
             "wmflib.irc",
             "wmflib.phabricator",
             "wmflib.prometheus",
             "wmflib.requests"
         ],
-        "version": "0.0.7"
+        "version": "0.0.8"
     },
     "wmg-tool": {
         "cmdline": [],
@@ -88816,15 +89702,17 @@
             "wn._types",
             "wn._util",
             "wn.constants",
+            "wn.ic",
             "wn.lmf",
             "wn.metrics",
             "wn.morphy",
             "wn.project",
             "wn.similarity",
+            "wn.taxonomy",
             "wn.util",
             "wn.web"
         ],
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "wncc": {
         "cmdline": [],
@@ -88884,7 +89772,7 @@
             "wNMF",
             "wNMF.wNMF"
         ],
-        "version": "0.0.4"
+        "version": "0.0.42"
     },
     "wnsresolver": {
         "cmdline": [],
@@ -88909,6 +89797,7 @@
             "wntr.graphics",
             "wntr.graphics.color",
             "wntr.graphics.curve",
+            "wntr.graphics.layer",
             "wntr.graphics.network",
             "wntr.metrics",
             "wntr.metrics.economic",
@@ -88954,7 +89843,7 @@
             "wntr.utils.ordered_set",
             "wntr.utils.polynomial_interpolation"
         ],
-        "version": "0.3.0"
+        "version": "0.3.1"
     },
     "wnutils": {
         "cmdline": [],
@@ -88967,7 +89856,7 @@
             "wnutils.multi_xml",
             "wnutils.xml"
         ],
-        "version": "2.0.1"
+        "version": "2.1.0"
     },
     "wnyc-backup": {
         "cmdline": [
@@ -90401,7 +91290,7 @@
             "wom_connector.voucher",
             "wom_connector.wom_logger"
         ],
-        "version": "0.2"
+        "version": "1.0.1"
     },
     "woma": {
         "cmdline": [],
@@ -90457,13 +91346,44 @@
     "wombat": {
         "cmdline": [],
         "modules": [
+            "library",
+            "library.dinwoodie",
+            "library.dinwoodie.config",
+            "library.dinwoodie.outputs",
+            "library.dinwoodie.outputs.logs",
+            "library.dinwoodie.repair",
+            "library.dinwoodie.repair.transport",
+            "library.dinwoodie.weather",
+            "library.dinwoodie.windfarm",
+            "library.iea26",
+            "library.iea26.config",
+            "library.iea26.outputs",
+            "library.iea26.outputs.logs",
+            "library.iea26.repair",
+            "library.iea26.repair.transport",
+            "library.iea26.weather",
+            "library.iea26.windfarm",
             "wombat",
             "wombat.core",
+            "wombat.core.data_classes",
+            "wombat.core.environment",
+            "wombat.core.library",
+            "wombat.core.post_processor",
+            "wombat.core.repair_management",
+            "wombat.core.service_equipment",
+            "wombat.core.simulation_api",
+            "wombat.port",
             "wombat.utilities",
+            "wombat.utilities.exceptions",
+            "wombat.utilities.utilities",
             "wombat.windfarm",
-            "wombat.windfarm.system"
+            "wombat.windfarm.system",
+            "wombat.windfarm.system.cable",
+            "wombat.windfarm.system.subassembly",
+            "wombat.windfarm.system.system",
+            "wombat.windfarm.windfarm"
         ],
-        "version": "0.3.0"
+        "version": "0.3.4"
     },
     "wombat-ai": {
         "cmdline": [],
@@ -90951,7 +91871,7 @@
             "wonterfact.root",
             "wonterfact.utils"
         ],
-        "version": "2.2.1"
+        "version": "3.0.0"
     },
     "wonton": {
         "cmdline": [],
@@ -91486,7 +92406,7 @@
             "woodwork.utils",
             "woodwork.version"
         ],
-        "version": "0.4.1"
+        "version": "0.5.0"
     },
     "woody": {
         "cmdline": [],
@@ -91720,6 +92640,17 @@
             "woolf.woolfClassifier"
         ],
         "version": "0.1.1"
+    },
+    "woollylib": {
+        "cmdline": [],
+        "modules": [
+            "woollylib",
+            "woollylib.dataset",
+            "woollylib.main",
+            "woollylib.scheduler",
+            "woollylib.training"
+        ],
+        "version": "0.0.4"
     },
     "wools": {
         "cmdline": [],
@@ -92462,7 +93393,7 @@
             "whatsopt.whatsopt_client",
             "whatsopt.wop"
         ],
-        "version": "1.13.1"
+        "version": "1.16.0"
     },
     "wopeditor": {
         "cmdline": [],
@@ -92613,12 +93544,10 @@
             "WORC.classification",
             "WORC.classification.AdvancedSampler",
             "WORC.classification.ObjectSampler",
-            "WORC.classification.RankedSVM",
             "WORC.classification.SearchCV",
             "WORC.classification.construct_classifier",
             "WORC.classification.createfixedsplits",
             "WORC.classification.crossval",
-            "WORC.classification.estimators",
             "WORC.classification.fitandscore",
             "WORC.classification.metrics",
             "WORC.classification.parameter_optimization",
@@ -92667,7 +93596,6 @@
             "WORC.plotting.plot_pvalues_features",
             "WORC.plotting.plot_ranked_scores",
             "WORC.plotting.plotminmaxresponse",
-            "WORC.plotting.scatterplot",
             "WORC.processing",
             "WORC.processing.ExtractNLargestBlobsn",
             "WORC.processing.classes",
@@ -92684,8 +93612,8 @@
             "WORC.statistics",
             "WORC.statistics.delong",
             "WORC.tests",
-            "WORC.tests.WORCTutorialSimple_travis_multiclass",
-            "WORC.tests.WORCTutorialSimple_travis_regression",
+            "WORC.tests.WORCTutorialSimple_unittest_multiclass",
+            "WORC.tests.WORCTutorialSimple_unittest_regression",
             "WORC.tests.test_combat",
             "WORC.tests.test_helpers",
             "WORC.tests.test_iccthreshold",
@@ -92701,7 +93629,7 @@
             "WORC.validators",
             "WORC.validators.preflightcheck"
         ],
-        "version": "3.4.3"
+        "version": "3.4.5"
     },
     "worch": {
         "cmdline": [],
@@ -92872,7 +93800,7 @@
             "word_gen",
             "word_gen.word_gen"
         ],
-        "version": "1.1"
+        "version": "1.2"
     },
     "word-identifiers": {
         "cmdline": [],
@@ -93182,7 +94110,7 @@
             "word2Tex.doi2bib",
             "word2Tex.fixBibTex"
         ],
-        "version": "0.0.16"
+        "version": "0.0.17"
     },
     "word2vec": {
         "cmdline": [],
@@ -93378,7 +94306,7 @@
             "wordbatch.transformers.text_normalizer",
             "wordbatch.transformers.tokenizer"
         ],
-        "version": "1.4.7"
+        "version": "1.4.8"
     },
     "wordbook": {
         "cmdline": [],
@@ -93484,7 +94412,7 @@
         "modules": [
             "wordcloud_lite.wcl"
         ],
-        "version": "1.2"
+        "version": "1.3"
     },
     "wordcookies": {
         "cmdline": [],
@@ -93849,7 +94777,7 @@
             "wordhoard.utilities.word_verification",
             "wordhoard.utilities.wordhoard_logger"
         ],
-        "version": "1.4.5"
+        "version": "1.4.6"
     },
     "wordhop": {
         "cmdline": [],
@@ -94063,12 +94991,11 @@
             "wordmarker.templates.pdbc_template",
             "wordmarker.templates.word_template",
             "wordmarker.utils",
-            "wordmarker.utils.csv",
             "wordmarker.utils.file",
             "wordmarker.utils.logger",
             "wordmarker.utils.yaml"
         ],
-        "version": "0.0.4"
+        "version": "0.0.7"
     },
     "wordmatrix": {
         "cmdline": [],
@@ -95077,7 +96004,7 @@
             "worf.views.detail",
             "worf.views.list"
         ],
-        "version": "0.2.6"
+        "version": "0.2.7"
     },
     "worin": {
         "cmdline": [],
@@ -95197,7 +96124,7 @@
     "workalendar": {
         "cmdline": [],
         "modules": [],
-        "version": "15.3.0"
+        "version": "15.3.1"
     },
     "workaround": {
         "cmdline": [],
@@ -96366,15 +97293,17 @@
             "workflow_nodes.system.matlab",
             "workflow_nodes.system.mkdir",
             "workflow_nodes.system.paste",
+            "workflow_nodes.system.scp",
             "workflow_nodes.system.sed",
             "workflow_nodes.system.sort",
+            "workflow_nodes.system.ssh",
             "workflow_nodes.version",
             "workflow_nodes.wsl",
             "workflow_nodes.wsl.labview_cli",
             "workflow_nodes.wsl.main",
             "workflow_nodes.wsl.win_shell_run"
         ],
-        "version": "0.6.0"
+        "version": "0.7.0"
     },
     "workflow-py": {
         "cmdline": [
@@ -96491,7 +97420,7 @@
     "workflows": {
         "cmdline": [],
         "modules": [],
-        "version": "2.9"
+        "version": "2.10"
     },
     "workflowwebtools": {
         "cmdline": [
@@ -96528,6 +97457,55 @@
             "workflowwebtools.workflowtools"
         ],
         "version": "0.19.1"
+    },
+    "workflux": {
+        "cmdline": [],
+        "modules": [
+            "tests.fixtures",
+            "tests.fixtures.flask_client",
+            "workflux",
+            "workflux.api",
+            "workflux.config",
+            "workflux.database",
+            "workflux.database.connector",
+            "workflux.database.sqlalchemy",
+            "workflux.database.sqlalchemy.job_manager",
+            "workflux.database.sqlalchemy.models",
+            "workflux.database.sqlalchemy.user_manager",
+            "workflux.exec",
+            "workflux.exec.default_exec_profiles",
+            "workflux.exec.exec",
+            "workflux.exec.session",
+            "workflux.exec.workflux_bg_exec",
+            "workflux.log",
+            "workflux.trs_import",
+            "workflux.users",
+            "workflux.users.manage",
+            "workflux.utils",
+            "workflux.web_app",
+            "workflux.web_app.browse",
+            "workflux.web_app.create_job",
+            "workflux.web_app.import_wf",
+            "workflux.web_app.job_exec",
+            "workflux.web_app.main",
+            "workflux.web_app.users",
+            "workflux.wf_input",
+            "workflux.wf_input.fill_in_defaults",
+            "workflux.wf_input.make_runs",
+            "workflux.wf_input.manipulate",
+            "workflux.wf_input.match_types",
+            "workflux.wf_input.read_cwl",
+            "workflux.wf_input.read_field",
+            "workflux.wf_input.read_janis",
+            "workflux.wf_input.read_wdl",
+            "workflux.wf_input.read_wf",
+            "workflux.wf_input.read_xls",
+            "workflux.wf_input.split_by_run",
+            "workflux.wf_input.validate",
+            "workflux.wf_input.web_interface",
+            "workflux.wf_input.write_xls"
+        ],
+        "version": "0.5.0"
     },
     "workforce": {
         "cmdline": [],
@@ -96970,7 +97948,7 @@
             "workoutizer.urls",
             "workoutizer.wsgi"
         ],
-        "version": "0.19.0"
+        "version": "0.21.0"
     },
     "workouttimer": {
         "cmdline": [],
@@ -97443,6 +98421,15 @@
         ],
         "version": "1.9.2"
     },
+    "workwithpdf": {
+        "cmdline": [],
+        "modules": [
+            "workwithpdf",
+            "workwithpdf.pdf2image",
+            "workwithpdf.pdf2text"
+        ],
+        "version": "1.0"
+    },
     "world": {
         "cmdline": [],
         "modules": [],
@@ -97523,6 +98510,20 @@
             "world_price.utils"
         ],
         "version": "0.0.4"
+    },
+    "world-rowing": {
+        "cmdline": [],
+        "modules": [
+            "world_rowing",
+            "world_rowing.api",
+            "world_rowing.cli",
+            "world_rowing.dashboard",
+            "world_rowing.livetracker",
+            "world_rowing.predict",
+            "world_rowing.races",
+            "world_rowing.utils"
+        ],
+        "version": "0.1.13"
     },
     "world-serpent": {
         "cmdline": [],
@@ -97710,6 +98711,21 @@
         ],
         "version": "0.1.1"
     },
+    "worlddata": {
+        "cmdline": [],
+        "modules": [
+            "worlddata",
+            "worlddata.APIExceptions",
+            "worlddata.APIExceptions.WorldDataExceptions",
+            "worlddata.APISections",
+            "worlddata.APISections.advance_search",
+            "worlddata.APISections.base",
+            "worlddata.APISections.search",
+            "worlddata.APISections.time_series",
+            "worlddata.worlddata"
+        ],
+        "version": "0.0.3"
+    },
     "worldengine": {
         "cmdline": [],
         "modules": [
@@ -97879,20 +98895,17 @@
         ],
         "version": "2"
     },
+    "worldsamplemodule": {
+        "cmdline": [],
+        "modules": [
+            "worldsamplemodule"
+        ],
+        "version": "0.0.1"
+    },
     "worldshifter": {
         "cmdline": [],
         "modules": [],
         "version": ""
-    },
-    "worldtime-py": {
-        "cmdline": [],
-        "modules": [
-            "worldtime-py",
-            "worldtime-py.CONSTANTS",
-            "worldtime-py.timeinfo",
-            "worldtime-py.worldtime"
-        ],
-        "version": "1.0.2"
     },
     "worldtimepy": {
         "cmdline": [],
@@ -98153,7 +99166,7 @@
             "worstcase",
             "worstcase.worstcase"
         ],
-        "version": "0.3.0"
+        "version": "0.3.1"
     },
     "worstengine-py": {
         "cmdline": [],
@@ -99174,7 +100187,7 @@
             "wp_dso_publish.safe_helper",
             "wp_dso_publish.saved-settings"
         ],
-        "version": "0.27"
+        "version": "0.30"
     },
     "wp-dt": {
         "cmdline": [],
@@ -99322,7 +100335,7 @@
             "wpass"
         ],
         "modules": [],
-        "version": "0.1"
+        "version": "0.2"
     },
     "wpasupplicantconf": {
         "cmdline": [],
@@ -99686,9 +100699,12 @@
             "wpdatautil.pathlib",
             "wpdatautil.s3path",
             "wpdatautil.s3path.boto3",
+            "wpdatautil.str",
+            "wpdatautil.str.sql",
+            "wpdatautil.str.sql.presto",
             "wpdatautil.timeit"
         ],
-        "version": "0.7.5"
+        "version": "0.8.1"
     },
     "wpdb2dict": {
         "cmdline": [],
@@ -99870,7 +100886,6 @@
             "wpiformat.stdlib",
             "wpiformat.task",
             "wpiformat.test",
-            "wpiformat.test.tasktest",
             "wpiformat.test.test_bracecomment",
             "wpiformat.test.test_cidentlist",
             "wpiformat.test.test_config",
@@ -99881,6 +100896,7 @@
             "wpiformat.test.test_jni",
             "wpiformat.test.test_licenseupdate",
             "wpiformat.test.test_stdlib",
+            "wpiformat.test.test_tasktest",
             "wpiformat.test.test_usingdeclaration",
             "wpiformat.test.test_usingnamespacestd",
             "wpiformat.test.test_whitespace",
@@ -99889,7 +100905,7 @@
             "wpiformat.version",
             "wpiformat.whitespace"
         ],
-        "version": "2021.35"
+        "version": "2021.41"
     },
     "wpilib": {
         "cmdline": [],
@@ -101328,7 +102344,7 @@
             "wpwatcher.utils",
             "wpwatcher.wpscan"
         ],
-        "version": "3.0.1"
+        "version": "3.0.3"
     },
     "wpx": {
         "cmdline": [],
@@ -101929,7 +102945,7 @@
             "wradlib.zonalstats",
             "wradlib.zr"
         ],
-        "version": "1.10.0"
+        "version": "1.10.3"
     },
     "wrallen": {
         "cmdline": [],
@@ -102336,6 +103352,22 @@
             "wraplot.plotter_definitions"
         ],
         "version": "0.1.1"
+    },
+    "wrapmail": {
+        "cmdline": [],
+        "modules": [
+            "wrapmail",
+            "wrapmail.abstract_mail",
+            "wrapmail.abstract_sender",
+            "wrapmail.gmail",
+            "wrapmail.gmail.Gmail_Sender",
+            "wrapmail.gmail.Google",
+            "wrapmail.gmail.email",
+            "wrapmail.smtp",
+            "wrapmail.smtp.Smtp_Sender",
+            "wrapmail.smtp.mail"
+        ],
+        "version": "0.0.1"
     },
     "wrapml": {
         "cmdline": [],
@@ -102980,7 +104012,7 @@
             "wrestling.sequence",
             "wrestling.wrestlers"
         ],
-        "version": "0.4.1"
+        "version": "0.4.6"
     },
     "wrestlr": {
         "cmdline": [],
@@ -103269,6 +104301,7 @@
             "WrightTools.data._colors",
             "WrightTools.data._constant",
             "WrightTools.data._data",
+            "WrightTools.data._databroker",
             "WrightTools.data._jasco",
             "WrightTools.data._join",
             "WrightTools.data._kent",
@@ -103299,7 +104332,7 @@
             "WrightTools.kit._utilities",
             "WrightTools.units"
         ],
-        "version": "3.3.3"
+        "version": "3.4.0"
     },
     "wrimg": {
         "cmdline": [],
@@ -103575,7 +104608,7 @@
             "writer_cm",
             "writer_cm.writer_cm"
         ],
-        "version": "1.0.12"
+        "version": "1.0.13"
     },
     "writerblocks": {
         "cmdline": [],
@@ -104115,6 +105148,27 @@
         ],
         "version": "0.1"
     },
+    "ws-common": {
+        "cmdline": [],
+        "modules": [
+            "wellsecurity",
+            "wellsecurity.preprocessing",
+            "wellsecurity.preprocessing.cv2",
+            "wellsecurity.preprocessing.cv2.cv2play",
+            "wellsecurity.preprocessing.cv2.videoformattransfer",
+            "wellsecurity.preprocessing.cv2.videotransfer2",
+            "wellsecurity.preprocessing.dataprocessing",
+            "wellsecurity.preprocessing.dataprocessing.get_voc_class",
+            "wellsecurity.preprocessing.dataprocessing.split_training_testing_validation",
+            "wellsecurity.preprocessing.dataprocessing.voc2yolo",
+            "wellsecurity.preprocessing.testing",
+            "wellsecurity.preprocessing.testing.asynchronized",
+            "wellsecurity.preprocessing.testing.testing2106051115",
+            "wellsecurity.preprocessing.testing.testing_log",
+            "wellsecurity.preprocessing.wellsucutiry_dto"
+        ],
+        "version": "1.0.1"
+    },
     "ws-ddns": {
         "cmdline": [],
         "modules": [
@@ -104289,7 +105343,7 @@
             "ws_sdk.ws_errors",
             "ws_sdk.ws_utilities"
         ],
-        "version": "0.3.2"
+        "version": "0.4"
     },
     "ws-sheets": {
         "cmdline": [],
@@ -105464,7 +106518,7 @@
     "wsgidav": {
         "cmdline": [],
         "modules": [],
-        "version": "3.1.0"
+        "version": "3.1.1"
     },
     "wsgidelegator": {
         "cmdline": [],
@@ -105754,7 +106808,7 @@
         "modules": [
             "wsgirpc"
         ],
-        "version": "0.0.1"
+        "version": "1.0.0"
     },
     "wsgisampleiisapp": {
         "cmdline": [],
@@ -106176,7 +107230,7 @@
             "WSI_handling.annotation_handlers",
             "WSI_handling.wsi"
         ],
-        "version": "0.16.1"
+        "version": "0.16.2"
     },
     "wsimple": {
         "cmdline": [],
@@ -106642,7 +107696,7 @@
             "wslm.windows_command",
             "wslm.wslm"
         ],
-        "version": "0.2.0"
+        "version": "1.0.1"
     },
     "wslogtail": {
         "cmdline": [],
@@ -107173,7 +108227,7 @@
             "wsp_tools.pyplotwrapper",
             "wsp_tools.sitie"
         ],
-        "version": "1.3.3"
+        "version": "1.3.6"
     },
     "wspaceping": {
         "cmdline": [],
@@ -107679,9 +108733,10 @@
         "cmdline": [],
         "modules": [
             "wstring",
+            "wstring.Exceptions",
             "wstring.wstring"
         ],
-        "version": "2.0"
+        "version": "1.0.2"
     },
     "wstund": {
         "cmdline": [],
@@ -108960,11 +110015,12 @@
             "wtlike.loglike",
             "wtlike.main",
             "wtlike.poisson",
+            "wtlike.select_data",
             "wtlike.simulation",
             "wtlike.source_data",
             "wtlike.weights"
         ],
-        "version": "0.2.2"
+        "version": "0.2.3"
     },
     "wtm": {
         "cmdline": [
@@ -109015,7 +110071,40 @@
             "wtools.wcc",
             "wtools.wmake"
         ],
-        "version": "1.0.10"
+        "version": "1.0.11"
+    },
+    "wtoolzargs": {
+        "cmdline": [],
+        "modules": [
+            "wtoolzargs",
+            "wtoolzargs.common",
+            "wtoolzargs.common.astprinter",
+            "wtoolzargs.common.exceptions",
+            "wtoolzargs.common.expressions",
+            "wtoolzargs.common.token_",
+            "wtoolzargs.common.utils",
+            "wtoolzargs.filtering",
+            "wtoolzargs.filtering.interpreter",
+            "wtoolzargs.filtering.parser",
+            "wtoolzargs.filtering.scanner",
+            "wtoolzargs.filtering.tokentype",
+            "wtoolzargs.ordering",
+            "wtoolzargs.ordering.interpreter",
+            "wtoolzargs.ordering.parser",
+            "wtoolzargs.ordering.scanner",
+            "wtoolzargs.ordering.tokentype",
+            "wtoolzargs.version"
+        ],
+        "version": "0.1.0"
+    },
+    "wtoolzexceptions": {
+        "cmdline": [],
+        "modules": [
+            "wtoolzexceptions",
+            "wtoolzexceptions.exceptions",
+            "wtoolzexceptions.version"
+        ],
+        "version": "0.1.0"
     },
     "wtop": {
         "cmdline": [],
@@ -109061,6 +110150,13 @@
         "cmdline": [],
         "modules": [],
         "version": ""
+    },
+    "wtprogress": {
+        "cmdline": [],
+        "modules": [
+            "wtprogress"
+        ],
+        "version": "0.0.1"
     },
     "wtpy": {
         "cmdline": [],
@@ -109447,7 +110543,7 @@
             "wud.linebot",
             "wud.scrap"
         ],
-        "version": "0.1.13"
+        "version": "0.1.14"
     },
     "wudaodict": {
         "cmdline": [],
@@ -109795,6 +110891,35 @@
             "wumpus"
         ],
         "version": "0.0.1"
+    },
+    "wumpus-py": {
+        "cmdline": [],
+        "modules": [
+            "wumpus",
+            "wumpus.core",
+            "wumpus.core.client",
+            "wumpus.core.connection",
+            "wumpus.core.enums",
+            "wumpus.core.events",
+            "wumpus.core.gateway",
+            "wumpus.core.http",
+            "wumpus.core.manager",
+            "wumpus.errors",
+            "wumpus.models",
+            "wumpus.models.asset",
+            "wumpus.models.color",
+            "wumpus.models.embed",
+            "wumpus.models.emoji",
+            "wumpus.models.guild",
+            "wumpus.models.messageable",
+            "wumpus.models.objects",
+            "wumpus.models.user",
+            "wumpus.typings",
+            "wumpus.typings.core",
+            "wumpus.typings.payloads",
+            "wumpus.utils"
+        ],
+        "version": "0.0.0"
     },
     "wundercell": {
         "cmdline": [],
@@ -110460,6 +111585,21 @@
         ],
         "version": "0.2.0"
     },
+    "wwe-champions-hack-full-free-cash": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "wwe-immortals-hack-full-free-credits": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "wwe-supercard-hack-full-free-credits": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "wwexercise": {
         "cmdline": [],
         "modules": [
@@ -110648,6 +111788,7 @@
             "wwpdb.io.graphics",
             "wwpdb.io.graphics.GraphicsContext3D",
             "wwpdb.io.locator",
+            "wwpdb.io.locator.ChemRefPathInfo",
             "wwpdb.io.locator.DataReference",
             "wwpdb.io.locator.PathInfo",
             "wwpdb.io.locator.ReleaseFileNames",
@@ -110659,7 +111800,7 @@
             "wwpdb.io.sftp.ArchiveIoBase",
             "wwpdb.io.sftp.ArchiveIoSftp"
         ],
-        "version": "0.16"
+        "version": "0.17.1"
     },
     "wwpdb-utils-align": {
         "cmdline": [],
@@ -110670,7 +111811,7 @@
             "wwpdb.utils.align.SequenceExamples",
             "wwpdb.utils.align.SequenceReferenceData"
         ],
-        "version": "0.11"
+        "version": "0.11.1"
     },
     "wwpdb-utils-cc-dict-util": {
         "cmdline": [],
@@ -110687,7 +111828,7 @@
             "wwpdb.utils.cc_dict_util.timeout",
             "wwpdb.utils.cc_dict_util.timeout.TimeoutMultiProc"
         ],
-        "version": "0.4"
+        "version": "0.4.1"
     },
     "wwpdb-utils-config": {
         "cmdline": [],
@@ -110707,7 +111848,7 @@
             "wwpdb.utils.config.ConfigInfoSiteAccess",
             "wwpdb.utils.config.ProjectVersionInfo"
         ],
-        "version": "0.24"
+        "version": "0.26"
     },
     "wwpdb-utils-db": {
         "cmdline": [],
@@ -110740,7 +111881,7 @@
             "wwpdb.utils.db.StatusLoadWrapper",
             "wwpdb.utils.db.WorkflowSchemaDef"
         ],
-        "version": "0.21"
+        "version": "0.22"
     },
     "wwpdb-utils-detach": {
         "cmdline": [],
@@ -110752,7 +111893,7 @@
             "wwpdb.utils.detach.DetachedProcessBase",
             "wwpdb.utils.detach.SubProcessUtil"
         ],
-        "version": "0.4"
+        "version": "0.4.1"
     },
     "wwpdb-utils-dp": {
         "cmdline": [],
@@ -110774,7 +111915,7 @@
             "wwpdb.utils.dp.electron_density.em_density_map",
             "wwpdb.utils.dp.electron_density.x_ray_density_map"
         ],
-        "version": "0.31.1"
+        "version": "0.32.1"
     },
     "wwpdb-utils-emdb": {
         "cmdline": [],
@@ -110791,7 +111932,7 @@
             "wwpdb.utils.emdb.cif_emdb_translator.simple_test",
             "wwpdb.utils.emdb.cif_emdb_translator.test_cif_to_xml_translator"
         ],
-        "version": "0.17"
+        "version": "0.19"
     },
     "wwpdb-utils-markdown-wrapper": {
         "cmdline": [],
@@ -110801,7 +111942,7 @@
             "wwpdb.utils.markdown_wrapper",
             "wwpdb.utils.markdown_wrapper.render_markdown"
         ],
-        "version": "0.3"
+        "version": "0.3.1"
     },
     "wwpdb-utils-message-queue": {
         "cmdline": [],
@@ -110839,7 +111980,7 @@
             "wwpdb.utils.oe_util.search.OeMCSS",
             "wwpdb.utils.oe_util.search.OeShapeSearch"
         ],
-        "version": "0.6"
+        "version": "0.6.1"
     },
     "wwpdb-utils-seqdb-v2": {
         "cmdline": [],
@@ -110861,7 +112002,7 @@
             "wwpdb.utils.seqdb_v2.UnpBlastService",
             "wwpdb.utils.seqdb_v2.mmCIFUtil"
         ],
-        "version": "0.9"
+        "version": "0.10.1"
     },
     "wwpdb-utils-session": {
         "cmdline": [],
@@ -110890,7 +112031,7 @@
             "wwpdb.utils.testing.Features",
             "wwpdb.utils.testing.SiteConfigSetup"
         ],
-        "version": "0.16"
+        "version": "0.17"
     },
     "wwpdb-utils-wf": {
         "cmdline": [],
@@ -110936,7 +112077,7 @@
             "wwpdb.utils.wf.schema",
             "wwpdb.utils.wf.schema.WfSchemaMap"
         ],
-        "version": "0.24"
+        "version": "0.25.1"
     },
     "wwpdb-utils-ws-utils": {
         "cmdline": [],
@@ -110957,7 +112098,7 @@
             "wwpdb.utils.ws_utils.ServiceWorkerBase",
             "wwpdb.utils.ws_utils.TokenUtils"
         ],
-        "version": "0.4.1"
+        "version": "0.4.2"
     },
     "wwpolytechnique-distributions": {
         "cmdline": [],
@@ -111000,7 +112141,7 @@
             "wwsclient.service",
             "wwsclient.util"
         ],
-        "version": "0.0.0.8"
+        "version": "0.0.1.2"
     },
     "wwscraper": {
         "cmdline": [],
@@ -111033,7 +112174,7 @@
             "wwt_data_formats.tests.test_wtml_transfer",
             "wwt_data_formats.tests.test_wtml_tree"
         ],
-        "version": "0.9.1"
+        "version": "0.9.2"
     },
     "wwu": {
         "cmdline": [],
@@ -111064,10 +112205,15 @@
             "wwvb.dut1table",
             "wwvb.gen",
             "wwvb.iersdata",
+            "wwvb.testdaylight",
+            "wwvb.testls",
+            "wwvb.testpm",
+            "wwvb.testuwwvb",
+            "wwvb.testwwvb",
             "wwvb.tzinfo_us",
             "wwvb.wwvbtk"
         ],
-        "version": "0.0.2"
+        "version": "0.0.3"
     },
     "www": {
         "cmdline": [],
@@ -112107,7 +113253,7 @@
     "wxc": {
         "cmdline": [],
         "modules": [],
-        "version": "6.2.2"
+        "version": "6.2.7"
     },
     "wxcast": {
         "cmdline": [],
@@ -112140,13 +113286,11 @@
     "wxconfig": {
         "cmdline": [],
         "modules": [
-            "test",
-            "test.test_config",
             "wxconfig",
             "wxconfig.config",
             "wxconfig.wxconfiggui"
         ],
-        "version": "1.2"
+        "version": "1.5"
     },
     "wxconv": {
         "cmdline": [],
@@ -112237,15 +113381,15 @@
         "modules": [
             "wxgl",
             "wxgl.axes",
-            "wxgl.colormap",
-            "wxgl.fontmanager",
+            "wxgl.cm",
+            "wxgl.figure",
+            "wxgl.fm",
             "wxgl.region",
             "wxgl.scene",
             "wxgl.util",
-            "wxgl.wxfigure",
             "wxgl.wxplot"
         ],
-        "version": "0.6.4"
+        "version": "0.7.2"
     },
     "wxgnester": {
         "cmdline": [],
@@ -112990,6 +114134,584 @@
         "modules": [],
         "version": ""
     },
+    "wxpython-zombie": {
+        "cmdline": [],
+        "modules": [
+            "wx",
+            "wx.__version__",
+            "wx.adv",
+            "wx.aui",
+            "wx.core",
+            "wx.dataview",
+            "wx.demo",
+            "wx.demo.AUI_DockingWindowMgr",
+            "wx.demo.AUI_MDI",
+            "wx.demo.AUI_Notebook",
+            "wx.demo.About",
+            "wx.demo.AboutBox",
+            "wx.demo.ActiveXWrapper_Acrobat",
+            "wx.demo.ActiveXWrapper_IE",
+            "wx.demo.ActiveX_FlashWindow",
+            "wx.demo.ActiveX_IEHtmlWindow",
+            "wx.demo.ActiveX_PDFWindow",
+            "wx.demo.ActivityIndicator",
+            "wx.demo.AddPrivateFont",
+            "wx.demo.AdjustChannels",
+            "wx.demo.AlphaDrawing",
+            "wx.demo.AnalogClock",
+            "wx.demo.AnimationCtrl",
+            "wx.demo.ArtProvider",
+            "wx.demo.BannerWindow",
+            "wx.demo.BitmapButton",
+            "wx.demo.BitmapComboBox",
+            "wx.demo.BitmapFromBuffer",
+            "wx.demo.Button",
+            "wx.demo.Cairo",
+            "wx.demo.Cairo_Snippets",
+            "wx.demo.Calendar",
+            "wx.demo.CalendarCtrl",
+            "wx.demo.CheckBox",
+            "wx.demo.CheckListBox",
+            "wx.demo.CheckListCtrl",
+            "wx.demo.Choice",
+            "wx.demo.Choicebook",
+            "wx.demo.CollapsibleHeaderCtrl",
+            "wx.demo.CollapsiblePane",
+            "wx.demo.ColorPanel",
+            "wx.demo.ColourDB",
+            "wx.demo.ColourDialog",
+            "wx.demo.ColourSelect",
+            "wx.demo.ComboBox",
+            "wx.demo.ComboCtrl",
+            "wx.demo.ComboTreeBox",
+            "wx.demo.CommandLinkButton",
+            "wx.demo.ContextHelp",
+            "wx.demo.Cursor",
+            "wx.demo.CustomDragAndDrop",
+            "wx.demo.DVC_CustomRenderer",
+            "wx.demo.DVC_DataViewModel",
+            "wx.demo.DVC_IndexListModel",
+            "wx.demo.DVC_ListCtrl",
+            "wx.demo.DVC_TreeCtrl",
+            "wx.demo.DatePickerCtrl",
+            "wx.demo.DelayedResult",
+            "wx.demo.Dialog",
+            "wx.demo.DialogUnits",
+            "wx.demo.DirDialog",
+            "wx.demo.DragAndDrop",
+            "wx.demo.DragImage",
+            "wx.demo.DragScroller",
+            "wx.demo.DrawXXXList",
+            "wx.demo.DynamicSashWindow",
+            "wx.demo.EditableListBox",
+            "wx.demo.Editor",
+            "wx.demo.EventManager",
+            "wx.demo.ExpandoTextCtrl",
+            "wx.demo.FancyText",
+            "wx.demo.FileBrowseButton",
+            "wx.demo.FileCtrl",
+            "wx.demo.FileDialog",
+            "wx.demo.FileHistory",
+            "wx.demo.FindReplaceDialog",
+            "wx.demo.FloatCanvas",
+            "wx.demo.FontDialog",
+            "wx.demo.FontEnumerator",
+            "wx.demo.Frame",
+            "wx.demo.GLCanvas",
+            "wx.demo.Gauge",
+            "wx.demo.GenericButtons",
+            "wx.demo.GenericCheckBox",
+            "wx.demo.GenericDirCtrl",
+            "wx.demo.GetMouseState",
+            "wx.demo.GraphicsContext",
+            "wx.demo.GraphicsGradient",
+            "wx.demo.Grid",
+            "wx.demo.GridBagSizer",
+            "wx.demo.GridCustEditor",
+            "wx.demo.GridCustTable",
+            "wx.demo.GridDragAndDrop",
+            "wx.demo.GridDragable",
+            "wx.demo.GridEnterHandler",
+            "wx.demo.GridHugeTable",
+            "wx.demo.GridLabelRenderer",
+            "wx.demo.GridSimple",
+            "wx.demo.GridStdEdRend",
+            "wx.demo.Grid_MegaExample",
+            "wx.demo.HTML2_WebView",
+            "wx.demo.HtmlWindow",
+            "wx.demo.I18N",
+            "wx.demo.Image",
+            "wx.demo.ImageAlpha",
+            "wx.demo.ImageBrowser",
+            "wx.demo.ImageFromStream",
+            "wx.demo.Img2PyArtProvider",
+            "wx.demo.InfoBar",
+            "wx.demo.IntCtrl",
+            "wx.demo.ItemsPicker",
+            "wx.demo.Joystick",
+            "wx.demo.KeyEvents",
+            "wx.demo.LEDNumberCtrl",
+            "wx.demo.LayoutAnchors",
+            "wx.demo.LayoutConstraints",
+            "wx.demo.Layoutf",
+            "wx.demo.ListBox",
+            "wx.demo.ListCtrl",
+            "wx.demo.ListCtrl_edit",
+            "wx.demo.ListCtrl_virtual",
+            "wx.demo.Listbook",
+            "wx.demo.MDIDemo",
+            "wx.demo.MDISashDemo",
+            "wx.demo.MDIWindows",
+            "wx.demo.Main",
+            "wx.demo.Mask",
+            "wx.demo.MaskedEditControls",
+            "wx.demo.MaskedNumCtrl",
+            "wx.demo.MediaCtrl",
+            "wx.demo.Menu",
+            "wx.demo.MessageDialog",
+            "wx.demo.MimeTypesManager",
+            "wx.demo.MiniFrame",
+            "wx.demo.MouseGestures",
+            "wx.demo.MultiChoiceDialog",
+            "wx.demo.MultiSash",
+            "wx.demo.MultiSplitterWindow",
+            "wx.demo.MultipleChoiceDialog",
+            "wx.demo.Notebook",
+            "wx.demo.NotificationMessage",
+            "wx.demo.OGL",
+            "wx.demo.Overlay",
+            "wx.demo.OwnerDrawnComboBox",
+            "wx.demo.PDFViewer",
+            "wx.demo.PageSetupDialog",
+            "wx.demo.PenAndBrushStyles",
+            "wx.demo.Pickers",
+            "wx.demo.PlateButton",
+            "wx.demo.PopupControl",
+            "wx.demo.PopupMenu",
+            "wx.demo.PopupWindow",
+            "wx.demo.PrintDialog",
+            "wx.demo.PrintFramework",
+            "wx.demo.Process",
+            "wx.demo.ProgressDialog",
+            "wx.demo.PropertyGrid",
+            "wx.demo.PropertySheetDialog",
+            "wx.demo.PseudoDC",
+            "wx.demo.PyColourChooser",
+            "wx.demo.PyCrust",
+            "wx.demo.PyPlot",
+            "wx.demo.PyShell",
+            "wx.demo.PythonEvents",
+            "wx.demo.RadioBox",
+            "wx.demo.RadioButton",
+            "wx.demo.RawBitmapAccess",
+            "wx.demo.RearrangeDialog",
+            "wx.demo.RendererNative",
+            "wx.demo.ResizeWidget",
+            "wx.demo.RichMessageDialog",
+            "wx.demo.RichTextCtrl",
+            "wx.demo.RichToolTip",
+            "wx.demo.SVGImage_Bitmap",
+            "wx.demo.SVGImage_Render",
+            "wx.demo.SashWindow",
+            "wx.demo.ScrolledMessageDialog",
+            "wx.demo.ScrolledPanel",
+            "wx.demo.ScrolledWindow",
+            "wx.demo.SearchCtrl",
+            "wx.demo.ShapedWindow",
+            "wx.demo.Simplebook",
+            "wx.demo.SingleChoiceDialog",
+            "wx.demo.SizedControls",
+            "wx.demo.Sizers",
+            "wx.demo.Slider",
+            "wx.demo.Sound",
+            "wx.demo.SpinButton",
+            "wx.demo.SpinCtrl",
+            "wx.demo.SpinCtrlDouble",
+            "wx.demo.SplitTree",
+            "wx.demo.SplitterWindow",
+            "wx.demo.StandardPaths",
+            "wx.demo.StaticBitmap",
+            "wx.demo.StaticBox",
+            "wx.demo.StaticText",
+            "wx.demo.StatusBar",
+            "wx.demo.StockButtons",
+            "wx.demo.StyledTextCtrl_1",
+            "wx.demo.StyledTextCtrl_2",
+            "wx.demo.SystemSettings",
+            "wx.demo.TablePrint",
+            "wx.demo.TextCtrl",
+            "wx.demo.TextEntryDialog",
+            "wx.demo.Threads",
+            "wx.demo.Throbber",
+            "wx.demo.Ticker",
+            "wx.demo.TimeCtrl",
+            "wx.demo.TimePickerCtrl",
+            "wx.demo.Timer",
+            "wx.demo.ToggleButton",
+            "wx.demo.ToolBar",
+            "wx.demo.ToolTip",
+            "wx.demo.Toolbook",
+            "wx.demo.TreeCtrl",
+            "wx.demo.TreeListCtrl",
+            "wx.demo.TreeMixin",
+            "wx.demo.Treebook",
+            "wx.demo.UIActionSimulator",
+            "wx.demo.URLDragAndDrop",
+            "wx.demo.Unicode",
+            "wx.demo.VListBox",
+            "wx.demo.Validator",
+            "wx.demo.Wizard",
+            "wx.demo.WrapSizer",
+            "wx.demo.XmlResource",
+            "wx.demo.XmlResourceHandler",
+            "wx.demo.XmlResourceSubclass",
+            "wx.demo.demo",
+            "wx.demo.demodata",
+            "wx.demo.encode_bitmaps",
+            "wx.demo.images",
+            "wx.demo.infoframe",
+            "wx.demo.run",
+            "wx.demo.snippets",
+            "wx.demo.snippets.arc",
+            "wx.demo.snippets.arc_negative",
+            "wx.demo.snippets.clip",
+            "wx.demo.snippets.clip_image",
+            "wx.demo.snippets.curve_rectangle",
+            "wx.demo.snippets.curve_to",
+            "wx.demo.snippets.dash",
+            "wx.demo.snippets.ellipse",
+            "wx.demo.snippets.fill_and_stroke",
+            "wx.demo.snippets.fill_and_stroke2",
+            "wx.demo.snippets.fill_style",
+            "wx.demo.snippets.glyph_path",
+            "wx.demo.snippets.gradient",
+            "wx.demo.snippets.gradient_mask",
+            "wx.demo.snippets.group",
+            "wx.demo.snippets.image",
+            "wx.demo.snippets.imagepattern",
+            "wx.demo.snippets.path",
+            "wx.demo.snippets.set_line_cap",
+            "wx.demo.snippets.set_line_join",
+            "wx.demo.snippets.show_glyphs",
+            "wx.demo.snippets.text",
+            "wx.demo.snippets.text_align_center",
+            "wx.demo.snippets.text_extents",
+            "wx.demo.template",
+            "wx.demo.throbImages",
+            "wx.demo.version",
+            "wx.demo.widgetTest",
+            "wx.glcanvas",
+            "wx.grid",
+            "wx.html",
+            "wx.html2",
+            "wx.lib",
+            "wx.lib.CDate",
+            "wx.lib.ClickableHtmlWindow",
+            "wx.lib.activex",
+            "wx.lib.activexwrapper",
+            "wx.lib.agw",
+            "wx.lib.agw.advancedsplash",
+            "wx.lib.agw.aquabutton",
+            "wx.lib.agw.artmanager",
+            "wx.lib.agw.aui",
+            "wx.lib.agw.aui.aui_constants",
+            "wx.lib.agw.aui.aui_switcherdialog",
+            "wx.lib.agw.aui.aui_utilities",
+            "wx.lib.agw.aui.auibar",
+            "wx.lib.agw.aui.auibook",
+            "wx.lib.agw.aui.dockart",
+            "wx.lib.agw.aui.framemanager",
+            "wx.lib.agw.aui.tabart",
+            "wx.lib.agw.aui.tabmdi",
+            "wx.lib.agw.balloontip",
+            "wx.lib.agw.buttonpanel",
+            "wx.lib.agw.cubecolourdialog",
+            "wx.lib.agw.customtreectrl",
+            "wx.lib.agw.flatmenu",
+            "wx.lib.agw.flatnotebook",
+            "wx.lib.agw.floatspin",
+            "wx.lib.agw.fmcustomizedlg",
+            "wx.lib.agw.fmresources",
+            "wx.lib.agw.foldpanelbar",
+            "wx.lib.agw.fourwaysplitter",
+            "wx.lib.agw.genericmessagedialog",
+            "wx.lib.agw.gradientbutton",
+            "wx.lib.agw.hyperlink",
+            "wx.lib.agw.hypertreelist",
+            "wx.lib.agw.infobar",
+            "wx.lib.agw.knobctrl",
+            "wx.lib.agw.labelbook",
+            "wx.lib.agw.multidirdialog",
+            "wx.lib.agw.peakmeter",
+            "wx.lib.agw.persist",
+            "wx.lib.agw.persist.persist_constants",
+            "wx.lib.agw.persist.persist_handlers",
+            "wx.lib.agw.persist.persistencemanager",
+            "wx.lib.agw.piectrl",
+            "wx.lib.agw.pybusyinfo",
+            "wx.lib.agw.pycollapsiblepane",
+            "wx.lib.agw.pygauge",
+            "wx.lib.agw.pyprogress",
+            "wx.lib.agw.ribbon",
+            "wx.lib.agw.ribbon.art",
+            "wx.lib.agw.ribbon.art_aui",
+            "wx.lib.agw.ribbon.art_default",
+            "wx.lib.agw.ribbon.art_internal",
+            "wx.lib.agw.ribbon.art_msw",
+            "wx.lib.agw.ribbon.art_osx",
+            "wx.lib.agw.ribbon.bar",
+            "wx.lib.agw.ribbon.buttonbar",
+            "wx.lib.agw.ribbon.control",
+            "wx.lib.agw.ribbon.gallery",
+            "wx.lib.agw.ribbon.page",
+            "wx.lib.agw.ribbon.panel",
+            "wx.lib.agw.ribbon.toolbar",
+            "wx.lib.agw.rulerctrl",
+            "wx.lib.agw.scrolledthumbnail",
+            "wx.lib.agw.shapedbutton",
+            "wx.lib.agw.shortcuteditor",
+            "wx.lib.agw.speedmeter",
+            "wx.lib.agw.supertooltip",
+            "wx.lib.agw.thumbnailctrl",
+            "wx.lib.agw.toasterbox",
+            "wx.lib.agw.ultimatelistctrl",
+            "wx.lib.agw.xlsgrid",
+            "wx.lib.agw.zoombar",
+            "wx.lib.analogclock",
+            "wx.lib.analogclock.analogclock",
+            "wx.lib.analogclock.helpers",
+            "wx.lib.analogclock.lib_setup",
+            "wx.lib.analogclock.lib_setup.buttontreectrlpanel",
+            "wx.lib.analogclock.lib_setup.fontselect",
+            "wx.lib.analogclock.setup",
+            "wx.lib.analogclock.styles",
+            "wx.lib.anchors",
+            "wx.lib.art",
+            "wx.lib.art.flagart",
+            "wx.lib.art.img2pyartprov",
+            "wx.lib.busy",
+            "wx.lib.buttons",
+            "wx.lib.calendar",
+            "wx.lib.checkbox",
+            "wx.lib.colourchooser",
+            "wx.lib.colourchooser.canvas",
+            "wx.lib.colourchooser.intl",
+            "wx.lib.colourchooser.pycolourbox",
+            "wx.lib.colourchooser.pycolourchooser",
+            "wx.lib.colourchooser.pycolourslider",
+            "wx.lib.colourchooser.pypalette",
+            "wx.lib.colourdb",
+            "wx.lib.colourselect",
+            "wx.lib.colourutils",
+            "wx.lib.combotreebox",
+            "wx.lib.delayedresult",
+            "wx.lib.dialogs",
+            "wx.lib.docview",
+            "wx.lib.dragscroller",
+            "wx.lib.editor",
+            "wx.lib.editor.editor",
+            "wx.lib.editor.images",
+            "wx.lib.editor.selection",
+            "wx.lib.embeddedimage",
+            "wx.lib.eventStack",
+            "wx.lib.eventwatcher",
+            "wx.lib.evtmgr",
+            "wx.lib.expando",
+            "wx.lib.fancytext",
+            "wx.lib.filebrowsebutton",
+            "wx.lib.flashwin",
+            "wx.lib.flashwin_old",
+            "wx.lib.floatcanvas",
+            "wx.lib.floatcanvas.FCEvents",
+            "wx.lib.floatcanvas.FCObjects",
+            "wx.lib.floatcanvas.FloatCanvas",
+            "wx.lib.floatcanvas.GUIMode",
+            "wx.lib.floatcanvas.NavCanvas",
+            "wx.lib.floatcanvas.Resources",
+            "wx.lib.floatcanvas.ScreenShot",
+            "wx.lib.floatcanvas.Utilities",
+            "wx.lib.floatcanvas.Utilities.BBox",
+            "wx.lib.floatcanvas.Utilities.Colors",
+            "wx.lib.floatcanvas.Utilities.GUI",
+            "wx.lib.foldmenu",
+            "wx.lib.gestures",
+            "wx.lib.gizmos",
+            "wx.lib.gizmos.dynamicsash",
+            "wx.lib.gizmos.ledctrl",
+            "wx.lib.gizmos.treelistctrl",
+            "wx.lib.graphics",
+            "wx.lib.gridmovers",
+            "wx.lib.iewin",
+            "wx.lib.iewin_old",
+            "wx.lib.imagebrowser",
+            "wx.lib.imageutils",
+            "wx.lib.infoframe",
+            "wx.lib.inspection",
+            "wx.lib.intctrl",
+            "wx.lib.itemspicker",
+            "wx.lib.langlistctrl",
+            "wx.lib.layoutf",
+            "wx.lib.masked",
+            "wx.lib.masked.combobox",
+            "wx.lib.masked.ctrl",
+            "wx.lib.masked.ipaddrctrl",
+            "wx.lib.masked.maskededit",
+            "wx.lib.masked.numctrl",
+            "wx.lib.masked.textctrl",
+            "wx.lib.masked.timectrl",
+            "wx.lib.mixins",
+            "wx.lib.mixins.grid",
+            "wx.lib.mixins.gridlabelrenderer",
+            "wx.lib.mixins.imagelist",
+            "wx.lib.mixins.inspection",
+            "wx.lib.mixins.listctrl",
+            "wx.lib.mixins.rubberband",
+            "wx.lib.mixins.treemixin",
+            "wx.lib.msgpanel",
+            "wx.lib.multisash",
+            "wx.lib.newevent",
+            "wx.lib.nvdlg",
+            "wx.lib.ogl",
+            "wx.lib.ogl.basic",
+            "wx.lib.ogl.bmpshape",
+            "wx.lib.ogl.canvas",
+            "wx.lib.ogl.composit",
+            "wx.lib.ogl.diagram",
+            "wx.lib.ogl.divided",
+            "wx.lib.ogl.drawn",
+            "wx.lib.ogl.lines",
+            "wx.lib.ogl.oglmisc",
+            "wx.lib.pdfviewer",
+            "wx.lib.pdfviewer.buttonpanel",
+            "wx.lib.pdfviewer.images",
+            "wx.lib.pdfviewer.viewer",
+            "wx.lib.pdfwin",
+            "wx.lib.pdfwin_old",
+            "wx.lib.platebtn",
+            "wx.lib.plot",
+            "wx.lib.plot.examples",
+            "wx.lib.plot.examples.demo",
+            "wx.lib.plot.examples.simple_example",
+            "wx.lib.plot.plotcanvas",
+            "wx.lib.plot.polyobjects",
+            "wx.lib.plot.utils",
+            "wx.lib.popupctl",
+            "wx.lib.printout",
+            "wx.lib.progressindicator",
+            "wx.lib.pubsub",
+            "wx.lib.pubsub.core",
+            "wx.lib.pubsub.core.arg1",
+            "wx.lib.pubsub.core.arg1.listenerimpl",
+            "wx.lib.pubsub.core.arg1.publisher",
+            "wx.lib.pubsub.core.arg1.publishermixin",
+            "wx.lib.pubsub.core.arg1.topicargspecimpl",
+            "wx.lib.pubsub.core.arg1.topicmgrimpl",
+            "wx.lib.pubsub.core.callables",
+            "wx.lib.pubsub.core.imp2",
+            "wx.lib.pubsub.core.itopicdefnprovider",
+            "wx.lib.pubsub.core.kwargs",
+            "wx.lib.pubsub.core.kwargs.datamsg",
+            "wx.lib.pubsub.core.kwargs.listenerimpl",
+            "wx.lib.pubsub.core.kwargs.publisher",
+            "wx.lib.pubsub.core.kwargs.publishermixin",
+            "wx.lib.pubsub.core.kwargs.topicargspecimpl",
+            "wx.lib.pubsub.core.kwargs.topicmgrimpl",
+            "wx.lib.pubsub.core.listener",
+            "wx.lib.pubsub.core.listenerbase",
+            "wx.lib.pubsub.core.notificationmgr",
+            "wx.lib.pubsub.core.publisherbase",
+            "wx.lib.pubsub.core.topicargspec",
+            "wx.lib.pubsub.core.topicdefnprovider",
+            "wx.lib.pubsub.core.topicexc",
+            "wx.lib.pubsub.core.topicmgr",
+            "wx.lib.pubsub.core.topicobj",
+            "wx.lib.pubsub.core.topictreetraverser",
+            "wx.lib.pubsub.core.topicutils",
+            "wx.lib.pubsub.core.treeconfig",
+            "wx.lib.pubsub.core.validatedefnargs",
+            "wx.lib.pubsub.core.weakmethod",
+            "wx.lib.pubsub.policies",
+            "wx.lib.pubsub.pub",
+            "wx.lib.pubsub.py2and3",
+            "wx.lib.pubsub.setuparg1",
+            "wx.lib.pubsub.setupkwargs",
+            "wx.lib.pubsub.utils",
+            "wx.lib.pubsub.utils.exchandling",
+            "wx.lib.pubsub.utils.misc",
+            "wx.lib.pubsub.utils.notification",
+            "wx.lib.pubsub.utils.topictreeprinter",
+            "wx.lib.pubsub.utils.xmltopicdefnprovider",
+            "wx.lib.pydocview",
+            "wx.lib.rcsizer",
+            "wx.lib.resizewidget",
+            "wx.lib.scrolledpanel",
+            "wx.lib.sheet",
+            "wx.lib.sized_controls",
+            "wx.lib.softwareupdate",
+            "wx.lib.splitter",
+            "wx.lib.statbmp",
+            "wx.lib.stattext",
+            "wx.lib.throbber",
+            "wx.lib.ticker",
+            "wx.lib.ticker_xrc",
+            "wx.lib.utils",
+            "wx.lib.wordwrap",
+            "wx.lib.wxcairo",
+            "wx.lib.wxcairo.wx_cairocffi",
+            "wx.lib.wxcairo.wx_pycairo",
+            "wx.lib.wxpTag",
+            "wx.media",
+            "wx.msw",
+            "wx.propgrid",
+            "wx.py",
+            "wx.py.PyAlaCarte",
+            "wx.py.PyAlaMode",
+            "wx.py.PyAlaModeTest",
+            "wx.py.PyCrust",
+            "wx.py.PyFilling",
+            "wx.py.PyShell",
+            "wx.py.PySlices",
+            "wx.py.PySlicesShell",
+            "wx.py.PyWrap",
+            "wx.py.buffer",
+            "wx.py.crust",
+            "wx.py.crustslices",
+            "wx.py.dispatcher",
+            "wx.py.document",
+            "wx.py.editor",
+            "wx.py.editwindow",
+            "wx.py.filling",
+            "wx.py.frame",
+            "wx.py.images",
+            "wx.py.interpreter",
+            "wx.py.introspect",
+            "wx.py.magic",
+            "wx.py.parse",
+            "wx.py.path",
+            "wx.py.pseudo",
+            "wx.py.shell",
+            "wx.py.sliceshell",
+            "wx.py.version",
+            "wx.ribbon",
+            "wx.richtext",
+            "wx.stc",
+            "wx.svg",
+            "wx.tools",
+            "wx.tools.dbg",
+            "wx.tools.genaxmodule",
+            "wx.tools.helpviewer",
+            "wx.tools.img2img",
+            "wx.tools.img2png",
+            "wx.tools.img2py",
+            "wx.tools.img2xpm",
+            "wx.tools.pywxrc",
+            "wx.tools.wxget",
+            "wx.tools.wxget_docs_demo",
+            "wx.xml",
+            "wx.xrc"
+        ],
+        "version": "3.1.5.0"
+    },
     "wxr-parser": {
         "cmdline": [],
         "modules": [
@@ -113064,6 +114786,14 @@
             "wxtextview.wxtextview"
         ],
         "version": "0.3.6"
+    },
+    "wxtoolslujx": {
+        "cmdline": [],
+        "modules": [
+            "WxToolsLujx",
+            "WxToolsLujx.WxToolsLujx"
+        ],
+        "version": "0.0.8"
     },
     "wxtrio": {
         "cmdline": [],
@@ -113476,7 +115206,7 @@
             "wykop.core.requestor",
             "wykop.utils"
         ],
-        "version": "0.8.2"
+        "version": "0.9.0"
     },
     "wyl-test-lib": {
         "cmdline": [],
@@ -113607,9 +115337,10 @@
             "wynncraft.utils.constants",
             "wynncraft.utils.rate_limiter",
             "wynncraft.utils.request",
+            "wynncraft.version",
             "wynncraft.wynncraft"
         ],
-        "version": "1.0.1"
+        "version": "1.1.0"
     },
     "wypy": {
         "cmdline": [],
@@ -113783,6 +115514,33 @@
         "modules": [],
         "version": "0.0.2"
     },
+    "wystia": {
+        "cmdline": [],
+        "modules": [
+            "wystia",
+            "wystia.api_base",
+            "wystia.api_data",
+            "wystia.api_embed",
+            "wystia.api_helper",
+            "wystia.api_upload",
+            "wystia.config",
+            "wystia.constants",
+            "wystia.errors",
+            "wystia.log",
+            "wystia.models",
+            "wystia.requests_config",
+            "wystia.requests_models",
+            "wystia.utils",
+            "wystia.utils.decorators",
+            "wystia.utils.parse",
+            "wystia.utils.parse.file",
+            "wystia.utils.parse.srt",
+            "wystia.utils.parse.types",
+            "wystia.utils.response",
+            "wystia.utils.types"
+        ],
+        "version": "0.2.1"
+    },
     "wythoff-construct": {
         "cmdline": [],
         "modules": [
@@ -113905,15 +115663,24 @@
         "cmdline": [],
         "modules": [
             "wyzeapy",
-            "wyzeapy.base_client",
-            "wyzeapy.client",
             "wyzeapy.const",
             "wyzeapy.crypto",
             "wyzeapy.exceptions",
             "wyzeapy.payload_factory",
-            "wyzeapy.types"
+            "wyzeapy.services",
+            "wyzeapy.services.base_service",
+            "wyzeapy.services.bulb_service",
+            "wyzeapy.services.camera_service",
+            "wyzeapy.services.hms_service",
+            "wyzeapy.services.lock_service",
+            "wyzeapy.services.sensor_service",
+            "wyzeapy.services.switch_service",
+            "wyzeapy.services.thermostat_service",
+            "wyzeapy.types",
+            "wyzeapy.utils",
+            "wyzeapy.wyze_auth_lib"
         ],
-        "version": "0.0.30"
+        "version": "0.2.6"
     },
     "wyzecam": {
         "cmdline": [],
@@ -114069,6 +115836,6 @@
             "wzx",
             "wzx.funs"
         ],
-        "version": "0.0.4.1.3"
+        "version": "0.0.4.1.8"
     }
 }
